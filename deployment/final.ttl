@@ -7,7 +7,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix gkbi: <https://geokb.wikibase.cloud/wiki/Item:> .
+@prefix gkbi: <https://geokb.wikibase.cloud/entity/> .
 @prefix gkbp: <https://geokb.wikibase.cloud/wiki/Property:> .
 @prefix mndr: <https://minmod.isi.edu/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -571,7 +571,7 @@ mndr:Q0 a mndr:MineralSite ;
 
 mndr:Q1 a mndr:MineralInventory ;
     mndr:id "Inv001" ;
-    mndr:commodity mndr:Q5 ;
+    mndr:commodity mndr:Q589 ;
     mndr:category mndr:Measured ;
     mndr:ore mndr:Q6 ;
     mndr:grade mndr:Q7 ;
@@ -582,7 +582,7 @@ mndr:Q1 a mndr:MineralInventory ;
 
 mndr:Q112 a mndr:MineralInventory ;
     mndr:id "Inv002" ;
-    mndr:commodity mndr:Q5 ;
+    mndr:commodity mndr:Q589 ;
     mndr:category mndr:Indicated ;
     mndr:ore mndr:Q611 ;
     mndr:grade mndr:Q711 ;
@@ -593,7 +593,7 @@ mndr:Q112 a mndr:MineralInventory ;
 
 mndr:Q113 a mndr:MineralInventory ;
     mndr:id "Inv003" ;
-    mndr:commodity mndr:Q5 ;
+    mndr:commodity mndr:Q589 ;
     mndr:category mndr:Measured, mndr:Indicated ;
     mndr:ore mndr:Q622 ;
     mndr:grade mndr:Q722 ;
@@ -604,7 +604,7 @@ mndr:Q113 a mndr:MineralInventory ;
 
 mndr:Q114 a mndr:MineralInventory ;
     mndr:id "Inv004" ;
-    mndr:commodity mndr:Q5 ;
+    mndr:commodity mndr:Q589 ;
     mndr:category mndr:Inferred ;
     mndr:ore mndr:Q633 ;
     mndr:grade mndr:Q733 ;
@@ -623,11 +623,6 @@ mndr:Q2 a mndr:LocationInfo ;
 mndr:Q4 a mndr:DepositType ;
     mndr:id "0" ;
     mndr:name "Sedex Type Deposits" .
-
-
-mndr:Q5 a mndr:Commodity ;
-    mndr:id "comm0" ;
-    mndr:name "zinc" .
 
 mndr:Q200 a mndr:Unit ;
     mndr:value "tonnes".
@@ -1172,194 +1167,616 @@ mndr:Q103032 a mndr:Grade;
 	.
 mndr:Q10401 a mndr:MineralInventory;
 	mndr:category mndr:Measured;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q10101;
 	mndr:ore mndr:Q10201;
 	mndr:grade mndr:Q10301;
 	.
 mndr:Q10402 a mndr:MineralInventory;
 	mndr:category mndr:Indicated;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q10102;
 	mndr:ore mndr:Q10202;
 	mndr:grade mndr:Q10302;
 	.
 mndr:Q10404 a mndr:MineralInventory;
 	mndr:category mndr:Inferred;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q10104;
 	mndr:ore mndr:Q10204;
 	mndr:grade mndr:Q10304;
 	.
 mndr:Q10405 a mndr:MineralInventory;
 	mndr:category mndr:Measured;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q10105;
 	mndr:ore mndr:Q10205;
 	mndr:grade mndr:Q10305;
 	.
 mndr:Q10406 a mndr:MineralInventory;
 	mndr:category mndr:Indicated;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q10106;
 	mndr:ore mndr:Q10206;
 	mndr:grade mndr:Q10306;
 	.
 mndr:Q10408 a mndr:MineralInventory;
 	mndr:category mndr:Inferred;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q10108;
 	mndr:ore mndr:Q10208;
 	mndr:grade mndr:Q10308;
 	.
 mndr:Q10409 a mndr:MineralInventory;
 	mndr:category mndr:Measured;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q10109;
 	mndr:ore mndr:Q10209;
 	mndr:grade mndr:Q10309;
 	.
 mndr:Q104010 a mndr:MineralInventory;
 	mndr:category mndr:Indicated;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101010;
 	mndr:ore mndr:Q102010;
 	mndr:grade mndr:Q103010;
 	.
 mndr:Q104012 a mndr:MineralInventory;
 	mndr:category mndr:Inferred;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101012;
 	mndr:ore mndr:Q102012;
 	mndr:grade mndr:Q103012;
 	.
 mndr:Q104013 a mndr:MineralInventory;
 	mndr:category mndr:Measured;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101013;
 	mndr:ore mndr:Q102013;
 	mndr:grade mndr:Q103013;
 	.
 mndr:Q104014 a mndr:MineralInventory;
 	mndr:category mndr:Indicated;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101014;
 	mndr:ore mndr:Q102014;
 	mndr:grade mndr:Q103014;
 	.
 mndr:Q104016 a mndr:MineralInventory;
 	mndr:category mndr:Inferred;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101016;
 	mndr:ore mndr:Q102016;
 	mndr:grade mndr:Q103016;
 	.
 mndr:Q104017 a mndr:MineralInventory;
 	mndr:category mndr:Measured;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101017;
 	mndr:ore mndr:Q102017;
 	mndr:grade mndr:Q103017;
 	.
 mndr:Q104018 a mndr:MineralInventory;
 	mndr:category mndr:Indicated;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101018;
 	mndr:ore mndr:Q102018;
 	mndr:grade mndr:Q103018;
 	.
 mndr:Q104020 a mndr:MineralInventory;
 	mndr:category mndr:Inferred;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101020;
 	mndr:ore mndr:Q102020;
 	mndr:grade mndr:Q103020;
 	.
 mndr:Q104021 a mndr:MineralInventory;
 	mndr:category mndr:Measured;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101021;
 	mndr:ore mndr:Q102021;
 	mndr:grade mndr:Q103021;
 	.
 mndr:Q104022 a mndr:MineralInventory;
 	mndr:category mndr:Indicated;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101022;
 	mndr:ore mndr:Q102022;
 	mndr:grade mndr:Q103022;
 	.
 mndr:Q104024 a mndr:MineralInventory;
 	mndr:category mndr:Inferred;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101024;
 	mndr:ore mndr:Q102024;
 	mndr:grade mndr:Q103024;
 	.
 mndr:Q104025 a mndr:MineralInventory;
 	mndr:category mndr:Measured;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101025;
 	mndr:ore mndr:Q102025;
 	mndr:grade mndr:Q103025;
 	.
 mndr:Q104026 a mndr:MineralInventory;
 	mndr:category mndr:Indicated;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101026;
 	mndr:ore mndr:Q102026;
 	mndr:grade mndr:Q103026;
 	.
 mndr:Q104028 a mndr:MineralInventory;
 	mndr:category mndr:Inferred;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101028;
 	mndr:ore mndr:Q102028;
 	mndr:grade mndr:Q103028;
 	.
 mndr:Q104029 a mndr:MineralInventory;
 	mndr:category mndr:Measured;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101029;
 	mndr:ore mndr:Q102029;
 	mndr:grade mndr:Q103029;
 	.
 mndr:Q104030 a mndr:MineralInventory;
 	mndr:category mndr:Indicated;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101030;
 	mndr:ore mndr:Q102030;
 	mndr:grade mndr:Q103030;
 	.
 mndr:Q104032 a mndr:MineralInventory;
 	mndr:category mndr:Inferred;
-	mndr:commodity <https://minmod.isi.edu/resource/Q5>;
+	mndr:commodity mndr:Q589;
 	mndr:cutoff_grade mndr:Q101032;
 	mndr:ore mndr:Q102032;
 	mndr:grade mndr:Q103032;
 	.
-mndr:Q0 mndr:mineral_inventory mndr:Q10401;
-    mndr:mineral_inventory mndr:Q10402;
-    mndr:mineral_inventory mndr:Q10404;
-    mndr:mineral_inventory mndr:Q10405;
-    mndr:mineral_inventory mndr:Q10406;
-    mndr:mineral_inventory mndr:Q10408;
-    mndr:mineral_inventory mndr:Q10409;
-    mndr:mineral_inventory mndr:Q104010;
-    mndr:mineral_inventory mndr:Q104012;
-    mndr:mineral_inventory mndr:Q104013;
-    mndr:mineral_inventory mndr:Q104014;
-    mndr:mineral_inventory mndr:Q104016;
-    mndr:mineral_inventory mndr:Q104017;
-    mndr:mineral_inventory mndr:Q104018;
-    mndr:mineral_inventory mndr:Q104020;
-    mndr:mineral_inventory mndr:Q104021;
-    mndr:mineral_inventory mndr:Q104022;
-    mndr:mineral_inventory mndr:Q104024;
-    mndr:mineral_inventory mndr:Q104025;
-    mndr:mineral_inventory mndr:Q104026;
-    mndr:mineral_inventory mndr:Q104028;
-    mndr:mineral_inventory mndr:Q104029;
-    mndr:mineral_inventory mndr:Q104030;
-    mndr:mineral_inventory mndr:Q104032;
-    .
+
+mndr:Q0 mndr:mineral_inventory mndr:Q10401, mndr:Q10402, mndr:Q10404, mndr:Q10405, mndr:Q10406, mndr:Q10408, mndr:Q10409, mndr:Q104010, mndr:Q104012, mndr:Q104013, mndr:Q104014, mndr:Q104016, mndr:Q104017, mndr:Q104018, mndr:Q104020, mndr:Q104021, mndr:Q104022, mndr:Q104024, mndr:Q104025, mndr:Q104026, mndr:Q104028, mndr:Q104029, mndr:Q104030, mndr:Q104032 .
+
+mndr:Q501 a mndr:Commodity ;
+   mndr:id "comm01" ;
+   mndr:name "Abrasive"@en ;
+   owl:sameAs gkbi:Q407 .
+
+mndr:Q502 a mndr:Commodity ;
+   mndr:id "comm02" ;
+   mndr:name "Abrasive, Corundum"@en ;
+   owl:sameAs gkbi:Q408 .
+
+mndr:Q503 a mndr:Commodity ;
+   mndr:id "comm03" ;
+   mndr:name "Abrasive, Emery"@en ;
+   owl:sameAs gkbi:Q409 .
+
+mndr:Q504 a mndr:Commodity ;
+   mndr:id "comm04" ;
+   mndr:name "Abrasive, Garnet"@en ;
+   owl:sameAs gkbi:Q410 .
+
+mndr:Q505 a mndr:Commodity ;
+   mndr:id "comm05" ;
+   mndr:name "Aggregate, Light Weight"@en ;
+   owl:sameAs gkbi:Q472 .
+
+mndr:Q506 a mndr:Commodity ;
+   mndr:id "comm06" ;
+   mndr:name "Aluminum"@en ;
+   owl:sameAs gkbi:Q293 .
+
+mndr:Q507 a mndr:Commodity ;
+   mndr:id "comm07" ;
+   mndr:name "Aluminum, Contained Or Metal"@en ;
+   owl:sameAs gkbi:Q412 .
+
+mndr:Q508 a mndr:Commodity ;
+   mndr:id "comm08" ;
+   mndr:name "Aluminum, High Alumina Clay"@en ;
+   owl:sameAs gkbi:Q413 .
+
+mndr:Q509 a mndr:Commodity ;
+   mndr:id "comm09" ;
+   mndr:name "Andalusite"@en ;
+   owl:sameAs gkbi:Q414 .
+
+mndr:Q510 a mndr:Commodity ;
+   mndr:id "comm10" ;
+   mndr:name "Antimony"@en ;
+   owl:sameAs gkbi:Q295 .
+
+mndr:Q511 a mndr:Commodity ;
+   mndr:id "comm11" ;
+   mndr:name "Arsenic"@en ;
+   owl:sameAs gkbi:Q297 .
+
+mndr:Q512 a mndr:Commodity ;
+   mndr:id "comm12" ;
+   mndr:name "Asbestos"@en ;
+   owl:sameAs gkbi:Q415 .
+
+mndr:Q513 a mndr:Commodity ;
+   mndr:id "comm13" ;
+   mndr:name "Barium-Barite"@en ;
+   owl:sameAs gkbi:Q419 .
+
+mndr:Q514 a mndr:Commodity ;
+   mndr:id "comm14" ;
+   mndr:name "Bismuth"@en ;
+   owl:sameAs gkbi:Q302 .
+
+mndr:Q515 a mndr:Commodity ;
+   mndr:id "comm15" ;
+   mndr:name "Boron-Borates"@en ;
+   owl:sameAs gkbi:Q418 .
+
+mndr:Q516 a mndr:Commodity ;
+   mndr:id "comm16" ;
+   mndr:name "Cadmium"@en ;
+   owl:sameAs gkbi:Q306 .
+
+mndr:Q517 a mndr:Commodity ;
+   mndr:id "comm17" ;
+   mndr:name "Carbon Dioxide"@en ;
+   owl:sameAs gkbi:Q434 .
+
+mndr:Q518 a mndr:Commodity ;
+   mndr:id "comm18" ;
+   mndr:name "Cement Rock"@en ;
+   owl:sameAs gkbi:Q420 .
+
+mndr:Q519 a mndr:Commodity ;
+   mndr:id "comm19" ;
+   mndr:name "Chromium"@en ;
+   owl:sameAs gkbi:Q313 .
+
+mndr:Q520 a mndr:Commodity ;
+   mndr:id "comm20" ;
+   mndr:name "Chromium, Ferrochrome"@en ;
+   owl:sameAs gkbi:Q440 .
+
+mndr:Q521 a mndr:Commodity ;
+   mndr:id "comm21" ;
+   mndr:name "Clay"@en ;
+   owl:sameAs gkbi:Q421 .
+
+mndr:Q522 a mndr:Commodity ;
+   mndr:id "comm22" ;
+   mndr:name "Clay, Ball Clay"@en ;
+   owl:sameAs gkbi:Q422 .
+
+mndr:Q523 a mndr:Commodity ;
+   mndr:id "comm23" ;
+   mndr:name "Clay, Bloating Material"@en ;
+   owl:sameAs gkbi:Q424 .
+
+mndr:Q524 a mndr:Commodity ;
+   mndr:id "comm24" ;
+   mndr:name "Clay, Brick"@en ;
+   owl:sameAs gkbi:Q423 .
+
+mndr:Q525 a mndr:Commodity ;
+   mndr:id "comm25" ;
+   mndr:name "Clay, Chlorite"@en ;
+   owl:sameAs gkbi:Q426 .
+
+mndr:Q526 a mndr:Commodity ;
+   mndr:id "comm26" ;
+   mndr:name "Clay, Fire (Refractory)"@en ;
+   owl:sameAs gkbi:Q428 .
+
+mndr:Q527 a mndr:Commodity ;
+   mndr:id "comm27" ;
+   mndr:name "Clay, Fullers Earth"@en ;
+   owl:sameAs gkbi:Q427 .
+
+mndr:Q528 a mndr:Commodity ;
+   mndr:id "comm28" ;
+   mndr:name "Clay, General"@en ;
+   owl:sameAs gkbi:Q430 .
+
+mndr:Q529 a mndr:Commodity ;
+   mndr:id "comm29" ;
+   mndr:name "Clay, Glauconite"@en ;
+   owl:sameAs gkbi:Q429 .
+
+mndr:Q530 a mndr:Commodity ;
+   mndr:id "comm30" ;
+   mndr:name "Clay, Hectorite"@en ;
+   owl:sameAs gkbi:Q431 .
+
+mndr:Q531 a mndr:Commodity ;
+   mndr:id "comm31" ;
+   mndr:name "Clay, Kaolin"@en ;
+   owl:sameAs gkbi:Q432 .
+
+mndr:Q532 a mndr:Commodity ;
+   mndr:id "comm32" ;
+   mndr:name "Clay, Montmorillonite"@en ;
+   owl:sameAs gkbi:Q433 .
+
+mndr:Q533 a mndr:Commodity ;
+   mndr:id "comm33" ;
+   mndr:name "Coal, Anthracite"@en ;
+   owl:sameAs gkbi:Q436 .
+
+mndr:Q534 a mndr:Commodity ;
+   mndr:id "comm34" ;
+   mndr:name "Coal, Bituminous"@en ;
+   owl:sameAs gkbi:Q437 .
+
+mndr:Q535 a mndr:Commodity ;
+   mndr:id "comm35" ;
+   mndr:name "Coal, Lignite"@en ;
+   owl:sameAs gkbi:Q438 .
+
+mndr:Q536 a mndr:Commodity ;
+   mndr:id "comm36" ;
+   mndr:name "Coal, Subbituminous"@en ;
+   owl:sameAs gkbi:Q439 .
+
+mndr:Q537 a mndr:Commodity ;
+   mndr:id "comm37" ;
+   mndr:name "Cobalt"@en ;
+   owl:sameAs gkbi:Q314 .
+
+mndr:Q538 a mndr:Commodity ;
+   mndr:id "comm38" ;
+   mndr:name "Copper"@en ;
+   owl:sameAs gkbi:Q315 .
+
+mndr:Q539 a mndr:Commodity ;
+   mndr:id "comm39" ;
+   mndr:name "Copper, Oxide"@en ;
+   owl:sameAs gkbi:Q441 .
+
+mndr:Q540 a mndr:Commodity ;
+   mndr:id "comm40" ;
+   mndr:name "Copper, Sulfide"@en ;
+   owl:sameAs gkbi:Q442 .
+
+mndr:Q541 a mndr:Commodity ;
+   mndr:id "comm41" ;
+   mndr:name "Dolomite"@en ;
+   owl:sameAs gkbi:Q444 .
+
+mndr:Q542 a mndr:Commodity ;
+   mndr:id "comm42" ;
+   mndr:name "Feldspar"@en ;
+   owl:sameAs gkbi:Q449 .
+
+mndr:Q543 a mndr:Commodity ;
+   mndr:id "comm43" ;
+   mndr:name "Fluorine-Fluorite"@en ;
+   owl:sameAs gkbi:Q446 .
+
+mndr:Q544 a mndr:Commodity ;
+   mndr:id "comm44" ;
+   mndr:name "Gemstone"@en ;
+   owl:sameAs gkbi:Q452 .
+
+mndr:Q545 a mndr:Commodity ;
+   mndr:id "comm45" ;
+   mndr:name "Gemstone, Diamond"@en ;
+   owl:sameAs gkbi:Q453 .
+
+mndr:Q546 a mndr:Commodity ;
+   mndr:id "comm46" ;
+   mndr:name "Gemstone, Emerald"@en ;
+   owl:sameAs gkbi:Q454 .
+
+mndr:Q547 a mndr:Commodity ;
+   mndr:id "comm47" ;
+   mndr:name "Gemstone, Ruby"@en ;
+   owl:sameAs gkbi:Q456 .
+
+mndr:Q548 a mndr:Commodity ;
+   mndr:id "comm48" ;
+   mndr:name "Gemstone, Sapphire"@en ;
+   owl:sameAs gkbi:Q457 .
+
+mndr:Q549 a mndr:Commodity ;
+   mndr:id "comm49" ;
+   mndr:name "Gemstone, Semiprecious"@en ;
+   owl:sameAs gkbi:Q458 .
+
+mndr:Q550 a mndr:Commodity ;
+   mndr:id "comm50" ;
+   mndr:name "Geothermal"@en ;
+   owl:sameAs gkbi:Q459 .
+
+mndr:Q551 a mndr:Commodity ;
+   mndr:id "comm51" ;
+   mndr:name "Gold"@en ;
+   owl:sameAs gkbi:Q329 .
+
+mndr:Q552 a mndr:Commodity ;
+   mndr:id "comm52" ;
+   mndr:name "Gold, Refinery"@en ;
+   owl:sameAs gkbi:Q417 .
+
+mndr:Q553 a mndr:Commodity ;
+   mndr:id "comm53" ;
+   mndr:name "Graphite"@en ;
+   owl:sameAs gkbi:Q460 .
+
+mndr:Q554 a mndr:Commodity ;
+   mndr:id "comm54" ;
+   mndr:name "Graphite, Carbon"@en ;
+   owl:sameAs gkbi:Q461 .
+
+mndr:Q555 a mndr:Commodity ;
+   mndr:id "comm55" ;
+   mndr:name "Gypsum-Anhydrite"@en ;
+   owl:sameAs gkbi:Q463 .
+
+mndr:Q556 a mndr:Commodity ;
+   mndr:id "comm56" ;
+   mndr:name "Gypsum-Anhydrite, Alabaster"@en ;
+   owl:sameAs gkbi:Q464 .
+
+mndr:Q557 a mndr:Commodity ;
+   mndr:id "comm57" ;
+   mndr:name "Hafnium"@en ;
+   owl:sameAs gkbi:Q330 .
+
+mndr:Q558 a mndr:Commodity ;
+   mndr:id "comm58" ;
+   mndr:name "Helium"@en ;
+   owl:sameAs gkbi:Q332 .
+
+mndr:Q559 a mndr:Commodity ;
+   mndr:id "comm59" ;
+   mndr:name "Indium"@en ;
+   owl:sameAs gkbi:Q335 .
+
+mndr:Q560 a mndr:Commodity ;
+   mndr:id "comm60" ;
+   mndr:name "Iodine"@en ;
+   owl:sameAs gkbi:Q336 .
+
+mndr:Q561 a mndr:Commodity ;
+   mndr:id "comm61" ;
+   mndr:name "Iron"@en ;
+   owl:sameAs gkbi:Q337 .
+
+mndr:Q562 a mndr:Commodity ;
+   mndr:id "comm62" ;
+   mndr:name "Iron, Pig Iron"@en ;
+   owl:sameAs gkbi:Q447 .
+
+mndr:Q563 a mndr:Commodity ;
+   mndr:id "comm63" ;
+   mndr:name "Iron, Pyrite"@en ;
+   owl:sameAs gkbi:Q448 .
+
+mndr:Q564 a mndr:Commodity ;
+   mndr:id "comm64" ;
+   mndr:name "Kyanite"@en ;
+   owl:sameAs gkbi:Q467 .
+
+mndr:Q565 a mndr:Commodity ;
+   mndr:id "comm65" ;
+   mndr:name "Lead"@en ;
+   owl:sameAs gkbi:Q342 .
+
+mndr:Q566 a mndr:Commodity ;
+   mndr:id "comm66" ;
+   mndr:name "Limestone, Dimension"@en ;
+   owl:sameAs gkbi:Q470 .
+
+mndr:Q567 a mndr:Commodity ;
+   mndr:id "comm67" ;
+   mndr:name "Limestone, High Calcium"@en ;
+   owl:sameAs gkbi:Q469 .
+
+mndr:Q568 a mndr:Commodity ;
+   mndr:id "comm68" ;
+   mndr:name "Limestone, Ultra Pure"@en ;
+   owl:sameAs gkbi:Q471 .
+
+mndr:Q569 a mndr:Commodity ;
+   mndr:id "comm69" ;
+   mndr:name "Lithium"@en ;
+   owl:sameAs gkbi:Q343 .
+
+mndr:Q570 a mndr:Commodity ;
+   mndr:id "comm70" ;
+   mndr:name "Magnesite"@en ;
+   owl:sameAs gkbi:Q475 .
+
+mndr:Q571 a mndr:Commodity ;
+   mndr:id "comm71" ;
+   mndr:name "Manganese"@en ;
+   owl:sameAs gkbi:Q346 .
+
+mndr:Q572 a mndr:Commodity ;
+   mndr:id "comm72" ;
+   mndr:name "Manganese, Ferromanganese"@en ;
+   owl:sameAs gkbi:Q477 .
+
+mndr:Q573 a mndr:Commodity ;
+   mndr:id "comm73" ;
+   mndr:name "Mercury"@en ;
+   owl:sameAs gkbi:Q349 .
+
+mndr:Q574 a mndr:Commodity ;
+   mndr:id "comm74" ;
+   mndr:name "Mica"@en ;
+   owl:sameAs gkbi:Q476 .
+
+mndr:Q575 a mndr:Commodity ;
+   mndr:id "comm75" ;
+   mndr:name "Mineral Pigments"@en ;
+   owl:sameAs gkbi:Q478 .
+
+mndr:Q576 a mndr:Commodity ;
+   mndr:id "comm76" ;
+   mndr:name "Molybdenum"@en ;
+   owl:sameAs gkbi:Q350 .
+
+mndr:Q577 a mndr:Commodity ;
+   mndr:id "comm77" ;
+   mndr:name "Natural Gas"@en ;
+   owl:sameAs gkbi:Q451 .
+
+mndr:Q578 a mndr:Commodity ;
+   mndr:id "comm78" ;
+   mndr:name "Nickel"@en ;
+   owl:sameAs gkbi:Q354 .
+
+mndr:Q579 a mndr:Commodity ;
+   mndr:id "comm79" ;
+   mndr:name "Niobium"@en ;
+   owl:sameAs gkbi:Q355 .
+
+mndr:Q580 a mndr:Commodity ;
+   mndr:id "comm80" ;
+   mndr:name "Nitrogen-Nitrates"@en ;
+   owl:sameAs gkbi:Q479 .
+
+mndr:Q581 a mndr:Commodity ;
+   mndr:id "comm81" ;
+   mndr:name "Nonmetal"@en ;
+   owl:sameAs gkbi:Q480 .
+
+mndr:Q582 a mndr:Commodity ;
+   mndr:id "comm82" ;
+   mndr:name "platinum-group elements"@en ;
+   owl:sameAs gkbi:Q291 .
+
+mndr:Q583 a mndr:Commodity ;
+   mndr:id "comm83" ;
+   mndr:name "Potassium"@en ;
+   owl:sameAs gkbi:Q365 .
+
+mndr:Q584 a mndr:Commodity ;
+   mndr:id "comm84" ;
+   mndr:name "Potassium, Alum"@en ;
+   owl:sameAs gkbi:Q466 .
+
+mndr:Q585 a mndr:Commodity ;
+   mndr:id "comm85" ;
+   mndr:name "Silver"@en ;
+   owl:sameAs gkbi:Q381 .
+
+mndr:Q586 a mndr:Commodity ;
+   mndr:id "comm86" ;
+   mndr:name "Silver, Refinery"@en ;
+   owl:sameAs gkbi:Q411 .
+
+mndr:Q587 a mndr:Commodity ;
+   mndr:id "comm87" ;
+   mndr:name "Tin"@en ;
+   owl:sameAs gkbi:Q392 .
+
+mndr:Q588 a mndr:Commodity ;
+   mndr:id "comm88" ;
+   mndr:name "Uranium"@en ;
+   owl:sameAs gkbi:Q398 .
+
+mndr:Q589 a mndr:Commodity ;
+   mndr:id "comm89" ;
+   mndr:name "Zinc"@en ;
+   owl:sameAs gkbi:Q403 .
