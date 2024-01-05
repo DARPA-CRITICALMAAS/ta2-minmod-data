@@ -1,5 +1,18 @@
 import json
-from jsonschema import validate
+import jsonschema
+import sys
+
+filename = sys.argv[1]
+print(filename)
+
+try:
+    with open(filename, 'r') as file:
+        data_graph = file.read()
+        # print(f"Contents of {filename}:\n{data_graph}")
+except FileNotFoundError:
+    print(f"Error: File '{filename}' not found.")
+except Exception as e:
+    print(f"An error occurred: {e}")
 
 schema = {
     "type": "object",
@@ -22,7 +35,15 @@ schema = {
                             "location_source": {"type": "string"}
                         }
                     },
-                    "deposit_type" : {"type" : "string"},
+                    "deposit_type" : {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {"type": "string"}
+                            }
+                        }
+                    },
                     "geology_info": {
                         "type": "object",
                         "properties": {
@@ -77,10 +98,10 @@ schema = {
                                                     "bounding_box": {
                                                         "type": "object",
                                                         "properties": {
-                                                            "x_min": {"type": "number"},
-                                                            "x_max": {"type": "number"},
-                                                            "y_min": {"type": "number"},
-                                                            "y_max": {"type": "number"}
+                                                            "x_min": {"type": ["string", "number"]},
+                                                            "x_max": {"type": ["string", "number"]},
+                                                            "y_min": {"type": ["string", "number"]},
+                                                            "y_max": {"type": ["string", "number"]}
                                                         },
                                                         "required": ["x_min", "x_max", "y_min", "y_max"]
                                                     }
@@ -99,8 +120,7 @@ schema = {
                                     "properties": {
                                         "ore_unit": {"type": "string"},
                                         "ore_value": {"type": "number"}
-                                    },
-                                    "required": ["ore_unit", "ore_value"]
+                                    }
                                 },
                                 "grade": {
                                     "type": "object",
@@ -108,16 +128,14 @@ schema = {
                                         "grade_unit": {"type": "string"},
                                         "grade_value": {"type": "number"}
                                     }
-                                    ,
-                                    "required": ["grade_unit", "grade_value"]
+
                                 },
                                 "cutoff_grade": {
                                     "type": "object",
                                     "properties": {
                                         "grade_unit": {"type": "string"},
                                         "grade_value": {"type": "number"}
-                                    },
-                                    "required": ["grade_unit", "grade_value"]
+                                    }
                                 }
                             },
                             "required": ["id"]
@@ -131,9 +149,15 @@ schema = {
     }
 }
 
-with open('../inferlink/empireState.json') as file:
+with open(filename) as file:
     json_data = json.load(file)
 json_string = json.dumps(json_data)
 mineral_site_json = json.loads(json_string)
-validate(instance=mineral_site_json, schema=schema)
-print(mineral_site_json)
+
+try:
+    jsonschema.validate(instance=mineral_site_json, schema=schema)
+    print("Validation succeeded")
+except jsonschema.ValidationError as e:
+    print(f"Validation failed: {e}")
+    raise  # Raise an exception to indicate failure
+
