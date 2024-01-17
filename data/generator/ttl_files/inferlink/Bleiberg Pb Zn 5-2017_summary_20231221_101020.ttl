@@ -1,0 +1,74 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mndr: <https://minmod.isi.edu/resource/> .
+@prefix geokb: <https://geokb.wikibase.cloud/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix gkbi: <https://geokb.wikibase.cloud/entity/> .
+@prefix gkbp: <https://geokb.wikibase.cloud/wiki/Property/> .
+
+
+_:LocationInfo3_0 a mndr:LocationInfo;
+	mndr:country "Austria";
+	mndr:crs "WGS84";
+	mndr:state_or_province "Carinthia";
+	mndr:location "POINT(394000, 5164500)"^^geo:wktLiteral;
+	.
+_:Ore10_0_0 a mndr:Ore;
+	mndr:ore_value 12247399;
+	mndr:ore_unit <https://minmod.isi.edu/resource/Q200>;
+	.
+_:Grade11_0_0 a mndr:Grade;
+	mndr:grade_value 6;
+	mndr:grade_unit <https://minmod.isi.edu/resource/Q201>;
+	.
+_:Grade12_0_0 a mndr:Grade;
+	.
+<https://minmod.isi.edu/resource/https-w3id-org-usgs-z-4530692-cgfrucnsbleiberg-project-technical-report20175> a mndr:Document;
+	mndr:doi "https://w3id.org/usgs/z/4530692/CGFRUCNS";
+	mndr:title "Bleiberg Project Technical Report";
+	mndr:month 5;
+	mndr:year 2017;
+	.
+_:BoundingBox8_0_0_0 a mndr:BoundingBox;
+	.
+_:PageInfo7_0_0_0 a mndr:PageInfo;
+	mndr:page 17;
+	mndr:bounding_box _:BoundingBox8_0_0_0;
+	.
+_:Reference6_0_0 a mndr:Reference;
+	mndr:id 1;
+	mndr:id 1;
+	mndr:document <https://minmod.isi.edu/resource/https-w3id-org-usgs-z-4530692-cgfrucnsbleiberg-project-technical-report20175>;
+	mndr:page_info _:PageInfo7_0_0_0;
+	.
+<https://minmod.isi.edu/resource/https-w3id-org-usgs-z-4530692-cgfrucns1https-w3id-org-usgs-z-4530692-cgfrucnsbleiberg-project-technical-report20175https-minmod-isi-edu-resource-q589> a mndr:MineralInventory;
+	mndr:contained_metal 734843;
+	mndr:date "2017-05"^^xsd:date;
+	mndr:category <https://minmod.isi.edu/resource/Total>;
+	mndr:commodity <https://minmod.isi.edu/resource/Q589>;
+	mndr:ore _:Ore10_0_0;
+	mndr:grade _:Grade11_0_0;
+	mndr:cutoff_grade _:Grade12_0_0;
+	mndr:reference _:Reference6_0_0;
+	.
+_:SameAs1_0_0 a mndr:SameAs;
+	.
+_:DepositType2_0_0 a mndr:DepositType;
+	mndr:id <https://minmod.isi.edu/resource/Q380>;
+	.
+<https://minmod.isi.edu/resource/https-w3id-org-usgs-z-4530692-cgfrucns1> a mndr:MineralSite;
+	mndr:name "Bleiberg Project Technical Report";
+	mndr:location_info _:LocationInfo3_0;
+	mndr:mineral_inventory <https://minmod.isi.edu/resource/https-w3id-org-usgs-z-4530692-cgfrucns1https-w3id-org-usgs-z-4530692-cgfrucnsbleiberg-project-technical-report20175https-minmod-isi-edu-resource-q589>;
+	mndr:same_as _:SameAs1_0_0;
+	mndr:deposit_type _:DepositType2_0_0;
+	.
+_:GeologyInfo4_0 a mndr:GeologyInfo;
+	.
