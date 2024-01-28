@@ -6,6 +6,10 @@ import uuid
 import os
 import generate_uris
 
+import validators
+
+def is_valid_uri(uri):
+    return validators.url(uri)
 
 def is_json_file(file_path):
     _, file_extension = os.path.splitext(file_path)

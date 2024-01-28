@@ -5,7 +5,10 @@ import requests
 import uuid
 import os
 
+import validators
 
+def is_valid_uri(uri):
+    return validators.url(uri)
 def get_uri(url, data):
     json_data_to_send = json.dumps(data)
     response = requests.post(url, data=json_data_to_send, headers=headers)
