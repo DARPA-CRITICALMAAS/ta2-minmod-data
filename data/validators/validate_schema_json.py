@@ -212,6 +212,12 @@ for ms in ms_list:
                 is_valid_uri(dp['id'])
 
     ms['id'] = mndr_url + get_uri(ms_url, mi_data)
+
+    if "location_info" in ms:
+        ll = ms["location_info"]
+        if "state_or_province" in ll:
+            ll["state_or_province"] = ""
+
     if "MineralInventory" in ms:
 
         mi_list = ms['MineralInventory']

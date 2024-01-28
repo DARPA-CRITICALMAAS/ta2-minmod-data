@@ -216,6 +216,13 @@ for file_path in changed_files:
             }
 
             ms['id'] = mndr_url + mineral_site_uri(mi_data)
+
+            if "location_info" in ms:
+                ll = ms["location_info"]
+                if "state_or_province" in ll:
+                    ll["state_or_province"] = ""
+
+
             if "MineralInventory" in ms:
 
                 mi_list = ms['MineralInventory']

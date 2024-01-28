@@ -189,7 +189,6 @@ sh:class mndr:MineralInventory;
 	sh:property [   
 		sh:path mndr:category ;
 		sh:minCount 0 ;
-		sh:nodeKind sh:IRI ;
 	] ;
 	sh:property [   
 		sh:path mndr:commodity ;
