@@ -4,19 +4,25 @@ import sys
 import requests
 import uuid
 import os
+import generate_uris
+import validators
 
+def is_valid_uri(uri):
+    return validators.url(uri)
 
-def get_uri(url, data):
-    json_data_to_send = json.dumps(data)
-    response = requests.post(url, data=json_data_to_send, headers=headers)
-    uri = ''
-    if response.status_code == 200:
-        uri_json = json.loads(response.text)
-        uri = uri_json['result']
-    else:
-        print(f"Request failed with status code {response.status_code}")
-        uri = uuid.uuid1()
+def mineral_site_uri(data):
+    response = generate_uris.mineral_site_uri(data)
+    uri = response['result']
+    return uri
 
+def document_uri(data):
+    response = generate_uris.document_uri(data)
+    uri = response['result']
+    return uri
+
+def mineral_inventory_uri(param1):
+    response = generate_uris.mineral_inventory_uri(param1)
+    uri = response['result']
     return uri
 
 
@@ -44,13 +50,15 @@ schema = {
                     "id" : {"type" : "number"},
                     "name" : {"type" : "string"},
                     "source_id" : {"type" : "string"},
-                    "record_id" : {"type" : "number"},
+                    "record_id" : {"type": ["string", "number"]},
                     "location_info": {
                         "type": "object",
                         "properties": {
                             "location": {"type": "string"},
                             "country": {"type": "string"},
-                            "state_or_province": {"type": "string"},
+                            "state_or_province": {
+                                "anyOf": [{"type": "string"},{"type": "null"}]
+                                },
                             "location_source_record_id": {"type": "string"},
                             "crs": {"type": "string"},
                             "location_source": {"type": "string"}
@@ -83,12 +91,14 @@ schema = {
                             "type": "object",
                             "properties": {
                                 "id": {"type": "number"},
-                                "category": {"type": "string"},
+                                "category": {
+                                    "type": "array",
+                                    "items": {"type": "string"}
+                                },
                                 "contained_metal": {"type": "number"},
                                 "reference": {
                                     "type": "object",
                                     "properties": {
-                                        "id": {"type": "number"},
                                         "document": {
                                             "type": "object",
                                             "properties": {
@@ -159,16 +169,6 @@ schema = {
                             "required": ["reference"]
 
                         }
-                    },
-                    "same_as" : {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "source_id": {"type": "string"},
-                                "record_id": {"type": "number"}
-                            }
-                        }
                     }
                 },
                 "required": ["name"]
@@ -192,57 +192,117 @@ except jsonschema.ValidationError as e:
 
 # print(type(json_data))
 
-ms_list = json_data['MineralSite']
+# ms_list = json_data['MineralSite']
 
 
-base_url = 'http://minmod.isi.edu/'
+<<<<<<< Updated upstream
+base_url = 'http://127.0.0.1:5007/'
 mndr_url = 'https://minmod.isi.edu/resource/'
+=======
+# base_url = 'http://minmod.isi.edu/'
+# mndr_url = 'https://minmod.isi.edu/resource/'
+>>>>>>> Stashed changes
 
-ms_url = base_url + 'mineral_site'
-doc_url = base_url + 'document'
-mi_url = base_url + 'mineral_inventory'
+# ms_url = base_url + 'mineral_site'
+# doc_url = base_url + 'document'
+# mi_url = base_url + 'mineral_inventory'
 
-headers = {"Content-Type": "application/json"}
+# headers = {"Content-Type": "application/json"}
 
+<<<<<<< Updated upstream
 for ms in ms_list:
-    mi_data = {
-        "site": ms
-    }
+    if "deposit_type" in ms:
+        for dp in ms['deposit_type']:
+            if "deposit_type" in dp:
+                is_valid_uri(dp['id'])
 
-    ms['id'] = mndr_url + get_uri(ms_url, mi_data)
+    ms['id'] = mndr_url + mineral_site_uri(ms)
+
+    if "location_info" in ms:
+        ll = ms["location_info"]
+        if "state_or_province" in ll:
+            ll["state_or_province"] = ""
+
     if "MineralInventory" in ms:
+=======
+# for ms in ms_list:
+#     mi_data = {
+#         "site": ms
+#     }
 
-        mi_list = ms['MineralInventory']
+#     ms['id'] = mndr_url + get_uri(ms_url, mi_data)
+#     if "MineralInventory" in ms:
+>>>>>>> Stashed changes
 
-        counter = 0
+#         mi_list = ms['MineralInventory']
 
+#         counter = 0
+
+<<<<<<< Updated upstream
         for mi in mi_list:
+
+            if "category" in mi:
+                for dp in mi['category']:
+                    is_valid_uri(dp)
+
+            if "commodity" in mi:
+                is_valid_uri(mi['commodity'])
+
+            if "ore" in mi:
+                if "ore_unit" in mi['ore']:
+                    ore = mi['ore']
+                    is_valid_uri(ore['ore_unit'])
+
+            if "grade" in mi:
+                if "grade_unit" in mi['grade']:
+                    grade = mi['grade']
+                    is_valid_uri(grade['grade_unit'])
+
+            if "cutoff_grade" in mi:
+                if "grade_unit" in mi['cutoff_grade']:
+                    cutoff_grade = mi['cutoff_grade']
+                    is_valid_uri(cutoff_grade['grade_unit'])
+
+
             mi_data = {
                 "site": ms,
                 "id": counter
             }
-            mi['id'] = mndr_url + get_uri(mi_url, mi_data)
+            mi['id'] = mndr_url + mineral_inventory_uri(mi_data)
             counter += 1
+=======
+#         for mi in mi_list:
+#             mi_data = {
+#                 "site": ms,
+#                 "id": counter
+#             }
+#             mi['id'] = mndr_url + get_uri(mi_url, mi_data)
+#             counter += 1
+>>>>>>> Stashed changes
 
-            if "reference" in mi:
-                reference = mi['reference']
-                if "document" in reference:
-                    document = reference['document']
+#             if "reference" in mi:
+#                 reference = mi['reference']
+#                 if "document" in reference:
+#                     document = reference['document']
 
-                    doc_data = {
-                        "document": document
-                    }
+#                     doc_data = {
+#                         "document": document
+#                     }
 
-                    document['id'] = mndr_url + get_uri(doc_url, doc_data)
+<<<<<<< Updated upstream
+                    document['id'] = mndr_url + document_uri(doc_data)
+=======
+#                     document['id'] = mndr_url + get_uri(doc_url, doc_data)
+>>>>>>> Stashed changes
 
 
-file_to_write = new_json_folder + '/' + file_name_without_path
-file_exists = os.path.exists(file_to_write)
+# file_to_write = new_json_folder + '/' + file_name_without_path
+# file_exists = os.path.exists(file_to_write)
 
-if not file_exists:
-    os.makedirs(os.path.dirname(file_to_write), exist_ok=True)
+# if not file_exists:
+#     os.makedirs(os.path.dirname(file_to_write), exist_ok=True)
 
-with open(file_to_write, 'w') as file:
-    file.write(json.dumps(json_data))
+# with open(file_to_write, 'w') as file:
+#     file.write(json.dumps(json_data))
 
 
