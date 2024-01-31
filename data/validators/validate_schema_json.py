@@ -205,15 +205,12 @@ mi_url = base_url + 'mineral_inventory'
 headers = {"Content-Type": "application/json"}
 
 for ms in ms_list:
-    mi_data = {
-        "site": ms
-    }
     if "deposit_type" in ms:
         for dp in ms['deposit_type']:
             if "deposit_type" in dp:
                 is_valid_uri(dp['id'])
 
-    ms['id'] = mndr_url + mineral_site_uri(mi_data)
+    ms['id'] = mndr_url + mineral_site_uri(ms)
 
     if "location_info" in ms:
         ll = ms["location_info"]

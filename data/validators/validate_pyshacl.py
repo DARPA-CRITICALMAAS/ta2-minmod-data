@@ -234,7 +234,7 @@ def validate_using_shacl(data_graph):
         sh:property [   
             sh:path mndr:record_id ;
             sh:minCount 0 ;
-            sh:datatype xsd:integer ;
+            sh:or ( [ sh:datatype xsd:string ] [ sh:datatype xsd:integer ] ) ;
         ];
         sh:property [   
             sh:path mndr:source_id ;
