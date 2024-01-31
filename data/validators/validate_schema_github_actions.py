@@ -65,7 +65,7 @@ def validate_json_schema(filename):
                         "id" :  {"type": ["string", "number"]},
                         "name" : {"type" : "string"},
                         "source_id" : {"type" : "string"},
-                        "record_id" : {"type" : "number"},
+                        "record_id" : {"type": ["string", "number"]},
                         "location_info": {
                             "type": "object",
                             "properties": {

@@ -4,19 +4,25 @@ import sys
 import requests
 import uuid
 import os
+import generate_uris
+import validators
 
+def is_valid_uri(uri):
+    return validators.url(uri)
 
-def get_uri(url, data):
-    json_data_to_send = json.dumps(data)
-    response = requests.post(url, data=json_data_to_send, headers=headers)
-    uri = ''
-    if response.status_code == 200:
-        uri_json = json.loads(response.text)
-        uri = uri_json['result']
-    else:
-        print(f"Request failed with status code {response.status_code}")
-        uri = str(uuid.uuid1())
+def mineral_site_uri(data):
+    response = generate_uris.mineral_site_uri(data)
+    uri = response['result']
+    return uri
 
+def document_uri(data):
+    response = generate_uris.document_uri(data)
+    uri = response['result']
+    return uri
+
+def mineral_inventory_uri(param1):
+    response = generate_uris.mineral_inventory_uri(param1)
+    uri = response['result']
     return uri
 
 
@@ -207,7 +213,13 @@ for ms in ms_list:
             if "deposit_type" in dp:
                 is_valid_uri(dp['id'])
 
-    ms['id'] = mndr_url + get_uri(ms_url, mi_data)
+    ms['id'] = mndr_url + mineral_site_uri(mi_data)
+
+    if "location_info" in ms:
+        ll = ms["location_info"]
+        if "state_or_province" in ll:
+            ll["state_or_province"] = ""
+
     if "MineralInventory" in ms:
 
         mi_list = ms['MineralInventory']
@@ -243,7 +255,7 @@ for ms in ms_list:
                 "site": ms,
                 "id": counter
             }
-            mi['id'] = mndr_url + get_uri(mi_url, mi_data)
+            mi['id'] = mndr_url + mineral_inventory_uri(mi_data)
             counter += 1
 
             if "reference" in mi:
@@ -255,7 +267,7 @@ for ms in ms_list:
                         "document": document
                     }
 
-                    document['id'] = mndr_url + get_uri(doc_url, doc_data)
+                    document['id'] = mndr_url + document_uri(doc_data)
 
 
 file_to_write = new_json_folder + '/' + file_name_without_path
