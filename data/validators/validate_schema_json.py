@@ -15,7 +15,7 @@ def get_uri(url, data):
         uri = uri_json['result']
     else:
         print(f"Request failed with status code {response.status_code}")
-        uri = uuid.uuid1()
+        uri = str(uuid.uuid1())
 
     return uri
 
@@ -44,13 +44,15 @@ schema = {
                     "id" : {"type" : "number"},
                     "name" : {"type" : "string"},
                     "source_id" : {"type" : "string"},
-                    "record_id" : {"type" : "number"},
+                    "record_id" : {"type": ["string", "number"]},
                     "location_info": {
                         "type": "object",
                         "properties": {
                             "location": {"type": "string"},
                             "country": {"type": "string"},
-                            "state_or_province": {"type": "string"},
+                            "state_or_province": {
+                                "anyOf": [{"type": "string"},{"type": "null"}]
+                                },
                             "location_source_record_id": {"type": "string"},
                             "crs": {"type": "string"},
                             "location_source": {"type": "string"}
@@ -83,12 +85,14 @@ schema = {
                             "type": "object",
                             "properties": {
                                 "id": {"type": "number"},
-                                "category": {"type": "string"},
+                                "category": {
+                                    "type": "array",
+                                    "items": {"type": "string"}
+                                },
                                 "contained_metal": {"type": "number"},
                                 "reference": {
                                     "type": "object",
                                     "properties": {
-                                        "id": {"type": "number"},
                                         "document": {
                                             "type": "object",
                                             "properties": {
@@ -159,16 +163,6 @@ schema = {
                             "required": ["reference"]
 
                         }
-                    },
-                    "same_as" : {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "source_id": {"type": "string"},
-                                "record_id": {"type": "number"}
-                            }
-                        }
                     }
                 },
                 "required": ["name"]
@@ -195,7 +189,7 @@ except jsonschema.ValidationError as e:
 ms_list = json_data['MineralSite']
 
 
-base_url = 'http://minmod.isi.edu/'
+base_url = 'http://127.0.0.1:5007/'
 mndr_url = 'https://minmod.isi.edu/resource/'
 
 ms_url = base_url + 'mineral_site'
@@ -208,6 +202,10 @@ for ms in ms_list:
     mi_data = {
         "site": ms
     }
+    if "deposit_type" in ms:
+        for dp in ms['deposit_type']:
+            if "deposit_type" in dp:
+                is_valid_uri(dp['id'])
 
     ms['id'] = mndr_url + get_uri(ms_url, mi_data)
     if "MineralInventory" in ms:
@@ -217,6 +215,30 @@ for ms in ms_list:
         counter = 0
 
         for mi in mi_list:
+
+            if "category" in mi:
+                for dp in mi['category']:
+                    is_valid_uri(dp)
+
+            if "commodity" in mi:
+                is_valid_uri(mi['commodity'])
+
+            if "ore" in mi:
+                if "ore_unit" in mi['ore']:
+                    ore = mi['ore']
+                    is_valid_uri(ore['ore_unit'])
+
+            if "grade" in mi:
+                if "grade_unit" in mi['grade']:
+                    grade = mi['grade']
+                    is_valid_uri(grade['grade_unit'])
+
+            if "cutoff_grade" in mi:
+                if "grade_unit" in mi['cutoff_grade']:
+                    cutoff_grade = mi['cutoff_grade']
+                    is_valid_uri(cutoff_grade['grade_unit'])
+
+
             mi_data = {
                 "site": ms,
                 "id": counter

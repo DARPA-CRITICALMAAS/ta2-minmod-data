@@ -1,0 +1,39 @@
+name: Run Python Script on Pull Request
+
+on:
+  pull_request:
+    branches:
+      - main  # change this to your main branch
+
+jobs:
+  run_python_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8  # change this to your desired Python version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r data/validators/requirements.txt  # change this if you have dependencies
+
+      - name: Install jitterbit
+        uses: jitterbit/get-changed-files@v1
+        with:
+          format: 'space-delimited'
+
+      - id: files
+        uses: jitterbit/get-changed-files@v1
+      - run: |
+          for changed_file in ${{ steps.files.outputs.all }}; do
+            TEMP_FILE=$(mktemp)
+            python data/validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE}
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

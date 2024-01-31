@@ -38,24 +38,6 @@ mndr:https-w3id-org-usgs-z-4530692-cgfrucns1 a mndr:MineralSite ;
     mndr:name "Bleiberg Project Technical Report" ;
     mndr:same_as [ a mndr:SameAs ] .
 
-mndr:https-w3id-org-usgs-z-4530692-iw63e62i1 a mndr:MineralSite ;
-    mndr:deposit_type [ a mndr:DepositType ] ;
-    mndr:location_info [ a mndr:LocationInfo ;
-            mndr:country "Canada" ;
-            mndr:crs "WGS84" ;
-            mndr:location "POINT(-132.1667 64.0833)"^^geo:wktLiteral ;
-            mndr:state_or_province "Yukon" ] ;
-    mndr:mineral_inventory [ a mndr:MineralInventory ;
-            mndr:cutoff_grade [ a mndr:Grade ] ;
-            mndr:grade [ a mndr:Grade ] ;
-            mndr:ore [ a mndr:Ore ] ;
-            mndr:reference [ a mndr:Reference ;
-                    mndr:document [ a mndr:Document ] ;
-                    mndr:page_info [ a mndr:PageInfo ;
-                            mndr:bounding_box [ a mndr:BoundingBox ] ] ] ] ;
-    mndr:name "Technical Report on the Scarlet Property" ;
-    mndr:same_as [ a mndr:SameAs ] .
-
 mndr:https-w3id-org-usgs-z-4530692-n958iuc21 a mndr:MineralSite ;
     mndr:deposit_type [ a mndr:DepositType ;
             mndr:id mndr:Q377 ],
@@ -91,41 +73,6 @@ mndr:https-w3id-org-usgs-z-4530692-r8gbbqjn1 a mndr:MineralSite ;
     mndr:name "Prairie Creek" ;
     mndr:same_as [ a mndr:SameAs ] .
 
-mndr:https-w3id-org-usgs-z-4530692-rq6p2gv71 a mndr:MineralSite ;
-    mndr:deposit_type [ a mndr:DepositType ;
-            mndr:id mndr:Q330 ],
-        [ a mndr:DepositType ;
-            mndr:id mndr:Q330 ] ;
-    mndr:location_info [ a mndr:LocationInfo ;
-            mndr:country "Turkey" ;
-            mndr:crs "WGS84" ;
-            mndr:location "POINT(43.08652 37.56254)"^^geo:wktLiteral ;
-            mndr:state_or_province "Hakkari" ],
-        [ a mndr:LocationInfo ;
-            mndr:country "Turkey" ;
-            mndr:crs "WGS84" ;
-            mndr:location "POINT(43.08652 37.56254)"^^geo:wktLiteral ;
-            mndr:state_or_province "Hakkari" ] ;
-    mndr:mineral_inventory [ a mndr:MineralInventory ;
-            mndr:cutoff_grade [ a mndr:Grade ] ;
-            mndr:grade [ a mndr:Grade ] ;
-            mndr:ore [ a mndr:Ore ] ;
-            mndr:reference [ a mndr:Reference ;
-                    mndr:document [ a mndr:Document ] ;
-                    mndr:page_info [ a mndr:PageInfo ;
-                            mndr:bounding_box [ a mndr:BoundingBox ] ] ] ],
-        [ a mndr:MineralInventory ;
-            mndr:cutoff_grade [ a mndr:Grade ] ;
-            mndr:grade [ a mndr:Grade ] ;
-            mndr:ore [ a mndr:Ore ] ;
-            mndr:reference [ a mndr:Reference ;
-                    mndr:document [ a mndr:Document ] ;
-                    mndr:page_info [ a mndr:PageInfo ;
-                            mndr:bounding_box [ a mndr:BoundingBox ] ] ] ] ;
-    mndr:name "NI 43-101 Technical Report on the Hakkari Zinc Project" ;
-    mndr:same_as [ a mndr:SameAs ],
-        [ a mndr:SameAs ] .
-
 mndr:https-w3id-org-usgs-z-4530692-sdzt38ku1 a mndr:MineralSite ;
     mndr:deposit_type [ a mndr:DepositType ;
             mndr:id mndr:Q378 ] ;
@@ -138,24 +85,15 @@ mndr:https-w3id-org-usgs-z-4530692-sdzt38ku1 a mndr:MineralSite ;
     mndr:name "Prairie Creek Property Prefeasibility Update NI 43-101 Technical Report" ;
     mndr:same_as [ a mndr:SameAs ] .
 
-mndr:https-w3id-org-usgs-z-4530692-vmwsr46t1 a mndr:MineralSite ;
-    mndr:deposit_type [ a mndr:DepositType ;
-            mndr:id mndr:Q380 ] ;
-    mndr:location_info [ a mndr:LocationInfo ;
-            mndr:country "Canada" ;
-            mndr:crs "WGS84" ;
-            mndr:location "POINT(-57.1458 50.2289)"^^geo:wktLiteral ;
-            mndr:state_or_province "Newfoundland and Labrador" ] ;
-    mndr:mineral_inventory [ a mndr:MineralInventory ;
-            mndr:cutoff_grade [ a mndr:Grade ] ;
-            mndr:grade [ a mndr:Grade ] ;
-            mndr:ore [ a mndr:Ore ] ;
-            mndr:reference [ a mndr:Reference ;
-                    mndr:document [ a mndr:Document ] ;
-                    mndr:page_info [ a mndr:PageInfo ;
-                            mndr:bounding_box [ a mndr:BoundingBox ] ] ] ] ;
-    mndr:name "Technical Report on the Daniel's Harbour Property" ;
-    mndr:same_as [ a mndr:SameAs ] .
+mndr:bongará-zn-3-201920191 a mndr:Document ;
+    mndr:month 1 ;
+    mndr:title "Bongará Zn 3-2019" ;
+    mndr:year 2019 .
+
+mndr:competent-persons-report-for-the-reocín-mine-and-san-juan-de-nieva-zinc-assets-held-by-asturiana-de-zinc-s-l20023 a mndr:Document ;
+    mndr:month 3 ;
+    mndr:title "competent person’s report for the reocín mine and san juan de nieva zinc assets held by asturiana de zinc s.l." ;
+    mndr:year 2002 .
 
 mndr:competent-persons-report-for-the-reocín-mine-and-san-juan-de-nieva-zinc-assets-held-by-asturiana-de-zinc-s-l20023https-minmod-isi-edu-resource-q589 a mndr:MineralInventory ;
     mndr:category mndr:Measured ;
@@ -177,7 +115,7 @@ mndr:competent-persons-report-for-the-reocín-mine-and-san-juan-de-nieva-zinc-as
             mndr:ore_unit mndr:q200 ;
             mndr:ore_value 1441 ] ;
     mndr:reference [ a mndr:Reference ;
-            mndr:document mndr:competent-persons-report-for-the-reocín-mine-and-san-juan-de-nieva-zinc-assets-held-by-asturiana-de-zinc-s-l20023 ;
+            mndr:document <file:///Users/namratasharma/Documents/USC/OnCampus/DARPA/ta2-minmod-data/data/generator/ttl_files/inferlink/doc_id_0> ;
             mndr:id 0 ;
             mndr:page_info [ a mndr:PageInfo ;
                     mndr:bounding_box [ a mndr:BoundingBox ] ;
@@ -213,7 +151,7 @@ mndr:https-w3id-org-usgs-z-4530692-9pxbt6z91bongará-zn-3-201920191https-minmod-
             mndr:ore_unit mndr:Q200 ;
             mndr:ore_value 1340000 ] ;
     mndr:reference [ a mndr:Reference ;
-            mndr:document mndr:bongará-zn-3-201920191 ;
+            mndr:document <https://w3id.org/usgs/z/4530692/9PXBT6Z9> ;
             mndr:id 1 ;
             mndr:page_info [ a mndr:PageInfo ;
                     mndr:bounding_box [ a mndr:BoundingBox ] ;
@@ -274,7 +212,11 @@ mndr:https-w3id-org-usgs-z-4530692-n958iuc21https-w3id-org-usgs-z-4530692-n958iu
             mndr:ore_unit mndr:Q200 ;
             mndr:ore_value 75165938 ] ;
     mndr:reference [ a mndr:Reference ;
-            mndr:document mndr:https-w3id-org-usgs-z-4530692-n958iuc2mehdiabad-zinc-project-information-memorandum20053 ;
+            mndr:document [ a mndr:Document ;
+                    mndr:doi "https://w3id.org/usgs/z/4530692/N958IUC2" ;
+                    mndr:month 3 ;
+                    mndr:title "mehdiabad zinc project – information memorandum" ;
+                    mndr:year 2005 ] ;
             mndr:id 0 ;
             mndr:page_info [ a mndr:PageInfo ;
                     mndr:bounding_box [ a mndr:BoundingBox ] ;
@@ -285,6 +227,12 @@ mndr:https-w3id-org-usgs-z-4530692-n958iuc21https-w3id-org-usgs-z-4530692-n958iu
             mndr:page_info [ a mndr:PageInfo ;
                     mndr:bounding_box [ a mndr:BoundingBox ] ;
                     mndr:page 7 ] ] .
+
+mndr:https-w3id-org-usgs-z-4530692-n958iuc2mehdiabad-zinc-project-information-memorandum20053 a mndr:Document ;
+    mndr:doi "https://w3id.org/usgs/z/4530692/N958IUC2" ;
+    mndr:month 3 ;
+    mndr:title "mehdiabad zinc project – information memorandum" ;
+    mndr:year 2005 .
 
 mndr:https-w3id-org-usgs-z-4530692-r49z8f3p1competent-persons-report-for-the-reocín-mine-and-san-juan-de-nieva-zinc-assets-held-by-asturiana-de-zinc-s-l20023https-minmod-isi-edu-resource-q589 a mndr:MineralInventory ;
     mndr:category mndr:Measured ;
@@ -299,7 +247,7 @@ mndr:https-w3id-org-usgs-z-4530692-r49z8f3p1competent-persons-report-for-the-reo
             mndr:ore_unit mndr:Q200 ;
             mndr:ore_value 1162 ] ;
     mndr:reference [ a mndr:Reference ;
-            mndr:document mndr:competent-persons-report-for-the-reocín-mine-and-san-juan-de-nieva-zinc-assets-held-by-asturiana-de-zinc-s-l20023 ;
+            mndr:document <file:///Users/namratasharma/Documents/USC/OnCampus/DARPA/ta2-minmod-data/data/generator/ttl_files/inferlink/doc_id_0> ;
             mndr:id 0 ;
             mndr:page_info [ a mndr:PageInfo ;
                     mndr:bounding_box [ a mndr:BoundingBox ] ;
@@ -382,18 +330,12 @@ mndr:https-w3id-org-usgs-z-4530692-sdzt38kuprairie-creek-property-prefeasibility
     mndr:title "Prairie Creek Property Prefeasibility Update NI 43-101 Technical Report" ;
     mndr:year 2016 .
 
-mndr:bongará-zn-3-201920191 a mndr:Document ;
+<https://w3id.org/usgs/z/4530692/9PXBT6Z9> a mndr:Document ;
     mndr:month 1 ;
     mndr:title "Bongará Zn 3-2019" ;
     mndr:year 2019 .
 
-mndr:https-w3id-org-usgs-z-4530692-n958iuc2mehdiabad-zinc-project-information-memorandum20053 a mndr:Document ;
-    mndr:doi "https://w3id.org/usgs/z/4530692/N958IUC2" ;
-    mndr:month 3 ;
-    mndr:title "mehdiabad zinc project – information memorandum" ;
-    mndr:year 2005 .
-
-mndr:competent-persons-report-for-the-reocín-mine-and-san-juan-de-nieva-zinc-assets-held-by-asturiana-de-zinc-s-l20023 a mndr:Document ;
+<file:///Users/namratasharma/Documents/USC/OnCampus/DARPA/ta2-minmod-data/data/generator/ttl_files/inferlink/doc_id_0> a mndr:Document ;
     mndr:month 3 ;
     mndr:title "competent person’s report for the reocín mine and san juan de nieva zinc assets held by asturiana de zinc s.l." ;
     mndr:year 2002 .
@@ -411,33 +353,3 @@ mndr:competent-persons-report-for-the-reocín-mine-and-san-juan-de-nieva-zinc-as
 [] a mndr:GeologyInfo .
 
 [] a mndr:GeologyInfo .
-
-[] a mndr:GeologyInfo .
-
-[] a mndr:GeologyInfo .
-
-[] a mndr:GeologyInfo .
-
-[] a mndr:MineralSite ;
-    mndr:deposit_type [ a mndr:DepositType ] ;
-    mndr:id "https://minmod.isi.edu/resource/https-w3id-org-usgs-z-4530692-iw63e62i1" ;
-    mndr:location_info [ a mndr:LocationInfo ;
-            mndr:country "Canada" ;
-            mndr:crs "WGS84" ;
-            mndr:location "POINT(-132.1667 64.0833)"^^geo:wktLiteral ;
-            mndr:state_or_province "Yukon" ] ;
-    mndr:mineral_inventory [ a mndr:MineralInventory ;
-            mndr:cutoff_grade [ a mndr:Grade ] ;
-            mndr:grade [ a mndr:Grade ] ;
-            mndr:ore [ a mndr:Ore ] ;
-            mndr:reference [ a mndr:Reference ;
-                    mndr:document [ a mndr:Document ] ;
-                    mndr:page_info [ a mndr:PageInfo ;
-                            mndr:bounding_box [ a mndr:BoundingBox ] ] ] ] ;
-    mndr:name "Technical Report on the Scarlet Property" ;
-    mndr:same_as [ a mndr:SameAs ] .
-
-[] a mndr:GeologyInfo .
-
-[] a mndr:GeologyInfo .
-

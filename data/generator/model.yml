@@ -13,8 +13,6 @@ preprocessing:
         value['id'] = -1
       if 'MineralInventory' not in value:
         value['MineralInventory'] = [{}]
-      if 'same_as' not in value:
-        value['same_as'] = [{}]
       if 'geology_info' not in value:
         value['geology_info'] = {}
       else:
@@ -69,19 +67,6 @@ preprocessing:
         value['environment'] = -1
       if 'unit_name' not in value:
         value['unit_name'] = -1
-      return value
-  - type: pmap
-    path: [ "MineralSite", .. , "same_as" ]
-    code: |
-      value = value.copy()
-      if len(value) > 0:
-        for v in value:
-          if 'source_id' not in v:
-            v['source_id'] = -1
-          if 'record_id' not in v:
-            v['record_id'] = -1
-        return value
-      value = [{'source_id' : -1, 'record_id' : -1}]
       return value
   - type: pmap
     path: [ "MineralSite", .. , "deposit_type" ]
@@ -209,6 +194,32 @@ preprocessing:
       if 'authors' not in value:
         value['authors'] = -1
       return value
+  - type: pmap
+    path: [ "MineralSite", .. , "MineralInventory", .. , "reference", "document", "authors" ]
+    change_structure: false
+    code: |
+      if value == -1:
+        return value
+      value = value.copy()
+      if len(value) == 0:
+        value = ''
+      else:
+        value = ",".join(value)
+      return value
+
+  - type: pmap
+    path: [ "MineralSite", .. , "MineralInventory", .. , "category"]
+    change_structure: false
+    code: |
+      if value == -1:
+        return value
+      value = value.copy()
+      if len(value) == 0:
+        value = ''
+      else:
+        value = ",".join(value)
+      return value
+
   - type: pmap
     path: [ "MineralSite", .. , "MineralInventory", .. , "reference", "page_info" ]
     change_structure: false
@@ -361,15 +372,6 @@ attributes:
   zone:
     path: [ "MineralSite", .. , "MineralInventory", .. , "zone" ]
     missing_values: [ -1 ]
-  sameAs_ms:
-    path: [ "MineralSite", .. , "same_as" ]
-    missing_values: [ -1 ]
-  sameAs_ms_source_id:
-    path: [ "MineralSite", .. , "same_as", .. ,  "source_id" ]
-    missing_values: [ -1 ]
-  sameAs_ms_record_id:
-    path: [ "MineralSite", .. , "same_as", .. ,  "record_id" ]
-    missing_values: [ -1 ]
   id_reference:
     path: ["MineralSite", .. , "MineralInventory", .. , "reference", "id"]
     missing_values: [ -1 ]
@@ -515,18 +517,6 @@ alignments:
   - type: dimension
     source: id
     target: commodity
-    aligned_dims:
-      - { source: 1, target: 1 }
-      - { source: 3, target: 3 }
-  - type: dimension
-    source: id
-    target: sameAs_ms_source_id
-    aligned_dims:
-      - { source: 1, target: 1 }
-      - { source: 3, target: 3 }
-  - type: dimension
-    source: sameAs_ms_source_id
-    target: sameAs_ms_record_id
     aligned_dims:
       - { source: 1, target: 1 }
       - { source: 3, target: 3 }
@@ -730,16 +720,8 @@ semantic_model:
         - mndr:LocationInfo:1
       - - mndr:mineral_inventory
         - mndr:MineralInventory:1
-      - - mndr:same_as
-        - mndr:SameAs:1
       - - mndr:deposit_type
         - mndr:DepositType:1
-
-  mndr:SameAs:1:
-    properties:
-      - [ mndr:source_id, sameAs_ms_source_id ]
-      - [ mndr:record_id, sameAs_ms_record_id ]
-    links: [ ]
 
   mndr:DepositType:1:
     properties:
@@ -783,7 +765,6 @@ semantic_model:
         - xsd:date
       - - mndr:category
         - category
-        - xsd:anyURI
       - - mndr:zone
         - zone
       - - mndr:commodity
@@ -801,7 +782,6 @@ semantic_model:
 
   mndr:Reference:1:
     properties:
-      - [ mndr:id, id_reference ]
       - [ mndr:date, id_reference ]
     links:
       - - mndr:document
