@@ -268,6 +268,6 @@ if not file_exists:
     os.makedirs(os.path.dirname(file_to_write), exist_ok=True)
 
 with open(file_to_write, 'w') as file:
-    file.write(json.dumps(json_data))
+    file.write(json.dumps(json_data, indent=2))
 
 
