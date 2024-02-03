@@ -187,18 +187,24 @@ except jsonschema.ValidationError as e:
 
 # print(type(json_data))
 
-ms_list = json_data['MineralSite']
+# ms_list = json_data['MineralSite']
 
 
+<<<<<<< Updated upstream
 base_url = 'http://127.0.0.1:5007/'
 mndr_url = 'https://minmod.isi.edu/resource/'
+=======
+# base_url = 'http://minmod.isi.edu/'
+# mndr_url = 'https://minmod.isi.edu/resource/'
+>>>>>>> Stashed changes
 
-ms_url = base_url + 'mineral_site'
-doc_url = base_url + 'document'
-mi_url = base_url + 'mineral_inventory'
+# ms_url = base_url + 'mineral_site'
+# doc_url = base_url + 'document'
+# mi_url = base_url + 'mineral_inventory'
 
-headers = {"Content-Type": "application/json"}
+# headers = {"Content-Type": "application/json"}
 
+<<<<<<< Updated upstream
 for ms in ms_list:
     if "deposit_type" in ms:
         for dp in ms['deposit_type']:
@@ -212,11 +218,21 @@ for ms in ms_list:
             ll["state_or_province"] = ""
 
     if "MineralInventory" in ms:
+=======
+# for ms in ms_list:
+#     mi_data = {
+#         "site": ms
+#     }
 
-        mi_list = ms['MineralInventory']
+#     ms['id'] = mndr_url + get_uri(ms_url, mi_data)
+#     if "MineralInventory" in ms:
+>>>>>>> Stashed changes
 
-        counter = 0
+#         mi_list = ms['MineralInventory']
 
+#         counter = 0
+
+<<<<<<< Updated upstream
         for mi in mi_list:
 
             if "category" in mi:
@@ -248,26 +264,39 @@ for ms in ms_list:
             }
             mi['id'] = mndr_url + mineral_inventory_uri(mi_data)
             counter += 1
+=======
+#         for mi in mi_list:
+#             mi_data = {
+#                 "site": ms,
+#                 "id": counter
+#             }
+#             mi['id'] = mndr_url + get_uri(mi_url, mi_data)
+#             counter += 1
+>>>>>>> Stashed changes
 
-            if "reference" in mi:
-                reference = mi['reference']
-                if "document" in reference:
-                    document = reference['document']
+#             if "reference" in mi:
+#                 reference = mi['reference']
+#                 if "document" in reference:
+#                     document = reference['document']
 
-                    doc_data = {
-                        "document": document
-                    }
+#                     doc_data = {
+#                         "document": document
+#                     }
 
+<<<<<<< Updated upstream
                     document['id'] = mndr_url + document_uri(doc_data)
+=======
+#                     document['id'] = mndr_url + get_uri(doc_url, doc_data)
+>>>>>>> Stashed changes
 
 
-file_to_write = new_json_folder + '/' + file_name_without_path
-file_exists = os.path.exists(file_to_write)
+# file_to_write = new_json_folder + '/' + file_name_without_path
+# file_exists = os.path.exists(file_to_write)
 
-if not file_exists:
-    os.makedirs(os.path.dirname(file_to_write), exist_ok=True)
+# if not file_exists:
+#     os.makedirs(os.path.dirname(file_to_write), exist_ok=True)
 
-with open(file_to_write, 'w') as file:
-    file.write(json.dumps(json_data))
+# with open(file_to_write, 'w') as file:
+#     file.write(json.dumps(json_data))
 
 
