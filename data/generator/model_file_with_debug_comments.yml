@@ -7,7 +7,9 @@ preprocessing:
       value = value.copy()
       print('&&&&&&&&&&')
       if 'deposit_type' not in value:
-        value['deposit_type'] = [{}]
+        value['deposit_type'] = []
+      if len(value['deposit_type']) == 0:
+        value['deposit_type'] = ["http://minmod.isi.edu/resource/MISSING"]
       if 'name' not in value:
         value['name'] = -1
       if 'id' not in value:
@@ -75,23 +77,6 @@ preprocessing:
       print(value)
       return value
   - type: pmap
-    path: [ "MineralSite", .. , "deposit_type" ]
-    code: |
-      value = value.copy()
-      print('dddddddd')
-      print(value)
-      print(len(value))
-      if len(value) > 0:
-        print('Len is not 0 .......')
-        for v in value:
-          if 'id' not in v:
-            v['id'] = ''
-        print(value)
-        return value
-      value = [{'id' : -1}]
-      print(value)
-      return value
-  - type: pmap
     path: [ "MineralSite", .. , "location_info" ]
     code: |
       value = value.copy()
@@ -110,7 +95,7 @@ preprocessing:
         value['location_source'] = -1
       return value
   - type: pmap
-    path: [ "MineralSite", .. , "MineralInventory"]
+    path: ["MineralSite", .., "MineralInventory"]
     code: |
       value = value.copy()
       print('^^^^^^^^^^^^^')
@@ -120,7 +105,9 @@ preprocessing:
         print('Len is not 0 .......')
         for v in value:
           if 'category' not in v:
-            v['category'] = -1
+            v['category'] = []
+          if len(v['category']) == 0:
+            v['category'] = ["http://minmod.isi.edu/resource/MISSING"]
           if 'id' not in v:
             v['id'] = -1
           if 'commodity' not in v:
@@ -145,18 +132,6 @@ preprocessing:
       print(value)
       return value
   - type: pmap
-    path: [ "MineralSite", .. , "MineralInventory", .. , "category" ]
-    change_structure: false
-    code: |
-      if value == -1:
-        return value
-      value = value.copy()
-      if len(value) == 0:
-        value = ''
-      else:
-        value = ",".join(value)
-      return value
-  - type: pmap
     path: [ "MineralSite", .. , "MineralInventory", ..  ]
     code: |
       value = value.copy()
@@ -165,7 +140,9 @@ preprocessing:
       if 'zone' not in value:
         value['zone'] = -1
       if 'category' not in value:
-        value['category'] = -1
+        value['category'] = []
+      if len(value['category']) == 0:
+        value['category'] = ["http://minmod.isi.edu/resource/MISSING"]
       if 'commodity' not in value:
         value['commodity'] = -1
       if 'reference' not in value:
@@ -231,7 +208,7 @@ preprocessing:
         value['authors'] = -1
       return value
   - type: pmap
-    path: [ "MineralSite", .. , "MineralInventory", .. , "reference", "document", "authors" ]
+    path: [ "MineralSite", .., "MineralInventory", .., "reference", "document", "authors", ]
     change_structure: false
     code: |
       print('------aaaaaaaaaa-------')
@@ -286,7 +263,7 @@ preprocessing:
       value = [{"bounding_box": {}, "page": -1}]
       return value
   - type: pmap
-    path: [ "MineralSite", .. , "MineralInventory", .. , "reference", "page_info", .., "bounding_box" ]
+    path: [ "MineralSite", .. , "MineralInventory", .. , "reference", "page_info", .., "bounding_box"]
     change_structure: false
     code: |
       print('(((((((((((((')
@@ -322,10 +299,8 @@ attributes:
     path: [ "MineralSite", .. , "MineralInventory" ]
     missing_values: [ -1 ]
   deposit_type_main:
-    path: [ "MineralSite", .. , "deposit_type"]
-  deposit_type:
-    path: [ "MineralSite", .. , "deposit_type", .., "id" ]
-    missing_values: [ -1 ]
+    path: ["MineralSite", .., "deposit_type", ..]
+    missing_values: [-1]
   geology_info:
     path: [ "MineralSite", .. , "geology_info"]
     missing_values: [ -1 ]
@@ -396,7 +371,7 @@ attributes:
     path: ["MineralSite", .. , "MineralInventory", .. , "id"]
     missing_values: [ -1 ]
   category:
-    path: ["MineralSite", .. , "MineralInventory", .. , "category"]
+    path: ["MineralSite", .. , "MineralInventory", .. , "category", .. ]
     missing_values: [ -1 ]
   contained_metal:
     path: ["MineralSite", .. , "MineralInventory", .. , "contained_metal"]
@@ -545,7 +520,7 @@ alignments:
     aligned_dims:
       - { source: 1, target: 1 }
   - type: dimension
-    source: deposit_type
+    source: deposit_type_main
     target: id_mineral_site
     aligned_dims:
       - { source: 1, target: 1 }
@@ -745,24 +720,21 @@ alignments:
       - { source: 3, target: 3 }
 
 semantic_model:
+  mndr:DepositType:1:
+    properties:
+      - [drepr:uri, deposit_type_main]
+
   mndr:MineralSite:1:
     properties:
       - [ mndr:id, id_mineral_site ]
       - [ mndr:name, name_mineral_site ]
     links:
+      - - mndr:deposit_type
+        - mndr:DepositType:1
       - - mndr:location_info
         - mndr:LocationInfo:1
       - - mndr:mineral_inventory
         - mndr:MineralInventory:1
-      - - mndr:deposit_type
-        - mndr:DepositType:1
-
-  mndr:DepositType:1:
-    properties:
-      - - mndr:deposit_type
-        - deposit_type
-        - xsd:anyURI
-    links: [ ]
 
   mndr:LocationInfo:1:
     properties:
@@ -795,8 +767,6 @@ semantic_model:
       - - mndr:date
         - date
         - xsd:date
-      - - mndr:category
-        - category
       - - mndr:zone
         - zone
       - - mndr:commodity
@@ -811,10 +781,15 @@ semantic_model:
         - mndr:Grade:2
       - - mndr:reference
         - mndr:Reference:1
+      - [mndr:category, mndr:Category:1]
+
+  mndr:Category:1:
+    properties:
+      - [drepr:uri, category]
 
   mndr:Reference:1:
     properties:
-      - [ mndr:date, id_reference ]
+      - [mndr:date, id_reference]
     links:
       - - mndr:document
         - mndr:Document:1

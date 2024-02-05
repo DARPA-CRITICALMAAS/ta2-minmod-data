@@ -204,7 +204,7 @@ def validate_using_shacl(data_graph):
             sh:property [   
             sh:path mndr:deposit_type ;
             sh:minCount 0 ;
-            sh:class mndr:DepositType ;
+            sh:or ( [ sh:nodeKind sh:IRI ; ] [ sh:class mndr:DepositType ] ) ;
         ];
         sh:property [   
             sh:path mndr:location_info ;
