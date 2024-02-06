@@ -47,7 +47,7 @@ schema = {
             "items": {
                 "type": "object",
                 "properties" : {
-                    "id" : {"type" : "number"},
+                    "id" :  {"type": ["string", "number"]},
                     "name" : {"type" : "string"},
                     "source_id" : {"type" : "string"},
                     "record_id" : {"type": ["string", "number"]},
@@ -56,9 +56,7 @@ schema = {
                         "properties": {
                             "location": {"type": "string"},
                             "country": {"type": "string"},
-                            "state_or_province": {
-                                "anyOf": [{"type": "string"},{"type": "null"}]
-                                },
+                            "state_or_province": {"type": "string"},
                             "location_source_record_id": {"type": "string"},
                             "crs": {"type": "string"},
                             "location_source": {"type": "string"}
@@ -85,7 +83,7 @@ schema = {
                         "items": {
                             "type": "object",
                             "properties": {
-                                "id": {"type": "number"},
+                                "id": {"type": ["string", "number"]},
                                 "category": {
                                     "type": "array",
                                     "items": {"type": "string"}
@@ -97,7 +95,7 @@ schema = {
                                         "document": {
                                             "type": "object",
                                             "properties": {
-                                                "id": {"type": "string"},
+                                                "id":  {"type": ["string", "number"]},
                                                 "title": {"type": "string"},
                                                 "doi": {"type": "string"},
                                                 "uri": {"type": "string"},
@@ -162,13 +160,12 @@ schema = {
                                 }
                             },
                             "required": ["reference"]
-
                         }
                     }
-                },
-                "required": ["name"]
-            },
-            "required": ["source_id", "record_id"]
+                }
+                ,
+                "required": ["source_id", "record_id"]
+            }
         }
     }
 }
