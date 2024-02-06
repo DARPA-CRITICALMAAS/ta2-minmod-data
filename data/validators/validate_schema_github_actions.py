@@ -47,12 +47,9 @@ def get_filename(file_path):
         return split_path[-1]
 
 def validate_json_schema(filename):
-    try:
-        with open(filename, 'r') as file:
-            data_graph = file.read()
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return
+
+    with open(filename, 'r') as file:
+        data_graph = file.read()
 
     schema = {
         "type": "object",
@@ -211,6 +208,9 @@ if is_json_file_under_data(file_path):
         json_data = validate_json_schema(file_path)
     except FileNotFoundError:
         print(f"File '{filename}' was deleted, skipping.")
+        sys.exit()
+    except Exception as e:
+        print(f"An error occurred: {e}")
         sys.exit()
 
     ms_list = json_data['MineralSite']
