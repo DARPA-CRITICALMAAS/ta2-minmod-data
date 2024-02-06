@@ -52,6 +52,7 @@ def validate_json_schema(filename):
             data_graph = file.read()
     except FileNotFoundError:
         print(f"Error: File '{filename}' not found.")
+        return
     except Exception as e:
         print(f"An error occurred: {e}")
 
