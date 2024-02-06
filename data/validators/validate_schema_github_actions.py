@@ -32,10 +32,10 @@ def is_json_file_under_data(file_path):
     path, file_extension = os.path.splitext(file_path)
     split_path = path.split('/')
     is_under_data_folder = True
-    # if len(split_path) > 0:
-    #     if (len(split_path) > 3 and split_path[-4] == 'data' and split_path[-3] == 'inferlink' and split_path[-2] == 'extractions') \
-    #             or (len(split_path) > 2 and split_path[-2] == 'umn'):
-    #         is_under_data_folder = True
+    if len(split_path) > 0:
+        if (len(split_path) > 3 and split_path[-4] == 'data' and split_path[-3] == 'inferlink' and split_path[-2] == 'extractions') \
+                or (len(split_path) > 2 and split_path[-2] == 'umn'):
+            is_under_data_folder = True
 
     return is_under_data_folder and file_extension.lower() == '.json'
 
