@@ -182,8 +182,6 @@ except jsonschema.ValidationError as e:
     print(f"Validation failed: {e}")
     raise  # Raise an exception to indicate failure
 
-# print(type(json_data))
-
 ms_list = json_data['MineralSite']
 
 

@@ -30,10 +30,7 @@ jobs:
 
       - id: files
         uses: jitterbit/get-changed-files@v1
-        with:
-          output-format: 'json'
       - run: |
-          echo "${{ steps.changed_files.outputs.deleted }}"
           for changed_file in ${{ steps.files.outputs.all }}; do
             TEMP_FILE=$(mktemp)
             python data/validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE}
