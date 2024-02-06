@@ -211,7 +211,7 @@ if is_json_file_under_data(file_path):
         sys.exit(0)
     except Exception as e:
         print(f"An error occurred: {e}")
-        sys.exit()
+        raise
 
     ms_list = json_data['MineralSite']
     mndr_url = 'https://minmod.isi.edu/resource/'
