@@ -30,6 +30,8 @@ jobs:
 
       - id: files
         uses: jitterbit/get-changed-files@v1
+        with:
+          output-format: 'json'
       - run: |
           echo "${{ steps.changed_files.outputs.deleted }}"
           for changed_file in ${{ steps.files.outputs.all }}; do
