@@ -207,8 +207,8 @@ if is_json_file_under_data(file_path):
     try:
         json_data = validate_json_schema(file_path)
     except FileNotFoundError:
-        print(f"File '{filename}' was deleted, skipping.")
-        sys.exit()
+        print(f"File '{file_path}' was deleted, skipping.")
+        sys.exit(0)
     except Exception as e:
         print(f"An error occurred: {e}")
         sys.exit()
