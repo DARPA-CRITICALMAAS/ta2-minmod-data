@@ -8,6 +8,7 @@ import generate_uris
 import base64
 import create_ttl_files
 import validators
+import sys
 
 def is_valid_uri(uri):
     return validators.url(uri)
@@ -46,13 +47,9 @@ def get_filename(file_path):
         return split_path[-1]
 
 def validate_json_schema(filename):
-    try:
-        with open(filename, 'r') as file:
-            data_graph = file.read()
-    except FileNotFoundError:
-        print(f"Error: File '{filename}' not found.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+
+    with open(filename, 'r') as file:
+        data_graph = file.read()
 
     schema = {
         "type": "object",
@@ -175,13 +172,12 @@ def validate_json_schema(filename):
                                     }
                                 },
                                 "required": ["reference"]
-
                             }
                         }
-                    },
-                    "required": ["name"]
-                },
-                "required": ["source_id", "record_id"]
+                    }
+                    ,
+                    "required": ["source_id", "record_id"]
+                }
             }
         }
     }
@@ -207,7 +203,15 @@ temp_file = sys.argv[2]
 file_path = changed_files
 if is_json_file_under_data(file_path):
     print(f'{file_path} is a JSON file, running validation on it')
-    json_data = validate_json_schema(file_path)
+    json_data = {}
+    try:
+        json_data = validate_json_schema(file_path)
+    except FileNotFoundError:
+        print(f"File '{file_path}' was deleted, skipping.")
+        sys.exit(0)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        raise
 
     ms_list = json_data['MineralSite']
     mndr_url = 'https://minmod.isi.edu/resource/'
