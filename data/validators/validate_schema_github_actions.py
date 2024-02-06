@@ -8,6 +8,7 @@ import generate_uris
 import base64
 import create_ttl_files
 import validators
+import sys
 
 def is_valid_uri(uri):
     return validators.url(uri)
@@ -211,7 +212,7 @@ if is_json_file_under_data(file_path):
         json_data = validate_json_schema(file_path)
     except FileNotFoundError:
         print(f"File '{filename}' was deleted, skipping.")
-        return
+        sys.exit()
 
     ms_list = json_data['MineralSite']
     mndr_url = 'https://minmod.isi.edu/resource/'
