@@ -696,6 +696,7 @@ semantic_model:
 
   mndr:MineralSite:1:
     properties:
+      - [ drepr:uri, id_mineral_site ]
       - [ mndr:id, id_mineral_site ]
       - [ mndr:name, name_mineral_site ]
     links:
@@ -730,6 +731,7 @@ semantic_model:
 
   mndr:MineralInventory:1:
     properties:
+      - [ drepr:uri, id ]
       - - mndr:id
         - id
       - - mndr:contained_metal
