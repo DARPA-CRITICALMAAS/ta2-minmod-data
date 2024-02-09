@@ -1,6 +1,7 @@
 {
   "MineralSite": [
     {
+      "source_id":"https://w3id.org/usgs/z/4530692/JU49QKUZ",
       "record_id": 1,
       "name": "Pine Point Project",
       "location_info": {
@@ -12,8 +13,8 @@
       "MineralInventory": [
         {
           "id": 1,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/Measured",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/Measured"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 574365
@@ -58,8 +59,8 @@
         },
         {
           "id": 2,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/Indicated",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/Indicated"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 499496
@@ -104,8 +105,9 @@
         },
         {
           "id": 3,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/Measured + Indicated",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/Measured",
+          "https://minmod.isi.edu/resource/Indicated"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 1073861
@@ -150,8 +152,8 @@
         },
         {
           "id": 4,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/Measured",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/Measured"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 574582
@@ -196,8 +198,8 @@
         },
         {
           "id": 5,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/Indicated",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/Indicated"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 501555
@@ -239,68 +241,10 @@
             ]
           },
           "date": "2007-12"
-        },
-        {
-          "id": 6,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/Total",
-          "ore": {
-            "ore_unit": "https://minmod.isi.edu/resource/Q200",
-            "ore_value": 1076137
-          },
-          "grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q201",
-            "grade_value": 11.2
-          },
-          "cutoff_grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q201",
-            "grade_value": 5
-          },
-          "contained_metal": 120526.94,
-          "reference": {
-            "id": 1,
-            "document": {
-              "title": "Pine Point Project",
-              "doi": "https://w3id.org/usgs/z/4530692/JU49QKUZ",
-              "uri": "file-Ag42ZKlL93vWaIpW5vWqseqk",
-              "authors": [
-                "Fred Barnard Ph.D.",
-                "Steven Milne P.E.",
-                "Robert L. Sandefur P.E."
-              ],
-              "year": 2007,
-              "month": 12,
-              "description": "NI 43-101 Technical Report on the Pine Point Project, Northwest Territories, Canada, with detailed sections on geology, mineralization, exploration, drilling, and recommendations for Tamerlane Ventures Inc."
-            },
-            "page_info": [
-              {
-                "page": 100,
-                "bounding_box": {
-                  "x_min": "",
-                  "x_max": "",
-                  "y_min": "",
-                  "y_max": ""
-                }
-              }
-            ]
-          },
-          "date": "2007-12"
         }
       ],
-      "deposit_type": [
-        {
-          "id": "https://minmod.isi.edu/resource/Q380"
-        },
-        {
-          "id": "https://minmod.isi.edu/resource/Q384"
-        },
-        {
-          "id": "https://minmod.isi.edu/resource/Q385"
-        },
-        {
-          "id": "https://minmod.isi.edu/resource/Q385"
-        }
-      ]
+      "deposit_type": ["https://minmod.isi.edu/resource/Q380","https://minmod.isi.edu/resource/Q384"
+        ,"https://minmod.isi.edu/resource/Q385","https://minmod.isi.edu/resource/Q385"]
     }
   ]
 }

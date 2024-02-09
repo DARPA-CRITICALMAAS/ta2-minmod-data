@@ -12,7 +12,7 @@
     {
       "id": 0,
       "commodity": "https://minmod.isi.edu/resource/Q589",
-      "category": "https://minmod.isi.edu/resource/indicated",
+      "category": ["https://minmod.isi.edu/resource/indicated"],
       "ore": {
         "ore_unit": "https://minmod.isi.edu/resource/Q200",
         "ore_value": 822000
@@ -52,7 +52,7 @@
     {
       "id": 1,
       "commodity": "https://minmod.isi.edu/resource/Q589",
-      "category": "https://minmod.isi.edu/resource/inferred",
+      "category": ["https://minmod.isi.edu/resource/inferred"],
       "ore": {
         "ore_unit": "https://minmod.isi.edu/resource/Q200",
         "ore_value": 1340000
@@ -90,11 +90,7 @@
       "date": "2019-01"
     }
   ],
-  "deposit_type": [
-    {
-      "id": "https://minmod.isi.edu/resource/Q380"
-    }
-    ]
+  "deposit_type": ["https://minmod.isi.edu/resource/Q380"]
   }
   ]
 }

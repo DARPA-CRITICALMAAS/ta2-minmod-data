@@ -13,8 +13,8 @@
       "MineralInventory": [
         {
           "id": 1,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/total indicated",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/indicated"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 6762000
@@ -49,8 +49,8 @@
         },
         {
           "id": 2,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/total inferred",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/inferred"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 204000
@@ -84,11 +84,7 @@
           "date": "2013-1"
         }
       ],
-      "deposit_type": [
-        {
-          "id": "https://minmod.isi.edu/resource/Q412"
-        }
-      ]
+      "deposit_type": ["https://minmod.isi.edu/resource/Q412"]
     }
   ]
 }
