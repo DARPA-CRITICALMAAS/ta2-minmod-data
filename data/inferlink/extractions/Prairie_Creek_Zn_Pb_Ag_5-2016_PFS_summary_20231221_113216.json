@@ -14,7 +14,7 @@
     {
       "id": 0,
       "commodity":  "https://minmod.isi.edu/resource/Q589",
-      "category": "https://minmod.isi.edu/resource/Classification",
+      "category": ["https://minmod.isi.edu/resource/Measured","https://minmod.isi.edu/resource/indicated"],
       "ore": {
         "ore_unit": "https://minmod.isi.edu/resource/Q200",
         "ore_value": 8704
@@ -48,11 +48,7 @@
       "date": "2016-02"
     }
   ],
-  "deposit_type": [
-    {
-      "id": "https://minmod.isi.edu/resource/Q378"
-    }
-    ]
+  "deposit_type": ["https://minmod.isi.edu/resource/Q378"]
    }
   ]
 }
