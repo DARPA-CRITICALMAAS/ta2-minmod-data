@@ -11,8 +11,8 @@
       "MineralInventory": [
         {
           "id": 1,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/proven",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/proven"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q202",
             "ore_value": 8.4
@@ -61,8 +61,8 @@
         },
         {
           "id": 2,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/probable",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": ["https://minmod.isi.edu/resource/probable"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q202",
             "ore_value": 72.5
@@ -111,8 +111,9 @@
         },
         {
           "id": 3,
-          "commodity": "zinc",
-          "category": "https://minmod.isi.edu/resource/proven + probable",
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category":["https://minmod.isi.edu/resource/proven",
+          "https://minmod.isi.edu/resource/probable"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q202",
             "ore_value": 80.9
@@ -160,11 +161,7 @@
           "date": "2017-10"
         }
       ],
-      "deposit_type": [
-        {
-          "id": "https://minmod.isi.edu/resource/Q409"
-        }
-      ]
+      "deposit_type": ["https://minmod.isi.edu/resource/Q409"]
     }
   ]
 }

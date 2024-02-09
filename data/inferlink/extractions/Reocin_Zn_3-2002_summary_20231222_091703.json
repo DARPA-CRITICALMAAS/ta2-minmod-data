@@ -12,7 +12,7 @@
         {
           "id": 0,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": "https://minmod.isi.edu/resource/Measured",
+          "category": ["https://minmod.isi.edu/resource/Measured"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 1162
@@ -41,7 +41,7 @@
         {
           "id": 1,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": "https://minmod.isi.edu/resource/classification",
+          "category": ["https://minmod.isi.edu/resource/Measured"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/q200",
             "ore_value": 1441
@@ -75,11 +75,7 @@
           "date": "2002-03-03"
         }
       ],
-      "deposit_type": [
-        {
-          "id": "https://minmod.isi.edu/resource/Q375"
-        }
-      ]
+      "deposit_type": ["https://minmod.isi.edu/resource/Q375"]
     }
   ]
 }
