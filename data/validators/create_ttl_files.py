@@ -36,6 +36,7 @@ def run_drepr_on_file(datasource):
     try:
         result = subprocess.run(command, shell=True, check=True, text=True, capture_output=True)
         output_lines = result.stdout.splitlines()[2:]  # Skip the first two lines
+        print(output_lines)
         return '\n'.join(output_lines)
     except subprocess.CalledProcessError as e:
         print("Error executing command:", e)
