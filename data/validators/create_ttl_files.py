@@ -37,7 +37,7 @@ def run_drepr_on_file(datasource):
     try:
         result = subprocess.run(command, shell=True, check=True, text=True, capture_output=True)
         output_lines = result.stdout.splitlines()[2:]  # Skip the first two lines
-        print('\n'.join(output_lines))
+        # print('\n'.join(output_lines))
         return '\n'.join(output_lines)
     except subprocess.CalledProcessError as e:
         print("Error executing command:", e)
@@ -46,10 +46,12 @@ def run_drepr_on_file(datasource):
 
 def remove_non_printable_chars(text):
     # Define a regular expression pattern to match Unicode escape sequences
-    pattern = r'\\u000b|\\n'
-
+    pattern = r'(\\u[0-9a-fA-F]{4})|\\u000b|\\n'
+    print('Normal text ', pattern)
     # Replace Unicode escape sequences with an empty string
-    clean_text = re.sub(pattern, '', text)
+    clean_text = re.sub(pattern, '', clean_text)
+
+    print('Cleaned text ', pattern)
 
     return clean_text
 def create_drepr_file(file_path, filename):
