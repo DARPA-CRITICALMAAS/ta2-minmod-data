@@ -46,7 +46,7 @@ def run_drepr_on_file(datasource):
 
 def remove_non_printable_chars(text):
     # Define a regular expression pattern to match Unicode escape sequences
-    pattern = r'(\\u[0-9a-fA-F]{4})|\\u000b|\\n'
+    pattern = r'\\u000b|\\n'
 
     # Replace Unicode escape sequences with an empty string
     clean_text = re.sub(pattern, '', text)
