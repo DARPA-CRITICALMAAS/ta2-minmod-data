@@ -49,7 +49,7 @@ def remove_non_printable_chars(text):
     pattern = r'(\\u[0-9a-fA-F]{4})|\\u000b|\\n'
     print('Normal text ', text)
     # Replace Unicode escape sequences with an empty string
-    clean_text = re.sub(pattern, '', text)
+    clean_text = text.replace('\n', '').replace('\t', '').replace('\\u000b', '').replace('\u000b', '')
 
     print('Cleaned text ', clean_text)
 
