@@ -42,9 +42,18 @@ def run_drepr_on_file(datasource):
         print("Command output (if any):", e.output)
         return ''
 
+def remove_non_printable_chars(text):
+    # Define a regular expression pattern to match Unicode escape sequences
+    pattern = r'(\\u[0-9a-fA-F]{4})|\\u000b|\\n'
+    # Replace Unicode escape sequences with an empty string
+    clean_text = text.replace('\n', '').replace('\\u000b', '')
+
+    return clean_text
+
 def create_drepr_file(file_path, filename):
     file_content = run_drepr_on_file(file_path)
-    validated_drepr = validate_pyshacl.validate_using_shacl(file_content)
+    clean_content = remove_non_printable_chars(file_content)
+    validated_drepr = validate_pyshacl.validate_using_shacl(clean_content)
 
     if not validated_drepr:
         print('Validation failed for pyshacl')
