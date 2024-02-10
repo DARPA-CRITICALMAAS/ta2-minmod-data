@@ -8,6 +8,7 @@ import generate_uris
 import base64
 import subprocess
 import validate_pyshacl
+import re
 
 def is_json_file(file_path):
     path, file_extension = os.path.splitext(file_path)
@@ -43,9 +44,17 @@ def run_drepr_on_file(datasource):
         print("Command output (if any):", e.output)
         return ''
 
+def remove_non_printable_chars(text):
+    # Define a regular expression pattern to match Unicode escape sequences
+    pattern = r'\\u[0-9a-fA-F]{4}'
+
+    # Replace Unicode escape sequences with an empty string
+    clean_text = re.sub(pattern, '', text)
+
+    return clean_text
 def create_drepr_file(file_path, filename):
     file_content = run_drepr_on_file(file_path)
-    encoded_content = file_content
+    encoded_content = remove_non_printable_chars(file_content)
     validated_drepr = validate_pyshacl.validate_using_shacl(encoded_content)
 
     if not validated_drepr:
