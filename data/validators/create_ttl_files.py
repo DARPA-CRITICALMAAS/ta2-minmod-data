@@ -45,7 +45,8 @@ def run_drepr_on_file(datasource):
 
 def create_drepr_file(file_path, filename):
     file_content = run_drepr_on_file(file_path)
-    validated_drepr = validate_pyshacl.validate_using_shacl(file_content)
+    encoded_content = base64.b64encode(file_content.encode()).decode()
+    validated_drepr = validate_pyshacl.validate_using_shacl(encoded_content)
 
     if not validated_drepr:
         print('Validation failed for pyshacl')
