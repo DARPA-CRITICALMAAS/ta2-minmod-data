@@ -14,11 +14,6 @@ def combine_graphs(infiles: List[str], outfile: str, base_uri: str = None):
                 for triple in triples_to_remove:
                     g.remove(triple)
 
-    # if base_uri is not None:
-    #     g.serialize(outfile, format="turtle", base=base_uri)
-    # else:
-    #     g.serialize(outfile, format="turtle")
-
     return g
 
 
