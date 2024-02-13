@@ -74,7 +74,7 @@ def validate_json_schema(filename):
                                 "location_source": {"type": "string"}
                             }
                         },
-                        "deposit_type" : {
+                        "deposit_type_candidate" : {
                             "type": "array",
                             "items": {
                                 "type": "object",
