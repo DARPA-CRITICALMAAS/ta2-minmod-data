@@ -82,7 +82,7 @@ def validate_json_schema(filename):
                                     "observed_name": {"type": "string"},
                                     "source": {"type": "string"},
                                     "normalized_uri": {"type": "string"},
-                                    "confidence": {"type": "string"},
+                                    "confidence": {"type": "number"}
                                 }
                             }
                         },

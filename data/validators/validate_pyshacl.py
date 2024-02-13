@@ -387,6 +387,7 @@ def validate_using_shacl(data_graph):
                         ] ;
                         sh:property [
                             sh:path mndr:confidence ;
+                            sh:or ( [ sh:datatype xsd:decimal ] [ sh:datatype xsd:integer ] ) ;
                         ]
                         .
                         
