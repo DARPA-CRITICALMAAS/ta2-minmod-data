@@ -62,9 +62,17 @@ schema = {
                             "location_source": {"type": "string"}
                         }
                     },
-                    "deposit_type": {
+                    "deposit_type" : {
                         "type": "array",
-                        "items": {"type": "string"}
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "observed_name": {"type": "string"},
+                                "source": {"type": "string"},
+                                "normalized_uri": {"type": "string"},
+                                "confidence": {"type": "string"},
+                            }
+                        }
                     },
                     "geology_info": {
                         "type": "object",
