@@ -6,10 +6,10 @@ preprocessing:
     code: |
       value = value.copy()
       print('&&&&&&&&&&')
-      if 'deposit_type' not in value:
-        value['deposit_type'] = []
-      if len(value['deposit_type']) == 0:
-        value['deposit_type'] = ["http://minmod.isi.edu/resource/MISSING"]
+      if 'deposit_type_candidates' not in value:
+        value['deposit_type_candidates'] = [{}]
+      if len(value['deposit_type_candidates']) == 0:
+        value['deposit_type_candidates'] = [{}]
       if 'name' not in value:
         value['name'] = -1
       if 'source_id' not in value:
@@ -452,6 +452,18 @@ attributes:
   page:
     path: ["MineralSite", .. , "MineralInventory", .. , "reference", "page_info", .., "page"]
     missing_values: [ -1 ]
+  deposit_type_name:
+    path: [ "MineralSite", .., "deposit_type_candidates", .., "observed_name" ]
+    missing_values: [ -1 ]
+  deposit_type_source:
+    path: [ "MineralSite", .., "deposit_type_candidates", .., "source" ]
+    missing_values: [ -1 ]
+  deposit_type_confidence:
+    path: [ "MineralSite", .., "deposit_type_candidates", .., "confidence" ]
+    missing_values: [ -1 ]
+  deposit_type_normalized_uri:
+    path: [ "MineralSite", .., "deposit_type_candidates", .., "normalized_uri" ]
+    missing_values: [ -1 ]
 
 alignments:
   - type: dimension
@@ -544,6 +556,29 @@ alignments:
     target: id_mineral_site
     aligned_dims:
       - { source: 1, target: 1 }
+  - type: dimension
+    source: id_mineral_site
+    target: deposit_type_name
+    aligned_dims:
+      - { source: 1, target: 1 }
+  - type: dimension
+    source: deposit_type_name
+    target: deposit_type_source
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 3, target: 3 }
+  - type: dimension
+    source: deposit_type_name
+    target: deposit_type_normalized_uri
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 3, target: 3 }
+  - type: dimension
+    source: deposit_type_name
+    target: deposit_type_confidence
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 3, target: 3 }
   - type: dimension
     source: id
     target: commodity
@@ -742,7 +777,10 @@ alignments:
 semantic_model:
   mndr:DepositType:1:
     properties:
-      - [drepr:uri, deposit_type_main]
+      - [ mndr:observed_name, deposit_type_name ]
+      - [ mndr:source, deposit_type_source ]
+      - [ mndr:normalized_uri, deposit_type_normalized_uri ]
+      - [ mndr:confidence, deposit_type_confidence ]
 
   mndr:MineralSite:1:
     properties:
@@ -752,7 +790,7 @@ semantic_model:
       - [ mndr:source_id, source_mineral_site ]
       - [ mndr:record_id, record_mineral_site ]
     links:
-      - - mndr:deposit_type
+      - - mndr:deposit_type_candidates
         - mndr:DepositType:1
       - - mndr:location_info
         - mndr:LocationInfo:1
