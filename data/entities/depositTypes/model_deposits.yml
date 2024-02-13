@@ -1,5 +1,8 @@
 version: "2"
-resources: csv
+resources:
+  default:
+    type: csv
+    delimiter: ":"
 preprocessing:
   - type: pmap
     path: [1.., 1]
