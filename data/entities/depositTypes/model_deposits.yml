@@ -10,9 +10,15 @@ attributes:
   name: [1.., 0]
   id: [1.., 1]
   depid: [1.., 1]
+  env: [1.., 2]
+  group: [1.., 3]
 alignments:
   - type: dimension
     value: name:0 <-> deposit_types:0
+  - type: dimension
+    value: env:0 <-> deposit_types:0
+  - type: dimension
+    value: group:0 <-> deposit_types:0
   - type: dimension
     value: id:0 <-> deposit_types:0
   - type: dimension
@@ -23,6 +29,8 @@ semantic_model:
       - [drepr:uri, id]
       - [rdfs:label, name, xsd:string]
       - [mndr:name, name, xsd:string]
+      - [mndr:environment, env, xsd:string]
+      - [mndr:deposit_group, group, xsd:string]
       - [mndr:id, depid, xsd:anyURI]
     static_properties: []
     inverse_static_properties: []
