@@ -12,6 +12,10 @@ preprocessing:
         value['deposit_type'] = ["http://minmod.isi.edu/resource/MISSING"]
       if 'name' not in value:
         value['name'] = -1
+      if 'source_id' not in value:
+        value['source_id'] = -1
+      if 'record_id' not in value:
+        value['record_id'] = -1
       if 'id' not in value:
         value['id'] = -1
       if 'MineralInventory' not in value:
@@ -295,6 +299,12 @@ attributes:
   name_mineral_site:
     path: [ "MineralSite", .. , "name" ]
     missing_values: [ -1 ]
+  source_mineral_site:
+    path: [ "MineralSite", .. , "source_id" ]
+    missing_values: [ -1 ]
+  record_mineral_site:
+    path: [ "MineralSite", .. , "record_id" ]
+    missing_values: [ -1 ]
   mineral_inven:
     path: [ "MineralSite", .. , "MineralInventory" ]
     missing_values: [ -1 ]
@@ -447,6 +457,16 @@ alignments:
   - type: dimension
     source: id_mineral_site
     target: name_mineral_site
+    aligned_dims:
+      - { source: 1, target: 1 }
+  - type: dimension
+    source: id_mineral_site
+    target: source_mineral_site
+    aligned_dims:
+      - { source: 1, target: 1 }
+  - type: dimension
+    source: id_mineral_site
+    target: record_mineral_site
     aligned_dims:
       - { source: 1, target: 1 }
   - type: dimension
@@ -729,6 +749,8 @@ semantic_model:
       - [ drepr:uri, id_mineral_site ]
       - [ mndr:id, id_mineral_site ]
       - [ mndr:name, name_mineral_site ]
+      - [ mndr:source_id, source_mineral_site ]
+      - [ mndr:record_id, record_mineral_site ]
     links:
       - - mndr:deposit_type
         - mndr:DepositType:1
