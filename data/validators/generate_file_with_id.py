@@ -32,7 +32,7 @@ def is_json_file_under_data(file_path):
     print(split_path)
     if len(split_path) > 0:
         if (len(split_path) > 3 and split_path[-4] == 'data' and split_path[-3] == 'inferlink' and split_path[-2] == 'extractions') \
-                or (len(split_path) > 2 and split_path[-2] == 'umn'):
+                or (len(split_path) > 2 and split_path[-2] == 'umn') or (len(split_path) > 2 and split_path[-2] == 'sri'):
             is_under_data_folder = True
 
     return is_under_data_folder and file_extension.lower() == '.json'
