@@ -374,21 +374,11 @@ def validate_using_shacl(data_graph):
     mndr:DepositType  a          sh:NodeShape;
     sh:targetClass mndr:DepositType;
            sh:property [
-                            sh:path mndr:normalized_uri ;
+                            sh:path mndr:id ;
                             sh:nodeKind sh:IRI ;
                             sh:minCount 0 ;  
                             sh:maxCount 1 ;
-                        ] ;
-                        sh:property [
-                            sh:path mndr:observed_name ;
-                        ] ;
-                        sh:property [
-                            sh:path mndr:source ;
-                        ] ;
-                        sh:property [
-                            sh:path mndr:confidence ;
-                        ]
-                        .
+                        ] .
                         
     mndr:LocationInfo  a          sh:NodeShape;
     sh:targetClass mndr:LocationInfo;
