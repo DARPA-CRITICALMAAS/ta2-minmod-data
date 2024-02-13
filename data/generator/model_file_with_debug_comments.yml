@@ -6,10 +6,10 @@ preprocessing:
     code: |
       value = value.copy()
       print('&&&&&&&&&&')
-      if 'deposit_type' not in value:
-        value['deposit_type'] = []
-      if len(value['deposit_type']) == 0:
-        value['deposit_type'] = ["http://minmod.isi.edu/resource/MISSING"]
+      if 'deposit_type_candidate' not in value:
+        value['deposit_type_candidate'] = [{}]
+      if len(value['deposit_type_candidate']) == 0:
+        value['deposit_type_candidate'] = [{}]
       if 'name' not in value:
         value['name'] = -1
       if 'source_id' not in value:
@@ -165,6 +165,36 @@ preprocessing:
         value['date'] = -1
       print(value)
       return value
+  - type: pmap
+    path: [ "MineralSite", .., "deposit_type_candidate" ]
+    code: |
+      value = value.copy()
+      if len(value) > 0:
+        for v in value:
+          if 'normalized_uri' not in v:
+            v['normalized_uri'] = -1
+          if 'source' not in v:
+            v['source'] = -1
+          if 'confidence' not in v:
+            v['confidence'] = -1
+          if 'observed_name' not in v:
+            v['observed_name'] = -1
+        return value
+      value = [{}]
+      return value
+  - type: pmap
+    path: [ "MineralSite", .. , "deposit_type_candidate", .. ]
+    code: |
+      v = value.copy()
+      if 'normalized_uri' not in v:
+        v['normalized_uri'] = -1
+      if 'source' not in v:
+        v['source'] = -1
+      if 'confidence' not in v or v['confidence'] == 'NaN':
+        v['confidence'] = -1
+      if 'observed_name' not in v:
+        v['observed_name'] = -1
+      return v
   - type: pmap
     path: [ "MineralSite", .. , "MineralInventory", .. , "reference" ]
     change_structure: false
@@ -452,6 +482,18 @@ attributes:
   page:
     path: ["MineralSite", .. , "MineralInventory", .. , "reference", "page_info", .., "page"]
     missing_values: [ -1 ]
+  deposit_type_name:
+    path: [ "MineralSite", .., "deposit_type_candidate", .., "observed_name" ]
+    missing_values: [ -1 ]
+  deposit_type_source:
+    path: [ "MineralSite", .., "deposit_type_candidate", .., "source" ]
+    missing_values: [ -1 ]
+  deposit_type_confidence:
+    path: [ "MineralSite", .., "deposit_type_candidate", .., "confidence" ]
+    missing_values: [ -1 ]
+  deposit_type_normalized_uri:
+    path: [ "MineralSite", .., "deposit_type_candidate", .., "normalized_uri" ]
+    missing_values: [ -1 ]
 
 alignments:
   - type: dimension
@@ -544,6 +586,29 @@ alignments:
     target: id_mineral_site
     aligned_dims:
       - { source: 1, target: 1 }
+  - type: dimension
+    source: id_mineral_site
+    target: deposit_type_name
+    aligned_dims:
+      - { source: 1, target: 1 }
+  - type: dimension
+    source: deposit_type_name
+    target: deposit_type_source
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 3, target: 3 }
+  - type: dimension
+    source: deposit_type_name
+    target: deposit_type_normalized_uri
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 3, target: 3 }
+  - type: dimension
+    source: deposit_type_name
+    target: deposit_type_confidence
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 3, target: 3 }
   - type: dimension
     source: id
     target: commodity
@@ -742,7 +807,12 @@ alignments:
 semantic_model:
   mndr:DepositType:1:
     properties:
-      - [drepr:uri, deposit_type_main]
+      - [ mndr:observed_name, deposit_type_name ]
+      - [ mndr:source, deposit_type_source ]
+      - - mndr:normalized_uri
+        - deposit_type_normalized_uri
+        - xsd:anyURI
+      - [ mndr:confidence, deposit_type_confidence ]
 
   mndr:MineralSite:1:
     properties:
@@ -752,7 +822,7 @@ semantic_model:
       - [ mndr:source_id, source_mineral_site ]
       - [ mndr:record_id, record_mineral_site ]
     links:
-      - - mndr:deposit_type
+      - - mndr:deposit_type_candidate
         - mndr:DepositType:1
       - - mndr:location_info
         - mndr:LocationInfo:1
