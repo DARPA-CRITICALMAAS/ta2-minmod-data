@@ -10,15 +10,9 @@ def combine_graphs(infiles: List[str], outfile: str, base_uri: str = None):
         g.parse(infile, format="turtle")
         for subj, pred, obj in g:
             if 'MISSING' in subj or 'MISSING' in pred or 'MISSING' in obj:
-                print(f"Subject: {subj}, Predicate: {pred}, Object: {obj}")
                 triples_to_remove = list(g.triples((subj, pred, obj)))
                 for triple in triples_to_remove:
                     g.remove(triple)
-
-    if base_uri is not None:
-        g.serialize(outfile, format="turtle", base=base_uri)
-    else:
-        g.serialize(outfile, format="turtle")
 
     return g
 
@@ -45,5 +39,10 @@ with open(merged_json_file, "w") as file:
 print(files_array)
 print(merged_json_file)
 
-combine_graphs(files_array, merged_json_file,'https://minmod.isi.edu/resource/')
+g = combine_graphs(files_array, merged_json_file,'https://minmod.isi.edu/resource/')
+
+ttl_string = g.serialize(format="turtle")
+
+with open(merged_json_file, "w") as file:
+    file.write(ttl_string)
 
