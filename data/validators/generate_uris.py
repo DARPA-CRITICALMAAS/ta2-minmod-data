@@ -1,5 +1,6 @@
 import re
 import json
+import uuid
 
 def mineral_site_uri(site):
     try:
@@ -10,6 +11,14 @@ def mineral_site_uri(site):
     except Exception as e:
         return ({"error": str(e)})
 
+def deposit_type_uri(data):
+    try:
+        if site is None:
+            raise
+        processed_data = process_deposit_type(data)
+        return ({"result": processed_data})
+    except Exception as e:
+        return ({"error": str(e)})
 
 def document_uri(data):
     try:
@@ -52,10 +61,34 @@ def process_mineral_site(ms):
         merged_string = (f"{ms['record_id']}")
         merged_string = slugify(merged_string)
     else:
-        return ""
+        return str(uuid.uuid4())
 
     if merged_string == '':
-        return ""
+        return str(uuid.uuid4())
+    return merged_string
+
+
+def process_deposit_type(data):
+    merged_string = ''
+    if 'observed_name' in data:
+        merged_string = merged_string + slugify(data['observed_name'])
+    merged_string += '-'
+
+    if 'source' in data:
+        merged_string = merged_string + slugify(data['source'])
+    merged_string += '-'
+
+    if 'normalized_uri' in data:
+        merged_string = merged_string+ slugify(data['normalized_uri'])
+    merged_string += '-'
+
+    if 'confidence' in data:
+        merged_string = merged_string + slugify(str(data['confidence']))
+    merged_string += '-'
+
+    if merged_string == '':
+        return str(uuid.uuid4())
+
     return merged_string
 
 def process_document(data):
@@ -85,7 +118,7 @@ def process_document(data):
     merged_string += '-'
 
     if merged_string == '':
-        return ""
+        return str(uuid.uuid4())
 
     return merged_string
 

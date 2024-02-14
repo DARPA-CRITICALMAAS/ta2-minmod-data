@@ -179,6 +179,8 @@ preprocessing:
             v['confidence'] = -1
           if 'observed_name' not in v:
             v['observed_name'] = -1
+          if 'id' not in v:
+            v['id'] = -1
         return value
       value = [{}]
       return value
@@ -194,6 +196,8 @@ preprocessing:
         v['confidence'] = -1
       if 'observed_name' not in v:
         v['observed_name'] = -1
+      if 'id' not in v:
+        v['id'] = -1
       return v
   - type: pmap
     path: [ "MineralSite", .. , "MineralInventory", .. , "reference" ]
@@ -482,6 +486,9 @@ attributes:
   page:
     path: ["MineralSite", .. , "MineralInventory", .. , "reference", "page_info", .., "page"]
     missing_values: [ -1 ]
+  id_deposit_type_candidate:
+    path: [ "MineralSite", .., "deposit_type_candidate", .., "id" ]
+    missing_values: [ -1 ]
   deposit_type_name:
     path: [ "MineralSite", .., "deposit_type_candidate", .., "observed_name" ]
     missing_values: [ -1 ]
@@ -591,6 +598,12 @@ alignments:
     target: deposit_type_name
     aligned_dims:
       - { source: 1, target: 1 }
+  - type: dimension
+    source: deposit_type_name
+    target: id_deposit_type_candidate
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 3, target: 3 }
   - type: dimension
     source: deposit_type_name
     target: deposit_type_source
@@ -807,6 +820,8 @@ alignments:
 semantic_model:
   mndr:DepositTypeCandidate:1:
     properties:
+      - [ drepr:uri, id_deposit_type_candidate ]
+      - [ mndr:id, id_deposit_type_candidate ]
       - [ mndr:observed_name, deposit_type_name ]
       - [ mndr:source, deposit_type_source ]
       - - mndr:normalized_uri
@@ -823,7 +838,7 @@ semantic_model:
       - [ mndr:record_id, record_mineral_site ]
     links:
       - - mndr:deposit_type_candidate
-        - mndr:DepositType:1
+        - mndr:DepositTypeCandidate:1
       - - mndr:location_info
         - mndr:LocationInfo:1
       - - mndr:mineral_inventory
