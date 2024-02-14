@@ -13,7 +13,7 @@ def mineral_site_uri(site):
 
 def deposit_type_uri(data):
     try:
-        if site is None:
+        if data is None:
             raise
         processed_data = process_deposit_type(data)
         return ({"result": processed_data})
