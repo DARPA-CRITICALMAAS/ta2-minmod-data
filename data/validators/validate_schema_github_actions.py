@@ -24,6 +24,11 @@ def document_uri(data):
     uri = response['result']
     return uri
 
+def deposit_uri(data):
+    response = generate_uris.deposit_type_uri(data)
+    uri = response['result']
+    return uri
+
 def mineral_inventory_uri(param1):
     response = generate_uris.mineral_inventory_uri(param1)
     uri = response['result']
@@ -225,9 +230,10 @@ if is_json_file_under_data(file_path):
     mndr_url = 'https://minmod.isi.edu/resource/'
 
     for ms in ms_list:
-        if "deposit_type" in ms:
-            for dp in ms['deposit_type']:
-                is_valid_uri(dp)
+        if "deposit_type_candidate" in ms:
+            for dp in ms['deposit_type_candidate']:
+                is_valid_uri(dp['normalized_uri'])
+                dp['id'] = mndr_url + deposit_uri(dp)
 
         ms['id'] = mndr_url + mineral_site_uri(ms)
         if "location_info" in ms:

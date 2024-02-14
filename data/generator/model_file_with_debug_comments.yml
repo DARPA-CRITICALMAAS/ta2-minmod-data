@@ -179,6 +179,8 @@ preprocessing:
             v['confidence'] = -1
           if 'observed_name' not in v:
             v['observed_name'] = -1
+          if 'id' not in v:
+            v['id'] = -1
         return value
       value = [{}]
       return value
@@ -194,6 +196,297 @@ preprocessing:
         v['confidence'] = -1
       if 'observed_name' not in v:
         v['observed_name'] = -1
+      if 'id' not in v:
+        v['id'] = -1
+      return v
+  - type: pmap
+    path: [ "MineralSite", .. , "MineralInventory", .. , "reference" ]
+    change_structure: false
+    code: |
+      print('^^^^^')
+      value = value.copy()
+      if 'id' not in value:
+        value['id'] = -1
+      if 'document' not in value:
+        value['document'] = {}
+      if 'page_info' not in value:
+        value['page_info'] = {}
+      print(value)
+      return value
+  - type: pmap
+    path: [ "MineralSite", .. , "MineralInventory", .. , "reference", "document" ]
+    change_structure: false
+    code: |
+      print('------^^^^^-------')
+      print(value)
+      if value == -1:
+        return value
+      value = value.copy()
+      if 'id' not in value:
+        value['id'] = -1
+      if 'doi' not in value:
+        value['doi'] = -1
+      if 'issue' not in value:
+        value['issue'] = -1
+      if 'year' not in value:
+        value['year'] = -1
+      if 'uri' not in value:
+        value['uri'] = -1
+      if 'journal' not in value:
+        value['journal'] = -1
+      if 'description' not in value:
+        value['description'] = -1
+      if 'title' not in value:
+        value['title'] = -1
+      if 'volume' not in value:
+        value['volume'] = -1
+      if 'month' not in value:
+        value['month'] = -1
+      if 'authors' not in value:
+        value['authors'] = -1
+      return value
+  - type: pmap
+    path: [ "MineralSite", .., "MineralInventory", .., "reference", "document", "authors", ]
+    change_structure: false
+    code: |
+      print('------aaaaaaaaaa-------')
+      print(value)
+      print(type(value))
+      if value == -1:
+        return value
+      value = value.copy()
+      if len(value) == 0:
+        value = ''
+      else:
+        value = ",".join(value)
+      
+      print(value)
+      
+      return value
+  - type: pmap
+    path: [ "MineralSite", .. , "MineralInventory", .. , "reference", "page_info" ]
+    change_structure: false
+    code: |
+      if value == -1:
+        return value
+      print('------yyyyyyyy-------')
+      print(value)
+      value = value.copy()
+      if len(value) > 0:
+        for v in value:
+          if 'page' not in v:
+            v['page'] = -1
+          if 'bounding_box' not in v:
+            v['bounding_box'] = {}
+          else:
+            bb = v['bounding_box']
+            if 'x_min' not in bb:
+              bb['x_min'] = -1
+            elif bb['x_min'] == '':
+              bb['x_min'] = -1
+            if 'x_max' not in bb:
+              bb['x_max'] = -1
+            elif bb['x_max'] == '':
+              bb['x_max'] = -1
+            if 'y_min' not in bb:
+              bb['y_min'] = -1
+            elif bb['y_min'] == '':
+              bb['y_min'] = -1
+            if 'y_max' not in bb:
+              bb['y_max'] = -1 
+            elif bb['y_max'] == '':
+              bb['y_max'] = -1
+
+        return value
+      value = [{"bounding_box": {}, "page": -1}]
+      return value
+  - type: pmap
+    path: [ "MineralSite", .. , "MineralInventory", .. , "reference", "page_info", .., "bounding_box"]
+    change_structure: false
+    code: |
+      print('(((((((((((((')
+      print(value)
+      value = value.copy()
+      if 'x_min' not in value:
+        value['x_min'] = -1
+      elif value['x_min'] == '':
+          value['x_min'] = -1
+      if 'x_max' not in value:
+        value['x_max'] = -1
+      elif value['x_max'] == '':
+          value['x_max'] = -1
+      if 'y_min' not in value:
+        value['y_min'] = -1
+      elif value['y_min'] == '':
+          value['y_min'] = -1
+      if 'y_max' not in value:
+        value['y_max'] = -1
+      elif value['y_max'] == '':
+          value['y_max'] = -1
+      print(value)
+      return value
+
+
+  - type: pmap
+    path: [ "MineralSystem" ]
+    code: |
+      value = value.copy()
+      print('&&&&&&&&&&sssssssss')
+      if 'source' not in value:
+        value['source'] = [{}]
+      if len(value['source']) == 0:
+        value['source'] = [{}]
+      if 'pathway' not in value:
+        value['pathway'] = [{}]
+      if len(value['pathway']) == 0:
+        value['pathway'] = [{}]
+      if 'trap' not in value:
+        value['trap'] = [{}]
+      if len(value['trap']) == 0:
+        value['trap'] = [{}]
+      if 'preservation' not in value:
+        value['preservation'] = [{}]
+      if len(value['preservation']) == 0:
+        value['preservation'] = [{}]
+      
+      
+      print(value)
+      return value
+  - type: pmap
+    path: [ "MineralSystem" , "source", .. ]
+    code: |
+      value = value.copy()
+      print('ggggggggggg')
+      if 'criteria' not in value:
+        value['criteria'] = -1
+      if 'theorectical' not in value:
+        value['theorectical'] = -1
+      if 'supporting_references' not in value:
+        value['supporting_references'] = [{}]
+      if len(value['supporting_references']) == 0:
+        value['supporting_references'] = [{}]
+      if 'potential_dataset' not in value:
+        value['potential_dataset'] = [{}]
+      print(value)
+      return value
+  - type: pmap
+    path: [ "MineralSite", .. , "location_info" ]
+    code: |
+      value = value.copy()
+      print('%%%%%%%%%%')
+      if 'location' not in value:
+        value['location'] = -1
+      if 'country' not in value:
+        value['country'] = -1
+      if 'state_or_province' not in value:
+        value['state_or_province'] = -1
+      if 'crs' not in value:
+        value['crs'] = -1
+      if 'location_source_record_id' not in value:
+        value['location_source_record_id'] = -1
+      if 'location_source' not in value:
+        value['location_source'] = -1
+      return value
+  - type: pmap
+    path: ["MineralSite", .., "MineralInventory"]
+    code: |
+      value = value.copy()
+      print('^^^^^^^^^^^^^')
+      print(value)
+      print(len(value))
+      if len(value) > 0:
+        print('Len is not 0 .......')
+        for v in value:
+          if 'category' not in v:
+            v['category'] = []
+          if len(v['category']) == 0:
+            v['category'] = ["http://minmod.isi.edu/resource/MISSING"]
+          if 'id' not in v:
+            v['id'] = -1
+          if 'commodity' not in v:
+            v['commodity'] = -1
+          if 'date' not in v:
+            v['date'] = -1
+          if 'zone' not in v:
+            v['zone'] = -1
+          if 'ore' not in v:
+            v['ore'] = {'ore_unit': -1, 'ore_value': -1}
+          if 'reference' not in v:
+            v['reference'] = {}
+          if 'grade' not in v:
+            v['grade'] = {'grade_unit': -1, 'grade_value': -1}
+          if 'cutoff_grade' not in v:
+            v['cutoff_grade'] = {'grade_unit': -1, 'grade_value': -1}
+          if 'contained_metal' not in v:
+            v['contained_metal'] = -1
+        print(value)
+        return value
+      value = [{}]
+      print(value)
+      return value
+  - type: pmap
+    path: [ "MineralSite", .. , "MineralInventory", ..  ]
+    code: |
+      value = value.copy()
+      print('--------')
+      print(value)
+      if 'zone' not in value:
+        value['zone'] = -1
+      if 'category' not in value:
+        value['category'] = []
+      if len(value['category']) == 0:
+        value['category'] = ["http://minmod.isi.edu/resource/MISSING"]
+      if 'commodity' not in value:
+        value['commodity'] = -1
+      if 'reference' not in value:
+        value['reference'] = {}
+      if 'contained_metal' not in value:
+        value['contained_metal'] = -1
+      if 'id' not in value:
+        value['id'] = -1
+      if 'ore' not in value:
+        value['ore'] = {'ore_unit': -1, 'ore_value': -1}
+      if 'grade' not in value:
+        value['grade'] = {'grade_unit': -1, 'grade_value': -1}
+      if 'cutoff_grade' not in value:
+        value['cutoff_grade'] = {'grade_unit': -1, 'grade_value': -1}
+      if 'date' not in value:
+        value['date'] = -1
+      print(value)
+      return value
+  - type: pmap
+    path: [ "MineralSite", .., "deposit_type_candidate" ]
+    code: |
+      value = value.copy()
+      if len(value) > 0:
+        for v in value:
+          if 'normalized_uri' not in v:
+            v['normalized_uri'] = -1
+          if 'source' not in v:
+            v['source'] = -1
+          if 'confidence' not in v:
+            v['confidence'] = -1
+          if 'observed_name' not in v:
+            v['observed_name'] = -1
+          if 'id' not in v:
+            v['id'] = -1
+        return value
+      value = [{}]
+      return value
+  - type: pmap
+    path: [ "MineralSite", .. , "deposit_type_candidate", .. ]
+    code: |
+      v = value.copy()
+      if 'normalized_uri' not in v:
+        v['normalized_uri'] = -1
+      if 'source' not in v:
+        v['source'] = -1
+      if 'confidence' not in v or v['confidence'] == 'NaN':
+        v['confidence'] = -1
+      if 'observed_name' not in v:
+        v['observed_name'] = -1
+      if 'id' not in v:
+        v['id'] = -1
       return v
   - type: pmap
     path: [ "MineralSite", .. , "MineralInventory", .. , "reference" ]
@@ -482,6 +775,9 @@ attributes:
   page:
     path: ["MineralSite", .. , "MineralInventory", .. , "reference", "page_info", .., "page"]
     missing_values: [ -1 ]
+  id_deposit_type_candidate:
+    path: [ "MineralSite", .., "deposit_type_candidate", .., "id" ]
+    missing_values: [ -1 ]
   deposit_type_name:
     path: [ "MineralSite", .., "deposit_type_candidate", .., "observed_name" ]
     missing_values: [ -1 ]
@@ -591,6 +887,12 @@ alignments:
     target: deposit_type_name
     aligned_dims:
       - { source: 1, target: 1 }
+  - type: dimension
+    source: deposit_type_name
+    target: id_deposit_type_candidate
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 3, target: 3 }
   - type: dimension
     source: deposit_type_name
     target: deposit_type_source
@@ -807,6 +1109,8 @@ alignments:
 semantic_model:
   mndr:DepositTypeCandidate:1:
     properties:
+      - [ drepr:uri, id_deposit_type_candidate ]
+      - [ mndr:id, id_deposit_type_candidate ]
       - [ mndr:observed_name, deposit_type_name ]
       - [ mndr:source, deposit_type_source ]
       - - mndr:normalized_uri
@@ -823,7 +1127,7 @@ semantic_model:
       - [ mndr:record_id, record_mineral_site ]
     links:
       - - mndr:deposit_type_candidate
-        - mndr:DepositType:1
+        - mndr:DepositTypeCandidate:1
       - - mndr:location_info
         - mndr:LocationInfo:1
       - - mndr:mineral_inventory
