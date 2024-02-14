@@ -1,5 +1,7 @@
 # MinMod Knowledge Graph - Data Format
 
+## Note: This page is under construction as we are aligning schemas and data at the Feb hackathon
+
 In order to deploy data to the knowledge graph in minmod, the ttl file needs to be in a specific format that follows our data schema design. In order to generate this ttl file, we would be requiring our stakeholders to submit data in a specific json format, that follow a certain structure, data types, domain and ranges for the values.
 This documentation is to highlight the requirements for any data json being sent
 

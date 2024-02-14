@@ -45,6 +45,12 @@ def process_mineral_site(ms):
     if 'source_id' in ms and 'record_id' in ms:
         merged_string = (f"{ms['source_id']}-{str(ms['record_id'])}")
         merged_string = slugify(merged_string)
+    elif 'source_id' in ms:
+        merged_string = (f"{ms['source_id']}")
+        merged_string = slugify(merged_string)
+    elif 'record_id' in ms:
+        merged_string = (f"{ms['record_id']}")
+        merged_string = slugify(merged_string)
     else:
         return ""
 

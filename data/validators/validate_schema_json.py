@@ -62,9 +62,17 @@ schema = {
                             "location_source": {"type": "string"}
                         }
                     },
-                    "deposit_type": {
+                    "deposit_type_candidate" : {
                         "type": "array",
-                        "items": {"type": "string"}
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "observed_name": {"type": "string"},
+                                "source": {"type": "string"},
+                                "normalized_uri": {"type": "string"},
+                                "confidence": {"type": "string"},
+                            }
+                        }
                     },
                     "geology_info": {
                         "type": "object",
@@ -195,9 +203,9 @@ mi_url = base_url + 'mineral_inventory'
 headers = {"Content-Type": "application/json"}
 
 for ms in ms_list:
-    if "deposit_type" in ms:
-        for dp in ms['deposit_type']:
-            is_valid_uri(dp)
+    if "deposit_type_candidate" in ms:
+        for dp in ms['deposit_type_candidate']:
+            is_valid_uri(dp['normalized_uri'])
 
     ms['id'] = mndr_url + mineral_site_uri(ms)
 
