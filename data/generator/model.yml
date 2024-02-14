@@ -163,8 +163,6 @@ preprocessing:
             v['confidence'] = -1
           if 'observed_name' not in v:
             v['observed_name'] = -1
-          if 'id' not in v:
-            v['id'] = -1
         return value
       value = [{}]
       return value
@@ -680,7 +678,6 @@ alignments:
     aligned_dims:
       - { source: 1, target: 1 }
       - { source: 3, target: 3 }
-
   - type: dimension
     source: id_document
     target: page

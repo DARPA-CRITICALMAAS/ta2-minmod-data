@@ -203,7 +203,6 @@ def validate_using_shacl(data_graph):
     sh:class mndr:MineralSite;
             sh:property [   
             sh:path mndr:deposit_type_candidate ;
-            sh:minCount 0 ;
             sh:or ( [ sh:nodeKind sh:IRI ; ] [ sh:class mndr:DepositTypeCandidate ] ) ;
         ];
         sh:property [   
