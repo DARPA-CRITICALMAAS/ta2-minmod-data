@@ -2,7 +2,7 @@
   "MineralSite": [
     {
       "source_id": "https://w3id.org/usgs/z/4530692/XI5AZB8U",
-      "record_id": "1",
+      "record_id": 1,
       "name": "Technical Report on the Preliminary Assessment of the Birch Lake and Maturi Deposits Minnesota U.S.A.",
       "location_info": {
         "location": "POINT(-91.8 47.733333)",
@@ -31,7 +31,7 @@
           "contained_metal": 191821.0,
           "reference": {
             "document": {
-              "title": "Technical Report on the Preliminary Assessment of the Birch Lake and Maturi Deposits Minnesota U.S.A.",
+              "title": "NI 43-101 Technical Report for the Birch Lake-Maturi Project in Minnesota, United States dated October 2006",
               "doi": "https://w3id.org/usgs/z/4530692/XI5AZB8U",
               "authors": [
                 "Graham G. Clow P.Eng.",
@@ -78,7 +78,7 @@
           "contained_metal": 402.888,
           "reference": {
             "document": {
-              "title": "Technical Report on the Preliminary Assessment of the Birch Lake and Maturi Deposits Minnesota U.S.A.",
+              "title": "NI 43-101 Technical Report for the Birch Lake-Maturi Project in Minnesota, United States dated October 2006",
               "doi": "https://w3id.org/usgs/z/4530692/XI5AZB8U",
               "authors": [
                 "Graham G. Clow P.Eng.",
@@ -106,13 +106,11 @@
           "zone": "maturi"
         }
       ],
-      "deposit_type_candidates": [
+      "deposit_type_candidate": [
         {
           "observed_name": "magmatic nickel- copper-platinum group element (PGE)",
-          "normalized_uri": {
-              "name": "https://minmod.isi.edu/resource/Q478"
-          },
-          "confidence": "1",
+          "normalized_uri":"https://minmod.isi.edu/resource/Q478",
+          "confidence": 1,
           "source": "SME"
         }
       ]
