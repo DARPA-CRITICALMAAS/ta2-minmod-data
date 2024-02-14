@@ -1,10 +1,5 @@
 version: "2"
 resources: csv
-preprocessing:
-  - type: pmap
-    path: [1.., 0]
-    code: |
-      return "https://minmod.isi.edu/resource/" + value
 attributes:
   minmod_id: [1.., 0]
   same_as_id: [1.., 1]
