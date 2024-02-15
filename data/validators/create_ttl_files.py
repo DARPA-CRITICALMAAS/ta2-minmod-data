@@ -98,4 +98,5 @@ def create_drepr_from_mineral_system(file_path, filename):
 
     with open(file_path, 'r') as file:
         file_contents = file.read()
+    print(file_contents)
     create_drepr_file_mineral_system(file_path, filename)
