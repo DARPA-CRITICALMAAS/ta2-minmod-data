@@ -736,7 +736,6 @@ def add_id_to_mineral_system(json_data, new_json_folder, file_name_without_path)
             if f in ms:
                 for f_object in ms[f]:
                     if "supporting_references" in f_object:
-                        # print(f_object['supporting_references'])
                         for reference in f_object['supporting_references']:
                             if "document" in reference:
                                 document = reference['document']
@@ -744,7 +743,6 @@ def add_id_to_mineral_system(json_data, new_json_folder, file_name_without_path)
                                     "document": document
                                 }
                                 document['id'] = mndr_url + document_uri(doc_data)
-                                # print(document['id'])
 
 
     file_to_write = new_json_folder + '/' + file_name_without_path
@@ -784,10 +782,8 @@ if is_json_file_under_data(file_path):
 
 
     if 'MineralSite' in json_data:
-        print('Adding to M Site')
         json_data = add_id_to_mineral_site(json_data, new_json_folder, file_name_without_path)
     elif 'MineralSystem' in json_data:
-        print('Adding to M System')
         json_data = add_id_to_mineral_system(json_data, new_json_folder, file_name_without_path)
 
 
