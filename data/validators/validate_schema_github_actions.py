@@ -763,7 +763,7 @@ if is_json_file_under_data(file_path):
     print(f'{file_path} is a JSON file, running validation on it')
     json_data = {}
     try:
-        with open(filename) as file:
+        with open(file_path) as file:
             json_data = json.load(file)
         if 'MineralSite' in json_data:
             json_data = validate_json_schema(json_data)
