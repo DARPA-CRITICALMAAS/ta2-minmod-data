@@ -123,7 +123,7 @@ def validate_json_schema(json_data):
                                                 "type": "object",
                                                 "properties": {
                                                     "id":  {"type": ["string", "number"]},
-                                                    {"type": ["string", "null"]},
+                                                    "title": {"type": ["string", "null"]},
                                                     "doi": {"type": ["string", "null"]},
                                                     "uri": {"type": ["string", "null"]},
                                                     "journal": {"type": ["string", "null"]},
@@ -248,7 +248,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        {"type": ["string", "null"]},
+                                                        "title": {"type": ["string", "null"]},
                                                         "doi": {"type": ["string", "null"]},
                                                         "uri": {"type": ["string", "null"]},
                                                         "journal": {"type": ["string", "null"]},
@@ -316,7 +316,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        {"type": ["string", "null"]},
+                                                        "title": {"type": ["string", "null"]},
                                                         "doi": {"type": ["string", "null"]},
                                                         "uri": {"type": ["string", "null"]},
                                                         "journal": {"type": ["string", "null"]},
@@ -384,7 +384,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        {"type": ["string", "null"]},
+                                                        "title": {"type": ["string", "null"]},
                                                         "doi": {"type": ["string", "null"]},
                                                         "uri": {"type": ["string", "null"]},
                                                         "journal": {"type": ["string", "null"]},
@@ -452,7 +452,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        {"type": ["string", "null"]},
+                                                        "title": {"type": ["string", "null"]},
                                                         "doi": {"type": ["string", "null"]},
                                                         "uri": {"type": ["string", "null"]},
                                                         "journal": {"type": ["string", "null"]},
@@ -520,7 +520,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        {"type": ["string", "null"]},
+                                                        "title": {"type": ["string", "null"]},
                                                         "doi": {"type": ["string", "null"]},
                                                         "uri": {"type": ["string", "null"]},
                                                         "journal": {"type": ["string", "null"]},
@@ -588,7 +588,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        {"type": ["string", "null"]},
+                                                        "title": {"type": ["string", "null"]},
                                                         "doi": {"type": ["string", "null"]},
                                                         "uri": {"type": ["string", "null"]},
                                                         "journal": {"type": ["string", "null"]},
