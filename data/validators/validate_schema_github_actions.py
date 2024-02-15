@@ -412,8 +412,7 @@ def validate_json_schema_mineral_system(json_data):
                                                                     "x_max": {"type": ["string", "number"]},
                                                                     "y_min": {"type": ["string", "number"]},
                                                                     "y_max": {"type": ["string", "number"]}
-                                                                },
-                                                                "required": ["x_min", "x_max", "y_min", "y_max"]
+                                                                }
                                                             }
                                                         },
                                                         "required": ["page"]

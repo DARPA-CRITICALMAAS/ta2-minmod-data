@@ -79,7 +79,7 @@ def create_drepr_file_mineral_system(file_path, filename):
     file_content = run_drepr_on_file_mineral_system(file_path)
     clean_content = remove_non_printable_chars(file_content)
 
-    print(clean_content)
+    # print(clean_content)
     validated_drepr = validate_pyshacl.validate_mineral_system_using_shacl(clean_content)
 
     if not validated_drepr:
@@ -100,5 +100,5 @@ def create_drepr_from_mineral_system(file_path, filename):
 
     with open(file_path, 'r') as file:
         file_contents = file.read()
-    print(file_contents)
+    # print(file_contents)
     create_drepr_file_mineral_system(file_path, filename)
