@@ -737,7 +737,6 @@ def add_id_to_mineral_system(json_data):
             if f in ms:
                 for f_object in ms[f]:
                     if "supporting_references" in f_object:
-                        print(f_object['supporting_references'])
                         for reference in f_object['supporting_references']:
                             if "document" in reference:
                                 document = reference['document']
@@ -745,7 +744,6 @@ def add_id_to_mineral_system(json_data):
                                     "document": document
                                 }
                                 document['id'] = mndr_url + document_uri(doc_data)
-                                print(document['id'])
 
 
     filename = get_filename(file_path)
