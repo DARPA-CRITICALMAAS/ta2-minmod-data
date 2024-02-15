@@ -1,0 +1,165 @@
+{
+  "MineralSystem": [
+    {
+      "source": [
+        {
+          "criteria": "The mappable proxy that represents the geological features related to the source of MVT Zinc Lead deposits could be the distribution of evaporites and the presence of stratified basins.",
+          "theoretical": "N/A",
+          "potential_dataset": [
+            {
+              "name": "Geology:Geological properties:Prescence or absence or absence of evaporitic sedimentary rocks:Precense or absence of geological property:Geology_Dictionary_Evaporitic",
+              "relevance_score": 0.9999037328639782
+            },
+            {
+              "name": "Geophysics:Gravity:Horizontal gradient magnitude (HGM) of gravity data represents summation of the x and y-derivative of data, which serves as edge detection and emphasizes lateral density contrasts in the data. Can be useful for detection of faults and geologic contacts. :Horizontal gradient magnitude (HGM):Gravity_Bouguer_HGM",
+              "relevance_score": 0.9963913680190434
+            },
+            {
+              "name": "Geology:Geological properties:Presence or absence of carbonaceous sedimentary rocks:Precense or absence of geological property:Geology_Dictionary_Carbonaceous",
+              "relevance_score": 0.9963755108755199
+            },
+            {
+              "name": "Geology:Geological properties:Prescence or absence of calcareous sedimentary rocks:Precense or absence of geological property:Geology_Dictionary_Calcareous",
+              "relevance_score": 0.9953783787111417
+            },
+            {
+              "name": "Geology:Geological properties:Presence or absence of sedimentary rocks classified as redbeds:Precense or absence of geological property:Geology_Dictionary_RedBed",
+              "relevance_score": 0.9943435022687618
+            }
+          ],
+          "supporting_references": [
+            {
+              "document": {
+                "id": "SIR10-5070A",
+                "title": "A Deposit Model for Mississippi Valley-Type Lead-Zinc Ores",
+                "doi": "10.3133/sir20105070A",
+                "uri": "https://pubs.usgs.gov/sir/2010/5070/a/pdf/SIR10-5070A.pdf",
+
+                "journal": "Scientific Investigations Report 2010-5070-A",
+                "year": 2010,
+                "month": null,
+                "volume": null,
+                "issue": null,
+                "description": null
+              },
+              "page_info": [
+                {
+                  "page": 34
+
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "criteria": "The mappable proxy that represents the geological features related to the source of MVT Zinc Lead deposits is the distribution of lead isotopes in the basement rocks and sedimentary rocks derived from the basement.",
+          "theoretical": "N/A",
+          "potential_dataset": [
+            {
+              "name": "Geology:Fault:spatial distance between cell and faults:Proximity to fault (pixels; calculated from raster with 0.01 degree grid):Geology_Fault_Proximity",
+              "relevance_score": 0.9926936426568463
+            },
+            {
+              "name": "Geology:Geological properties:Prescence or absence or absence of evaporitic sedimentary rocks:Precense or absence of geological property:Geology_Dictionary_Evaporitic",
+              "relevance_score": 0.9844829278379865
+            },
+            {
+              "name": "Geology:Geological properties:Presence or absence of carbonaceous sedimentary rocks:Precense or absence of geological property:Geology_Dictionary_Carbonaceous",
+              "relevance_score": 0.9795224931020524
+            },
+            {
+              "name": "Geology:Black shale:spatial distance between cell and the locations of samples of black shales with critical mineral geochemistry :Proximity to black shale (pixels; calculated from raster with 0.01 degree grid):Geology_BlackShale_Proximity",
+              "relevance_score": 0.978681501326067
+            },
+            {
+              "name": "Geology:Geochronology:Name of geological Period representing the youngest rock that cover the majority of a cell area:Minimum Period name (raster value with the largest sum of coverage fraction):Geology_Period_Minimum_Majority",
+              "relevance_score": 0.9761737430420221
+            }
+          ],
+          "supporting_references": [
+            {
+              "document": {
+                "id": "SIR10-5070A",
+                "title": "A Deposit Model for Mississippi Valley-Type Lead-Zinc Ores",
+                "doi": "10.3133/sir20105070A",
+                "uri": "https://pubs.usgs.gov/sir/2010/5070/a/pdf/SIR10-5070A.pdf",
+
+                "journal": "Scientific Investigations Report 2010-5070-A",
+                "year": 2010,
+                "month": null,
+                "volume": null,
+                "issue": null,
+                "description": null
+              },
+              "page_info": [
+                {
+                  "page": 32,
+                  "bounding_box": {
+                    "x_min" : 131.2100067138672,
+                    "x_max": 732.2548828125,
+                    "y_min": 159.8100128173828,
+                    "y_max": 743.3291015625
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pathway": [
+        {
+          "criteria": "The mappable proxy that represents the geological features related to the pathway of MVT Zinc Lead deposits could be the distribution and orientation of extensional faults and fractures within the host rocks.",
+          "theoretical": "N/A",
+          "potential_dataset": [
+            {
+              "name": "Geophysics:Gravity:Horizontal gradient magnitude (HGM) of gravity data represents summation of the x and y-derivative of data, which serves as edge detection and emphasizes lateral density contrasts in the data. Can be useful for detection of faults and geologic contacts. :Horizontal gradient magnitude (HGM):Gravity_Bouguer_HGM",
+              "relevance_score": 0.9999603507610519
+            },
+            {
+              "name": "Geology:Fault:spatial distance between cell and faults:Proximity to fault (pixels; calculated from raster with 0.01 degree grid):Geology_Fault_Proximity",
+              "relevance_score": 0.9999361536682638
+            },
+            {
+              "name": "Geophysics:Magnetic:Horizontal gradient magnitude (HGM) of magnetic data emphasize the edges of geologic contacts or faults that cause lateral magnetic discontinuities in that data. :Horizontal gradient magnitude (HGM):Magnetic_HGM",
+              "relevance_score": 0.9978216607321462
+            },
+            {
+              "name": "Geology:Geological properties:Prescence or absence or absence of evaporitic sedimentary rocks:Precense or absence of geological property:Geology_Dictionary_Evaporitic",
+              "relevance_score": 0.9969064597868623
+            },
+            {
+              "name": "Geology:Geological properties:Prescence or absence of cherty sedimentary rocks:Precense or absence of geological property:Geology_Dictionary_Cherty",
+              "relevance_score": 0.9965656150377677
+            }
+          ],
+          "supporting_references": [
+            {
+              "document": {
+                "id": "SIR10-5070A",
+                "title": "A Deposit Model for Mississippi Valley-Type Lead-Zinc Ores",
+                "doi": "10.3133/sir20105070A",
+                "uri": "https://pubs.usgs.gov/sir/2010/5070/a/pdf/SIR10-5070A.pdf",
+
+                "journal": "Scientific Investigations Report 2010-5070-A",
+                "year": 2010,
+                "month": null,
+                "volume": null,
+                "issue": null,
+                "description": null
+              },
+              "page_info": [
+                {
+                  "page": 16
+                }
+              ]
+            }
+          ]
+        }
+      ],
+
+      "deposit_type": [
+        "https://minmod.isi.edu/resource/Q380"
+      ]
+    }
+  ]
+}
