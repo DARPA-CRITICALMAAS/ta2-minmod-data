@@ -73,11 +73,11 @@ def validate_json_schema(json_data):
                         "location_info": {
                             "type": "object",
                             "properties": {
-                                "location": {"type": "string"},
-                                "country": {"type": "string"},
-                                "state_or_province": {"type": "string"},
-                                "location_source_record_id": {"type": "string"},
-                                "crs": {"type": "string"},
+                                "location": {"type": ["string", "null"]}
+                                "country": {"type": ["string", "null"]}
+                                "state_or_province": {"type": ["string", "null"]}
+                                "location_source_record_id": {"type": ["string", "null"]}
+                                "crs": {"type": ["string", "null"]}
                                 "location_source": {"type": "string"}
                             }
                         },
@@ -86,9 +86,9 @@ def validate_json_schema(json_data):
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "observed_name": {"type": "string"},
-                                    "source": {"type": "string"},
-                                    "normalized_uri": {"type": "string"},
+                                    "observed_name": {"type": ["string", "null"]}
+                                    "source": {"type": ["string", "null"]}
+                                    "normalized_uri": {"type": ["string", "null"]}
                                     "confidence": {"type": "number"}
                                 }
                             }
@@ -96,12 +96,12 @@ def validate_json_schema(json_data):
                         "geology_info": {
                             "type": "object",
                             "properties": {
-                                "age": {"type": "string"},
-                                "unit_name": {"type": "string"},
-                                "description": {"type": "string"},
-                                "lithology": {"type": "string"},
-                                "process": {"type": "string"},
-                                "comments": {"type": "string"},
+                                "age": {"type": ["string", "null"]}
+                                "unit_name": {"type": ["string", "null"]}
+                                "description": {"type": ["string", "null"]}
+                                "lithology": {"type": ["string", "null"]}
+                                "process": {"type": ["string", "null"]}
+                                "comments": {"type": ["string", "null"]}
                                 "environment": {"type": "string"}
                             }
                         },
@@ -115,7 +115,7 @@ def validate_json_schema(json_data):
                                         "type": "array",
                                         "items": {"type": "string"}
                                     },
-                                    "contained_metal": {"type": "number"},
+                                    "contained_metal": {"type": ["number", "null"]}
                                     "reference": {
                                         "type": "object",
                                         "properties": {
@@ -123,15 +123,15 @@ def validate_json_schema(json_data):
                                                 "type": "object",
                                                 "properties": {
                                                     "id":  {"type": ["string", "number"]},
-                                                    "title": {"type": "string"},
-                                                    "doi": {"type": "string"},
-                                                    "uri": {"type": "string"},
-                                                    "journal": {"type": "string"},
-                                                    "year": {"type": "number"},
-                                                    "month": {"type": "number"},
-                                                    "volume": {"type": "number"},
-                                                    "issue": {"type": "number"},
-                                                    "description": {"type": "string"},
+                                                    "title": {"type": ["string", "null"]}
+                                                    "doi": {"type": ["string", "null"]}
+                                                    "uri": {"type": ["string", "null"]}
+                                                    "journal": {"type": ["string", "null"]}
+                                                    "year": {"type": ["number", "null"]}
+                                                    "month": {"type": ["number", "null"]}
+                                                    "volume": {"type": ["number", "null"]}
+                                                    "issue": {"type": ["number", "null"]}
+                                                    "description": {"type": ["string", "null"]}
                                                     "authors": {
                                                         "type": "array",
                                                         "items": {"type": "string"}
@@ -143,7 +143,7 @@ def validate_json_schema(json_data):
                                                 "items": {
                                                     "type": "object",
                                                     "properties": {
-                                                        "page": {"type": "number"},
+                                                        "page": {"type": ["number", "null"]}
                                                         "bounding_box": {
                                                             "type": "object",
                                                             "properties": {
@@ -162,18 +162,18 @@ def validate_json_schema(json_data):
                                         }
                                     },
                                     "date": {"type": "string", "format": "date"},
-                                    "commodity": {"type": "string"},
+                                    "commodity": {"type": ["string", "null"]}
                                     "ore": {
                                         "type": "object",
                                         "properties": {
-                                            "ore_unit": {"type": "string"},
+                                            "ore_unit": {"type": ["string", "null"]}
                                             "ore_value": {"type": "number"}
                                         }
                                     },
                                     "grade": {
                                         "type": "object",
                                         "properties": {
-                                            "grade_unit": {"type": "string"},
+                                            "grade_unit": {"type": ["string", "null"]}
                                             "grade_value": {"type": "number"}
                                         }
 
@@ -181,7 +181,7 @@ def validate_json_schema(json_data):
                                     "cutoff_grade": {
                                         "type": "object",
                                         "properties": {
-                                            "grade_unit": {"type": "string"},
+                                            "grade_unit": {"type": ["string", "null"]}
                                             "grade_value": {"type": "number"}
                                         }
                                     }
@@ -227,14 +227,14 @@ def validate_json_schema_mineral_system(json_data):
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "criteria": {"type": "string"},
-                                    "theorectical": {"type": "string"},
+                                    "criteria": {"type": ["string", "null"]}
+                                    "theorectical": {"type": ["string", "null"]}
                                     "potential_dataset": {
                                         "type": "array",
                                         "items": {
                                             "type": "object",
                                             "properties": {
-                                                "name": {"type": "string"},
+                                                "name": {"type": ["string", "null"]}
                                                 "relevance_score": {"type": "number"}
                                             }
                                         }
@@ -248,15 +248,15 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        "title": {"type": "string"},
-                                                        "doi": {"type": "string"},
-                                                        "uri": {"type": "string"},
-                                                        "journal": {"type": "string"},
-                                                        "year": {"type": "number"},
-                                                        "month": {"type": "number"},
-                                                        "volume": {"type": "number"},
-                                                        "issue": {"type": "number"},
-                                                        "description": {"type": "string"},
+                                                        "title": {"type": ["string", "null"]}
+                                                        "doi": {"type": ["string", "null"]}
+                                                        "uri": {"type": ["string", "null"]}
+                                                        "journal": {"type": ["string", "null"]}
+                                                        "year": {"type": ["number", "null"]}
+                                                        "month": {"type": ["number", "null"]}
+                                                        "volume": {"type": ["number", "null"]}
+                                                        "issue": {"type": ["number", "null"]}
+                                                        "description": {"type": ["string", "null"]}
                                                         "authors": {
                                                             "type": "array",
                                                             "items": {"type": "string"}
@@ -268,7 +268,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "items": {
                                                         "type": "object",
                                                         "properties": {
-                                                            "page": {"type": "number"},
+                                                            "page": {"type": ["number", "null"]}
                                                             "bounding_box": {
                                                                 "type": "object",
                                                                 "properties": {
@@ -295,14 +295,14 @@ def validate_json_schema_mineral_system(json_data):
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "criteria": {"type": "string"},
-                                    "theorectical": {"type": "string"},
+                                    "criteria": {"type": ["string", "null"]}
+                                    "theorectical": {"type": ["string", "null"]}
                                     "potential_dataset": {
                                         "type": "array",
                                         "items": {
                                             "type": "object",
                                             "properties": {
-                                                "name": {"type": "string"},
+                                                "name": {"type": ["string", "null"]}
                                                 "relevance_score": {"type": "number"}
                                             }
                                         }
@@ -316,15 +316,15 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        "title": {"type": "string"},
-                                                        "doi": {"type": "string"},
-                                                        "uri": {"type": "string"},
-                                                        "journal": {"type": "string"},
-                                                        "year": {"type": "number"},
-                                                        "month": {"type": "number"},
-                                                        "volume": {"type": "number"},
-                                                        "issue": {"type": "number"},
-                                                        "description": {"type": "string"},
+                                                        "title": {"type": ["string", "null"]}
+                                                        "doi": {"type": ["string", "null"]}
+                                                        "uri": {"type": ["string", "null"]}
+                                                        "journal": {"type": ["string", "null"]}
+                                                        "year": {"type": ["number", "null"]}
+                                                        "month": {"type": ["number", "null"]}
+                                                        "volume": {"type": ["number", "null"]}
+                                                        "issue": {"type": ["number", "null"]}
+                                                        "description": {"type": ["string", "null"]}
                                                         "authors": {
                                                             "type": "array",
                                                             "items": {"type": "string"}
@@ -336,7 +336,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "items": {
                                                         "type": "object",
                                                         "properties": {
-                                                            "page": {"type": "number"},
+                                                            "page": {"type": ["number", "null"]}
                                                             "bounding_box": {
                                                                 "type": "object",
                                                                 "properties": {
@@ -363,14 +363,14 @@ def validate_json_schema_mineral_system(json_data):
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "criteria": {"type": "string"},
-                                    "theorectical": {"type": "string"},
+                                    "criteria": {"type": ["string", "null"]}
+                                    "theorectical": {"type": ["string", "null"]}
                                     "potential_dataset": {
                                         "type": "array",
                                         "items": {
                                             "type": "object",
                                             "properties": {
-                                                "name": {"type": "string"},
+                                                "name": {"type": ["string", "null"]}
                                                 "relevance_score": {"type": "number"}
                                             }
                                         }
@@ -384,15 +384,15 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        "title": {"type": "string"},
-                                                        "doi": {"type": "string"},
-                                                        "uri": {"type": "string"},
-                                                        "journal": {"type": "string"},
-                                                        "year": {"type": "number"},
-                                                        "month": {"type": "number"},
-                                                        "volume": {"type": "number"},
-                                                        "issue": {"type": "number"},
-                                                        "description": {"type": "string"},
+                                                        "title": {"type": ["string", "null"]}
+                                                        "doi": {"type": ["string", "null"]}
+                                                        "uri": {"type": ["string", "null"]}
+                                                        "journal": {"type": ["string", "null"]}
+                                                        "year": {"type": ["number", "null"]}
+                                                        "month": {"type": ["number", "null"]}
+                                                        "volume": {"type": ["number", "null"]}
+                                                        "issue": {"type": ["number", "null"]}
+                                                        "description": {"type": ["string", "null"]}
                                                         "authors": {
                                                             "type": "array",
                                                             "items": {"type": "string"}
@@ -404,7 +404,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "items": {
                                                         "type": "object",
                                                         "properties": {
-                                                            "page": {"type": "number"},
+                                                            "page": {"type": ["number", "null"]}
                                                             "bounding_box": {
                                                                 "type": "object",
                                                                 "properties": {
@@ -431,14 +431,14 @@ def validate_json_schema_mineral_system(json_data):
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "criteria": {"type": "string"},
-                                    "theorectical": {"type": "string"},
+                                    "criteria": {"type": ["string", "null"]}
+                                    "theorectical": {"type": ["string", "null"]}
                                     "potential_dataset": {
                                         "type": "array",
                                         "items": {
                                             "type": "object",
                                             "properties": {
-                                                "name": {"type": "string"},
+                                                "name": {"type": ["string", "null"]}
                                                 "relevance_score": {"type": "number"}
                                             }
                                         }
@@ -452,15 +452,15 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        "title": {"type": "string"},
-                                                        "doi": {"type": "string"},
-                                                        "uri": {"type": "string"},
-                                                        "journal": {"type": "string"},
-                                                        "year": {"type": "number"},
-                                                        "month": {"type": "number"},
-                                                        "volume": {"type": "number"},
-                                                        "issue": {"type": "number"},
-                                                        "description": {"type": "string"},
+                                                        "title": {"type": ["string", "null"]}
+                                                        "doi": {"type": ["string", "null"]}
+                                                        "uri": {"type": ["string", "null"]}
+                                                        "journal": {"type": ["string", "null"]}
+                                                        "year": {"type": ["number", "null"]}
+                                                        "month": {"type": ["number", "null"]}
+                                                        "volume": {"type": ["number", "null"]}
+                                                        "issue": {"type": ["number", "null"]}
+                                                        "description": {"type": ["string", "null"]}
                                                         "authors": {
                                                             "type": "array",
                                                             "items": {"type": "string"}
@@ -472,7 +472,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "items": {
                                                         "type": "object",
                                                         "properties": {
-                                                            "page": {"type": "number"},
+                                                            "page": {"type": ["number", "null"]}
                                                             "bounding_box": {
                                                                 "type": "object",
                                                                 "properties": {
@@ -499,14 +499,14 @@ def validate_json_schema_mineral_system(json_data):
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "criteria": {"type": "string"},
-                                    "theorectical": {"type": "string"},
+                                    "criteria": {"type": ["string", "null"]}
+                                    "theorectical": {"type": ["string", "null"]}
                                     "potential_dataset": {
                                         "type": "array",
                                         "items": {
                                             "type": "object",
                                             "properties": {
-                                                "name": {"type": "string"},
+                                                "name": {"type": ["string", "null"]}
                                                 "relevance_score": {"type": "number"}
                                             }
                                         }
@@ -520,15 +520,15 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        "title": {"type": "string"},
-                                                        "doi": {"type": "string"},
-                                                        "uri": {"type": "string"},
-                                                        "journal": {"type": "string"},
-                                                        "year": {"type": "number"},
-                                                        "month": {"type": "number"},
-                                                        "volume": {"type": "number"},
-                                                        "issue": {"type": "number"},
-                                                        "description": {"type": "string"},
+                                                        "title": {"type": ["string", "null"]}
+                                                        "doi": {"type": ["string", "null"]}
+                                                        "uri": {"type": ["string", "null"]}
+                                                        "journal": {"type": ["string", "null"]}
+                                                        "year": {"type": ["number", "null"]}
+                                                        "month": {"type": ["number", "null"]}
+                                                        "volume": {"type": ["number", "null"]}
+                                                        "issue": {"type": ["number", "null"]}
+                                                        "description": {"type": ["string", "null"]}
                                                         "authors": {
                                                             "type": "array",
                                                             "items": {"type": "string"}
@@ -540,7 +540,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "items": {
                                                         "type": "object",
                                                         "properties": {
-                                                            "page": {"type": "number"},
+                                                            "page": {"type": ["number", "null"]}
                                                             "bounding_box": {
                                                                 "type": "object",
                                                                 "properties": {
@@ -567,14 +567,14 @@ def validate_json_schema_mineral_system(json_data):
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "criteria": {"type": "string"},
-                                    "theorectical": {"type": "string"},
+                                    "criteria": {"type": ["string", "null"]}
+                                    "theorectical": {"type": ["string", "null"]}
                                     "potential_dataset": {
                                         "type": "array",
                                         "items": {
                                             "type": "object",
                                             "properties": {
-                                                "name": {"type": "string"},
+                                                "name": {"type": ["string", "null"]}
                                                 "relevance_score": {"type": "number"}
                                             }
                                         }
@@ -588,15 +588,15 @@ def validate_json_schema_mineral_system(json_data):
                                                     "type": "object",
                                                     "properties": {
                                                         "id":  {"type": ["string", "number"]},
-                                                        "title": {"type": "string"},
-                                                        "doi": {"type": "string"},
-                                                        "uri": {"type": "string"},
-                                                        "journal": {"type": "string"},
-                                                        "year": {"type": "number"},
-                                                        "month": {"type": "number"},
-                                                        "volume": {"type": "number"},
-                                                        "issue": {"type": "number"},
-                                                        "description": {"type": "string"},
+                                                        "title": {"type": ["string", "null"]}
+                                                        "doi": {"type": ["string", "null"]}
+                                                        "uri": {"type": ["string", "null"]}
+                                                        "journal": {"type": ["string", "null"]}
+                                                        "year": {"type": ["number", "null"]}
+                                                        "month": {"type": ["number", "null"]}
+                                                        "volume": {"type": ["number", "null"]}
+                                                        "issue": {"type": ["number", "null"]}
+                                                        "description": {"type": ["string", "null"]}
                                                         "authors": {
                                                             "type": "array",
                                                             "items": {"type": "string"}
@@ -608,7 +608,7 @@ def validate_json_schema_mineral_system(json_data):
                                                     "items": {
                                                         "type": "object",
                                                         "properties": {
-                                                            "page": {"type": "number"},
+                                                            "page": {"type": ["number", "null"]}
                                                             "bounding_box": {
                                                                 "type": "object",
                                                                 "properties": {
