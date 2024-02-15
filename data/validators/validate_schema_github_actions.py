@@ -643,7 +643,7 @@ def validate_json_schema_mineral_system(json_data):
     mineral_system_json = json.loads(json_string)
 
     try:
-        jsonschema.validate(instance=mineral_site_json, schema=schema)
+        jsonschema.validate(instance=mineral_system_json, schema=schema)
         print("Validation succeeded")
     except jsonschema.ValidationError as e:
         print(f"Validation failed: {e}")
