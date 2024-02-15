@@ -1,0 +1,353 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mndr: <https://minmod.isi.edu/resource/> .
+@prefix geokb: <https://geokb.wikibase.cloud/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix gkbi: <https://geokb.wikibase.cloud/entity/> .
+@prefix gkbp: <https://geokb.wikibase.cloud/wiki/Property/> .
+
+
+<https://minmod.isi.edu/resource/Q484> a mndr:DepositType;
+	.
+<https://minmod.isi.edu/resource/Q485> a mndr:DepositType;
+	.
+_:EvidenceLayer3_0_0_0 a mndr:EvidenceLayer;
+	mndr:name "A Random name";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer3_0_0_1 a mndr:EvidenceLayer;
+	mndr:name "A Random name returns";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer3_0_0_2 a mndr:EvidenceLayer;
+	mndr:name "A night of the random names";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer3_1_0_0 a mndr:EvidenceLayer;
+	mndr:name "A Random name";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer3_1_0_1 a mndr:EvidenceLayer;
+	mndr:name "A Random name returns";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer3_1_0_2 a mndr:EvidenceLayer;
+	mndr:name "A night of the random names";
+	mndr:evidence_score 0.5;
+	.
+<https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8-> a mndr:Document;
+	mndr:uri "hgvhvhjvhjvjvjhj";
+	mndr:doi "https://w3id.org/usgs/z/4530692/XM7ACJDK";
+	mndr:authors "Brian Thomas P.Geo.,Paul Palmer P.Geo. P.Eng.,Manochehr Oliazadeh Khorakchy P.Eng.";
+	mndr:description "This is the first independent technical report for the Tamarack North Project in Tamarack, Minnesota, prepared for Talon Metals Corp.";
+	mndr:title "NI 43-101 Technical Report for the Tamarack North Project in Minnesota, United States dated August 2014";
+	mndr:month 8;
+	mndr:year 2014;
+	.
+_:Reference4_0_0_0 a mndr:Reference;
+	mndr:date "dbkfbdskf";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference4_0_0_1 a mndr:Reference;
+	mndr:date "jhdfjhsgdjfgdjsfgjhfsgjg";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference4_1_0_0 a mndr:Reference;
+	mndr:date "dbkfbdskf";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference4_1_0_1 a mndr:Reference;
+	mndr:date "jhdfjhsgdjfgdjsfgjhfsgjg";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:MappableCriteria2_0_0 a mndr:MappableCriteria;
+	mndr:criteria "The paragraph suggests that extensional faults and dolomitization of limestone are mappable criteria that represent the pathway for the formation and localization of syn-diagenetic Zn-Pb deposits in the MVT deposit type.";
+	mndr:theorectical "Randome name strikes back";
+	mndr:potential_dataset _:EvidenceLayer3_0_0_0;
+	mndr:potential_dataset _:EvidenceLayer3_0_0_1;
+	mndr:potential_dataset _:EvidenceLayer3_0_0_2;
+	mndr:supporting_references _:Reference4_0_0_0;
+	mndr:supporting_references _:Reference4_0_0_1;
+	.
+_:MappableCriteria2_1_0 a mndr:MappableCriteria;
+	mndr:criteria "The paragraph suggests that extensional faults and dolomitization of limestone are mappable criteria that represent the pathway for the formation and localization of syn-diagenetic Zn-Pb deposits in the MVT deposit type.";
+	mndr:theorectical "Randome name strikes back";
+	mndr:potential_dataset _:EvidenceLayer3_1_0_0;
+	mndr:potential_dataset _:EvidenceLayer3_1_0_1;
+	mndr:potential_dataset _:EvidenceLayer3_1_0_2;
+	mndr:supporting_references _:Reference4_1_0_0;
+	mndr:supporting_references _:Reference4_1_0_1;
+	.
+_:EvidenceLayer7_0_0_0 a mndr:EvidenceLayer;
+	mndr:name "A Random name";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer7_0_0_1 a mndr:EvidenceLayer;
+	mndr:name "A Random name returns";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer7_0_0_2 a mndr:EvidenceLayer;
+	mndr:name "A night of the random names";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer7_1_0_0 a mndr:EvidenceLayer;
+	mndr:name "A Random name";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer7_1_0_1 a mndr:EvidenceLayer;
+	mndr:name "A Random name returns";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer7_1_0_2 a mndr:EvidenceLayer;
+	mndr:name "A night of the random names";
+	mndr:evidence_score 0.5;
+	.
+<https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8-> a mndr:Document;
+	mndr:uri "hgvhvhjvhjvjvjhj";
+	mndr:doi "https://w3id.org/usgs/z/4530692/XM7ACJDK";
+	mndr:authors "Brian Thomas P.Geo.,Paul Palmer P.Geo. P.Eng.,Manochehr Oliazadeh Khorakchy P.Eng.";
+	mndr:description "This is the first independent technical report for the Tamarack North Project in Tamarack, Minnesota, prepared for Talon Metals Corp.";
+	mndr:title "NI 43-101 Technical Report for the Tamarack North Project in Minnesota, United States dated August 2014";
+	mndr:month 8;
+	mndr:year 2014;
+	.
+_:Reference8_0_0_0 a mndr:Reference;
+	mndr:date "dbkfbdskf";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference8_0_0_1 a mndr:Reference;
+	mndr:date "jhdfjhsgdjfgdjsfgjhfsgjg";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference8_1_0_0 a mndr:Reference;
+	mndr:date "dbkfbdskf";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference8_1_0_1 a mndr:Reference;
+	mndr:date "jhdfjhsgdjfgdjsfgjhfsgjg";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:MappableCriteria6_0_0 a mndr:MappableCriteria;
+	mndr:criteria "The paragraph suggests that extensional faults and dolomitization of limestone are mappable criteria that represent the pathway for the formation and localization of syn-diagenetic Zn-Pb deposits in the MVT deposit type.";
+	mndr:theorectical "Randome name strikes back";
+	mndr:potential_dataset _:EvidenceLayer7_0_0_0;
+	mndr:potential_dataset _:EvidenceLayer7_0_0_1;
+	mndr:potential_dataset _:EvidenceLayer7_0_0_2;
+	mndr:supporting_references _:Reference8_0_0_0;
+	mndr:supporting_references _:Reference8_0_0_1;
+	.
+_:MappableCriteria6_1_0 a mndr:MappableCriteria;
+	mndr:criteria "The paragraph suggests that extensional faults and dolomitization of limestone are mappable criteria that represent the pathway for the formation and localization of syn-diagenetic Zn-Pb deposits in the MVT deposit type.";
+	mndr:theorectical "Randome name strikes back";
+	mndr:potential_dataset _:EvidenceLayer7_1_0_0;
+	mndr:potential_dataset _:EvidenceLayer7_1_0_1;
+	mndr:potential_dataset _:EvidenceLayer7_1_0_2;
+	mndr:supporting_references _:Reference8_1_0_0;
+	mndr:supporting_references _:Reference8_1_0_1;
+	.
+_:EvidenceLayer11_0_0_0 a mndr:EvidenceLayer;
+	.
+_:EvidenceLayer11_1_0_0 a mndr:EvidenceLayer;
+	.
+<https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8-> a mndr:Document;
+	mndr:uri "hgvhvhjvhjvjvjhj";
+	mndr:doi "https://w3id.org/usgs/z/4530692/XM7ACJDK";
+	mndr:authors "Brian Thomas P.Geo.,Paul Palmer P.Geo. P.Eng.,Manochehr Oliazadeh Khorakchy P.Eng.";
+	mndr:description "This is the first independent technical report for the Tamarack North Project in Tamarack, Minnesota, prepared for Talon Metals Corp.";
+	mndr:title "NI 43-101 Technical Report for the Tamarack North Project in Minnesota, United States dated August 2014";
+	mndr:month 8;
+	mndr:year 2014;
+	.
+_:Reference12_0_0_0 a mndr:Reference;
+	mndr:date "dbkfbdskf";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference12_0_0_1 a mndr:Reference;
+	mndr:date "jhdfjhsgdjfgdjsfgjhfsgjg";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference12_1_0_0 a mndr:Reference;
+	mndr:date "dbkfbdskf";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference12_1_0_1 a mndr:Reference;
+	mndr:date "jhdfjhsgdjfgdjsfgjhfsgjg";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:MappableCriteria10_0_0 a mndr:MappableCriteria;
+	mndr:criteria "The paragraph suggests that extensional faults and dolomitization of limestone are mappable criteria that represent the pathway for the formation and localization of syn-diagenetic Zn-Pb deposits in the MVT deposit type.";
+	mndr:theorectical "Randome name strikes back";
+	mndr:potential_dataset _:EvidenceLayer11_0_0_0;
+	mndr:supporting_references _:Reference12_0_0_0;
+	mndr:supporting_references _:Reference12_0_0_1;
+	.
+_:MappableCriteria10_1_0 a mndr:MappableCriteria;
+	mndr:criteria "The paragraph suggests that extensional faults and dolomitization of limestone are mappable criteria that represent the pathway for the formation and localization of syn-diagenetic Zn-Pb deposits in the MVT deposit type.";
+	mndr:theorectical "Randome name strikes back";
+	mndr:potential_dataset _:EvidenceLayer11_1_0_0;
+	mndr:supporting_references _:Reference12_1_0_0;
+	mndr:supporting_references _:Reference12_1_0_1;
+	.
+_:EvidenceLayer15_0_0_0 a mndr:EvidenceLayer;
+	mndr:name "A Random name";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer15_0_0_1 a mndr:EvidenceLayer;
+	mndr:name "A Random name returns";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer15_0_0_2 a mndr:EvidenceLayer;
+	mndr:name "A night of the random names";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer15_1_0_0 a mndr:EvidenceLayer;
+	.
+<https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8-> a mndr:Document;
+	mndr:uri "hgvhvhjvhjvjvjhj";
+	mndr:doi "https://w3id.org/usgs/z/4530692/XM7ACJDK";
+	mndr:authors "Brian Thomas P.Geo.,Paul Palmer P.Geo. P.Eng.,Manochehr Oliazadeh Khorakchy P.Eng.";
+	mndr:description "This is the first independent technical report for the Tamarack North Project in Tamarack, Minnesota, prepared for Talon Metals Corp.";
+	mndr:title "NI 43-101 Technical Report for the Tamarack North Project in Minnesota, United States dated August 2014";
+	mndr:month 8;
+	mndr:year 2014;
+	.
+_:Document17_1_0_0 a mndr:Document;
+	.
+_:Reference16_0_0_0 a mndr:Reference;
+	mndr:date "dbkfbdskf";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference16_0_0_1 a mndr:Reference;
+	mndr:date "jhdfjhsgdjfgdjsfgjhfsgjg";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference16_1_0_0 a mndr:Reference;
+	mndr:document _:Document17_1_0_0;
+	.
+_:MappableCriteria14_0_0 a mndr:MappableCriteria;
+	mndr:criteria "The paragraph suggests that extensional faults and dolomitization of limestone are mappable criteria that represent the pathway for the formation and localization of syn-diagenetic Zn-Pb deposits in the MVT deposit type.";
+	mndr:theorectical "Randome name strikes back";
+	mndr:potential_dataset _:EvidenceLayer15_0_0_0;
+	mndr:potential_dataset _:EvidenceLayer15_0_0_1;
+	mndr:potential_dataset _:EvidenceLayer15_0_0_2;
+	mndr:supporting_references _:Reference16_0_0_0;
+	mndr:supporting_references _:Reference16_0_0_1;
+	.
+_:MappableCriteria14_1_0 a mndr:MappableCriteria;
+	mndr:potential_dataset _:EvidenceLayer15_1_0_0;
+	mndr:supporting_references _:Reference16_1_0_0;
+	.
+_:EvidenceLayer19_0_0_0 a mndr:EvidenceLayer;
+	.
+_:EvidenceLayer19_1_0_0 a mndr:EvidenceLayer;
+	.
+_:Document21_0_0_0 a mndr:Document;
+	.
+_:Document21_1_0_0 a mndr:Document;
+	.
+_:Reference20_0_0_0 a mndr:Reference;
+	mndr:document _:Document21_0_0_0;
+	.
+_:Reference20_1_0_0 a mndr:Reference;
+	mndr:document _:Document21_1_0_0;
+	.
+_:MappableCriteria18_0_0 a mndr:MappableCriteria;
+	mndr:potential_dataset _:EvidenceLayer19_0_0_0;
+	mndr:supporting_references _:Reference20_0_0_0;
+	.
+_:MappableCriteria18_1_0 a mndr:MappableCriteria;
+	mndr:potential_dataset _:EvidenceLayer19_1_0_0;
+	mndr:supporting_references _:Reference20_1_0_0;
+	.
+_:EvidenceLayer23_0_0_0 a mndr:EvidenceLayer;
+	mndr:name "A Random name";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer23_0_0_1 a mndr:EvidenceLayer;
+	mndr:name "A Random name returns";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer23_0_0_2 a mndr:EvidenceLayer;
+	mndr:name "A night of the random names";
+	mndr:evidence_score 0.5;
+	.
+_:EvidenceLayer23_1_0_0 a mndr:EvidenceLayer;
+	.
+<https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8-> a mndr:Document;
+	mndr:uri "hgvhvhjvhjvjvjhj";
+	mndr:doi "https://w3id.org/usgs/z/4530692/XM7ACJDK";
+	mndr:authors "Brian Thomas P.Geo.,Paul Palmer P.Geo. P.Eng.,Manochehr Oliazadeh Khorakchy P.Eng.";
+	mndr:description "This is the first independent technical report for the Tamarack North Project in Tamarack, Minnesota, prepared for Talon Metals Corp.";
+	mndr:title "NI 43-101 Technical Report for the Tamarack North Project in Minnesota, United States dated August 2014";
+	mndr:month 8;
+	mndr:year 2014;
+	.
+_:Document25_1_0_0 a mndr:Document;
+	.
+_:Reference24_0_0_0 a mndr:Reference;
+	mndr:date "dbkfbdskf";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference24_0_0_1 a mndr:Reference;
+	mndr:date "jhdfjhsgdjfgdjsfgjhfsgjg";
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	mndr:document <https://minmod.isi.edu/resource/httpsw3idorgusgsz4530692xm7acjdk-hgvhvhjvhjvjvjhj-ni43101technicalreportforthetamaracknorthprojectinminnesotaunitedstatesdatedaugust2014-2014-brianthomaspgeopaulpalmerpgeopengmanochehroliazadehkhorakchypeng-8->;
+	.
+_:Reference24_1_0_0 a mndr:Reference;
+	mndr:document _:Document25_1_0_0;
+	.
+_:MappableCriteria22_0_0 a mndr:MappableCriteria;
+	mndr:criteria "The paragraph suggests that extensional faults and dolomitization of limestone are mappable criteria that represent the pathway for the formation and localization of syn-diagenetic Zn-Pb deposits in the MVT deposit type.";
+	mndr:theorectical "Randome name strikes back";
+	mndr:potential_dataset _:EvidenceLayer23_0_0_0;
+	mndr:potential_dataset _:EvidenceLayer23_0_0_1;
+	mndr:potential_dataset _:EvidenceLayer23_0_0_2;
+	mndr:supporting_references _:Reference24_0_0_0;
+	mndr:supporting_references _:Reference24_0_0_1;
+	.
+_:MappableCriteria22_1_0 a mndr:MappableCriteria;
+	mndr:potential_dataset _:EvidenceLayer23_1_0_0;
+	mndr:supporting_references _:Reference24_1_0_0;
+	.
+<jjhfihdfgkj> a mndr:MineralSystem;
+	mndr:deposit_type <https://minmod.isi.edu/resource/Q484>;
+	mndr:deposit_type <https://minmod.isi.edu/resource/Q485>;
+	mndr:source _:MappableCriteria2_0_0;
+	mndr:pathway _:MappableCriteria6_0_0;
+	mndr:trap _:MappableCriteria10_0_0;
+	mndr:preservation _:MappableCriteria14_0_0;
+	mndr:energy _:MappableCriteria18_0_0;
+	mndr:outflow _:MappableCriteria22_0_0;
+	.
+<jgmdjhsgjfhgsdgkj> a mndr:MineralSystem;
+	mndr:deposit_type <https://minmod.isi.edu/resource/Q484>;
+	mndr:deposit_type <https://minmod.isi.edu/resource/Q485>;
+	mndr:source _:MappableCriteria2_1_0;
+	mndr:pathway _:MappableCriteria6_1_0;
+	mndr:trap _:MappableCriteria10_1_0;
+	mndr:preservation _:MappableCriteria14_1_0;
+	mndr:energy _:MappableCriteria18_1_0;
+	mndr:outflow _:MappableCriteria22_1_0;
+	.
