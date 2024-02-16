@@ -760,15 +760,6 @@ filename = sys.argv[1]
 new_json_folder = sys.argv[2]
 file_name_without_path = os.path.basename(filename)
 
-
-with open(filename) as file:
-    json_data = json.load(file)
-
-json_string = json.dumps(json_data)
-json_string = remove_non_printable_chars(json_string)
-
-json_data = json.loads(json_string)
-
 file_path = filename
 
 print(filename, new_json_folder)
@@ -788,6 +779,10 @@ if is_json_file_under_data(file_path):
         raise
 
 
+    json_string = json.dumps(json_data)
+    json_string = remove_non_printable_chars(json_string)
+
+    json_data = json.loads(json_string)
     if 'MineralSite' in json_data:
         json_data = add_id_to_mineral_site(json_data, new_json_folder, file_name_without_path)
     elif 'MineralSystem' in json_data:
