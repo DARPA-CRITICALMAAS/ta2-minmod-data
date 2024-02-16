@@ -6,11 +6,7 @@ from typing import List
 def combine_graphs(infiles: List[str], outfile: str, base_uri: str = None):
     g = Graph()
     for infile in infiles:
-        file_content = ''
-        with open(infile, "r") as i:
-            file_content = i.read().replace('\n', '').replace('\\u000b', '')
-
-        g.parse(file_content, format="turtle")
+        g.parse(infile, format="turtle")
         for subj, pred, obj in g:
             if 'MISSING' in subj or 'MISSING' in pred or 'MISSING' in obj:
                 triples_to_remove = list(g.triples((subj, pred, obj)))

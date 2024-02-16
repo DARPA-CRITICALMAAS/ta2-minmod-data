@@ -49,7 +49,9 @@ def is_json_file_under_data(file_path):
 
     return is_under_data_folder and file_extension.lower() == '.json'
 
-
+def remove_non_printable_chars(text):
+    clean_text = text.replace('\n', ' ').replace('\\u000b', '').replace('\\n', ' ')
+    return clean_text
 
 def validate_json_schema(json_data):
 
@@ -761,6 +763,11 @@ file_name_without_path = os.path.basename(filename)
 
 with open(filename) as file:
     json_data = json.load(file)
+
+json_string = json.dumps(json_data)
+json_string = remove_non_printable_chars(json_string)
+
+json_data = json.loads(json_string)
 
 file_path = filename
 
