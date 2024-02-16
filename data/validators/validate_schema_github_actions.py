@@ -13,6 +13,9 @@ import sys
 def is_valid_uri(uri):
     return validators.url(uri)
 
+def remove_non_printable_chars(text):
+    clean_text = text.replace('\n', ' ').replace('\\u000b', '').replace('\\n', ' ')
+    return clean_text
 
 def mineral_site_uri(data):
     response = generate_uris.mineral_site_uri(data)
@@ -766,6 +769,11 @@ if is_json_file_under_data(file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
         raise
+
+    json_string = json.dumps(json_data)
+    json_string = remove_non_printable_chars(json_string)
+
+    json_data = json.loads(json_string)
 
     if 'MineralSite' in json_data:
         json_data = add_id_to_mineral_site(json_data)
