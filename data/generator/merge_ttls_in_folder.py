@@ -7,8 +7,8 @@ def combine_graphs(infiles: List[str], outfile: str, base_uri: str = None):
     g = Graph()
     for infile in infiles:
         file_content = ''
-        with open(infile, "r") as infile:
-            file_content = infile.read().replace('\n', '').replace('\\u000b', '')
+        with open(infile, "r") as i:
+            file_content = i.read().replace('\n', '').replace('\\u000b', '')
 
         g.parse(file_content, format="turtle")
         for subj, pred, obj in g:
