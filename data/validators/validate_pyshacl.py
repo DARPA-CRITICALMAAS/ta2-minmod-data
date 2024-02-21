@@ -670,3 +670,238 @@ def validate_using_shacl(data_graph):
         print('This is fine')
 
     return True
+
+
+
+
+def validate_mineral_system_using_shacl(data_graph):
+
+
+    data_graph = data_graph
+
+    shapes_graph = """
+    @prefix gkbp:  <https://geokb.wikibase.cloud/wiki/Property:> .
+    @prefix owl:   <http://www.w3.org/2002/07/owl#> .
+    @prefix dcam:  <http://purl.org/dc/dcam/> .
+    @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+    @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+    @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+    @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix sh:    <http://www.w3.org/ns/shacl#> .
+    @prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+    @prefix dcterms: <http://purl.org/dc/terms/> .
+    @prefix gkbi:  <https://geokb.wikibase.cloud/entity/> .
+    @prefix mndr:  <https://minmod.isi.edu/resource/> .
+    @prefix prov:  <http://www.w3.org/ns/prov#> .
+    @prefix ex:  <http://www.w3.org/ns/prov#> .
+    
+    mndr:MappableCriteria-https___minmod.isi.edu_resource_criteria
+            a        sh:PropertyShape ;
+            sh:path  mndr:criteria .
+      
+    mndr:Document  a     sh:NodeShape  ;
+    sh:targetClass mndr:Document;
+    sh:class mndr:Document;
+        sh:property [   
+            sh:path mndr:issue ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ];
+        sh:property [   
+            sh:path mndr:doi ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ];
+        sh:property [   
+            sh:path mndr:description ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ];
+        sh:property [   
+            sh:path mndr:journal ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ];
+        sh:property [   
+            sh:path mndr:year ;
+            sh:minCount 0 ;
+            sh:datatype xsd:integer ;
+        ];
+        sh:property [   
+            sh:path mndr:month ;
+            sh:minCount 0 ;
+            sh:datatype xsd:integer ;
+        ];
+        sh:property [   
+            sh:path mndr:volume ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ];
+        sh:property [   
+            sh:path mndr:authors ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ];
+        sh:property [   
+            sh:path mndr:title ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ] ;
+        sh:property [   
+            sh:path mndr:uri ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ] ;
+        sh:property [   
+            sh:path mndr:id ;
+            sh:minCount 0 ;
+            sh:datatype xsd:string ;
+        ];
+        .
+        
+    mndr:BoundingBox  a  sh:NodeShape ;
+    sh:targetClass mndr:BoundingBox;
+    sh:class mndr:BoundingBox;
+        sh:property [   
+            sh:path mndr:x_min ;
+            sh:minCount 0 ;
+            sh:or ( [ sh:datatype xsd:decimal ] [ sh:datatype xsd:integer ] ) ;
+        ];
+        sh:property [   
+            sh:path mndr:x_max ;
+            sh:minCount 0 ;
+            sh:or ( [ sh:datatype xsd:decimal ] [ sh:datatype xsd:integer ] ) ;
+        ];
+        sh:property [   
+            sh:path mndr:y_min ;
+            sh:minCount 0 ;
+            sh:or ( [ sh:datatype xsd:decimal ] [ sh:datatype xsd:integer ] ) ;
+        ];
+        sh:property [   
+            sh:path mndr:y_max ;
+            sh:minCount 0 ;
+            sh:or ( [ sh:datatype xsd:decimal ] [ sh:datatype xsd:integer ] ) ;
+        ];
+        .
+                          
+    mndr:Reference  a  sh:NodeShape ;
+    sh:targetClass mndr:Reference;
+    sh:class mndr:Reference;
+        sh:property [   
+            sh:path mndr:document ;
+            sh:minCount 0 ;
+            sh:class mndr:Document ;
+        ];
+        sh:property [   
+            sh:path mndr:page_info ;
+            sh:minCount 0 ;
+            sh:class mndr:PageInfo ;
+        ];
+        .
+        
+    mndr:MappableCriteria  a  sh:NodeShape ;
+    sh:targetClass mndr:MappableCriteria;
+    sh:class mndr:MappableCriteria;
+        sh:property [   
+            sh:path mndr:potential_dataset ;
+            sh:minCount 0 ;
+            sh:class mndr:EvidenceLayer ;
+        ];
+        sh:property [   
+            sh:path mndr:supporting_reference ;
+            sh:minCount 0 ;
+            sh:class mndr:Reference ;
+        ];
+        sh:property [   
+            sh:path mndr:criteria ;
+            sh:minCount 0 ;
+        ] ;
+        sh:property [   
+            sh:path mndr:theorectical ;
+            sh:minCount 0 ;
+        ] 
+        .
+        
+    mndr:MineralSystem  a  sh:NodeShape ;
+    sh:targetClass mndr:MineralSystem;
+    sh:class mndr:MineralSystem;
+            sh:property [   
+            sh:path mndr:deposit_type ;
+            sh:or ( [ sh:nodeKind sh:IRI ; ] [ sh:class mndr:DepositType ] ) ;
+        ];
+        sh:property [   
+            sh:path mndr:source ;
+            sh:minCount 1 ;
+            sh:class mndr:MappableCriteria ;
+        ];
+        sh:property [   
+            sh:path mndr:pathway ;
+            sh:minCount 1 ;
+            sh:class mndr:MappableCriteria ;
+        ];
+        sh:property [   
+            sh:path mndr:trap ;
+            sh:minCount 0 ;
+            sh:class mndr:MappableCriteria ;
+        ];
+        sh:property [   
+            sh:path mndr:preservation ;
+            sh:minCount 0 ;
+            sh:class mndr:MappableCriteria ;
+        ];
+        sh:property [   
+            sh:path mndr:outflow ;
+            sh:minCount 0 ;
+            sh:class mndr:MappableCriteria ;
+        ];
+        sh:property [   
+            sh:path mndr:energy ;
+            sh:minCount 0 ;
+            sh:class mndr:MappableCriteria ;
+        ];
+        .
+
+                                        
+    mndr:DepositType  a          sh:NodeShape;
+    sh:targetClass mndr:DepositType;
+                        sh:property [
+                            sh:path mndr:name ;
+                        ] ;
+                        sh:property [
+                            sh:path mndr:environment ;
+                        ] ;
+                        sh:property [
+                            sh:path mndr:group ;
+                        ]
+                        .
+                        
+    
+    mndr:PageInfo a   sh:NodeShape ;
+    sh:class  mndr:PageInfo ;
+    sh:targetClass mndr:PageInfo;
+            sh:property [
+                            sh:path mndr:page ;
+                            sh:datatype xsd:integer ;
+                        ];
+            sh:property [
+                            sh:path mndr:bounding_box ;
+                            sh:class mndr:BoundingBox ;
+                        ].
+    
+    
+    """
+    shapes_g = Graph().parse(data=shapes_graph, format="turtle")
+
+    result = validate(data_graph, shacl_graph=shapes_g, inference='rdfs', serialize_report_graph=True)
+
+    conforms, a, b = result
+
+    if not conforms:
+        print("Validation does not conform. There are violations.")
+        print(b)
+        return False
+    else:
+        print('This is fine')
+
+    return True

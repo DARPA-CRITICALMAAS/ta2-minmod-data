@@ -20,6 +20,17 @@ def deposit_type_uri(data):
     except Exception as e:
         return ({"error": str(e)})
 
+
+def mineral_system_uri(data):
+    try:
+        if data is None:
+            raise
+        processed_data = process_mineral_system(data)
+        return ({"result": processed_data})
+    except Exception as e:
+        return ({"error": str(e)})
+
+
 def document_uri(data):
     try:
         json_param = data.get('document')
@@ -65,6 +76,31 @@ def process_mineral_site(ms):
 
     if merged_string == '':
         return str(uuid.uuid4())
+    return merged_string
+
+
+
+def process_mineral_system(ms):
+    merged_string = ''
+
+    fields = ['source', 'pathway', 'trap', 'preservation', 'energy', 'outflow']
+
+    for f in fields:
+
+        if f in ms:
+            f_object = ms[f]
+            if 'theoretical' in f_object:
+                merged_string += slugify(f_object['theoretical'])
+            if 'criteria' in f_object:
+                merged_string += slugify(f_object['criteria'])
+
+    if 'deposit_type' in ms:
+        for dt in ms['deposit_type']:
+            merged_string += slugify(dt)
+
+
+    if merged_string == '':
+        return ""
     return merged_string
 
 
