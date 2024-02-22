@@ -1,7 +1,6 @@
 from rdflib import Graph
 import sys
 import os
-
 from typing import List
 
 def combine_graphs(infiles: List[str], outfile: str, base_uri: str = None):
