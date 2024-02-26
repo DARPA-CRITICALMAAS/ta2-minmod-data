@@ -18,6 +18,6 @@ except Exception as e:
     print(f"An error occurred: {e}")
 
 if validate_mineral_site == 1:
-    validate_pyshacl.validate_using_shacl(data_graph)
+    validate_pyshacl.validate_using_shacl_mineral_site(data_graph)
 else:
     validate_pyshacl.validate_mineral_system_using_shacl(data_graph)

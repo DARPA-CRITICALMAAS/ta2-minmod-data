@@ -2,6 +2,8 @@ import re
 import json
 import uuid
 
+import hashlib
+
 def mineral_site_uri(site):
     try:
         if site is None:
@@ -76,7 +78,9 @@ def process_mineral_site(ms):
 
     if merged_string == '':
         return str(uuid.uuid4())
-    return merged_string
+
+    hashed_string = trim_and_append_hash(merged_string)
+    return hashed_string
 
 
 
@@ -100,8 +104,10 @@ def process_mineral_system(ms):
 
 
     if merged_string == '':
-        return ""
-    return merged_string
+        return str(uuid.uuid4())
+
+    hashed_string = trim_and_append_hash(merged_string)
+    return hashed_string
 
 
 def process_deposit_type(data):
@@ -125,7 +131,8 @@ def process_deposit_type(data):
     if merged_string == '':
         return str(uuid.uuid4())
 
-    return merged_string
+    hashed_string = trim_and_append_hash(merged_string)
+    return hashed_string
 
 def process_document(data):
     merged_string = ''
@@ -156,7 +163,9 @@ def process_document(data):
     if merged_string == '':
         return str(uuid.uuid4())
 
-    return merged_string
+    hashed_string = trim_and_append_hash(merged_string)
+
+    return hashed_string
 
 def process_mineral_inventory(ms, id):
     merged_string = ''
@@ -179,15 +188,38 @@ def process_mineral_inventory(ms, id):
 
 
     if merged_string == '':
-        return ""
-    return merged_string
+        return str(uuid.uuid4())
 
+    hashed_string = trim_and_append_hash(merged_string)
+
+    return hashed_string
+
+
+
+def trim_and_append_hash(string):
+    if len(string) > 50:
+        trimmed_string = string[:50]
+    else:
+        trimmed_string = string
+
+    string_hash = hashlib.sha256(string.encode()).hexdigest()
+
+    return trimmed_string + string_hash
+
+def remove_http(url):
+    if url.startswith("https://"):
+        return url[len("https://"):]
+    elif url.startswith("http://"):
+        return url[len("http://"):]
+    else:
+        return url
 
 def slugify(s):
     ''' Simplifies ugly strings into something URL-friendly.
     slugify("[Some] _ Article's Title--"): some-articles-title. '''
 
     s = s.lower()
+    s = remove_http(s)
     for c in [' ', '-', '.', '/']:
         s = s.replace(c, '_')
     s = re.sub('\W', '', s)

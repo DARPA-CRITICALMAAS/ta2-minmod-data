@@ -2,7 +2,7 @@ from pyshacl import validate
 import sys
 from rdflib import Graph
 
-def validate_using_shacl(data_graph):
+def validate_using_shacl_mineral_site(data_graph):
 
     resources = """
     

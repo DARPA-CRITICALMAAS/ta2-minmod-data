@@ -7,6 +7,8 @@ import os
 import generate_uris
 import validators
 
+# TODO: This file is going to be deprecated
+
 def is_valid_uri(uri):
     return validators.url(uri)
 
