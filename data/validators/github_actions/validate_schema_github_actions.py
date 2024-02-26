@@ -1,6 +1,6 @@
 import json
 import sys
-sys.path.append('../validators')
+sys.path.append('../utils')
 
 
 import jsonschema
