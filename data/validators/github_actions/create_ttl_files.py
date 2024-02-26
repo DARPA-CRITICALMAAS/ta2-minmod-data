@@ -1,15 +1,20 @@
-import sys
-sys.path.append('data')
 import json
 import jsonschema
 import sys
 import requests
 import uuid
 import os
-from validators.utils import generate_uris
 import base64
 import subprocess
-from data.pyshacl import validate_pyshacl
+
+import sys
+sys.path.append('../pyshacl')
+import validate_pyshacl
+
+import sys
+sys.path.append('../utils')
+import generate_uris
+import validator_utils
 
 def run_drepr_on_file(datasource, model_file):
     destination = 'generated_files/ttl_files/'

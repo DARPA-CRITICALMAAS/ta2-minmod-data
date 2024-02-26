@@ -1,15 +1,19 @@
-import sys
-sys.path.append('data')
-
 import json
 import jsonschema
 import sys
 import requests
 import uuid
 import os
-from validators.utils import generate_uris
 import validators
-from validators.utils import utils.validator_utils
+
+import sys
+sys.path.append('../pyshacl')
+import validate_pyshacl
+
+import sys
+sys.path.append('../utils')
+import generate_uris
+import validator_utils
 
 def add_id_to_mineral_site(json_data, new_json_folder, file_name_without_path):
     ms_list = json_data['MineralSite']
