@@ -4,7 +4,7 @@ import sys
 import requests
 import uuid
 import os
-from data.utils import generate_uris
+from data.validators.utils import generate_uris
 import base64
 import subprocess
 from data.pyshacl import validate_pyshacl
