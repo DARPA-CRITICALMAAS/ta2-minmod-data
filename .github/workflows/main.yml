@@ -33,7 +33,7 @@ jobs:
       - run: |
           for changed_file in ${{ steps.files.outputs.all }}; do
             TEMP_FILE=$(mktemp)
-            python data/validators/github_actions/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE}
+            python data/validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE}
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
