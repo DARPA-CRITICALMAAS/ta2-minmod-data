@@ -11,7 +11,6 @@ import sys
 sys.path.append('../pyshacl')
 import validate_pyshacl
 
-import sys
 sys.path.append('../utils')
 import generate_uris
 import validator_utils
