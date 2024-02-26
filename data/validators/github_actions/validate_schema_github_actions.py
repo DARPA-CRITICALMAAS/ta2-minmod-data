@@ -1,6 +1,5 @@
 import json
-import sys
-sys.path.append('../utils')
+
 
 
 import jsonschema
@@ -8,12 +7,17 @@ import sys
 import requests
 import uuid
 import os
-from utils import generate_uris
+
 import base64
 import create_ttl_files
 import validators
 import sys
-from utils import validator_utils
+
+import sys
+sys.path.append('../utils')
+import generate_uris
+import validator_utils
+
 
 def is_valid_uri(uri):
     return validators.url(uri)
