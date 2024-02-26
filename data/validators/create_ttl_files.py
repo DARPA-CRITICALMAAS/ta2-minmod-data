@@ -6,12 +6,12 @@ import uuid
 import os
 import base64
 import subprocess
+import sys
 
 import sys
-import generate_uris
+sys.path.append('../utils')
 import validator_utils
-
-sys.path.append('../pyshacl')
+import generate_uris
 import validate_pyshacl
 
 def run_drepr_on_file(datasource, model_file):

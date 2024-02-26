@@ -5,9 +5,6 @@ import requests
 import uuid
 import os
 import validators
-
-import sys
-sys.path.append('../pyshacl')
 import validate_pyshacl
 
 import sys
