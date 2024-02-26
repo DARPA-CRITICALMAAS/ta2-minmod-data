@@ -1,4 +1,6 @@
 import json
+import sys
+sys.path.append('data')
 import jsonschema
 import sys
 import requests

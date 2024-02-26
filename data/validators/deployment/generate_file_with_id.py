@@ -1,3 +1,6 @@
+import sys
+sys.path.append('data')
+
 import json
 import jsonschema
 import sys
