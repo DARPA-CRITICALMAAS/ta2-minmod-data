@@ -14,7 +14,6 @@ import validators
 import sys
 
 import sys
-sys.path.append('../utils')
 import generate_uris
 import validator_utils
 

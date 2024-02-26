@@ -6,11 +6,8 @@ import uuid
 import os
 import validators
 import validate_pyshacl
-
-import sys
-sys.path.append('../utils')
-import generate_uris
 import validator_utils
+import generate_uris
 
 def add_id_to_mineral_site(json_data, new_json_folder, file_name_without_path):
     ms_list = json_data['MineralSite']
