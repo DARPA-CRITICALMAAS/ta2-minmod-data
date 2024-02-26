@@ -4,12 +4,12 @@ import sys
 import requests
 import uuid
 import os
-import generate_uris
+from ..utils import generate_uris
 import base64
 import create_ttl_files
 import validators
 import sys
-import validator_utils
+from ..utils import validator_utils
 
 def is_valid_uri(uri):
     return validators.url(uri)

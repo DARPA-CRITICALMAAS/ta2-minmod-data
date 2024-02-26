@@ -4,9 +4,9 @@ import sys
 import requests
 import uuid
 import os
-import generate_uris
+from ..utils import generate_uris
 import validators
-import utils.validator_utils
+from ..utils import utils.validator_utils
 
 def add_id_to_mineral_site(json_data, new_json_folder, file_name_without_path):
     ms_list = json_data['MineralSite']

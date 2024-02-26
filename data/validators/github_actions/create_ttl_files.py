@@ -4,10 +4,10 @@ import sys
 import requests
 import uuid
 import os
-import generate_uris
+from ..utils import generate_uris
 import base64
 import subprocess
-import validate_pyshacl
+from ..pyshacl import validate_pyshacl
 
 def run_drepr_on_file(datasource, model_file):
     destination = 'generated_files/ttl_files/'
