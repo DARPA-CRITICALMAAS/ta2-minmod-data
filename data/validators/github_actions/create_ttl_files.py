@@ -8,9 +8,6 @@ import base64
 import subprocess
 
 import sys
-
-
-sys.path.append('../utils')
 import generate_uris
 import validator_utils
 
