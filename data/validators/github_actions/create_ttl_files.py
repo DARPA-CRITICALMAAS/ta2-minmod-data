@@ -8,12 +8,14 @@ import base64
 import subprocess
 
 import sys
-sys.path.append('../pyshacl')
-import validate_pyshacl
+
 
 sys.path.append('../utils')
 import generate_uris
 import validator_utils
+
+sys.path.append('../pyshacl')
+import validate_pyshacl
 
 def run_drepr_on_file(datasource, model_file):
     destination = 'generated_files/ttl_files/'
