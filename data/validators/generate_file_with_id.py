@@ -17,7 +17,7 @@ def add_id_to_mineral_site(json_data, new_json_folder, file_name_without_path):
         if "deposit_type_candidate" in ms:
             for dp in ms['deposit_type_candidate']:
                 validator_utils.is_valid_uri(dp['normalized_uri'])
-                dp['id'] = mndr_url + deposit_uri(dp)
+                dp['id'] = mndr_url + validator_utils.deposit_uri(dp)
 
         ms['id'] = mndr_url + validator_utils.mineral_site_uri(ms)
         if "location_info" in ms:
@@ -124,7 +124,7 @@ file_path = filename
 
 print(filename, new_json_folder)
 
-if is_json_file_under_data(file_path):
+if validator_utils.is_json_file_under_data(file_path):
     print(f'{file_path} is a JSON file, running validation on it')
 
     json_data = {}
@@ -140,7 +140,7 @@ if is_json_file_under_data(file_path):
 
 
     json_string = json.dumps(json_data)
-    json_string = remove_non_printable_chars(json_string)
+    json_string = validator_utils.remove_non_printable_chars(json_string)
 
     json_data = json.loads(json_string)
     if 'MineralSite' in json_data:

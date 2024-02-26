@@ -6,10 +6,6 @@ import uuid
 import os
 import base64
 import subprocess
-import sys
-
-import sys
-sys.path.append('../utils')
 import validator_utils
 import generate_uris
 import validate_pyshacl
