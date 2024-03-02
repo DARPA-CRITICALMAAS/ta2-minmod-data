@@ -1,11 +1,31 @@
 import re
 import json
+import uuid
 
 def mineral_site_uri(site):
     try:
         if site is None:
             raise
         processed_data = process_mineral_site(site)
+        return ({"result": processed_data})
+    except Exception as e:
+        return ({"error": str(e)})
+
+def deposit_type_uri(data):
+    try:
+        if data is None:
+            raise
+        processed_data = process_deposit_type(data)
+        return ({"result": processed_data})
+    except Exception as e:
+        return ({"error": str(e)})
+
+
+def mineral_system_uri(data):
+    try:
+        if data is None:
+            raise
+        processed_data = process_mineral_system(data)
         return ({"result": processed_data})
     except Exception as e:
         return ({"error": str(e)})
@@ -45,11 +65,66 @@ def process_mineral_site(ms):
     if 'source_id' in ms and 'record_id' in ms:
         merged_string = (f"{ms['source_id']}-{str(ms['record_id'])}")
         merged_string = slugify(merged_string)
+    elif 'source_id' in ms:
+        merged_string = (f"{ms['source_id']}")
+        merged_string = slugify(merged_string)
+    elif 'record_id' in ms:
+        merged_string = (f"{ms['record_id']}")
+        merged_string = slugify(merged_string)
     else:
-        return ""
+        return str(uuid.uuid4())
+
+    if merged_string == '':
+        return str(uuid.uuid4())
+    return merged_string
+
+
+
+def process_mineral_system(ms):
+    merged_string = ''
+
+    fields = ['source', 'pathway', 'trap', 'preservation', 'energy', 'outflow']
+
+    for f in fields:
+
+        if f in ms:
+            f_object = ms[f]
+            if 'theoretical' in f_object:
+                merged_string += slugify(f_object['theoretical'])
+            if 'criteria' in f_object:
+                merged_string += slugify(f_object['criteria'])
+
+    if 'deposit_type' in ms:
+        for dt in ms['deposit_type']:
+            merged_string += slugify(dt)
+
 
     if merged_string == '':
         return ""
+    return merged_string
+
+
+def process_deposit_type(data):
+    merged_string = ''
+    if 'observed_name' in data:
+        merged_string = merged_string + slugify(data['observed_name'])
+    merged_string += '-'
+
+    if 'source' in data:
+        merged_string = merged_string + slugify(data['source'])
+    merged_string += '-'
+
+    if 'normalized_uri' in data:
+        merged_string = merged_string+ slugify(data['normalized_uri'])
+    merged_string += '-'
+
+    if 'confidence' in data:
+        merged_string = merged_string + slugify(str(data['confidence']))
+    merged_string += '-'
+
+    if merged_string == '':
+        return str(uuid.uuid4())
+
     return merged_string
 
 def process_document(data):
@@ -79,7 +154,7 @@ def process_document(data):
     merged_string += '-'
 
     if merged_string == '':
-        return ""
+        return str(uuid.uuid4())
 
     return merged_string
 
