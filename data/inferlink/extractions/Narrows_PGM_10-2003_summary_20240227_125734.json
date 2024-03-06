@@ -1,0 +1,50 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/5U3Z45RN",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Narrows Project in North America dated October 2003",
+      "location_info": {
+        "location": "MULTIPOINT(-90.22861 48.77444)",
+        "crs": "WGS84",
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "MineralInventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "reference": {
+            "document":{
+              "title": "Report of the Exploration Program on the Narrows Property",
+              "doi": "https://w3id.org/usgs/z/4530692/5U3Z45RN",
+              "authors": ["Desmond Cullen", "J. Garry Clark"],
+              "year": 2003,
+              "month": 10,
+              "description": "This report by Clark Exploration Consulting details the exploration program conducted by International Green Ice Inc. on the Narrows Property, assessing Platinum Group Metals / Gold mineralization within the Haines Gabbro-Anorthosite Complex and adjoining metavolcanics."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "stratigraphically controlled",
+          "normalized_uri": "https://minmod.isi.edu/resource/",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "intrusion-hosted",
+          "normalized_uri": "https://minmod.isi.edu/resource/",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "shear and/or quartz vein-hosted",
+          "normalized_uri": "https://minmod.isi.edu/resource/",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        }
+      ]
+    }
+  ]
+}
