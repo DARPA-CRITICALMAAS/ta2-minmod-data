@@ -1,0 +1,56 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/5RS3X7UZ",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report (Nunavut) for the Chidliak Canada, Project in North America dated 2014",
+      "location_info": {
+        "location": "POINT(-66.361944 64.473889)",
+        "crs": "WGS84",
+        "country": "Canada",
+        "state_or_province": "Nunavut"
+      },
+      "MineralInventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "reference": {
+            "document":{
+              "title": "2014 Technical Report Chidliak Project Nunavut",
+              "doi" : "https://w3id.org/usgs/z/4530692/5RS3X7UZ",
+              "authors": [
+                "Darrell Farrow",
+                "Jennifer Pell",
+                "David Farrow",
+                "Howard Coopersmith",
+                "Catherine Fitzgerald"
+              ],
+              "year": 2014,
+              "month": 6,
+              "description": "This technical report details the Chidliak Project in Baffin region, Nunavut, for Peregrine Diamonds Ltd, including geologic setting, exploration, and resource estimates."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Diamond Deposits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "Magmatic Nickel-Copper-Platinum Group Element Deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q476",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "Metamorphosed Massive Sulphide Deposits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        }
+      ]
+    }
+  ]
+}

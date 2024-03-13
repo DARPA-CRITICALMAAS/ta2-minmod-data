@@ -5,8 +5,7 @@ This repository contains the datasets used to create the mineral site knowledge 
 ## Repository Structure
 
 - `/data` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/data#readme)): This directory contains all the raw data used to build the MinMod knowledge graph.
-- `/deployment`: This directory holds the final `.ttl` file that is deployed on our online SPARQL endpoint.
-- `/sandbox`: This directory holds the demo presented during the 3-month hackathon.
+- `/sandbox` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/sandbox#readme)): This directory holds the sandbox, a collection of example queries & code to manipulate the KG data & build **Grade & Tonnage models**!
 
 ## Schema
 
@@ -14,4 +13,4 @@ The data in this knowledge graph adhere to this [schema](https://github.com/DARP
 
 ## Deployment
 
-The final Turtle file (`final.ttl`) is deployed and can be queried at our online SPARQL endpoint: [SPARQL Endpoint](https://minmod.isi.edu/sparql). You can also explore the data via our [Mineral Data Browser](https://minmod.isi.edu/).
+The final RDF data (triples) are deployed & can be queried at our online SPARQL endpoint: [SPARQL Endpoint](https://minmod.isi.edu/sparql). You can also explore the data via our [Mineral Data Browser](https://minmod.isi.edu/).
