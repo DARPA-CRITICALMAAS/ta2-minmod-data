@@ -13,12 +13,15 @@ jobs:
 
       - name: Checkout repository Data
         uses: actions/checkout@v3
+        with:
+          path: ta2-minmod-data
 
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           repository: DARPA-CRITICALMAAS/ta2-minmod-kg
           ref: git-lfs-downnload-2
+          path: ta2-minmod-kg
 
       - name: Print directory
         run:  |
