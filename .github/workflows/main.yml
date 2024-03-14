@@ -40,6 +40,9 @@ jobs:
 #
       - name: Install tj-actions
         uses: tj-actions/changed-files@v43
+        with:
+          path: ta2-minmod-data
+          since_last_remote_commit: false
 
       - name: List all changed files
         env:
@@ -48,6 +51,7 @@ jobs:
           echo ${{ steps.changed-files.outputs.all_changed_files }}
           echo ${{ steps.changed-files.outputs }}
           echo ${{ steps.changed-files }}
+          echo ${ALL_CHANGED_FILES}
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file was changed"
           done
