@@ -59,7 +59,7 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
+        run: |
           pwd
           ls
           echo ${ALL_CHANGED_FILES}
