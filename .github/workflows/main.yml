@@ -49,12 +49,11 @@ jobs:
           pwd
           ls
           for changed_file in ${{ steps.files.outputs.all }}; do
-            echo $my_variable
             TEMP_FILE=$(mktemp)
             echo $changed_file
             echo $TEMP_FILE
           done
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           path: ta2-minmod-data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
