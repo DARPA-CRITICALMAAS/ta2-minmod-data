@@ -38,17 +38,17 @@ jobs:
 #          python -m pip install --upgrade pip
 #          pip install -r validators/requirements.txt  # change this if you have dependencies
 #
-      - name: Install jitterbit
-        uses: jitterbit/get-changed-files@v1
+      - name: Install tj-actions
+        uses: tj-actions/changed-files@v43
         with:
           format: 'space-delimited'
 
       - id: files
-        uses: jitterbit/get-changed-files@v1
+        uses: tj-actions/changed-files@v43
       - run: |
           pwd
           ls
-          for changed_file in ${{ steps.files.outputs.all }}; do
+          for changed_file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             TEMP_FILE=$(mktemp)
             echo $changed_file
             echo $TEMP_FILE
