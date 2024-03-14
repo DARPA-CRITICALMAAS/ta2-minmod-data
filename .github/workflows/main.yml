@@ -47,6 +47,7 @@ jobs:
         uses: tj-actions/changed-files@v43
         with:
           path: ta2-minmod-data
+          since_last_remote_commit: false
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
