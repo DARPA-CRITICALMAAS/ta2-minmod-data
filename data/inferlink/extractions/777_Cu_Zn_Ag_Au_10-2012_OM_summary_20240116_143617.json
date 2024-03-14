@@ -1,6 +1,7 @@
 {
   "MineralSite": [
     {
+      "id": "hdjjsd74357653",
       "source_id": "https://w3id.org/usgs/z/4530692/42HZRAH5",
       "record_id": 1,
       "name": "777 Mine NI 43-101 Technical Report",
@@ -10,7 +11,7 @@
       },
       "MineralInventory": [
         {
-          "id": 1,
+          "id": "1",
           "commodity": "https://minmod.isi.edu/resource/Q589",
           "category": ["https://minmod.isi.edu/resource/proven"],
           "ore": {
@@ -23,8 +24,9 @@
           },
           "contained_metal": 204714.4,
           "reference": {
-            "id": 1,
+            "id": "1",
             "document": {
+              "id": "hdj74357653",
               "title": "777 Mine NI 43-101 Technical Report",
               "doi": "https://w3id.org/usgs/z/4530692/42HZRAH5",
               "uri": "file-bmg8E9x8w1opLWP0pfey0Loq",
@@ -54,7 +56,7 @@
           "date": "2012-10"
         },
         {
-          "id": 2,
+          "id": "2",
           "commodity": "https://minmod.isi.edu/resource/Q589",
           "category": ["https://minmod.isi.edu/resource/probable"],
           "ore": {
@@ -67,8 +69,9 @@
           },
           "contained_metal": 331321.6,
           "reference": {
-            "id": 1,
+            "id": "1",
             "document": {
+              "id": "hdjjsd74357677753",
               "title": "777 Mine NI 43-101 Technical Report",
               "doi": "https://w3id.org/usgs/z/4530692/42HZRAH5",
               "uri": "file-bmg8E9x8w1opLWP0pfey0Loq",
@@ -98,7 +101,7 @@
           "date": "2012-10"
         },
         {
-          "id": 3,
+          "id": "3",
           "commodity": "https://minmod.isi.edu/resource/Q589",
           "category": ["https://minmod.isi.edu/resource/proven",
           "https://minmod.isi.edu/resource/probable"],
@@ -112,8 +115,9 @@
           },
           "contained_metal": 536319.5,
           "reference": {
-            "id": 1,
+            "id": "1",
             "document": {
+              "id": "hdjjsd74357653777777",
               "title": "777 Mine NI 43-101 Technical Report",
               "doi": "https://w3id.org/usgs/z/4530692/42HZRAH5",
               "uri": "file-bmg8E9x8w1opLWP0pfey0Loq",
@@ -143,7 +147,14 @@
           "date": "2012-10"
         }
       ],
-      "deposit_type": ["https://minmod.isi.edu/resource/Q375"]
+      "deposit_type_candidate": [
+        {
+          "observed_name": "magmatic nickel-copper-PGE sulphide mineralization",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q482",
+          "confidence": 1,
+          "source": "SME"
+        }
+      ]
     }
   ]
 }
