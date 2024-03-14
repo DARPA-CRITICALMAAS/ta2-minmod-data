@@ -54,11 +54,15 @@ jobs:
           for file in ${ALL_CHANGED_FILES}; do
             full_path=$(pwd)
             echo $full_path
-            full_path_2=$full_path$file
+            full_path_2=$full_path"/"$file
             echo $full_path_2
             echo "$file was changed"
+            new_path="$(dirname "$full_path")/ta2-minmod-kg/"
+            echo "$new_path"
           done
 
+
+#            python validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
 #      - id: files
 #        with:
 #          path: ta2-minmod-data
