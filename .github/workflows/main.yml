@@ -45,8 +45,6 @@ jobs:
 
       - id: files
         uses: tj-actions/changed-files@v43
-        with:
-          path: ta2-minmod-data
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -59,4 +57,6 @@ jobs:
             echo $changed_file
             echo $TEMP_FILE
           done
+        with:
+          path: ta2-minmod-data
 
