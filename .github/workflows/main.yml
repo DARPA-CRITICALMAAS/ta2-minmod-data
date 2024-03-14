@@ -52,20 +52,20 @@ jobs:
             echo "$file was changed"
           done
 
-      - id: files
-        with:
-          path: ta2-minmod-data
-          since_last_remote_commit: false
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          pwd
-          ls
-          echo ${ALL_CHANGED_FILES}
-          for changed_file in ${ALL_CHANGED_FILES}; do
-            TEMP_FILE=$(mktemp)
-            echo $changed_file
-            echo $TEMP_FILE
-          done
-
+#      - id: files
+#        with:
+#          path: ta2-minmod-data
+#          since_last_remote_commit: false
+#        env:
+#          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        run: |
+#          pwd
+#          ls
+#          echo ${ALL_CHANGED_FILES}
+#          for changed_file in ${ALL_CHANGED_FILES}; do
+#            TEMP_FILE=$(mktemp)
+#            echo $changed_file
+#            echo $TEMP_FILE
+#          done
+#
