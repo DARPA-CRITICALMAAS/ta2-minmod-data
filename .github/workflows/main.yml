@@ -23,11 +23,6 @@ jobs:
           ref: git-lfs-downnload-2
           path: ta2-minmod-kg
 
-      - name: Print directory
-        run:  |
-          pwd
-          ls
-
 #      - name: Set up Python
 #        uses: actions/setup-python@v2
 #        with:
@@ -57,8 +52,10 @@ jobs:
             full_path_2=$full_path"/"$file
             echo $full_path_2
             echo "$file was changed"
-            new_path="$(dirname "$full_path")/ta2-minmod-kg/"
-            echo "$new_path"
+            python_script_path="$(dirname "$full_path")/ta2-minmod-kg/validators/validate_schema_github_actions.py"
+            echo "$python_script_path"
+            TEMP_FILE=$(mktemp)
+            python ${python_script_path} ${file} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
           done
 
 
