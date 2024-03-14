@@ -49,6 +49,7 @@ jobs:
         run: |
           for changed_file in ${{ steps.files.outputs.all }}; do
             TEMP_FILE=$(mktemp)
+            echo $changed_file
             echo $TEMP_FILE
 #            python validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
           done
