@@ -55,6 +55,7 @@ jobs:
             full_path=$(pwd)
             echo $full_path
             full_path_2=$full_path$file
+            echo $full_path_2
             echo "$file was changed"
           done
 
