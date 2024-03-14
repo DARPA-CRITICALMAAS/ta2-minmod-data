@@ -10,11 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: Checkout repository Data
+        uses: actions/checkout@v3
+
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: DARPA-CRITICALMAAS/ta2-minmod-kg
           ref: git-lfs-downnload-2
+
+      - name: Print directory
+        run:  |
+          pwd
+          ls
+              
 
       - name: Set up Python
         uses: actions/setup-python@v2
