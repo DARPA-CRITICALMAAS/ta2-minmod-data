@@ -60,12 +60,12 @@ jobs:
           done
 
       - name: List all changed files
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         with:
           path: ta2-minmod-data
           since_last_remote_commit: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file was changed"
