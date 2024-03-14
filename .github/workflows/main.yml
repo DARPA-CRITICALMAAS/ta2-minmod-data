@@ -50,6 +50,7 @@ jobs:
           ls
           for changed_file in ${{ steps.files.outputs.all }}; do
             my_variable=$(pwd)"/ta2-minmod-data/"
+            echo $my_variable
             TEMP_FILE=$(mktemp)
             echo $changed_file
             echo $TEMP_FILE
