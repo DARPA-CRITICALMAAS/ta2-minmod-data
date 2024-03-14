@@ -46,7 +46,7 @@ jobs:
 
       - id: files
         uses: jitterbit/get-changed-files@v1
-      - run: |
+        run: |
           for changed_file in ${{ steps.files.outputs.all }}; do
             TEMP_FILE=$(mktemp)
             echo $TEMP_FILE
