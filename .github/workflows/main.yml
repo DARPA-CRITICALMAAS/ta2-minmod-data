@@ -54,7 +54,6 @@ jobs:
           done
 
       - id: files
-        uses: tj-actions/changed-files@v43
         with:
           path: ta2-minmod-data
           since_last_remote_commit: false
