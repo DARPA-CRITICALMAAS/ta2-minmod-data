@@ -53,7 +53,7 @@ jobs:
       - run: |
           pwd
           ls
-          for changed_file in ${ ALL_CHANGED_FILES }; do
+          for changed_file in ${ALL_CHANGED_FILES}; do
             TEMP_FILE=$(mktemp)
             echo $changed_file
             echo $TEMP_FILE
