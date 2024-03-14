@@ -40,10 +40,9 @@ jobs:
 #
       - name: Install tj-actions
         uses: tj-actions/changed-files@v43
-        with:
-          format: 'space-delimited'
 
       - name: List all changed files
+        uses: tj-actions/changed-files@v43
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
