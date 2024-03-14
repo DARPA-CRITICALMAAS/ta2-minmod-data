@@ -27,7 +27,6 @@ jobs:
         run:  |
           pwd
           ls
-              
 
 #      - name: Set up Python
 #        uses: actions/setup-python@v2
@@ -51,7 +50,6 @@ jobs:
             TEMP_FILE=$(mktemp)
             echo $changed_file
             echo $TEMP_FILE
-#            python validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
