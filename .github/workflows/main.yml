@@ -64,7 +64,6 @@ jobs:
             cd_here="$(dirname "$full_path")/ta2-minmod-kg/"
             echo "$python_script_path"
             TEMP_FILE=$(mktemp)
-            cd ${cd_here}
             ls
             python ${python_script_path} ${file} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
           done
