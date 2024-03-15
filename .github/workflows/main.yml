@@ -61,7 +61,9 @@ jobs:
             echo $full_path_2
             echo "$file was changed"
             python_script_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/validate_schema_github_actions.py"
-            cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
+            cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/"
+            cd ${cd_here}
+            git lfs pull
             echo "$python_script_path"
             TEMP_FILE=$(mktemp)
             ls
