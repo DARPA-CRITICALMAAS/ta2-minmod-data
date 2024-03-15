@@ -23,6 +23,11 @@ jobs:
           ref: git-lfs-downnload-2
           path: ta2-minmod-kg
 
+      - name: Print directory
+        run:  |
+          pwd
+          ls
+
 #      - name: Set up Python
 #        uses: actions/setup-python@v2
 #        with:
