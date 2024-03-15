@@ -58,8 +58,8 @@ jobs:
             full_path_2=$full_path"/"$file
             echo $full_path_2
             echo "$file was changed"
-            python_script_path="$(dirname "$full_path")/ta2-minmod-kg/validators/validate_schema_github_actions.py"
-            cd_here="$(dirname "$full_path")/ta2-minmod-kg/"
+            python_script_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/validate_schema_github_actions.py"
+            cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
             echo "$python_script_path"
             TEMP_FILE=$(mktemp)
             cd ${cd_here}
