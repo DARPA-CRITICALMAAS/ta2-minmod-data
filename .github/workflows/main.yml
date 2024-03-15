@@ -61,11 +61,11 @@ jobs:
             echo $full_path_2
             echo "$file was changed"
             python_script_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/validate_schema_github_actions.py"
-            cd_here="$(dirname "$full_path")/ta2-minmod-kg/"
+            cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
             echo "$python_script_path"
             TEMP_FILE=$(mktemp)
             ls
-            python ${python_script_path} ${full_path_2} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
+            python ${python_script_path} ${full_path_2} ${TEMP_FILE} ${cd_here}
           done
 
 
