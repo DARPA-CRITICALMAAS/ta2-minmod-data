@@ -54,18 +54,18 @@ jobs:
         run: |
           pwd
           ls
+          full_path=$(pwd)
+          echo $full_path
+          full_path_2=$full_path"/ta2-minmod-data/"$file
+          echo $full_path_2
+          echo "$file was changed"
+          python_script_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/validate_schema_github_actions.py"
+          cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
+          data_repo="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-data/"
+          cd ${data_repo}
+          git lfs pull
+          echo "$python_script_path"
           for file in ${ALL_CHANGED_FILES}; do
-            full_path=$(pwd)
-            echo $full_path
-            full_path_2=$full_path"/ta2-minmod-data/"$file
-            echo $full_path_2
-            echo "$file was changed"
-            python_script_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/validate_schema_github_actions.py"
-            cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
-            data_repo="$(dirname "$full_path")/ta2-minmod-data/"
-            cd ${data_repo}
-            git lfs pull
-            echo "$python_script_path"
             TEMP_FILE=$(mktemp)
             ls
             python ${python_script_path} ${full_path_2} ${TEMP_FILE} ${cd_here}
