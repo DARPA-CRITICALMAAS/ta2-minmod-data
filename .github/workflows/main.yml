@@ -40,6 +40,11 @@ jobs:
           cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/requirements.txt"
           pip install -r ${cd_here}  # change this if you have dependencies
 
+      - name: Install Git LFS
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-lfs
+
       - name: Install tj-actions
         id: changed-files
         uses: tj-actions/changed-files@v43
