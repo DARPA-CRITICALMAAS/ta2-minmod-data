@@ -39,7 +39,7 @@ jobs:
           full_path=$(pwd)
           cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/requirements.txt"
           pip install -r ${cd_here}  # change this if you have dependencies
-#
+
       - name: Install tj-actions
         id: changed-files
         uses: tj-actions/changed-files@v43
@@ -61,7 +61,7 @@ jobs:
             echo $full_path_2
             echo "$file was changed"
             python_script_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/validate_schema_github_actions.py"
-            cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
+            cd_here="$(dirname "$full_path")/ta2-minmod-kg/"
             echo "$python_script_path"
             TEMP_FILE=$(mktemp)
             cd ${cd_here}
