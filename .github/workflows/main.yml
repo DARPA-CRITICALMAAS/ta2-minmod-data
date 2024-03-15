@@ -37,7 +37,6 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v43
         with:
-          path: ta2-minmod-data
           since_last_remote_commit: false
 
 
@@ -46,6 +45,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
+          pwd
+          ls
           for file in ${ALL_CHANGED_FILES}; do
             full_path=$(pwd)
             echo $full_path
