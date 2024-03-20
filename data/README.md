@@ -34,8 +34,14 @@ The domain and ranges of the json keys are highlighted as follows
   * `source_id`: string representing source id of the mineral site
   * `record_id`: string representing record id of the mineral site
   * `name`: string representing observed name of the mineral site
-  * `mineral_inventory`
-    * `commodity`: URI of commodity in minmod, e.g.: _https://minmod.isi.edu/resource/Q589_. List of possible commodities and their minmod ids are defined in [commodities](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/commodities/minmod_commodities.csv)
+  * `deposit_type_candidate`:
+    * `observed_name`: Name of deposit type candidates
+    * `normalized_uri`: Minmod URI for deposit type
+    * `confidence`: Confidence between 0-1 for deposit type
+    * `source`: Source of deposit type candidate
+  * `commodity`: URI of commodity in minmod, e.g.: _https://minmod.isi.edu/resource/Q589_. List of possible commodities
+  * `mineral_inventory` (list)
+    * `commodity`:  (list) of commodity in minmod, e.g.: _https://minmod.isi.edu/resource/Q589_. List of possible commodities and their minmod ids are defined in [commodities](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/commodities/minmod_commodities.csv)
     * `category`: enum, one of:
       * `INFERRED` (Inferred Mineral **Resource**): Estimated based on limited geological evidence and sampling (lowest confidence level)
       * `INDICATED` (Indicated Mineral **Resource**): Estimated based on more comprehensive geological evidence and sampling (higher level of confidence)
@@ -52,6 +58,7 @@ The domain and ranges of the json keys are highlighted as follows
       * `grade_unit`: URI of grade unit in minmod, e.g.: _https://minmod.isi.edu/resource/Q201_. List of possible unit names and their minmod ids are defined in [unit names](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/units/minmod_units.csv)
       * `grade_value`: value of grade in units, decimal value
     * `contained_metal`: quantity of a contained metal in an inventory item, float
+    * `zone` : Zone of a mineral inventory
     * `reference`
       * `document`
         * `title`: title of the document 
@@ -78,9 +85,7 @@ The domain and ranges of the json keys are highlighted as follows
     * `crs`: the coordinate reference system (CRS) in use
     * `country`: valid name of a country
     * `state_or_province`: valid state or province
-  * `geology_info`: _TBD_
-  * `deposit_type`: URI of deposit types in minmod, e.g.: _https://minmod.isi.edu/resource/Q24_. List of possible deposit types and their minmod ids are defined in [deposit types](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/depositTypes/minmod_deposit_types.csv)
-
+  
 ## URI mapping
 The automatic process of the KG (triples) generation will use the following pseudo-code to determine URI of non-blank nodes using concatenation and MD5 hashing to ensure uniqueness
  * `MineralInventory` URI = f(`commodity` (URI), `category`, `&mineral_site` (referring URI), `*document` (referred URI))
