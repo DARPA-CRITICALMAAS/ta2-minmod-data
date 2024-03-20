@@ -9,8 +9,12 @@ The json files should be uploaded to the following folders:
 
 1. [UMN](umn)
 2. [SRI](sri)
-3. [Inferlink](inferlink)
+3. [Inferlink](inferlink/extractions)
 4. [USC](usc)
+
+Under specific folders:
+
+1. [Mineral System](sri/mappableCriteria) The Mineral System data is added by sri
 
 The following folders will be depreacted once code is fully migrated to a separate code repo:
 1. [validators](validators)
@@ -27,11 +31,15 @@ New entities can be added by TA2 Minmod group if required.
 [Same As](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/sameAs/sameas_mineralsites.csv) stores same as relationships between different mineral sites with different minmod URIs
 
 
-#### Structure of the file
+#### Structure of the Mineral Site file
 
 The structure of the file will be similar to the example file - [example_json_file](example_mine.json)
 
-#### Required Fields and Data types
+#### Structure of the Mineral System file
+
+The structure of the file will be similar to the example file - [example_json_file](example_mineral_system.json)
+
+#### Required Fields and Data types Mineral Site
 The data types and required fields in the json are highlighted in [schema_file](datatypes.json)
 
 #### Domain and Ranges
