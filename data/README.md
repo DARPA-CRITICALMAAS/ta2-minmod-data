@@ -34,12 +34,11 @@ The domain and ranges of the json keys are highlighted as follows
   * `source_id`: string representing source id of the mineral site
   * `record_id`: string representing record id of the mineral site
   * `name`: string representing observed name of the mineral site
-  * `deposit_type_candidate`:
+  * `deposit_type_candidate` (list)
     * `observed_name`: Name of deposit type candidates
     * `normalized_uri`: Minmod URI for deposit type
     * `confidence`: Confidence between 0-1 for deposit type
     * `source`: Source of deposit type candidate
-  * `commodity`: URI of commodity in minmod, e.g.: _https://minmod.isi.edu/resource/Q589_. List of possible commodities
   * `mineral_inventory` (list)
     * `commodity`:  (list) of commodity in minmod, e.g.: _https://minmod.isi.edu/resource/Q589_. List of possible commodities and their minmod ids are defined in [commodities](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/commodities/minmod_commodities.csv)
     * `category`: enum, one of:
