@@ -5,6 +5,7 @@ This repository contains the datasets used to create the mineral site knowledge 
 ## Repository Structure
 
 - `/data` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/data#readme)): This directory contains all the raw data used to build the MinMod knowledge graph.
+  - Under data umn, inferlink and usc folder contain the data from respective sources
 - `/sandbox` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/sandbox#readme)): This directory holds the sandbox, a collection of example queries & code to manipulate the KG data & build **Grade & Tonnage models**!
 
 ## Schema

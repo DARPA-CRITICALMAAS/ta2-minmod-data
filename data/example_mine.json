@@ -1,31 +1,29 @@
 {
   "MineralSite": [
     {
-      "id": 0,
-      "name": "jhgjhjgk",
+      "source_id": "https://w3id.org/usgs/z/",
+      "record_id": 1,
+      "name": "report ",
       "location_info": {
         "location": "POINT (-75.33292 44.28331)",
         "country": "United States",
         "state_or_province": "NY",
-        "location_source_record_id": "22",
-        "location_source": "MRDS_Zinc",
         "crs": "NAD83"
       },
-      "geology_info": {
-        "age": "",
-        "process": "",
-        "lithology": "",
-        "comments": "",
-        "description": "",
-        "environment": "",
-        "unit_name": ""
-      },
-      "same_as": "",
+      "deposit_type_candidate": [
+        {
+          "observed_name": "magmatic nickel- copper-platinum group element (PGE)",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "confidence": 1,
+          "source": "SME"
+        }
+      ],
       "MineralInventory": [
         {
-          "id": 0,
           "commodity":"https://minmod.isi.edu/resource/Q589",
-          "category": "https://minmod.isi.edu/resource/Measured",
+          "category": ["https://minmod.isi.edu/resource/proven"],
+          "date": "2013-1",
+          "zone": "",
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 850100
@@ -40,9 +38,7 @@
           },
           "contained_metal": 112128.19,
           "reference": {
-            "id": 0,
             "document": {
-              "id": "doc_id_0",
               "title": "NI 43-101 PRELIMINARY ECONOMIC ASSESSMENT TECHNICAL REPORT ON THE EMPIRE STATE MINES, GOUVERNEUR, NEW YORK, USA",
               "uri": "https://w3id.org/usgs/z/4530692/MHU8MJUV",
               "month": 9,
@@ -71,36 +67,31 @@
           },
           "date": "09-19-2017"
         }
-      ],
-      "deposit_type": "https://minmod.isi.edu/resource/Q24"
+      ]
 
     },
     {
-      "id": 1,
-      "name": "jhgjhgjghjghjjhjgk",
+      "source_id": "https://w3id.org/usgs/z/ABCD",
+      "record_id": 1,
+      "name": "report ",
       "location_info": {
         "location": "POINT (-75.33292 44.28331)",
         "country": "United States",
         "state_or_province": "NY",
-        "location_source_record_id": "22",
-        "location_source": "MRDS_Zinc",
         "crs": "NAD83"
       },
-      "geology_info": {
-        "age": "",
-        "process": "",
-        "lithology": "",
-        "comments": "",
-        "description": "",
-        "environment": "",
-        "unit_name": ""
-      },
-      "same_as": "",
+      "deposit_type_candidate": [
+        {
+          "observed_name": "magmatic nickel- copper-platinum group element (PGE)",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "confidence": 1,
+          "source": "SME"
+        }
+      ],
       "MineralInventory": [
         {
-          "id": 0,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": "https://minmod.isi.edu/resource/Measured",
+          "category": ["https://minmod.isi.edu/resource/proven"],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 850100
@@ -115,9 +106,7 @@
           },
           "contained_metal": 112128.19,
           "reference": {
-            "id": 0,
             "document": {
-              "id": "doc_id_0",
               "title": "NI 43-101 PRELIMINARY ECONOMIC ASSESSMENT TECHNICAL REPORT ON THE EMPIRE STATE MINES, GOUVERNEUR, NEW YORK, USA",
               "uri": "https://w3id.org/usgs/z/4530692/MHU8MJUV",
               "month": 9,
@@ -146,8 +135,7 @@
           },
           "date": "09-19-2017"
         }
-      ],
-      "deposit_type": "https://minmod.isi.edu/resource/Q24"
+      ]
 
     }
   ]
