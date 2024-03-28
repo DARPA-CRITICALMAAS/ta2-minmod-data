@@ -1,0 +1,38 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/5GJT468J",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Chiniguchi River Project in North America dated March 2009",
+      "location_info": {
+        "location": "POINT(-80.373333 46.688611)",
+        "crs": "WGS84",
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "MineralInventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "reference": {
+            "document":{
+              "title": "Independent Technical (Geological) Report - Chiniguchi River Property",
+              "doi": "https://w3id.org/usgs/z/4530692/5GJT468J",
+              "authors": ["Hadyn R. Butler"],
+              "year": 2009,
+              "month": 3,
+              "description": "This report is designed to comply with National Instrument 43-101 standards of Disclosure for Mineral Projects and was prepared using Form 43-101F1 and guidelines in Companion Policy 43-101CP."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Contact-breccia type Ni-Cu-PGE mineralization",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}
