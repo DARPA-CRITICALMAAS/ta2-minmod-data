@@ -23,22 +23,17 @@ jobs:
           ref: support-git-lfs
           path: ta2-minmod-kg
 
-      - name: Print directory
-        run:  |
-          pwd
-          ls
-
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8  # change this to your desired Python version
+          python-version: 3.8
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           full_path=$(pwd)
-          cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/requirements.txt"
-          pip install -r ${cd_here}  # change this if you have dependencies
+          requirements_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/requirements.txt"
+          pip install -r ${requirements_path}  
 
       - name: Install tj-actions
         id: changed-files
@@ -46,47 +41,20 @@ jobs:
         with:
           since_last_remote_commit: false
 
-
       - name: List all changed files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          pwd
-          ls
           full_path=$(pwd)
           echo $full_path
           python_script_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/validate_schema_github_actions.py"
-          cd_here="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
+          base_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
           data_repo="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-data/"
           cd ${data_repo}
           git lfs pull
-          echo "$python_script_path"
           for file in ${ALL_CHANGED_FILES}; do
-            full_path_2=$full_path"/ta2-minmod-data/"$file
-            echo $full_path_2
-            echo "$file was changed"
+            full_path_for_json=$full_path"/ta2-minmod-data/"$file
             TEMP_FILE=$(mktemp)
-            ls
-            python ${python_script_path} ${full_path_2} ${TEMP_FILE} ${cd_here}
+            python ${python_script_path} ${full_path_for_json} ${TEMP_FILE} ${base_path}
           done
-
-
-#            python validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
-#      - id: files
-#        with:
-#          path: ta2-minmod-data
-#          since_last_remote_commit: false
-#        env:
-#          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#        run: |
-#          pwd
-#          ls
-#          echo ${ALL_CHANGED_FILES}
-#          for changed_file in ${ALL_CHANGED_FILES}; do
-#            TEMP_FILE=$(mktemp)
-#            echo $changed_file
-#            echo $TEMP_FILE
-#          done
-#
