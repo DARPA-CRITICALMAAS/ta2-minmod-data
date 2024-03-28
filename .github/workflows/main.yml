@@ -10,33 +10,51 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: Checkout repository Data
+        uses: actions/checkout@v3
+        with:
+          path: ta2-minmod-data
+
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: DARPA-CRITICALMAAS/ta2-minmod-kg
-          ref: main
+          ref: support-git-lfs
+          path: ta2-minmod-kg
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8  # change this to your desired Python version
+          python-version: 3.8
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r validators/requirements.txt  # change this if you have dependencies
+          full_path=$(pwd)
+          requirements_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/requirements.txt"
+          pip install -r ${requirements_path}  
 
-      - name: Install jitterbit
-        uses: jitterbit/get-changed-files@v1
+      - name: Install tj-actions
+        id: changed-files
+        uses: tj-actions/changed-files@v43
         with:
-          format: 'space-delimited'
+          since_last_remote_commit: false
 
-      - id: files
-        uses: jitterbit/get-changed-files@v1
-      - run: |
-          for changed_file in ${{ steps.files.outputs.all }}; do
-            TEMP_FILE=$(mktemp)
-            python validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
-          done
+      - name: List all changed files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          full_path=$(pwd)
+          echo $full_path
+          python_script_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/validators/validate_schema_github_actions.py"
+          base_path="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-kg/"
+          data_repo="$(dirname "$full_path")/ta2-minmod-data/ta2-minmod-data/"
+          cd ${data_repo}
+          git lfs pull
+          for file in ${ALL_CHANGED_FILES}; do
+            full_path_for_json=$full_path"/ta2-minmod-data/"$file
+            TEMP_FILE=$(mktemp)
+            python ${python_script_path} ${full_path_for_json} ${TEMP_FILE} ${base_path}
+          done
