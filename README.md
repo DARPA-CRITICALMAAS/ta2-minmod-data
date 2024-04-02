@@ -1,12 +1,12 @@
 # MinMod Knowledge Graph
 
-This repository contains the datasets used to create the mineral site knowledge graph. The knowledge graph integrates heterogeneous data sources including scholarly articles, geolocation databases, and structured tables to provide a rich, queryable graph of mineral site information.
+This repository contains the datasets used to create the mineral site knowledge graph (KG), and some examples on how to fetch & manipulate the data in the KG. The KG integrates heterogeneous data sources including mineral site reports (National Instrument 43-101), scholarly articles, geo databases, and structured tables to provide a rich, queryable graph of mineral site information.
 
 ## Repository Structure
 
 - `/data` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/data#readme)): This directory contains all the raw data used to build the MinMod knowledge graph.
-  - Under data umn, inferlink and usc folder contain the data from respective sources
-- `/sandbox` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/sandbox#readme)): This directory holds the sandbox, a collection of example queries & code to manipulate the KG data & build **Grade & Tonnage models**!
+  - Under `data`, `json` files within the folders `umn`, `inferlink`, `sri`, and `usc` are semantically modeled to materialize the data from the respective sources.
+- `/sandbox` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/sandbox#readme)): This directory holds the "sandbox", a `jupyter notebook` with a collection of example `SPARQL` queries & `python` code to manipulate the KG data & to build **Grade & Tonnage models** & interactively navigate the results!
 
 ## Schema
 
@@ -14,4 +14,4 @@ The data in this knowledge graph adhere to this [schema](https://github.com/DARP
 
 ## Deployment
 
-The final RDF data (triples) are deployed & can be queried at our online SPARQL endpoint: [SPARQL Endpoint](https://minmod.isi.edu/sparql). You can also explore the data via our [Mineral Data Browser](https://minmod.isi.edu/).
+The final `RDF` data (triples) are deployed & can be queried directly from our online & public `SPARQL` endpoint: [SPARQL Endpoint](https://minmod.isi.edu/sparql). You can also explore the data via our [Mineral Data Browser](https://minmod.isi.edu/).
