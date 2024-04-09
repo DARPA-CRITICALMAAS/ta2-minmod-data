@@ -16,6 +16,6 @@ jupter lab
 #jupyter notebook
 ```
 
-### Demo of Grade Tonnage model navigation:
+### Demo of Grade-Tonnage model generation & results navigation:
 #### Executing all cells (or just the relevant ones) can generate this viewer interface
 ![](demo_imgs/nickel_grade_tonnage.gif)
