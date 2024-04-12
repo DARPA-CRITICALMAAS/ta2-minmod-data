@@ -29,6 +29,6 @@ paired_df = pd.merge(url_pred_results_df, url_pred_results_df, on='GroupID')
 paired_df = paired_df[paired_df['ms.value_x'] != paired_df['ms.value_y']]
 
 paired_df.rename(columns={'ms.value_x': 'ms_uri_1', 'ms.value_y': 'ms_uri_2'}, inplace=True)
-#paired_df.drop(columns='GroupID', inplace=True)
+paired_df.drop(columns='GroupID', inplace=True)
 
 paired_df.to_csv(output_csv_file, index=False)
