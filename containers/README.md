@@ -27,12 +27,12 @@ The script generates several outputs, each capturing different aspects of Minera
 - **Output Directory:** Directory where the output files are stored. Ensure this directory exists and is writable.
 
 ### 1. Mineral Sites to Grade-Tonnage Data
-This `csv` file maps Mineral Sites to their corresponding Grade and Tonnage data. File includes columns for Mineral Site URI (`ms`), site name (`ms_name`), country, state or province, location in WKT (Well-known text representation of geometry) format, total tonnage, and total grade. This output helps in understanding the quantitative measures of extracted minerals at each site.
+This `csv` file maps Mineral Sites to their corresponding Grade and Tonnage data. File includes columns for Mineral Site URI (`ms`), site name (`ms_name`), country, state or province, location in WKT (Well-known text representation of geometry) format and total grade and tonnage (including measured, indicated and inferred). This output helps in understanding the quantitative measures of extracted minerals at each site.
 
 **Filename:** `<commodity>_mineral_sites_to_grade_tonnage.csv`
 
 ### 2. Mineral Sites to Deposit Type Classification Results
-This `csv` file classifies each Mineral Site into different deposit types along with their confidence scores and other relevant metadata. File includes Mineral Site URI, site name, country, state or province, location in WKT format, deposit type, confidence in deposit classification, source of deposit data, deposit group, and environmental settings.
+This `csv` file classifies each Mineral Site into different deposit types along with their confidence scores and other relevant metadata. File includes Mineral Site URI, site name, country, state or province, location in WKT format, deposit type, confidence in deposit classification, source of the deposit classification, and deposit group and environment.
 
 **Filename:** `<commodity>_mineral_sites_to_deposit_types.csv`
 
