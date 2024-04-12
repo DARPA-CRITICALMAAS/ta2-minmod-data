@@ -1,8 +1,5 @@
-import re
-import json
 import requests
 import pandas as pd
-from collections import Counter
 from shapely.wkt import loads
 from shapely.errors import WKTReadingError
 import warnings

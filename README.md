@@ -7,6 +7,8 @@ This repository contains the datasets used to create the mineral site knowledge 
 - `/data` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/data#readme)): This directory contains all the raw data used to build the MinMod knowledge graph.
   - Under `data`, `json` files within the folders `umn`, `inferlink`, `sri`, and `usc` are semantically modeled to materialize the data from the respective sources.
 - `/sandbox` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/sandbox#readme)): This directory holds the "sandbox", a `jupyter notebook` with a collection of example `SPARQL` queries & `python` code to manipulate the KG data & to build **Grade & Tonnage models** & interactively navigate the results!
+- `/containers` (see designated [README](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/tree/main/container#readme)): This directory contains necessary `Dockerfile`, code & scripts to build the Docker image to generate the TA2 outputs (`csv` files) from the **live** MinMod KG using queries.
+- `/scripts`: This directory contains scripts used for internal use
 
 ## Schema
 
