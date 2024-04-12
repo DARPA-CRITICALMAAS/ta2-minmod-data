@@ -116,9 +116,7 @@ WHERE {
 }
 '''
 query_resp_df = run_minmod_query(query, values=True)
-# print(query_resp_df)
 print(f'queried & aggregated data from {len(query_resp_df)} sites...')
-# print(query_resp_df)
 gt_data_df = pd.DataFrame([
     {
         'ms': row['ms.value'],
@@ -136,12 +134,6 @@ gt_data_df = pd.DataFrame([
     }
     for index, row in query_resp_df.iterrows()
 ])
-
-
-# In[361]:
-
-
-gt_data_df
 
 # gt_data_df.to_csv(f'{output_file}gt_model_group_query_results.csv', index=False, mode='w')
 
