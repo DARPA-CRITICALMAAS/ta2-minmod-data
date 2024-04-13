@@ -1,0 +1,63 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/6JIW9ZTD",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Parkin Project in North America dated March 2016",
+      "location_info": {
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 87000
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.4
+          },
+          "contained_metal": 348,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Parkin Project in North America dated March 2016",
+              "doi": "https://w3id.org/usgs/z/4530692/6JIW9ZTD",
+              "authors": [
+                "David Smith"
+              ],
+              "year": 2016,
+              "month": 2,
+              "description": "This report was prepared for Wallbridge to summarize the results of exploration on the Property to February 29, 2016, and to make recommendations for further work, in compliance with the requirements of National Instrument 43-101 and Form 43-101F1."
+            },
+            "page_info": [
+              {
+                "page": 0,
+                "bounding_box": {
+                  "x_min": "",
+                  "x_max": "",
+                  "y_min": "",
+                  "y_max": ""
+                }
+              }
+            ]
+          },
+          "date": "2016-2",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Offset dyke type deposit",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

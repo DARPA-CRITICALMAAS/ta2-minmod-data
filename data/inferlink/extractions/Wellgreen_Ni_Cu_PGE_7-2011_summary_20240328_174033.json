@@ -1,0 +1,115 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/8IWIAAHF",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Wellgreen Project in North America dated July 2011",
+      "location_info": {
+        "location": "POINT(-139.53333 61.46667)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Yukon"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 100743000
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.564
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q210",
+            "grade_value": 0.1
+          },
+          "contained_metal": 568190.52,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Wellgreen Project in North America dated July 2011",
+              "doi": "https://w3id.org/usgs/z/4530692/8IWIAAHF",
+              "authors": [
+                "Todd McCracken",
+                "Jeff Wilson"
+              ],
+              "year": 2011,
+              "month": 7,
+              "description": "This technical report contains a resource estimate for the Wellgreen Platinum-Palladium-Nickel-Copper Project in Yukon, Canada, with an effective date of July 21, 2011."
+            },
+            "page_info": [
+              {
+                "page": 0,
+                "bounding_box": {
+                  "x_min": "",
+                  "x_max": "",
+                  "y_min": "",
+                  "y_max": ""
+                }
+              }
+            ]
+          },
+          "date": "2011-7",
+          "zone": "west zone"
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 14308000
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 1.36
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q210",
+            "grade_value": 0.4
+          },
+          "contained_metal": 194588.8,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Wellgreen Project in North America dated July 2011",
+              "doi": "https://w3id.org/usgs/z/4530692/8IWIAAHF",
+              "authors": [
+                "Todd McCracken",
+                "Jeff Wilson"
+              ],
+              "year": 2011,
+              "month": 7,
+              "description": "This technical report contains a resource estimate for the Wellgreen Platinum-Palladium-Nickel-Copper Project in Yukon, Canada, with an effective date of July 21, 2011."
+            },
+            "page_info": [
+              {
+                "page": 0,
+                "bounding_box": {
+                  "x_min": "",
+                  "x_max": "",
+                  "y_min": "",
+                  "y_max": ""
+                }
+              }
+            ]
+          },
+          "date": "2011-7",
+          "zone": "east"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "gabbro-associated nickel deposits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

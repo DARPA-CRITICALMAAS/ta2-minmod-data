@@ -1,0 +1,66 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/7UCUHXEK",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Hart Project in North America dated August 2008",
+      "location_info": {
+        "location": "POINT(-81.330555 48.475833)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Hart Project in North America dated August 2008",
+              "doi": "https://w3id.org/usgs/z/4530692/7UCUHXEK",
+              "authors": [
+                "Glen Cole",
+                "Will Randall",
+                "Jean-Fran\u00e7ois Couture"
+              ],
+              "year": 2008,
+              "month": 8,
+              "description": "This report provides an initial mineral resource estimate for the Hart nickel project and compiles a technical report following the guidelines of the Canadian Securities Administrators National Instrument 43-101."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Kambalda-style nickel sulphides mineralization",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q476",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Hosted by ultramafic rocks",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Upper zone of nickel-enriched banded iron formation",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Basal lower zone consisting of massive to semi-massive sulphides",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q476",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Interstitial zone of disseminated sulphides",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        }
+      ]
+    }
+  ]
+}
