@@ -99,28 +99,34 @@ def main(args):
     }
     ''' % (commodity)
     query_resp_df = run_minmod_query(query, values=True)
-    gt_data_df = pd.DataFrame([
-        {
-            'ms': row['ms.value'],
-            'ms_name': row['ms_name.value'] if len(row['ms_name.value']) > 0 else row['ms.value'].split('/')[-1],
-            'country': row['country.value'],
-            'state_or_province': row['state_or_province.value'],
-            'loc_wkt': row['loc_wkt.value'],
-            'tot_tonnage_measured': float(row['total_tonnage_measured.value']),
-            'tot_tonnage_indicated': float(row['total_tonnage_indicated.value']),
-            'tot_tonnage_inferred': float(row['total_tonnage_inferred.value']),
-            'tot_contained_measured': float(row['total_contained_measured.value']),
-            'tot_contained_indicated': float(row['total_contained_indicated.value']),
-            'tot_contained_inferred': float(row['total_contained_inferred.value']),
-            'total_tonnage': float(row['total_tonnage.value']),
-            'total_grade': float(row['total_grade.value'])
-        }
-        for index, row in query_resp_df.iterrows()
-    ])
+    if not query_resp_df.empty:
+        gt_data_df = pd.DataFrame([
+            {
+                'ms': row['ms.value'],
+                'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
+                'country': row['country.value'],
+                'state_or_province': row['state_or_province.value'],
+                'loc_wkt': row['loc_wkt.value'],
+                'tot_tonnage_measured': float(row['total_tonnage_measured.value']),
+                'tot_tonnage_indicated': float(row['total_tonnage_indicated.value']),
+                'tot_tonnage_inferred': float(row['total_tonnage_inferred.value']),
+                'tot_contained_measured': float(row['total_contained_measured.value']),
+                'tot_contained_indicated': float(row['total_contained_indicated.value']),
+                'tot_contained_inferred': float(row['total_contained_inferred.value']),
+                'total_tonnage': float(row['total_tonnage.value']),
+                'total_grade': float(row['total_grade.value'])
+            }
+            for index, row in query_resp_df.iterrows()
+        ])
 
-    gt_df_only = gt_data_df.drop_duplicates()
-    gt_df_only.reset_index(drop=True, inplace=True)
-    gt_df_only.to_csv(f'{output_directory}/{commodity}_mineral_sites_to_grade_tonnage.csv', index=False, mode='w')
+        gt_df_only = gt_data_df.drop_duplicates()
+        gt_df_only.reset_index(drop=True, inplace=True)
+        gt_df_only.set_index('ms', inplace=True)
+        gt_df_only['info_count'] = gt_df_only[['country', 'state_or_province', 'loc_wkt']].apply(lambda x: ((x != '') & (x.notna())).sum(), axis=1)
+        gt_df_only = gt_df_only.sort_values(by='info_count', ascending=False)
+        gt_df_only = gt_df_only[~gt_df_only.index.duplicated(keep='first')]
+        gt_df_only.drop(columns=['info_count'], inplace=True)
+        gt_df_only.to_csv(f'{output_directory}/{commodity}_mineral_sites_to_grade_tonnage.csv', index=True, mode='w')
 
     # ------------------ Mineral Site to Deposit Type classification results ------------------
 
@@ -149,25 +155,32 @@ def main(args):
        }
        ''' % (commodity)
     query_resp_df = run_minmod_query(query, values=True)
-    deposits_df = pd.DataFrame([
-        {
-            'ms': row['ms.value'],
-            'ms_name': row['ms_name.value'] if len(row['ms_name.value']) > 0 else row['ms.value'].split('/')[-1],
-            'country': row['country.value'],
-            'state_or_province': row['state_or_province.value'],
-            'deposit_type': row['deposit_name.value'],
-            'deposit_group': row['deposit_group.value'],
-            'deposit_environment': row['deposit_environment.value'],
-            'deposit_classification_confidence': row['deposit_confidence.value'],
-            'deposit_classification_source': row['deposit_source.value'],
-            'loc_wkt': row['loc_wkt.value']
-        }
-        for index, row in query_resp_df.iterrows()
-    ])
-    deposits_df.drop_duplicates(inplace=True)
-    deposits_df_ordered = deposits_df.sort_values(by=['ms', 'deposit_classification_confidence'], ascending=False)
-    deposits_df_ordered.reset_index(drop=True, inplace=True)
-    deposits_df_ordered.to_csv(f'{output_directory}/{commodity}_mineral_sites_to_deposit_types.csv', index=False, mode='w')
+    if not query_resp_df.empty:
+        deposits_data = pd.DataFrame([
+            {
+                'ms': row['ms.value'],
+                'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
+                'country': row['country.value'],
+                'state_or_province': row['state_or_province.value'],
+                'deposit_type': row['deposit_name.value'],
+                'deposit_group': row['deposit_group.value'],
+                'deposit_environment': row['deposit_environment.value'],
+                'deposit_classification_confidence': row['deposit_confidence.value'],
+                'deposit_classification_source': row['deposit_source.value'],
+                'loc_wkt': row['loc_wkt.value']
+            }
+            for index, row in query_resp_df.iterrows()
+        ])
+
+        deposits_df = deposits_data.drop_duplicates()
+        deposits_df.reset_index(drop=True, inplace=True)
+        deposits_df.set_index(['ms', 'deposit_type'], inplace=True)
+        deposits_df['info_count'] = deposits_df[['country', 'state_or_province', 'loc_wkt']].apply(lambda x: ((x != '') & (x.notna())).sum(), axis=1)
+        deposits_df_ordered = deposits_df.sort_values(by='info_count', ascending=False)
+        deposits_df_ordered = deposits_df_ordered[~deposits_df_ordered.index.duplicated(keep='first')]
+        deposits_df_ordered.drop(columns=['info_count'], inplace=True)
+        deposits_df_ordered.reset_index(inplace=True)
+        deposits_df_ordered.to_csv(f'{output_directory}/{commodity}_mineral_sites_to_deposit_types.csv', index=False, mode='w')
 
     # ------------------ Hyper Site (aggregated group of sites) to Mineral Site ------------------
 
@@ -190,28 +203,37 @@ def main(args):
     }
     ''' % (commodity)
     query_resp_df = run_minmod_query(query, values=True)
-    sites_df = pd.DataFrame([
-        {
-            'ms': row['ms.value'],
-            'ms_name': row['ms_name.value'] if len(row['ms_name.value']) > 0 else row['ms.value'].split('/')[-1],
-            'country': row['country.value'],
-            'state_or_province': row['state_or_province.value'],
-            'loc_wkt': row['loc_wkt.value']
-        }
-        for index, row in query_resp_df.iterrows()
-    ])
-    sites_df.dropna(subset=['country', 'state_or_province', 'loc_wkt'], how='all', inplace=True)
+    if not query_resp_df.empty:
+        sites_df = pd.DataFrame([
+            {
+                'ms': row['ms.value'],
+                'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
+                'country': row['country.value'],
+                'state_or_province': row['state_or_province.value'],
+                'loc_wkt': row['loc_wkt.value']
+            }
+            for index, row in query_resp_df.iterrows()
+        ])
+        sites_df.dropna(subset=['country', 'state_or_province', 'loc_wkt'], how='all', inplace=True)
 
-    df_melted = df_all_sites.melt(id_vars=['group_id'], value_vars=['ms1.value', 'ms2.value'], value_name='ms')
+        df_melted = df_all_sites.melt(id_vars=['group_id'], value_vars=['ms1.value', 'ms2.value'], value_name='ms')
 
-    df_all_sites_groups = df_melted[['ms', 'group_id']].drop_duplicates()
-    merged_df_all_sites = pd.merge(sites_df, df_all_sites_groups, how='left', on='ms')
+        df_all_sites_groups = df_melted[['ms', 'group_id']].drop_duplicates()
+        merged_df_all_sites = pd.merge(sites_df, df_all_sites_groups, how='left', on='ms')
 
-    max_group_id = merged_df_all_sites['group_id'].fillna(0).max()
-    merged_df_all_sites['group_id'] = merged_df_all_sites['group_id'].fillna(pd.Series(range(int(max_group_id) + 1, len(merged_df_all_sites) + int(max_group_id) + 1)))
-    sorted_df_all_sites_all_dep = merged_df_all_sites.sort_values(by=['group_id', 'ms_name'])
-    sorted_df_all_sites_all_dep.reset_index(drop=True, inplace=True)
-    sorted_df_all_sites_all_dep.to_csv(f'{output_directory}/{commodity}_mineral_sites_hypersites.csv', index=False, mode='w')
+        max_group_id = merged_df_all_sites['group_id'].fillna(0).max()
+        merged_df_all_sites['group_id'] = merged_df_all_sites['group_id'].fillna(pd.Series(range(int(max_group_id) + 1, len(merged_df_all_sites) + int(max_group_id) + 1)))
+        sorted_df_all_sites_all_dep = merged_df_all_sites.sort_values(by=['group_id', 'ms_name'])
+
+        sorted_df_all_sites_all_dep.reset_index(drop=True, inplace=True)
+        sorted_df_all_sites_all_dep.set_index('ms', inplace=True)
+        sorted_df_all_sites_all_dep['info_count'] = sorted_df_all_sites_all_dep[['country', 'state_or_province', 'loc_wkt']].apply(lambda x: ((x != '') & (x.notna())).sum(), axis=1)
+        sorted_df_all_sites_all_dep = sorted_df_all_sites_all_dep.sort_values(by='info_count', ascending=False)
+        sorted_df_all_sites_all_dep = sorted_df_all_sites_all_dep[~sorted_df_all_sites_all_dep.index.duplicated(keep='first')]
+        sorted_df_all_sites_all_dep.drop(columns=['info_count'], inplace=True)
+        sorted_df_all_sites_all_dep.reset_index(inplace=True)
+
+        sorted_df_all_sites_all_dep.to_csv(f'{output_directory}/{commodity}_mineral_sites_hypersites.csv', index=False, mode='w')
 
 
 if __name__ == "__main__":
