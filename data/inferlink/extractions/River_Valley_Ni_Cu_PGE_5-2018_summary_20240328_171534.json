@@ -1,0 +1,75 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/QX5H43CR",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the River Valley Project in North America dated May 2018",
+      "location_info": {
+        "location": "POINT(-80.4167 46.6667)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 127662000
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.012
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q203",
+            "grade_value": 0.4
+          },
+          "contained_metal": 15319.44,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the River Valley Project in North America dated May 2018",
+              "doi": "https://w3id.org/usgs/z/4530692/QX5H43CR",
+              "authors": [
+                "Todd McCracken"
+              ],
+              "year": 2018,
+              "month": 5,
+              "description": "This document presents an updated mineral resource estimate for the River Valley Project."
+            },
+            "page_info": [
+              {
+                "page": 112,
+                "bounding_box": {
+                  "x_min": "",
+                  "x_max": "",
+                  "y_min": "",
+                  "y_max": ""
+                }
+              }
+            ]
+          },
+          "date": "2018-5",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "contact nickel-PGE mineralization",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q319",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "reef PGE mineralization",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}
