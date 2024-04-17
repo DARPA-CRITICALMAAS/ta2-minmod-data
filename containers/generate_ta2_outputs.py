@@ -101,6 +101,7 @@ def main(args):
 
     query_resp_df = run_minmod_query(query, values=True)
     print(query_resp_df)
+    print(query_resp_df[0])
     if not query_resp_df.empty:
         gt_data_df = pd.DataFrame([
             {
