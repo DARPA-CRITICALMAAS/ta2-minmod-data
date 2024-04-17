@@ -159,6 +159,7 @@ def main(args):
        }
        ''' % (commodity)
     query_resp_df = run_minmod_query(query, values=True)
+    print(len(query_resp_df))
     if not query_resp_df.empty:
         deposits_data = pd.DataFrame([
             {
