@@ -129,6 +129,7 @@ def main(args):
         gt_df_only = gt_df_only.sort_values(by='info_count', ascending=False)
         gt_df_only = gt_df_only[~gt_df_only.index.duplicated(keep='first')]
         gt_df_only.drop(columns=['info_count'], inplace=True)
+        print(commodity)
         gt_df_only.to_csv(f'{output_directory}/{commodity}_mineral_sites_to_grade_tonnage.csv', index=True, mode='w')
 
     # ------------------ Mineral Site to Deposit Type classification results ------------------
