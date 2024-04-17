@@ -98,6 +98,7 @@ def main(args):
       }
     }
     ''' % (commodity)
+    print(query_resp_df)
     query_resp_df = run_minmod_query(query, values=True)
     if not query_resp_df.empty:
         gt_data_df = pd.DataFrame([
