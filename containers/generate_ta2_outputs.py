@@ -101,14 +101,14 @@ def main(args):
 
     query_resp_df = run_minmod_query(query, values=True)
     print(query_resp_df)
-    print(query_resp_df[0])
+    print(query_resp_df)
     if not query_resp_df.empty:
         gt_data_df = pd.DataFrame([
             {
                 'ms': row['ms.value'],
                 'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
                 'country': row['country.value'],
-                'state_or_province': row['state_or_province.value'],
+                'state_or_province': row.get('state_or_province.value', ''),
                 'loc_wkt': row['loc_wkt.value'],
                 'tot_tonnage_measured': float(row['total_tonnage_measured.value']),
                 'tot_tonnage_indicated': float(row['total_tonnage_indicated.value']),
