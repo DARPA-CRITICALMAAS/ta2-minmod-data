@@ -156,9 +156,6 @@ def main(args):
            OPTIONAL { ?loc :state_or_province ?state_or_province . }
            OPTIONAL { ?loc :location ?loc_wkt . }
 
-}
-           
-
            ?mi :commodity [ :name ?name ] .
            FILTER(LCASE(STR(?name)) = "%s")
        }
