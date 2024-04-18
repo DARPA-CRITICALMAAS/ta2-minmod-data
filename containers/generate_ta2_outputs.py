@@ -151,7 +151,7 @@ def main(args):
            ?ms :mineral_inventory ?mi .
            OPTIONAL { ?ms rdfs:label|:name ?ms_name . }
 
-           ?ms :location_info ?loc .
+           OPTIONAL { ?ms :location_info ?loc .}
            OPTIONAL { ?loc :country ?country . }
            OPTIONAL { ?loc :state_or_province ?state_or_province . }
            OPTIONAL { ?loc :location ?loc_wkt . }
