@@ -65,7 +65,7 @@ def main(args):
             ?ms :mineral_inventory ?mi .
             OPTIONAL { ?ms rdfs:label|:name ?ms_name . FILTER (STR(?ms_name) != "") }
 
-            ?ms :location_info ?loc .
+            OPTIONAL { ?ms :location_info ?loc .}
             OPTIONAL { ?loc :country ?country . FILTER (STR(?country) != "") }
             OPTIONAL { ?loc :state_or_province ?state_or_province . FILTER (STR(?state_or_province) != "") }
             OPTIONAL { ?loc :location ?loc_wkt . FILTER (STR(?loc_wkt) != "") }
@@ -151,8 +151,8 @@ def main(args):
            ?ms :mineral_inventory ?mi .
            OPTIONAL { ?ms rdfs:label|:name ?ms_name . }
 
-           OPTIONAL { ?ms :location_info ?loc . 
-OPTIONAL { ?loc :country ?country . }
+           ?ms :location_info ?loc .
+           OPTIONAL { ?loc :country ?country . }
            OPTIONAL { ?loc :state_or_province ?state_or_province . }
            OPTIONAL { ?loc :location ?loc_wkt . }
 
