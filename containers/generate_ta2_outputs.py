@@ -99,6 +99,8 @@ def main(args):
     }
     ''' % (commodity)
 
+    print("BUILDING Dep Types")
+
     query_resp_df = run_minmod_query(query, values=True)
     if not query_resp_df.empty:
         gt_data_df = pd.DataFrame([
@@ -130,6 +132,8 @@ def main(args):
         print(commodity)
         gt_df_only.to_csv(f'{output_directory}/{commodity}_mineral_sites_to_grade_tonnage.csv', index=True, mode='w')
 
+        print("BUILDING GT")
+
     # ------------------ Mineral Site to Deposit Type classification results ------------------
 
     query = '''
@@ -147,10 +151,13 @@ def main(args):
            ?ms :mineral_inventory ?mi .
            OPTIONAL { ?ms rdfs:label|:name ?ms_name . }
 
-           OPTIONAL { ?ms :location_info ?loc . }
-           OPTIONAL { ?loc :country ?country . }
+           OPTIONAL { ?ms :location_info ?loc . 
+OPTIONAL { ?loc :country ?country . }
            OPTIONAL { ?loc :state_or_province ?state_or_province . }
            OPTIONAL { ?loc :location ?loc_wkt . }
+
+}
+           
 
            ?mi :commodity [ :name ?name ] .
            FILTER(LCASE(STR(?name)) = "%s")
@@ -188,6 +195,7 @@ def main(args):
     # ------------------ Hyper Site (aggregated group of sites) to Mineral Site ------------------
 
     # get all Mineral Sites
+    print("BUILDING Hypder Sites")
     query = '''
     SELECT ?ms ?ms_name ?country ?loc_wkt ?state_or_province
     WHERE {
