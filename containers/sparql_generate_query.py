@@ -13,7 +13,7 @@ def safe_wkt_load(wkt_string):
         print(f"Error converting WKT: {e}")
         return None
     
-def run_sparql_query(query, endpoint='http://localhost:3030/minmod/sparql', values=False):
+def run_sparql_query(query, endpoint='https://minmod.isi.edu/sparql', values=False):
     # add prefixes
     final_query = '''
     PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -47,7 +47,7 @@ def run_sparql_query(query, endpoint='http://localhost:3030/minmod/sparql', valu
         return None
     
 def run_minmod_query(query, values=False):
-    return run_sparql_query(query, endpoint='http://localhost:3030/minmod/sparql', values=values)
+    return run_sparql_query(query, endpoint='https://minmod.isi.edu/sparql', values=values)
 
 def run_geokb_query(query, values=False):
     return run_sparql_query(query, endpoint='https://geokb.wikibase.cloud/query/sparql', values=values)

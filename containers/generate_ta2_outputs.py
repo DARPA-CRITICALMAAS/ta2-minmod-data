@@ -102,9 +102,6 @@ def main(args):
       }
     }
     ''' % (commodity)
-
-    print("BUILDING Dep Types")
-
     query_resp_df = run_minmod_query(query, values=True)
     if not query_resp_df.empty:
         gt_data_df = pd.DataFrame([
@@ -133,10 +130,7 @@ def main(args):
         gt_df_only = gt_df_only.sort_values(by='info_count', ascending=False)
         gt_df_only = gt_df_only[~gt_df_only.index.duplicated(keep='first')]
         gt_df_only.drop(columns=['info_count'], inplace=True)
-        print(commodity)
         gt_df_only.to_csv(f'{output_directory}/{commodity}_mineral_sites_to_grade_tonnage.csv', index=True, mode='w')
-
-        print("BUILDING GT")
 
     # ------------------ Mineral Site to Deposit Type classification results ------------------
 
@@ -168,7 +162,6 @@ def main(args):
        }
        ''' % (commodity)
     query_resp_df = run_minmod_query(query, values=True)
-    print((query_resp_df))
     if not query_resp_df.empty:
         deposits_data = pd.DataFrame([
             {
@@ -199,7 +192,6 @@ def main(args):
     # ------------------ Hyper Site (aggregated group of sites) to Mineral Site ------------------
 
     # get all Mineral Sites
-    print("BUILDING Hypder Sites")
     query = '''
     SELECT ?ms ?ms_name ?country ?loc_wkt ?state_or_province
     WHERE {
