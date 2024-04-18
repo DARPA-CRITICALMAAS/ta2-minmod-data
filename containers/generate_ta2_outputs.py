@@ -200,7 +200,7 @@ def main(args):
         OPTIONAL { ?loc :state_or_province ?state_or_province . FILTER (STR(?state_or_province) != "") }
         OPTIONAL { ?loc :location ?loc_wkt . FILTER (STR(?loc_wkt) != "") }
 
-        OPTIONAL { ?mi :category ?mi_cat .  FILTER (?category != <http://minmod.isi.edu/resource/MISSING>) }
+        OPTIONAL { ?mi :category ?mi_cat . }
         ?mi :commodity [ :name ?name ] .
         FILTER(LCASE(STR(?name)) = "%s")
     }
