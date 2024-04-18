@@ -1,0 +1,522 @@
+#!/bin/bash
+
+# Define usage function
+display_help() {
+    echo "Usage: $0 [ARGUMENT1] [ARGUMENT2] [ARGUMENT3] ..."
+    echo "This script generates a ttl from input data"
+    echo "Arguments:"
+    echo "  ARGUMENT1: type of CDR - string = 'github' or 'CDR'"
+    echo "  ARGUMENT2: Location of CDR data = 'repo_location'or 'CDR_location'"
+    echo "  ARGUMENT3: auth token if needed"
+    echo "  ARGUMENT4: Master folder whose subdirectories has data - data/ for github"
+    echo "  ARGUMENT5: folder where json + ttl should be generated - eg /generated_data will generate 2 locations - /generated_data/json_files/ and /generated_data/ttl_files/"
+    echo "  ARGUMENT6: Final file location  eg /mindmod/ttl_data/"
+    echo "  ARGUMENT7: Location of same_as ttl (to be removed)"
+    echo "  Example usage for VM -  ./generateKGForCDR.sh github https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data abc data/ /var/local/mindmod/scripts/generated_data /var/local/mindmod/ttl_data/ /var/local/mindmod/ttl_data/same_as.ttl"
+    # Add descriptions for additional arguments as needed
+}
+
+# Check if the first argument is -h
+if [ "$1" = "-h" ]; then
+    # Display help message and exit
+    display_help
+    exit 0
+fi
+
+echo $PATH
+cargo --version
+ls -alth /root/
+
+ls -alth /usr/local/sbin
+ls -alth /usr/local
+
+#current_path=$(pwd)"/"
+#
+#echo $current_path
+#mode=$1
+#
+#bearer_token=$3
+#
+#DATA_URL=$2
+#
+#DIR_DATA=$4
+#
+#LOCAL_DIR_CODE="$current_path""ta2-minmod-kg/"
+#
+#DESTINATION_FOLDER=$5"/"
+#
+#FINAL_FILE_DESTINATION=$6
+#
+#echo $1
+#echo $2
+#echo $3
+#echo $4
+#echo $5
+#echo $6
+#
+#
+#mkdir -p $6
+#mkdir -p "$DESTINATION_FOLDER""json_files/umn/"
+#mkdir -p "$DESTINATION_FOLDER""json_files/inferlink/"
+#mkdir -p "$DESTINATION_FOLDER""json_files/usc/"
+#mkdir -p "$DESTINATION_FOLDER""json_files/sri/"
+#mkdir -p "$DESTINATION_FOLDER""json_files/sri/mappableCriteria"
+#mkdir -p "$DESTINATION_FOLDER""ttl_files/merged_ttl"
+#mkdir -p "$DESTINATION_FOLDER""ttl_files/umn/"
+#mkdir -p "$DESTINATION_FOLDER""ttl_files/inferlink/"
+#mkdir -p "$DESTINATION_FOLDER""ttl_files/usc/"
+#mkdir -p "$DESTINATION_FOLDER""ttl_files/sri/"
+#mkdir -p "$DESTINATION_FOLDER""ttl_files/sri/mappableCriteria"
+#
+#ENTITIES="entities/"
+#COMMODITIES="commodities/"
+#DEPOSIT="depositTypes/"
+#UNITS="units/"
+#SAMEAS="sameAs/"
+#UMN="umn"
+#SRI="sri"
+#USC="usc/"
+#INFERLINK="inferlink/"
+#VALIDATORS="validators/"
+#GENERATOR="generator/"
+#TTL_FILES="ttl_files/"
+#JSON_VALIDATOR="generate_file_with_id.py"
+#TTL_VALIDATOR="validate_pyshacl_on_file.py"
+#TTL_MODEL_FILE="model_mineral_site.yml"
+#DEPLOYMENT="deployment/"
+#MERGE_JSON="merge_jsons.py"
+#MERGE_JSON_FOLDER="json_files/"
+#EXTRACTIONS="extractions"
+#MERGEDTTL="merged_ttl/"
+#
+#COMMODITIES_FILE_YML="model_commodities.yml"
+#COMMODITIES_FILE_CSV="minmod_commodities.csv"
+#COMMODITIES_FILE_TTL="minmod_commodities.ttl"
+#
+#DEPOSITS_FILE_YML="model_deposits.yml"
+#DEPOSITS_FILE_CSV="minmod_deposit_types.csv"
+#DEPOSITS_FILE_TTL="minmod_deposits.ttl"
+#
+#UNITS_FILE_YML="model_units.yml"
+#UNITS_FILE_CSV="minmod_units.csv"
+#UNITS_FILE_TTL="minmod_units.ttl"
+#
+#SAMEAS_FILE_YML="same_as.yml"
+#SAMEAS_FILE_CSV="sameas_mineralsites.csv"
+#SAMEAS_FILE_TTL="same_as.ttl"
+## Change to the local directory
+#
+#
+## Logic to get code files remains same
+#
+#if [ -d "$LOCAL_DIR_CODE" ]; then
+#    echo "Just change"
+#    cd "$current_path"
+#else
+#    echo "Clone this"
+#    # Directory doesn't exist, clone the repository
+#    git clone https://github.com/DARPA-CRITICALMAAS/ta2-minmod-kg.git "$current_path""ta2-minmod-kg"
+#fi
+#
+#cd $LOCAL_DIR_CODE
+#
+#git reset --hard HEAD
+#git clean -fd
+#git pull
+#git checkout main
+#git pull origin main
+#
+#LOCAL_DIR_DATA=""
+## Logic changes here based on CDR. But copy the data in local and then go from here
+#
+#if [ "$mode" == "github" ]; then
+#    # Actions for 'github' mode
+#    cd "$current_path"
+#    LOCAL_DIR_DATA_GIT="$current_path""ta2-minmod-data/"
+#    echo $LOCAL_DIR_DATA_GIT
+#    if [ -d "$LOCAL_DIR_DATA_GIT" ]; then
+#        cd "$LOCAL_DIR_DATA_GIT"
+#    else
+#        echo "Clone this data"
+#        # Directory doesn't exist, clone the repository
+#        git clone https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data.git "$current_path""ta2-minmod-data"
+#    fi
+#
+#    cd $LOCAL_DIR_DATA_GIT
+#    git reset --hard HEAD
+#    git clean -fd
+#    git pull
+#    git checkout main
+#    git fetch origin
+#    git merge main
+#
+#    LOCAL_DIR_DATA="$LOCAL_DIR_DATA_GIT""$DIR_DATA"
+#else
+#
+#    # Actions for other modes
+#    # Not Implemented yet
+#    echo "Performing actions for other modes"
+#    # Add your other mode-specific actions here
+#fi
+#
+#echo $LOCAL_DIR_DATA
+#
+#
+## Define the local directory where you want to pull the changes
+#python3.11 -m venv venv
+#source venv/bin/activate
+#
+#pip3 install rdflib || echo "Module already installed"
+#pip3 install requests || echo "Module already installed"
+#pip3 install pyshacl || echo "Module already installed"
+#pip3 install jsonschema || echo "Module already installed"
+#
+#git clone https://github.com/binh-vu/drepr-v2.git
+#pip install drepr-v2/
+#
+#pip3 install validators || echo "module already installed"
+#pip3 install python-slugify || echo "module already installed"
+#pip install typer==0.9.0 || echo "module already installed"
+#
+#
+##Validate json in all files in inferlink folder
+#
+## Path to the folder containing files
+#folder_path_inferlink="$LOCAL_DIR_DATA$INFERLINK$EXTRACTIONS"
+#folder_path_umn="$LOCAL_DIR_DATA$UMN"
+#json_script_path="$LOCAL_DIR_CODE$VALIDATORS$JSON_VALIDATOR"
+#
+#
+#json_files_path="$DESTINATION_FOLDER/$MERGE_JSON_FOLDER"
+#folder_path_inferlink_id="$json_files_path$INFERLINK"
+#
+#echo $folder_path_inferlink
+#echo $folder_path_inferlink_id
+#echo $json_script_path
+#
+##First delete any existing file
+#
+##find $folder_path_inferlink_id -type f -exec rm {} \;
+##for file_path in "$folder_path_inferlink"/*; do
+##    if [ -f "$file_path" ]; then
+##        echo $file_path
+##        python "$json_script_path" "$file_path" "$folder_path_inferlink_id"
+##        if [ $? -ne 0 ]; then
+##            echo "Python script failed"
+##        fi
+##    fi
+##done
+#
+#
+## Validate SRI as well
+#folder_path_sri="$LOCAL_DIR_DATA$SRI"
+#folder_path_sri_id="$json_files_path$SRI"
+#echo $folder_path_sri_id
+#
+##First delete any existing file
+#
+##find $folder_path_sri_id -type f -exec rm {} \;
+##echo $folder_path_sri
+##for file_path in "$folder_path_sri"/*; do
+##    if [ -f "$file_path" ]; then
+##        echo $file_path
+##        python "$json_script_path" "$file_path" "$folder_path_sri_id"
+##        if [ $? -ne 0 ]; then
+##            echo "Validate json script failed"
+##        fi
+##    fi
+##done
+#
+## Validate UMN as well
+#
+##folder_path_umn_id="$json_files_path$UMN"
+##echo $folder_path_umn_id
+##find $folder_path_umn_id -type f -exec rm {} \;
+##echo $folder_path_umn
+##for file_path in "$folder_path_umn"/*; do
+##    if [ -f "$file_path" ]; then
+##        echo $file_path
+##        python "$json_script_path" "$file_path" "$folder_path_umn_id"
+##        if [ $? -ne 0 ]; then
+##            echo "Validate json script failed"
+##        fi
+##    fi
+##done
+#
+## Validate SRI MC as well
+#
+#folder_path_sri_mc="$LOCAL_DIR_DATA$SRI""/""mappableCriteria"
+#folder_path_sri_mc_id="$json_files_path$SRI""/""mappableCriteria"
+#drepr_yaml_path="$LOCAL_DIR_CODE""generator/$TTL_MODEL_FILE"
+#drepr_yaml_path_mc="$LOCAL_DIR_CODE""generator/""model_mineral_system_v2.yml"
+#
+#
+#echo $folder_path_sri_mc_id
+#
+##First delete any existing file
+#
+#find $folder_path_sri_mc_id -type f -exec rm {} \;
+#
+#echo $folder_path_sri_mc
+#file_list_sri_mc=""
+#
+#for file_path in "$folder_path_sri_mc"/*; do
+#    # Check if the item is a file (not a directory)
+#    if [ -f "$file_path" ]; then
+#        echo $file_path
+#        # Run the Python script on the current file
+#        python "$json_script_path" "$file_path" "$folder_path_sri_mc_id"
+#        if [ $? -ne 0 ]; then
+#            echo "Validate json script failed"
+#            # Replace by say an email or some call to inform someone
+#        fi
+#    fi
+#done
+#
+## Create ttl file from all files in sri folder
+#
+##save_ttl_files_path_sri="$DESTINATION_FOLDER$TTL_FILES$SRI""/"
+##find $save_ttl_files_path_sri -type f -exec rm {} \;
+##file_list_sri=""
+##for file_path in "$folder_path_sri_id"/*; do
+##    if [ -f "$file_path" ]; then
+##        filename=$(basename "$file_path")
+##        echo $filename
+##        filename_no_ext="${filename%.*}"
+##        echo $filename_no_ext
+##        generated_ttl_path="$save_ttl_files_path_sri$filename_no_ext"".ttl"
+##        echo $generated_ttl_path
+##        drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
+##        echo "Running command: $drepr_command"
+##         eval "$drepr_command" > "$generated_ttl_path"
+##	    file_list_sri="$file_list_sri $generated_ttl_path"
+##        if [ $? -ne 0 ]; then
+##            echo "Python script failed"
+##        fi
+##    fi
+##done
+#
+## Create ttl file from all files in sri mc folder
+#save_ttl_files_path_sri_mc="$DESTINATION_FOLDER$TTL_FILES$SRI""/""mappableCriteria"
+#find $save_ttl_files_path_sri_mc -type f -exec rm {} \;
+#file_list_sri_mc=""
+#for file_path in "$folder_path_sri_mc_id"/*; do
+#    if [ -f "$file_path" ]; then
+#        filename=$(basename "$file_path")
+#        echo $filename
+#        filename_no_ext="${filename%.*}"
+#        echo $filename_no_ext
+#        generated_ttl_path="$save_ttl_files_path_sri_mc/""$filename_no_ext"".ttl"
+#        echo $generated_ttl_path
+#        drepr_command='python3 -m drepr "$drepr_yaml_path_mc" default="$file_path"'
+#        echo "Running command: $drepr_command"
+#        eval "$drepr_command" > "$generated_ttl_path"
+#	    file_list_sri_mc="$file_list_sri_mc $generated_ttl_path"
+#        if [ $? -ne 0 ]; then
+#            echo "Python script failed"
+#        fi
+#    fi
+#done
+#
+#
+## Create ttl file from all files in inferlink folder
+#
+##save_ttl_files_path="$DESTINATION_FOLDER$TTL_FILES$INFERLINK"
+##echo $drepr_yaml_path
+##echo $save_ttl_files_path
+##echo $folder_path_inferlink_id
+##find $save_ttl_files_path -type f -exec rm {} \;
+##file_list_inferlink=""
+##for file_path in "$folder_path_inferlink_id"/*; do
+##    if [ -f "$file_path" ]; then
+##        filename=$(basename "$file_path")
+##        echo $filename
+##        filename_no_ext="${filename%.*}"
+##        echo $filename_no_ext
+##        generated_ttl_path="$save_ttl_files_path$filename_no_ext"".ttl"
+##        echo $generated_ttl_path
+##        drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
+##        echo "Running command: $drepr_command"
+##        eval "$drepr_command" > "$generated_ttl_path"
+##
+##	    file_list_inferlink="$file_list_inferlink $generated_ttl_path"
+##        if [ $? -ne 0 ]; then
+##            echo "Python script failed"
+##        fi
+##    fi
+##done
+#
+#
+#
+#
+#
+#
+## Create ttl file from all files in umn folder
+#
+##save_ttl_files_path_umn="$DESTINATION_FOLDER$TTL_FILES$UMN""/"
+##echo $folder_path_umn_id
+##find $save_ttl_files_path_umn -type f -exec rm {} \;
+##file_list_umn=""
+##for file_path in "$folder_path_umn_id"/*; do
+##    if [ -f "$file_path" ]; then
+##        filename=$(basename "$file_path")
+##        echo $filename
+##        filename_no_ext="${filename%.*}"
+##        echo $filename_no_ext
+##        generated_ttl_path="$save_ttl_files_path_umn$filename_no_ext"".ttl"
+##        echo $generated_ttl_path
+##        drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
+##        echo "Running command: $drepr_command"
+##         eval "$drepr_command" > "$generated_ttl_path"
+##	    file_list_umn="$file_list_umn $generated_ttl_path"
+##        if [ $? -ne 0 ]; then
+##            echo "Python script failed"
+##        fi
+##    fi
+##done
+#
+#
+#
+#
+#
+## Create ttl file from all files in usc folder
+#
+#save_ttl_files_path_usc="$LOCAL_DIR_DATA$USC"
+#file_list_usc=""
+#for file in "$save_ttl_files_path_usc"/*; do
+#    if [ -f "$file" ]; then
+#        file_list_usc="$file_list_usc $file"
+#    fi
+#done
+#
+#
+#
+#
+#cd $current_path
+#
+#if [ -f "apache-jena-5.0.0.tar.gz" ]; then
+#  echo "File apache-jena-5.0.0.tar.gz already exists in the current directory."
+#else
+#  # Perform actions if the file does not exist
+#  wget https://dlcdn.apache.org/jena/binaries/apache-jena-5.0.0.tar.gz
+#  tar -xzvf apache-jena-5.0.0.tar.gz
+#fi
+#
+#
+#APACHE_RIOT_PATH="$current_path""apache-jena-5.0.0/bin/"
+#echo $APACHE_RIOT_PATH
+#
+#cd $APACHE_RIOT_PATH
+#
+## Merge all inferlink files
+##merged_file_inferlink="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_inferlink.ttl"
+##merge_ttl_script="$LOCAL_DIR_CODE$GENERATOR""merge_ttls_in_folder.py"
+##> "$merged_file_inferlink"
+##./riot  --syntax=ttl --output=ttl --union $file_list_inferlink >> "$merged_file_inferlink"
+#
+## Merge all umn files
+##echo $save_ttl_files_path_umn
+##merged_file_umn="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_umn.ttl"
+##echo $merged_file_umn
+##> "$merged_file_umn"
+##./riot  --syntax=ttl --output=ttl --union $file_list_umn >> "$merged_file_umn"
+#
+#
+#
+## Merge all sri files
+##echo $save_ttl_files_path_sri
+##merged_file_sri="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_sri.ttl"
+##echo $merged_file_sri
+##> "$merged_file_sri"
+##./riot  --syntax=ttl --output=ttl --union $file_list_sri >> "$merged_file_sri"
+#
+#
+#
+## Merge all usc files
+#echo "$file_list_usc"
+#merged_file_usc="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_usc.ttl"
+#> "$merged_file_usc"
+#./riot  --syntax=ttl --output=ttl --union $file_list_usc >> "$merged_file_usc"
+#
+#
+#
+## Merge all sri MC files
+#
+#echo $save_ttl_files_path_sri_mc
+#merged_file_sri_mc="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_sri_mc.ttl"
+#echo $merged_file_sri_mc
+#> "$merged_file_sri_mc"
+#./riot  --syntax=ttl --output=ttl --union $file_list_sri_mc >> "$merged_file_sri_mc"
+#
+#
+##First delete any existing file
+#all_ttl_files="$FINAL_FILE_DESTINATION"
+#final_file="$DESTINATION_FOLDER$TTL_FILES""final_kg_file.ttl"
+#echo $final_file
+#
+#
+#
+#deactivate
+#
+#sleep 2s
+#
+## Using drepr v1 for entities
+#cd $current_path
+#
+python3.11 -m venv venv-v2
+source venv-v2/bin/activate
+#
+pip install drepr || echo "Module already installed"
+#git clone https://github.com/usc-isi-i2/d-repr.git
+#
+#pip install maturin
+#maturin develop
+#
+#echo $LOCAL_DIR_CODE$GENERATOR$ENTITIES$COMMODITIES$COMMODITIES_FILE_YML
+#
+#echo  $LOCAL_DIR_CODE$GENERATOR$ENTITIES$DEPOSIT$DEPOSITS_FILE_YML
+#
+#echo $LOCAL_DIR_CODE$GENERATOR$ENTITIES$UNITS$UNITS_FILE_YML
+#
+##Commodities
+#python -m drepr -r $LOCAL_DIR_CODE$GENERATOR$ENTITIES$COMMODITIES$COMMODITIES_FILE_YML -d default=$LOCAL_DIR_DATA$ENTITIES$COMMODITIES$COMMODITIES_FILE_CSV -o $LOCAL_DIR_DATA$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL
+#
+#
+##Deposit Types
+#python -m drepr -r $LOCAL_DIR_CODE$GENERATOR$ENTITIES$DEPOSIT$DEPOSITS_FILE_YML -d default=$LOCAL_DIR_DATA$ENTITIES$DEPOSIT$DEPOSITS_FILE_CSV -o $LOCAL_DIR_DATA$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL
+##Units
+#python -m drepr -r $LOCAL_DIR_CODE$GENERATOR$ENTITIES$UNITS$UNITS_FILE_YML -d default=$LOCAL_DIR_DATA$ENTITIES$UNITS$UNITS_FILE_CSV -o $LOCAL_DIR_DATA$ENTITIES$UNITS$UNITS_FILE_TTL
+#
+#
+## #Same AS
+## python -m drepr -r $LOCAL_DIR_CODE$GENERATOR$ENTITIES$SAMEAS$SAMEAS_FILE_YML -d default=$LOCAL_DIR_DATA$ENTITIES$SAMEAS$SAMEAS_FILE_CSV -o $LOCAL_DIR_DATA$ENTITIES$SAMEAS$SAMEAS_FILE_TTL
+#
+#
+## Merging Entities file into final file
+#
+#echo $LOCAL_DIR_DATA$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL
+#cat "$LOCAL_DIR_DATA$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL" >> "$final_file"
+#
+#echo $LOCAL_DIR_DATA$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL
+#cat "$LOCAL_DIR_DATA$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL" >> "$final_file"
+#
+#echo $LOCAL_DIR_DATA$ENTITIES$UNITS$UNITS_FILE_TTL
+#cat "$LOCAL_DIR_DATA$ENTITIES$UNITS$UNITS_FILE_TTL" >> "$final_file"
+#
+#echo $LOCAL_DIR_DATA$ENTITIES$SAMEAS$SAMEAS_FILE_TTL
+## cat "$LOCAL_DIR_DATA$ENTITIES$UNITS$UNITS_FILE_TTL" >> "$final_file"
+#
+## Merging data files to final file
+#cd $APACHE_RIOT_PATH
+#
+#./riot --syntax=ttl --output=ttl --union "$merged_file_sri_mc" "$merged_file_usc" >> "$final_file"
+##cat "/var/local/mindmod/ttl_data/same_as.ttl" >> "$final_file"
+#
+#cp $final_file $all_ttl_files
+#
+#deactivate
+#
+## cd /var/local/mindmod/apache-jena-fuseki-4.9.0
+## fuser -k 3030/tcp
+## ./fuseki-server --file "$final_file"  /minmod
+#
