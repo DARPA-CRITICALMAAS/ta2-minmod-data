@@ -65,10 +65,14 @@ def main(args):
             ?ms :mineral_inventory ?mi .
             OPTIONAL { ?ms rdfs:label|:name ?ms_name . FILTER (STR(?ms_name) != "") }
 
-            ?ms :location_info ?loc .
+            OPTIONAL { ?ms :location_info ?loc .
+            
             OPTIONAL { ?loc :country ?country . FILTER (STR(?country) != "") }
             OPTIONAL { ?loc :state_or_province ?state_or_province . FILTER (STR(?state_or_province) != "") }
             OPTIONAL { ?loc :location ?loc_wkt . FILTER (STR(?loc_wkt) != "") }
+            
+            }
+            
 
             ?mi :category ?mi_cat .
             ?mi :commodity [ :name ?name ] .
@@ -104,9 +108,9 @@ def main(args):
             {
                 'ms': row['ms.value'],
                 'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
-                'country': row['country.value'],
-                'state_or_province': row['state_or_province.value'],
-                'loc_wkt': row['loc_wkt.value'],
+                'country': row.get('country.value', None),
+                'state_or_province': row.get('state_or_province.value', None),
+                'loc_wkt': row.get('loc_wkt.value', None),
                 'tot_tonnage_measured': float(row['total_tonnage_measured.value']),
                 'tot_tonnage_indicated': float(row['total_tonnage_indicated.value']),
                 'tot_tonnage_inferred': float(row['total_tonnage_inferred.value']),
@@ -145,10 +149,13 @@ def main(args):
            ?ms :mineral_inventory ?mi .
            OPTIONAL { ?ms rdfs:label|:name ?ms_name . }
 
+           OPTIONAL { 
            ?ms :location_info ?loc .
            OPTIONAL { ?loc :country ?country . }
            OPTIONAL { ?loc :state_or_province ?state_or_province . }
            OPTIONAL { ?loc :location ?loc_wkt . }
+           }
+           
 
            ?mi :commodity [ :name ?name ] .
            FILTER(LCASE(STR(?name)) = "%s")
@@ -160,14 +167,14 @@ def main(args):
             {
                 'ms': row['ms.value'],
                 'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
-                'country': row['country.value'],
-                'state_or_province': row['state_or_province.value'],
-                'deposit_type': row['deposit_name.value'],
-                'deposit_group': row['deposit_group.value'],
-                'deposit_environment': row['deposit_environment.value'],
-                'deposit_classification_confidence': row['deposit_confidence.value'],
-                'deposit_classification_source': row['deposit_source.value'],
-                'loc_wkt': row['loc_wkt.value']
+                'country': row.get('country', None),
+                'state_or_province': row.get('state_or_province.value', None),
+                'deposit_type': row.get('deposit_name.value', None),
+                'deposit_group': row.get('deposit_group.value', None),
+                'deposit_environment': row.get('deposit_environment.value', None),
+                'deposit_classification_confidence': row.get('deposit_confidence.value', None),
+                'deposit_classification_source': row.get('deposit_source.value', None),
+                'loc_wkt': row.get('loc_wkt.value', None)
             }
             for index, row in query_resp_df.iterrows()
         ])
@@ -192,12 +199,14 @@ def main(args):
         ?ms :mineral_inventory ?mi .
         OPTIONAL { ?ms rdfs:label|:name ?ms_name . FILTER (STR(?ms_name) != "") }
 
-        ?ms :location_info ?loc .
+        OPTIONAL { ?ms :location_info ?loc . 
         OPTIONAL { ?loc :country ?country . FILTER (STR(?country) != "") }
         OPTIONAL { ?loc :state_or_province ?state_or_province . FILTER (STR(?state_or_province) != "") }
         OPTIONAL { ?loc :location ?loc_wkt . FILTER (STR(?loc_wkt) != "") }
+        }
+        
 
-        ?mi :category ?mi_cat .
+        OPTIONAL { ?mi :category ?mi_cat . }
         ?mi :commodity [ :name ?name ] .
         FILTER(LCASE(STR(?name)) = "%s")
     }
@@ -208,9 +217,9 @@ def main(args):
             {
                 'ms': row['ms.value'],
                 'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
-                'country': row['country.value'],
-                'state_or_province': row['state_or_province.value'],
-                'loc_wkt': row['loc_wkt.value']
+                'country': row.get('country', None),
+                'state_or_province': row.get('state_or_province.value', None),
+                'loc_wkt': row.get('loc_wkt.value', None)
             }
             for index, row in query_resp_df.iterrows()
         ])
