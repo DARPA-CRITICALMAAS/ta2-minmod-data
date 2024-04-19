@@ -167,7 +167,7 @@ def main(args):
             {
                 'ms': row['ms.value'],
                 'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
-                'country': row.get('country', None),
+                'country': row.get('country.value', None),
                 'state_or_province': row.get('state_or_province.value', None),
                 'deposit_type': row.get('deposit_name.value', None),
                 'deposit_group': row.get('deposit_group.value', None),
@@ -217,7 +217,7 @@ def main(args):
             {
                 'ms': row['ms.value'],
                 'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
-                'country': row.get('country', None),
+                'country': row.get('country.value', None),
                 'state_or_province': row.get('state_or_province.value', None),
                 'loc_wkt': row.get('loc_wkt.value', None)
             }
