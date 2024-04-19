@@ -5,16 +5,12 @@ display_help() {
     echo "Usage: $0 [ARGUMENT1] [ARGUMENT2] [ARGUMENT3] ..."
     echo "This script generates a ttl from input data"
     echo "Arguments:"
-    echo "  ARGUMENT1: type of CDR - string = 'github' or 'CDR'"
+    echo "  ARGUMENT1: type of CDR - string = 'github' or 'CDR' / help (-h)"
     echo "  ARGUMENT2: Location of CDR data = 'repo_location'or 'CDR_location'"
     echo "  ARGUMENT3: auth token if needed"
     echo "  ARGUMENT4: Master folder whose subdirectories has data - data/ for github"
-    echo "  ARGUMENT5: folder where json + ttl should be generated - eg /generated_data will generate 2 locations - /generated_data/json_files/ and /generated_data/ttl_files/"
-    echo "  ARGUMENT6: Final file location  eg /mindmod/ttl_data/"
-    echo "  ARGUMENT7: Location of same_as ttl (to be removed)"
-    echo "  Example usage for VM -  ./generateKGForCDR.sh github https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data abc data/ /var/local/mindmod/scripts/generated_data /var/local/mindmod/ttl_data/ /var/local/mindmod/ttl_data/same_as.ttl"
-}
-
+    echo " docker run -e param1=github -e param2='https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data' -e param3=abc -e param4=data/ -e param5=1  -v /tmp:/app/generated_data/ -d -p 3030:3030 container_ttl_generate_and_deploy"
+    }
 # Check if the first argument is -h
 if [ "$1" = "-h" ]; then
     # Display help message and exit
@@ -26,23 +22,14 @@ current_path=$(pwd)"/"
 
 echo $current_path
 mode=$1
-
 bearer_token=$3
-
 DATA_URL=$2
-
 DIR_DATA=$4
-
 LOCAL_DIR_CODE="$current_path""ta2-minmod-kg/"
+DESTINATION_FOLDER="$current_path""/generated_data/"
+DEPLOY_TTL=$5
 
-DESTINATION_FOLDER="$current_path"$5"/"
-
-FINAL_FILE_DESTINATION=$6
-
-
-
-
-mkdir -p $6
+mkdir -p "$DESTINATION_FOLDER""entities/sameAs/"
 mkdir -p "$DESTINATION_FOLDER""entities/commodities/"
 mkdir -p "$DESTINATION_FOLDER""entities/depositTypes/"
 mkdir -p "$DESTINATION_FOLDER""entities/units/"
@@ -57,6 +44,21 @@ mkdir -p "$DESTINATION_FOLDER""ttl_files/inferlink/"
 mkdir -p "$DESTINATION_FOLDER""ttl_files/usc/"
 mkdir -p "$DESTINATION_FOLDER""ttl_files/sri/"
 mkdir -p "$DESTINATION_FOLDER""ttl_files/sri/mappableCriteria"
+
+python3.11 -m venv venv
+
+source venv/bin/activate
+
+
+pip3 install requests || echo "Module already installed"
+pip3 install pyshacl || echo "Module already installed"
+pip3 install jsonschema || echo "Module already installed"
+pip3 install validators || echo "module already installed"
+pip3 install python-slugify || echo "module already installed"
+git clone https://github.com/binh-vu/drepr-v2.git
+pip install drepr-v2/
+pip install typer==0.9.0 || echo "module already installed"
+
 
 ENTITIES="entities/"
 COMMODITIES="commodities/"
@@ -154,32 +156,23 @@ fi
 echo $LOCAL_DIR_DATA
 
 
-## Define the local directory where you want to pull the changes
-python3.11 -m venv venv
-source venv/bin/activate
 
-pip3 install rdflib || echo "Module already installed"
-pip3 install requests || echo "Module already installed"
-pip3 install pyshacl || echo "Module already installed"
-pip3 install jsonschema || echo "Module already installed"
-
-git clone https://github.com/binh-vu/drepr-v2.git
-pip install drepr-v2/
-
-pip3 install validators || echo "module already installed"
-pip3 install python-slugify || echo "module already installed"
-pip install typer==0.9.0 || echo "module already installed"
-
-
-
-##Commodities
-python -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$COMMODITIES$COMMODITIES_FILE_YML default=$LOCAL_DIR_DATA$ENTITIES$COMMODITIES$COMMODITIES_FILE_CSV > $DESTINATION_FOLDER$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL
+#Commodities
+python3 -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$COMMODITIES$COMMODITIES_FILE_YML default=$LOCAL_DIR_DATA$ENTITIES$COMMODITIES$COMMODITIES_FILE_CSV > $DESTINATION_FOLDER$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL
 #
-##Deposit Types
-python -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$DEPOSIT$DEPOSITS_FILE_YML default=$LOCAL_DIR_DATA$ENTITIES$DEPOSIT$DEPOSITS_FILE_CSV > $DESTINATION_FOLDER$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL
-##Units
-python -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$UNITS$UNITS_FILE_YML default=$LOCAL_DIR_DATA$ENTITIES$UNITS$UNITS_FILE_CSV > $DESTINATION_FOLDER$ENTITIES$UNITS$UNITS_FILE_TTL
-#
+#Deposit Types
+python3 -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$DEPOSIT$DEPOSITS_FILE_YML default=$LOCAL_DIR_DATA$ENTITIES$DEPOSIT$DEPOSITS_FILE_CSV > $DESTINATION_FOLDER$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL
+#Units
+python3 -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$UNITS$UNITS_FILE_YML default=$LOCAL_DIR_DATA$ENTITIES$UNITS$UNITS_FILE_CSV > $DESTINATION_FOLDER$ENTITIES$UNITS$UNITS_FILE_TTL
+#SameAs Files
+nickel_sames='nickel_sameas.csv'
+tungsten_sames='tungsten_sameas.csv'
+NICKEL_TTL='nickel_sameas.ttl'
+TUNGSTEN_TTL='tungsten_sameas.ttl'
+
+python3 -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$SAMEAS$SAMEAS_FILE_YML default=$LOCAL_DIR_DATA$DATA$UMN"/sameas/"$nickel_sames > $DESTINATION_FOLDER$ENTITIES$SAMEAS$NICKEL_TTL
+
+python3 -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$SAMEAS$SAMEAS_FILE_YML default=$LOCAL_DIR_DATA$DATA$UMN"/sameas/"$tungsten_sames > $DESTINATION_FOLDER$ENTITIES$SAMEAS$TUNGSTEN_TTL
 
 ##Validate json in all files in inferlink folder
 
@@ -198,16 +191,16 @@ echo $json_script_path
 
 #First delete any existing file
 
-find $folder_path_inferlink_id -type f -exec rm {} \;
-for file_path in "$folder_path_inferlink"/*; do
-    if [ -f "$file_path" ]; then
-        echo $file_path
-        python "$json_script_path" "$file_path" "$folder_path_inferlink_id"
-        if [ $? -ne 0 ]; then
-            echo "Python script failed"
-        fi
-    fi
-done
+ find $folder_path_inferlink_id -type f -exec rm {} \;
+ for file_path in "$folder_path_inferlink"/*; do
+     if [ -f "$file_path" ]; then
+         echo $file_path
+         python3 "$json_script_path" "$file_path" "$folder_path_inferlink_id"
+         if [ $? -ne 0 ]; then
+             echo "python3 script failed"
+         fi
+     fi
+ done
 
 
 ## Validate SRI as well
@@ -220,13 +213,13 @@ echo $folder_path_sri_id
 find $folder_path_sri_id -type f -exec rm {} \;
 echo $folder_path_sri
 for file_path in "$folder_path_sri"/*; do
-    if [ -f "$file_path" ]; then
-        echo $file_path
-        python "$json_script_path" "$file_path" "$folder_path_sri_id"
-        if [ $? -ne 0 ]; then
-            echo "Validate json script failed"
-        fi
-    fi
+   if [ -f "$file_path" ]; then
+       echo $file_path
+       python3 "$json_script_path" "$file_path" "$folder_path_sri_id"
+       if [ $? -ne 0 ]; then
+           echo "Validate json script failed"
+       fi
+   fi
 done
 
 ## Validate UMN as well
@@ -238,7 +231,7 @@ echo $folder_path_umn
 for file_path in "$folder_path_umn"/*; do
     if [ -f "$file_path" ]; then
         echo $file_path
-        python "$json_script_path" "$file_path" "$folder_path_umn_id"
+        python3 "$json_script_path" "$file_path" "$folder_path_umn_id"
         if [ $? -ne 0 ]; then
             echo "Validate json script failed"
         fi
@@ -266,8 +259,8 @@ for file_path in "$folder_path_sri_mc"/*; do
     # Check if the item is a file (not a directory)
     if [ -f "$file_path" ]; then
         echo $file_path
-        # Run the Python script on the current file
-        python "$json_script_path" "$file_path" "$folder_path_sri_mc_id"
+        # Run the python3 script on the current file
+        python3 "$json_script_path" "$file_path" "$folder_path_sri_mc_id"
         if [ $? -ne 0 ]; then
             echo "Validate json script failed"
             # Replace by say an email or some call to inform someone
@@ -275,27 +268,31 @@ for file_path in "$folder_path_sri_mc"/*; do
     fi
 done
 
-# Create ttl file from all files in sri folder
 
+final_file="$DESTINATION_FOLDER$TTL_FILES""final_kg_file.ttl"
+echo $final_file
+
+# Create ttl file from all files in sri folder
 save_ttl_files_path_sri="$DESTINATION_FOLDER$TTL_FILES$SRI""/"
 find $save_ttl_files_path_sri -type f -exec rm {} \;
 file_list_sri=""
 for file_path in "$folder_path_sri_id"/*; do
-    if [ -f "$file_path" ]; then
-        filename=$(basename "$file_path")
-        echo $filename
-        filename_no_ext="${filename%.*}"
-        echo $filename_no_ext
-        generated_ttl_path="$save_ttl_files_path_sri$filename_no_ext"".ttl"
-        echo $generated_ttl_path
-        drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
-        echo "Running command: $drepr_command"
-         eval "$drepr_command" > "$generated_ttl_path"
+   if [ -f "$file_path" ]; then
+       filename=$(basename "$file_path")
+       echo $filename
+       filename_no_ext="${filename%.*}"
+       echo $filename_no_ext
+       generated_ttl_path="$save_ttl_files_path_sri$filename_no_ext"".ttl"
+       echo $generated_ttl_path
+       drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
+       echo "Running command: $drepr_command"
+       eval "$drepr_command" > "$generated_ttl_path"
+       cat $generated_ttl_path >> $final_file
 	       file_list_sri="$file_list_sri $generated_ttl_path"
-        if [ $? -ne 0 ]; then
-            echo "Python script failed"
-        fi
-    fi
+       if [ $? -ne 0 ]; then
+           echo "python3 script failed"
+       fi
+   fi
 done
 
 # Create ttl file from all files in sri mc folder
@@ -315,7 +312,7 @@ for file_path in "$folder_path_sri_mc_id"/*; do
         eval "$drepr_command" > "$generated_ttl_path"
 	    file_list_sri_mc="$file_list_sri_mc $generated_ttl_path"
         if [ $? -ne 0 ]; then
-            echo "Python script failed"
+            echo "python3 script failed"
         fi
     fi
 done
@@ -330,27 +327,24 @@ echo $folder_path_inferlink_id
 find $save_ttl_files_path -type f -exec rm {} \;
 file_list_inferlink=""
 for file_path in "$folder_path_inferlink_id"/*; do
-    if [ -f "$file_path" ]; then
-        filename=$(basename "$file_path")
-        echo $filename
-        filename_no_ext="${filename%.*}"
-        echo $filename_no_ext
-        generated_ttl_path="$save_ttl_files_path$filename_no_ext"".ttl"
-        echo $generated_ttl_path
-        drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
-        echo "Running command: $drepr_command"
-        eval "$drepr_command" > "$generated_ttl_path"
+     if [ -f "$file_path" ]; then
+         filename=$(basename "$file_path")
+         echo $filename
+         filename_no_ext="${filename%.*}"
+         echo $filename_no_ext
+         generated_ttl_path="$save_ttl_files_path$filename_no_ext"".ttl"
+         echo $generated_ttl_path
+         drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
+         echo "Running command: $drepr_command"
+         eval "$drepr_command" > "$generated_ttl_path"
+         cat $generated_ttl_path >> $final_file
 
-	    file_list_inferlink="$file_list_inferlink $generated_ttl_path"
-        if [ $? -ne 0 ]; then
-            echo "Python script failed"
-        fi
-    fi
-done
-
-
-
-
+ 	      file_list_inferlink="$file_list_inferlink "$generated_ttl_path""
+         if [ $? -ne 0 ]; then
+             echo "python3 script failed"
+         fi
+     fi
+ done
 
 
 # Create ttl file from all files in umn folder
@@ -372,89 +366,22 @@ for file_path in "$folder_path_umn_id"/*; do
          eval "$drepr_command" > "$generated_ttl_path"
 	    file_list_umn="$file_list_umn $generated_ttl_path"
         if [ $? -ne 0 ]; then
-            echo "Python script failed"
+            echo "python3 script failed"
         fi
     fi
 done
-
-
-
-
 
 ## Create ttl file from all files in usc folder
 
 save_ttl_files_path_usc="$LOCAL_DIR_DATA$USC"
 file_list_usc=""
 for file in "$save_ttl_files_path_usc"/*; do
-    if [ -f "$file" ]; then
-        file_list_usc="$file_list_usc $file"
-    fi
+   if [ -f "$file" ]; then
+       file_list_usc="$file_list_usc $file"
+       cat $file >> $final_file
+   fi
 done
 
-
-
-
-cd $current_path
-
-if [ -f "apache-jena-5.0.0.tar.gz" ]; then
-  echo "File apache-jena-5.0.0.tar.gz already exists in the current directory."
-else
-  # Perform actions if the file does not exist
-  wget https://dlcdn.apache.org/jena/binaries/apache-jena-5.0.0.tar.gz
-  tar -xzvf apache-jena-5.0.0.tar.gz
-fi
-
-
-APACHE_RIOT_PATH="$current_path""apache-jena-5.0.0/bin/"
-echo $APACHE_RIOT_PATH
-
-cd $APACHE_RIOT_PATH
-
-# Merge all inferlink files
-merged_file_inferlink="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_inferlink.ttl"
-merge_ttl_script="$LOCAL_DIR_CODE$GENERATOR""merge_ttls_in_folder.py"
-> "$merged_file_inferlink"
-./riot  --syntax=ttl --output=ttl --union $file_list_inferlink >> "$merged_file_inferlink"
-
-# Merge all umn files
-echo $save_ttl_files_path_umn
-merged_file_umn="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_umn.ttl"
-echo $merged_file_umn
-> "$merged_file_umn"
-./riot  --syntax=ttl --output=ttl --union $file_list_umn >> "$merged_file_umn"
-
-
-
-# Merge all sri files
-echo $save_ttl_files_path_sri
-merged_file_sri="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_sri.ttl"
-echo $merged_file_sri
-> "$merged_file_sri"
-./riot  --syntax=ttl --output=ttl --union $file_list_sri >> "$merged_file_sri"
-
-
-
-# Merge all usc files
-echo "$file_list_usc"
-merged_file_usc="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_usc.ttl"
-> "$merged_file_usc"
-./riot  --syntax=ttl --output=ttl --union $file_list_usc >> "$merged_file_usc"
-
-
-
-# Merge all sri MC files
-
-echo $save_ttl_files_path_sri_mc
-merged_file_sri_mc="$DESTINATION_FOLDER$TTL_FILES$MERGEDTTL""merged_file_sri_mc.ttl"
-echo $merged_file_sri_mc
-> "$merged_file_sri_mc"
-./riot  --syntax=ttl --output=ttl --union $file_list_sri_mc >> "$merged_file_sri_mc"
-
-
-#First delete any existing file
-all_ttl_files="$FINAL_FILE_DESTINATION"
-final_file="$DESTINATION_FOLDER$TTL_FILES""final_kg_file.ttl"
-echo $final_file
 
 echo $DESTINATION_FOLDER$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL
 cat "$DESTINATION_FOLDER$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL" >> "$final_file"
@@ -465,15 +392,25 @@ cat "$DESTINATION_FOLDER$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL" >> "$final_file"
 echo $DESTINATION_FOLDER$ENTITIES$UNITS$UNITS_FILE_TTL
 cat "$DESTINATION_FOLDER$ENTITIES$UNITS$UNITS_FILE_TTL" >> "$final_file"
 
-#echo $DESTINATION_FOLDER$ENTITIES$SAMEAS$SAMEAS_FILE_TTL
-# cat "$LOCAL_DIR_DATA$ENTITIES$UNITS$UNITS_FILE_TTL" >> "$final_file"
-
-## Merging data files to final file
-cd $APACHE_RIOT_PATH
-
-./riot --syntax=ttl --output=ttl --union "$merged_file_sri_mc" "$merged_file_umn" "$merged_file_inferlink" "$merged_file_sri" "$merged_file_usc" >> "$final_file"
-#cat "/var/local/mindmod/ttl_data/same_as.ttl" >> "$final_file"
-
-cp $final_file $all_ttl_files
+cat $DESTINATION_FOLDER$ENTITIES$SAMEAS$NICKEL_TTL >> "$final_file"
+cat $DESTINATION_FOLDER$ENTITIES$SAMEAS$TUNGSTEN_TTL >> "$final_file"
 
 deactivate
+# Check if the first argument is -h
+if [ "$DEPLOY_TTL" = "1" ]; then
+  cd $current_path
+
+  if [ -f "apache-jena-fuseki-5.0.0.tar.gz" ]; then
+    echo "File apache-jena-fuseki-5.0.0.tar.gz already exists in the current directory."
+  else
+    # Perform actions if the file does not exist
+    wget https://dlcdn.apache.org/jena/binaries/apache-jena-fuseki-5.0.0.tar.gz
+    tar -xzvf apache-jena-fuseki-5.0.0.tar.gz
+  fi
+
+  cd $current_path"/apache-jena-fuseki-5.0.0"
+  fuser -k 3030/tcp
+  ./fuseki-server --file "$final_file"  /minmod
+
+fi
+
