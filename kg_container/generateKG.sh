@@ -105,11 +105,8 @@ SAMEAS_FILE_TTL="same_as.ttl"
 LOCAL_DIR_CODE="$current_path""ta2-minmod-kg/"
 
 if [ -d "$LOCAL_DIR_CODE" ]; then
-    echo "Just change"
     cd "$current_path"
 else
-    echo "Clone this"
-    # Directory doesn't exist, clone the repository
     git clone https://github.com/DARPA-CRITICALMAAS/ta2-minmod-kg.git "$current_path""ta2-minmod-kg"
 fi
 
@@ -156,11 +153,9 @@ fi
 
 echo $LOCAL_DIR_DATA
 
-
-
 #Commodities
 python3 -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$COMMODITIES$COMMODITIES_FILE_YML default=$LOCAL_DIR_DATA$ENTITIES$COMMODITIES$COMMODITIES_FILE_CSV > $DESTINATION_FOLDER$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL
-#
+
 #Deposit Types
 python3 -m drepr $LOCAL_DIR_CODE$GENERATOR$ENTITIES$DEPOSIT$DEPOSITS_FILE_YML default=$LOCAL_DIR_DATA$ENTITIES$DEPOSIT$DEPOSITS_FILE_CSV > $DESTINATION_FOLDER$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL
 #Units
@@ -186,10 +181,6 @@ json_script_path="$LOCAL_DIR_CODE$VALIDATORS$JSON_VALIDATOR"
 json_files_path="$DESTINATION_FOLDER$MERGE_JSON_FOLDER"
 folder_path_inferlink_id="$json_files_path$INFERLINK"
 
-echo $folder_path_inferlink
-echo $folder_path_inferlink_id
-echo $json_script_path
-
 #First delete any existing file
 
  find $folder_path_inferlink_id -type f -exec rm {} \;
@@ -207,12 +198,9 @@ echo $json_script_path
 ## Validate SRI as well
 folder_path_sri="$LOCAL_DIR_DATA$SRI"
 folder_path_sri_id="$json_files_path$SRI"
-echo $folder_path_sri_id
 
 #First delete any existing file
-
 find $folder_path_sri_id -type f -exec rm {} \;
-echo $folder_path_sri
 for file_path in "$folder_path_sri"/*; do
    if [ -f "$file_path" ]; then
        echo $file_path
@@ -226,9 +214,7 @@ done
 ## Validate UMN as well
 
 folder_path_umn_id="$json_files_path$UMN"
-echo $folder_path_umn_id
 find $folder_path_umn_id -type f -exec rm {} \;
-echo $folder_path_umn
 for file_path in "$folder_path_umn"/*; do
     if [ -f "$file_path" ]; then
         echo $file_path
@@ -240,19 +226,16 @@ for file_path in "$folder_path_umn"/*; do
 done
 
 ## Validate SRI MC as well
-#
+
 folder_path_sri_mc="$LOCAL_DIR_DATA$SRI""/""mappableCriteria"
 folder_path_sri_mc_id="$json_files_path$SRI""/""mappableCriteria"
 drepr_yaml_path="$LOCAL_DIR_CODE""generator/$TTL_MODEL_FILE"
 drepr_yaml_path_mc="$LOCAL_DIR_CODE""generator/""model_mineral_system_v2.yml"
 
 
-echo $folder_path_sri_mc_id
-
 #First delete any existing file
 
 find $folder_path_sri_mc_id -type f -exec rm {} \;
-
 echo $folder_path_sri_mc
 file_list_sri_mc=""
 
@@ -271,7 +254,6 @@ done
 
 
 final_file="$DESTINATION_FOLDER$TTL_FILES""final_kg_file.ttl"
-echo $final_file
 
 # Create ttl file from all files in sri folder
 save_ttl_files_path_sri="$DESTINATION_FOLDER$TTL_FILES$SRI""/"
@@ -280,9 +262,7 @@ file_list_sri=""
 for file_path in "$folder_path_sri_id"/*; do
    if [ -f "$file_path" ]; then
        filename=$(basename "$file_path")
-       echo $filename
        filename_no_ext="${filename%.*}"
-       echo $filename_no_ext
        generated_ttl_path="$save_ttl_files_path_sri$filename_no_ext"".ttl"
        echo $generated_ttl_path
        drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
@@ -303,9 +283,7 @@ file_list_sri_mc=""
 for file_path in "$folder_path_sri_mc_id"/*; do
     if [ -f "$file_path" ]; then
         filename=$(basename "$file_path")
-        echo $filename
         filename_no_ext="${filename%.*}"
-        echo $filename_no_ext
         generated_ttl_path="$save_ttl_files_path_sri_mc/""$filename_no_ext"".ttl"
         echo $generated_ttl_path
         drepr_command='python3 -m drepr "$drepr_yaml_path_mc" default="$file_path"'
@@ -322,17 +300,12 @@ done
 ## Create ttl file from all files in inferlink folder
 
 save_ttl_files_path="$DESTINATION_FOLDER$TTL_FILES$INFERLINK"
-echo $drepr_yaml_path
-echo $save_ttl_files_path
-echo $folder_path_inferlink_id
 find $save_ttl_files_path -type f -exec rm {} \;
 file_list_inferlink=""
 for file_path in "$folder_path_inferlink_id"/*; do
      if [ -f "$file_path" ]; then
          filename=$(basename "$file_path")
-         echo $filename
          filename_no_ext="${filename%.*}"
-         echo $filename_no_ext
          generated_ttl_path="$save_ttl_files_path$filename_no_ext"".ttl"
          echo $generated_ttl_path
          drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
@@ -351,15 +324,12 @@ for file_path in "$folder_path_inferlink_id"/*; do
 # Create ttl file from all files in umn folder
 
 save_ttl_files_path_umn="$DESTINATION_FOLDER$TTL_FILES$UMN""/"
-echo $folder_path_umn_id
 find $save_ttl_files_path_umn -type f -exec rm {} \;
 file_list_umn=""
 for file_path in "$folder_path_umn_id"/*; do
     if [ -f "$file_path" ]; then
         filename=$(basename "$file_path")
-        echo $filename
         filename_no_ext="${filename%.*}"
-        echo $filename_no_ext
         generated_ttl_path="$save_ttl_files_path_umn$filename_no_ext"".ttl"
         echo $generated_ttl_path
         drepr_command='python3 -m drepr "$drepr_yaml_path" default="$file_path"'
@@ -373,7 +343,6 @@ for file_path in "$folder_path_umn_id"/*; do
 done
 
 ## Create ttl file from all files in usc folder
-
 save_ttl_files_path_usc="$LOCAL_DIR_DATA$USC"
 file_list_usc=""
 for file in "$save_ttl_files_path_usc"/*; do
@@ -384,13 +353,10 @@ for file in "$save_ttl_files_path_usc"/*; do
 done
 
 
-echo $DESTINATION_FOLDER$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL
 cat "$DESTINATION_FOLDER$ENTITIES$COMMODITIES$COMMODITIES_FILE_TTL" >> "$final_file"
 
-echo $DESTINATION_FOLDER$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL
 cat "$DESTINATION_FOLDER$ENTITIES$DEPOSIT$DEPOSITS_FILE_TTL" >> "$final_file"
 
-echo $DESTINATION_FOLDER$ENTITIES$UNITS$UNITS_FILE_TTL
 cat "$DESTINATION_FOLDER$ENTITIES$UNITS$UNITS_FILE_TTL" >> "$final_file"
 
 cat $DESTINATION_FOLDER$ENTITIES$SAMEAS$NICKEL_TTL >> "$final_file"

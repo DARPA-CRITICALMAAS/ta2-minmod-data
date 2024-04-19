@@ -53,7 +53,7 @@ Make sure that:
 
 
 ## Outputs
-The script generates ttl ans json files and adds them to relvant folder. The folder location is decided by the <hostmachine_volume> given by the user. For instance in the above example, the output will be generated under /tmp. The folder structure will look like:
+The script generates ttl and json files and adds them to relvant folder. The folder location is decided by the <hostmachine_volume> given by the user. For instance in the above example, the output will be generated under /tmp. The folder structure will look like:
 
 ```
 \tmp
@@ -65,6 +65,7 @@ The script generates ttl ans json files and adds them to relvant folder. The fol
   ---ttl_files
     ---umn/
     ---inferlink/
+    ---usc/
     ---sri/
        ---mappableCriteria/
     ---final_kg_file.ttl
@@ -72,7 +73,7 @@ The script generates ttl ans json files and adds them to relvant folder. The fol
 - final_kg_file.ttl is the final generated file
 - json_files has intermediate json files, with the jsons for respective data sources in respective folders
 - ttl_files has intermediate json files, with the jsons for respective data sources in respective folders
-- if param5 is set to 1, final_kg_file.ttl is exposed via SPARQL endppoint on 3030. This is accessible via http://localhost:3030/minmod/sparql
+- if param5 is set to 1, final_kg_file.ttl is exposed via SPARQL endpoint on 3030. This is accessible via http://localhost:3030/minmod/sparql
   - Example query to run on this endpoint 
   ```
   curl -k -X POST http://localhost:3030/minmod/sparql --data-urlencode query='SELECT ?s ?p ?o WHERE { ?s ?p ?o . }'
