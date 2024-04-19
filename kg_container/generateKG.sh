@@ -9,6 +9,7 @@ display_help() {
     echo "  ARGUMENT2: Location of CDR data = 'repo_location'or 'CDR_location'"
     echo "  ARGUMENT3: auth token if needed"
     echo "  ARGUMENT4: Master folder whose subdirectories has data - data/ for github"
+    echo "  ARGUMENT5: set to 1 if file needs to be deployed"
     echo " docker run -e param1=github -e param2='https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data' -e param3=abc -e param4=data/ -e param5=1  -v /tmp:/app/generated_data/ -d -p 3030:3030 container_ttl_generate_and_deploy"
     }
 # Check if the first argument is -h
