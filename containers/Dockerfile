@@ -10,8 +10,8 @@ COPY . /app
 # Install any needed dependencies specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Define environment variable for CSV output path
-ENV CSV_OUTPUT_PATH /output/nickel_us_gradetonnage_with_top_deposits.csv
+# define an environment variable for the commodity (with default value as nickel)
+ENV COMMODITY=nickel
 
-# Run python script
-CMD ["python", "sparql_gt.py", "/output/nickel_us_gradetonnage_with_top_deposits.csv"]
+# Run python script using the environment variable
+CMD ["sh", "-c", "python generate_ta2_outputs.py --commodity ${COMMODITY} --output_directory /output/"]

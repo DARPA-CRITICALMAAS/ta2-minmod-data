@@ -1,0 +1,123 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/4V4QQ6MN",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007",
+      "location_info": {
+        "location": "POINT(-97.908333 55.475556)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Manitoba"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 1010000
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.839
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q210",
+            "grade_value": 0.5
+          },
+          "contained_metal": 5050,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007",
+              "doi": "https://w3id.org/usgs/z/4530692/4V4QQ6MN",
+              "authors": [
+                "Shah\u00e9 Naccashian",
+                "Gilles Arseneau",
+                "Tim Maunula"
+              ],
+              "year": 2007,
+              "month": 3,
+              "description": "This report includes a technical assessment of the Mel nickel deposit in Northern Manitoba prepared for Victory Nickel Inc."
+            },
+            "page_info": [
+              {
+                "page": 0,
+                "bounding_box": {
+                  "x_min": "",
+                  "x_max": "",
+                  "y_min": "",
+                  "y_max": ""
+                }
+              }
+            ]
+          },
+          "date": "2007-3",
+          "zone": "mel deposit"
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 4279000
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.875
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q210",
+            "grade_value": 0.5
+          },
+          "contained_metal": 37441,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007",
+              "doi": "https://w3id.org/usgs/z/4530692/4V4QQ6MN",
+              "authors": [
+                "Shah\u00e9 Naccashian",
+                "Gilles Arseneau",
+                "Tim Maunula"
+              ],
+              "year": 2007,
+              "month": 3,
+              "description": "This report includes a technical assessment of the Mel nickel deposit in Northern Manitoba prepared for Victory Nickel Inc."
+            },
+            "page_info": [
+              {
+                "page": 0,
+                "bounding_box": {
+                  "x_min": "",
+                  "x_max": "",
+                  "y_min": "",
+                  "y_max": ""
+                }
+              }
+            ]
+          },
+          "date": "2007-3",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "SEDIMENTARY SULPHIDE MINERALIZATION",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "MAGMATIC SULPHIDE MINERALIZATION",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}
