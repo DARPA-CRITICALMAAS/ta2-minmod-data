@@ -1,0 +1,49 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/KVP6WHAP",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the River Valley Project in Canada dated June 2019",
+      "location_info": {
+        "location": "POINT(-80.837 46.837727)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the River Valley Project in Canada dated June 2019",
+              "doi": "https://w3id.org/usgs/z/4530692/KVP6WHAP",
+              "authors": [
+                "Eugene Puritch",
+                "Todd McCracken",
+                "Jim Kambossos",
+                "D. Grant Feasby"
+              ],
+              "year": 2019,
+              "month": 6,
+              "description": "The document contains an updated mineral resource estimate and preliminary economic assessment for the River Valley Project."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Contact-Style PGE Mineralization",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Reef-Style PGE Mineralization",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}
