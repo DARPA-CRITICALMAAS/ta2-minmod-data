@@ -1,0 +1,66 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/B46ZZMET",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Mouat-Nye Basin Project in Montana, United States dated May 2009",
+      "location_info": {
+        "location": "MULTIPOINT(-109.8480 45.3313,-110.0024 45.2820)",
+        "crs": "EPSG:4326",
+        "country": "United States",
+        "state_or_province": "Montana"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q537",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mouat-Nye Basin Project in Montana, United States dated May 2009",
+              "doi": "https://w3id.org/usgs/z/4530692/B46ZZMET",
+              "authors": [
+                "Robert Suda",
+                "Alistair R. Turner",
+                "Curt Hogge"
+              ],
+              "year": 2009,
+              "month": 5,
+              "description": "The report pertains to the Stillwater Project in Montana, USA, hosting magmatic ore deposits with potential reserves of nickel, copper, and PGE."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Nickel-copper-cobalt + PGE sulfide mineralization hosted in the Basal Series",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "PGE + gold mineralization enriched in chromitite seams, mainly the A and B chromitites within the Peridotite member of the Ultramafic Series",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "PGE mineralization associated with the Volatile Enriched Zone (\u2018VEZ\u2019)",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "PGE mineralization hosted by intrusive, discordant dunite bodies in the Peridotite member of the Ultramafic Zone",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Chromite mineralization hosted in Peridotite member Ultramafic Series",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+          "source": "report",
+          "confidence": 0.2
+        }
+      ]
+    }
+  ]
+}

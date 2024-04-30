@@ -1,0 +1,95 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/SZRWIP5V",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated September 1999",
+      "location_info": {
+        "location": "POINT(-91.91667 47.51667)",
+        "crs": "EPSG:4326",
+        "country": "United States",
+        "state_or_province": "Minnesota"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q537",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 111.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.07
+          },
+          
+          "contained_metal": 0.0777,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated September 1999",
+              "doi": "https://w3id.org/usgs/z/4530692/SZRWIP5V",
+              "authors": [
+                "G.R. Peatfield"
+              ],
+              "year": 1999,
+              "month": 9,
+              "description": "This report provides a technical review of the NorthMet project and covers various aspects such as general background, geology, sampling, resource estimates, mining, and environmental topics."
+            },
+            "page_info": [
+              {
+                "page": 19
+              }
+            ]
+          },
+          "date": "1999-9",
+          "zone": "imc \u2013 in-pit"
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q537",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 300.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.066
+          },
+          
+          "contained_metal": 0.198,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated September 1999",
+              "doi": "https://w3id.org/usgs/z/4530692/SZRWIP5V",
+              "authors": [
+                "G.R. Peatfield"
+              ],
+              "year": 1999,
+              "month": 9,
+              "description": "This report provides a technical review of the NorthMet project and covers various aspects such as general background, geology, sampling, resource estimates, mining, and environmental topics."
+            },
+            "page_info": [
+              {
+                "page": 19
+              }
+            ]
+          },
+          "date": "1999-9",
+          "zone": "imc \u2013 in-pit"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "sulfide-bearing anorthositic troctolite to pyroxene troctolite deposit with associated ultramafic subunits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}
