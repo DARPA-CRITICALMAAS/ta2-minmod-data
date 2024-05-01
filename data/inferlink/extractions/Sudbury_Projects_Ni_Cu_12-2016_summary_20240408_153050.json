@@ -1,0 +1,64 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/2437MM2M",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Sudbury Projects Project in North America dated 2016",
+      "location_info": {
+        "location": "MULTIPOINT(long1 lat1, long2 lat2, long3 lat3, long4 lat4, long5 lat5, long6 lat6, long7 lat7, long8 lat8, long9 lat9, long10 lat10)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Sudbury Projects Project in North America dated 2016",
+              "doi": "https://w3id.org/usgs/z/4530692/2437MM2M",
+              "authors": [
+                "Joshua Bailey"
+              ],
+              "year": 2016,
+              "month": 12,
+              "description": "The report provides technical details on Wallbridge Mining Company Limited's Sudbury Projects, including property descriptions, geological setting, exploration, and recommendations."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Contact deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q331",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Footwall deposits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Offset dyke deposits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Structurally and/or hydrothermally remobilized sulphide",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Hybrid type deposits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/2ZGNUWQX",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Laronde Project in North America dated May 2003",
+      "location_info": {
+        "location": "POINT(-78.25 48.25)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Quebec"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 20892032
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.33
+          },
+          "contained_metal": 68943.7056,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Laronde Project in North America dated May 2003",
+              "doi": "https://w3id.org/usgs/z/4530692/2ZGNUWQX",
+              "authors": [
+                "Guy Gosselin"
+              ],
+              "year": 2003,
+              "month": 5,
+              "description": "This document presents the year 2003 mineral reserves and mineral resources estimate for Agnico-Eagle Mines Ltd.\u2019s Laronde Division."
+            },
+            "page_info": [
+              {
+                "page": 5
+              }
+            ]
+          },
+          "date": "2003-5",
+          "zone": "total g\u00e9n\u00e9ral"
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 588066
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.17
+          },
+          "contained_metal": 999.7122,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Laronde Project in North America dated May 2003",
+              "doi": "https://w3id.org/usgs/z/4530692/2ZGNUWQX",
+              "authors": [
+                "Guy Gosselin"
+              ],
+              "year": 2003,
+              "month": 5,
+              "description": "This document presents the year 2003 mineral reserves and mineral resources estimate for Agnico-Eagle Mines Ltd.\u2019s Laronde Division."
+            },
+            "page_info": [
+              {
+                "page": 5
+              }
+            ]
+          },
+          "date": "2003-5",
+          "zone": "total g\u00e9n\u00e9ral"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "high-sulphidation volcanogenic massive sulphide deposit",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/UGR3ZTSC",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Chu Chua Project in North America dated September 2013",
+      "location_info": {
+        "location": "POINT(-120.1932 51.4573)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "British Columbia"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 2.5
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 2.0
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 1.0
+          },
+          "contained_metal": 0.05,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Chu Chua Project in North America dated September 2013",
+              "doi": "https://w3id.org/usgs/z/4530692/UGR3ZTSC",
+              "authors": [
+                "Michael Dufresne",
+                "Kris Raffle",
+                "Steve Nicholls"
+              ],
+              "year": 2013,
+              "month": 9,
+              "description": "Technical report on the Chu Chua Property, a mining project in British Columbia, Canada."
+            },
+            "page_info": [
+              {
+                "page": 12
+              }
+            ]
+          },
+          "date": "2013-9",
+          "zone": "chu chua deposit"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Cyprus Type Massive Sulphide",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "Kuroko Massive Sulphide",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "Epithermal Veins",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        }
+      ]
+    }
+  ]
+}
