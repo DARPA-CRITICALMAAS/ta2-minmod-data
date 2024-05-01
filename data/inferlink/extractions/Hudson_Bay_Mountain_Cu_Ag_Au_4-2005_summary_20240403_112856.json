@@ -1,0 +1,63 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/5J7S7JD9",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Hudson Bay Mountain Project in North America dated April 2005",
+      "location_info": {
+        "location": "POINT(-127.333333 54.833333)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "British Columbia"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Hudson Bay Mountain Project in North America dated April 2005",
+              "authors": [
+                "D.G. MacIntyre"
+              ],
+              "year": 2005,
+              "month": 3,
+              "description": "This geological report prepared for Aumega Discoveries Ltd. describes the Hudson Bay Mountain property, consisting of 46 mineral claims and covering an area of 12277 hectares, with a focus on its potential molybdenum resources."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "L01 Subvolcanic Cu-Au-Ag (As-Sb)",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "I02 Intrusion Related Au Pyrrhotite Veins",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "I05 Polymetallic Veins Ag-Pb-Zn+/-Au",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "J01 Polymetallic Mantos Ag-Pb-Zn",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "D03 Volcanic Redbed Cu",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 0.2
+        }
+      ]
+    }
+  ]
+}

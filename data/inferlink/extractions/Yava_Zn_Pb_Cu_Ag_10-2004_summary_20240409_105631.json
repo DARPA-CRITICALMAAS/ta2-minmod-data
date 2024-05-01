@@ -1,0 +1,63 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/VAH2R4RK",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Yava Project in North America dated October 2004",
+      "location_info": {
+        "location": "POINT(-107.933333 65.6)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Nunavut"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 1.3
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 1.03
+          },
+          "contained_metal": 0.01339,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Yava Project in North America dated October 2004",
+              "doi": "https://w3id.org/usgs/z/4530692/VAH2R4RK",
+              "authors": [
+                "Robert W. Hodder"
+              ],
+              "year": 2004,
+              "month": 10,
+              "description": "Technical report detailing the geological features, mineralization, and exploration potential of the Yava Property in Nunavut, Canada, for Expatriate Resources Ltd."
+            },
+            "page_info": [
+             
+            ]
+          },
+          "date": "2004-10",
+          "zone": "yava main zone"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Base Metal Massive Sulphide Occurrences",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Iron Formation-Hosted Gold Occurrences",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}

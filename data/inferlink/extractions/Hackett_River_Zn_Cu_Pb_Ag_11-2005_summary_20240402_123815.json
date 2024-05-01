@@ -1,0 +1,41 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/R5CJ86EM",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Hackett River Project in North America dated November 2005",
+      "location_info": {
+        "location": "POINT(-108.5 65.9167)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Nunavut"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Hackett River Project in North America dated November 2005",
+              "doi": "https://w3id.org/usgs/z/4530692/R5CJ86EM",
+              "authors": [
+                "Greg Mosher",
+                "Tim Maunula"
+              ],
+              "year": 2005,
+              "month": 11,
+              "description": "The report contains information about the Hackett River Property in Nunavut, its geological features, the resource estimates of various deposits, and the results of the 2005 drill program by Sabina."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Volcanogenic Massive Sulphide",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

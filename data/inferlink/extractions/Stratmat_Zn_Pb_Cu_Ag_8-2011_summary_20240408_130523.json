@@ -1,0 +1,65 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/6I7MSM8D",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Stratmat Project in North America dated August 2011",
+      "location_info": {
+        "location": "POINT(-66.07 47.13)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "New Brunswick"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 5524500
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.4
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q207",
+            "grade_value": 5
+          },
+          "contained_metal": 22098,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Stratmat Project in North America dated August 2011",
+              "doi": "https://w3id.org/usgs/z/4530692/6I7MSM8D",
+              "authors": [
+                "Tim Maunula",
+                "Christopher Moreton",
+                "Mike McLaughlin"
+              ],
+              "year": 2011,
+              "month": 8,
+              "description": "The document is a technical report and resource estimate for the Stratmat Project, addressed to Trevali Mining Corp, with effective date February 17, 2010, and filing date August 19, 2011."
+            },
+            "page_info": [
+              {
+                "page": 3
+              }
+            ]
+          },
+          "date": "2011-8",
+          "zone": "all zones"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Volcanogenic Massive Sulphide (VMS)",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

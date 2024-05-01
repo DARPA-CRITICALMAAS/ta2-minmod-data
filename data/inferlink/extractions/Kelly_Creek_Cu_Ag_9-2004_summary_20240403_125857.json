@@ -1,0 +1,40 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/QD2688WS",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Kelly Creek Project in North America dated September 2004",
+      "location_info": {
+        "location": "POINT(-128.08 54.43)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "British Columbia"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Kelly Creek Project in North America dated September 2004",
+              "doi": "https://w3id.org/usgs/z/4530692/QD2688WS",
+              "authors": [
+                "Robert J. Beckett"
+              ],
+              "year": 2004,
+              "month": 9,
+              "description": "This report reviews exploration results within the area now covered by mineral claims Kelly 1 to Kelly 4 and K.C.1 to K.C.4, discusses exploration potential, and makes recommendations for further exploration."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Volcanic Hosted Red Bed type",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}
