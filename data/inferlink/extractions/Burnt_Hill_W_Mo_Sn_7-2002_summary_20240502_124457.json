@@ -1,0 +1,86 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/GBXFHJJG",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Burnt Hill Project in North America dated July 2002",
+      "location_info": {
+        "location": "POINT(-67.179593 46.094719)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "New Brunswick"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 7230000.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.42
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q211"
+          },
+          "contained_metal": 30366.0,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Burnt Hill Project in North America dated July 2002",
+              "doi": "https://w3id.org/usgs/z/4530692/GBXFHJJG",
+              "authors": []
+            },
+            "page_info": [
+              {}
+            ]
+          },
+          "zone": "burnt hill"
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 11470000.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.36
+          },
+          "contained_metal": 41292.0,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Burnt Hill Project in North America dated July 2002",
+              "doi": "https://w3id.org/usgs/z/4530692/GBXFHJJG",
+              "authors": []
+            },
+            "page_info": [
+              {}
+            ]
+          },
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Vein systems",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q427",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Skarn deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q447",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}
