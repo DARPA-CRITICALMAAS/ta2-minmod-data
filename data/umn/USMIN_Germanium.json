@@ -1,24 +1,24 @@
 {
     "MineralSite": [
         {
-            "mineral_inventory": [],
             "deposit_type_candidate": [
                 {
                     "observed_name": "32c - Kipushi Cu-Pb-Zn"
                 }
             ],
-            "name": "Apex",
+            "source_id": "https://mrdata.usgs.gov/deposit/",
             "record_id": "UT00004",
-            "source_id": "USMIN",
-            "location_info": {
-                "location": "POINT (-113.803889 37.069722)",
-                "country": "United States",
-                "crs": "EPSG:4326",
-                "state_or_province": "Utah"
-            }
-        },
-        {
+            "name": "Apex",
             "mineral_inventory": [
+                {
+                    "observed_commodity": "arsenic",
+                    "commodity": "https://minmod.isi.edu/resource/Q511",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
                 {
                     "observed_commodity": "copper",
                     "commodity": "https://minmod.isi.edu/resource/Q538",
@@ -45,17 +45,135 @@
                             "uri": "https://mrdata.usgs.gov/deposit/"
                         }
                     }
+                },
+                {
+                    "observed_commodity": "iron",
+                    "commodity": "https://minmod.isi.edu/resource/Q561",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "lead",
+                    "commodity": "https://minmod.isi.edu/resource/Q565",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "silver",
+                    "commodity": "https://minmod.isi.edu/resource/Q585",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "zinc",
+                    "commodity": "https://minmod.isi.edu/resource/Q589",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
                 }
             ],
+            "location_info": {
+                "location": "POINT (-113.803889 37.069722)",
+                "state_or_province": "UT",
+                "crs": "EPSG:4326",
+                "country": "United States"
+            }
+        },
+        {
             "deposit_type_candidate": [],
-            "name": "Tutsagubet Mining District",
+            "source_id": "https://mrdata.usgs.gov/deposit/",
             "record_id": "UT00003",
-            "source_id": "USMIN",
+            "name": "Tutsagubet Mining District",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "arsenic",
+                    "commodity": "https://minmod.isi.edu/resource/Q511",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "copper",
+                    "commodity": "https://minmod.isi.edu/resource/Q538",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "gallium",
+                    "commodity": "https://minmod.isi.edu/resource/Q594",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "germanium",
+                    "commodity": "https://minmod.isi.edu/resource/Q595",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "iron",
+                    "commodity": "https://minmod.isi.edu/resource/Q561",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "lead",
+                    "commodity": "https://minmod.isi.edu/resource/Q565",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "silver",
+                    "commodity": "https://minmod.isi.edu/resource/Q585",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "zinc",
+                    "commodity": "https://minmod.isi.edu/resource/Q589",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit/"
+                        }
+                    }
+                }
+            ],
             "location_info": {
                 "location": "POINT (-113.877 37.108)",
-                "country": "United States",
+                "state_or_province": "UT",
                 "crs": "EPSG:4326",
-                "state_or_province": "Utah"
+                "country": "United States"
             }
         }
     ]
