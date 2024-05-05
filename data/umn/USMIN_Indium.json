@@ -1,18 +1,25 @@
 {
     "MineralSite": [
         {
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Skarn"
-                }
-            ],
+            "name": "Chino",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "NM00013",
             "mineral_inventory": [
                 {
                     "observed_commodity": "copper",
                     "commodity": "https://minmod.isi.edu/resource/Q538",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "gold",
+                    "commodity": "https://minmod.isi.edu/resource/Q551",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -21,40 +28,38 @@
                     "commodity": "https://minmod.isi.edu/resource/Q559",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "observed_commodity": "iron",
-                    "commodity": "https://minmod.isi.edu/resource/Q561",
+                    "observed_commodity": "molybdenum",
+                    "commodity": "https://minmod.isi.edu/resource/Q576",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "observed_commodity": "zinc",
-                    "commodity": "https://minmod.isi.edu/resource/Q589",
+                    "observed_commodity": "rhenium",
+                    "commodity": "https://minmod.isi.edu/resource/Q603",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "silver",
+                    "commodity": "https://minmod.isi.edu/resource/Q585",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 }
             ],
-            "record_id": "UT00006",
-            "name": "West Desert",
-            "source_id": "https://mrdata.usgs.gov/deposit/",
-            "location_info": {
-                "crs": "EPSG:4326",
-                "state_or_province": "Utah",
-                "country": "United States",
-                "location": "POINT (-113.4687 39.8597)"
-            }
-        },
-        {
             "deposit_type_candidate": [
                 {
                     "observed_name": "Skarn"
@@ -63,55 +68,24 @@
                     "observed_name": "Calc-alkaline porphyry copper"
                 }
             ],
+            "location_info": {
+                "location": "POINT (-108.0689 32.7936)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "New Mexico"
+            }
+        },
+        {
+            "name": "Bingham",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "UT00011",
             "mineral_inventory": [
                 {
                     "observed_commodity": "copper",
                     "commodity": "https://minmod.isi.edu/resource/Q538",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "gold (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium (2)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "molybdenum",
-                    "commodity": "https://minmod.isi.edu/resource/Q576",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "rhenium (3)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "silver",
-                    "commodity": "https://minmod.isi.edu/resource/Q585",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -120,111 +94,7 @@
                     "commodity": "https://minmod.isi.edu/resource/Q551",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium",
-                    "commodity": "https://minmod.isi.edu/resource/Q559",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "rhenium",
-                    "commodity": "https://minmod.isi.edu/resource/Q603",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "copper (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "gold (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "molybdenum (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "silver (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "copper (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "record_id": "NM00013",
-            "name": "Chino",
-            "source_id": "https://mrdata.usgs.gov/deposit/",
-            "location_info": {
-                "crs": "EPSG:4326",
-                "state_or_province": "New Mexico",
-                "country": "United States",
-                "location": "POINT (-108.0689 32.7936)"
-            }
-        },
-        {
-            "deposit_type_candidate": [],
-            "mineral_inventory": [
-                {
-                    "observed_commodity": "copper (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "gold (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "iron (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -233,7 +103,7 @@
                     "commodity": "https://minmod.isi.edu/resource/Q565",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -242,51 +112,7 @@
                     "commodity": "https://minmod.isi.edu/resource/Q585",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "zinc (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "copper",
-                    "commodity": "https://minmod.isi.edu/resource/Q538",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "gold",
-                    "commodity": "https://minmod.isi.edu/resource/Q551",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium",
-                    "commodity": "https://minmod.isi.edu/resource/Q559",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "iron",
-                    "commodity": "https://minmod.isi.edu/resource/Q561",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -295,57 +121,7 @@
                     "commodity": "https://minmod.isi.edu/resource/Q589",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "record_id": "UT00005",
-            "name": "Fish Springs district",
-            "source_id": "https://mrdata.usgs.gov/deposit/",
-            "location_info": {
-                "crs": "EPSG:4326",
-                "state_or_province": "Utah",
-                "country": "United States",
-                "location": "POINT (-113.4667 39.8515)"
-            }
-        },
-        {
-            "deposit_type_candidate": [],
-            "mineral_inventory": [
-                {
-                    "observed_commodity": "copper",
-                    "commodity": "https://minmod.isi.edu/resource/Q538",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "gold",
-                    "commodity": "https://minmod.isi.edu/resource/Q551",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium",
-                    "commodity": "https://minmod.isi.edu/resource/Q559",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "lead",
-                    "commodity": "https://minmod.isi.edu/resource/Q565",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -354,7 +130,16 @@
                     "commodity": "https://minmod.isi.edu/resource/Q576",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "indium",
+                    "commodity": "https://minmod.isi.edu/resource/Q559",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -363,7 +148,7 @@
                     "commodity": "https://minmod.isi.edu/resource/Q582",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -372,218 +157,44 @@
                     "commodity": "https://minmod.isi.edu/resource/Q603",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "silver",
-                    "commodity": "https://minmod.isi.edu/resource/Q585",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "zinc",
-                    "commodity": "https://minmod.isi.edu/resource/Q589",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "copper (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "gold (2)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium (3)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "lead (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "molybdenum (2)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "platinum-group elements (4)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "rhenium (5)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "silver (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "zinc (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 }
             ],
-            "record_id": "UT00017",
-            "name": "Bingham district",
-            "source_id": "https://mrdata.usgs.gov/deposit/",
-            "location_info": {
-                "crs": "EPSG:4326",
-                "state_or_province": "Utah",
-                "country": "United States",
-                "location": "POINT (-112.1407 40.5339)"
-            }
-        },
-        {
-            "deposit_type_candidate": [],
-            "mineral_inventory": [
-                {
-                    "observed_commodity": "copper",
-                    "commodity": "https://minmod.isi.edu/resource/Q538",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "gold",
-                    "commodity": "https://minmod.isi.edu/resource/Q551",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium",
-                    "commodity": "https://minmod.isi.edu/resource/Q559",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "molybdenum",
-                    "commodity": "https://minmod.isi.edu/resource/Q576",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "rhenium",
-                    "commodity": "https://minmod.isi.edu/resource/Q603",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "silver",
-                    "commodity": "https://minmod.isi.edu/resource/Q585",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "rhenium (2)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "record_id": "NM00035",
-            "name": "Santa Rita district",
-            "source_id": "https://mrdata.usgs.gov/deposit/",
-            "location_info": {
-                "crs": "EPSG:4326",
-                "state_or_province": "New Mexico",
-                "country": "United States",
-                "location": "POINT (-108.0722 32.8028)"
-            }
-        },
-        {
             "deposit_type_candidate": [
+                {
+                    "observed_name": "Distal disseminated silver-gold"
+                },
+                {
+                    "observed_name": "Calc-alkaline porphyry copper"
+                },
                 {
                     "observed_name": "Replacement polymetallic",
                     "normalized_uri": "https://minmod.isi.edu/resource/Q437"
                 },
                 {
-                    "observed_name": "Distal disseminated silver-gold"
-                },
-                {
                     "observed_name": "Skarn"
-                },
-                {
-                    "observed_name": "Calc-alkaline porphyry copper"
                 }
             ],
+            "location_info": {
+                "location": "POINT (-112.1364 40.5299)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Utah"
+            }
+        },
+        {
+            "name": "Santa Rita district",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "NM00035",
             "mineral_inventory": [
                 {
                     "observed_commodity": "copper",
                     "commodity": "https://minmod.isi.edu/resource/Q538",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -592,65 +203,7 @@
                     "commodity": "https://minmod.isi.edu/resource/Q551",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "indium (1)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "lead (4)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "molybdenum",
-                    "commodity": "https://minmod.isi.edu/resource/Q576",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "platinum-group elements (2)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "rhenium (3)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "silver",
-                    "commodity": "https://minmod.isi.edu/resource/Q585",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "zinc (4)",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -659,25 +212,16 @@
                     "commodity": "https://minmod.isi.edu/resource/Q559",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "observed_commodity": "lead",
-                    "commodity": "https://minmod.isi.edu/resource/Q565",
+                    "observed_commodity": "molybdenum",
+                    "commodity": "https://minmod.isi.edu/resource/Q576",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "observed_commodity": "platinum-group elements",
-                    "commodity": "https://minmod.isi.edu/resource/Q582",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -686,7 +230,84 @@
                     "commodity": "https://minmod.isi.edu/resource/Q603",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "silver",
+                    "commodity": "https://minmod.isi.edu/resource/Q585",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [],
+            "location_info": {
+                "location": "POINT (-108.0722 32.8028)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "New Mexico"
+            }
+        },
+        {
+            "name": "Fish Springs district",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "UT00005",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "lead",
+                    "commodity": "https://minmod.isi.edu/resource/Q565",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "silver",
+                    "commodity": "https://minmod.isi.edu/resource/Q585",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "copper",
+                    "commodity": "https://minmod.isi.edu/resource/Q538",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "gold",
+                    "commodity": "https://minmod.isi.edu/resource/Q551",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "indium",
+                    "commodity": "https://minmod.isi.edu/resource/Q559",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "iron",
+                    "commodity": "https://minmod.isi.edu/resource/Q561",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
@@ -695,19 +316,166 @@
                     "commodity": "https://minmod.isi.edu/resource/Q589",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 }
             ],
-            "record_id": "UT00011",
-            "name": "Bingham",
-            "source_id": "https://mrdata.usgs.gov/deposit/",
+            "deposit_type_candidate": [],
             "location_info": {
+                "location": "POINT (-113.4667 39.8515)",
                 "crs": "EPSG:4326",
-                "state_or_province": "Utah",
                 "country": "United States",
-                "location": "POINT (-112.1364 40.5299)"
+                "state_or_province": "Utah"
+            }
+        },
+        {
+            "name": "West Desert",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "UT00006",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "copper",
+                    "commodity": "https://minmod.isi.edu/resource/Q538",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "indium",
+                    "commodity": "https://minmod.isi.edu/resource/Q559",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "iron",
+                    "commodity": "https://minmod.isi.edu/resource/Q561",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "zinc",
+                    "commodity": "https://minmod.isi.edu/resource/Q589",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "Skarn"
+                }
+            ],
+            "location_info": {
+                "location": "POINT (-113.4687 39.8597)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Utah"
+            }
+        },
+        {
+            "name": "Bingham district",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "UT00017",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "copper",
+                    "commodity": "https://minmod.isi.edu/resource/Q538",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "gold",
+                    "commodity": "https://minmod.isi.edu/resource/Q551",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "indium",
+                    "commodity": "https://minmod.isi.edu/resource/Q559",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "lead",
+                    "commodity": "https://minmod.isi.edu/resource/Q565",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "molybdenum",
+                    "commodity": "https://minmod.isi.edu/resource/Q576",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "platinum-group elements",
+                    "commodity": "https://minmod.isi.edu/resource/Q582",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "rhenium",
+                    "commodity": "https://minmod.isi.edu/resource/Q603",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "silver",
+                    "commodity": "https://minmod.isi.edu/resource/Q585",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "zinc",
+                    "commodity": "https://minmod.isi.edu/resource/Q589",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [],
+            "location_info": {
+                "location": "POINT (-112.1407 40.5339)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Utah"
             }
         }
     ]
