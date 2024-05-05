@@ -1,0 +1,57 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/9V6FSWT6",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003",
+      "location_info": {
+        "location": "POINT(-128.283333 61.966667)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Northwest Territories"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/probable"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q214",
+            "ore_value": 771126.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 1.75
+          },
+          "contained_metal": 13494.705,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003",
+              "doi": "https://w3id.org/usgs/z/4530692/9V6FSWT6",
+              "authors": [],
+              "year": 2003,
+              "month": 2,
+              "description": "The report provides a detailed technical review and assessment of the mining reserves at Cantung Mine, adhering to the standards of National Instrument 43-101."
+            },
+            "page_info": [
+              {
+                "page": 1
+              }
+            ]
+          },
+          "date": "2003-2",
+          "zone": "west extension"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "disseminated scheelite deposits in calc-silicate skarn replacement zones within Ore limestone",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q449",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

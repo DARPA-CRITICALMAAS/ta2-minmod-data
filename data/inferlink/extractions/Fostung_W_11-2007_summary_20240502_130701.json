@@ -1,0 +1,60 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/XUSFKSBK",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Fostung Project in North America dated November 2007",
+      "location_info": {
+        "location": "POINT(-81.3333 46.3333)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 12.4
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.213
+          },
+          "cutoff_grade": {
+            "grade_value": 0.125
+          },
+          "contained_metal": 0.0264,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Fostung Project in North America dated November 2007",
+              "doi": "https://w3id.org/usgs/z/4530692/XUSFKSBK",
+              "authors": [],
+              "year": 2007,
+              "month": 11,
+              "description": "The report summarizes the geological, exploration, and resource estimation activities for the Fostung tungsten property, suggesting further exploration and testing to enhance resource categories and recovery methods."
+            },
+            "page_info": [
+              {
+                "page": 14
+              }
+            ]
+          },
+          "date": "2007-11",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "skarn type tungsten deposit",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q447",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}
