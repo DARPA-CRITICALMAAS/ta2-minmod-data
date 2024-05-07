@@ -1,0 +1,117 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/Q2S5JXHE",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012",
+      "location_info": {
+        "location": "MULTIPOINT(-66.895269 45.330196,-66.902820 45.330466,-66.897939 45.337396)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "New Brunswick"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012",
+              "doi": "https://w3id.org/usgs/z/4530692/Q2S5JXHE",
+              "authors": [
+                ""
+              ]
+            },
+            "page_info": [
+              {
+                "page": 149
+              }
+            ]
+          },
+          "zone": "north zone"
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012",
+              "doi": "https://w3id.org/usgs/z/4530692/Q2S5JXHE",
+              "authors": [
+                ""
+              ]
+            },
+            "page_info": [
+              {
+                "page": 149
+              }
+            ]
+          },
+          "zone": "north zone"
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/measured"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 3.6
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.25
+          },
+          "cutoff_grade": {
+            "grade_value": 0.05
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012",
+              "doi": "https://w3id.org/usgs/z/4530692/Q2S5JXHE",
+              "authors": [
+                ""
+              ]
+            },
+            "page_info": [
+              {
+                "page": 149
+              }
+            ]
+          },
+          "zone": "north zone"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Porphyry tungsten-molybdenum orebodies",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q459",
+          "source": "report",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Polymetallic veins",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q430",
+          "source": "report",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Replacement bodies",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Tin-bearing greisen zones",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q461",
+          "source": "report",
+          "confidence": 0.25
+        }
+      ]
+    }
+  ]
+}

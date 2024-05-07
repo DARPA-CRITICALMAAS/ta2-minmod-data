@@ -1,0 +1,65 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/X73C2ZJA",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Grey River Project in North America dated June 2007",
+      "location_info": {
+        "location": "POINT(-57.1 47.57)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Newfoundland and Labrador"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 852000.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.858
+          },
+          "cutoff_grade": {
+            "grade_value": 0.2
+          },
+          "contained_metal": 7310.16,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Grey River Project in North America dated June 2007",
+              "doi": "https://w3id.org/usgs/z/4530692/X73C2ZJA",
+              "authors": [
+                "Christopher Moreton",
+                "Pierre Desautels",
+                "Tim Maunula",
+                "Gilles Arseneau"
+              ],
+              "year": 2007,
+              "month": 6,
+              "description": "The technical report, compliant with NI 43-101, provides a resource estimate for the Grey River Tungsten project, including detailed geology, mineral resource estimates, and testing information."
+            },
+            "page_info": [
+              {
+                "page": 2
+              }
+            ]
+          },
+          "date": "2007-6",
+          "zone": "grey river number 10 vein"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "quartz veins hosting tungsten within undeformed linear fractures",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q427",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}
