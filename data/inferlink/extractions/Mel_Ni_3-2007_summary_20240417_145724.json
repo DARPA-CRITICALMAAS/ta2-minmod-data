@@ -1,0 +1,67 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/4V4QQ6MN",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007",
+      "location_info": {
+        "location": "POINT(-97.908333 55.475556)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Manitoba"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q537",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 4279000.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.875
+          },
+          "cutoff_grade": {},
+          "contained_metal": 37441.25,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007",
+              "doi": "https://w3id.org/usgs/z/4530692/4V4QQ6MN",
+              "authors": [
+                "Shah\u00e9 Naccashian",
+                "Gilles Arseneau"
+              ],
+              "year": 2007,
+              "month": 3,
+              "description": "A technical report prepared for Victory Nickel Inc. regarding the Mel Deposit in Northern Manitoba, with recommendations and findings related to the deposit's potential for nickel mining."
+            },
+            "page_info": [
+              {
+                "page": 18
+              }
+            ]
+          },
+          "date": "2007-3",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Sedimentary sulphide mineralization",
+          "normalized_uri": "https://minmod.isi.edu/resource/deposit_id",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Magmatic sulphide mineralization",
+          "normalized_uri": "https://minmod.isi.edu/resource/deposit_id",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}

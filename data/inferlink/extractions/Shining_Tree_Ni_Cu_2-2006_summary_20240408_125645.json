@@ -1,0 +1,63 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/9CBXDCP4",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Shining Tree Project in North America dated February 2006",
+      "location_info": {
+        "location": "MULTIPOINT(-81.3336 47.3196,-79.6829 47.5137)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Ontario"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 1.49
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.36
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q210",
+            "grade_value": 0.3
+          },
+          "contained_metal": 0.005364,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Shining Tree Project in North America dated February 2006",
+              "doi": "https://w3id.org/usgs/z/4530692/9CBXDCP4",
+              "authors": [
+                "URSA Major Minerals Incorporated"
+              ],
+              "year": 2006,
+              "month": 2,
+              "description": "This technical report provides an independent resource estimation of the magmatic hosted nickel-copper mineralization on the Shining Tree Property located in Fawcett Township, within the Larder Lake Mining Division, Ontario."
+            },
+            "page_info": [
+              {
+                "page": 4
+              }
+            ]
+          },
+          "date": "2006-2",
+          "zone": "n/a"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Magmatic nickel-copper-cobalt with platinum group elements hosted in a gabbro-anorthosite complex",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

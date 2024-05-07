@@ -1,0 +1,53 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/6SU4BAHQ",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Chu Chua Project in North America dated October 2009",
+      "location_info": {
+        "location": "POINT({longitude} {latitude})",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "British Columbia"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Chu Chua Project in North America dated October 2009",
+              "doi": "https://w3id.org/usgs/z/4530692/6SU4BAHQ",
+              "authors": [
+                "Kris Raffle",
+                "Michael Dufresne"
+              ],
+              "year": 2009,
+              "month": 10,
+              "description": "This report discusses the base and precious metal potential of the Chu Chua property, including exploration activities, geology, mineralization, and recommendations for future work."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Cyprus Massive Sulphide",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "Kuroko massive Sulphide",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "Epithermal Veins",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Fyre Lake Project in Canada dated February 2018",
+      "location_info": {
+        "location": "POINT(-130.98345 60.1)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Yukon"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 7.7
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 1.7
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q204",
+            "grade_value": 1.0
+          },
+          "contained_metal": 0.1309,
+          "reference": {
+            "document": {
+              "doi": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
+              "authors": []
+            },
+            "page_info": [
+              {
+                "page": 78
+              }
+            ]
+          },
+          "zone": ""
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q538",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 2.3
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 1.6
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 1.0
+          },
+          "contained_metal": 0.0368,
+          "reference": {
+            "document": {
+              "doi": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
+              "authors": []
+            },
+            "page_info": [
+              {
+                "page": 11
+              }
+            ]
+          },
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "VMS (Volcanogenic Massive Sulphide) deposit",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

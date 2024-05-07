@@ -1,0 +1,46 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/EFEWPRUA",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Kalzas Project in North America dated October 2016",
+      "location_info": {
+        "location": "POINT(134.70528 63.26417)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Yukon"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Kalzas Project in North America dated October 2016",
+              "doi": "https://w3id.org/usgs/z/4530692/EFEWPRUA",
+              "authors": [
+                "R. Allan Doherty"
+              ],
+              "year": 2016,
+              "month": 10,
+              "description": "The document is a technical report on the Kalzas Tungsten Project, emphasizing geological and mineralization analysis, exploration history, and recommended further studies."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "tungsten porphyry",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "sheeted vein and stockwork wolframite type",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}

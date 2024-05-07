@@ -1,0 +1,89 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/9D9CJDWS",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Logtung Project in North America dated May 2008",
+      "location_info": {
+        "location": "POINT(-131.6167 60.0000)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Yukon and British Columbia"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 253.2
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.1
+          },
+          "cutoff_grade": {
+            "grade_value": 0.06
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Logtung Project in North America dated May 2008",
+              "doi": "https://w3id.org/usgs/z/4530692/9D9CJDWS",
+              "authors": [],
+              "year": 2008,
+              "month": 5,
+              "description": "This Technical Report covers the Northern Dancer (formerly Logtung) Project, an exploration property straddling the southern Yukon Territory and northern British Columbia Province in Canada ."
+            },
+            "page_info": [
+              {}
+            ]
+          },
+          "date": "2008-5",
+          "zone": "northern dancer"
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 140.8
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.1
+          },
+          "cutoff_grade": {
+            "grade_value": 0.06
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Logtung Project in North America dated May 2008",
+              "doi": "https://w3id.org/usgs/z/4530692/9D9CJDWS",
+              "authors": [],
+              "year": 2008,
+              "month": 5,
+              "description": "This Technical Report covers the Northern Dancer (formerly Logtung) Project, an exploration property straddling the southern Yukon Territory and northern British Columbia Province in Canada ."
+            },
+            "page_info": [
+              {}
+            ]
+          },
+          "date": "2008-5",
+          "zone": "northern dancer"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "skarn-porphyry",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q459",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/PP98WPVS",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Risby Project in North America dated September 2007",
+      "location_info": {
+        "location": "POINT(-133.3725 61.864444)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Yukon"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 6385000.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.462
+          },
+          "cutoff_grade": {
+            "grade_value": 0.2
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Risby Project in North America dated September 2007",
+              "doi": "https://w3id.org/usgs/z/4530692/PP98WPVS",
+              "authors": [
+                "Pierre Desautels",
+                "Gilles Arsenau",
+                "Tim Maunula"
+              ],
+              "year": 2007,
+              "month": 9,
+              "description": "This report provides a detailed technical assessment and resource estimation for the Risby Tungsten Deposit in Yukon, complying with NI 43-101 standards."
+            },
+            "page_info": [
+              {
+                "page": 2
+              }
+            ]
+          },
+          "date": "2007-9",
+          "zone": "upper and lower skarn"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Contact Skarn",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q447",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

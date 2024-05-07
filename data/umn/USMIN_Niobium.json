@@ -1,850 +1,870 @@
 {
     "MineralSite": [
         {
-            "record_id": "TX00002",
-            "source_id": "USMIN",
-            "name": "Cave Peak mining area",
-            "mineral_inventory": [
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q538",
-                    "observed_commodity": "copper",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q615",
-                    "observed_commodity": "tungsten",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q576",
-                    "observed_commodity": "molybdenum",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "location_info": {
-                "location": "POINT (-104.8929, 31.4323)",
-                "crs": "EPSG:4326",
-                "state_or_province": "Texas",
-                "country": "United States"
-            }
-        },
-        {
-            "record_id": "AR00006",
-            "source_id": "USMIN",
-            "name": "Arkansas bauxite region",
-            "mineral_inventory": [
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "location_info": {
-                "location": "POINT (-92.308, 34.5866)",
-                "crs": "EPSG:4326",
-                "state_or_province": "Arkansas",
-                "country": "United States"
-            }
-        },
-        {
-            "record_id": "NE00002",
-            "source_id": "USMIN",
-            "name": "Elk Creek",
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Carbonatite-hosted REE deposits"
-                }
-            ],
-            "mineral_inventory": [
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q614",
-                    "observed_commodity": "titanium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q607",
-                    "observed_commodity": "scandium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "location_info": {
-                "location": "POINT (-96.1862, 40.268)",
-                "crs": "EPSG:4326",
-                "state_or_province": "Nebraska",
-                "country": "United States"
-            }
-        },
-        {
-            "record_id": "CO00032",
-            "source_id": "USMIN",
-            "name": "Powderhorn District",
-            "deposit_type_candidate": [],
-            "mineral_inventory": [
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q561",
-                    "observed_commodity": "iron",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q613",
-                    "observed_commodity": "thorium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q588",
-                    "observed_commodity": "uranium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q616",
-                    "observed_commodity": "vanadium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q614",
-                    "observed_commodity": "titanium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "location_info": {
-                "location": "POINT (-107.118, 38.3224)",
-                "crs": "EPSG:4326",
-                "state_or_province": "Colorado",
-                "country": "United States"
-            }
-        },
-        {
-            "record_id": "TX00010",
-            "source_id": "USMIN",
             "name": "Cave Peak",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "TX00010",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "copper",
+                    "commodity": "https://minmod.isi.edu/resource/Q538",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "molybdenum",
+                    "commodity": "https://minmod.isi.edu/resource/Q576",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "tungsten",
+                    "commodity": "https://minmod.isi.edu/resource/Q615",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
             "deposit_type_candidate": [
                 {
                     "observed_name": "Porphyry Mo(-Nb) deposit"
                 }
             ],
-            "mineral_inventory": [
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q538",
-                    "observed_commodity": "copper",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q615",
-                    "observed_commodity": "tungsten",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q576",
-                    "observed_commodity": "molybdenum",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
             "location_info": {
-                "location": "POINT (-104.8809, 31.4418)",
+                "location": "POINT (-104.8809 31.4418)",
                 "crs": "EPSG:4326",
-                "state_or_province": "Texas",
-                "country": "United States"
+                "country": "United States",
+                "state_or_province": "Texas"
             }
         },
         {
-            "record_id": "TX00001",
-            "source_id": "USMIN",
-            "name": "Sierra Blanca mining area",
-            "deposit_type_candidate": [],
-            "mineral_inventory": [
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q613",
-                    "observed_commodity": "thorium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q569",
-                    "observed_commodity": "lithium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q571",
-                    "observed_commodity": "manganese",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q587",
-                    "observed_commodity": "tin",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q610",
-                    "observed_commodity": "tantalum",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q557",
-                    "observed_commodity": "hafnium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q607",
-                    "observed_commodity": "scandium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q588",
-                    "observed_commodity": "uranium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q617",
-                    "observed_commodity": "zirconium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q561",
-                    "observed_commodity": "iron",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q583",
-                    "observed_commodity": "potassium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q506",
-                    "observed_commodity": "aluminum",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q594",
-                    "observed_commodity": "gallium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q590",
-                    "observed_commodity": "beryllium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "location_info": {
-                "location": "POINT (-105.4451, 31.2658)",
-                "crs": "EPSG:4326",
-                "state_or_province": "Texas",
-                "country": "United States"
-            }
-        },
-        {
-            "record_id": "TX00005",
-            "source_id": "USMIN",
             "name": "Round Top",
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Peralkaline intrusion-related REE deposits"
-                }
-            ],
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "TX00005",
             "mineral_inventory": [
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q613",
-                    "observed_commodity": "thorium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q569",
-                    "observed_commodity": "lithium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q571",
-                    "observed_commodity": "manganese",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q587",
-                    "observed_commodity": "tin",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q610",
-                    "observed_commodity": "tantalum",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q557",
-                    "observed_commodity": "hafnium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q607",
-                    "observed_commodity": "scandium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q588",
-                    "observed_commodity": "uranium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q617",
-                    "observed_commodity": "zirconium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q561",
-                    "observed_commodity": "iron",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q583",
-                    "observed_commodity": "potassium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q506",
                     "observed_commodity": "aluminum",
+                    "commodity": "https://minmod.isi.edu/resource/Q506",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
+                    "observed_commodity": "beryllium",
+                    "commodity": "https://minmod.isi.edu/resource/Q590",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q594",
                     "observed_commodity": "gallium",
+                    "commodity": "https://minmod.isi.edu/resource/Q594",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q590",
-                    "observed_commodity": "beryllium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "location_info": {
-                "location": "POINT (-105.4762, 31.2767)",
-                "crs": "EPSG:4326",
-                "state_or_province": "Texas",
-                "country": "United States"
-            }
-        },
-        {
-            "record_id": "NE00001",
-            "source_id": "USMIN",
-            "name": "Elk Creek carbonatite area",
-            "deposit_type_candidate": [],
-            "mineral_inventory": [
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q607",
-                    "observed_commodity": "scandium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q614",
-                    "observed_commodity": "titanium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                }
-            ],
-            "location_info": {
-                "location": "POINT (-96.18, 40.2759)",
-                "crs": "EPSG:4326",
-                "state_or_province": "Nebraska",
-                "country": "United States"
-            }
-        },
-        {
-            "record_id": "AK00021",
-            "source_id": "USMIN",
-            "name": "Ketchikan District",
-            "deposit_type_candidate": [],
-            "mineral_inventory": [
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q613",
-                    "observed_commodity": "thorium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q614",
-                    "observed_commodity": "titanium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q610",
-                    "observed_commodity": "tantalum",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q616",
-                    "observed_commodity": "vanadium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q557",
                     "observed_commodity": "hafnium",
+                    "commodity": "https://minmod.isi.edu/resource/Q557",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q588",
-                    "observed_commodity": "uranium",
+                    "observed_commodity": "iron",
+                    "commodity": "https://minmod.isi.edu/resource/Q561",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q617",
-                    "observed_commodity": "zirconium",
+                    "observed_commodity": "lithium",
+                    "commodity": "https://minmod.isi.edu/resource/Q569",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "observed_commodity": "manganese",
+                    "commodity": "https://minmod.isi.edu/resource/Q571",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
                     "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q590",
-                    "observed_commodity": "beryllium",
+                    "observed_commodity": "potassium",
+                    "commodity": "https://minmod.isi.edu/resource/Q583",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "scandium",
+                    "commodity": "https://minmod.isi.edu/resource/Q607",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "sodium",
+                    "commodity": "https://minmod.isi.edu/resource/Q660",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "tantalum",
+                    "commodity": "https://minmod.isi.edu/resource/Q610",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "thorium",
+                    "commodity": "https://minmod.isi.edu/resource/Q613",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "tin",
+                    "commodity": "https://minmod.isi.edu/resource/Q587",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "uranium",
+                    "commodity": "https://minmod.isi.edu/resource/Q588",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "zirconium",
+                    "commodity": "https://minmod.isi.edu/resource/Q617",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 }
             ],
-            "location_info": {
-                "location": "POINT (-132.2932, 55.4645)",
-                "crs": "EPSG:4326",
-                "state_or_province": "Alaska",
-                "country": "United States"
-            }
-        },
-        {
-            "record_id": "AK00022",
-            "source_id": "USMIN",
-            "name": "Bokan Mountain",
             "deposit_type_candidate": [
                 {
                     "observed_name": "Peralkaline intrusion-related REE deposits"
                 }
             ],
+            "location_info": {
+                "location": "POINT (-105.4762 31.2767)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Texas"
+            }
+        },
+        {
+            "name": "Ketchikan District",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "AK00021",
             "mineral_inventory": [
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q613",
-                    "observed_commodity": "thorium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q614",
-                    "observed_commodity": "titanium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
-                    "observed_commodity": "niobium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q610",
-                    "observed_commodity": "tantalum",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q588",
-                    "observed_commodity": "uranium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q617",
-                    "observed_commodity": "zirconium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q616",
-                    "observed_commodity": "vanadium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q590",
                     "observed_commodity": "beryllium",
+                    "commodity": "https://minmod.isi.edu/resource/Q590",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q557",
                     "observed_commodity": "hafnium",
+                    "commodity": "https://minmod.isi.edu/resource/Q557",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "tantalum",
+                    "commodity": "https://minmod.isi.edu/resource/Q610",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "thorium",
+                    "commodity": "https://minmod.isi.edu/resource/Q613",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "titanium",
+                    "commodity": "https://minmod.isi.edu/resource/Q614",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "uranium",
+                    "commodity": "https://minmod.isi.edu/resource/Q588",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "vanadium",
+                    "commodity": "https://minmod.isi.edu/resource/Q616",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "zirconium",
+                    "commodity": "https://minmod.isi.edu/resource/Q617",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 }
             ],
+            "deposit_type_candidate": [],
             "location_info": {
-                "location": "POINT (-132.1173, 54.9077)",
+                "location": "POINT (-132.2932 55.4645)",
                 "crs": "EPSG:4326",
-                "state_or_province": "Alaska",
-                "country": "United States"
+                "country": "United States",
+                "state_or_province": "Alaska"
             }
         },
         {
-            "record_id": "CO00019",
-            "source_id": "USMIN",
-            "name": "Iron Hill",
+            "name": "Elk Creek carbonatite area",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "NE00001",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "scandium",
+                    "commodity": "https://minmod.isi.edu/resource/Q607",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "titanium",
+                    "commodity": "https://minmod.isi.edu/resource/Q614",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [],
+            "location_info": {
+                "location": "POINT (-96.18 40.2759)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Nebraska"
+            }
+        },
+        {
+            "name": "Arkansas bauxite region",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "AR00006",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [],
+            "location_info": {
+                "location": "POINT (-92.308 34.5866)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Arkansas"
+            }
+        },
+        {
+            "name": "Elk Creek",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "NE00002",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "scandium",
+                    "commodity": "https://minmod.isi.edu/resource/Q607",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "titanium",
+                    "commodity": "https://minmod.isi.edu/resource/Q614",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
             "deposit_type_candidate": [
                 {
                     "observed_name": "Carbonatite-hosted REE deposits"
                 }
             ],
+            "location_info": {
+                "location": "POINT (-96.1862 40.268)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Nebraska"
+            }
+        },
+        {
+            "name": "Cave Peak mining area",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "TX00002",
             "mineral_inventory": [
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q561",
-                    "observed_commodity": "iron",
+                    "observed_commodity": "copper",
+                    "commodity": "https://minmod.isi.edu/resource/Q538",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q613",
-                    "observed_commodity": "thorium",
+                    "observed_commodity": "molybdenum",
+                    "commodity": "https://minmod.isi.edu/resource/Q576",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q579",
                     "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 },
                 {
-                    "commodity": "https://minmod.isi.edu/resource/Q588",
-                    "observed_commodity": "uranium",
+                    "observed_commodity": "tungsten",
+                    "commodity": "https://minmod.isi.edu/resource/Q615",
                     "reference": {
                         "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q616",
-                    "observed_commodity": "vanadium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
-                        }
-                    }
-                },
-                {
-                    "commodity": "https://minmod.isi.edu/resource/Q614",
-                    "observed_commodity": "titanium",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit/"
+                            "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
                 }
             ],
+            "deposit_type_candidate": [],
             "location_info": {
-                "location": "POINT (-107.045, 38.2614)",
+                "location": "POINT (-104.8929 31.4323)",
                 "crs": "EPSG:4326",
-                "state_or_province": "Colorado",
-                "country": "United States"
+                "country": "United States",
+                "state_or_province": "Texas"
+            }
+        },
+        {
+            "name": "Bokan Mountain",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "AK00022",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "beryllium",
+                    "commodity": "https://minmod.isi.edu/resource/Q590",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "thorium",
+                    "commodity": "https://minmod.isi.edu/resource/Q613",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "uranium",
+                    "commodity": "https://minmod.isi.edu/resource/Q588",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "zirconium",
+                    "commodity": "https://minmod.isi.edu/resource/Q617",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "tantalum",
+                    "commodity": "https://minmod.isi.edu/resource/Q610",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "hafnium",
+                    "commodity": "https://minmod.isi.edu/resource/Q557",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "titanium",
+                    "commodity": "https://minmod.isi.edu/resource/Q614",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "vanadium",
+                    "commodity": "https://minmod.isi.edu/resource/Q616",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "Peralkaline intrusion-related REE deposits"
+                }
+            ],
+            "location_info": {
+                "location": "POINT (-132.1173 54.9077)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Alaska"
+            }
+        },
+        {
+            "name": "Powderhorn District",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "CO00032",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "iron",
+                    "commodity": "https://minmod.isi.edu/resource/Q561",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "thorium",
+                    "commodity": "https://minmod.isi.edu/resource/Q613",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "titanium",
+                    "commodity": "https://minmod.isi.edu/resource/Q614",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "uranium",
+                    "commodity": "https://minmod.isi.edu/resource/Q588",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "vanadium",
+                    "commodity": "https://minmod.isi.edu/resource/Q616",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [],
+            "location_info": {
+                "location": "POINT (-107.118 38.3224)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Colorado"
+            }
+        },
+        {
+            "name": "Sierra Blanca mining area",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "TX00001",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "aluminum",
+                    "commodity": "https://minmod.isi.edu/resource/Q506",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "beryllium",
+                    "commodity": "https://minmod.isi.edu/resource/Q590",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "gallium",
+                    "commodity": "https://minmod.isi.edu/resource/Q594",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "hafnium",
+                    "commodity": "https://minmod.isi.edu/resource/Q557",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "iron",
+                    "commodity": "https://minmod.isi.edu/resource/Q561",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "lithium",
+                    "commodity": "https://minmod.isi.edu/resource/Q569",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "manganese",
+                    "commodity": "https://minmod.isi.edu/resource/Q571",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "potassium",
+                    "commodity": "https://minmod.isi.edu/resource/Q583",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "scandium",
+                    "commodity": "https://minmod.isi.edu/resource/Q607",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "sodium",
+                    "commodity": "https://minmod.isi.edu/resource/Q660",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "tantalum",
+                    "commodity": "https://minmod.isi.edu/resource/Q610",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "thorium",
+                    "commodity": "https://minmod.isi.edu/resource/Q613",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "tin",
+                    "commodity": "https://minmod.isi.edu/resource/Q587",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "uranium",
+                    "commodity": "https://minmod.isi.edu/resource/Q588",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "zirconium",
+                    "commodity": "https://minmod.isi.edu/resource/Q617",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [],
+            "location_info": {
+                "location": "POINT (-105.4451 31.2658)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Texas"
+            }
+        },
+        {
+            "name": "Iron Hill",
+            "source_id": "https://mrdata.usgs.gov/deposit",
+            "record_id": "CO00019",
+            "mineral_inventory": [
+                {
+                    "observed_commodity": "iron",
+                    "commodity": "https://minmod.isi.edu/resource/Q561",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "niobium",
+                    "commodity": "https://minmod.isi.edu/resource/Q579",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "thorium",
+                    "commodity": "https://minmod.isi.edu/resource/Q613",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "titanium",
+                    "commodity": "https://minmod.isi.edu/resource/Q614",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "uranium",
+                    "commodity": "https://minmod.isi.edu/resource/Q588",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "vanadium",
+                    "commodity": "https://minmod.isi.edu/resource/Q616",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "Carbonatite-hosted REE deposits"
+                }
+            ],
+            "location_info": {
+                "location": "POINT (-107.045 38.2614)",
+                "crs": "EPSG:4326",
+                "country": "United States",
+                "state_or_province": "Colorado"
             }
         }
     ]
