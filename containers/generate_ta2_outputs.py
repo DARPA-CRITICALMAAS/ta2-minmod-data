@@ -332,7 +332,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Generate the TA2 outputs (given a commodity name) from the live MinMod KG using queries")
     parser.add_argument("--commodity", type=str, default='nickel', help="Commodity (default: nickel)", required=True)
-    parser.add_argument("--output_directory", type=str, default='output/', help="Output directory for TA2 results ()")
+    parser.add_argument("--output_directory", type=str, default='output/', help="Output directory for TA2 results")
 
     args = parser.parse_args()
     main(args)

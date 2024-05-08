@@ -22,7 +22,7 @@ Make sure that:
 
 
 ## Outputs
-The script generates several outputs, each capturing different aspects of Mineral Sites analysis based on a given input commodity (e.g., `nickel`). The expected outputs are described in the attached file `Proposed Evaluation for TA2 v2.pdf`.
+The script generates several outputs, each capturing different aspects of Mineral Sites analysis based on a given input commodity (e.g., `nickel`). The expected outputs are described in the attached file `Proposed_Evaluation_for_TA2_v2.pdf`.
 
 
 ### A. Deposit Type Classification
