@@ -32,8 +32,8 @@ def main(args):
     # Map group IDs to the dataframe
     df_all_sites['group_id'] = df_all_sites['ms1.value'].map(group_mapping)
 
-    print("Generating Mineral Locations with Grade-Tonnage data...")
-    # ------------------ Mineral Locations with Grade-Tonnage data ------------------
+    print("Generating grade and tonnage inventory data...")
+    # ------------------ Grade and Tonnage Inventory ------------------
     query = '''
     SELECT 
       ?ms                                              # Mineral Site URI
@@ -131,15 +131,14 @@ def main(args):
         gt_df_only = gt_data_df.drop_duplicates()
         gt_df_only.reset_index(drop=True, inplace=True)
         gt_df_only.set_index('ms', inplace=True)
-        gt_df_only['info_count'] = gt_df_only[['country', 'state_or_province', 'loc_crs', 'loc_wkt']].apply(
-            lambda x: ((x != '') & (x.notna())).sum(), axis=1)
+        gt_df_only['info_count'] = gt_df_only[['country', 'state_or_province', 'loc_crs', 'loc_wkt']].apply(lambda x: ((x != '') & (x.notna())).sum(), axis=1)
         gt_df_only = gt_df_only.sort_values(by='info_count', ascending=False)
         gt_df_only = gt_df_only[~gt_df_only.index.duplicated(keep='first')]
         gt_df_only.drop(columns=['info_count'], inplace=True)
         gt_df_only.to_csv(f'{output_directory}/{commodity}_mineral_locations_with_grade_tonnage.csv', index=True, float_format='%.5f', mode='w')
 
-    print("Generating Mineral Locations with Deposit Type classifications...")
-    # ------------------ Mineral Locations with Deposit Type classification results ------------------
+    print("Generating deposit type classifications...")
+    # ------------------ Deposit Type Classification ------------------
     query = '''
        SELECT ?ms ?ms_name ?deposit_name ?deposit_source ?deposit_confidence ?deposit_group ?deposit_environment ?country ?loc_crs ?loc_wkt ?state_or_province
        WHERE {
@@ -223,8 +222,8 @@ def main(args):
         merged_deposits_df = pd.merge(unique_ms_data, final_df, on='ms', how='left')
         merged_deposits_df.to_csv(f'{output_directory}/{commodity}_mineral_locations_with_deposit_types.csv', index=False, float_format='%.5f', mode='w')
 
-    print("Generating Mineral Locations to (Hypersite) group ids...")
-    # ------------------ Mineral Locations to (Hypersite) group id ------------------
+    print("Generating mineral site locations...")
+    # ------------------ Mineral Site Locations ------------------
     query = '''
     SELECT ?ms ?ms_name ?country ?loc_crs ?loc_wkt ?state_or_province
     WHERE {
@@ -249,8 +248,7 @@ def main(args):
         sites_df = pd.DataFrame([
             {
                 'ms': row['ms.value'],
-                'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[
-                    -1],
+                'ms_name': row['ms_name.value'] if len(str(row['ms_name.value'])) > 0 else row['ms.value'].split('/')[-1],
                 'country': row.get('country.value', None),
                 'state_or_province': row.get('state_or_province.value', None),
                 'loc_crs': row.get('loc_crs.value', None),
@@ -277,10 +275,10 @@ def main(args):
         sorted_df_all_sites_all_dep.drop(columns=['info_count'], inplace=True)
         sorted_df_all_sites_all_dep['group_id'] = sorted_df_all_sites_all_dep['group_id'].astype(int)
         sorted_df_all_sites_all_dep.reset_index(inplace=True)
-        sorted_df_all_sites_all_dep.to_csv(f'{output_directory}/{commodity}_mineral_locations_to_hypersites.csv', index=False, float_format='%.5f', mode='w')
+        sorted_df_all_sites_all_dep.to_csv(f'{output_directory}/{commodity}_mineral_locations.csv', index=False, float_format='%.5f', mode='w')
 
         print("Generating final Hypersites!")
-        # ------------------ Hypersites as rows (aggregated groups of Mineral Locations) ------------------
+        # ------------------ Mineral Site Data & Grade and Tonnage Models (Hypersites = aggregated groups of Mineral Locations) ------------------
 
         # ---- 1. find top grade-tonnage per each hypersite ----
         gt_df_only.reset_index(inplace=True)
@@ -321,14 +319,20 @@ def main(args):
 
         new_result_df = pd.merge(new_result_df, best_gt_df, on='group_id', how='left')
         new_result_df = pd.merge(new_result_df, best_deposits_df, on='group_id', how='left')
-        new_result_df.to_csv(f'{output_directory}/{commodity}_hypersites.csv', index=False, float_format='%.5f', mode='w')
+        
+        df_mineral_sites_data = new_result_df[new_result_df['top1_deposit_type'].notna()]
+        df_mineral_sites_data.drop(columns=['tot_contained_metal', 'total_tonnage', 'total_grade'], axis=1, inplace=True)
+        df_mineral_sites_data.to_csv(f'{output_directory}/{commodity}_mineral_site_data.csv', index=False, float_format='%.5f', mode='w')
+
+        df_grade_tonnage_models = new_result_df[new_result_df['tot_contained_metal'].notna()]
+        df_grade_tonnage_models.to_csv(f'{output_directory}/{commodity}_mineral_grade_tonnage_models.csv', index=False, float_format='%.5f', mode='w')
 
 
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Generate the TA2 outputs (given a commodity name) from the live MinMod KG using queries")
     parser.add_argument("--commodity", type=str, default='nickel', help="Commodity (default: nickel)", required=True)
-    parser.add_argument("--output_directory", type=str, default='output/', help="Output directory for (mineral site grade-tonnages, deposit types, and mineral sites reconciliation (hypersites)")
+    parser.add_argument("--output_directory", type=str, default='output/', help="Output directory for TA2 results ()")
 
     args = parser.parse_args()
     main(args)

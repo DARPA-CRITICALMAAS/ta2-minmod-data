@@ -22,26 +22,36 @@ Make sure that:
 
 
 ## Outputs
-The script generates several outputs, each capturing different aspects of Mineral Sites analysis based on:
-- **Commodity:** The type of commodity analyzed (e.g., nickel).
-- **Output Directory:** Directory where the output files are stored. Ensure this directory exists and is writable.
+The script generates several outputs, each capturing different aspects of Mineral Sites analysis based on a given input commodity (e.g., `nickel`). The expected outputs are described in the attached file `Proposed Evaluation for TA2 v2.pdf`.
 
-### 1. Mineral Locations with Grade-Tonnage data
-This `csv` file maps Mineral Sites to their corresponding Grade and Tonnage data. File includes columns for Mineral Site URI (`ms`), site name (`ms_name`), country, state or province, location in WKT (Well-known text representation of geometry) format and total grade and tonnage (including measured, indicated and inferred). This output helps in understanding the quantitative measures of extracted minerals at each site.
 
-**Filename:** `<commodity>_mineral_locations_with_grade_tonnage.csv`
-
-### 2. Mineral Locations with Deposit Type classification results
-This `csv` file classifies each Mineral Site into different deposit types along with their confidence scores and other relevant metadata. File includes Mineral Site URI, site name, country, state or province, location in WKT format, deposit type, confidence in deposit classification, source of the deposit classification, and deposit group and environment.
+### A. Deposit Type Classification
+This `csv` file classifies each Mineral Site (observed location) into different deposit types along with their confidence scores and other relevant metadata. File includes Mineral Site URI (`ms`), site name (`ms_name`), location information (`country`, `state_or_province`, `loc_crs`, `loc_wkt`), and the top 5 deposit classification types, environments, groups, as well as the source and confidence of each of the classifications (`top1_deposit_type`, `top1_deposit_classification_confidence`, etc).
 
 **Filename:** `<commodity>_mineral_locations_with_deposit_types.csv`
 
-### 3. Mineral Locations to (Hypersite) group id
-This `csv` links aggregated groups of sites (hyper sites with an arbitrary internal identifier) to individual Mineral Sites. File includes columns for Mineral Site URI, group ID (internal), site name, country, state or province, and location in WKT format.
 
-**Filename:** `<commodity>_mineral_locations_to_hypersites.csv`
+### B. Mineral Site Locations
 
-### 4. Hypersites as rows (aggregated groups of Mineral Locations)
-This `csv` aggregates Hypersites (reconciled group of mineral sites and deposits) in a single-row, with selected grade-tonnage data (max contained_metal from all sites in group) and top deposit type data if available (max confidence within all sites in group)
+This `csv` file maps each Mineral Site (observed location) into different group ids to mark similar/reconciled sites (having `sameAs` relation). File includes Mineral Site URI (`ms`), site name (`ms_name`), location information (`country`, `state_or_province`, `loc_crs`, `loc_wkt`), and the assigned internal `group_id` to which the site corresponds.
 
-**Filename:** `<commodity>_hypersites.csv`
+**Filename:** `<commodity>_mineral_locations.csv`
+
+
+### C. Grade and Tonnage Inventory
+This `csv` file maps Mineral Sites to their corresponding Grade and Tonnage data. File includes columns for Mineral Site URI (`ms`), site name (`ms_name`), location information (`country`, `state_or_province`, `loc_crs`, `loc_wkt`), per-category grade and tonnage data (measured, indicated and inferred), as well as the aggregated total (`tot_contained_metal`, `total_tonnage`, `total_grade`), and the corresponding internal document id of the data (`internal_document_reference`).
+
+**Filename:** `<commodity>_mineral_locations_with_grade_tonnage.csv`
+
+
+### D. Mineral Site Data
+This `csv` aggregates reconciled groups of Mineral Sites and deposits (having `sameAs` relation) in a single-row to represent a single reconciled Mineral Site instance, with top deposit type data if available (based on the max confidence within all site locations in the group).
+
+**Filename:** `<commodity>_mineral_site_data.csv`
+
+
+### E. Grade and Tonnage Models
+This `csv` aggregates reconciled groups of Mineral Sites and deposits (having `sameAs` relation) in a single-row to represent a single reconciled Mineral Site instance, with selected grade and tonnage data (based on the max contained metal from all site locations in the group).
+
+**Filename:** `<commodity>_mineral_grade_tonnage_models.csv`
+
