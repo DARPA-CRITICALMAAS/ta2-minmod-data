@@ -26,17 +26,22 @@ The script generates several outputs, each capturing different aspects of Minera
 - **Commodity:** The type of commodity analyzed (e.g., nickel).
 - **Output Directory:** Directory where the output files are stored. Ensure this directory exists and is writable.
 
-### 1. Mineral Sites to Grade-Tonnage Data
+### 1. Mineral Locations with Grade-Tonnage data
 This `csv` file maps Mineral Sites to their corresponding Grade and Tonnage data. File includes columns for Mineral Site URI (`ms`), site name (`ms_name`), country, state or province, location in WKT (Well-known text representation of geometry) format and total grade and tonnage (including measured, indicated and inferred). This output helps in understanding the quantitative measures of extracted minerals at each site.
 
-**Filename:** `<commodity>_mineral_sites_to_grade_tonnage.csv`
+**Filename:** `<commodity>_mineral_locations_with_grade_tonnage.csv`
 
-### 2. Mineral Sites to Deposit Type Classification Results
+### 2. Mineral Locations with Deposit Type classification results
 This `csv` file classifies each Mineral Site into different deposit types along with their confidence scores and other relevant metadata. File includes Mineral Site URI, site name, country, state or province, location in WKT format, deposit type, confidence in deposit classification, source of the deposit classification, and deposit group and environment.
 
-**Filename:** `<commodity>_mineral_sites_to_deposit_types.csv`
+**Filename:** `<commodity>_mineral_locations_with_deposit_types.csv`
 
-### 3. Hyper Site (Aggregated Group of Reconciled Sites) to (extracted/observed) Mineral Sites
+### 3. Mineral Locations to (Hypersite) group id
 This `csv` links aggregated groups of sites (hyper sites with an arbitrary internal identifier) to individual Mineral Sites. File includes columns for Mineral Site URI, group ID (internal), site name, country, state or province, and location in WKT format.
 
-**Filename:** `<commodity>_mineral_sites_hypersites.csv`
+**Filename:** `<commodity>_mineral_locations_to_hypersites.csv`
+
+### 4. Hypersites as rows (aggregated groups of Mineral Locations)
+This `csv` aggregates Hypersites (reconciled group of mineral sites and deposits) in a single-row, with selected grade-tonnage data (max contained_metal from all sites in group) and top deposit type data if available (max confidence within all sites in group)
+
+**Filename:** `<commodity>_hypersites.csv`

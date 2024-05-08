@@ -1,10 +1,12 @@
 import requests
 import pandas as pd
-from shapely.wkt import loads
+from shapely.geometry import GeometryCollection
+from shapely.wkt import loads, dumps
 from shapely.errors import WKTReadingError
 import warnings
 
 warnings.filterwarnings("ignore")
+
 
 def safe_wkt_load(wkt_string):
     try:
@@ -12,7 +14,45 @@ def safe_wkt_load(wkt_string):
     except WKTReadingError as e:
         print(f"Error converting WKT: {e}")
         return None
-    
+
+
+def sort_strings(series):
+    # replace None or NaN with an empty string for sorting
+    cleaned_series = series.fillna('').astype(str)
+    return sorted(set(cleaned_series), key=len)
+
+
+def merge_wkt(series):
+    geometries = []
+    for wkt in series:
+        if pd.notna(wkt) and isinstance(wkt, str):
+            try:
+                geometry = loads(wkt)
+                geometries.append(geometry)
+            except Exception as e:
+                print(f"Warning: Error loading WKT: {e} for WKT: {wkt}, skipping entry")
+
+    if len(geometries) == 1:
+        # return the single geometry directly
+        return dumps(geometries[0])
+    elif len(geometries) > 1:
+        # return a GEOMETRYCOLLECTION if there are multiple geometries
+        return dumps(GeometryCollection(geometries))
+    else:
+        # return None if there are no valid geometries
+        return None
+
+
+def adjust_lists(entry):
+    if isinstance(entry, list):
+        filtered_list = [value for value in entry if value != '']
+        if len(filtered_list) == 1:
+            return filtered_list[0]
+        elif len(filtered_list) == 0:
+            return None
+    return entry
+
+
 def run_sparql_query(query, endpoint='https://minmod.isi.edu/sparql', values=False):
     # add prefixes
     final_query = '''
