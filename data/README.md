@@ -103,7 +103,7 @@ The domain and ranges of the json keys are highlighted as follows
   
 ## URI mapping
 The automatic process of the KG (triples) generation will use the following pseudo-code to determine URI of non-blank nodes using concatenation and MD5 hashing to ensure uniqueness
- * `MineralInventory` URI = f(`commodity` (URI), `category`, `&mineral_site` (referring URI), `*document` (referred URI))
+ * `MineralInventory` URI = f(`commodity` (URI), `category`, `grade`, `ore` ,`&mineral_site` (referring URI), `*document` (referred URI))
  * `MineralSite` URI = f(`source_id`, `record_id`)
  * `Document` URI = f(`doi`, `uri`, `title`, `authors[]`, `year`, `month`)
  
