@@ -1,0 +1,101 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/JU49QKUZ",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Pine Point Project in North America dated 2007",
+      "location_info": {
+        "location": "MULTIPOINT(-114 61,-115.25 61.75)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Northwest Territories"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": [
+            "https://minmod.isi.edu/resource/probable"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 428946.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 9.76
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Pine Point Project in North America dated 2007",
+              "doi": "https://w3id.org/usgs/z/4530692/JU49QKUZ",
+              "authors": [
+                "Fred Barnard",
+                "Steven Milne",
+                "Robert L. Sandefur"
+              ],
+              "year": 2007,
+              "month": 12,
+              "description": "This report, prepared for Tamerlane Ventures Inc., details the mineral resources and feasibility of mining lead-zinc deposits at the Pine Point Project."
+            },
+            "page_info": [
+              {
+                "page": 107
+              }
+            ]
+          },
+          "date": "2007-12",
+          "zone": ""
+        },
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": [
+            "https://minmod.isi.edu/resource/proven"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 571081.0
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 12.21
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Pine Point Project in North America dated 2007",
+              "doi": "https://w3id.org/usgs/z/4530692/JU49QKUZ",
+              "authors": [
+                "Fred Barnard",
+                "Steven Milne",
+                "Robert L. Sandefur"
+              ],
+              "year": 2007,
+              "month": 12,
+              "description": "This report, prepared for Tamerlane Ventures Inc., details the mineral resources and feasibility of mining lead-zinc deposits at the Pine Point Project."
+            },
+            "page_info": [
+              {
+                "page": 107
+              }
+            ]
+          },
+          "date": "2007-12",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Tabular",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q375",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Prismatic",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q375",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}

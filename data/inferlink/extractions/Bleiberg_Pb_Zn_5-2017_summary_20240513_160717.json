@@ -1,0 +1,40 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/CGFRUCNS",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Bleiberg Project in Europe dated May 2017",
+      "location_info": {
+        "location": "POINT(394000 5164500)",
+        "crs": "EPSG:4326",
+        "country": "Austria",
+        "state_or_province": "Carinthia"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Bleiberg Project in Europe dated May 2017",
+              "doi": "https://w3id.org/usgs/z/4530692/CGFRUCNS",
+              "authors": [
+                "R. Tim Henneberry"
+              ],
+              "year": 2017,
+              "month": 5,
+              "description": "Detailed geological and mineral exploration report focusing on the Bleiberg property in Austria, assessing its potential for lead zinc mineralization."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Mississippi Valley Type Lead Zinc Deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q380",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

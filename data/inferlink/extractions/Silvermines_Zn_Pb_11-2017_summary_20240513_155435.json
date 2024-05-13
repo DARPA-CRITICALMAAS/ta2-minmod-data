@@ -1,0 +1,41 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/3XNX9VXP",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Silvermines Project in Europe, Ireland dated November 2017",
+      "location_info": {
+        "location": "POINT(-8.2215 52.864)",
+        "crs": "EPSG:4326",
+        "country": "Ireland",
+        "state_or_province": "County Tipperary"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Silvermines Project in Europe, Ireland dated November 2017",
+              "doi": "https://w3id.org/usgs/z/4530692/3XNX9VXP",
+              "authors": [
+                "John G. Kelly",
+                "Paul Gordon"
+              ],
+              "year": 2017,
+              "month": 11,
+              "description": "The report provides a detailed technical evaluation on the Silvermines base metal exploration project, outlining its geology, exploration data, and recommendations for future work."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Irish-type sediment-hosted zinc-lead",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q378",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}
