@@ -1,7 +1,13 @@
 import argparse
-import pandas as pd
+
 import networkx as nx
-from sparql_generate_query import run_minmod_query, sort_strings, merge_wkt, adjust_lists
+import pandas as pd
+from sparql_generate_query import (
+    adjust_lists,
+    merge_wkt,
+    run_minmod_query,
+    sort_strings,
+)
 
 # -------- main --------------
 
@@ -190,7 +196,8 @@ def main(args):
         deposits_df = deposits_data.drop_duplicates()
         deposits_df.reset_index(drop=True, inplace=True)
         deposits_df.set_index(['ms', 'deposit_type'], inplace=True)
-        deposits_df['info_count'] = deposits_df[['country', 'state_or_province', 'loc_crs', 'loc_wkt']].apply(lambda x: ((x != '') & (x.notna())).sum(), axis=1)
+        # deposits_df['info_count'] = deposits_df[['country', 'state_or_province', 'loc_crs', 'loc_wkt']].apply(lambda x: ((x != '') & (x.notna())).sum(), axis=1)
+        deposits_df['info_count'] = deposits_df[['country', 'state_or_province', 'loc_crs', 'loc_wkt', 'deposit_classification_confidence']].apply(lambda x: (((x[:-1] != '') & (x[:-1].notna())).sum(), float(x[-1])), axis=1)
         deposits_df_ordered = deposits_df.sort_values(by='info_count', ascending=False)
         deposits_df_ordered = deposits_df_ordered[~deposits_df_ordered.index.duplicated(keep='first')]
         deposits_df_ordered.drop(columns=['info_count'], inplace=True)
