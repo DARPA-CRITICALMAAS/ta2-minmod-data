@@ -1,0 +1,68 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/D7FAVPIZ",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Sleitat Mountain Project in Alaska, United States dated March 2006",
+      "location_info": {
+        "location": "POINT(-157.310164 60.094164)",
+        "crs": "EPSG:4326",
+        "country": "United States",
+        "state_or_province": "Alaska"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 25.9
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 0.04
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Sleitat Mountain Project in Alaska, United States dated March 2006",
+              "doi": "https://w3id.org/usgs/z/4530692/D7FAVPIZ",
+              "authors": [
+                "William T. Ellis"
+              ],
+              "year": 2006,
+              "month": 2,
+              "description": "This NI 43-101 technical report, prepared by William T. Ellis of Alaska Earth Sciences, Inc., documents the geological investigation and evaluations of tin and silver mineralization on the Sleitat Mountain property in Southwest Alaska."
+            },
+            "page_info": [
+              {}
+            ]
+          },
+          "date": "2006-2",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "deeply eroded, sheeted tin greisen",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "unroofed greisen zone",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "deeper cupola intrusive phase with associated roof greisen mineralization",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.3333333333333333
+        }
+      ]
+    }
+  ]
+}
