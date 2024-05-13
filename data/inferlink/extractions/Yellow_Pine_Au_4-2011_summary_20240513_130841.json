@@ -1,0 +1,59 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/J3F4IMHV",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Yellow Pine Project in Idaho, United States dated April 2011",
+      "location_info": {
+        "location": "POINT(-115.972 44.844)",
+        "crs": "EPSG:4326",
+        "country": "United States",
+        "state_or_province": "Idaho"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q615",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q202",
+            "ore_value": 4.32
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 2.187
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q203",
+            "grade_value": 0.65
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Yellow Pine Project in Idaho, United States dated April 2011",
+              "doi": "https://w3id.org/usgs/z/4530692/J3F4IMHV",
+              "authors": [],
+              "year": 2011,
+              "month": 4
+            },
+            "page_info": [
+              {
+                "page": 3
+              }
+            ]
+          },
+          "date": "2011-4",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Epithermal",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q460",
+          "source": "report",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

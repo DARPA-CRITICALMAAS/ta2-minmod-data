@@ -1,9 +1,10 @@
-import requests
-import pandas as pd
-from shapely.geometry import GeometryCollection
-from shapely.wkt import loads, dumps
-from shapely.errors import WKTReadingError
 import warnings
+
+import pandas as pd
+import requests
+from shapely.errors import WKTReadingError
+from shapely.geometry import GeometryCollection
+from shapely.wkt import dumps, loads
 
 warnings.filterwarnings("ignore")
 
