@@ -1,0 +1,58 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/X2HMJX7E",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the New Polaris Project in Canada dated February 2019",
+      "location_info": {
+        "location": "POINT(-133.616667 58.7)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "British Columbia"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the New Polaris Project in Canada dated February 2019",
+              "doi": "https://w3id.org/usgs/z/4530692/X2HMJX7E",
+              "authors": [
+                "Marc Schulte",
+                "Robert J. Morris",
+                "Sue Bird",
+                "Michael A Petrina",
+                "Tracey Meintjes"
+              ],
+              "year": 2019,
+              "month": 2,
+              "description": "A technical report on the New Polaris Gold Project, including an updated Mineral Resource Estimate and Preliminary Economic Assessment."
+            },
+            "page_info": [
+              {}
+            ]
+          },
+          "date": "2019-2",
+          "zone": ""
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Mesothermal lode-gold deposit",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q387",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Orogenic lode gold deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q387",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}

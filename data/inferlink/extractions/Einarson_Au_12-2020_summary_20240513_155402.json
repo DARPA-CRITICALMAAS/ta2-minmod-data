@@ -1,0 +1,65 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/9JBKWZSG",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Einarson Project in Canada dated 2020",
+      "location_info": {
+        "location": "POINT(-131.6 63.9333)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Yukon"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Einarson Project in Canada dated 2020",
+              "doi": "https://w3id.org/usgs/z/4530692/9JBKWZSG",
+              "authors": [
+                "J. Scott Berdahl",
+                "Linda Lewis"
+              ],
+              "year": 2020,
+              "month": 12,
+              "description": "This report provides a detailed technical evaluation and summary of the Einarson Gold Property, including geology, exploration history, and recommendations for future work."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Epizonal Orogenic Gold",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q389",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Carlin-Style Gold",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q435",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Continental Margin Sediment Hosted Gold Deposits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Low Sulphidation Epithermal Gold",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q416",
+          "source": "report",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Base Metal Deposits",
+          "normalized_uri": "",
+          "source": "report",
+          "confidence": 0.2
+        }
+      ]
+    }
+  ]
+}

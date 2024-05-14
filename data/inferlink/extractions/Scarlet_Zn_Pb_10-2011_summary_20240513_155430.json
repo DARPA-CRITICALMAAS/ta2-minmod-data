@@ -1,0 +1,46 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/IW63E62I",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Scarlet Project in North America dated October 2011",
+      "location_info": {
+        "location": "POINT(-132.16667 64.08333)",
+        "crs": "EPSG:4326",
+        "country": "Canada",
+        "state_or_province": "Yukon"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Scarlet Project in North America dated October 2011",
+              "doi": "https://w3id.org/usgs/z/4530692/IW63E62I",
+              "authors": [
+                "Robert W. Stroshein"
+              ],
+              "year": 2011,
+              "month": 10,
+              "description": "This report describes the geology, mineralization, and exploration activities on the Scarlet Property located in the Rackla region, Yukon, Canada."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Mississippi Valley-Type (MVT) zinc-lead",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q380",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Sedimentary Hosted Gold Deposits (SHGD), Carlin-Type Gold Deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q435",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}

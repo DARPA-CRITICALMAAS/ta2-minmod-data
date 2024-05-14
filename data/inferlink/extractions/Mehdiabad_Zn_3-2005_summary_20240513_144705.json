@@ -1,0 +1,46 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://w3id.org/usgs/z/4530692/N958IUC2",
+      "record_id": 1,
+      "name": "NI 43-101 Technical Report for the Mehdiabad Project in Middle East, Iran dated March 2005",
+      "location_info": {
+        "location": "MULTIPOINT(54.3675 31.897222)",
+        "crs": "EPSG:4326",
+        "country": "Iran",
+        "state_or_province": "Yazd"
+      },
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mehdiabad Project in Middle East, Iran dated March 2005",
+              "doi": "https://w3id.org/usgs/z/4530692/N958IUC2",
+              "authors": [
+                ""
+              ],
+              "year": 2005,
+              "month": 3,
+              "description": "This report provides a summary on the progress of the Mehdiabad Zinc Project in Yazd Province, Central Iran, detailing exploration efforts, mineralization, project development, and feasibility studies."
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Mississippi Valley Type (MVT) zinc-lead",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q380",
+          "source": "report",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Irish-type sediment-hosted zinc-lead",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q378",
+          "source": "report",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}
