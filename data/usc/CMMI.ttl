@@ -1,0 +1,2121 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mndr: <https://minmod.isi.edu/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mndr:site__10-5066-p970gdd5__usa-ar-10138170__hoppe a mndr:MineralSite ;
+    rdfs:label "Hoppe" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.2323 36.0173)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__hoppe__9__ga,
+        mndr:inv__10-5066-p970gdd5__hoppe__9__ge,
+        mndr:inv__10-5066-p970gdd5__hoppe__9__zn_1 ;
+    mndr:name "Hoppe" ;
+    mndr:record_id "USA.AR.10138170" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-ar-10400334__lucky-dog a mndr:MineralSite ;
+    rdfs:label "Lucky Dog" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-92.7405 36.0612)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__lucky-dog__7__ga,
+        mndr:inv__10-5066-p970gdd5__lucky-dog__7__ge,
+        mndr:inv__10-5066-p970gdd5__lucky-dog__7__zn_1 ;
+    mndr:name "Lucky Dog" ;
+    mndr:record_id "USA.AR.10400334" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-ks-910703__barr a mndr:MineralSite ;
+    rdfs:label "Barr" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-94.8278 37.0056)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__barr__4__ga,
+        mndr:inv__10-5066-p970gdd5__barr__4__ge,
+        mndr:inv__10-5066-p970gdd5__barr__4__zn_1 ;
+    mndr:name "Barr" ;
+    mndr:record_id "USA.KS.910703" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-ky-910704__burkesville a mndr:MineralSite ;
+    rdfs:label "Burkesville" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-85.3349 36.7751)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-85.3349 36.7751)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-85.3349 36.7751)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__burkesville__29__ga,
+        mndr:inv__10-5066-p970gdd5__burkesville__29__ge,
+        mndr:inv__10-5066-p970gdd5__burkesville__29__zn_1,
+        mndr:inv__10-5066-p970gdd5__burkesville__30__ga,
+        mndr:inv__10-5066-p970gdd5__burkesville__30__ge,
+        mndr:inv__10-5066-p970gdd5__burkesville__30__zn_1,
+        mndr:inv__10-5066-p970gdd5__burkesville__31__ga,
+        mndr:inv__10-5066-p970gdd5__burkesville__31__ge,
+        mndr:inv__10-5066-p970gdd5__burkesville__31__zn_1 ;
+    mndr:name "Burkesville" ;
+    mndr:record_id "USA.KY.910704" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-mo-10073171__magmont a mndr:MineralSite ;
+    rdfs:label "Magmont" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.1248 37.6398)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.1248 37.6398)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.1248 37.6398)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.1248 37.6398)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__magmont__11__cu,
+        mndr:inv__10-5066-p970gdd5__magmont__11__ga,
+        mndr:inv__10-5066-p970gdd5__magmont__11__ge,
+        mndr:inv__10-5066-p970gdd5__magmont__11__pb,
+        mndr:inv__10-5066-p970gdd5__magmont__11__zn,
+        mndr:inv__10-5066-p970gdd5__magmont__14__cu,
+        mndr:inv__10-5066-p970gdd5__magmont__14__ga,
+        mndr:inv__10-5066-p970gdd5__magmont__14__ge,
+        mndr:inv__10-5066-p970gdd5__magmont__14__pb,
+        mndr:inv__10-5066-p970gdd5__magmont__14__zn,
+        mndr:inv__10-5066-p970gdd5__magmont__14__zn_1,
+        mndr:inv__10-5066-p970gdd5__magmont__15__cu,
+        mndr:inv__10-5066-p970gdd5__magmont__15__ga,
+        mndr:inv__10-5066-p970gdd5__magmont__15__ge,
+        mndr:inv__10-5066-p970gdd5__magmont__15__pb,
+        mndr:inv__10-5066-p970gdd5__magmont__15__zn,
+        mndr:inv__10-5066-p970gdd5__magmont__15__zn_1,
+        mndr:inv__10-5066-p970gdd5__magmont__16__cu,
+        mndr:inv__10-5066-p970gdd5__magmont__16__ga,
+        mndr:inv__10-5066-p970gdd5__magmont__16__ge,
+        mndr:inv__10-5066-p970gdd5__magmont__16__pb,
+        mndr:inv__10-5066-p970gdd5__magmont__16__zn,
+        mndr:inv__10-5066-p970gdd5__magmont__16__zn_1 ;
+    mndr:name "Magmont" ;
+    mndr:record_id "USA.MO.10073171" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-mo-10196255__simpson a mndr:MineralSite ;
+    rdfs:label "Simpson" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-92.6724 38.4837)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__simpson__8__ga,
+        mndr:inv__10-5066-p970gdd5__simpson__8__ge,
+        mndr:inv__10-5066-p970gdd5__simpson__8__zn_1 ;
+    mndr:name "Simpson" ;
+    mndr:record_id "USA.MO.10196255" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-mo-10244067__buick a mndr:MineralSite ;
+    rdfs:label "Buick" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.1226 37.6059)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.1226 37.6059)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.1226 37.6059)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__buick__12__ga,
+        mndr:inv__10-5066-p970gdd5__buick__12__ge,
+        mndr:inv__10-5066-p970gdd5__buick__12__pb,
+        mndr:inv__10-5066-p970gdd5__buick__12__zn,
+        mndr:inv__10-5066-p970gdd5__buick__13__ga,
+        mndr:inv__10-5066-p970gdd5__buick__13__ge,
+        mndr:inv__10-5066-p970gdd5__buick__13__pb,
+        mndr:inv__10-5066-p970gdd5__buick__13__zn,
+        mndr:inv__10-5066-p970gdd5__buick__21__ga,
+        mndr:inv__10-5066-p970gdd5__buick__21__ge,
+        mndr:inv__10-5066-p970gdd5__buick__21__pb,
+        mndr:inv__10-5066-p970gdd5__buick__21__zn,
+        mndr:inv__10-5066-p970gdd5__buick__21__zn_1 ;
+    mndr:name "Buick" ;
+    mndr:record_id "USA.MO.10244067" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-mo-10293984__sweetwater a mndr:MineralSite ;
+    rdfs:label "Sweetwater" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.1482 37.3598)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__sweetwater__10__ga,
+        mndr:inv__10-5066-p970gdd5__sweetwater__10__ge,
+        mndr:inv__10-5066-p970gdd5__sweetwater__10__zn_1 ;
+    mndr:name "Sweetwater" ;
+    mndr:record_id "USA.MO.10293984" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-mo-10294201__west-fork a mndr:MineralSite ;
+    rdfs:label "West Fork" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.109 37.4926)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-91.109 37.4926)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__west-fork__22__ga,
+        mndr:inv__10-5066-p970gdd5__west-fork__22__ge,
+        mndr:inv__10-5066-p970gdd5__west-fork__22__pb,
+        mndr:inv__10-5066-p970gdd5__west-fork__22__zn,
+        mndr:inv__10-5066-p970gdd5__west-fork__22__zn_1,
+        mndr:inv__10-5066-p970gdd5__west-fork__23__ga,
+        mndr:inv__10-5066-p970gdd5__west-fork__23__ge,
+        mndr:inv__10-5066-p970gdd5__west-fork__23__pb,
+        mndr:inv__10-5066-p970gdd5__west-fork__23__zn,
+        mndr:inv__10-5066-p970gdd5__west-fork__23__zn_1 ;
+    mndr:name "West Fork" ;
+    mndr:record_id "USA.MO.10294201" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-mo-910703__tri-state-district-usa-mo a mndr:MineralSite ;
+    rdfs:label "Tri-State District-USA-MO" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-94.3 37.2)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-94.3 37.2)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__ga,
+        mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__ge,
+        mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__zn_1,
+        mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__ga,
+        mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__ge,
+        mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__zn_1 ;
+    mndr:name "Tri-State District-USA-MO" ;
+    mndr:record_id "USA.MO.910703" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-mo-910748__indian-creek a mndr:MineralSite ;
+    rdfs:label "Indian Creek" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-90.9093 38.0576)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-90.9093 38.0576)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__indian-creek__24__ga,
+        mndr:inv__10-5066-p970gdd5__indian-creek__24__ge,
+        mndr:inv__10-5066-p970gdd5__indian-creek__24__pb,
+        mndr:inv__10-5066-p970gdd5__indian-creek__24__zn_1,
+        mndr:inv__10-5066-p970gdd5__indian-creek__25__ga,
+        mndr:inv__10-5066-p970gdd5__indian-creek__25__ge,
+        mndr:inv__10-5066-p970gdd5__indian-creek__25__pb,
+        mndr:inv__10-5066-p970gdd5__indian-creek__25__zn_1 ;
+    mndr:name "Indian Creek" ;
+    mndr:record_id "USA.MO.910748" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-ok-10147220__blue-goose a mndr:MineralSite ;
+    rdfs:label "Blue Goose" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-94.8569 36.9659)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__blue-goose__2__ga,
+        mndr:inv__10-5066-p970gdd5__blue-goose__2__ge,
+        mndr:inv__10-5066-p970gdd5__blue-goose__2__zn_1 ;
+    mndr:name "Blue Goose" ;
+    mndr:record_id "USA.OK.10147220" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-ok-10225032__tri-state-district-usa-ok a mndr:MineralSite ;
+    rdfs:label "Tri-State District-USA-OK" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-94.84 36.97)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__ga,
+        mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__ge,
+        mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__zn_1 ;
+    mndr:name "Tri-State District-USA-OK" ;
+    mndr:record_id "USA.OK.10225032" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-pa-911146__friedensville a mndr:MineralSite ;
+    rdfs:label "Friedensville" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-75.4046 40.5545)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-75.4046 40.5545)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-75.4046 40.5545)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-75.4046 40.5545)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__friedensville__17__ga,
+        mndr:inv__10-5066-p970gdd5__friedensville__17__ge,
+        mndr:inv__10-5066-p970gdd5__friedensville__17__zn,
+        mndr:inv__10-5066-p970gdd5__friedensville__17__zn_1,
+        mndr:inv__10-5066-p970gdd5__friedensville__18__ga,
+        mndr:inv__10-5066-p970gdd5__friedensville__18__ge,
+        mndr:inv__10-5066-p970gdd5__friedensville__18__zn,
+        mndr:inv__10-5066-p970gdd5__friedensville__18__zn_1,
+        mndr:inv__10-5066-p970gdd5__friedensville__19__ga,
+        mndr:inv__10-5066-p970gdd5__friedensville__19__ge,
+        mndr:inv__10-5066-p970gdd5__friedensville__19__zn,
+        mndr:inv__10-5066-p970gdd5__friedensville__19__zn_1,
+        mndr:inv__10-5066-p970gdd5__friedensville__20__ga,
+        mndr:inv__10-5066-p970gdd5__friedensville__20__ge,
+        mndr:inv__10-5066-p970gdd5__friedensville__20__zn,
+        mndr:inv__10-5066-p970gdd5__friedensville__20__zn_1 ;
+    mndr:name "Friedensville" ;
+    mndr:record_id "USA.PA.911146" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-tn-10025339__davis a mndr:MineralSite ;
+    rdfs:label "Davis" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-83.499 36.108)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-83.499 36.108)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__davis__36__ga,
+        mndr:inv__10-5066-p970gdd5__davis__36__ge,
+        mndr:inv__10-5066-p970gdd5__davis__37__ga,
+        mndr:inv__10-5066-p970gdd5__davis__37__ge ;
+    mndr:name "Davis" ;
+    mndr:record_id "USA.TN.10025339" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-tn-10154670__cumberland a mndr:MineralSite ;
+    rdfs:label "Cumberland" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-85.9325 36.2616)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__cumberland__27__ga,
+        mndr:inv__10-5066-p970gdd5__cumberland__27__ge ;
+    mndr:name "Cumberland" ;
+    mndr:record_id "USA.TN.10154670" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-tn-10307223__central-tennessee-district a mndr:MineralSite ;
+    rdfs:label "Central Tennessee District" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-85.92 36.17)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ga,
+        mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ge,
+        mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__zn_1 ;
+    mndr:name "Central Tennessee District" ;
+    mndr:record_id "USA.TN.10307223" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-tn-911168a__mascot-jefferson-city-district a mndr:MineralSite ;
+    rdfs:label "Mascot-Jefferson City District" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ],
+        [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-83.5649 36.082)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-83.5649 36.082)"^^geo:wktLiteral ],
+        [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-83.5649 36.082)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__ga,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__ge,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__zn,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__zn_1,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__ga,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__ge,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__zn,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__zn_1,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__ga,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__ge,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__zn,
+        mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__zn_1 ;
+    mndr:name "Mascot-Jefferson City District" ;
+    mndr:record_id "USA.TN.911168a" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-tn-911168b__nashville a mndr:MineralSite ;
+    rdfs:label "Nashville" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-86.9333 36.1779)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__nashville__26__ga,
+        mndr:inv__10-5066-p970gdd5__nashville__26__ge,
+        mndr:inv__10-5066-p970gdd5__nashville__26__zn_1 ;
+    mndr:name "Nashville" ;
+    mndr:record_id "USA.TN.911168b" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-tn-911168c__young-immel-coy-new-market a mndr:MineralSite ;
+    rdfs:label "Young, Immel, Coy, New Market" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-83.613 36.0765)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__ga,
+        mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__ge,
+        mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__zn_1 ;
+    mndr:name "Young, Immel, Coy, New Market" ;
+    mndr:record_id "USA.TN.911168c" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:site__10-5066-p970gdd5__usa-wi-910668__mineral-point a mndr:MineralSite ;
+    rdfs:label "Mineral Point" ;
+    mndr:deposit_type_candidate [ a mndr:DepositTypeCandidate ;
+            mndr:confidence 1 ;
+            mndr:normalized_uri mndr:Q380 ;
+            mndr:observed_name "MVT Zn-Pb"^^xsd:string ;
+            mndr:source "sand" ] ;
+    mndr:location_info [ a mndr:LocationInfo ;
+            mndr:country "USA" ;
+            mndr:crs "EPSG:4326" ;
+            mndr:location "POINT (-90.172 42.8556)"^^geo:wktLiteral ] ;
+    mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__mineral-point__1__ga,
+        mndr:inv__10-5066-p970gdd5__mineral-point__1__ge,
+        mndr:inv__10-5066-p970gdd5__mineral-point__1__zn_1 ;
+    mndr:name "Mineral Point" ;
+    mndr:record_id "USA.WI.910668" ;
+    mndr:source_id "https://doi.org/10.5066/P970GDD5" .
+
+mndr:doc__10-5066-p970gdd5 a mndr:Document ;
+    mndr:doi "10.5066/P970GDD5" ;
+    mndr:uri "https://doi.org/10.5066/P970GDD5" .
+
+mndr:inv__10-5066-p970gdd5__barr__4__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 165.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__barr__4__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 105.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__barr__4__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 719000.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__blue-goose__2__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 189.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__blue-goose__2__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__blue-goose__2__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 614000.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__12__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 12.6 ] ;
+    mndr:ore _:N073a35027d544d22a8a4e5064f113714 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__12__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 12.0 ] ;
+    mndr:ore _:N073a35027d544d22a8a4e5064f113714 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__12__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 8.23 ] ;
+    mndr:ore _:N073a35027d544d22a8a4e5064f113714 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__12__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 2.23 ] ;
+    mndr:ore _:N073a35027d544d22a8a4e5064f113714 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__13__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 2.3 ] ;
+    mndr:ore _:N5e53657451c14ac9a996691ac2307c0c ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__13__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 4.0 ] ;
+    mndr:ore _:N5e53657451c14ac9a996691ac2307c0c ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__13__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 8.23 ] ;
+    mndr:ore _:N5e53657451c14ac9a996691ac2307c0c ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__13__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 2.23 ] ;
+    mndr:ore _:N5e53657451c14ac9a996691ac2307c0c ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__21__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value -1.0 ] ;
+    mndr:ore _:Ndc8a7d66ad9a4d19a965784c21d7c058 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__21__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value -1.0 ] ;
+    mndr:ore _:Ndc8a7d66ad9a4d19a965784c21d7c058 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__21__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 8.23 ] ;
+    mndr:ore _:Ndc8a7d66ad9a4d19a965784c21d7c058 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__21__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 2.23 ] ;
+    mndr:ore _:Ndc8a7d66ad9a4d19a965784c21d7c058 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__buick__21__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 28.0 ] ;
+    mndr:ore _:Ndc8a7d66ad9a4d19a965784c21d7c058 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__29__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 47.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__29__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 25.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__29__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__30__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 117.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__30__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 98.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__30__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__31__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value -0.01 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__31__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 2.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__burkesville__31__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 27200.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 124.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 506.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__cumberland__27__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 13.5 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__cumberland__27__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 4.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__davis__36__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 69.5 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__davis__36__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 54.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__davis__37__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 44.5 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__davis__37__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 7.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__17__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 170.0 ] ;
+    mndr:ore _:N113a3cc58c334693ab0102e8a2541ad0 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__17__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 44.0 ] ;
+    mndr:ore _:N113a3cc58c334693ab0102e8a2541ad0 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__17__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 6.5 ] ;
+    mndr:ore _:N113a3cc58c334693ab0102e8a2541ad0 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__17__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:ore _:N113a3cc58c334693ab0102e8a2541ad0 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__18__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 40.0 ] ;
+    mndr:ore _:N91bf639c20f34ab9a27ac414c72f4a55 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__18__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 12.0 ] ;
+    mndr:ore _:N91bf639c20f34ab9a27ac414c72f4a55 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__18__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 6.5 ] ;
+    mndr:ore _:N91bf639c20f34ab9a27ac414c72f4a55 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__18__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:ore _:N91bf639c20f34ab9a27ac414c72f4a55 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__19__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 36.0 ] ;
+    mndr:ore _:Naf50de60d1b64bb495db98a166694e6d ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__19__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 10.0 ] ;
+    mndr:ore _:Naf50de60d1b64bb495db98a166694e6d ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__19__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 6.5 ] ;
+    mndr:ore _:Naf50de60d1b64bb495db98a166694e6d ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__19__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 77900.0 ] ;
+    mndr:ore _:Naf50de60d1b64bb495db98a166694e6d ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__20__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 14.0 ] ;
+    mndr:ore _:Ne3417bfe7c5846b998909246ececd4ae ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__20__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 1.0 ] ;
+    mndr:ore _:Ne3417bfe7c5846b998909246ececd4ae ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__20__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 6.5 ] ;
+    mndr:ore _:Ne3417bfe7c5846b998909246ececd4ae ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__friedensville__20__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 272.0 ] ;
+    mndr:ore _:Ne3417bfe7c5846b998909246ececd4ae ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__hoppe__9__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 5.13 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__hoppe__9__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value -1.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__hoppe__9__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 23700.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__indian-creek__24__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value -1.0 ] ;
+    mndr:ore _:N91922f7f182948748fbdee9a0afe40e5 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__indian-creek__24__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value -1.0 ] ;
+    mndr:ore _:N91922f7f182948748fbdee9a0afe40e5 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__indian-creek__24__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 2.5 ] ;
+    mndr:ore _:N91922f7f182948748fbdee9a0afe40e5 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__indian-creek__24__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 288.0 ] ;
+    mndr:ore _:N91922f7f182948748fbdee9a0afe40e5 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__indian-creek__25__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 1.72 ] ;
+    mndr:ore _:N8b27feeb55bb43c88b084c7c6498b614 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__indian-creek__25__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 10.0 ] ;
+    mndr:ore _:N8b27feeb55bb43c88b084c7c6498b614 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__indian-creek__25__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 2.5 ] ;
+    mndr:ore _:N8b27feeb55bb43c88b084c7c6498b614 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__indian-creek__25__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 27.0 ] ;
+    mndr:ore _:N8b27feeb55bb43c88b084c7c6498b614 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__lucky-dog__7__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 41.3 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__lucky-dog__7__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 5.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__lucky-dog__7__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 214000.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__11__cu a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q538 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 0.26 ] ;
+    mndr:ore _:N4d4341e0e790448ebf4c02ee4231abc8 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__11__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 3.4 ] ;
+    mndr:ore _:N4d4341e0e790448ebf4c02ee4231abc8 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__11__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 19.0 ] ;
+    mndr:ore _:N4d4341e0e790448ebf4c02ee4231abc8 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__11__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 7.3 ] ;
+    mndr:ore _:N4d4341e0e790448ebf4c02ee4231abc8 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__11__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 1.0 ] ;
+    mndr:ore _:N4d4341e0e790448ebf4c02ee4231abc8 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__14__cu a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q538 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 0.26 ] ;
+    mndr:ore _:N439a89258ce94af2976631c411956e17 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__14__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 2.49 ] ;
+    mndr:ore _:N439a89258ce94af2976631c411956e17 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__14__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 11.0 ] ;
+    mndr:ore _:N439a89258ce94af2976631c411956e17 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__14__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 7.3 ] ;
+    mndr:ore _:N439a89258ce94af2976631c411956e17 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__14__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 1.0 ] ;
+    mndr:ore _:N439a89258ce94af2976631c411956e17 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__14__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 4430.0 ] ;
+    mndr:ore _:N439a89258ce94af2976631c411956e17 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__15__cu a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q538 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 0.26 ] ;
+    mndr:ore _:N439ab43ab4cb496a92f7fbd4724916b9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__15__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 1.0 ] ;
+    mndr:ore _:N439ab43ab4cb496a92f7fbd4724916b9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__15__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 24.0 ] ;
+    mndr:ore _:N439ab43ab4cb496a92f7fbd4724916b9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__15__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 7.3 ] ;
+    mndr:ore _:N439ab43ab4cb496a92f7fbd4724916b9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__15__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 1.0 ] ;
+    mndr:ore _:N439ab43ab4cb496a92f7fbd4724916b9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__15__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 1060.0 ] ;
+    mndr:ore _:N439ab43ab4cb496a92f7fbd4724916b9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__16__cu a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q538 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 0.26 ] ;
+    mndr:ore _:N46abf6bb82324657a701d3e39923fcc7 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__16__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 9.0 ] ;
+    mndr:ore _:N46abf6bb82324657a701d3e39923fcc7 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__16__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 17.0 ] ;
+    mndr:ore _:N46abf6bb82324657a701d3e39923fcc7 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__16__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 7.3 ] ;
+    mndr:ore _:N46abf6bb82324657a701d3e39923fcc7 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__16__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 1.0 ] ;
+    mndr:ore _:N46abf6bb82324657a701d3e39923fcc7 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__magmont__16__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:ore _:N46abf6bb82324657a701d3e39923fcc7 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 5.0 ] ;
+    mndr:ore _:Ncf6dd0895aba47fb816374352cc7b2c0 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value -1.0 ] ;
+    mndr:ore _:Ncf6dd0895aba47fb816374352cc7b2c0 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 3.0 ] ;
+    mndr:ore _:Ncf6dd0895aba47fb816374352cc7b2c0 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 27200.0 ] ;
+    mndr:ore _:Ncf6dd0895aba47fb816374352cc7b2c0 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 30.0 ] ;
+    mndr:ore _:Ne4e126ec0b3b40a798b424c89f369d0e ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 3.0 ] ;
+    mndr:ore _:Ne4e126ec0b3b40a798b424c89f369d0e ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 3.0 ] ;
+    mndr:ore _:Ne4e126ec0b3b40a798b424c89f369d0e ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:ore _:Ne4e126ec0b3b40a798b424c89f369d0e ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 25.0 ] ;
+    mndr:ore _:N1ae3383d46504aefa67bbb502a1398e9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 15.0 ] ;
+    mndr:ore _:N1ae3383d46504aefa67bbb502a1398e9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 3.0 ] ;
+    mndr:ore _:N1ae3383d46504aefa67bbb502a1398e9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:ore _:N1ae3383d46504aefa67bbb502a1398e9 ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mineral-point__1__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 2.84 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mineral-point__1__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 2.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__mineral-point__1__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 11100.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__nashville__26__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 0.88 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__nashville__26__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value -1.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__nashville__26__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 38200.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__simpson__8__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 0.76 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__simpson__8__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 4.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__simpson__8__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 92.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__sweetwater__10__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 6.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__sweetwater__10__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 6.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__sweetwater__10__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 28.3 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 26.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 150000.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 46.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 10.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 2.57 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 16.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 409000.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__22__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 4.0 ] ;
+    mndr:ore _:N24a228c383cd4a3b8c97f732bb3c0dff ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__22__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 74.0 ] ;
+    mndr:ore _:N24a228c383cd4a3b8c97f732bb3c0dff ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__22__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 6.27 ] ;
+    mndr:ore _:N24a228c383cd4a3b8c97f732bb3c0dff ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__22__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 1.87 ] ;
+    mndr:ore _:N24a228c383cd4a3b8c97f732bb3c0dff ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__22__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:ore _:N24a228c383cd4a3b8c97f732bb3c0dff ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__23__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 4.0 ] ;
+    mndr:ore _:Nbdb43e6bf71f4b7ba1ccafafc54516de ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__23__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 45.0 ] ;
+    mndr:ore _:Nbdb43e6bf71f4b7ba1ccafafc54516de ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__23__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 6.27 ] ;
+    mndr:ore _:Nbdb43e6bf71f4b7ba1ccafafc54516de ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__23__zn a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 1.87 ] ;
+    mndr:ore _:Nbdb43e6bf71f4b7ba1ccafafc54516de ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__west-fork__23__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:ore _:Nbdb43e6bf71f4b7ba1ccafafc54516de ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__ga a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q594 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 11.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__ge a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q595 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 3.0 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__zn_1 a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q589 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q220 ;
+            mndr:grade_value 50000.111 ] ;
+    mndr:reference _:N861b890cc0d24f18a766afcad9a6a372 .
+
+_:N073a35027d544d22a8a4e5064f113714 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 59.87 .
+
+_:N113a3cc58c334693ab0102e8a2541ad0 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 2.59 .
+
+_:N1ae3383d46504aefa67bbb502a1398e9 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 6.8 .
+
+_:N5e53657451c14ac9a996691ac2307c0c a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 59.87 .
+
+_:N8b27feeb55bb43c88b084c7c6498b614 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 12.7 .
+
+_:N91922f7f182948748fbdee9a0afe40e5 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 12.7 .
+
+_:N91bf639c20f34ab9a27ac414c72f4a55 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 2.59 .
+
+_:Naf50de60d1b64bb495db98a166694e6d a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 2.59 .
+
+_:Ncf6dd0895aba47fb816374352cc7b2c0 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 6.8 .
+
+_:Ne3417bfe7c5846b998909246ececd4ae a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 2.59 .
+
+_:Ne4e126ec0b3b40a798b424c89f369d0e a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 6.8 .
+
+_:N24a228c383cd4a3b8c97f732bb3c0dff a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 6.98 .
+
+_:N4d4341e0e790448ebf4c02ee4231abc8 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 23.4 .
+
+_:Nbdb43e6bf71f4b7ba1ccafafc54516de a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 6.98 .
+
+_:Ndc8a7d66ad9a4d19a965784c21d7c058 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 59.87 .
+
+_:N439a89258ce94af2976631c411956e17 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 23.4 .
+
+_:N439ab43ab4cb496a92f7fbd4724916b9 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 23.4 .
+
+_:N46abf6bb82324657a701d3e39923fcc7 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 23.4 .
+
+_:N861b890cc0d24f18a766afcad9a6a372 a mndr:Reference ;
+    mndr:document mndr:doc__10-5066-p970gdd5 .
+
