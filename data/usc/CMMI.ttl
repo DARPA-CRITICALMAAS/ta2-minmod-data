@@ -496,6 +496,7 @@ mndr:site__10-5066-p970gdd5__usa-tn-10307223__central-tennessee-district a mndr:
             mndr:location "POINT (-85.92 36.17)"^^geo:wktLiteral ] ;
     mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ga,
         mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ge,
+        mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__pb,
         mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__zn_1 ;
     mndr:name "Central Tennessee District" ;
     mndr:record_id "USA.TN.10307223" ;
@@ -559,6 +560,7 @@ mndr:site__10-5066-p970gdd5__usa-tn-911168b__nashville a mndr:MineralSite ;
             mndr:location "POINT (-86.9333 36.1779)"^^geo:wktLiteral ] ;
     mndr:mineral_inventory mndr:inv__10-5066-p970gdd5__nashville__26__ga,
         mndr:inv__10-5066-p970gdd5__nashville__26__ge,
+        mndr:inv__10-5066-p970gdd5__nashville__26__pb,
         mndr:inv__10-5066-p970gdd5__nashville__26__zn_1 ;
     mndr:name "Nashville" ;
     mndr:record_id "USA.TN.911168b" ;
@@ -615,7 +617,7 @@ mndr:inv__10-5066-p970gdd5__barr__4__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 165.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__barr__4__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -625,7 +627,7 @@ mndr:inv__10-5066-p970gdd5__barr__4__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 105.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__barr__4__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -635,7 +637,7 @@ mndr:inv__10-5066-p970gdd5__barr__4__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 719000.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__blue-goose__2__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -645,7 +647,7 @@ mndr:inv__10-5066-p970gdd5__blue-goose__2__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 189.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__blue-goose__2__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -655,7 +657,7 @@ mndr:inv__10-5066-p970gdd5__blue-goose__2__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__blue-goose__2__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -665,7 +667,7 @@ mndr:inv__10-5066-p970gdd5__blue-goose__2__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 614000.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__12__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -675,8 +677,8 @@ mndr:inv__10-5066-p970gdd5__buick__12__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 12.6 ] ;
-    mndr:ore _:Nc124e4c94fd5469394881af852347031 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na5793bb396574d57ba0431bb6cd4e6ad ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__12__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -686,8 +688,8 @@ mndr:inv__10-5066-p970gdd5__buick__12__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 12.0 ] ;
-    mndr:ore _:Nc124e4c94fd5469394881af852347031 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na5793bb396574d57ba0431bb6cd4e6ad ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__12__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -697,8 +699,8 @@ mndr:inv__10-5066-p970gdd5__buick__12__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 8.23 ] ;
-    mndr:ore _:Nc124e4c94fd5469394881af852347031 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na5793bb396574d57ba0431bb6cd4e6ad ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__12__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -708,8 +710,8 @@ mndr:inv__10-5066-p970gdd5__buick__12__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 2.23 ] ;
-    mndr:ore _:Nc124e4c94fd5469394881af852347031 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na5793bb396574d57ba0431bb6cd4e6ad ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__13__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -719,8 +721,8 @@ mndr:inv__10-5066-p970gdd5__buick__13__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 2.3 ] ;
-    mndr:ore _:N79c606d498ac456d98e66e3cca24838e ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8e2ba8a369b249898522dee4bf9a68c4 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__13__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -730,8 +732,8 @@ mndr:inv__10-5066-p970gdd5__buick__13__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 4.0 ] ;
-    mndr:ore _:N79c606d498ac456d98e66e3cca24838e ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8e2ba8a369b249898522dee4bf9a68c4 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__13__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -741,8 +743,8 @@ mndr:inv__10-5066-p970gdd5__buick__13__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 8.23 ] ;
-    mndr:ore _:N79c606d498ac456d98e66e3cca24838e ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8e2ba8a369b249898522dee4bf9a68c4 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__13__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -752,8 +754,8 @@ mndr:inv__10-5066-p970gdd5__buick__13__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 2.23 ] ;
-    mndr:ore _:N79c606d498ac456d98e66e3cca24838e ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8e2ba8a369b249898522dee4bf9a68c4 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__21__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -763,8 +765,8 @@ mndr:inv__10-5066-p970gdd5__buick__21__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value -1.0 ] ;
-    mndr:ore _:N3ad3d2e4f56b48679be022bac1e23f62 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N0f1beb7bbf1346058c8f3bb4079f6fb1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__21__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -774,8 +776,8 @@ mndr:inv__10-5066-p970gdd5__buick__21__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value -1.0 ] ;
-    mndr:ore _:N3ad3d2e4f56b48679be022bac1e23f62 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N0f1beb7bbf1346058c8f3bb4079f6fb1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__21__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -785,8 +787,8 @@ mndr:inv__10-5066-p970gdd5__buick__21__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 8.23 ] ;
-    mndr:ore _:N3ad3d2e4f56b48679be022bac1e23f62 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N0f1beb7bbf1346058c8f3bb4079f6fb1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__21__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -796,8 +798,8 @@ mndr:inv__10-5066-p970gdd5__buick__21__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 2.23 ] ;
-    mndr:ore _:N3ad3d2e4f56b48679be022bac1e23f62 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N0f1beb7bbf1346058c8f3bb4079f6fb1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__buick__21__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -807,8 +809,8 @@ mndr:inv__10-5066-p970gdd5__buick__21__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 28.0 ] ;
-    mndr:ore _:N3ad3d2e4f56b48679be022bac1e23f62 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N0f1beb7bbf1346058c8f3bb4079f6fb1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__29__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -818,7 +820,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__29__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 47.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__29__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -828,7 +830,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__29__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 25.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__29__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -838,7 +840,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__29__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__30__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -848,7 +850,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__30__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 117.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__30__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -858,7 +860,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__30__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 98.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__30__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -868,7 +870,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__30__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__31__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -878,7 +880,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__31__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value -0.01 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__31__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -888,7 +890,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__31__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 2.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__burkesville__31__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -898,7 +900,7 @@ mndr:inv__10-5066-p970gdd5__burkesville__31__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 27200.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -908,7 +910,8 @@ mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ga a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 124.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N4f0a3694614447058a1c550268a40e70 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -918,7 +921,19 @@ mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__ge a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 506.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N4f0a3694614447058a1c550268a40e70 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
+
+mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 3.7 ] ;
+    mndr:ore _:N4f0a3694614447058a1c550268a40e70 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -928,7 +943,8 @@ mndr:inv__10-5066-p970gdd5__central-tennessee-district__28__zn_1 a mndr:MineralI
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N4f0a3694614447058a1c550268a40e70 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__cumberland__27__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -938,7 +954,7 @@ mndr:inv__10-5066-p970gdd5__cumberland__27__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 13.5 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__cumberland__27__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -948,7 +964,7 @@ mndr:inv__10-5066-p970gdd5__cumberland__27__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 4.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__davis__36__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -958,7 +974,7 @@ mndr:inv__10-5066-p970gdd5__davis__36__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 69.5 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__davis__36__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -968,7 +984,7 @@ mndr:inv__10-5066-p970gdd5__davis__36__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 54.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__davis__37__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -978,7 +994,7 @@ mndr:inv__10-5066-p970gdd5__davis__37__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 44.5 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__davis__37__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -988,7 +1004,7 @@ mndr:inv__10-5066-p970gdd5__davis__37__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 7.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__17__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -998,8 +1014,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__17__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 170.0 ] ;
-    mndr:ore _:Nea77d8e7e4cd4dcda7382886f01aed90 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nc71b78bb79874f129f254f3292014927 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__17__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1009,8 +1025,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__17__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 44.0 ] ;
-    mndr:ore _:Nea77d8e7e4cd4dcda7382886f01aed90 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nc71b78bb79874f129f254f3292014927 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__17__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1020,8 +1036,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__17__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 6.5 ] ;
-    mndr:ore _:Nea77d8e7e4cd4dcda7382886f01aed90 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nc71b78bb79874f129f254f3292014927 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__17__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1031,8 +1047,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__17__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:Nea77d8e7e4cd4dcda7382886f01aed90 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nc71b78bb79874f129f254f3292014927 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__18__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1042,8 +1058,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__18__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 40.0 ] ;
-    mndr:ore _:N7dc6d56b9ec0457c85d2ee5fad7d1d02 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfaaaef811685478c949b2597d9a31189 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__18__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1053,8 +1069,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__18__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 12.0 ] ;
-    mndr:ore _:N7dc6d56b9ec0457c85d2ee5fad7d1d02 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfaaaef811685478c949b2597d9a31189 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__18__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1064,8 +1080,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__18__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 6.5 ] ;
-    mndr:ore _:N7dc6d56b9ec0457c85d2ee5fad7d1d02 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfaaaef811685478c949b2597d9a31189 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__18__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1075,8 +1091,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__18__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:N7dc6d56b9ec0457c85d2ee5fad7d1d02 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfaaaef811685478c949b2597d9a31189 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__19__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1086,8 +1102,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__19__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 36.0 ] ;
-    mndr:ore _:N680be7499b4d4f88aac3ff2f77a73c13 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Ne205b3f78a9c44bab45fdc2ef2a41e78 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__19__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1097,8 +1113,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__19__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 10.0 ] ;
-    mndr:ore _:N680be7499b4d4f88aac3ff2f77a73c13 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Ne205b3f78a9c44bab45fdc2ef2a41e78 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__19__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1108,8 +1124,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__19__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 6.5 ] ;
-    mndr:ore _:N680be7499b4d4f88aac3ff2f77a73c13 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Ne205b3f78a9c44bab45fdc2ef2a41e78 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__19__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1119,8 +1135,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__19__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 77900.0 ] ;
-    mndr:ore _:N680be7499b4d4f88aac3ff2f77a73c13 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Ne205b3f78a9c44bab45fdc2ef2a41e78 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__20__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1130,8 +1146,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__20__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 14.0 ] ;
-    mndr:ore _:N6cae289be07e442ea7dea7e00877dfe3 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N58e75a75e6b34bdc9b669c1c21c069b0 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__20__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1141,8 +1157,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__20__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 1.0 ] ;
-    mndr:ore _:N6cae289be07e442ea7dea7e00877dfe3 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N58e75a75e6b34bdc9b669c1c21c069b0 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__20__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1152,8 +1168,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__20__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 6.5 ] ;
-    mndr:ore _:N6cae289be07e442ea7dea7e00877dfe3 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N58e75a75e6b34bdc9b669c1c21c069b0 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__friedensville__20__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1163,8 +1179,8 @@ mndr:inv__10-5066-p970gdd5__friedensville__20__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 272.0 ] ;
-    mndr:ore _:N6cae289be07e442ea7dea7e00877dfe3 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N58e75a75e6b34bdc9b669c1c21c069b0 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__hoppe__9__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1174,7 +1190,7 @@ mndr:inv__10-5066-p970gdd5__hoppe__9__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 5.13 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__hoppe__9__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1184,7 +1200,7 @@ mndr:inv__10-5066-p970gdd5__hoppe__9__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value -1.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__hoppe__9__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1194,7 +1210,7 @@ mndr:inv__10-5066-p970gdd5__hoppe__9__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 23700.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__indian-creek__24__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1204,8 +1220,8 @@ mndr:inv__10-5066-p970gdd5__indian-creek__24__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value -1.0 ] ;
-    mndr:ore _:N880002ac4b78497da76c75ef168790f9 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N9bc73e4b3a77426fbdf4513dd85a889f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__indian-creek__24__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1215,8 +1231,8 @@ mndr:inv__10-5066-p970gdd5__indian-creek__24__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value -1.0 ] ;
-    mndr:ore _:N880002ac4b78497da76c75ef168790f9 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N9bc73e4b3a77426fbdf4513dd85a889f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__indian-creek__24__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1226,8 +1242,8 @@ mndr:inv__10-5066-p970gdd5__indian-creek__24__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 2.5 ] ;
-    mndr:ore _:N880002ac4b78497da76c75ef168790f9 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N9bc73e4b3a77426fbdf4513dd85a889f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__indian-creek__24__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1237,8 +1253,8 @@ mndr:inv__10-5066-p970gdd5__indian-creek__24__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 288.0 ] ;
-    mndr:ore _:N880002ac4b78497da76c75ef168790f9 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N9bc73e4b3a77426fbdf4513dd85a889f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__indian-creek__25__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1248,8 +1264,8 @@ mndr:inv__10-5066-p970gdd5__indian-creek__25__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 1.72 ] ;
-    mndr:ore _:Ne09508bcc7dd4b899b27ae909029a12d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N032e5b711ee9450183508a048987c658 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__indian-creek__25__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1259,8 +1275,8 @@ mndr:inv__10-5066-p970gdd5__indian-creek__25__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 10.0 ] ;
-    mndr:ore _:Ne09508bcc7dd4b899b27ae909029a12d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N032e5b711ee9450183508a048987c658 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__indian-creek__25__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1270,8 +1286,8 @@ mndr:inv__10-5066-p970gdd5__indian-creek__25__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 2.5 ] ;
-    mndr:ore _:Ne09508bcc7dd4b899b27ae909029a12d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N032e5b711ee9450183508a048987c658 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__indian-creek__25__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1281,8 +1297,8 @@ mndr:inv__10-5066-p970gdd5__indian-creek__25__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 27.0 ] ;
-    mndr:ore _:Ne09508bcc7dd4b899b27ae909029a12d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N032e5b711ee9450183508a048987c658 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__lucky-dog__7__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1292,7 +1308,7 @@ mndr:inv__10-5066-p970gdd5__lucky-dog__7__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 41.3 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__lucky-dog__7__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1302,7 +1318,7 @@ mndr:inv__10-5066-p970gdd5__lucky-dog__7__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 5.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__lucky-dog__7__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1312,7 +1328,7 @@ mndr:inv__10-5066-p970gdd5__lucky-dog__7__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 214000.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__11__cu a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1322,8 +1338,8 @@ mndr:inv__10-5066-p970gdd5__magmont__11__cu a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 0.26 ] ;
-    mndr:ore _:Nf53fc0cbdb1e433dadce3edc26c345ec ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N499f83201658404da528e326395e0349 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__11__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1333,8 +1349,8 @@ mndr:inv__10-5066-p970gdd5__magmont__11__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 3.4 ] ;
-    mndr:ore _:Nf53fc0cbdb1e433dadce3edc26c345ec ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N499f83201658404da528e326395e0349 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__11__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1344,8 +1360,8 @@ mndr:inv__10-5066-p970gdd5__magmont__11__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 19.0 ] ;
-    mndr:ore _:Nf53fc0cbdb1e433dadce3edc26c345ec ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N499f83201658404da528e326395e0349 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__11__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1355,8 +1371,8 @@ mndr:inv__10-5066-p970gdd5__magmont__11__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 7.3 ] ;
-    mndr:ore _:Nf53fc0cbdb1e433dadce3edc26c345ec ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N499f83201658404da528e326395e0349 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__11__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1366,8 +1382,8 @@ mndr:inv__10-5066-p970gdd5__magmont__11__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 1.0 ] ;
-    mndr:ore _:Nf53fc0cbdb1e433dadce3edc26c345ec ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N499f83201658404da528e326395e0349 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__14__cu a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1377,8 +1393,8 @@ mndr:inv__10-5066-p970gdd5__magmont__14__cu a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 0.26 ] ;
-    mndr:ore _:N9f6e865a28c24347a0bc2c0347c3e7b0 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfebc006fc978499a806db5209158eba6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__14__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1388,8 +1404,8 @@ mndr:inv__10-5066-p970gdd5__magmont__14__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 2.49 ] ;
-    mndr:ore _:N9f6e865a28c24347a0bc2c0347c3e7b0 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfebc006fc978499a806db5209158eba6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__14__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1399,8 +1415,8 @@ mndr:inv__10-5066-p970gdd5__magmont__14__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 11.0 ] ;
-    mndr:ore _:N9f6e865a28c24347a0bc2c0347c3e7b0 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfebc006fc978499a806db5209158eba6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__14__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1410,8 +1426,8 @@ mndr:inv__10-5066-p970gdd5__magmont__14__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 7.3 ] ;
-    mndr:ore _:N9f6e865a28c24347a0bc2c0347c3e7b0 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfebc006fc978499a806db5209158eba6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__14__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1421,8 +1437,8 @@ mndr:inv__10-5066-p970gdd5__magmont__14__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 1.0 ] ;
-    mndr:ore _:N9f6e865a28c24347a0bc2c0347c3e7b0 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfebc006fc978499a806db5209158eba6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__14__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1432,8 +1448,8 @@ mndr:inv__10-5066-p970gdd5__magmont__14__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 4430.0 ] ;
-    mndr:ore _:N9f6e865a28c24347a0bc2c0347c3e7b0 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfebc006fc978499a806db5209158eba6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__15__cu a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1443,8 +1459,8 @@ mndr:inv__10-5066-p970gdd5__magmont__15__cu a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 0.26 ] ;
-    mndr:ore _:N9970d9b42a3e4fa4940d958390bc0984 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N2ad11e5d2f234e6fae05d4886f2021c1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__15__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1454,8 +1470,8 @@ mndr:inv__10-5066-p970gdd5__magmont__15__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 1.0 ] ;
-    mndr:ore _:N9970d9b42a3e4fa4940d958390bc0984 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N2ad11e5d2f234e6fae05d4886f2021c1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__15__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1465,8 +1481,8 @@ mndr:inv__10-5066-p970gdd5__magmont__15__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 24.0 ] ;
-    mndr:ore _:N9970d9b42a3e4fa4940d958390bc0984 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N2ad11e5d2f234e6fae05d4886f2021c1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__15__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1476,8 +1492,8 @@ mndr:inv__10-5066-p970gdd5__magmont__15__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 7.3 ] ;
-    mndr:ore _:N9970d9b42a3e4fa4940d958390bc0984 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N2ad11e5d2f234e6fae05d4886f2021c1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__15__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1487,8 +1503,8 @@ mndr:inv__10-5066-p970gdd5__magmont__15__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 1.0 ] ;
-    mndr:ore _:N9970d9b42a3e4fa4940d958390bc0984 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N2ad11e5d2f234e6fae05d4886f2021c1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__15__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1498,8 +1514,8 @@ mndr:inv__10-5066-p970gdd5__magmont__15__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 1060.0 ] ;
-    mndr:ore _:N9970d9b42a3e4fa4940d958390bc0984 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N2ad11e5d2f234e6fae05d4886f2021c1 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__16__cu a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1509,8 +1525,8 @@ mndr:inv__10-5066-p970gdd5__magmont__16__cu a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 0.26 ] ;
-    mndr:ore _:Na42ec8afabb749629322e6e56233918f ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na16c604987ba48ae9eb5b771684c1578 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__16__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1520,8 +1536,8 @@ mndr:inv__10-5066-p970gdd5__magmont__16__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 9.0 ] ;
-    mndr:ore _:Na42ec8afabb749629322e6e56233918f ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na16c604987ba48ae9eb5b771684c1578 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__16__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1531,8 +1547,8 @@ mndr:inv__10-5066-p970gdd5__magmont__16__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 17.0 ] ;
-    mndr:ore _:Na42ec8afabb749629322e6e56233918f ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na16c604987ba48ae9eb5b771684c1578 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__16__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1542,8 +1558,8 @@ mndr:inv__10-5066-p970gdd5__magmont__16__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 7.3 ] ;
-    mndr:ore _:Na42ec8afabb749629322e6e56233918f ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na16c604987ba48ae9eb5b771684c1578 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__16__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1553,8 +1569,8 @@ mndr:inv__10-5066-p970gdd5__magmont__16__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 1.0 ] ;
-    mndr:ore _:Na42ec8afabb749629322e6e56233918f ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na16c604987ba48ae9eb5b771684c1578 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__magmont__16__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1564,8 +1580,8 @@ mndr:inv__10-5066-p970gdd5__magmont__16__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:Na42ec8afabb749629322e6e56233918f ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Na16c604987ba48ae9eb5b771684c1578 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1575,8 +1591,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__ga a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 5.0 ] ;
-    mndr:ore _:N9c47be514cb7486aaf9cbaef7c9581eb ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nb6f8f85ac0eb44d09d2c1e78e69c695f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1586,8 +1602,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__ge a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value -1.0 ] ;
-    mndr:ore _:N9c47be514cb7486aaf9cbaef7c9581eb ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nb6f8f85ac0eb44d09d2c1e78e69c695f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1597,8 +1613,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__zn a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 3.0 ] ;
-    mndr:ore _:N9c47be514cb7486aaf9cbaef7c9581eb ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nb6f8f85ac0eb44d09d2c1e78e69c695f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1608,8 +1624,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__33__zn_1 a mndr:Mine
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 27200.0 ] ;
-    mndr:ore _:N9c47be514cb7486aaf9cbaef7c9581eb ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nb6f8f85ac0eb44d09d2c1e78e69c695f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1619,8 +1635,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__ga a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 30.0 ] ;
-    mndr:ore _:N68a0a8f816794c069baacbe9b5231896 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N7796514c54c04a068b1074eb09381d4c ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1630,8 +1646,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__ge a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 3.0 ] ;
-    mndr:ore _:N68a0a8f816794c069baacbe9b5231896 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N7796514c54c04a068b1074eb09381d4c ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1641,8 +1657,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__zn a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 3.0 ] ;
-    mndr:ore _:N68a0a8f816794c069baacbe9b5231896 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N7796514c54c04a068b1074eb09381d4c ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1652,8 +1668,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__34__zn_1 a mndr:Mine
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:N68a0a8f816794c069baacbe9b5231896 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N7796514c54c04a068b1074eb09381d4c ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1663,8 +1679,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__ga a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 25.0 ] ;
-    mndr:ore _:Nf336188d113f4b5c88cd483d8f15dd14 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfdcadd20fdea4478b68c2cd0b7916358 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1674,8 +1690,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__ge a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 15.0 ] ;
-    mndr:ore _:Nf336188d113f4b5c88cd483d8f15dd14 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfdcadd20fdea4478b68c2cd0b7916358 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1685,8 +1701,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__zn a mndr:Minera
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 3.0 ] ;
-    mndr:ore _:Nf336188d113f4b5c88cd483d8f15dd14 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfdcadd20fdea4478b68c2cd0b7916358 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1696,8 +1712,8 @@ mndr:inv__10-5066-p970gdd5__mascot-jefferson-city-district__35__zn_1 a mndr:Mine
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:Nf336188d113f4b5c88cd483d8f15dd14 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:Nfdcadd20fdea4478b68c2cd0b7916358 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mineral-point__1__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1707,7 +1723,7 @@ mndr:inv__10-5066-p970gdd5__mineral-point__1__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 2.84 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mineral-point__1__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1717,7 +1733,7 @@ mndr:inv__10-5066-p970gdd5__mineral-point__1__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 2.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__mineral-point__1__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1727,7 +1743,7 @@ mndr:inv__10-5066-p970gdd5__mineral-point__1__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 11100.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__nashville__26__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1737,7 +1753,8 @@ mndr:inv__10-5066-p970gdd5__nashville__26__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 0.88 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N3d893ed331fb418c8c2de854f4571079 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__nashville__26__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1747,7 +1764,19 @@ mndr:inv__10-5066-p970gdd5__nashville__26__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value -1.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N3d893ed331fb418c8c2de854f4571079 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
+
+mndr:inv__10-5066-p970gdd5__nashville__26__pb a mndr:MineralInventory ;
+    mndr:category mndr:Indicated,
+        mndr:Inferred,
+        mndr:Measured ;
+    mndr:commodity mndr:Q565 ;
+    mndr:grade [ a mndr:Grade ;
+            mndr:grade_unit mndr:Q201 ;
+            mndr:grade_value 3.7 ] ;
+    mndr:ore _:N3d893ed331fb418c8c2de854f4571079 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__nashville__26__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1757,7 +1786,8 @@ mndr:inv__10-5066-p970gdd5__nashville__26__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 38200.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N3d893ed331fb418c8c2de854f4571079 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__simpson__8__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1767,7 +1797,7 @@ mndr:inv__10-5066-p970gdd5__simpson__8__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 0.76 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__simpson__8__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1777,7 +1807,7 @@ mndr:inv__10-5066-p970gdd5__simpson__8__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 4.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__simpson__8__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1787,7 +1817,7 @@ mndr:inv__10-5066-p970gdd5__simpson__8__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 92.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__sweetwater__10__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1797,8 +1827,8 @@ mndr:inv__10-5066-p970gdd5__sweetwater__10__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 6.0 ] ;
-    mndr:ore _:N878e73645e19435f959c4c41a7cc064d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N39c27184dc1946fab0c6e73889f5d752 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__sweetwater__10__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1808,8 +1838,8 @@ mndr:inv__10-5066-p970gdd5__sweetwater__10__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 6.0 ] ;
-    mndr:ore _:N878e73645e19435f959c4c41a7cc064d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N39c27184dc1946fab0c6e73889f5d752 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__sweetwater__10__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1819,8 +1849,8 @@ mndr:inv__10-5066-p970gdd5__sweetwater__10__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 4.83 ] ;
-    mndr:ore _:N878e73645e19435f959c4c41a7cc064d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N39c27184dc1946fab0c6e73889f5d752 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__sweetwater__10__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1830,8 +1860,8 @@ mndr:inv__10-5066-p970gdd5__sweetwater__10__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 0.62 ] ;
-    mndr:ore _:N878e73645e19435f959c4c41a7cc064d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N39c27184dc1946fab0c6e73889f5d752 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__sweetwater__10__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1841,8 +1871,8 @@ mndr:inv__10-5066-p970gdd5__sweetwater__10__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:N878e73645e19435f959c4c41a7cc064d ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N39c27184dc1946fab0c6e73889f5d752 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1852,7 +1882,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__ga a mndr:MineralInven
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 28.3 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1862,7 +1892,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__ge a mndr:MineralInven
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 26.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1872,7 +1902,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__5__zn_1 a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 150000.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1882,7 +1912,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__ga a mndr:MineralInven
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 46.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1892,7 +1922,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__ge a mndr:MineralInven
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 10.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1902,7 +1932,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-mo__6__zn_1 a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1912,7 +1942,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__ga a mndr:MineralInven
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 2.57 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1922,7 +1952,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__ge a mndr:MineralInven
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 16.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1932,7 +1962,7 @@ mndr:inv__10-5066-p970gdd5__tri-state-district-usa-ok__3__zn_1 a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 409000.0 ] ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__22__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1942,8 +1972,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__22__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 4.0 ] ;
-    mndr:ore _:N0035a65b7dac4b7c82635163977ded01 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N767449b4cfa74288be155b2a7ac5d3f6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__22__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1953,8 +1983,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__22__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 74.0 ] ;
-    mndr:ore _:N0035a65b7dac4b7c82635163977ded01 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N767449b4cfa74288be155b2a7ac5d3f6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__22__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1964,8 +1994,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__22__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 6.27 ] ;
-    mndr:ore _:N0035a65b7dac4b7c82635163977ded01 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N767449b4cfa74288be155b2a7ac5d3f6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__22__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1975,8 +2005,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__22__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 1.87 ] ;
-    mndr:ore _:N0035a65b7dac4b7c82635163977ded01 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N767449b4cfa74288be155b2a7ac5d3f6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__22__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1986,8 +2016,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__22__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:N0035a65b7dac4b7c82635163977ded01 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N767449b4cfa74288be155b2a7ac5d3f6 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__23__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -1997,8 +2027,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__23__ga a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 4.0 ] ;
-    mndr:ore _:N8e3661df135140d8b6b7199d6c5998b4 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8c5ce50bf9864296af3ffc35c7216788 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__23__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2008,8 +2038,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__23__ge a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 45.0 ] ;
-    mndr:ore _:N8e3661df135140d8b6b7199d6c5998b4 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8c5ce50bf9864296af3ffc35c7216788 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__23__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2019,8 +2049,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__23__pb a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 6.27 ] ;
-    mndr:ore _:N8e3661df135140d8b6b7199d6c5998b4 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8c5ce50bf9864296af3ffc35c7216788 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__23__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2030,8 +2060,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__23__zn a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 1.87 ] ;
-    mndr:ore _:N8e3661df135140d8b6b7199d6c5998b4 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8c5ce50bf9864296af3ffc35c7216788 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__west-fork__23__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2041,8 +2071,8 @@ mndr:inv__10-5066-p970gdd5__west-fork__23__zn_1 a mndr:MineralInventory ;
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:N8e3661df135140d8b6b7199d6c5998b4 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N8c5ce50bf9864296af3ffc35c7216788 ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__cu a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2052,8 +2082,8 @@ mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__cu a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 0.0 ] ;
-    mndr:ore _:N5b7159f4e43c46639784f2489ff9d678 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N57af4bdaa7f6438f90443499c5f6e01f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__ga a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2063,8 +2093,8 @@ mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__ga a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 11.0 ] ;
-    mndr:ore _:N5b7159f4e43c46639784f2489ff9d678 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N57af4bdaa7f6438f90443499c5f6e01f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__ge a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2074,8 +2104,8 @@ mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__ge a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 3.0 ] ;
-    mndr:ore _:N5b7159f4e43c46639784f2489ff9d678 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N57af4bdaa7f6438f90443499c5f6e01f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__pb a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2085,8 +2115,8 @@ mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__pb a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 0.0 ] ;
-    mndr:ore _:N5b7159f4e43c46639784f2489ff9d678 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N57af4bdaa7f6438f90443499c5f6e01f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__zn a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2096,8 +2126,8 @@ mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__zn a mndr:MineralInv
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q201 ;
             mndr:grade_value 2.48 ] ;
-    mndr:ore _:N5b7159f4e43c46639784f2489ff9d678 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N57af4bdaa7f6438f90443499c5f6e01f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
 mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__zn_1 a mndr:MineralInventory ;
     mndr:category mndr:Indicated,
@@ -2107,89 +2137,97 @@ mndr:inv__10-5066-p970gdd5__young-immel-coy-new-market__32__zn_1 a mndr:MineralI
     mndr:grade [ a mndr:Grade ;
             mndr:grade_unit mndr:Q220 ;
             mndr:grade_value 50000.111 ] ;
-    mndr:ore _:N5b7159f4e43c46639784f2489ff9d678 ;
-    mndr:reference _:N11bd619cd0d14188b2c6c7a60978040a .
+    mndr:ore _:N57af4bdaa7f6438f90443499c5f6e01f ;
+    mndr:reference _:N7c0739476de24875a6dfcf55e4fc584b .
 
-_:N680be7499b4d4f88aac3ff2f77a73c13 a mndr:Ore ;
-    mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 2.59 .
-
-_:N68a0a8f816794c069baacbe9b5231896 a mndr:Ore ;
-    mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 6.8 .
-
-_:N6cae289be07e442ea7dea7e00877dfe3 a mndr:Ore ;
-    mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 2.59 .
-
-_:N79c606d498ac456d98e66e3cca24838e a mndr:Ore ;
-    mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 59.87 .
-
-_:N7dc6d56b9ec0457c85d2ee5fad7d1d02 a mndr:Ore ;
-    mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 2.59 .
-
-_:N880002ac4b78497da76c75ef168790f9 a mndr:Ore ;
+_:N032e5b711ee9450183508a048987c658 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 12.7 .
 
-_:N9c47be514cb7486aaf9cbaef7c9581eb a mndr:Ore ;
+_:N3d893ed331fb418c8c2de854f4571079 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 6.8 .
+    mndr:ore_value 20.1 .
 
-_:Nc124e4c94fd5469394881af852347031 a mndr:Ore ;
+_:N4f0a3694614447058a1c550268a40e70 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 59.87 .
+    mndr:ore_value 20.1 .
 
-_:Ne09508bcc7dd4b899b27ae909029a12d a mndr:Ore ;
-    mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 12.7 .
-
-_:Nea77d8e7e4cd4dcda7382886f01aed90 a mndr:Ore ;
+_:N58e75a75e6b34bdc9b669c1c21c069b0 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 2.59 .
 
-_:Nf336188d113f4b5c88cd483d8f15dd14 a mndr:Ore ;
+_:N7796514c54c04a068b1074eb09381d4c a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 6.8 .
 
-_:N0035a65b7dac4b7c82635163977ded01 a mndr:Ore ;
-    mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 6.98 .
-
-_:N3ad3d2e4f56b48679be022bac1e23f62 a mndr:Ore ;
+_:N8e2ba8a369b249898522dee4bf9a68c4 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 59.87 .
 
-_:N878e73645e19435f959c4c41a7cc064d a mndr:Ore ;
+_:N9bc73e4b3a77426fbdf4513dd85a889f a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 12.7 .
+
+_:Na5793bb396574d57ba0431bb6cd4e6ad a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 59.87 .
+
+_:Nb6f8f85ac0eb44d09d2c1e78e69c695f a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 6.8 .
+
+_:Nc71b78bb79874f129f254f3292014927 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 2.59 .
+
+_:Ne205b3f78a9c44bab45fdc2ef2a41e78 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 2.59 .
+
+_:Nfaaaef811685478c949b2597d9a31189 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 2.59 .
+
+_:Nfdcadd20fdea4478b68c2cd0b7916358 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 6.8 .
+
+_:N0f1beb7bbf1346058c8f3bb4079f6fb1 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 59.87 .
+
+_:N39c27184dc1946fab0c6e73889f5d752 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 17.87 .
 
-_:N8e3661df135140d8b6b7199d6c5998b4 a mndr:Ore ;
+_:N499f83201658404da528e326395e0349 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 23.4 .
+
+_:N767449b4cfa74288be155b2a7ac5d3f6 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 6.98 .
 
-_:Nf53fc0cbdb1e433dadce3edc26c345ec a mndr:Ore ;
+_:N8c5ce50bf9864296af3ffc35c7216788 a mndr:Ore ;
+    mndr:ore_unit mndr:Q202 ;
+    mndr:ore_value 6.98 .
+
+_:N2ad11e5d2f234e6fae05d4886f2021c1 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 23.4 .
 
-_:N5b7159f4e43c46639784f2489ff9d678 a mndr:Ore ;
+_:N57af4bdaa7f6438f90443499c5f6e01f a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 6.8 .
 
-_:N9970d9b42a3e4fa4940d958390bc0984 a mndr:Ore ;
+_:Na16c604987ba48ae9eb5b771684c1578 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 23.4 .
 
-_:N9f6e865a28c24347a0bc2c0347c3e7b0 a mndr:Ore ;
+_:Nfebc006fc978499a806db5209158eba6 a mndr:Ore ;
     mndr:ore_unit mndr:Q202 ;
     mndr:ore_value 23.4 .
 
-_:Na42ec8afabb749629322e6e56233918f a mndr:Ore ;
-    mndr:ore_unit mndr:Q202 ;
-    mndr:ore_value 23.4 .
-
-_:N11bd619cd0d14188b2c6c7a60978040a a mndr:Reference ;
+_:N7c0739476de24875a6dfcf55e4fc584b a mndr:Reference ;
     mndr:document mndr:doc__10-5066-p970gdd5 .
 
