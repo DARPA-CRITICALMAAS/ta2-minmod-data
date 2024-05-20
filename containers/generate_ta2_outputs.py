@@ -87,12 +87,14 @@ def main(args):
             FILTER(LCASE(STR(?name)) = "%s")
 
             {
-                SELECT ?mi (MAX(?ore_val) AS ?max_ore_val) (SAMPLE(?grade_val) AS ?matched_grade_val)
+                SELECT ?mi (MAX(?ore_val) AS ?max_ore_val) (MAX(?grade_val) AS ?matched_grade_val)
                 WHERE {
                     ?mi :ore [ :ore_value ?ore_val_raw; :ore_unit ?ore_unit] .
-                    OPTIONAL { ?mi :grade [ :grade_value ?grade_val; :grade_unit ?grade_unit] . }
+                    OPTIONAL { ?mi :grade [ :grade_value ?grade_val_raw; :grade_unit ?grade_unit] . }
                     BIND(IF(bound(?ore_val_raw), ?ore_val_raw, 0) AS ?ore_val_pre)
+                    BIND(IF(bound(?grade_val_raw), ?grade_val_raw, 0) AS ?grade_val_pre)
                     BIND(IF(?ore_unit = <https://minmod.isi.edu/resource/Q202>, ?ore_val_pre, IF(?ore_unit = <https://minmod.isi.edu/resource/Q200>, ?ore_val_pre / 1e6, ?ore_val_pre)) AS ?ore_val)
+                    BIND(IF(?grade_unit = <https://minmod.isi.edu/resource/Q201>, ?grade_val_pre, IF(?grade_unit = <https://minmod.isi.edu/resource/Q220>, ?grade_val_pre / 1e4, ?grade_val_pre)) AS ?grade_val)
                 }
                 GROUP BY ?mi
             }
