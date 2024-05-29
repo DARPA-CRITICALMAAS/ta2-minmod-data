@@ -50,6 +50,7 @@ The domain and ranges of the json keys are highlighted as follows
   * `source_id`: string representing source id of the mineral site
   * `record_id`: string representing record id of the mineral site
   * `name`: string representing observed name of the mineral site
+  * `aliases`: list of strings representing different names of the mineral site. If there is no alias, please omit the field instead of submitting an empty list.
   * `deposit_type_candidate` (list)
     * `observed_name`: Name of deposit type candidates
     * `normalized_uri`: Minmod URI for deposit type
@@ -64,13 +65,25 @@ The domain and ranges of the json keys are highlighted as follows
       * `PROBABLE` (Probable Mineral **Reserve**): part of Indicated (and sometimes Measured) Mineral Resources that are economically mineable (lower confidence level than `PROVEN` but is considered economically viable under existing economic conditions)
       * `PROVEN` (Proven Mineral **Reserve**): highest confidence category among **Reserves** (economically mineable and is part of Measured Mineral Resources, with a high degree of confidence in the modifying factors affecting economic viability)
     * `ore`
-      * `ore_unit`: URI of ore unit in minmod, e.g.: _https://minmod.isi.edu/resource/Q200_. List of possible unit names and their minmod ids are defined in [unit names](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/units/minmod_units.csv)
+      * `ore_unit`: (object)
+        * `observed_name`: Name of unit
+        * `normalized_uri`: URI of ore unit in minmod, e.g.: _https://minmod.isi.edu/resource/Q200_. List of possible unit names and their minmod ids are defined in [unit names](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/units/minmod_units.csv)
+        * `confidence`: Confidence between 0-1 for the extracted & linked unit.
+        * `source`: Name of the system making the prediction
       * `ore_value`: value of ore in units, decimal value
     * `grade`
-      * `grade_unit`: URI of grade unit in minmod, e.g.: _https://minmod.isi.edu/resource/Q201_. List of possible unit names and their minmod ids are defined in [unit names](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/units/minmod_units.csv)
+      * `grade_unit`: (object)
+        * `observed_name`: Name of unit
+        * `normalized_uri`: URI of grade unit in minmod, e.g.: _https://minmod.isi.edu/resource/Q201_. List of possible unit names and their minmod ids are defined in [unit names](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/units/minmod_units.csv)
+        * `confidence`: Confidence between 0-1 for the extracted & linked unit.
+        * `source`: Name of the system making the prediction
       * `grade_value`: value of grade in units, decimal value
     * `cutoff_grade`
-      * `grade_unit`: URI of grade unit in minmod, e.g.: _https://minmod.isi.edu/resource/Q201_. List of possible unit names and their minmod ids are defined in [unit names](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/units/minmod_units.csv)
+      * `grade_unit`: (object)
+        * `observed_name`: Name of unit
+        * `normalized_uri`: URI of grade unit in minmod, e.g.: _https://minmod.isi.edu/resource/Q201_. List of possible unit names and their minmod ids are defined in [unit names](https://github.com/DARPA-CRITICALMAAS/ta2-minmod-data/blob/main/data/entities/units/minmod_units.csv)
+        * `confidence`: Confidence between 0-1 for the extracted & linked unit.
+        * `source`: Name of the system making the prediction
       * `grade_value`: value of grade in units, decimal value
     * `contained_metal`: quantity of a contained metal in an inventory item, float
     * `zone` : Zone of a mineral inventory
