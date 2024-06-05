@@ -1,9 +1,6 @@
 {
     "MineralSite": [
         {
-            "name": "Tutsagubet Mining District",
-            "source_id": "https://mrdata.usgs.gov/deposit",
-            "record_id": "UT00003",
             "mineral_inventory": [
                 {
                     "observed_commodity": "arsenic",
@@ -78,18 +75,18 @@
                     }
                 }
             ],
+            "record_id": "UT00003",
             "deposit_type_candidate": [],
+            "name": "Tutsagubet Mining District",
+            "source_id": "https://mrdata.usgs.gov/deposit",
             "location_info": {
-                "location": "POINT (-113.877 37.108)",
-                "crs": "EPSG:4326",
-                "country": "United States",
-                "state_or_province": "Utah"
+                "crs": "https://minmod.isi.edu/resource/Q701",
+                "country": "https://minmod.isi.edu/resource/Q1235",
+                "state_or_province": "https://minmod.isi.edu/resource/Q6897",
+                "location": "POINT (-113.877 37.108)"
             }
         },
         {
-            "name": "Apex",
-            "source_id": "https://mrdata.usgs.gov/deposit",
-            "record_id": "UT00004",
             "mineral_inventory": [
                 {
                     "observed_commodity": "arsenic",
@@ -164,16 +161,21 @@
                     }
                 }
             ],
+            "record_id": "UT00004",
             "deposit_type_candidate": [
                 {
-                    "observed_name": "32c - Kipushi Cu-Pb-Zn"
+                    "observed_name": "32c - Kipushi Cu-Pb-Zn",
+                    "confidence": 1,
+                    "source": "raw_data_extraction"
                 }
             ],
+            "name": "Apex",
+            "source_id": "https://mrdata.usgs.gov/deposit",
             "location_info": {
-                "location": "POINT (-113.803889 37.069722)",
-                "crs": "EPSG:4326",
-                "country": "United States",
-                "state_or_province": "Utah"
+                "crs": "https://minmod.isi.edu/resource/Q701",
+                "country": "https://minmod.isi.edu/resource/Q1235",
+                "state_or_province": "https://minmod.isi.edu/resource/Q6897",
+                "location": "POINT (-113.805727 37.06952)"
             }
         }
     ]

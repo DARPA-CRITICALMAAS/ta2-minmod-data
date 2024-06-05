@@ -1,9 +1,9 @@
 {
     "MineralSite": [
         {
-            "name": "Butte",
+            "record_id": "MT00017",
+            "name": "Butte Mining District",
             "source_id": "https://mrdata.usgs.gov/deposit",
-            "record_id": "MT00007",
             "mineral_inventory": [
                 {
                     "observed_commodity": "arsenic",
@@ -143,15 +143,16 @@
             ],
             "deposit_type_candidate": [],
             "location_info": {
-                "location": "POINT (-112.496 46.014)",
-                "crs": "EPSG:4326",
-                "country": "United States"
+                "crs": "https://minmod.isi.edu/resource/Q701",
+                "state_or_province": "https://minmod.isi.edu/resource/Q6873",
+                "location": "POINT (-112.522884 46.023087)",
+                "country": "https://minmod.isi.edu/resource/Q1235"
             }
         },
         {
-            "name": "Butte Mining District",
+            "record_id": "MT00007",
+            "name": "Butte",
             "source_id": "https://mrdata.usgs.gov/deposit",
-            "record_id": "MT00017",
             "mineral_inventory": [
                 {
                     "observed_commodity": "arsenic",
@@ -226,15 +227,6 @@
                     }
                 },
                 {
-                    "observed_commodity": "nickel",
-                    "commodity": "https://minmod.isi.edu/resource/Q578",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit"
-                        }
-                    }
-                },
-                {
                     "observed_commodity": "rhenium",
                     "commodity": "https://minmod.isi.edu/resource/Q603",
                     "reference": {
@@ -262,15 +254,6 @@
                     }
                 },
                 {
-                    "observed_commodity": "sulfur",
-                    "commodity": "https://minmod.isi.edu/resource/Q633",
-                    "reference": {
-                        "document": {
-                            "uri": "https://mrdata.usgs.gov/deposit"
-                        }
-                    }
-                },
-                {
                     "observed_commodity": "tellurium",
                     "commodity": "https://minmod.isi.edu/resource/Q611",
                     "reference": {
@@ -287,13 +270,38 @@
                             "uri": "https://mrdata.usgs.gov/deposit"
                         }
                     }
+                },
+                {
+                    "observed_commodity": "nickel",
+                    "commodity": "https://minmod.isi.edu/resource/Q578",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
+                },
+                {
+                    "observed_commodity": "sulfur",
+                    "commodity": "https://minmod.isi.edu/resource/Q633",
+                    "reference": {
+                        "document": {
+                            "uri": "https://mrdata.usgs.gov/deposit"
+                        }
+                    }
                 }
             ],
-            "deposit_type_candidate": [],
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "porphyry Cu-Mo",
+                    "confidence": 1,
+                    "source": "raw_data_extraction"
+                }
+            ],
             "location_info": {
-                "location": "POINT (-112.523 46.023)",
-                "crs": "EPSG:4326",
-                "country": "United States"
+                "crs": "https://minmod.isi.edu/resource/Q701",
+                "state_or_province": "https://minmod.isi.edu/resource/Q6873",
+                "location": "POINT (-112.511696 46.012179)",
+                "country": "https://minmod.isi.edu/resource/Q1235"
             }
         }
     ]
