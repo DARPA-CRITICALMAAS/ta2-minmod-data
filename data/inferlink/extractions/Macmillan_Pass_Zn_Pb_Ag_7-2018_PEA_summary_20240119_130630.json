@@ -6,7 +6,7 @@
       "name": "NI 43-101 Technical Report Macmillan Pass Project Yukon Territory Canada",
       "location_info": {
         "location": "POINT(-130.15 63.16667)",
-        "crs": "EPSG:4326",
+        "crs": "https://minmod.isi.edu/resource/Q701",
         "country": "Canada",
         "state_or_province": "Yukon"
       },
@@ -14,7 +14,9 @@
         {
           "id": 1,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/indicated"],
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q202",
             "ore_value": 11.21
@@ -52,7 +54,9 @@
         {
           "id": 2,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/inferred"],
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q202",
             "ore_value": 39.47
@@ -88,7 +92,9 @@
           "date": "2018-7"
         }
       ],
-      "deposit_type": ["https://minmod.isi.edu/resource/Q375"]
+      "deposit_type": [
+        "https://minmod.isi.edu/resource/Q375"
+      ]
     }
   ]
 }

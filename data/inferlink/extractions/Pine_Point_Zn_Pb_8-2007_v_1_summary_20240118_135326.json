@@ -6,7 +6,7 @@
       "name": "NI 43-101 Technical Report: Pine Point Project, Northwest Territories Canada",
       "location_info": {
         "location": "MULTIPOINT(-114 60.5, -115.25 61)",
-        "crs": "EPSG:4326",
+        "crs": "https://minmod.isi.edu/resource/Q701",
         "country": "Canada",
         "state_or_province": "Northwest Territories"
       },
@@ -14,7 +14,9 @@
         {
           "id": 1,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/measured"],
+          "category": [
+            "https://minmod.isi.edu/resource/measured"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 574365
@@ -32,7 +34,10 @@
             "id": 1,
             "document": {
               "title": "NI 43-101 Technical Report: Pine Point Project, Northwest Territories Canada",
-              "authors": ["Fred Barnard Ph.D.", "Robert L. Sandefur P.E."],
+              "authors": [
+                "Fred Barnard Ph.D.",
+                "Robert L. Sandefur P.E."
+              ],
               "year": 2007,
               "month": 8,
               "description": "The report provides technical details on Pine Point Zn-Pb (zinc-lead) mining project, prepared for Tamerlane Ventures Inc. by Chlumsky Armbrust & Meyer LLC."
@@ -48,7 +53,9 @@
         {
           "id": 2,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/indicated"],
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 499496
@@ -66,7 +73,10 @@
             "id": 1,
             "document": {
               "title": "NI 43-101 Technical Report: Pine Point Project, Northwest Territories Canada",
-              "authors": ["Fred Barnard Ph.D.", "Robert L. Sandefur P.E."],
+              "authors": [
+                "Fred Barnard Ph.D.",
+                "Robert L. Sandefur P.E."
+              ],
               "year": 2007,
               "month": 8,
               "description": "The report provides technical details on Pine Point Zn-Pb (zinc-lead) mining project, prepared for Tamerlane Ventures Inc. by Chlumsky Armbrust & Meyer LLC."
@@ -82,8 +92,10 @@
         {
           "id": 3,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/measured", 
-          "https://minmod.isi.edu/resource/indicated"],
+          "category": [
+            "https://minmod.isi.edu/resource/measured",
+            "https://minmod.isi.edu/resource/indicated"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 1073861
@@ -101,7 +113,10 @@
             "id": 1,
             "document": {
               "title": "NI 43-101 Technical Report: Pine Point Project, Northwest Territories Canada",
-              "authors": ["Fred Barnard Ph.D.", "Robert L. Sandefur P.E."],
+              "authors": [
+                "Fred Barnard Ph.D.",
+                "Robert L. Sandefur P.E."
+              ],
               "year": 2007,
               "month": 8,
               "description": "The report provides technical details on Pine Point Zn-Pb (zinc-lead) mining project, prepared for Tamerlane Ventures Inc. by Chlumsky Armbrust & Meyer LLC."
@@ -115,7 +130,9 @@
           "date": "2007-8"
         }
       ],
-      "deposit_type": ["https://minmod.isi.edu/resource/Q380"]
+      "deposit_type": [
+        "https://minmod.isi.edu/resource/Q380"
+      ]
     }
   ]
 }

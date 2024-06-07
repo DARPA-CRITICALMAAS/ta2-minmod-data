@@ -1,12 +1,12 @@
 {
   "MineralSite": [
     {
-      "source_id":"https://w3id.org/usgs/z/4530692/JU49QKUZ",
+      "source_id": "https://w3id.org/usgs/z/4530692/JU49QKUZ",
       "record_id": 1,
       "name": "Pine Point Project",
       "location_info": {
         "location": "POINT(-113.6900 60.8333)",
-        "crs": "EPSG:4326",
+        "crs": "https://minmod.isi.edu/resource/Q701",
         "country": "Canada",
         "state_or_province": "Northwest Territories"
       },
@@ -14,7 +14,9 @@
         {
           "id": 1,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/Measured"],
+          "category": [
+            "https://minmod.isi.edu/resource/Measured"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 574365
@@ -54,7 +56,9 @@
         {
           "id": 2,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/Indicated"],
+          "category": [
+            "https://minmod.isi.edu/resource/Indicated"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 499496
@@ -94,8 +98,10 @@
         {
           "id": 3,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/Measured",
-          "https://minmod.isi.edu/resource/Indicated"],
+          "category": [
+            "https://minmod.isi.edu/resource/Measured",
+            "https://minmod.isi.edu/resource/Indicated"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 1073861
@@ -135,7 +141,9 @@
         {
           "id": 4,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/Measured"],
+          "category": [
+            "https://minmod.isi.edu/resource/Measured"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 574582
@@ -175,7 +183,9 @@
         {
           "id": 5,
           "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": ["https://minmod.isi.edu/resource/Indicated"],
+          "category": [
+            "https://minmod.isi.edu/resource/Indicated"
+          ],
           "ore": {
             "ore_unit": "https://minmod.isi.edu/resource/Q200",
             "ore_value": 501555
@@ -213,8 +223,12 @@
           "date": "2007-12"
         }
       ],
-      "deposit_type": ["https://minmod.isi.edu/resource/Q380","https://minmod.isi.edu/resource/Q384"
-        ,"https://minmod.isi.edu/resource/Q385","https://minmod.isi.edu/resource/Q385"]
+      "deposit_type": [
+        "https://minmod.isi.edu/resource/Q380",
+        "https://minmod.isi.edu/resource/Q384",
+        "https://minmod.isi.edu/resource/Q385",
+        "https://minmod.isi.edu/resource/Q385"
+      ]
     }
   ]
 }

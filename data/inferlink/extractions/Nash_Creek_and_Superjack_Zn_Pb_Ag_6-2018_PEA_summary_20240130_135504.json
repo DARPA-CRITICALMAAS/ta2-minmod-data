@@ -6,13 +6,12 @@
       "name": "Technical Report and Preliminary Economic Assessment on the Nash Creek and Superjack Project",
       "location_info": {
         "location": "MULTIPOINT(-66.1 47.883333,-66.083333 47.383333)",
-        "crs": "EPSG:4326",
+        "crs": "https://minmod.isi.edu/resource/Q701",
         "country": "Canada",
         "state_or_province": "New Brunswick"
       },
       "mineral_inventory": [
         {
-          
           "commodity": "https://minmod.isi.edu/resource/Q589",
           "category": [
             "https://minmod.isi.edu/resource/indicated"
@@ -57,7 +56,6 @@
           "zone": "hickey"
         },
         {
-          
           "commodity": "https://minmod.isi.edu/resource/Q589",
           "category": [
             "https://minmod.isi.edu/resource/indicated"
@@ -102,7 +100,6 @@
           "zone": "hayes"
         },
         {
-          
           "commodity": "https://minmod.isi.edu/resource/Q589",
           "category": [
             "https://minmod.isi.edu/resource/inferred"
@@ -147,7 +144,6 @@
           "zone": "hickey"
         },
         {
-          
           "commodity": "https://minmod.isi.edu/resource/Q589",
           "category": [
             "https://minmod.isi.edu/resource/inferred"
@@ -192,7 +188,6 @@
           "zone": "hayes"
         },
         {
-          
           "commodity": "https://minmod.isi.edu/resource/Q589",
           "category": [
             "https://minmod.isi.edu/resource/inferred"
@@ -237,8 +232,11 @@
           "zone": "superjack"
         }
       ],
-      "deposit_type": ["https://minmod.isi.edu/resource/Q413"
-        ,"https://minmod.isi.edu/resource/Q411","https://minmod.isi.edu/resource/Q412"]
+      "deposit_type": [
+        "https://minmod.isi.edu/resource/Q413",
+        "https://minmod.isi.edu/resource/Q411",
+        "https://minmod.isi.edu/resource/Q412"
+      ]
     }
   ]
 }

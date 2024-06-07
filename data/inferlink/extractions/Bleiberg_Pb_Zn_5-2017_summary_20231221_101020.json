@@ -1,49 +1,52 @@
 {
   "MineralSite": [
     {
-      "source_id":"https://w3id.org/usgs/z/4530692/CGFRUCNS",
+      "source_id": "https://w3id.org/usgs/z/4530692/CGFRUCNS",
       "record_id": 1,
       "name": "Bleiberg Project Technical Report",
       "location_info": {
         "location": "POINT(11.615, 51.645)",
         "country": "Austria",
         "state_or_province": "Carinthia",
-        "crs": "EPSG:4326"
+        "crs": "https://minmod.isi.edu/resource/Q701"
       },
- 
-  "mineral_inventory": [
-    {
-      "id": 0,
-      "commodity": "https://minmod.isi.edu/resource/Q589",
-      "category": ["https://minmod.isi.edu/resource/inferred"],
-      "ore": {
-        "ore_unit": "https://minmod.isi.edu/resource/Q200",
-        "ore_value": 12247399 
-      },
-      "grade": {
-        "grade_unit": "https://minmod.isi.edu/resource/Q201",
-        "grade_value": 6
-      },
-      "contained_metal": 734843,
-      "reference": {
-        "id": 1,
-        "document": {
-          "doi": "https://w3id.org/usgs/z/4530692/CGFRUCNS",
-          "title": "Bleiberg Project Technical Report",
-          "uri": "",
-          "month": 5,
-          "year": 2017
-        },
-        "page_info": [
-          {
-            "page": 17
-          }
-        ]
-      },
-      "date": "2017-05"
+      "mineral_inventory": [
+        {
+          "id": 0,
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 12247399
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 6
+          },
+          "contained_metal": 734843,
+          "reference": {
+            "id": 1,
+            "document": {
+              "doi": "https://w3id.org/usgs/z/4530692/CGFRUCNS",
+              "title": "Bleiberg Project Technical Report",
+              "uri": "",
+              "month": 5,
+              "year": 2017
+            },
+            "page_info": [
+              {
+                "page": 17
+              }
+            ]
+          },
+          "date": "2017-05"
+        }
+      ],
+      "deposit_type": [
+        "https://minmod.isi.edu/resource/Q380"
+      ]
     }
-  ],
-  "deposit_type": ["https://minmod.isi.edu/resource/Q380"]
-  }
   ]
 }
