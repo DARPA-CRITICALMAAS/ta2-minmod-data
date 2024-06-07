@@ -1,84 +1,90 @@
 {
   "MineralSite": [
     {
-    "source_id":"https://w3id.org/usgs/z/4530692/9PXBT6Z9",
-    "record_id": 1,
-    "name": "Mina Grand\u00e9 Sur",
-    "location_info": {
-      "country": "Peru",
-      "state_or_province": "Amazonas"
-    },
-  "mineral_inventory": [
-    {
-      "id": 0,
-      "commodity": "https://minmod.isi.edu/resource/Q589",
-      "category": ["https://minmod.isi.edu/resource/indicated"],
-      "ore": {
-        "ore_unit": "https://minmod.isi.edu/resource/Q200",
-        "ore_value": 822000
+      "source_id": "https://w3id.org/usgs/z/4530692/9PXBT6Z9",
+      "record_id": 1,
+      "name": "Mina Grandé Sur",
+      "location_info": {
+        "country": "https://minmod.isi.edu/resource/Q1172",
+        "state_or_province": "Amazonas"
       },
-      "grade": {
-        "grade_unit": "https://minmod.isi.edu/resource/Q201",
-        "grade_value": 18.9
-      },
-      "cutoff_grade": {
-        "grade_unit": "https://minmod.isi.edu/resource/Q201",
-        "grade_value": 10.0
-      },
-      "contained_metal": 155000000,
-      "reference": {
-        "id": 1,
-        "document": {
-          "id": "https://w3id.org/usgs/z/4530692/9PXBT6Z9",
-          "title": "Bongar\u00e1 Zn 3-2019",
-          "uri": "",
-          "month": 1,
-          "year": 2019
+      "mineral_inventory": [
+        {
+          "id": 0,
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": [
+            "https://minmod.isi.edu/resource/indicated"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 822000
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 18.9
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 10.0
+          },
+          "contained_metal": 155000000,
+          "reference": {
+            "id": 1,
+            "document": {
+              "id": "https://w3id.org/usgs/z/4530692/9PXBT6Z9",
+              "title": "Bongará Zn 3-2019",
+              "uri": "",
+              "month": 1,
+              "year": 2019
+            },
+            "page_info": [
+              {
+                "page": 91
+              }
+            ]
+          },
+          "date": "2019-01"
         },
-        "page_info": [
-          {
-            "page": 91
-          }
-        ]
-      },
-      "date": "2019-01"
-    },
-    {
-      "id": 1,
-      "commodity": "https://minmod.isi.edu/resource/Q589",
-      "category": ["https://minmod.isi.edu/resource/inferred"],
-      "ore": {
-        "ore_unit": "https://minmod.isi.edu/resource/Q200",
-        "ore_value": 1340000
-      },
-      "grade": {
-        "grade_unit": "https://minmod.isi.edu/resource/Q201",
-        "grade_value": 16.8
-      },
-      "cutoff_grade": {
-        "grade_unit": "https://minmod.isi.edu/resource/Q201",
-        "grade_value": 10.0
-      },
-      "contained_metal": 225000000,
-      "reference": {
-        "id": 1,
-        "document": {
-          "id": "doc_id_0",
-          "title": "Bongar\u00e1 Zn 3-2019",
-          "uri": "",
-          "month": 1,
-          "year": 2019
-        },
-        "page_info": [
-          {
-            "page": 91
-          }
-        ]
-      },
-      "date": "2019-01"
+        {
+          "id": 1,
+          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "category": [
+            "https://minmod.isi.edu/resource/inferred"
+          ],
+          "ore": {
+            "ore_unit": "https://minmod.isi.edu/resource/Q200",
+            "ore_value": 1340000
+          },
+          "grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 16.8
+          },
+          "cutoff_grade": {
+            "grade_unit": "https://minmod.isi.edu/resource/Q201",
+            "grade_value": 10.0
+          },
+          "contained_metal": 225000000,
+          "reference": {
+            "id": 1,
+            "document": {
+              "id": "doc_id_0",
+              "title": "Bongará Zn 3-2019",
+              "uri": "",
+              "month": 1,
+              "year": 2019
+            },
+            "page_info": [
+              {
+                "page": 91
+              }
+            ]
+          },
+          "date": "2019-01"
+        }
+      ],
+      "deposit_type": [
+        "https://minmod.isi.edu/resource/Q380"
+      ]
     }
-  ],
-  "deposit_type": ["https://minmod.isi.edu/resource/Q380"]
-  }
   ]
 }
