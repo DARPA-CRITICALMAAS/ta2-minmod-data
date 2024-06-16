@@ -33,17 +33,22 @@
             "https://minmod.isi.edu/resource/inferred"
           ],
           "ore": {
-            "ore_unit": "https://minmod.isi.edu/resource/Q202",
-            "ore_value": 2.41
+            "value": 2.41,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
           "grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q201",
-            "grade_value": 1.92
+            "value": 1.92,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
-          "cutoff_grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q207",
-            "grade_value": 0.5
-          },
+          "cutoff_grade": {},
           "reference": {
             "document": {
               "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011",

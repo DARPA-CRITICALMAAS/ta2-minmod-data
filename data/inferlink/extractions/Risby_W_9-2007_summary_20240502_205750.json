@@ -33,16 +33,22 @@
             "https://minmod.isi.edu/resource/inferred"
           ],
           "ore": {
-            "ore_unit": "https://minmod.isi.edu/resource/Q200",
-            "ore_value": 6385000.0
+            "value": 6385000.0,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
           "grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q201",
-            "grade_value": 0.462
+            "value": 0.462,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
-          "cutoff_grade": {
-            "grade_value": 0.2
-          },
+          "cutoff_grade": {},
           "reference": {
             "document": {
               "title": "NI 43-101 Technical Report for the Risby Project in North America dated September 2007",

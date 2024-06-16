@@ -33,16 +33,22 @@
             "https://minmod.isi.edu/resource/inferred"
           ],
           "ore": {
-            "ore_unit": "https://minmod.isi.edu/resource/Q200",
-            "ore_value": 852000.0
+            "value": 852000.0,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
           "grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q201",
-            "grade_value": 0.858
+            "value": 0.858,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
-          "cutoff_grade": {
-            "grade_value": 0.2
-          },
+          "cutoff_grade": {},
           "contained_metal": 7310.16,
           "reference": {
             "document": {

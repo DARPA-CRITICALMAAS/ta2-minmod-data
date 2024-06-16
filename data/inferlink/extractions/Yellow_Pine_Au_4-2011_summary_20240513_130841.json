@@ -33,17 +33,22 @@
             "https://minmod.isi.edu/resource/indicated"
           ],
           "ore": {
-            "ore_unit": "https://minmod.isi.edu/resource/Q202",
-            "ore_value": 4.32
+            "value": 4.32,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
           "grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q201",
-            "grade_value": 2.187
+            "value": 2.187,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
-          "cutoff_grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q203",
-            "grade_value": 0.65
-          },
+          "cutoff_grade": {},
           "reference": {
             "document": {
               "title": "NI 43-101 Technical Report for the Yellow Pine Project in Idaho, United States dated April 2011",

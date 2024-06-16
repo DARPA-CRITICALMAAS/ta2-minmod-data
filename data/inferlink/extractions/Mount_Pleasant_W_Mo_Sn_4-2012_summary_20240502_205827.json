@@ -83,16 +83,22 @@
             "https://minmod.isi.edu/resource/measured"
           ],
           "ore": {
-            "ore_unit": "https://minmod.isi.edu/resource/Q200",
-            "ore_value": 3.6
+            "value": 3.6,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
           "grade": {
-            "grade_unit": "https://minmod.isi.edu/resource/Q201",
-            "grade_value": 0.25
+            "value": 0.25,
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+              "source": "Inferlink Extraction v1",
+              "confidence": 0.9
+            }
           },
-          "cutoff_grade": {
-            "grade_value": 0.05
-          },
+          "cutoff_grade": {},
           "reference": {
             "document": {
               "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012",
