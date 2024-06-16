@@ -24,7 +24,11 @@
       },
       "mineral_inventory": [
         {
-          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          },
           "reference": {
             "document": {
               "title": "NI 43-101 Technical Report for the Silvermines Project in Europe, Ireland dated November 2017",

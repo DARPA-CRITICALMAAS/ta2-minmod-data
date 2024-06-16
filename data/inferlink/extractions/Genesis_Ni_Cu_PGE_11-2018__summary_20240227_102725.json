@@ -18,7 +18,11 @@
       },
       "mineral_inventory": [
         {
-          "commodity": "https://minmod.isi.edu/resource/Q578",
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          },
           "reference": {
             "document": {
               "title": "TECHNICAL REPORT FOR THE GENESIS NI-CU-PGE PROJECT",

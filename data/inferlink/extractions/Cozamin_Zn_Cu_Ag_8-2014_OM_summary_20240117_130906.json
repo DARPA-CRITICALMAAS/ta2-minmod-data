@@ -25,7 +25,11 @@
       "mineral_inventory": [
         {
           "id": 1,
-          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          },
           "category": [
             "https://minmod.isi.edu/resource/indicated"
           ],
@@ -74,7 +78,11 @@
         },
         {
           "id": 2,
-          "commodity": "https://minmod.isi.edu/resource/Q589",
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          },
           "category": [
             "https://minmod.isi.edu/resource/inferred"
           ],
