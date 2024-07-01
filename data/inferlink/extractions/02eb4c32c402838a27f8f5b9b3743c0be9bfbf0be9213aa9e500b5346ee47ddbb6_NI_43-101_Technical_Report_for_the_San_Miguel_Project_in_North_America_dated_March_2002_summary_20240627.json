@@ -1,0 +1,59 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land",
+      "record_id": "02eb4c32c402838a27f8f5b9b3743c0be9bfbf0be9213aa9e500b5346ee47ddbb6",
+      "name": "NI 43-101 Technical Report for the San Miguel Project in North America dated March 2002.pdf",
+      "location_info": {
+        "location": "POINT(-100.899593 22.474580)",
+        "crs": "https://minmod.isi.edu/resource/Q701",
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "extracted_value": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4553",
+          "extracted_value": "San Luis Potosi",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      }
+    },
+    {
+      "mineral_inventory": [
+        {
+          "commodity": "https://minmod.isi.edu/resource/Q506",
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the San Miguel Project in North America dated March 2002.pdf",
+              "authors": [
+                "Greg Z. Mosher"
+              ],
+              "year": 2002,
+              "month": 3,
+              "description": "An independent geological report on the San Miguel Property, describing the results of a reverse-circulation drill program and an airborne magnetic survey conducted to evaluate soil geochemical anomalies indicative of carbonate replacement deposits."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "deposit_type_candidate": [
+        {
+          "observed_name": "fissure-fill (veins)",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q425",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "carbonate replacement bodies (mantos or CRD)",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q437",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}
