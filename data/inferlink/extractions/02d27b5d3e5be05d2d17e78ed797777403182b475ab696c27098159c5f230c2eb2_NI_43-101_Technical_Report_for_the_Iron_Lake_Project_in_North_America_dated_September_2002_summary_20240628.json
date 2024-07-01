@@ -1,0 +1,63 @@
+{
+    "MineralSite": [
+        {
+            "source_id": "https://api.cdr.land/v1/docs/documents/",
+            "record_id": "02d27b5d3e5be05d2d17e78ed797777403182b475ab696c27098159c5f230c2eb2",
+            "name": "NI 43-101 Technical Report for the Iron Lake Project in North America dated September 2002.pdf",
+            "location_info": {
+                "location": "POINT(-120.9 51.95)",
+                "crs": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "country": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+                    "extracted_value": "Canada",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "state_or_province": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+                    "extracted_value": "British Columbia",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                }
+            },
+            "mineral_inventory": [
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q600",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Iron Lake Project in North America dated September 2002.pdf",
+                            "authors": [
+                                "Rudolf M. Durfeld"
+                            ],
+                            "year": 2002,
+                            "month": 9,
+                            "description": "The report reviews and summarizes the geology, mineralization, and exploration potential of the Iron Lake Property in the Clinton Mining Division, Central British Columbia, with recommendations for a staged exploration program targeting copper, gold, platinum, and palladium deposits."
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "Alkalic porphyry copper-gold",
+                    "normalized_uri": "",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.5
+                },
+                {
+                    "observed_name": "Lac des Isles-type",
+                    "normalized_uri": "",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.5
+                }
+            ]
+        }
+    ]
+}
