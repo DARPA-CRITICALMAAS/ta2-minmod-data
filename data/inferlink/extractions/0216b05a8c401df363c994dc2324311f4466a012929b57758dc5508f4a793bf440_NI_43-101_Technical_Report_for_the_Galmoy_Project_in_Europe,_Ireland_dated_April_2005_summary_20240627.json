@@ -1,15 +1,22 @@
 {
     "MineralSite": [
         {
-            "Mineral Site": {
-                "source_id": "",
-                "record_id": "0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440",
-                "name": "NI 43-101 Technical Report for the Galmoy Project in Europe, Ireland dated April 2005.pdf",
-                "location_info": {
-                    "location": "POINT(-7.58333 52.83333)",
-                    "crs": "",
-                    "country": "Ireland",
-                    "state_or_province": "County Kilkenny"
+            "source_id": "https://api.cdr.land/v1/docs/documents/",
+            "record_id": "0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440",
+            "name": "NI 43-101 Technical Report for the Galmoy Project in Europe, Ireland dated April 2005.pdf",
+            "location_info": {
+                "location": "POINT(-7.58333 52.83333)",
+                "country": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q1105",
+                    "extracted_value": "Ireland",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "state_or_province": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q3761",
+                    "extracted_value": "County Kilkenny",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
                 }
             },
             "mineral_inventory": [
@@ -20,7 +27,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -60,7 +71,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -72,7 +84,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -112,7 +128,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -161,10 +178,12 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
-                    "date": "2005-4"
+                    "date": "2005-4",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -173,7 +192,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -213,7 +236,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -225,7 +249,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -265,7 +293,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -277,7 +306,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -317,7 +350,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -366,10 +400,12 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
-                    "date": "2005-4"
+                    "date": "2005-4",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -378,7 +414,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -418,7 +458,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -431,7 +472,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -471,7 +516,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -484,7 +530,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -524,7 +574,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -537,7 +588,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -577,7 +632,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -590,7 +646,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -630,7 +690,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -642,7 +703,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -687,7 +752,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -699,7 +765,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -744,7 +814,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -757,7 +828,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -802,7 +877,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -814,7 +890,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -859,7 +939,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -914,10 +995,12 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
-                    "date": "2005-4"
+                    "date": "2005-4",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -926,7 +1009,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -971,7 +1058,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -984,7 +1072,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1029,7 +1121,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1042,7 +1135,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1087,7 +1184,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1100,7 +1198,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1145,7 +1247,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1200,10 +1303,12 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
-                    "date": "2005-4"
+                    "date": "2005-4",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -1212,7 +1317,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1257,7 +1366,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -1269,7 +1379,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "lead",
@@ -1314,7 +1428,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -1326,7 +1441,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "lead",
@@ -1371,7 +1490,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -1383,7 +1503,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "lead",
@@ -1428,7 +1552,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1441,7 +1566,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1481,7 +1610,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -1493,7 +1623,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1533,7 +1667,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1546,7 +1681,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1586,7 +1725,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1641,10 +1781,12 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
-                    "date": "2005-4"
+                    "date": "2005-4",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -1653,7 +1795,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1693,7 +1839,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1706,7 +1853,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1746,7 +1897,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1759,7 +1911,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1799,7 +1955,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1812,7 +1969,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1852,7 +2013,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -1907,10 +2069,12 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
-                    "date": "2005-4"
+                    "date": "2005-4",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -1919,7 +2083,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1959,7 +2127,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -1971,7 +2140,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -2016,7 +2189,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -2028,7 +2202,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -2073,7 +2251,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -2085,7 +2264,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -2130,7 +2313,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -2142,7 +2326,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -2187,7 +2375,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -2200,7 +2389,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -2245,7 +2438,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4"
@@ -2257,7 +2451,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -2302,7 +2500,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -2315,7 +2514,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/proven"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -2360,7 +2563,8 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
                     "date": "2005-4",
@@ -2415,10 +2619,12 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
-                    "date": "2005-4"
+                    "date": "2005-4",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -2469,10 +2675,12 @@
                             ],
                             "year": 2005,
                             "month": 4,
-                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation."
+                            "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+                            "url": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
                         }
                     },
-                    "date": "2005-4"
+                    "date": "2005-4",
+                    "category": []
                 }
             ],
             "deposit_type_candidate": [

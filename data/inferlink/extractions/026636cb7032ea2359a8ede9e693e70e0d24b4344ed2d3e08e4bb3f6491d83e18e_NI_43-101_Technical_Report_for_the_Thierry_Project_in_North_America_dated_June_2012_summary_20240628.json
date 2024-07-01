@@ -7,9 +7,8 @@
             "location_info": {
                 "location": "POINT(-90.34790277777778 51.49758888888889)",
                 "crs": {
-                    
-"normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                        "confidence": 1,
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+                    "confidence": 1,
                     "source": "Inferlink Extraction v2"
                 },
                 "country": {
@@ -28,13 +27,17 @@
             "mineral_inventory": [
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -79,24 +82,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -141,25 +146,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -204,24 +215,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -266,25 +279,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -320,24 +339,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry ug"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -373,7 +394,8 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
                         },
                         "page_info": [
                             {
@@ -386,13 +408,17 @@
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -428,7 +454,8 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
                         },
                         "page_info": [
                             {
@@ -441,13 +468,17 @@
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -492,24 +523,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -554,25 +587,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -617,24 +656,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -679,24 +720,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -741,24 +784,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -803,25 +848,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -866,24 +917,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -928,25 +981,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -982,24 +1041,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry ug"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1035,7 +1096,8 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
                         },
                         "page_info": [
                             {
@@ -1048,13 +1110,17 @@
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1090,7 +1156,8 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
                         },
                         "page_info": [
                             {
@@ -1103,13 +1170,17 @@
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1154,24 +1225,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1216,25 +1289,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1279,24 +1358,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1341,24 +1422,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1403,24 +1486,26 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1465,25 +1550,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1528,25 +1619,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1582,25 +1679,31 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry ug"
                 },
                 {
                     "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q538",
-                            "extracted_value": "copper",
-                            "confidence": 1,
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+                        "extracted_value": "copper",
+                        "confidence": 1,
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured",
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -1645,11 +1748,9 @@
                             ],
                             "year": 2012,
                             "month": 6,
-                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+                            "url": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+                        }
                     },
                     "date": "2012-6",
                     "zone": "thierry"

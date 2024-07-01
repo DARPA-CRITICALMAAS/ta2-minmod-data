@@ -1,15 +1,27 @@
 {
     "MineralSite": [
         {
-            "Mineral Site": {
-                "source_id": "",
-                "record_id": "02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c",
-                "name": "NI 43-101 Technical Report for the Cascabel project in Ecuador dated March, 2022.pdf",
-                "location_info": {
-                    "location": "MULTIPOINT(-78.531 0.303, -78.500 0.303, -78.500 0.302, -78.497 0.302, -78.497 0.301, -78.490 0.301, -78.490 0.300, -78.485 0.300, -78.485 0.290, -78.481 0.290, -78.481 0.280, -78.424 0.280, -78.424 0.300, -78.416 0.300, -78.416 0.295, -78.413 0.295, -78.413 0.297, -78.409 0.297)",
-                    "crs": "WGS84",
-                    "country": "Ecuador",
-                    "state_or_province": "Imbabura"
+            "source_id": "https://api.cdr.land/v1/docs/documents/",
+            "record_id": "02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c",
+            "name": "NI 43-101 Technical Report for the Cascabel project in Ecuador dated March, 2022.pdf",
+            "location_info": {
+                "location": "MULTIPOINT(-78.531 0.303, -78.500 0.303, -78.500 0.302, -78.497 0.302, -78.497 0.301, -78.490 0.301, -78.490 0.300, -78.485 0.300, -78.485 0.290, -78.481 0.290, -78.481 0.280, -78.424 0.280, -78.424 0.300, -78.416 0.300, -78.416 0.295, -78.413 0.295, -78.413 0.297, -78.409 0.297)",
+                "crs": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "country": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q1063",
+                    "extracted_value": "Ecuador",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "state_or_province": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q3086",
+                    "extracted_value": "Imbabura",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
                 }
             },
             "mineral_inventory": [
@@ -20,7 +32,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -66,11 +82,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -82,7 +96,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -119,11 +137,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -135,7 +151,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -172,11 +192,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -188,7 +206,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -239,11 +261,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -255,7 +275,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -306,11 +330,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -322,7 +344,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -364,11 +390,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -380,7 +404,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/measured"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "ore": {
                         "unit": {
@@ -426,11 +454,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -442,7 +468,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -484,11 +514,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -500,7 +528,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -542,11 +574,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -558,7 +588,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -609,11 +643,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -625,7 +657,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -676,11 +712,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -692,7 +726,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -743,11 +781,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -759,7 +795,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/indicated"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "copper",
@@ -810,11 +850,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -826,7 +864,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "gold",
@@ -868,11 +910,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -884,7 +924,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "gold",
@@ -926,11 +970,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -942,7 +984,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -984,11 +1030,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -1000,7 +1044,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -1042,11 +1090,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -1058,7 +1104,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "gold",
@@ -1109,11 +1159,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "tandayama-america"
@@ -1125,7 +1173,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -1167,11 +1219,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -1183,7 +1233,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -1225,11 +1279,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -1241,7 +1293,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -1283,11 +1339,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"
@@ -1299,7 +1353,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "silver",
@@ -1341,11 +1399,9 @@
                             ],
                             "year": 2022,
                             "month": 6,
-                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador."
-                        },
-                        "page_info": [
-                            {}
-                        ]
+                            "description": "This document is a NI 43-101 Technical Report detailing the pre-feasibility study for the Cascabel Project located in the Imbabura Province, Ecuador.",
+                            "url": "https://api.cdr.land/v1/docs/documents/02a143ee277e8d27e6d77d13a98d8aafc2464aaec044c75f61ceaefd27d784648c"
+                        }
                     },
                     "date": "2022-6",
                     "zone": "alpala"

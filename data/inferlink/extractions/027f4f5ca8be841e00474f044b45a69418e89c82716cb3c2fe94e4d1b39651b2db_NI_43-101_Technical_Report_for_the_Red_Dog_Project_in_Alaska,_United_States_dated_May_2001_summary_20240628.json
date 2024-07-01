@@ -1,16 +1,28 @@
 {
     "MineralSite": [
         {
-            "Mineral Site": {
-                "source_id": "",
-                "record_id": "027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db",
-                "name": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-                "location_info": {
-                    "location": "MULTIPOINT(-162.825 -68.070833,-162.829722 -68.076111,-162.827222 -68.081667,-162.836111 -68.057778,-162.962222 -68.161667)",
-                    "crs": "WGS84",
-                    "country": "United States",
-                    "state_or_province": "Alaska"
-                }
+            "source_id": "https://api.cdr.land/v1/docs/documents/",
+            "record_id": "027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db",
+            "name": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "location_info": {
+                "location": "MULTIPOINT(-162.825 -68.070833,-162.829722 -68.076111,-162.827222 -68.081667,-162.836111 -68.057778,-162.962222 -68.161667)",
+                "crs": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "country": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+                    "extracted_value": "United States",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "state_or_province": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
+                    "extracted_value": "Alaska",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                 }
             },
             "mineral_inventory": [
                 {
@@ -57,11 +69,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "main deposit"
+                    "zone": "main deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -107,11 +121,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "aqqaluk deposit"
+                    "zone": "aqqaluk deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -157,11 +173,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "aqqaluk deposit"
+                    "zone": "aqqaluk deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -207,11 +225,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "qanaiyaq deposit"
+                    "zone": "qanaiyaq deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -257,11 +277,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "aqqaluk deposit"
+                    "zone": "aqqaluk deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -307,11 +329,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "paalaaq deposit"
+                    "zone": "paalaaq deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -357,11 +381,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "a\u00ffarraaq deposit"
+                    "zone": "a\u00ffarraaq deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -407,11 +433,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "main deposit"
+                    "zone": "main deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -457,11 +485,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "aqqaluk deposit"
+                    "zone": "aqqaluk deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -507,11 +537,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "aqqaluk deposit"
+                    "zone": "aqqaluk deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -557,11 +589,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "qanaiyaq deposit"
+                    "zone": "qanaiyaq deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -607,11 +641,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "aqqaluk deposit"
+                    "zone": "aqqaluk deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -657,11 +693,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "paalaaq deposit"
+                    "zone": "paalaaq deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -707,11 +745,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "a\u00ffarraaq deposit"
+                    "zone": "a\u00ffarraaq deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -757,11 +797,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "aqqaluk deposit"
+                    "zone": "aqqaluk deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -807,11 +849,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "qanaiyaq deposit"
+                    "zone": "qanaiyaq deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -857,11 +901,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "aqqaluk deposit"
+                    "zone": "aqqaluk deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -907,11 +953,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "qanaiyaq deposit"
+                    "zone": "qanaiyaq deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -957,11 +1005,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "main deposit"
+                    "zone": "main deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -1007,11 +1057,13 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
-                    "zone": "main deposit"
+                    "zone": "main deposit",
+                    "category": []
                 },
                 {
                     "commodity": {
@@ -1020,7 +1072,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1065,7 +1121,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1078,7 +1135,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1123,7 +1184,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1136,7 +1198,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1181,7 +1247,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1194,7 +1261,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1239,7 +1310,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1252,7 +1324,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1297,7 +1373,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1310,7 +1387,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1355,7 +1436,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1368,7 +1450,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1413,7 +1499,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1426,7 +1513,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1471,7 +1562,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1484,7 +1576,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1529,7 +1625,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1542,7 +1639,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1587,7 +1688,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1600,7 +1702,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1645,7 +1751,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1658,7 +1765,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/inferred"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1703,7 +1814,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1716,7 +1828,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1761,7 +1877,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
@@ -1774,7 +1891,11 @@
                         "source": "Inferlink Extraction v2"
                     },
                     "category": [
-                        "https://minmod.isi.edu/resource/probable"
+                        {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        }
                     ],
                     "material_form": {
                         "extracted_value": "zinc",
@@ -1819,7 +1940,8 @@
                             ],
                             "year": 2001,
                             "month": 5,
-                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement."
+                            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+                            "url": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
                         }
                     },
                     "date": "2001-5",
