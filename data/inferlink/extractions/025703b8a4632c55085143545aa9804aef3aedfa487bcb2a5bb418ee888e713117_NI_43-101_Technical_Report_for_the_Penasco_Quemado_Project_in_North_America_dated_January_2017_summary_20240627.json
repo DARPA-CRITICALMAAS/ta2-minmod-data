@@ -1,1085 +1,1169 @@
 {
-  "MineralSite": [
-    {
-      "source_id": "https://api.cdr.land",
-      "record_id": "025703b8a4632c55085143545aa9804aef3aedfa487bcb2a5bb418ee888e713117",
-      "name": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-      "location_info": {
-        "location": "POINT(-111.55 30.883333)",
-        "crs": "https://minmod.isi.edu/resource/Q701",
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-          "extracted_value": "Mexico",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+    "MineralSite": [
+        {
+            "source_id": "https://api.cdr.land",
+            "record_id": "025703b8a4632c55085143545aa9804aef3aedfa487bcb2a5bb418ee888e713117",
+            "name": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+            "location_info": {
+                "location": "POINT(-111.55 30.883333)",
+                "crs": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "country": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+                    "extracted_value": "Mexico",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "state_or_province": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+                    "extracted_value": "Sonora",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                }
+            }
         },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-          "extracted_value": "Sonora",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+        {
+            "mineral_inventory": [
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/measured"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.123
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 151.9
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.1868,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/indicated"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.442
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 115.0
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.8083,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.565
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 116.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.9959,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.001
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 41.4
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.0004,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/measured"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.123
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 151.9
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.1868,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/indicated"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.442
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 115.0
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.8083,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.565
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 116.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.9959,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.001
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 41.4
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.0004,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/measured"
+                    ],
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.123
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 151.9
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.1868,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/indicated"
+                    ],
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.442
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 115.0
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.8083,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.565
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 116.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.9959,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.001
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 41.4
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.0004,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/measured"
+                    ],
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.123
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 151.9
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.1868,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/indicated"
+                    ],
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.442
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 115.0
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.8083,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.565
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 116.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.9959,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.001
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 41.4
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.0004,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/measured"
+                    ],
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.123
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 151.9
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.1868,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/measured"
+                    ],
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.123
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 151.9
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 0.1868,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.565
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 116.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.9959,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "material_form": {
+                        "extracted_value": "silver",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+                            "extracted_value": "Millions",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 2.565
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 116.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 30.0
+                    },
+                    "contained_metal": 2.9959,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+                            "authors": [
+                                "William J. Lewis"
+                            ],
+                            "year": 2017,
+                            "month": 1,
+                            "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2017-1"
+                }
+            ]
+        },
+        {
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "disseminated silver mineralization",
+                    "normalized_uri": "",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.2
+                },
+                {
+                    "observed_name": "secondary mineralization",
+                    "normalized_uri": "",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.2
+                },
+                {
+                    "observed_name": "sulphide mineralization",
+                    "normalized_uri": "",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.2
+                },
+                {
+                    "observed_name": "felsic porphyry intrusion",
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q460",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.2
+                },
+                {
+                    "observed_name": "epithermal deposit",
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q416",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.2
+                }
+            ]
         }
-      }
-    },
-    {
-      "mineral_inventory": [
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/measured"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.123
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 151.9
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.1868,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/indicated"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.442
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 115.0
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.8083,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.565
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 116.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.9959,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.001
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 41.4
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.0004,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/measured"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.123
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 151.9
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.1868,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/indicated"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.442
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 115.0
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.8083,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.565
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 116.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.9959,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.001
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 41.4
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.0004,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/measured"
-          ],
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.123
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 151.9
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.1868,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/indicated"
-          ],
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.442
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 115.0
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.8083,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.565
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 116.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.9959,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.001
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 41.4
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.0004,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/measured"
-          ],
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.123
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 151.9
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.1868,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/indicated"
-          ],
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.442
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 115.0
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.8083,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.565
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 116.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.9959,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.001
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 41.4
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.0004,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/measured"
-          ],
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.123
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 151.9
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.1868,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/measured"
-          ],
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.123
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 151.9
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 0.1868,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.565
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 116.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.9959,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "material_form": {
-            "extracted_value": "silver",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-              "extracted_value": "Millions",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 2.565
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 116.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 30.0
-          },
-          "contained_metal": 2.9959,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
-              "authors": [
-                "William J. Lewis"
-              ],
-              "year": 2017,
-              "month": 1,
-              "description": "This technical report provides an independent summary and review of the Pe\u00f1asco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2017-1"
-        }
-      ]
-    },
-    {
-      "deposit_type_candidate": [
-        {
-          "observed_name": "disseminated silver mineralization",
-          "normalized_uri": "",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.2
-        },
-        {
-          "observed_name": "secondary mineralization",
-          "normalized_uri": "",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.2
-        },
-        {
-          "observed_name": "sulphide mineralization",
-          "normalized_uri": "",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.2
-        },
-        {
-          "observed_name": "felsic porphyry intrusion",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q460",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.2
-        },
-        {
-          "observed_name": "epithermal deposit",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q416",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.2
-        }
-      ]
-    }
-  ]
+    ]
 }

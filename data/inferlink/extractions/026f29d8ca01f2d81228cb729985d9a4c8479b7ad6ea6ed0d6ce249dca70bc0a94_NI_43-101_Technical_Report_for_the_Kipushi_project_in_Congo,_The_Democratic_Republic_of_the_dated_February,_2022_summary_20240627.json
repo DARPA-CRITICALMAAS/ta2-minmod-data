@@ -1,162 +1,174 @@
 {
-  "MineralSite": [
-    {
-      "source_id": "https://api.cdr.land",
-      "record_id": "026f29d8ca01f2d81228cb729985d9a4c8479b7ad6ea6ed0d6ce249dca70bc0a94",
-      "name": "NI 43-101 Technical Report for the Kipushi project in Congo, The Democratic Republic of the dated February, 2022.pdf",
-      "location_info": {
-        "location": "POINT(27.2345 -11.28675)",
-        "crs": "https://minmod.isi.edu/resource/Q701",
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1058",
-          "extracted_value": "Democratic Republic of the Congo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q3000",
-          "extracted_value": "Haut-Katanga Province",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        }
-      }
-    },
-    {
-      "mineral_inventory": [
+    "MineralSite": [
         {
-          "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": [
-            "https://minmod.isi.edu/resource/probable"
-          ],
-          "material_form": {
-            "extracted_value": "Zn",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "Mt",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 7.48
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "extracted_value": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 29.4
-          },
-          "contained_metal": 2.1991,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Kipushi project in Congo, The Democratic Republic of the dated February, 2022.pdf",
-              "authors": [
-                "Bernard Peters",
-                "Michael Robertson",
-                "Jeremy Witley",
-                "William Joughin",
-                "John Edwards"
-              ],
-              "year": 2022,
-              "month": 2,
-              "description": "This report is a NI 43-101 Technical Report detailing the feasibility study for the Kipushi project in the Democratic Republic of the Congo, with a focus on geological setting, mineral resource estimation, and mine planning."
-            },
-            "page_info": [
-              {
-                "page": 276
-              }
+            "source_id": "https://api.cdr.land",
+            "record_id": "026f29d8ca01f2d81228cb729985d9a4c8479b7ad6ea6ed0d6ce249dca70bc0a94",
+            "name": "NI 43-101 Technical Report for the Kipushi project in Congo, The Democratic Republic of the dated February, 2022.pdf",
+            "location_info": {
+                "location": "POINT(27.2345 -11.28675)",
+                "crs": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "country": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q1058",
+                    "extracted_value": "Democratic Republic of the Congo",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "state_or_province": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q3000",
+                    "extracted_value": "Haut-Katanga Province",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                }
+            }
+        },
+        {
+            "mineral_inventory": [
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/probable"
+                    ],
+                    "material_form": {
+                        "extracted_value": "Zn",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "Mt",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 7.48
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+                            "extracted_value": "%",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 29.4
+                    },
+                    "contained_metal": 2.1991,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Kipushi project in Congo, The Democratic Republic of the dated February, 2022.pdf",
+                            "authors": [
+                                "Bernard Peters",
+                                "Michael Robertson",
+                                "Jeremy Witley",
+                                "William Joughin",
+                                "John Edwards"
+                            ],
+                            "year": 2022,
+                            "month": 2,
+                            "description": "This report is a NI 43-101 Technical Report detailing the feasibility study for the Kipushi project in the Democratic Republic of the Congo, with a focus on geological setting, mineral resource estimation, and mine planning."
+                        },
+                        "page_info": [
+                            {
+                                "page": 276
+                            }
+                        ]
+                    },
+                    "date": "2022-2"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/proven"
+                    ],
+                    "material_form": {
+                        "extracted_value": "Zn",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "Mt",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 3.33
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+                            "extracted_value": "%",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 37.4
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "$/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 135.0
+                    },
+                    "contained_metal": 1.2454,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Kipushi project in Congo, The Democratic Republic of the dated February, 2022.pdf",
+                            "authors": [
+                                "Bernard Peters",
+                                "Michael Robertson",
+                                "Jeremy Witley",
+                                "William Joughin",
+                                "John Edwards"
+                            ],
+                            "year": 2022,
+                            "month": 2,
+                            "description": "This report is a NI 43-101 Technical Report detailing the feasibility study for the Kipushi project in the Democratic Republic of the Congo, with a focus on geological setting, mineral resource estimation, and mine planning."
+                        },
+                        "page_info": [
+                            {
+                                "page": 276
+                            }
+                        ]
+                    },
+                    "date": "2022-2"
+                }
             ]
-          },
-          "date": "2022-2"
         },
         {
-          "commodity": "https://minmod.isi.edu/resource/Q589",
-          "category": [
-            "https://minmod.isi.edu/resource/proven"
-          ],
-          "material_form": {
-            "extracted_value": "Zn",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "Mt",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 3.33
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "extracted_value": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 37.4
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "$/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 135.0
-          },
-          "contained_metal": 1.2454,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Kipushi project in Congo, The Democratic Republic of the dated February, 2022.pdf",
-              "authors": [
-                "Bernard Peters",
-                "Michael Robertson",
-                "Jeremy Witley",
-                "William Joughin",
-                "John Edwards"
-              ],
-              "year": 2022,
-              "month": 2,
-              "description": "This report is a NI 43-101 Technical Report detailing the feasibility study for the Kipushi project in the Democratic Republic of the Congo, with a focus on geological setting, mineral resource estimation, and mine planning."
-            },
-            "page_info": [
-              {
-                "page": 276
-              }
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "epigenetic copper\u2013zinc-lead massive sulfide deposits",
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q410",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.3333333333333333
+                },
+                {
+                    "observed_name": "carbonate-hosted copper\u2013zinc-lead deposits",
+                    "normalized_uri": "",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.3333333333333333
+                },
+                {
+                    "observed_name": "polymetallic massive sulfide deposits",
+                    "normalized_uri": "",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.3333333333333333
+                }
             ]
-          },
-          "date": "2022-2"
         }
-      ]
-    },
-    {
-      "deposit_type_candidate": [
-        {
-          "observed_name": "epigenetic copper\u2013zinc-lead massive sulfide deposits",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q410",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.3333333333333333
-        },
-        {
-          "observed_name": "carbonate-hosted copper\u2013zinc-lead deposits",
-          "normalized_uri": "",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.3333333333333333
-        },
-        {
-          "observed_name": "polymetallic massive sulfide deposits",
-          "normalized_uri": "",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.3333333333333333
-        }
-      ]
-    }
-  ]
+    ]
 }

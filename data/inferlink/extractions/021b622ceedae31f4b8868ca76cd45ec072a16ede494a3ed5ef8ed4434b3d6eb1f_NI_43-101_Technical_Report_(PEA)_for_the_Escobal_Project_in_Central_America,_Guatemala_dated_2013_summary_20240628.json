@@ -1,684 +1,736 @@
 {
-  "MineralSite": [
-    {
-      "source_id": "https://api.cdr.land",
-      "record_id": "021b622ceedae31f4b8868ca76cd45ec072a16ede494a3ed5ef8ed4434b3d6eb1f",
-      "name": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-      "location_info": {
-        "location": "POINT(-90.0543 14.9196)",
-        "crs": "https://minmod.isi.edu/resource/Q701",
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1090",
-          "extracted_value": "Guatemala",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+    "MineralSite": [
+        {
+            "source_id": "https://api.cdr.land",
+            "record_id": "021b622ceedae31f4b8868ca76cd45ec072a16ede494a3ed5ef8ed4434b3d6eb1f",
+            "name": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+            "location_info": {
+                "location": "POINT(-90.0543 14.9196)",
+                "crs": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "country": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q1090",
+                    "extracted_value": "Guatemala",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "state_or_province": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q3470",
+                    "extracted_value": "Santa Rosa",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                }
+            }
         },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q3470",
-          "extracted_value": "Santa Rosa",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+        {
+            "mineral_inventory": [
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 4.6
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 254.0
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
+                            "extracted_value": "g AgEq/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 11.684,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.8
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 292.2
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
+                            "extracted_value": "g AgEq/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 2.3376,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "oxide"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.4
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 202.2
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
+                            "extracted_value": "g AgEq/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 0.8088,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "mixed"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 3.4
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 250.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
+                            "extracted_value": "g AgEq/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 8.5272,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "sulfide"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 4.6
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 254.0
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 11.684,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.8
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 292.2
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 2.3376,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "oxide"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.4
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 202.2
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 0.8088,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "mixed"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 3.4
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 250.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 8.5272,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "sulfide"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 4.6
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 254.0
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
+                            "extracted_value": "g AgEq/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 11.684,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.8
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 292.2
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
+                            "extracted_value": "g AgEq/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 2.3376,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "oxide"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 0.4
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 202.2
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
+                            "extracted_value": "g AgEq/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 0.8088,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "mixed"
+                },
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "category": [
+                        "https://minmod.isi.edu/resource/inferred"
+                    ],
+                    "ore": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+                            "extracted_value": "M",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 3.4
+                    },
+                    "grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+                            "extracted_value": "g/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 250.8
+                    },
+                    "cutoff_grade": {
+                        "unit": {
+                            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
+                            "extracted_value": "g AgEq/t",
+                            "confidence": 1,
+                            "source": "Inferlink Extraction v2"
+                        },
+                        "value": 150.0
+                    },
+                    "contained_metal": 8.5272,
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
+                            "authors": [
+                                "Paul G. Tietz",
+                                "Richard Zimmerman",
+                                "Conrad E. Huss",
+                                "Thomas L. Drielick",
+                                "Daniel Roth"
+                            ],
+                            "year": 2013,
+                            "month": 7,
+                            "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
+                        },
+                        "page_info": [
+                            {}
+                        ]
+                    },
+                    "date": "2013-7",
+                    "zone": "sulfide"
+                }
+            ]
+        },
+        {
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "Intermediate Sulfidation Epithermal Quartz Vein System",
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q417",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 1.0
+                }
+            ]
         }
-      }
-    },
-    {
-      "mineral_inventory": [
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 4.6
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 254.0
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-              "extracted_value": "g AgEq/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 11.684,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.8
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 292.2
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-              "extracted_value": "g AgEq/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 2.3376,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "oxide"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.4
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 202.2
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-              "extracted_value": "g AgEq/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 0.8088,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "mixed"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q585",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 3.4
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 250.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-              "extracted_value": "g AgEq/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 8.5272,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "sulfide"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q551",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 4.6
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 254.0
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 11.684,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q551",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.8
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 292.2
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 2.3376,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "oxide"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q551",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.4
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 202.2
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 0.8088,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "mixed"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q551",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 3.4
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 250.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 8.5272,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "sulfide"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q565",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 4.6
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 254.0
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-              "extracted_value": "g AgEq/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 11.684,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q565",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.8
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 292.2
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-              "extracted_value": "g AgEq/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 2.3376,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "oxide"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q565",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 0.4
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 202.2
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-              "extracted_value": "g AgEq/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 0.8088,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "mixed"
-        },
-        {
-          "commodity": "https://minmod.isi.edu/resource/Q565",
-          "category": [
-            "https://minmod.isi.edu/resource/inferred"
-          ],
-          "ore": {
-            "ore_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "extracted_value": "M",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "ore_value": 3.4
-          },
-          "grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-              "extracted_value": "g/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 250.8
-          },
-          "cutoff_grade": {
-            "grade_unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-              "extracted_value": "g AgEq/t",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "grade_value": 150.0
-          },
-          "contained_metal": 8.5272,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (PEA) for the Escobal Project in Central America, Guatemala dated 2013.pdf",
-              "authors": [
-                "Paul G. Tietz",
-                "Richard Zimmerman",
-                "Conrad E. Huss",
-                "Thomas L. Drielick",
-                "Daniel Roth"
-              ],
-              "year": 2013,
-              "month": 7,
-              "description": "This report provides a preliminary economic assessment of the Escobal Project in Guatemala, detailing the project's geology, mineral resources, exploration activities, and potential economic viability."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2013-7",
-          "zone": "sulfide"
-        }
-      ]
-    },
-    {
-      "deposit_type_candidate": [
-        {
-          "observed_name": "Intermediate Sulfidation Epithermal Quartz Vein System",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q417",
-          "source": "Inferlink Extraction v2",
-          "confidence": 1.0
-        }
-      ]
-    }
-  ]
+    ]
 }
