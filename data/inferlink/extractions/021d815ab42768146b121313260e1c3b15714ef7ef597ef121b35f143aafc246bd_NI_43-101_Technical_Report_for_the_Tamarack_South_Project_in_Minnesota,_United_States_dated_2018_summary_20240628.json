@@ -1,56 +1,58 @@
 {
-    "MineralSite": [
-        {
-            "record_id": "021d815ab42768146b121313260e1c3b15714ef7ef597ef121b35f143aafc246bd",
-            "name": "NI 43-101 Technical Report for the Tamarack South Project in Minnesota, United States dated 2018.pdf",
-            "location_info": {
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-                    "extracted_value": "United States",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-                    "extracted_value": "Minnesota",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Tamarack South Project in Minnesota, United States dated 2018.pdf",
-                            "authors": [
-                                "James McDonald"
-                            ],
-                            "year": 2018,
-                            "month": 12,
-                            "description": "The report provides an initial disclosure of geology for the Tamarack South Project, including details on drilling data, geophysical surveys, geological setting, and exploration recommendations highlighting the presence of potential Ni-Cu-PGE deposits."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "magmatic Ni-Cu-PGE sulphide mineralization",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q476",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.5
-                },
-                {
-                    "observed_name": "layered PGE-Au mineralization",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.5
-                }
-            ]
+  "MineralSite": [
+    {
+      "record_id": "021d815ab42768146b121313260e1c3b15714ef7ef597ef121b35f143aafc246bd",
+      "name": "NI 43-101 Technical Report for the Tamarack South Project in Minnesota, United States dated 2018.pdf",
+      "location_info": {
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "extracted_value": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "extracted_value": "Minnesota",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Tamarack South Project in Minnesota, United States dated 2018.pdf",
+              "authors": [
+                "James McDonald"
+              ],
+              "year": 2018,
+              "month": 12,
+              "description": "The report provides an initial disclosure of geology for the Tamarack South Project, including details on drilling data, geophysical surveys, geological setting, and exploration recommendations highlighting the presence of potential Ni-Cu-PGE deposits.",
+              "url": "https://api.cdr.land/v1/docs/documents/021d815ab42768146b121313260e1c3b15714ef7ef597ef121b35f143aafc246bd"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "magmatic Ni-Cu-PGE sulphide mineralization",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q476",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "layered PGE-Au mineralization",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        }
+      ],
+      "source_id": "https://api.cdr.land/v1/docs/documents/"
+    }
+  ]
 }

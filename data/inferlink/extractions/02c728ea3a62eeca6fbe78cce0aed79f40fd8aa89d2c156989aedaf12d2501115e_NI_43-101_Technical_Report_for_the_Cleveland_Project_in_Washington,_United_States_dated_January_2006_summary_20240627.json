@@ -1,77 +1,78 @@
 {
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents/",
-            "record_id": "02c728ea3a62eeca6fbe78cce0aed79f40fd8aa89d2c156989aedaf12d2501115e",
-            "name": "NI 43-101 Technical Report for the Cleveland Project in Washington, United States dated January 2006.pdf",
-            "location_info": {
-                "location": "POINT(-118.02771 48.11673)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-                    "extracted_value": "USA",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q6901",
-                    "extracted_value": "Washington",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q510",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Cleveland Project in Washington, United States dated January 2006.pdf",
-                            "authors": [
-                                "Fritz E. Wolff",
-                                "Donald T. McKay, Jr.",
-                                "David K. Norman"
-                            ],
-                            "year": 2006,
-                            "month": 1,
-                            "description": "A technical report assessing the geology, historic mining activities, and environmental impact of the Cleveland mine in Stevens County, Washington."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "proterozoic_metasediment_hosted",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "fault_related",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "sulfide_mineralization",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "diabase_dikes_associated",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                }
-            ]
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents/",
+      "record_id": "02c728ea3a62eeca6fbe78cce0aed79f40fd8aa89d2c156989aedaf12d2501115e",
+      "name": "NI 43-101 Technical Report for the Cleveland Project in Washington, United States dated January 2006.pdf",
+      "location_info": {
+        "location": "POINT(-118.02771 48.11673)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "extracted_value": "USA",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6901",
+          "extracted_value": "Washington",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q510",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Cleveland Project in Washington, United States dated January 2006.pdf",
+              "authors": [
+                "Fritz E. Wolff",
+                "Donald T. McKay, Jr.",
+                "David K. Norman"
+              ],
+              "year": 2006,
+              "month": 1,
+              "description": "A technical report assessing the geology, historic mining activities, and environmental impact of the Cleveland mine in Stevens County, Washington.",
+              "url": "https://api.cdr.land/v1/docs/documents/02c728ea3a62eeca6fbe78cce0aed79f40fd8aa89d2c156989aedaf12d2501115e"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "proterozoic_metasediment_hosted",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "fault_related",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "sulfide_mineralization",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "diabase_dikes_associated",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        }
+      ]
+    }
+  ]
 }

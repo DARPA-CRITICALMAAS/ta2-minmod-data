@@ -1,76 +1,77 @@
 {
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents/",
-            "record_id": "0222114819b041a0479576e5395ab22e61c67b029cb384c634f20bfae0c95248fa",
-            "name": "NI 43-101 Technical Report for the Other North Range Project in North America dated March 2016.pdf",
-            "location_info": {
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "extracted_value": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-                    "extracted_value": "Ontario",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q601",
-                            "extracted_value": "platinum",
-                            "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Other North Range Project in North America dated March 2016.pdf",
-                            "authors": [
-                                "Natalie MacLean"
-                            ],
-                            "year": 2016,
-                            "month": 3,
-                            "description": "This technical report summarizes exploration results and makes recommendations for further work on the North Range Properties, part of the North Range Joint Venture, in Sudbury, Ontario, involving platinum, palladium, copper, nickel, and gold exploration."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Contact deposits",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "Footwall deposits",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "Offset dyke deposits",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "Structurally and/or hydrothermally remobilized deposits",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "Hybrid type deposits",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                }
-            ]
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents/",
+      "record_id": "0222114819b041a0479576e5395ab22e61c67b029cb384c634f20bfae0c95248fa",
+      "name": "NI 43-101 Technical Report for the Other North Range Project in North America dated March 2016.pdf",
+      "location_info": {
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "extracted_value": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q601",
+            "extracted_value": "platinum",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Other North Range Project in North America dated March 2016.pdf",
+              "authors": [
+                "Natalie MacLean"
+              ],
+              "year": 2016,
+              "month": 3,
+              "description": "This technical report summarizes exploration results and makes recommendations for further work on the North Range Properties, part of the North Range Joint Venture, in Sudbury, Ontario, involving platinum, palladium, copper, nickel, and gold exploration.",
+              "url": "https://api.cdr.land/v1/docs/documents/0222114819b041a0479576e5395ab22e61c67b029cb384c634f20bfae0c95248fa"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Contact deposits",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Footwall deposits",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Offset dyke deposits",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Structurally and/or hydrothermally remobilized deposits",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Hybrid type deposits",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        }
+      ]
+    }
+  ]
 }

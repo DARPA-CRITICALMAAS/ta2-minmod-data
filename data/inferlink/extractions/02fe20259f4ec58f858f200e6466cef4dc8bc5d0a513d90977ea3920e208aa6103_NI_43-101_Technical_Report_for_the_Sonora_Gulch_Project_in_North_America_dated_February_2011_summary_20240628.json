@@ -1,105 +1,106 @@
 {
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents/",
-            "record_id": "02fe20259f4ec58f858f200e6466cef4dc8bc5d0a513d90977ea3920e208aa6103",
-            "name": "NI 43-101 Technical Report for the Sonora Gulch Project in North America dated February 2011.pdf",
-            "location_info": {
-                "location": "POINT(-138.0333 62.6500)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "extracted_value": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-                    "extracted_value": "Yukon",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Sonora Gulch Project in North America dated February 2011.pdf",
-                            "authors": [
-                                "Robert H. Page"
-                            ],
-                            "year": 2011,
-                            "month": 2,
-                            "description": "This report is a National Instrument 43-101 compliant technical review of the Sonora Gulch property prepared by Watt, Griffis and McOuat Limited for Northern Tiger Resources Inc., detailing exploration activities and findings from 2008 through 2010."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "porphyry copper",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                },
-                {
-                    "observed_name": "endoskarn",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                },
-                {
-                    "observed_name": "exoskarn",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q446",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                },
-                {
-                    "observed_name": "replacement deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q437",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                },
-                {
-                    "observed_name": "epithermal gold deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q416",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                },
-                {
-                    "observed_name": "vein-style lead-zinc-silver deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q392",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                },
-                {
-                    "observed_name": "orogenic gold",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q388",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                },
-                {
-                    "observed_name": "Brewery Creek type",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                },
-                {
-                    "observed_name": "quartz stock works",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q464",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.1111111111111111
-                }
-            ]
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents/",
+      "record_id": "02fe20259f4ec58f858f200e6466cef4dc8bc5d0a513d90977ea3920e208aa6103",
+      "name": "NI 43-101 Technical Report for the Sonora Gulch Project in North America dated February 2011.pdf",
+      "location_info": {
+        "location": "POINT(-138.0333 62.6500)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "extracted_value": "Yukon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Sonora Gulch Project in North America dated February 2011.pdf",
+              "authors": [
+                "Robert H. Page"
+              ],
+              "year": 2011,
+              "month": 2,
+              "description": "This report is a National Instrument 43-101 compliant technical review of the Sonora Gulch property prepared by Watt, Griffis and McOuat Limited for Northern Tiger Resources Inc., detailing exploration activities and findings from 2008 through 2010.",
+              "url": "https://api.cdr.land/v1/docs/documents/02fe20259f4ec58f858f200e6466cef4dc8bc5d0a513d90977ea3920e208aa6103"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "porphyry copper",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        },
+        {
+          "observed_name": "endoskarn",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        },
+        {
+          "observed_name": "exoskarn",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q446",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        },
+        {
+          "observed_name": "replacement deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q437",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        },
+        {
+          "observed_name": "epithermal gold deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q416",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        },
+        {
+          "observed_name": "vein-style lead-zinc-silver deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q392",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        },
+        {
+          "observed_name": "orogenic gold",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q388",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        },
+        {
+          "observed_name": "Brewery Creek type",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        },
+        {
+          "observed_name": "quartz stock works",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q464",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.1111111111111111
+        }
+      ]
+    }
+  ]
 }

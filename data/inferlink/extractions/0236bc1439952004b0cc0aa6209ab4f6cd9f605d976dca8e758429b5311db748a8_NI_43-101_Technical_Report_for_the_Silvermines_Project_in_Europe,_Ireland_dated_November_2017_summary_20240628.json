@@ -1,76 +1,77 @@
 {
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents/",
-            "record_id": "0236bc1439952004b0cc0aa6209ab4f6cd9f605d976dca8e758429b5311db748a8",
-            "name": "NI 43-101 Technical Report for the Silvermines Project in Europe, Ireland dated November 2017.pdf",
-            "location_info": {
-                "location": "POINT(-8.157851 52.845537)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1105",
-                    "extracted_value": "Ireland",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q3199",
-                    "extracted_value": "County Tipperary",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Silvermines Project in Europe, Ireland dated November 2017.pdf",
-                            "authors": [
-                                "John G. Kelly",
-                                "Paul Gordon"
-                            ],
-                            "year": 2017,
-                            "month": 11,
-                            "description": "This report provides an independent review and technical assessment of the Silvermines base metal exploration project in County Tipperary, Ireland, emphasizing the project's considerable technical merit and recommending further exploration work."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Irish-type zinc-lead deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q378",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Sedimentary-hosted exhalative mineralization deposits (SEDEX)",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Basal Carboniferous Cu+Ag\u00b1(Hg) Deposits",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Carbonate-hosted copper-silver deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q374",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                }
-            ]
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents/",
+      "record_id": "0236bc1439952004b0cc0aa6209ab4f6cd9f605d976dca8e758429b5311db748a8",
+      "name": "NI 43-101 Technical Report for the Silvermines Project in Europe, Ireland dated November 2017.pdf",
+      "location_info": {
+        "location": "POINT(-8.157851 52.845537)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1105",
+          "extracted_value": "Ireland",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3199",
+          "extracted_value": "County Tipperary",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Silvermines Project in Europe, Ireland dated November 2017.pdf",
+              "authors": [
+                "John G. Kelly",
+                "Paul Gordon"
+              ],
+              "year": 2017,
+              "month": 11,
+              "description": "This report provides an independent review and technical assessment of the Silvermines base metal exploration project in County Tipperary, Ireland, emphasizing the project's considerable technical merit and recommending further exploration work.",
+              "url": "https://api.cdr.land/v1/docs/documents/0236bc1439952004b0cc0aa6209ab4f6cd9f605d976dca8e758429b5311db748a8"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Irish-type zinc-lead deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q378",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Sedimentary-hosted exhalative mineralization deposits (SEDEX)",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Basal Carboniferous Cu+Ag±(Hg) Deposits",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Carbonate-hosted copper-silver deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        }
+      ]
+    }
+  ]
 }

@@ -1,63 +1,64 @@
 {
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents/",
-            "record_id": "0266e9272ad2a7f6b36fe18b7172d7555910667ece8c786afb12c976b4da7863ec",
-            "name": "NI 43-101 Technical Report for the Redonda project in Canada dated March, 2022.pdf",
-            "location_info": {
-                "location": "POINT(-124.9222 50.283333)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "extracted_value": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-                    "extracted_value": "British Columbia",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Redonda project in Canada dated March, 2022.pdf",
-                            "authors": [
-                                "W.B. Lennan"
-                            ],
-                            "year": 2022,
-                            "month": 3,
-                            "description": "A technical report documenting the exploration and evaluation of the Redonda Property on West Redonda Island, BC, including geological findings, historical data, and recommendations for future exploration."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "porphyry copper",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.5
-                },
-                {
-                    "observed_name": "iron skarns",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q445",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.5
-                }
-            ]
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents/",
+      "record_id": "0266e9272ad2a7f6b36fe18b7172d7555910667ece8c786afb12c976b4da7863ec",
+      "name": "NI 43-101 Technical Report for the Redonda project in Canada dated March, 2022.pdf",
+      "location_info": {
+        "location": "POINT(-124.9222 50.283333)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "extracted_value": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Redonda project in Canada dated March, 2022.pdf",
+              "authors": [
+                "W.B. Lennan"
+              ],
+              "year": 2022,
+              "month": 3,
+              "description": "A technical report documenting the exploration and evaluation of the Redonda Property on West Redonda Island, BC, including geological findings, historical data, and recommendations for future exploration.",
+              "url": "https://api.cdr.land/v1/docs/documents/0266e9272ad2a7f6b36fe18b7172d7555910667ece8c786afb12c976b4da7863ec"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "porphyry copper",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "iron skarns",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q445",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
 }

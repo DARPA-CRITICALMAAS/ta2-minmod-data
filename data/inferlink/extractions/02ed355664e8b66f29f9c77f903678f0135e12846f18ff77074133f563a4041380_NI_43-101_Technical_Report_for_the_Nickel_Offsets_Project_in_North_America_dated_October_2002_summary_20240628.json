@@ -1,71 +1,71 @@
 {
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents/",
-            "record_id": "02ed355664e8b66f29f9c77f903678f0135e12846f18ff77074133f563a4041380",
-            "name": "NI 43-101 Technical Report for the Nickel Offsets Project in North America dated October 2002.pdf",
-            "location_info": {
-                "location": "POINT(-81.0167 46.4919)",
-                "crs": {
-                    
-"normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                        "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "extracted_value": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-                    "extracted_value": "Ontario",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Nickel Offsets Project in North America dated October 2002.pdf",
-                            "authors": [
-                                "Felix Lee",
-                                "Dino Titaro"
-                            ],
-                            "year": 2002,
-                            "month": 10,
-                            "description": "A geological report assessing the Nickel Offsets property in Sudbury, Ontario, Canada, for its potential for PGE, nickel, and copper mineralization, and proposing an exploration program."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Contact deposits",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                },
-                {
-                    "observed_name": "Footwall deposits",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                },
-                {
-                    "observed_name": "Offset Dike deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q379",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                }
-            ]
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents/",
+      "record_id": "02ed355664e8b66f29f9c77f903678f0135e12846f18ff77074133f563a4041380",
+      "name": "NI 43-101 Technical Report for the Nickel Offsets Project in North America dated October 2002.pdf",
+      "location_info": {
+        "location": "POINT(-81.0167 46.4919)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "extracted_value": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Nickel Offsets Project in North America dated October 2002.pdf",
+              "authors": [
+                "Felix Lee",
+                "Dino Titaro"
+              ],
+              "year": 2002,
+              "month": 10,
+              "description": "A geological report assessing the Nickel Offsets property in Sudbury, Ontario, Canada, for its potential for PGE, nickel, and copper mineralization, and proposing an exploration program.",
+              "url": "https://api.cdr.land/v1/docs/documents/02ed355664e8b66f29f9c77f903678f0135e12846f18ff77074133f563a4041380"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Contact deposits",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "Footwall deposits",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "Offset Dike deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q379",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        }
+      ]
+    }
+  ]
 }

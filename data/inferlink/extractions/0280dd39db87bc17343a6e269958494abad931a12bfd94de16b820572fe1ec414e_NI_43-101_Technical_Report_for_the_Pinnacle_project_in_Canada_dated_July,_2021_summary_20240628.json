@@ -1,57 +1,58 @@
 {
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents/",
-            "record_id": "0280dd39db87bc17343a6e269958494abad931a12bfd94de16b820572fe1ec414e",
-            "name": "NI 43-101 Technical Report for the Pinnacle project in Canada dated July, 2021.pdf",
-            "location_info": {
-                "location": "POINT(-124.25 54.65)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "extracted_value": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-                    "extracted_value": "British Columbia",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Pinnacle project in Canada dated July, 2021.pdf",
-                            "authors": [
-                                "Richard J. Haslinger"
-                            ],
-                            "year": 2021,
-                            "month": 7,
-                            "description": "This report summarizes technical information related to the Pinnacle Project, detailing potential copper-gold porphyry deposits, exploration history, present conditions, and future exploration recommendations."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Porphyry Copper-Gold Deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 1.0
-                }
-            ]
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents/",
+      "record_id": "0280dd39db87bc17343a6e269958494abad931a12bfd94de16b820572fe1ec414e",
+      "name": "NI 43-101 Technical Report for the Pinnacle project in Canada dated July, 2021.pdf",
+      "location_info": {
+        "location": "POINT(-124.25 54.65)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "extracted_value": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Pinnacle project in Canada dated July, 2021.pdf",
+              "authors": [
+                "Richard J. Haslinger"
+              ],
+              "year": 2021,
+              "month": 7,
+              "description": "This report summarizes technical information related to the Pinnacle Project, detailing potential copper-gold porphyry deposits, exploration history, present conditions, and future exploration recommendations.",
+              "url": "https://api.cdr.land/v1/docs/documents/0280dd39db87bc17343a6e269958494abad931a12bfd94de16b820572fe1ec414e"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Porphyry Copper-Gold Deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+          "source": "Inferlink Extraction v2",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
 }

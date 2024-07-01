@@ -1,70 +1,71 @@
 {
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents/",
-            "record_id": "02a9cbc4b0b6e3c282c124f66b7bf51576829b355a5488f86a8a2358060d2fd0b4",
-            "name": "NI 43-101 Technical Report for the Halls Creek Project in Australasia dated 2003.pdf",
-            "location_info": {
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
-                    "extracted_value": "Australia",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2213",
-                    "extracted_value": "Western Australia",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-"normalized_uri": "https://minmod.isi.edu/resource/Q551",
-                            "extracted_value": "gold",
-                            "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Halls Creek Project in Australasia dated 2003.pdf",
-                            "authors": [
-                                "Simon Paul Attwell"
-                            ],
-                            "year": 2003,
-                            "month": 12,
-                            "description": "A technical report detailing the geology and mineral potential of tenements held by Aldershot Resources Ltd within the Palaeoproterozoic Halls Creek Orogen of the East Kimberley region of Western Australia."
-                        }
-                    }
-                }
-            ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Nickel - Copper Sulphide Deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q477",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Gold Deposit Types",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q436",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Platinum Group Elements (PGE) Deposit Types",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Diamond Deposit Types",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q309",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                }
-            ]
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents/",
+      "record_id": "02a9cbc4b0b6e3c282c124f66b7bf51576829b355a5488f86a8a2358060d2fd0b4",
+      "name": "NI 43-101 Technical Report for the Halls Creek Project in Australasia dated 2003.pdf",
+      "location_info": {
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
+          "extracted_value": "Australia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2213",
+          "extracted_value": "Western Australia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         }
-    ]
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+            "extracted_value": "gold",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Halls Creek Project in Australasia dated 2003.pdf",
+              "authors": [
+                "Simon Paul Attwell"
+              ],
+              "year": 2003,
+              "month": 12,
+              "description": "A technical report detailing the geology and mineral potential of tenements held by Aldershot Resources Ltd within the Palaeoproterozoic Halls Creek Orogen of the East Kimberley region of Western Australia.",
+              "url": "https://api.cdr.land/v1/docs/documents/02a9cbc4b0b6e3c282c124f66b7bf51576829b355a5488f86a8a2358060d2fd0b4"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Nickel - Copper Sulphide Deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q477",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Gold Deposit Types",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q436",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Platinum Group Elements (PGE) Deposit Types",
+          "normalized_uri": "",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Diamond Deposit Types",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q309",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        }
+      ]
+    }
+  ]
 }
