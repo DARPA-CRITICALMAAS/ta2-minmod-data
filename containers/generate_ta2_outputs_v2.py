@@ -6,7 +6,7 @@ import requests
 
 # -------- main --------------
 # endpoint = "http://dolphin.local:8000"
-endpoint = "https://minmod.isi.edu/api/v1/"
+endpoint = "https://minmod.isi.edu/api/v1"
 
 
 def main(args):
@@ -18,6 +18,7 @@ def main(args):
     resp = requests.get(
         f"{endpoint}/mineral_site_grade_and_tonnage/{commodity}",
         headers={"Accept": "text/csv"},
+        verify=False,  # Set to False to bypass SSL verification as per the '-k' in curl
     )
     if resp.status_code != 200:
         raise Exception(
@@ -33,6 +34,7 @@ def main(args):
     resp = requests.get(
         f"{endpoint}/mineral_site_deposit_types/{commodity}",
         headers={"Accept": "text/csv"},
+        verify=False,  # Set to False to bypass SSL verification as per the '-k' in curl
     )
     if resp.status_code != 200:
         raise Exception(
@@ -49,6 +51,7 @@ def main(args):
     resp = requests.get(
         f"{endpoint}/mineral_site_location/{commodity}",
         headers={"Accept": "text/csv"},
+        verify=False,  # Set to False to bypass SSL verification as per the '-k' in curl
     )
     if resp.status_code != 200:
         raise Exception(
@@ -63,6 +66,7 @@ def main(args):
     resp = requests.get(
         f"{endpoint}/hyper_mineral_sites/{commodity}",
         headers={"Accept": "text/csv"},
+        verify=False,  # Set to False to bypass SSL verification as per the '-k' in curl
     )
     if resp.status_code != 200:
         raise Exception(
