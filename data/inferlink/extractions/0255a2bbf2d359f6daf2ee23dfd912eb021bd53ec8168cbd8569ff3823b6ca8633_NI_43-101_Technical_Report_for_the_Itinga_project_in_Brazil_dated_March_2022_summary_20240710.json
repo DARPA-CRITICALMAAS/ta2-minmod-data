@@ -1,0 +1,78 @@
+{
+    "MineralSite": [
+        {
+            "source_id": "https://api.cdr.land/v1/docs/documents",
+            "record_id": "0255a2bbf2d359f6daf2ee23dfd912eb021bd53ec8168cbd8569ff3823b6ca8633",
+            "name": "NI 43-101 Technical Report for the Itinga project in Brazil dated March, 2022.pdf",
+            "location_info": {
+                "location": "MULTIPOINT(-41.1239 -16.6167)",
+                "crs": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+                    "extracted_value": "WGS84",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "country": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q1030",
+                    "extracted_value": "Brazil",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                },
+                "state_or_province": {
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q2497",
+                    "extracted_value": "Minas Gerais",
+                    "confidence": 1,
+                    "source": "Inferlink Extraction v2"
+                }
+            },
+            "mineral_inventory": [
+                {
+                    "commodity": {
+                        "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+                        "extracted_value": "lithium",
+                        "confidence": 1,
+                        "source": "Inferlink Extraction v2"
+                    },
+                    "reference": {
+                        "document": {
+                            "title": "NI 43-101 Technical Report for the Itinga project in Brazil dated March, 2022.pdf",
+                            "authors": [
+                                "Leonardo Soares"
+                            ],
+                            "year": 2022,
+                            "month": 3,
+                            "description": "This technical report provides an independent evaluation of the Itinga Project, a lithium exploration and prospective mining operation in Minas Gerais, Brazil, prepared on behalf of Lithium Ionic Inc. to support a proposed reverse takeover transaction.",
+                            "uri": "https://api.cdr.land/v1/docs/documents/0255a2bbf2d359f6daf2ee23dfd912eb021bd53ec8168cbd8569ff3823b6ca8633"
+                        }
+                    }
+                }
+            ],
+            "deposit_type_candidate": [
+                {
+                    "observed_name": "pegmatites",
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q466",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.25
+                },
+                {
+                    "observed_name": "spodumene pegmatites",
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q466",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.25
+                },
+                {
+                    "observed_name": "lepidolite pegmatites",
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q466",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.25
+                },
+                {
+                    "observed_name": "lithium-cesium-tantalum (LCT) type pegmatites",
+                    "normalized_uri": "https://minmod.isi.edu/resource/Q467",
+                    "source": "Inferlink Extraction v2",
+                    "confidence": 0.25
+                }
+            ]
+        }
+    ]
+}
