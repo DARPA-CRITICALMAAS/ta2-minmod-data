@@ -1,0 +1,61 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents",
+      "record_id": "02e12ae434a6a625a2caf77806197bf244c6226eaefbd1613308eeb55833d25c7b",
+      "name": "NI 43-101 Technical Report for the CAP Project in North America dated January 2014.pdf",
+      "location_info": {
+        "location": "POINT(-121.72972 54.39111)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "extracted_value": "EPSG:4326",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "extracted_value": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+            "extracted_value": "niobium",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the CAP Project in North America dated January 2014.pdf",
+              "authors": [
+                "Neil McCallum",
+                "Patrick Kluczny"
+              ],
+              "year": 2014,
+              "month": 1,
+              "description": "This report reviews the exploration potential of the CAP Property northeast of Prince George, British Columbia and provides recommendations for future work.",
+              "uri": "https://api.cdr.land/v1/docs/documents/02e12ae434a6a625a2caf77806197bf244c6226eaefbd1613308eeb55833d25c7b"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Carbonatite-related deposits",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q470",
+          "source": "Inferlink Extraction v2",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents",
+      "record_id": "02a5b15e40c2d9ecab9984430856c7973c944de82d75f64e3b5ba034695e2c7190",
+      "name": "NI 43-101 Technical Report for the Mount Bisson Project in North America dated November 2010.pdf",
+      "location_info": {
+        "location": "POINT(-123.97306 55.54028)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "extracted_value": "EPSG:4326",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "extracted_value": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q618",
+            "extracted_value": "rare earth elements",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mount Bisson Project in North America dated November 2010.pdf",
+              "authors": [
+                "Frederick W. Breaks"
+              ],
+              "year": 2010,
+              "month": 11,
+              "description": "A technical report detailing the geological and mineralogical assessment of the Mount Bisson rare-earth element claim-group in British Columbia, with findings from field investigations and recommendations for future exploration.",
+              "uri": "https://api.cdr.land/v1/docs/documents/02a5b15e40c2d9ecab9984430856c7973c944de82d75f64e3b5ba034695e2c7190"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Cu-W-Ag in mafic intrusive rocks",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Rare-earth mineralized granitic pegmatites (NYF family - Nb-Y-F)",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q468",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "S-type, peraluminous granite and pegmatite hosted in calc-silicate units",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q469",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        },
+        {
+          "observed_name": "Contact skarn mineralization layered with I-type syenite, syenogranite, and trondhjemite",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.25
+        }
+      ]
+    }
+  ]
+}

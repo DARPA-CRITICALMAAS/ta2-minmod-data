@@ -1,0 +1,72 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents",
+      "record_id": "0278f4f752b2cfeb1ec892ec877bb257a865f9fbb76672466894ef2cde140e01e2",
+      "name": "NI 43-101 Technical Report for the Carbo Project in North America dated April 2009.pdf",
+      "location_info": {
+        "location": "POINT(-120.05 54.5)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "extracted_value": "WGS84",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "extracted_value": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q618",
+            "extracted_value": "rare earth elements",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Carbo Project in North America dated April 2009.pdf",
+              "authors": [
+                "Michael Guo"
+              ],
+              "year": 2009,
+              "month": 4,
+              "description": "This is a technical report that assesses the Carbo Property's potential for Niobium and Rare Earth Element mineralization, providing recommendations for further exploration.",
+              "uri": "https://api.cdr.land/v1/docs/documents/0278f4f752b2cfeb1ec892ec877bb257a865f9fbb76672466894ef2cde140e01e2"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "magmatic",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q476",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "metasomatic",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q471",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "supergene",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q329",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        }
+      ]
+    }
+  ]
+}

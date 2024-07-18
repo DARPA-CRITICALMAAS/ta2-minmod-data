@@ -1,0 +1,74 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents",
+      "record_id": "02b1c2cf03f97b6eec7eac558108950872c25ca07ecea7239b87f99cb7fb58555d",
+      "name": "NI 43-101 Technical Report for the Thor Lake Project in North America dated July 2010.pdf",
+      "location_info": {
+        "location": "POINT(-112.591667 62.108333)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "extracted_value": "WGS84",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2658",
+          "extracted_value": "Northwest Territories",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q617",
+            "extracted_value": "zirconium",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Thor Lake Project in North America dated July 2010.pdf",
+              "authors": [
+                "Jason J. Cox",
+                "Christopher Moreton",
+                "John R. Goode",
+                "Donald H. Hains"
+              ],
+              "year": 2010,
+              "month": 7,
+              "description": "A comprehensive geological and technical report on the Thor Lake Project in the Northwest Territories, Canada, detailing aspects of geology, exploration, mineral resources, and mining plans.",
+              "uri": "https://api.cdr.land/v1/docs/documents/02b1c2cf03f97b6eec7eac558108950872c25ca07ecea7239b87f99cb7fb58555d"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "peralkaline intrusion",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q472",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "layered, igneous, peralkaline intrusion",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q472",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        },
+        {
+          "observed_name": "apogranite",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.3333333333333333
+        }
+      ]
+    }
+  ]
+}

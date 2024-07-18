@@ -1,0 +1,65 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents",
+      "record_id": "0275eb375e8e3e41cb470514de07e326a3ed7fd200337d970e447cdde1454cf99b",
+      "name": "NI 43-101 Technical Report for the Mount Bisson Project in North America dated November 2009.pdf",
+      "location_info": {
+        "location": "POINT(-123.9731 55.5403)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "extracted_value": "",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "extracted_value": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q618",
+            "extracted_value": "rare earth elements",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Mount Bisson Project in North America dated November 2009.pdf",
+              "authors": [
+                "Frederick W. Breaks"
+              ],
+              "year": 2009,
+              "month": 11,
+              "description": "This report documents the geology, mineralogy, and economic geology of the Mount Bisson claim-group, focusing on rare-earth element mineralization.",
+              "uri": "https://api.cdr.land/v1/docs/documents/0275eb375e8e3e41cb470514de07e326a3ed7fd200337d970e447cdde1454cf99b"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Cu-W-Ag mineralization in mafic intrusive rocks",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "Rare-earth element mineralization in diverse lithologies",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q470",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}
