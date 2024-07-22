@@ -1,0 +1,83 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents",
+      "record_id": "020548e1aca4c1ca222149e11a79f15bd7594c02eb12163a1793a782fc2ec3619c",
+      "name": "NI 43-101 Technical Report for the Crater Lake project in Canada dated September, 2021.pdf",
+      "location_info": {
+        "location": "POINT(-63.9 55.3333)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "extracted_value": "WGS84",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "extracted_value": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "extracted_value": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q607",
+            "extracted_value": "scandium",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Crater Lake project in Canada dated September, 2021.pdf",
+              "authors": [
+                "Marina Iund",
+                "Paul Daigle",
+                "Carl Pelletier"
+              ],
+              "year": 2021,
+              "month": 9,
+              "description": "This document is a technical report presenting a mineral resource estimate for the Crater Lake project in Canada.",
+              "uri": "https://api.cdr.land/v1/docs/documents/020548e1aca4c1ca222149e11a79f15bd7594c02eb12163a1793a782fc2ec3619c"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "Scandium-REE mineralization",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q470",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Ferro-syenite",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q414",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Olivine Syenite",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Quartz Monzonite",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        },
+        {
+          "observed_name": "Trachytic Syenite",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.2
+        }
+      ]
+    }
+  ]
+}
