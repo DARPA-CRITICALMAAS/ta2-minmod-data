@@ -3,40 +3,47 @@ name: Run Python Script on Pull Request
 on:
   pull_request:
     branches:
-      - main  # change this to your main branch
+      - main # change this to your main branch
 
 jobs:
   run_python_script:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      # check out the repositories
+      - name: Checkout ta2-minmod-kg
+        uses: actions/checkout@v4
         with:
           repository: DARPA-CRITICALMAAS/ta2-minmod-kg
           ref: main
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
+          path: ta2-minmod-kg
+      - name: Checkout ta2-minmod-data
+        uses: actions/checkout@v4
         with:
-          python-version: 3.11  # change this to your desired Python version
+          path: ta2-minmod-data
 
-      - name: Install dependencies
+      # install dependencies
+      - name: setup python
+        uses: actions/setup-python@v3.1.0
+        with:
+          python-version: 3.11
+      - name: install python dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r validators/requirements.txt  # change this if you have dependencies
-
-      - name: Install jitterbit
-        uses: jitterbit/get-changed-files@v1
-        with:
-          format: 'space-delimited'
-
+          cd ta2-minmod-kg
+          pip install .
+      - name: get shacl validator
+        run: |
+          mkdir kgdata
+          cd kgdata
+          wget https://repo1.maven.org/maven2/org/topbraid/shacl/1.4.3/shacl-1.4.3-bin.zip
+          unzip shacl-1.4.3-bin.zip
+          rm shacl-1.4.3-bin.zip
+      # get changed files
       - id: files
         uses: jitterbit/get-changed-files@v1
-      - run: |
-          for changed_file in ${{ steps.files.outputs.all }}; do
-            TEMP_FILE=$(mktemp)
-            python validators/validate_schema_github_actions.py ${changed_file} ${TEMP_FILE} ${{ secrets.BEARER_TOKEN }} ${{ github.event.pull_request.head.ref }}
-          done
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          format: "json"
+      - name: run validator
+        run: |
+          echo '${{ steps.files.outputs.all }}' >> kgdata/changed_files.json
+          python -m minmodkg.validators ./ta2-minmod-data ./kgdata/validators ./kgdata/shacl-1.4.3/bin/shaclvalidate.sh ./kgdata/changed_files.json
