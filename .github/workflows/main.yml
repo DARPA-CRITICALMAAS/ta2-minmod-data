@@ -30,7 +30,7 @@ jobs:
       - name: install python dependencies
         run: |
           cd ta2-minmod-kg
-          pip install .
+          pip install -e .
       - name: get shacl validator
         run: |
           mkdir kgdata
