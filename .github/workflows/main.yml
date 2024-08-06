@@ -21,6 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: ta2-minmod-data
+          lfs: true
 
       # install dependencies
       - name: setup python
@@ -46,7 +47,7 @@ jobs:
       - name: run validator
         run: |
           echo ::group::Save changed files
-          echo '${{ steps.files.outputs.all }}' >> kgdata/changed_files.json
+          echo '${{ steps.files.outputs.all }}' > kgdata/changed_files.json
           echo ::endgroup::
 
           echo ::group::Run validator
