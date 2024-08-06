@@ -45,5 +45,10 @@ jobs:
           format: "json"
       - name: run validator
         run: |
-          echo '${{ steps.files.outputs.all }}' >> kgdata/changed_files.json
+          echo ::group::Save changed files
+          echo '${{ steps.files.outputs.all }}' >> kgdata/changed_files.json'
+          echo ::endgroup::
+
+          echo ::group::Run validator
           python -m minmodkg.validators ./ta2-minmod-data ./kgdata/validators ./kgdata/shacl-1.4.3/bin/shaclvalidate.sh ./kgdata/changed_files.json
+          echo ::endgroup::
