@@ -47,7 +47,7 @@ jobs:
       - name: run validator
         run: |
           echo ::group::Save changed files
-          echo '${{ steps.files.outputs.all }}' > kgdata/changed_files.json
+          echo '${{ steps.files.outputs.added_modified }}' > kgdata/changed_files.json
           echo ::endgroup::
 
           echo ::group::Run validator
