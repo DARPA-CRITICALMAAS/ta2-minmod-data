@@ -1,0 +1,65 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents",
+      "record_id": "025869c41c020ba132ef26fb3f962a52399ab5398eff52b982bd9efe018ffeb36a",
+      "name": "NI 43-101 Technical Report for the Carp Project in North America dated November 2006.pdf",
+      "location_info": {
+        "location": "POINT(-123.173 54.437)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "observed_name": "",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+            "observed_name": "molybdenum",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the Carp Project in North America dated November 2006.pdf",
+              "authors": [
+                "Alojzy Aleksander Walus"
+              ],
+              "year": 2006,
+              "month": 11,
+              "description": "This technical report discusses the geology, mineral potential, and exploration recommendations for the Carp property located in north-central British Columbia, Canada.",
+              "uri": "https://api.cdr.land/v1/docs/documents/025869c41c020ba132ef26fb3f962a52399ab5398eff52b982bd9efe018ffeb36a"
+            }
+          }
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "porphyry molybdenum+/-copper+/-gold",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        },
+        {
+          "observed_name": "nickel-copper sulphides",
+          "source": "Inferlink Extraction v2",
+          "confidence": 0.5
+        }
+      ]
+    }
+  ]
+}
