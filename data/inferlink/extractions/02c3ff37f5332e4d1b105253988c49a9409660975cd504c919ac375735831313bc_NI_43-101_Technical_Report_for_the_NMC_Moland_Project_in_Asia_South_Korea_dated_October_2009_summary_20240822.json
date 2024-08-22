@@ -1,0 +1,101 @@
+{
+  "MineralSite": [
+    {
+      "source_id": "https://api.cdr.land/v1/docs/documents",
+      "record_id": "02c3ff37f5332e4d1b105253988c49a9409660975cd504c919ac375735831313bc",
+      "name": "NI 43-101 Technical Report for the NMC Moland Project in Asia, South Korea dated October 2009.pdf",
+      "location_info": {
+        "location": "POINT(128.072583 37.139574)",
+        "crs": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+          "observed_name": "WGS84",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "country": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
+          "observed_name": "South Korea",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "state_or_province": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5903",
+          "observed_name": "Chungcheongbuk-do",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      },
+      "mineral_inventory": [
+        {
+          "commodity": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+            "observed_name": "molybdenum",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "category": [
+            {
+              "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+              "observed_name": "inferred",
+              "confidence": 1,
+              "source": "Inferlink Extraction v2"
+            }
+          ],
+          "material_form": {
+            "observed_name": "MoS2",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "ore": {
+            "unit": {
+              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+              "observed_name": "tonnes",
+              "confidence": 1,
+              "source": "Inferlink Extraction v2"
+            },
+            "value": 1726299.0
+          },
+          "grade": {
+            "unit": {
+              "observed_name": "%MoS2",
+              "confidence": 1,
+              "source": "Inferlink Extraction v2"
+            },
+            "value": 0.366
+          },
+          "cutoff_grade": {
+            "unit": {
+              "observed_name": "%MoS2",
+              "confidence": 1,
+              "source": "Inferlink Extraction v2"
+            },
+            "value": 0.1
+          },
+          "contained_metal": 6318.2543,
+          "reference": {
+            "document": {
+              "title": "NI 43-101 Technical Report for the NMC Moland Project in Asia, South Korea dated October 2009.pdf",
+              "authors": [
+                "R.S. Middleton"
+              ],
+              "year": 2009,
+              "month": 10,
+              "description": "This technical report summarizes the geology, status of development, ore reserve classification, and capital cost expenditure of the NMC Moland Molybdenum Property in South Korea.",
+              "uri": "https://api.cdr.land/v1/docs/documents/02c3ff37f5332e4d1b105253988c49a9409660975cd504c919ac375735831313bc"
+            }
+          },
+          "date": "2009-10",
+          "zone": "setong adit"
+        }
+      ],
+      "deposit_type_candidate": [
+        {
+          "observed_name": "skarn hosted",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q451",
+          "source": "Inferlink Extraction v2",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}
