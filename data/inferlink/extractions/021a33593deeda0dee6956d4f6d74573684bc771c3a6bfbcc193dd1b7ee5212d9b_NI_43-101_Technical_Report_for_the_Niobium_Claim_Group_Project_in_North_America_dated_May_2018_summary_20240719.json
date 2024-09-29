@@ -1,60 +1,58 @@
-{
-  "MineralSite": [
-    {
-      "source_id": "https://api.cdr.land/v1/docs/documents",
-      "record_id": "021a33593deeda0dee6956d4f6d74573684bc771c3a6bfbcc193dd1b7ee5212d9b",
-      "name": "NI 43-101 Technical Report for the Niobium Claim Group Project in North America dated May 2018.pdf",
-      "location_info": {
-        "location": "POINT(-68.7 56.9)",
-        "crs": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-          "observed_name": "WGS84",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-          "observed_name": "Canada",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-          "observed_name": "Quebec",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "021a33593deeda0dee6956d4f6d74573684bc771c3a6bfbcc193dd1b7ee5212d9b",
+    "name": "NI 43-101 Technical Report for the Niobium Claim Group Project in North America dated May 2018.pdf",
+    "location_info": {
+      "location": "POINT(-68.7 56.9)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "WGS84",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
       },
-      "mineral_inventory": [
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobium Claim Group Project in North America dated May 2018.pdf",
-              "authors": [
-                "Alex W. Knox"
-              ],
-              "year": 2018,
-              "month": 5,
-              "description": "An independent technical report detailing the geological and mineral exploration activities on the Niobium Claim Group Property in northern Quebec, Canada.",
-              "uri": "https://api.cdr.land/v1/docs/documents/021a33593deeda0dee6956d4f6d74573684bc771c3a6bfbcc193dd1b7ee5212d9b"
-            }
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "observed_name": "Canada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+        "observed_name": "Quebec",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobium Claim Group Project in North America dated May 2018.pdf",
+            "authors": [
+              "Alex W. Knox"
+            ],
+            "year": 2018,
+            "month": 5,
+            "description": "An independent technical report detailing the geological and mineral exploration activities on the Niobium Claim Group Property in northern Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021a33593deeda0dee6956d4f6d74573684bc771c3a6bfbcc193dd1b7ee5212d9b"
           }
         }
-      ],
-      "deposit_type_candidate": [
-        {
-          "observed_name": "Fluvial placer niobium- tantalum",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q306",
-          "source": "Inferlink Extraction v2",
-          "confidence": 1.0
-        }
-      ]
-    }
-  ]
-}
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Fluvial placer niobium- tantalum",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q306",
+        "source": "Inferlink Extraction v2",
+        "confidence": 1.0
+      }
+    ]
+  }
+]

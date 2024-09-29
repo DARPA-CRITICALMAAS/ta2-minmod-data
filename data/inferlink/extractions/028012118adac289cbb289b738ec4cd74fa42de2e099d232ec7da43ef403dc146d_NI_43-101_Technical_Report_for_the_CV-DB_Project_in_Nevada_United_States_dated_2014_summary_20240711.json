@@ -1,59 +1,57 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "028012118adac289cbb289b738ec4cd74fa42de2e099d232ec7da43ef403dc146d",
-            "name": "NI 43-101 Technical Report for the CV-DB Project in Nevada, United States dated 2014.pdf",
-            "location_info": {
-                "location": "POINT(-117.583333 37.733333)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "observed_name": "",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-                    "observed_name": "United States",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-                    "observed_name": "Nevada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-                        "observed_name": "lithium",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the CV-DB Project in Nevada, United States dated 2014.pdf",
-                            "authors": [
-                                "William Feyerabend"
-                            ],
-                            "year": 2014,
-                            "month": 12,
-                            "description": "A detailed NI 43-101 compliant technical report prepared for Pure Energy Minerals Ltd., providing an update on the CV/DB lithium claim group in Esmeralda County, Nevada, covering geology, sampling, drilling, and proposed exploration plans.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/028012118adac289cbb289b738ec4cd74fa42de2e099d232ec7da43ef403dc146d"
-                        }
-                    }
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "028012118adac289cbb289b738ec4cd74fa42de2e099d232ec7da43ef403dc146d",
+    "name": "NI 43-101 Technical Report for the CV-DB Project in Nevada, United States dated 2014.pdf",
+    "location_info": {
+      "location": "POINT(-117.583333 37.733333)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+        "observed_name": "United States",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+        "observed_name": "Nevada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the CV-DB Project in Nevada, United States dated 2014.pdf",
+            "authors": [
+              "William Feyerabend"
             ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Clayton Valley Lithium Brine",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 1.0
-                }
-            ]
+            "year": 2014,
+            "month": 12,
+            "description": "A detailed NI 43-101 compliant technical report prepared for Pure Energy Minerals Ltd., providing an update on the CV/DB lithium claim group in Esmeralda County, Nevada, covering geology, sampling, drilling, and proposed exploration plans.",
+            "uri": "https://api.cdr.land/v1/docs/documents/028012118adac289cbb289b738ec4cd74fa42de2e099d232ec7da43ef403dc146d"
+          }
         }
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Clayton Valley Lithium Brine",
+        "source": "Inferlink Extraction v2",
+        "confidence": 1.0
+      }
     ]
-}
+  }
+]

@@ -1,73 +1,71 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "020c8231166a41a9eaa03f0424ccf16d988b25d1affb13062dc329da1be3d0b877",
-            "name": "NI 43-101 Technical Report for the Eagle Rock Project in North America dated October 2011.pdf",
-            "location_info": {
-                "location": "POINT(92.656389 49.210000)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "observed_name": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-                    "observed_name": "Ontario",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-                        "observed_name": "gold",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Eagle Rock Project in North America dated October 2011.pdf",
-                            "authors": [
-                                "Todd McCracken",
-                                "Laura Karrei"
-                            ],
-                            "year": 2011,
-                            "month": 10,
-                            "description": "The report provides a technical evaluation of the Eagle Rock Project in Northwestern Ontario, summarizing land tenures, exploration history, drilling results, and offering recommendations and budgets for further exploration.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/020c8231166a41a9eaa03f0424ccf16d988b25d1affb13062dc329da1be3d0b877"
-                        }
-                    },
-                    "category": []
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "020c8231166a41a9eaa03f0424ccf16d988b25d1affb13062dc329da1be3d0b877",
+    "name": "NI 43-101 Technical Report for the Eagle Rock Project in North America dated October 2011.pdf",
+    "location_info": {
+      "location": "POINT(92.656389 49.210000)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "observed_name": "Canada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+        "observed_name": "Ontario",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagle Rock Project in North America dated October 2011.pdf",
+            "authors": [
+              "Todd McCracken",
+              "Laura Karrei"
             ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Copper-nickel-PGE sulphide in sanukitoid formations",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                },
-                {
-                    "observed_name": "Boninite family",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                },
-                {
-                    "observed_name": "Siliceous High Magnesium Basalt (SHMB)",
-                    "normalized_uri": "",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                }
-            ]
-        }
+            "year": 2011,
+            "month": 10,
+            "description": "The report provides a technical evaluation of the Eagle Rock Project in Northwestern Ontario, summarizing land tenures, exploration history, drilling results, and offering recommendations and budgets for further exploration.",
+            "uri": "https://api.cdr.land/v1/docs/documents/020c8231166a41a9eaa03f0424ccf16d988b25d1affb13062dc329da1be3d0b877"
+          }
+        },
+        "category": []
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Copper-nickel-PGE sulphide in sanukitoid formations",
+        "normalized_uri": "",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Boninite family",
+        "normalized_uri": "",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Siliceous High Magnesium Basalt (SHMB)",
+        "normalized_uri": "",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.3333333333333333
+      }
     ]
-}
+  }
+]

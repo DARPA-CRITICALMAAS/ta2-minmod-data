@@ -1,65 +1,63 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "02beef9783e08e62b4eecba7c358188176b4461b4f2a4ead152906d5e987b1a1c9",
-            "name": "NI 43-101 Technical Report for the Dungate Project in Canada dated 2019.pdf",
-            "location_info": {
-                "location": "POINT(-126.565000 54.369722)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "observed_name": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-                    "observed_name": "British Columbia",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Dungate Project in Canada dated 2019.pdf",
-                            "authors": [
-                                "B.L. Laird"
-                            ],
-                            "year": 2019,
-                            "month": 11,
-                            "description": "This document is a technical report on the Dungate Project located in central British Columbia, prepared in accordance with the standards of NI 43-101, focusing on geological mapping, prospecting, and recommendations for further exploration.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/02beef9783e08e62b4eecba7c358188176b4461b4f2a4ead152906d5e987b1a1c9"
-                        }
-                    },
-                    "category": []
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "02beef9783e08e62b4eecba7c358188176b4461b4f2a4ead152906d5e987b1a1c9",
+    "name": "NI 43-101 Technical Report for the Dungate Project in Canada dated 2019.pdf",
+    "location_info": {
+      "location": "POINT(-126.565000 54.369722)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "observed_name": "Canada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+        "observed_name": "British Columbia",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Dungate Project in Canada dated 2019.pdf",
+            "authors": [
+              "B.L. Laird"
             ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Porphyry Calc-alkalic",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.5
-                },
-                {
-                    "observed_name": "Porphyry Related Epithermal",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.5
-                }
-            ]
-        }
+            "year": 2019,
+            "month": 11,
+            "description": "This document is a technical report on the Dungate Project located in central British Columbia, prepared in accordance with the standards of NI 43-101, focusing on geological mapping, prospecting, and recommendations for further exploration.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02beef9783e08e62b4eecba7c358188176b4461b4f2a4ead152906d5e987b1a1c9"
+          }
+        },
+        "category": []
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Porphyry Calc-alkalic",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "Porphyry Related Epithermal",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.5
+      }
     ]
-}
+  }
+]

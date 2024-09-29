@@ -1,1339 +1,1337 @@
-{
-  "MineralSite": [
-    {
-      "source_id": "https://api.cdr.land/v1/docs/documents",
-      "record_id": "022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9",
-      "name": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-      "location_info": {
-        "location": "POINT(-71.0667 48.5833)",
-        "crs": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-          "observed_name": "WGS84",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-          "observed_name": "Canada",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-          "observed_name": "Quebec",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9",
+    "name": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+    "location_info": {
+      "location": "POINT(-71.0667 48.5833)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "WGS84",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
       },
-      "mineral_inventory": [
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-              "observed_name": "measured",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 1405000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.51
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 7165.5,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 1"
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "observed_name": "Canada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+        "observed_name": "Quebec",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-              "observed_name": "measured",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 3203000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.56
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 17936.8,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-              "observed_name": "measured",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 5694000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.6
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 34164.0,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 3"
+          "value": 1405000.0
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-              "observed_name": "indicated",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 11747000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.59
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.35
-          },
-          "contained_metal": 69307.3,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 4"
+          "value": 0.51
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "observed_name": "proven",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 1405000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.51
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 7165.5,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 1"
+          "value": 0.46
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "observed_name": "proven",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 3203000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.56
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 17936.8,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 2"
+        "contained_metal": 7165.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "observed_name": "proven",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 5694000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.6
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 34164.0,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 3"
+        "date": "2009-2",
+        "zone": "block 1"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-              "observed_name": "probable",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 11747000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.59
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.35
-          },
-          "contained_metal": 69307.3,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 4"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-              "observed_name": "measured",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "value": 11367.0
-          },
-          "grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.58
-          },
-          "contained_metal": 65.9286,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2"
+          "value": 3203000.0
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-              "observed_name": "probable",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "value": 12133.0
-          },
-          "grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.59
-          },
-          "contained_metal": 71.5847,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2"
+          "value": 0.56
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "observed_name": "proven",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "value": 11367.0
-          },
-          "grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.58
-          },
-          "contained_metal": 65.9286,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2"
+          "value": 0.46
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-              "observed_name": "probable",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "value": 12133.0
-          },
-          "grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.59
-          },
-          "contained_metal": 71.5847,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2"
+        "contained_metal": 17936.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-              "observed_name": "measured",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 1405000.0
-          },
-          "grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.51
-          },
-          "cutoff_grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.35
-          },
-          "contained_metal": 7165.5,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 1"
+        "date": "2009-2",
+        "zone": "block 2"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-              "observed_name": "measured",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 3203000.0
-          },
-          "grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.56
-          },
-          "cutoff_grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.35
-          },
-          "contained_metal": 17936.8,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-              "observed_name": "measured",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 5694000.0
-          },
-          "grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.6
-          },
-          "cutoff_grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.35
-          },
-          "contained_metal": 34164.0,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 3"
+          "value": 5694000.0
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-              "observed_name": "measured",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 1065000.0
-          },
-          "grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.64
-          },
-          "cutoff_grade": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "observed_name": "%",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.35
-          },
-          "contained_metal": 6816.0,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 4"
+          "value": 0.6
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-              "observed_name": "probable",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 11747000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.59
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.35
-          },
-          "contained_metal": 69307.3,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 4"
+          "value": 0.46
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-              "observed_name": "probable",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 385000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.57
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.35
-          },
-          "contained_metal": 2194.5,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 5"
+        "contained_metal": 34164.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "observed_name": "proven",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 1405000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.51
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 7165.5,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 1"
+        "date": "2009-2",
+        "zone": "block 3"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "observed_name": "proven",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 3203000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.56
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 17936.8,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "observed_name": "proven",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 5694000.0
-          },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.6
-          },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
-          },
-          "contained_metal": 34164.0,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
-          },
-          "date": "2009-2",
-          "zone": "block 3"
+          "value": 11747000.0
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-            "observed_name": "niobium",
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "observed_name": "proven+probable",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-              "observed_name": "proven+probable",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            }
-          ],
-          "material_form": {
-            "observed_name": "Nb2O5",
+          "value": 0.59
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
             "confidence": 1,
             "source": "Inferlink Extraction v2"
           },
-          "ore": {
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-              "observed_name": "000 tonnes",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 23500000.0
+          "value": 0.35
+        },
+        "contained_metal": 69307.3,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 4"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
           },
-          "grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.59
+          "value": 1405000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
           },
-          "cutoff_grade": {
-            "unit": {
-              "observed_name": "% Nb2O5",
-              "confidence": 1,
-              "source": "Inferlink Extraction v2"
-            },
-            "value": 0.46
+          "value": 0.51
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
           },
-          "contained_metal": 138650.0,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
-              "authors": [
-                "Elz\u00e9ar Belzile"
-              ],
-              "year": 2009,
-              "month": 2,
-              "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
-              "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
-            }
+          "value": 0.46
+        },
+        "contained_metal": 7165.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 1"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
           },
-          "date": "2009-2"
-        }
-      ],
-      "deposit_type_candidate": [
-        {
-          "observed_name": "observed text",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q320",
-          "source": "Inferlink Extraction v2",
-          "confidence": 1.0
-        }
-      ]
-    }
-  ]
-}
+          "value": 3203000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.56
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.46
+        },
+        "contained_metal": 17936.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 2"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 5694000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.6
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.46
+        },
+        "contained_metal": 34164.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 3"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 11747000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.59
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.35
+        },
+        "contained_metal": 69307.3,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 4"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "value": 11367.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.58
+        },
+        "contained_metal": 65.9286,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "value": 12133.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.59
+        },
+        "contained_metal": 71.5847,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "value": 11367.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.58
+        },
+        "contained_metal": 65.9286,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "value": 12133.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.59
+        },
+        "contained_metal": 71.5847,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 1405000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.51
+        },
+        "cutoff_grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.35
+        },
+        "contained_metal": 7165.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 1"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 3203000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.56
+        },
+        "cutoff_grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.35
+        },
+        "contained_metal": 17936.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 2"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 5694000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.6
+        },
+        "cutoff_grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.35
+        },
+        "contained_metal": 34164.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 3"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 1065000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.64
+        },
+        "cutoff_grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.35
+        },
+        "contained_metal": 6816.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 4"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 11747000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.59
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.35
+        },
+        "contained_metal": 69307.3,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 4"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 385000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.57
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.35
+        },
+        "contained_metal": 2194.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 5"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 1405000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.51
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.46
+        },
+        "contained_metal": 7165.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 1"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 3203000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.56
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.46
+        },
+        "contained_metal": 17936.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 2"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 5694000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.6
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.46
+        },
+        "contained_metal": 34164.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2",
+        "zone": "block 3"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "000 tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 23500000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.59
+        },
+        "cutoff_grade": {
+          "unit": {
+            "observed_name": "% Nb2O5",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 0.46
+        },
+        "contained_metal": 138650.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+            "authors": [
+              "Elzéar Belzile"
+            ],
+            "year": 2009,
+            "month": 2,
+            "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+            "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+          }
+        },
+        "date": "2009-2"
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "observed text",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q320",
+        "source": "Inferlink Extraction v2",
+        "confidence": 1.0
+      }
+    ]
+  }
+]

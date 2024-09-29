@@ -1,77 +1,75 @@
-{
-  "MineralSite": [
-    {
-      "source_id": "https://w3id.org/usgs/z/4530692/X2HMJX7E",
-      "record_id": 1,
-      "name": "NI 43-101 Technical Report for the New Polaris Project in Canada dated February 2019",
-      "location_info": {
-        "location": "POINT(-133.616667 58.7)",
-        "crs": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-          "source": "Inferlink Extraction v1",
-          "confidence": 1.0
-        },
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-          "source": "Inferlink Extraction v1",
-          "confidence": 1.0
-        },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-          "source": "Inferlink Extraction v1",
-          "confidence": 1.0
-        }
+[
+  {
+    "source_id": "https://w3id.org/usgs/z/4530692/X2HMJX7E",
+    "record_id": 1,
+    "name": "NI 43-101 Technical Report for the New Polaris Project in Canada dated February 2019",
+    "location_info": {
+      "location": "POINT(-133.616667 58.7)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
       },
-      "mineral_inventory": [
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "source": "Inferlink Extraction v1",
+          "confidence": 0.9
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "source": "Inferlink Extraction v1",
             "confidence": 0.9
+          }
+        ],
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the New Polaris Project in Canada dated February 2019",
+            "doi": "https://w3id.org/usgs/z/4530692/X2HMJX7E",
+            "authors": [
+              "Marc Schulte",
+              "Robert J. Morris",
+              "Sue Bird",
+              "Michael A Petrina",
+              "Tracey Meintjes"
+            ],
+            "year": 2019,
+            "month": 2,
+            "description": "A technical report on the New Polaris Gold Project, including an updated Mineral Resource Estimate and Preliminary Economic Assessment."
           },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          ],
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the New Polaris Project in Canada dated February 2019",
-              "doi": "https://w3id.org/usgs/z/4530692/X2HMJX7E",
-              "authors": [
-                "Marc Schulte",
-                "Robert J. Morris",
-                "Sue Bird",
-                "Michael A Petrina",
-                "Tracey Meintjes"
-              ],
-              "year": 2019,
-              "month": 2,
-              "description": "A technical report on the New Polaris Gold Project, including an updated Mineral Resource Estimate and Preliminary Economic Assessment."
-            },
-            "page_info": [
-              {}
-            ]
-          },
-          "date": "2019-2"
-        }
-      ],
-      "deposit_type_candidate": [
-        {
-          "observed_name": "Mesothermal lode-gold deposit",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q387",
-          "source": "report",
-          "confidence": 0.5
+          "page_info": [
+            {}
+          ]
         },
-        {
-          "observed_name": "Orogenic lode gold deposits",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q387",
-          "source": "report",
-          "confidence": 0.5
-        }
-      ]
-    }
-  ]
-}
+        "date": "2019-2"
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Mesothermal lode-gold deposit",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q387",
+        "source": "report",
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "Orogenic lode gold deposits",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q387",
+        "source": "report",
+        "confidence": 0.5
+      }
+    ]
+  }
+]

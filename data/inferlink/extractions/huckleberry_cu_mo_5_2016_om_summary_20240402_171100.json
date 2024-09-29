@@ -1,195 +1,193 @@
-{
-  "MineralSite": [
-    {
-      "source_id": "https://w3id.org/usgs/z/4530692/2H3INFUS",
-      "record_id": 1,
-      "name": "NI 43-101 Technical Report (OM) for the Huckleberry Project in North America dated 2016",
-      "location_info": {
-        "location": "POINT(-127.17639 53.68111)",
-        "crs": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-          "source": "Inferlink Extraction v1",
-          "confidence": 1.0
-        },
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-          "source": "Inferlink Extraction v1",
-          "confidence": 1.0
-        },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-          "source": "Inferlink Extraction v1",
-          "confidence": 1.0
-        }
+[
+  {
+    "source_id": "https://w3id.org/usgs/z/4530692/2H3INFUS",
+    "record_id": 1,
+    "name": "NI 43-101 Technical Report (OM) for the Huckleberry Project in North America dated 2016",
+    "location_info": {
+      "location": "POINT(-127.17639 53.68111)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
       },
-      "mineral_inventory": [
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-            "source": "Inferlink Extraction v1",
-            "confidence": 0.9
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          ],
-          "ore": {
-            "value": 9.0,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "grade": {
-            "value": 0.311,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "contained_metal": 0.02799,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (OM) for the Huckleberry Project in North America dated 2016",
-              "doi": "https://w3id.org/usgs/z/4530692/2H3INFUS",
-              "authors": [
-                "Kent Christensen",
-                "Gerald R. Connaughton",
-                "Peter Ogryzlo"
-              ],
-              "year": 2016,
-              "month": 5,
-              "description": "A technical report for the Huckleberry Mine Main Zone Optimization, located in the Omineca Mining Division, British Columbia, Canada."
-            },
-            "page_info": [
-              {
-                "page": 78
-              }
-            ]
-          },
-          "date": "2016-5"
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "source": "Inferlink Extraction v1",
+          "confidence": 0.9
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
             "source": "Inferlink Extraction v1",
             "confidence": 0.9
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          ],
-          "ore": {
-            "value": 30.7,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "grade": {
-            "value": 0.352,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "contained_metal": 0.108,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (OM) for the Huckleberry Project in North America dated 2016",
-              "doi": "https://w3id.org/usgs/z/4530692/2H3INFUS",
-              "authors": [
-                "Kent Christensen",
-                "Gerald R. Connaughton",
-                "Peter Ogryzlo"
-              ],
-              "year": 2016,
-              "month": 5,
-              "description": "A technical report for the Huckleberry Mine Main Zone Optimization, located in the Omineca Mining Division, British Columbia, Canada."
-            },
-            "page_info": [
-              {
-                "page": 78
-              }
-            ]
-          },
-          "date": "2016-5"
+          }
+        ],
+        "ore": {
+          "value": 9.0,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+        "grade": {
+          "value": 0.311,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        },
+        "contained_metal": 0.02799,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report (OM) for the Huckleberry Project in North America dated 2016",
+            "doi": "https://w3id.org/usgs/z/4530692/2H3INFUS",
+            "authors": [
+              "Kent Christensen",
+              "Gerald R. Connaughton",
+              "Peter Ogryzlo"
+            ],
+            "year": 2016,
+            "month": 5,
+            "description": "A technical report for the Huckleberry Mine Main Zone Optimization, located in the Omineca Mining Division, British Columbia, Canada."
+          },
+          "page_info": [
+            {
+              "page": 78
+            }
+          ]
+        },
+        "date": "2016-5"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "source": "Inferlink Extraction v1",
+          "confidence": 0.9
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        ],
+        "ore": {
+          "value": 30.7,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        },
+        "grade": {
+          "value": 0.352,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        },
+        "contained_metal": 0.108,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report (OM) for the Huckleberry Project in North America dated 2016",
+            "doi": "https://w3id.org/usgs/z/4530692/2H3INFUS",
+            "authors": [
+              "Kent Christensen",
+              "Gerald R. Connaughton",
+              "Peter Ogryzlo"
+            ],
+            "year": 2016,
+            "month": 5,
+            "description": "A technical report for the Huckleberry Mine Main Zone Optimization, located in the Omineca Mining Division, British Columbia, Canada."
+          },
+          "page_info": [
+            {
+              "page": 78
+            }
+          ]
+        },
+        "date": "2016-5"
+      },
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "source": "Inferlink Extraction v1",
+          "confidence": 0.9
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
             "source": "Inferlink Extraction v1",
             "confidence": 0.9
           },
-          "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        ],
+        "ore": {
+          "value": 39.7,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        },
+        "grade": {
+          "value": 0.343,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        },
+        "contained_metal": 0.136171,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report (OM) for the Huckleberry Project in North America dated 2016",
+            "doi": "https://w3id.org/usgs/z/4530692/2H3INFUS",
+            "authors": [
+              "Kent Christensen",
+              "Gerald R. Connaughton",
+              "Peter Ogryzlo"
+            ],
+            "year": 2016,
+            "month": 5,
+            "description": "A technical report for the Huckleberry Mine Main Zone Optimization, located in the Omineca Mining Division, British Columbia, Canada."
+          },
+          "page_info": [
             {
-              "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            },
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
+              "page": 78
             }
-          ],
-          "ore": {
-            "value": 39.7,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "grade": {
-            "value": 0.343,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "contained_metal": 0.136171,
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report (OM) for the Huckleberry Project in North America dated 2016",
-              "doi": "https://w3id.org/usgs/z/4530692/2H3INFUS",
-              "authors": [
-                "Kent Christensen",
-                "Gerald R. Connaughton",
-                "Peter Ogryzlo"
-              ],
-              "year": 2016,
-              "month": 5,
-              "description": "A technical report for the Huckleberry Mine Main Zone Optimization, located in the Omineca Mining Division, British Columbia, Canada."
-            },
-            "page_info": [
-              {
-                "page": 78
-              }
-            ]
-          },
-          "date": "2016-5"
-        }
-      ],
-      "deposit_type_candidate": [
-        {
-          "observed_name": "Porphyry copper-molybdenum",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-          "source": "report",
-          "confidence": 1.0
-        }
-      ]
-    }
-  ]
-}
+          ]
+        },
+        "date": "2016-5"
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Porphyry copper-molybdenum",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+        "source": "report",
+        "confidence": 1.0
+      }
+    ]
+  }
+]

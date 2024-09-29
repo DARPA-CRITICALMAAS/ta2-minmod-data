@@ -1,75 +1,73 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "02b01293f6e6332f8b14d7c1034004307fcf9f3281411948ef75fb55c6cc077cbb",
-            "name": "NI 43-101 Technical Report for the Rupert project in Canada dated December, 2021.pdf",
-            "location_info": {
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "observed_name": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-                    "observed_name": "Quebec",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-                        "observed_name": "tantalum",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Rupert project in Canada dated December, 2021.pdf",
-                            "authors": [
-                                "R\u00e9mi Charbonneau"
-                            ],
-                            "year": 2021,
-                            "month": 12,
-                            "description": "The report provides a detailed exploration and geological survey of the Rupert Property, which covers several key mineral trends in Quebec, Canada, and includes recommendations for further exploration.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/02b01293f6e6332f8b14d7c1034004307fcf9f3281411948ef75fb55c6cc077cbb"
-                        }
-                    }
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "02b01293f6e6332f8b14d7c1034004307fcf9f3281411948ef75fb55c6cc077cbb",
+    "name": "NI 43-101 Technical Report for the Rupert project in Canada dated December, 2021.pdf",
+    "location_info": {
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "observed_name": "Canada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+        "observed_name": "Quebec",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
+          "observed_name": "tantalum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rupert project in Canada dated December, 2021.pdf",
+            "authors": [
+              "Rémi Charbonneau"
             ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Lithium in rare-elements pegmatite",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "Volcanic massive sulfides",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q409",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "Diamond",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q475",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "Magmatic nickel-copper sulfide deposit",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q476",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "Chromite deposit",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                }
-            ]
+            "year": 2021,
+            "month": 12,
+            "description": "The report provides a detailed exploration and geological survey of the Rupert Property, which covers several key mineral trends in Quebec, Canada, and includes recommendations for further exploration.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02b01293f6e6332f8b14d7c1034004307fcf9f3281411948ef75fb55c6cc077cbb"
+          }
         }
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Lithium in rare-elements pegmatite",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "Volcanic massive sulfides",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q409",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "Diamond",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q475",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "Magmatic nickel-copper sulfide deposit",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q476",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "Chromite deposit",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      }
     ]
-}
+  }
+]

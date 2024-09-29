@@ -1,121 +1,119 @@
-{
-  "MineralSite": [
-    {
-      "source_id": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
-      "record_id": 1,
-      "name": "NI 43-101 Technical Report for the Fyre Lake Project in Canada dated February 2018",
-      "location_info": {
-        "location": "POINT(-130.98345 60.1)",
-        "crs": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+[
+  {
+    "source_id": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
+    "record_id": 1,
+    "name": "NI 43-101 Technical Report for the Fyre Lake Project in Canada dated February 2018",
+    "location_info": {
+      "location": "POINT(-130.98345 60.1)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
+      },
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+        "source": "Inferlink Extraction v1",
+        "confidence": 1.0
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "source": "Inferlink Extraction v1",
-          "confidence": 1.0
+          "confidence": 0.9
         },
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-          "source": "Inferlink Extraction v1",
-          "confidence": 1.0
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        ],
+        "ore": {
+          "value": 7.7,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
         },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-          "source": "Inferlink Extraction v1",
-          "confidence": 1.0
+        "grade": {
+          "value": 1.7,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
+          }
+        },
+        "contained_metal": 0.1309,
+        "reference": {
+          "document": {
+            "doi": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
+            "authors": []
+          },
+          "page_info": [
+            {
+              "page": 78
+            }
+          ]
         }
       },
-      "mineral_inventory": [
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "source": "Inferlink Extraction v1",
+          "confidence": 0.9
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "source": "Inferlink Extraction v1",
             "confidence": 0.9
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          ],
-          "ore": {
-            "value": 7.7,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "grade": {
-            "value": 1.7,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "contained_metal": 0.1309,
-          "reference": {
-            "document": {
-              "doi": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
-              "authors": []
-            },
-            "page_info": [
-              {
-                "page": 78
-              }
-            ]
+          }
+        ],
+        "ore": {
+          "value": 2.3,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "source": "Inferlink Extraction v1",
+            "confidence": 0.9
           }
         },
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+        "grade": {
+          "value": 1.6,
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
             "source": "Inferlink Extraction v1",
             "confidence": 0.9
-          },
-          "category": [
-            {
-              "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          ],
-          "ore": {
-            "value": 2.3,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "grade": {
-            "value": 1.6,
-            "unit": {
-              "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-              "source": "Inferlink Extraction v1",
-              "confidence": 0.9
-            }
-          },
-          "contained_metal": 0.0368,
-          "reference": {
-            "document": {
-              "doi": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
-              "authors": []
-            },
-            "page_info": [
-              {
-                "page": 11
-              }
-            ]
           }
+        },
+        "contained_metal": 0.0368,
+        "reference": {
+          "document": {
+            "doi": "https://w3id.org/usgs/z/4530692/G52A7TQ8",
+            "authors": []
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         }
-      ],
-      "deposit_type_candidate": [
-        {
-          "observed_name": "VMS (Volcanogenic Massive Sulphide) deposit",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q373",
-          "source": "report",
-          "confidence": 1.0
-        }
-      ]
-    }
-  ]
-}
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "VMS (Volcanogenic Massive Sulphide) deposit",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+        "source": "report",
+        "confidence": 1.0
+      }
+    ]
+  }
+]

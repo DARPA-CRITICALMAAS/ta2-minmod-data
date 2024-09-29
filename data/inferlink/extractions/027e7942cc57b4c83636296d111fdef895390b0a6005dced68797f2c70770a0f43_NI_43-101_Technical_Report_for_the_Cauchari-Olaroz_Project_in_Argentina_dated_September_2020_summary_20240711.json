@@ -1,57 +1,55 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "027e7942cc57b4c83636296d111fdef895390b0a6005dced68797f2c70770a0f43",
-            "name": "NI 43-101 Technical Report for the Cauchari-Olaroz Project in Argentina dated September 2020.pdf",
-            "location_info": {
-                "location": "POINT(-24.3445 -66.8346)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "observed_name": "WGS84",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
-                    "observed_name": "Argentina",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2180",
-                    "observed_name": "Jujuy Province",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q501",
-                        "observed_name": "abrasive",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Cauchari-Olaroz Project in Argentina dated September 2020.pdf",
-                            "authors": [
-                                "Ernest Burga",
-                                "David Burga",
-                                "Daniel Weber",
-                                "Anthony Sanford",
-                                "Marek Dworzanowski"
-                            ],
-                            "year": 2020,
-                            "month": 9,
-                            "description": "This document is an updated feasibility study and mineral reserve estimation to support 40,000 tpa lithium carbonate production at the Cauchari-Olaroz Salars in Jujuy Province, Argentina.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/027e7942cc57b4c83636296d111fdef895390b0a6005dced68797f2c70770a0f43"
-                        }
-                    }
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "027e7942cc57b4c83636296d111fdef895390b0a6005dced68797f2c70770a0f43",
+    "name": "NI 43-101 Technical Report for the Cauchari-Olaroz Project in Argentina dated September 2020.pdf",
+    "location_info": {
+      "location": "POINT(-24.3445 -66.8346)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "WGS84",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
+        "observed_name": "Argentina",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2180",
+        "observed_name": "Jujuy Province",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q501",
+          "observed_name": "abrasive",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cauchari-Olaroz Project in Argentina dated September 2020.pdf",
+            "authors": [
+              "Ernest Burga",
+              "David Burga",
+              "Daniel Weber",
+              "Anthony Sanford",
+              "Marek Dworzanowski"
             ],
-            "deposit_type_candidate": []
+            "year": 2020,
+            "month": 9,
+            "description": "This document is an updated feasibility study and mineral reserve estimation to support 40,000 tpa lithium carbonate production at the Cauchari-Olaroz Salars in Jujuy Province, Argentina.",
+            "uri": "https://api.cdr.land/v1/docs/documents/027e7942cc57b4c83636296d111fdef895390b0a6005dced68797f2c70770a0f43"
+          }
         }
-    ]
-}
+      }
+    ],
+    "deposit_type_candidate": []
+  }
+]

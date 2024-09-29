@@ -1,68 +1,66 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "021e2721fbca924d467495029dcb78f5f65fa0fee08a31cc88c1f6db3e1d8370a2",
-            "name": "NI 43-101 Technical Report for the Clearwater-Exshaw Project in North America dated May 2017.pdf",
-            "location_info": {
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-                    "observed_name": "Canada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
-                    "observed_name": "Alberta",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-                        "observed_name": "lithium",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Clearwater-Exshaw Project in North America dated May 2017.pdf",
-                            "authors": [
-                                "D. Roy Eccles"
-                            ],
-                            "year": 2017,
-                            "month": 5,
-                            "description": "This technical report provides a geological introduction to the lithium-brine potential at E3 Metals Corp.'s Clearwater and Exshaw properties in south-central Alberta.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/021e2721fbca924d467495029dcb78f5f65fa0fee08a31cc88c1f6db3e1d8370a2"
-                        }
-                    }
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "021e2721fbca924d467495029dcb78f5f65fa0fee08a31cc88c1f6db3e1d8370a2",
+    "name": "NI 43-101 Technical Report for the Clearwater-Exshaw Project in North America dated May 2017.pdf",
+    "location_info": {
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "observed_name": "Canada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
+        "observed_name": "Alberta",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Clearwater-Exshaw Project in North America dated May 2017.pdf",
+            "authors": [
+              "D. Roy Eccles"
             ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Continental brine deposits",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Non-continental brine deposits",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Geothermal brine deposits",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                },
-                {
-                    "observed_name": "Oilfield brine deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q352",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.25
-                }
-            ]
+            "year": 2017,
+            "month": 5,
+            "description": "This technical report provides a geological introduction to the lithium-brine potential at E3 Metals Corp.'s Clearwater and Exshaw properties in south-central Alberta.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021e2721fbca924d467495029dcb78f5f65fa0fee08a31cc88c1f6db3e1d8370a2"
+          }
         }
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Continental brine deposits",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "Non-continental brine deposits",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "Geothermal brine deposits",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "Oilfield brine deposits",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q352",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.25
+      }
     ]
-}
+  }
+]

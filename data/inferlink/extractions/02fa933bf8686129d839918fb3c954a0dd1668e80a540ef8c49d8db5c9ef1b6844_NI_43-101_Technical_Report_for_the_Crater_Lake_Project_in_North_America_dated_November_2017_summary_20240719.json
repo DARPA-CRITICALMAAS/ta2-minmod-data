@@ -1,65 +1,63 @@
-{
-  "MineralSite": [
-    {
-      "source_id": "https://api.cdr.land/v1/docs/documents",
-      "record_id": "02fa933bf8686129d839918fb3c954a0dd1668e80a540ef8c49d8db5c9ef1b6844",
-      "name": "NI 43-101 Technical Report for the Crater Lake Project in North America dated November 2017.pdf",
-      "location_info": {
-        "location": "POINT(-63 55)",
-        "crs": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-          "observed_name": "EPSG:4326",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "country": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-          "observed_name": "Canada",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "state_or_province": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-          "observed_name": "Qu\u00e9bec",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "02fa933bf8686129d839918fb3c954a0dd1668e80a540ef8c49d8db5c9ef1b6844",
+    "name": "NI 43-101 Technical Report for the Crater Lake Project in North America dated November 2017.pdf",
+    "location_info": {
+      "location": "POINT(-63 55)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
       },
-      "mineral_inventory": [
-        {
-          "commodity": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q607",
-            "observed_name": "scandium",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "reference": {
-            "document": {
-              "title": "NI 43-101 Technical Report for the Crater Lake Project in North America dated November 2017.pdf",
-              "authors": [
-                "Paul J. Daigle"
-              ],
-              "year": 2017,
-              "month": 11,
-              "description": "A technical report detailing the geology, mineralization, exploration, and recommended future activities for the Crater Lake Scandium-Niobium-Rare Earth Elements Project in Qu\u00e9bec, Canada.",
-              "uri": "https://api.cdr.land/v1/docs/documents/02fa933bf8686129d839918fb3c954a0dd1668e80a540ef8c49d8db5c9ef1b6844"
-            }
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "observed_name": "Canada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+        "observed_name": "Québec",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q607",
+          "observed_name": "scandium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Crater Lake Project in North America dated November 2017.pdf",
+            "authors": [
+              "Paul J. Daigle"
+            ],
+            "year": 2017,
+            "month": 11,
+            "description": "A technical report detailing the geology, mineralization, exploration, and recommended future activities for the Crater Lake Scandium-Niobium-Rare Earth Elements Project in Québec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa933bf8686129d839918fb3c954a0dd1668e80a540ef8c49d8db5c9ef1b6844"
           }
         }
-      ],
-      "deposit_type_candidate": [
-        {
-          "observed_name": "Scandium-REE bearing alkali igneous intrusive complex",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.5
-        },
-        {
-          "observed_name": "Carbonatite and alkaline intrusive complexes",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q472",
-          "source": "Inferlink Extraction v2",
-          "confidence": 0.5
-        }
-      ]
-    }
-  ]
-}
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Scandium-REE bearing alkali igneous intrusive complex",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "Carbonatite and alkaline intrusive complexes",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q472",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.5
+      }
+    ]
+  }
+]

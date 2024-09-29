@@ -1,59 +1,57 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "0200ab064d1f23368ac703f8789169194114421955c172b55e2bc1a95184e2f0e0",
-            "name": "NI 43-101 Technical Report for the Bleiberg Project in Europe dated May 2017.pdf",
-            "location_info": {
-                "location": "POINT(13.5875 46.615)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1014",
-                    "observed_name": "Austria",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q2215",
-                    "observed_name": "Carinthia",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Bleiberg Project in Europe dated May 2017.pdf",
-                            "authors": [
-                                "R. Tim Henneberry"
-                            ],
-                            "year": 2017,
-                            "month": 5,
-                            "description": "A technical report detailing the geology, historical data, and recommended exploration programs for the Bleiberg property in Southern Austria, prepared for Tasca Resources Ltd.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/0200ab064d1f23368ac703f8789169194114421955c172b55e2bc1a95184e2f0e0"
-                        }
-                    },
-                    "category": []
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "0200ab064d1f23368ac703f8789169194114421955c172b55e2bc1a95184e2f0e0",
+    "name": "NI 43-101 Technical Report for the Bleiberg Project in Europe dated May 2017.pdf",
+    "location_info": {
+      "location": "POINT(13.5875 46.615)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1014",
+        "observed_name": "Austria",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2215",
+        "observed_name": "Carinthia",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bleiberg Project in Europe dated May 2017.pdf",
+            "authors": [
+              "R. Tim Henneberry"
             ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Mississippi Valley Type Lead Zinc Deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q380",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 1.0
-                }
-            ]
-        }
+            "year": 2017,
+            "month": 5,
+            "description": "A technical report detailing the geology, historical data, and recommended exploration programs for the Bleiberg property in Southern Austria, prepared for Tasca Resources Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0200ab064d1f23368ac703f8789169194114421955c172b55e2bc1a95184e2f0e0"
+          }
+        },
+        "category": []
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Mississippi Valley Type Lead Zinc Deposits",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q380",
+        "source": "Inferlink Extraction v2",
+        "confidence": 1.0
+      }
     ]
-}
+  }
+]

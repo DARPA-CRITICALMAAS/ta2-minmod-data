@@ -1,72 +1,70 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "029588aae32156ffd1e3b215f0592a9a58789d64da56007fc0029ebc170a1a5b4a",
-            "name": "NI 43-101 Technical Report for the Kings Valley Project in Nevada, United States dated June 2008.pdf",
-            "location_info": {
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-                    "observed_name": "United States",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-                    "observed_name": "Nevada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-                        "observed_name": "lithium",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the Kings Valley Project in Nevada, United States dated June 2008.pdf",
-                            "authors": [
-                                "Ted Eggleston"
-                            ],
-                            "year": 2008,
-                            "month": 6,
-                            "description": "A technical report providing a Qualified Person\u2019s Review and assessment of the Kings Valley Lithium Property located in northern Nevada for Western Lithium Canada Corporation.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/029588aae32156ffd1e3b215f0592a9a58789d64da56007fc0029ebc170a1a5b4a"
-                        }
-                    }
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "029588aae32156ffd1e3b215f0592a9a58789d64da56007fc0029ebc170a1a5b4a",
+    "name": "NI 43-101 Technical Report for the Kings Valley Project in Nevada, United States dated June 2008.pdf",
+    "location_info": {
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+        "observed_name": "United States",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+        "observed_name": "Nevada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kings Valley Project in Nevada, United States dated June 2008.pdf",
+            "authors": [
+              "Ted Eggleston"
             ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "North Lens",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "North Central Lens",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "South Lens",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "South Central Lens",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                },
-                {
-                    "observed_name": "PCD Lens",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.2
-                }
-            ]
+            "year": 2008,
+            "month": 6,
+            "description": "A technical report providing a Qualified Person’s Review and assessment of the Kings Valley Lithium Property located in northern Nevada for Western Lithium Canada Corporation.",
+            "uri": "https://api.cdr.land/v1/docs/documents/029588aae32156ffd1e3b215f0592a9a58789d64da56007fc0029ebc170a1a5b4a"
+          }
         }
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "North Lens",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "North Central Lens",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "South Lens",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "South Central Lens",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "PCD Lens",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.2
+      }
     ]
-}
+  }
+]

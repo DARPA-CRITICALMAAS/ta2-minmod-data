@@ -1,60 +1,58 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "02c5aeb907c7008f2d3041fecc2af4d39bc82fe97cf3c10bc14f3621bc1e2a42f0",
-            "name": "NI 43-101 Technical Report for the NSP Project in Nevada, United States dated November 2015.pdf",
-            "location_info": {
-                "location": "POINT(-117.56108889 37.81147222)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "observed_name": "WGS84",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-                    "observed_name": "USA",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-                    "observed_name": "Nevada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [
-                {
-                    "commodity": {
-                        "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-                        "observed_name": "lithium",
-                        "confidence": 1,
-                        "source": "Inferlink Extraction v2"
-                    },
-                    "reference": {
-                        "document": {
-                            "title": "NI 43-101 Technical Report for the NSP Project in Nevada, United States dated November 2015.pdf",
-                            "authors": [
-                                "William Feyerabend"
-                            ],
-                            "year": 2015,
-                            "month": 11,
-                            "description": "A detailed geological report summarizing the NSP Lithium Claim Group in Esmeralda County, Nevada and evaluating its potential for lithium brine production.",
-                            "uri": "https://api.cdr.land/v1/docs/documents/02c5aeb907c7008f2d3041fecc2af4d39bc82fe97cf3c10bc14f3621bc1e2a42f0"
-                        }
-                    }
-                }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "02c5aeb907c7008f2d3041fecc2af4d39bc82fe97cf3c10bc14f3621bc1e2a42f0",
+    "name": "NI 43-101 Technical Report for the NSP Project in Nevada, United States dated November 2015.pdf",
+    "location_info": {
+      "location": "POINT(-117.56108889 37.81147222)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "WGS84",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+        "observed_name": "USA",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+        "observed_name": "Nevada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the NSP Project in Nevada, United States dated November 2015.pdf",
+            "authors": [
+              "William Feyerabend"
             ],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "Lithium Brine Deposits",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q354",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 1.0
-                }
-            ]
+            "year": 2015,
+            "month": 11,
+            "description": "A detailed geological report summarizing the NSP Lithium Claim Group in Esmeralda County, Nevada and evaluating its potential for lithium brine production.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c5aeb907c7008f2d3041fecc2af4d39bc82fe97cf3c10bc14f3621bc1e2a42f0"
+          }
         }
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Lithium Brine Deposits",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q354",
+        "source": "Inferlink Extraction v2",
+        "confidence": 1.0
+      }
     ]
-}
+  }
+]

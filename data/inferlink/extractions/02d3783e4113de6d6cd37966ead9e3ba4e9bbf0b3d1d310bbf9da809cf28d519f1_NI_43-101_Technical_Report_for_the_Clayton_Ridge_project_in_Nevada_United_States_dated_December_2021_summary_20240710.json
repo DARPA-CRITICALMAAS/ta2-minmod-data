@@ -1,50 +1,48 @@
-{
-    "MineralSite": [
-        {
-            "source_id": "https://api.cdr.land/v1/docs/documents",
-            "record_id": "02d3783e4113de6d6cd37966ead9e3ba4e9bbf0b3d1d310bbf9da809cf28d519f1",
-            "name": "NI 43-101 Technical Report for the Clayton Ridge project in Nevada, United States dated December, 2021.pdf",
-            "location_info": {
-                "location": "POINT(460000 4170000)",
-                "crs": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-                    "observed_name": "WGS84",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "country": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-                    "observed_name": "United States",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                },
-                "state_or_province": {
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-                    "observed_name": "Nevada",
-                    "confidence": 1,
-                    "source": "Inferlink Extraction v2"
-                }
-            },
-            "mineral_inventory": [],
-            "deposit_type_candidate": [
-                {
-                    "observed_name": "pegmatites",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q467",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                },
-                {
-                    "observed_name": "continental brines",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                },
-                {
-                    "observed_name": "clays",
-                    "normalized_uri": "https://minmod.isi.edu/resource/Q322",
-                    "source": "Inferlink Extraction v2",
-                    "confidence": 0.3333333333333333
-                }
-            ]
-        }
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "02d3783e4113de6d6cd37966ead9e3ba4e9bbf0b3d1d310bbf9da809cf28d519f1",
+    "name": "NI 43-101 Technical Report for the Clayton Ridge project in Nevada, United States dated December, 2021.pdf",
+    "location_info": {
+      "location": "POINT(460000 4170000)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "WGS84",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+        "observed_name": "United States",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+        "observed_name": "Nevada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "pegmatites",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q467",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "continental brines",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "clays",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q322",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.3333333333333333
+      }
     ]
-}
+  }
+]
