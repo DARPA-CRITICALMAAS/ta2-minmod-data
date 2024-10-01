@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4535",
-        "observed_name": "Chihuahua",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4535",
+          "observed_name": "Chihuahua",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -295,6 +299,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q416",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
+          "authors": [
+            "Timothy J. Carew",
+            "Bill R. Fleshman",
+            "Trevor A. Leahey"
+          ],
+          "year": 2012,
+          "month": 11,
+          "description": "A detailed technical report summarizing exploration and resource estimation for the Namiquipa Silver Deposit in Chihuahua, Mexico, according to the National Instrument 43-101 guidelines.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
+        }
       }
     ]
   }

@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -53,6 +57,23 @@
         "observed_name": "volcanic-hosted massive sulfide",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (OM) for the Greens Creek Project in Alaska, United States dated 2013",
+          "doi": "https://w3id.org/usgs/z/4530692/WRII9ICQ",
+          "authors": [
+            "Dean McDonald",
+            "Bryan Morgen",
+            "Bill Hancock"
+          ],
+          "year": 2013,
+          "month": 3,
+          "description": "This technical report details the Greens Creek polymetallic mine operations, including geological setting, mineralization, exploration techniques, and production methods."
+        }
       }
     ]
   }

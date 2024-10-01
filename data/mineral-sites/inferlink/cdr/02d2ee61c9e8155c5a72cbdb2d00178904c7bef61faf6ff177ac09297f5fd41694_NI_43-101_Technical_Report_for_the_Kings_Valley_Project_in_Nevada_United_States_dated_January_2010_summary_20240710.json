@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1096,6 +1100,24 @@
         "observed_name": "Hectorite deposits believed to have formed by hydrothermal alteration of layered volcaniclastic sedimentary rocks",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Kings Valley Project in Nevada, United States dated January 2010.pdf",
+          "authors": [
+            "John Ajie",
+            "Mark Hertel",
+            "Ted Eggleston",
+            "Daniel Kappes"
+          ],
+          "year": 2010,
+          "month": 1,
+          "description": "A preliminary technical and economic assessment of the Kings Valley Project in Nevada, evaluating its lithium resource potential and mining viability.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d2ee61c9e8155c5a72cbdb2d00178904c7bef61faf6ff177ac09297f5fd41694"
+        }
       }
     ]
   }

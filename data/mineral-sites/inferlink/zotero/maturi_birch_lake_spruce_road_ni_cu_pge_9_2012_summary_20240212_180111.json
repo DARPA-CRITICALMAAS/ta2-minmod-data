@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -529,6 +533,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q478",
         "confidence": 1,
         "source": "SME"
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Maturi-Birch Lake-Spruce Road Project in Minnesota, United States dated September 2012",
+          "doi": "https://w3id.org/usgs/z/4530692/5B32TX47",
+          "authors": [
+            "Dr Harry Parker RM SME",
+            "Dr Ted Eggleston RM SME"
+          ],
+          "year": 2013,
+          "month": 1,
+          "description": "This technical report addresses the Maturi Birch Lake and Spruce Road Copper-Nickel-PGE Projects in Ely, Minnesota, USA, with contributions by qualified professionals Dr. Harry Parker and Dr. Ted Eggleston."
+        }
       }
     ]
   }

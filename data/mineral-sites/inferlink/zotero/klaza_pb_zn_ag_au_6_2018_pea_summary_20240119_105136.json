@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -139,6 +143,27 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q385"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "Technical Report Describing Updated Diamond Drilling Metallurgical Testing and Mineral Resources on the Klaza Property Yukon Canada",
+          "authors": [
+            "A. Ross Ph.D. P.Geo. (BC) P.Geol. (AB)",
+            "I. Kirchner FAusIMM MAIG",
+            "C. Martin C.Eng. (UK) M.Eng.",
+            "M. Dumala P.Eng. (BC)",
+            "G. Methven P.Eng. (BC)",
+            "M. Molavi P.Eng. (BC SK) M.Eng. B.Eng.",
+            "P. Lebleu P.Eng. (BC) M.Eng.",
+            "B. Borntraeger P.Eng. (BC)"
+          ],
+          "year": 2018,
+          "month": 6,
+          "description": "This Technical Report discloses the results of an updated Mineral Resource estimate incorporating 2016 and 2017 drilling results and additional metallurgical studies for the Klaza property in Yukon, Canada."
+        }
+      }
     ]
   }
 ]

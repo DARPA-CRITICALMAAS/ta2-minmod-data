@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -371,6 +375,28 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q482",
         "confidence": 1,
         "source": "SME"
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Tamarack North Project in Minnesota, United States dated 2018",
+          "doi": "https://w3id.org/usgs/z/4530692/HCUF4GST",
+          "authors": [
+            "Leslie Correia Pr.Eng",
+            "Silvia Del Carpio P. Eng. MBA",
+            "Tim Fletcher P. Eng.",
+            "Daniel Gagnon P. Eng.",
+            "Kebreab Habte P. Eng.",
+            "Oliver Peters P. Eng.",
+            "Tom Radue P. Eng.",
+            "Brian Thomas P. Geo"
+          ],
+          "year": 2018,
+          "month": 12,
+          "description": "The document is a Preliminary Economic Assessment (PEA) for the Tamarack North Project in Tamarack, Minnesota, focusing on the mining potential for nickel, copper, cobalt, platinum, palladium, gold, and other minerals."
+        }
       }
     ]
   }

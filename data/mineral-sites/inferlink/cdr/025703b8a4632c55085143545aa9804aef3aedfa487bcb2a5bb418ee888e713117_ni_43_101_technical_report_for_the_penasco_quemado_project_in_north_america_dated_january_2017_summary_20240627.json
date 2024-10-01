@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-        "observed_name": "Sonora",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+          "observed_name": "Sonora",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1179,6 +1183,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q416",
         "source": "Inferlink Extraction v2",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated January 2017.pdf",
+          "authors": [
+            "William J. Lewis"
+          ],
+          "year": 2017,
+          "month": 1,
+          "description": "This technical report provides an independent summary and review of the Peñasco Quemado silver property located in the state of Sonora, Mexico, prepared to comply with the Canadian National Instrument (NI) 43-101 Standards of Disclosure for Mineral Projects.",
+          "uri": "https://api.cdr.land/v1/docs/documents/025703b8a4632c55085143545aa9804aef3aedfa487bcb2a5bb418ee888e713117"
+        }
       }
     ]
   }

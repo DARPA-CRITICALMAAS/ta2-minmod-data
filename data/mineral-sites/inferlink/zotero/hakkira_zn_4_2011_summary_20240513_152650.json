@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "observed_name": "Hakkari and Sirnak Provinces",
-        "source": "Inferlink Extraction v1",
-        "confidence": 0.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "observed_name": "Hakkari and Sirnak Provinces",
+          "source": "Inferlink Extraction v1",
+          "confidence": 0.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -77,6 +81,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q380",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011",
+          "doi": "https://w3id.org/usgs/z/4530692/7NZZ8XII",
+          "authors": [
+            "Mike Robertson",
+            "Mike Hall"
+          ],
+          "year": 2011,
+          "month": 4,
+          "description": "The report provides a comprehensive technical overview of the Hakkari Zinc Project, detailing geology, exploration, and resource estimation compliant with NI 43-101 standards."
+        }
       }
     ]
   }

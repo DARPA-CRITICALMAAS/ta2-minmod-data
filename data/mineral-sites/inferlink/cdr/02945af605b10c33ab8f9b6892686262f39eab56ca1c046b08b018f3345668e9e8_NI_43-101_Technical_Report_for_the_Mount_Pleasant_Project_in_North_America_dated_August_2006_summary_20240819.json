@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
-        "observed_name": "New Brunswick",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
+          "observed_name": "New Brunswick",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2582,6 +2586,25 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q461",
         "source": "Inferlink Extraction v2",
         "confidence": 0.14285714285714285
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated August 2006.pdf",
+          "authors": [
+            "Paul Dunbar",
+            "Andrew Hara",
+            "Robert de l'Etoile",
+            "Dorota A. El-Rassi",
+            "Trevor Boyd"
+          ],
+          "year": 2006,
+          "month": 8,
+          "description": "An NI 43-101 compliant technical report assessing the potential of the Mount Pleasant property, with a focus on the Fire Tower Zone in southwestern New Brunswick, and providing a Mineral Resource estimate.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02945af605b10c33ab8f9b6892686262f39eab56ca1c046b08b018f3345668e9e8"
+        }
       }
     ]
   }

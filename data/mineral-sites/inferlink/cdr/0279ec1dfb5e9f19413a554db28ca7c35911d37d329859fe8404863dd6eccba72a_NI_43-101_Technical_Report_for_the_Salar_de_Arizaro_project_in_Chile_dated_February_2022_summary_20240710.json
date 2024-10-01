@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
-        "observed_name": "Argentina",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2187",
-        "observed_name": "Salta Province",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
+          "observed_name": "Argentina",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2187",
+          "observed_name": "Salta Province",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -435,6 +439,21 @@
         "observed_name": "brine aquifer within a salar basin",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Salar de Arizaro project in Chile dated February, 2022.pdf",
+          "authors": [
+            "Michael J. Rosko"
+          ],
+          "year": 2022,
+          "month": 2,
+          "description": "This technical report details the results of the 2021 exploration activities and provides a preliminary lithium resource estimate for the Salar de Arizaro Project located in the Salta Province of Argentina.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0279ec1dfb5e9f19413a554db28ca7c35911d37d329859fe8404863dd6eccba72a"
+        }
       }
     ]
   }

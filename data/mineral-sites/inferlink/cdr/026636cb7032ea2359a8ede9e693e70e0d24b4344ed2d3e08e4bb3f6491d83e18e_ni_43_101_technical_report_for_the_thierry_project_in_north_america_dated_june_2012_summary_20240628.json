@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1785,6 +1789,28 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Thierry Project in North America dated June 2012.pdf",
+          "authors": [
+            "Eugene Puritch",
+            "Tracy Armstrong",
+            "David Burga",
+            "Richard Routledge",
+            "James L. Pearson",
+            "Alfred Hayden",
+            "David Orava",
+            "Kirk Rodgers"
+          ],
+          "year": 2012,
+          "month": 6,
+          "description": "This technical report provides an independent National Instrument 43-101 compliant preliminary economic assessment of the Thierry and K1-1 Cu-Ni-PGE deposits in North-Western Ontario, evaluating both underground and open pit mining operations.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026636cb7032ea2359a8ede9e693e70e0d24b4344ed2d3e08e4bb3f6491d83e18e"
+        }
       }
     ]
   }

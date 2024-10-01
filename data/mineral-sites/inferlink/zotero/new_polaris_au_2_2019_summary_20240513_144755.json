@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -69,6 +73,25 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q387",
         "source": "report",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the New Polaris Project in Canada dated February 2019",
+          "doi": "https://w3id.org/usgs/z/4530692/X2HMJX7E",
+          "authors": [
+            "Marc Schulte",
+            "Robert J. Morris",
+            "Sue Bird",
+            "Michael A Petrina",
+            "Tracey Meintjes"
+          ],
+          "year": 2019,
+          "month": 2,
+          "description": "A technical report on the New Polaris Gold Project, including an updated Mineral Resource Estimate and Preliminary Economic Assessment."
+        }
       }
     ]
   }

@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2065,6 +2069,26 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q467",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
+          "authors": [
+            "Daniel M. Gagnon",
+            "Ewald Pengel",
+            "Céline M. Charbonneau",
+            "Claude Duplessis",
+            "Gared J. Daniel",
+            "Sylvain Boucher"
+          ],
+          "year": 2011,
+          "month": 12,
+          "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
+        }
       }
     ]
   }

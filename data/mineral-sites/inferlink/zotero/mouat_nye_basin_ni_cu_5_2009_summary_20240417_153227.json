@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6873",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6873",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -74,6 +78,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q478",
         "source": "report",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Mouat-Nye Basin Project in Montana, United States dated May 2009",
+          "doi": "https://w3id.org/usgs/z/4530692/B46ZZMET",
+          "authors": [
+            "Robert Suda",
+            "Alistair R. Turner",
+            "Curt Hogge"
+          ],
+          "year": 2009,
+          "month": 5,
+          "description": "The report pertains to the Stillwater Project in Montana, USA, hosting magmatic ore deposits with potential reserves of nickel, copper, and PGE."
+        }
       }
     ]
   }

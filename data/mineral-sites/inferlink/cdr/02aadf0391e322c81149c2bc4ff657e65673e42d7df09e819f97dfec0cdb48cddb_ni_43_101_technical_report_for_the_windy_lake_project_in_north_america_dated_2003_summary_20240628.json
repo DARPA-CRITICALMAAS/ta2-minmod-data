@@ -4,18 +4,22 @@
     "record_id": "02aadf0391e322c81149c2bc4ff657e65673e42d7df09e819f97dfec0cdb48cddb",
     "name": "NI 43-101 Technical Report for the Windy Lake Project in North America dated 2003.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -70,6 +74,21 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Windy Lake Project in North America dated 2003.pdf",
+          "authors": [
+            "Alar Soever"
+          ],
+          "year": 2003,
+          "month": 12,
+          "description": "A comprehensive technical report evaluating the geological and exploratory progress on the Windy Lake Property in Sudbury, Ontario, prepared for Wallbridge Mining Company Limited.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02aadf0391e322c81149c2bc4ff657e65673e42d7df09e819f97dfec0cdb48cddb"
+        }
       }
     ]
   }

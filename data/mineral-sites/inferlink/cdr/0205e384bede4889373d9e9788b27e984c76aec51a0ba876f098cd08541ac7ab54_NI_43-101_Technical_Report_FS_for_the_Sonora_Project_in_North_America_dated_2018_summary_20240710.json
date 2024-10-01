@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-        "observed_name": "Sonora",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+          "observed_name": "Sonora",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1478,6 +1482,23 @@
         "observed_name": "hydrothermal alteration",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (FS) for the Sonora Project in North America dated 2018.pdf",
+          "authors": [
+            "Ausenco",
+            "SRK Consulting",
+            "Independent Mining Consultants Inc.",
+            "Solum Consulting Group"
+          ],
+          "year": 2018,
+          "description": "This document is a technical report prepared for Bacanora Minerals Limited detailing the NI 43-101 compliant feasibility study of the Sonora Lithium Project.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0205e384bede4889373d9e9788b27e984c76aec51a0ba876f098cd08541ac7ab54"
+        }
       }
     ]
   }

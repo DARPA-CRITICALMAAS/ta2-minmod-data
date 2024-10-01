@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -51,6 +55,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Lemon Lake project in Canada dated September, 2021.pdf",
+          "authors": [
+            "Carl G. Verley"
+          ],
+          "year": 2021,
+          "month": 9,
+          "description": "A technical report prepared for Acme Gold Company Limited summarizing the geology, mineralization, and exploration data of the Lemon Lake Property in Canada, meeting the requirements for listing on the Canadian Securities Exchange.",
+          "uri": "https://api.cdr.land/v1/docs/documents/029a459050fccafc2d41dcf527665b78ac1f4685c280e2fc8843dd60883596d838"
+        }
       }
     ]
   }

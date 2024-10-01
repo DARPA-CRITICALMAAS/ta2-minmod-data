@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -9680,6 +9684,23 @@
         "observed_name": "Molybdenum Deposit",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Jersey-Emerald Project in North America dated March 2014.pdf",
+          "authors": [
+            "Gary Giroux",
+            "Perry Grunenberg",
+            "Vivian Park"
+          ],
+          "year": 2015,
+          "month": 3,
+          "description": "A comprehensive technical report on the updated tungsten resource estimation for the Jersey-Emerald property, including geological findings, resource calculations, and recommendations for future exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02a7ac7586a80a145c3eb8d0ce850e378978745625f08346cf0884bbd3650c8285"
+        }
       }
     ]
   }

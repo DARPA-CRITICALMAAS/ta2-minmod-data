@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
-        "observed_name": "Spain",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q3793",
-        "observed_name": "Castilla de Leon",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
+          "observed_name": "Spain",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3793",
+          "observed_name": "Castilla de Leon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1164,6 +1168,21 @@
         "observed_name": "complex vein deposit",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Valtreixal Project in Europe, Spain dated October 2015.pdf",
+          "authors": [
+            "Adam Wheeler"
+          ],
+          "year": 2015,
+          "month": 10,
+          "description": "The report provides a technical and economic assessment of the Valtreixal tungsten and tin project in Zamora province, Spain, detailing the geology, resource estimates, mine planning, processing methods, and potential economic viability.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0205d83507aada99e3177db3ddaa0f142be39f445e1c1923c18b6bea8f99298c1a"
+        }
       }
     ]
   }

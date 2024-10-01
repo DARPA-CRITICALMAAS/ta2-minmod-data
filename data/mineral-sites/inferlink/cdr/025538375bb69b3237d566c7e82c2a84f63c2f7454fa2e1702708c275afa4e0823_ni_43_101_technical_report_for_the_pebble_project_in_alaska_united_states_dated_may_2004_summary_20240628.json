@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "USA",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
-        "observed_name": "Alaska",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "USA",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
+          "observed_name": "Alaska",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1219,6 +1223,24 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Pebble Project in Alaska, United States dated May 2004.pdf",
+          "authors": [
+            "R. J. Haslinger",
+            "J. G. Payne",
+            "S. Price",
+            "C. M. Rebagliati"
+          ],
+          "year": 2004,
+          "month": 5,
+          "description": "The report details the 2003 exploration program and findings for the Pebble Porphyry Gold-Copper-Molybdenum Project by Northern Dynasty Minerals Ltd. in Southwestern Alaska.",
+          "uri": "https://api.cdr.land/v1/docs/documents/025538375bb69b3237d566c7e82c2a84f63c2f7454fa2e1702708c275afa4e0823"
+        }
       }
     ]
   }

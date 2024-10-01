@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1980,6 +1984,23 @@
         "observed_name": "clays",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Clayton Valley Project in Nevada, United States dated May 2020.pdf",
+          "authors": [
+            "Todd S. Fayram",
+            "Terre A. Lane",
+            "Daniel W. Kalmbach"
+          ],
+          "year": 2020,
+          "month": 5,
+          "description": "This National Instrument 43-101 report is a prefeasibility study of the Clayton Valley Lithium Project in Esmeralda County, Nevada, providing updates on mineral resources, drilling, metallurgical testing, and economic assessments.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0288b5316200eaf383e7c6292f1d8f01624b64bda6715c5281bf83b2ce59235d73"
+        }
       }
     ]
   }

@@ -10,12 +10,14 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
-        "observed_name": "Turkey",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
+          "observed_name": "Turkey",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1284,6 +1286,22 @@
         "zone": "combined"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Tufanbeyli Project in Middle East, Turkey dated July 2011.pdf",
+          "authors": [
+            "Mike Robertson",
+            "Mike Hall"
+          ],
+          "year": 2011,
+          "month": 7,
+          "description": "This technical report provides a comprehensive assessment of the Tufanbeyli Zinc Project in Turkey, including geological data, mineral resource estimates, and exploration recommendations.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0293919770953ae2ab39769bb36b9a31038d2c2fcc7fcee07e1470728fa5d759ed"
+        }
+      }
+    ]
   }
 ]

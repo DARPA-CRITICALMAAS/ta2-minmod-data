@@ -4,18 +4,22 @@
     "record_id": "022376b1b58a710ea7b667c6c92eb93964968dfcbd3e55f2acee7ed2286f022656",
     "name": "NI 43-101 Technical Report for the ELi project in Nevada, United States dated January, 2022.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -55,6 +59,21 @@
         "observed_name": "clays",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the ELi project in Nevada, United States dated January, 2022.pdf",
+          "authors": [
+            "Robert J. Johansing"
+          ],
+          "year": 2022,
+          "month": 1,
+          "description": "The report provides a detailed technical analysis of the ELi sediment-hosted lithium deposit located in Eureka and Nye Counties, Nevada, including recommendations for future exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/022376b1b58a710ea7b667c6c92eb93964968dfcbd3e55f2acee7ed2286f022656"
+        }
       }
     ]
   }

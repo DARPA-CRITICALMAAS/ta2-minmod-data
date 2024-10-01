@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4544",
-        "observed_name": "Jalisco",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4544",
+          "observed_name": "Jalisco",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -881,6 +885,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q416",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the El Rayo Project in North America dated July 2011.pdf",
+          "authors": [
+            "Hrayr Agnerian"
+          ],
+          "year": 2011,
+          "month": 7,
+          "description": "This is a technical report detailing the geological assessment and exploration results for the El Rayo Silver-Gold Project located in Jalisco State, Mexico, prepared under NI 43-101 standards.",
+          "uri": "https://api.cdr.land/v1/docs/documents/025f64df1383570db7989f0097ad6c206c313f19eb6aaa144f068422afb32159f9"
+        }
       }
     ]
   }

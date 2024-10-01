@@ -4,18 +4,22 @@
     "record_id": "02497a3039a4c6faf6c61ff4b489cdc68e6e0b295cac89248fbc3bdfb9051905bb",
     "name": "NI 43-101 Technical Report for the Sonora Project in North America dated June 2014.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-        "observed_name": "Sonora",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+          "observed_name": "Sonora",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -733,6 +737,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q322",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sonora Project in North America dated June 2014.pdf",
+          "authors": [
+            "Carl G. Verley"
+          ],
+          "year": 2014,
+          "month": 6,
+          "description": "A technical report providing updated and reclassified estimates of lithium resources for the Sonora Lithium Project in Mexico, prepared in compliance with the Canadian National Instrument 43-101.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02497a3039a4c6faf6c61ff4b489cdc68e6e0b295cac89248fbc3bdfb9051905bb"
+        }
       }
     ]
   }

@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -377,6 +381,19 @@
         "observed_name": "Foot Wall Vein Complex",
         "source": "report",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the McCreedy West Project in North America dated August 2003",
+          "doi": "https://w3id.org/usgs/z/4530692/VVEDUPFD",
+          "authors": [],
+          "year": 2003,
+          "month": 8,
+          "description": "This report reviews and audits the Mineral Reserve estimates for the McCreedy West Mine Property and prepares an independent report meeting the NI 43-101 and Form 43-101F1 standards."
+        }
       }
     ]
   }

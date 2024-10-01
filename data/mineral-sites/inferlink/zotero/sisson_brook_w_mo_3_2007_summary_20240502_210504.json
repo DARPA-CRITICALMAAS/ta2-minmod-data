@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -270,6 +274,19 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q427",
         "source": "report",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated March 2007",
+          "doi": "https://w3id.org/usgs/z/4530692/XKHFMUG8",
+          "authors": [],
+          "year": 2007,
+          "month": 3,
+          "description": "This report includes a detailed technical analysis for the Sisson Brook Project in North America as of March 2007."
+        }
       }
     ]
   }

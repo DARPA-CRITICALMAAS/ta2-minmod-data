@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1011",
-        "observed_name": "Armenia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2200",
-        "observed_name": "Lori",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1011",
+          "observed_name": "Armenia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2200",
+          "observed_name": "Lori",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -351,6 +355,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q455",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Teghout Project in Middle East, Armenia dated April 2001.pdf",
+          "authors": [
+            "Henrik Thalenhorst",
+            "Dietmar Weisser",
+            "Jeanette Kloetzer"
+          ],
+          "year": 2001,
+          "month": 4,
+          "description": "This report provides a preliminary economic assessment of the Teghout copper-molybdenum deposit and its potential as a source of copper concentrates for an expanded Alaverdy copper smelter.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0282e6dce97de616aaf04fd060c0c4652f79a4829e840b835cad0e4e6fa78b2697"
+        }
       }
     ]
   }

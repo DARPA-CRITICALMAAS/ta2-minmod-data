@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -176,6 +180,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Kemess South Project in North America dated April 2005",
+          "doi": "https://w3id.org/usgs/z/4530692/64XNJSVM",
+          "authors": [
+            "Brian O'Connor"
+          ],
+          "year": 2005,
+          "month": 4,
+          "description": "This is a technical report prepared for the Kemess South Project detailing geological data, resource estimates, and compliance with NI 43-101 requirements."
+        }
       }
     ]
   }

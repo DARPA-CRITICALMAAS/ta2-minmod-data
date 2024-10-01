@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -327,6 +331,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Morrison Project in North America dated February 2003",
+          "doi": "https://w3id.org/usgs/z/4530692/9HW6E7KJ",
+          "authors": [
+            "E.T. Kimura"
+          ],
+          "year": 2003,
+          "month": 2,
+          "description": "The report was amended on 4 February 2003 and supports the technical data and manual resource estimation of the Morrison copper-gold porphyry deposit disclosed by Pacific Booker Minerals Inc."
+        }
       }
     ]
   }

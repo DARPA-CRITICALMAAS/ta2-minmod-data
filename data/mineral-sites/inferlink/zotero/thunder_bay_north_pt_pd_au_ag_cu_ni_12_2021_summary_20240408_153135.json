@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -55,6 +59,28 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q482",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Thunder Bay North project in Canada dated December, 2021",
+          "doi": "https://w3id.org/usgs/z/4530692/26ZXZM5R",
+          "authors": [
+            "Glen Kuntz",
+            "Brian Wissent",
+            "Kurt Boyko",
+            "Harold Harkonen",
+            "Lyn Jones",
+            "Wilson Muir",
+            "Brian Buss",
+            "Ben Peacock"
+          ],
+          "year": 2022,
+          "month": 1,
+          "description": "This document is a technical report and preliminary economic assessment for the Thunder Bay North project with an effective date of December 1, 2021."
+        }
       }
     ]
   }

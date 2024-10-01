@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
-        "observed_name": "South Korea",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5900",
-        "observed_name": "Gangwon",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
+          "observed_name": "South Korea",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5900",
+          "observed_name": "Gangwon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -621,6 +625,21 @@
         "observed_name": "stockwork molybdenum",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sangdong project in South Korea dated May, 2022.pdf",
+          "authors": [
+            "Adam Wheeler"
+          ],
+          "year": 2022,
+          "month": 5,
+          "description": "Technical report providing a summary of a resource estimation for the Sangdong Molybdenum project, including geological setting, mineralisation, resource estimates, and project history.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02aee436cd13c217310bce6de6b288d62fbb8c748942f2edd0d863f849a0f15c34"
+        }
       }
     ]
   }

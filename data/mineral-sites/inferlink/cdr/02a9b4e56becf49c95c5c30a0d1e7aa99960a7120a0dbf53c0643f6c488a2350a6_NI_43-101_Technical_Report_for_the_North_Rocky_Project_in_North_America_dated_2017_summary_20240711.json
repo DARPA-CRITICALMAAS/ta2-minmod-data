@@ -4,18 +4,22 @@
     "record_id": "02a9b4e56becf49c95c5c30a0d1e7aa99960a7120a0dbf53c0643f6c488a2350a6",
     "name": "NI 43-101 Technical Report for the North Rocky Project in North America dated 2017.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
-        "observed_name": "Alberta",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
+          "observed_name": "Alberta",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -488,6 +492,23 @@
         "observed_name": "Lithium brine deposits",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the North Rocky Project in North America dated 2017.pdf",
+          "authors": [
+            "Raymond P. Spanjers",
+            "Gordon MacMillan",
+            "Wayne Monnery"
+          ],
+          "year": 2017,
+          "month": 12,
+          "description": "A technical report prepared for E3 Metals Corporation, detailing the inferred lithium resource estimate for the North Rocky Property located in South-Central Alberta, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02a9b4e56becf49c95c5c30a0d1e7aa99960a7120a0dbf53c0643f6c488a2350a6"
+        }
       }
     ]
   }

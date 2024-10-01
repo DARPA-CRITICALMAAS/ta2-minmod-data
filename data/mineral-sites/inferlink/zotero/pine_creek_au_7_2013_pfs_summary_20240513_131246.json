@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2208",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2208",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -615,6 +619,22 @@
         "observed_name": "Iron Oxide Copper Gold style deposits",
         "source": "report",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PFS) for the Pine Creek Project in Australasia dated 2013",
+          "doi": "https://w3id.org/usgs/z/4530692/W45USI3U",
+          "authors": [
+            "Mark Edwards",
+            "Dean Basile"
+          ],
+          "year": 2013,
+          "month": 7,
+          "description": "This report evaluates the Pine Creek Gold Project's mineral resources and reserves, and demonstrates the project's viability through updated studies and economic evaluations."
+        }
       }
     ]
   }

@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -241,6 +245,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q431",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011",
+          "doi": "https://w3id.org/usgs/z/4530692/NZ23QI48",
+          "authors": [
+            "Charley Murahwi",
+            "Alan J. San Martin",
+            "Richard M. Gowans",
+            "Jane Spooner"
+          ],
+          "year": 2011,
+          "month": 4,
+          "description": "The document is a technical report detailing the updated mineral resource estimate for the Eagle’s Nest Property in Ontario, Canada with an effective date of March 4, 2011, and a signing date of April 18, 2011."
+        }
       }
     ]
   }

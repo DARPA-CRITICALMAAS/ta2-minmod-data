@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -195,6 +199,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q403",
         "source": "report",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report Regarding Update to Reserves and Resources for the Bucko Lake Nickel Project",
+          "doi": "https://w3id.org/usgs/z/4530692/2QW4K65V",
+          "authors": [
+            "Lane A. Griffin",
+            "Paul L. Martin",
+            "Chris C. Broili"
+          ],
+          "year": 2012,
+          "month": 10,
+          "description": "This report is an update to the reserves and resources for the Bucko Lake Nickel Project located in Wabowden, Manitoba, prepared for CaNickel Mining Limited."
+        }
       }
     ]
   }

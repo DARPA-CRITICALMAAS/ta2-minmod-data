@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
-        "observed_name": "Manitoba",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
+          "observed_name": "Manitoba",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1200,6 +1204,23 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+          "authors": [
+            "Lane A. Griffin",
+            "Paul L. Martin",
+            "Chris C. Broili"
+          ],
+          "year": 2012,
+          "month": 10,
+          "description": "A comprehensive technical report updating the reserves and resources for the Bucko Lake Nickel Project and its satellite properties, including details on geological setting, exploration results, and economic analysis.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+        }
       }
     ]
   }

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2146,6 +2150,24 @@
         "zone": "kemess north"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Kemess North Project in North America dated May 2005.pdf",
+          "authors": [
+            "James H. Gray",
+            "Robert J. Morris",
+            "Abdullah Arik",
+            "Frederick Carl Edmunds"
+          ],
+          "year": 2005,
+          "month": 5,
+          "description": "A comprehensive technical report on the Kemess North Project in the Omineca Mining Division of British Columbia, detailing mineral resource and reserve estimates, geological modeling, and summary of the exploration activities.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0248347e2438502b49ac9681bcff39ab8ba10da9846a60dd8ec007a483ad6de6f0"
+        }
+      }
+    ]
   }
 ]

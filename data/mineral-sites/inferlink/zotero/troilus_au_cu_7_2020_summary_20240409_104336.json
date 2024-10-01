@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -57,6 +61,21 @@
         "observed_name": "Vein-hosted mineralization style",
         "source": "report",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Troilus Project in Canada dated July 2020",
+          "doi": "https://w3id.org/usgs/z/4530692/Q3ZZ8FH3",
+          "authors": [
+            "Paul Daigle"
+          ],
+          "year": 2020,
+          "month": 8,
+          "description": "A National Instrument 43-101 Technical Report for Troilus Gold Corp. by AGP Mining Consultants Inc. on the Troilus Gold-Copper Project in Quebec, Canada."
+        }
       }
     ]
   }

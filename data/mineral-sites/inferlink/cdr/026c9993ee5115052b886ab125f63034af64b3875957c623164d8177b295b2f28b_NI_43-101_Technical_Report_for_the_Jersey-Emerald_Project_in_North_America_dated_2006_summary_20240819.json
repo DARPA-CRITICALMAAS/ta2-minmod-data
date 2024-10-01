@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -942,6 +946,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q457",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Jersey-Emerald Project in North America dated 2006.pdf",
+          "authors": [
+            "Gary Giroux",
+            "Perry Grunenberg"
+          ],
+          "year": 2006,
+          "month": 12,
+          "description": "This report provides a summary and preliminary resource evaluation for tungsten and molybdenum mineralization on the Jersey-Emerald property in southeastern British Columbia, including recommendations for further exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026c9993ee5115052b886ab125f63034af64b3875957c623164d8177b295b2f28b"
+        }
       }
     ]
   }

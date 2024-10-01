@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1172",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5117",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1172",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5117",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -473,6 +477,21 @@
         "zone": "bongarita"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Bongara Project in Peru dated March 2019",
+          "authors": [
+            "Albert W. Workman",
+            "John Reddick"
+          ],
+          "year": 2019,
+          "month": 3,
+          "description": "This document is a technical report prepared for Zinc One Resources Inc. detailing the analyses and findings for the Bongará Zinc Project located in Northern Peru, emphasizing exploration data and resource estimates."
+        }
+      }
+    ]
   }
 ]

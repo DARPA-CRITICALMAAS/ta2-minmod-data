@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -538,6 +542,22 @@
         "observed_name": "Volcanogenic Massive Sulphide (VMS)",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Delta Project in Alaska, United States dated April 2011",
+          "doi": "https://w3id.org/usgs/z/4530692/88QISXUM",
+          "authors": [
+            "Samuel Dashevsky",
+            "Carl Schaefer"
+          ],
+          "year": 2011,
+          "month": 4,
+          "description": "The report documents the results of a preliminary resource estimate for the Delta Project as per a news release dated February 22, 2011."
+        }
       }
     ]
   }

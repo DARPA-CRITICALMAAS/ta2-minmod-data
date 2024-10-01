@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -62,6 +66,21 @@
         "observed_name": "Mineralization remobilized by later folding and/or faulting",
         "source": "report",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Raglan Project in North America dated March 2005",
+          "doi": "https://w3id.org/usgs/z/4530692/QVBD9WBG",
+          "authors": [
+            "Mikkel Schau"
+          ],
+          "year": 2005,
+          "month": 3,
+          "description": "Report on the 2004 fieldwork performed by Novawest Resources Inc. on The Raglan Project in the Nunavik Region for Novawest Resources Inc. and Cascadia International Resources Inc."
+        }
       }
     ]
   }

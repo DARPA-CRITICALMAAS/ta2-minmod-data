@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -4495,6 +4499,22 @@
         "observed_name": "clays",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Project in Nevada, United States dated April 2020.pdf",
+          "authors": [
+            "Derek Loveday",
+            "William A. Turner"
+          ],
+          "year": 2020,
+          "month": 5,
+          "description": "The report provides resource estimates for the Tonopah Lithium Claims (TLC) Property in Nevada, US, completed by Stantec Consulting Ltd. for American Lithium Corporation.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02caedd60433e63bd6a9a383cbb08f7626d2e76e58f4bbb6467b7f265479f86aa6"
+        }
       }
     ]
   }

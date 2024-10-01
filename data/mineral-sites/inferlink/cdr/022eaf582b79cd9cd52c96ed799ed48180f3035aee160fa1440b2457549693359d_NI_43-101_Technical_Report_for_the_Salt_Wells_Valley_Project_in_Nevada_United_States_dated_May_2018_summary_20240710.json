@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -52,6 +56,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q354",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Salt Wells Valley Project in Nevada, United States dated May 2018.pdf",
+          "authors": [
+            "Bradley C. Peek"
+          ],
+          "year": 2018,
+          "month": 5,
+          "description": "A technical report detailing the findings and recommendations for the lithium brine exploration project at Salt Wells Valley in Churchill County, Nevada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/022eaf582b79cd9cd52c96ed799ed48180f3035aee160fa1440b2457549693359d"
+        }
       }
     ]
   }

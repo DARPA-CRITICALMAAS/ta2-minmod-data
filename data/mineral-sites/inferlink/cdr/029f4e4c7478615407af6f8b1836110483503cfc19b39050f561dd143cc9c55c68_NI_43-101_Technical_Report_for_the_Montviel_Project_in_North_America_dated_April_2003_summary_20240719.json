@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Québec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Québec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -143,6 +147,21 @@
         "observed_name": "platinum-group elements (PGE)",
         "source": "Inferlink Extraction v2",
         "confidence": 0.058823529411764705
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Montviel Project in North America dated April 2003.pdf",
+          "authors": [
+            "Antoine Fournier"
+          ],
+          "year": 2003,
+          "month": 4,
+          "description": "This document is a technical report on the Montviel Carbonatite project in Quebec, Canada, detailing geology, exploration history, and mineralization, with recommendations for further exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/029f4e4c7478615407af6f8b1836110483503cfc19b39050f561dd143cc9c55c68"
+        }
       }
     ]
   }

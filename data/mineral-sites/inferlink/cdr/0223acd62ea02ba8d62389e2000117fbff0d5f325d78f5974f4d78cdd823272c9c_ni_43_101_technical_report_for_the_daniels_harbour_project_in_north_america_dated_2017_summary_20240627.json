@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
-        "observed_name": "Newfoundland and Labrador",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
+          "observed_name": "Newfoundland and Labrador",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -425,6 +429,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q374",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
+          "authors": [
+            "Elliott M. Stuckless"
+          ],
+          "year": 2017,
+          "month": 12,
+          "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
+        }
       }
     ]
   }

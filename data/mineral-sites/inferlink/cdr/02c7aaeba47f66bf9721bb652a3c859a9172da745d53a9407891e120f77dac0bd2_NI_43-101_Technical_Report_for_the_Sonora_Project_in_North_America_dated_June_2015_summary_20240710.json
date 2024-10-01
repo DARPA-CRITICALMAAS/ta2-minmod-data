@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-        "observed_name": "Sonora",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+          "observed_name": "Sonora",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2741,6 +2745,22 @@
         "observed_name": "Impact U-M intrusion nickel- copper-PGE",
         "source": "Inferlink Extraction v2",
         "confidence": 0.005291005291005291
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sonora Project in North America dated June 2015.pdf",
+          "authors": [
+            "Martin Pittuck",
+            "Colin Rawbone"
+          ],
+          "year": 2015,
+          "month": 6,
+          "description": "This technical report details the mineral resource estimates and geological characteristics of the Sonora Lithium Project in Mexico.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02c7aaeba47f66bf9721bb652a3c859a9172da745d53a9407891e120f77dac0bd2"
+        }
       }
     ]
   }

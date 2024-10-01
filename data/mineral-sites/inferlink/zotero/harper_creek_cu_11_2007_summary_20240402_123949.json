@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -523,6 +527,22 @@
         "date": "2007-11"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Harper Creek Project in North America dated November 2007",
+          "doi": "https://w3id.org/usgs/z/4530692/222VKUTF",
+          "authors": [
+            "David W. Rennie",
+            "Kevin Scott"
+          ],
+          "year": 2007,
+          "month": 11,
+          "description": "The Harper Creek deposit is interpreted as a volcanic-hosted massive sulphide (VHMS) deposit comprising broadly stratabound Cu sulphide-bearing (chalcopyrite) horizons with significant Au and Ag values."
+        }
+      }
+    ]
   }
 ]

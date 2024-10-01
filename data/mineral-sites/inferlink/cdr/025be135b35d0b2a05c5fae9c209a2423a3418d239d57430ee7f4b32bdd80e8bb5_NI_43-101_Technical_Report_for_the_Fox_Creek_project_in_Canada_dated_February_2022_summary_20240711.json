@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
-        "observed_name": "Alberta",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
+          "observed_name": "Alberta",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -95,6 +99,21 @@
         "observed_name": "oil-field waters",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Fox Creek project in Canada dated February, 2022.pdf",
+          "authors": [
+            "John Gorham"
+          ],
+          "year": 2022,
+          "month": 2,
+          "description": "This report provides technical details on the Fox Creek Property in Alberta, Canada, focusing on lithium-bearing brines within reefal carbonates of the Devonian Beaverhill Lake and Woodbend Groups.",
+          "uri": "https://api.cdr.land/v1/docs/documents/025be135b35d0b2a05c5fae9c209a2423a3418d239d57430ee7f4b32bdd80e8bb5"
+        }
       }
     ]
   }

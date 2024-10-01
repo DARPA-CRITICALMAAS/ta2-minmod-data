@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
-        "observed_name": "Newfoundland and Labrador",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
+          "observed_name": "Newfoundland and Labrador",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1830,6 +1834,22 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
+          "authors": [
+            "Todd McCracken",
+            "Paul Daigle"
+          ],
+          "year": 2013,
+          "month": 7,
+          "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
+        }
       }
     ]
   }

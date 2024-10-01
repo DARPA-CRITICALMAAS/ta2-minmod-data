@@ -4,18 +4,22 @@
     "record_id": "027d67d18e300f47f2af3fb8cf183fe5a10d1922f3f378c9a89dadd47b266f555b",
     "name": "NI 43-101 Technical Report for the Georgia Lake Project in North America dated June 2018.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -402,6 +406,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q468",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Georgia Lake Project in North America dated June 2018.pdf",
+          "authors": [
+            "Karl-Stephan Peters",
+            "Florian Lowicki"
+          ],
+          "year": 2018,
+          "month": 6,
+          "description": "This report provides an updated mineral resource estimation for the Georgia Lake Lithium Properties in Ontario, Canada, based on new drilling and channel sampling data gathered since the previous 2012 report.",
+          "uri": "https://api.cdr.land/v1/docs/documents/027d67d18e300f47f2af3fb8cf183fe5a10d1922f3f378c9a89dadd47b266f555b"
+        }
       }
     ]
   }

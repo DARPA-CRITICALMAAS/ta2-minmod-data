@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -705,6 +709,23 @@
         "date": "2007-10"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the New Polaris Project in North America dated October 2007",
+          "doi": "https://w3id.org/usgs/z/4530692/DV5REHDA",
+          "authors": [
+            "J. H. Gray",
+            "R.J. Morris",
+            "G.H. Giroux"
+          ],
+          "year": 2007,
+          "month": 10,
+          "description": "The report is a preliminary assessment for the New Polaris Project, includes resource estimates, mining strategies, economic viability, and recommendations for further work."
+        }
+      }
+    ]
   }
 ]

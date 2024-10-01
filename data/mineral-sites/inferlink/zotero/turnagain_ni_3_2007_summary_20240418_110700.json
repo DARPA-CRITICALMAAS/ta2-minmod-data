@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -659,6 +663,19 @@
         "observed_name": "ultramafic associated magmatic nickel sulphide deposit",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Turnagain Project in North America dated March 2007",
+          "doi": "https://w3id.org/usgs/z/4530692/TBXZBP7A",
+          "authors": [],
+          "year": 2007,
+          "month": 3,
+          "description": "This report includes a summary and conclusions about the Turnagain nickel property, historical exploration, mineralization, and a 2007 mineral resource estimate using a cut-off grade of 0.10% sulphide nickel."
+        }
       }
     ]
   }

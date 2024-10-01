@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2456,6 +2460,25 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q481",
         "source": "Inferlink Extraction v2",
         "confidence": 0.14285714285714285
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+          "authors": [
+            "Greg Kulla",
+            "David Thomas",
+            "Ted Eggleston",
+            "Stella Searston",
+            "Lynton Gormely"
+          ],
+          "year": 2010,
+          "month": 10,
+          "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+        }
       }
     ]
   }

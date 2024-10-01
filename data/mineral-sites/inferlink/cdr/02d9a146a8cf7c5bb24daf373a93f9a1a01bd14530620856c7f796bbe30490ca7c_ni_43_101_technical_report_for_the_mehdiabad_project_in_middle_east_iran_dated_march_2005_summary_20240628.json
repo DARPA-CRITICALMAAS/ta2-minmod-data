@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1103",
-        "observed_name": "Iran",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q3731",
-        "observed_name": "Yazd Province",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1103",
+          "observed_name": "Iran",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3731",
+          "observed_name": "Yazd Province",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -983,6 +987,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q475",
         "source": "Inferlink Extraction v2",
         "confidence": 0.019230769230769232
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Mehdiabad Project in Middle East, Iran dated March 2005.pdf",
+          "authors": [
+            "Union Resources Limited"
+          ],
+          "year": 2005,
+          "month": 3,
+          "description": "This technical report details the Mehdiabad Zinc Project in Central Iran, highlighting exploration, geological findings, and plans for mining operations.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d9a146a8cf7c5bb24daf373a93f9a1a01bd14530620856c7f796bbe30490ca7c"
+        }
       }
     ]
   }

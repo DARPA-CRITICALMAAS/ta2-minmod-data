@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -237,6 +241,24 @@
         "observed_name": "unknown deposit type",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Bonnie Claire project in Nevada, United States dated August, 2021.pdf",
+          "authors": [
+            "Hamid Samari",
+            "Rick Moritz",
+            "J. Todd Harvey",
+            "Terre Lane"
+          ],
+          "year": 2022,
+          "month": 2,
+          "description": "This report is a Preliminary Economic Assessment (PEA) for the Bonnie Claire Lithium Project, providing details on the project's location, geological setting, mineral resources, and recommendations for future steps.",
+          "uri": "https://api.cdr.land/v1/docs/documents/025c0855cd71a5a31ec79eab76a744da6cb90732eaac7f1a2fd2e34788244b4311"
+        }
       }
     ]
   }

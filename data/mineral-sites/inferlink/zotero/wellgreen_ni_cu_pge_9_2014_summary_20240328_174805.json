@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -187,6 +191,21 @@
         "observed_name": "Gabbro-Associated Nickel Deposit",
         "source": "report",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Wellgreen Project in North America dated September 2014",
+          "doi": "https://w3id.org/usgs/z/4530692/Z6QQACF9",
+          "authors": [
+            "Ronald G. Simpson"
+          ],
+          "year": 2014,
+          "month": 9,
+          "description": "A NI 43-101 technical report on the Wellgreen PGM-Ni-Cu Project located in the Yukon Territory, Canada, with an effective date of the report on September 8, 2014."
+        }
       }
     ]
   }

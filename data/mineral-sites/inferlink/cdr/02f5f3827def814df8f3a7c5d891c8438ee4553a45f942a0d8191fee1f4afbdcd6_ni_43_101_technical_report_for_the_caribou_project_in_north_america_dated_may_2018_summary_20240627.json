@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
-        "observed_name": "New Brunswick",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
+          "observed_name": "New Brunswick",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3929,6 +3933,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q409",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Caribou Project in North America dated May 2018.pdf",
+          "authors": [
+            "Torben Jensen",
+            "Ian T. Blakley",
+            "Tracey Jacquemin",
+            "Shaun C. Woods"
+          ],
+          "year": 2018,
+          "month": 5,
+          "description": "A comprehensive technical report detailing the Caribou Mine's geological setting, mineral resources, exploration activities, mining methods, and environmental considerations.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02f5f3827def814df8f3a7c5d891c8438ee4553a45f942a0d8191fee1f4afbdcd6"
+        }
       }
     ]
   }

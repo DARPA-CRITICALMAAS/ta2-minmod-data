@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6875",
-        "observed_name": "Nebraska",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6875",
+          "observed_name": "Nebraska",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -811,6 +815,23 @@
         "observed_name": "Placer",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Elk Creek Project in Nebraska, United States dated May 2019.pdf",
+          "authors": [
+            "Glen Kuntz",
+            "Christian Ballard",
+            "Francine Long"
+          ],
+          "year": 2019,
+          "month": 5,
+          "description": "This is a NI 43-101 Technical Report Feasibility Study for the Elk Creek Project, providing Mineral Resource and Mineral Reserve Estimates, as well as mining methods for niobium, titanium, and scandium resources in southeastern Nebraska.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02b4c61faf2b5625c1c48719eb6e1b2561ba1f2f77c8e7afc45ddc74d125d62cb2"
+        }
       }
     ]
   }

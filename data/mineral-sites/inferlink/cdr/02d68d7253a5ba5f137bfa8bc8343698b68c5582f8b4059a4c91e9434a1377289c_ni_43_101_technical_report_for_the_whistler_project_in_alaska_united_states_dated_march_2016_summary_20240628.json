@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
-        "observed_name": "Alaska",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
+          "observed_name": "Alaska",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -779,6 +783,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q464",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Whistler Project in Alaska, United States dated March 2016.pdf",
+          "authors": [
+            "Gary H. Giroux"
+          ],
+          "year": 2016,
+          "month": 3,
+          "description": "This technical report documents the first resource estimates for the Raintree West and Island Mountain deposits at the Whistler Project in Alaska, focusing on gold-copper porphyry mineralization.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d68d7253a5ba5f137bfa8bc8343698b68c5582f8b4059a4c91e9434a1377289c"
+        }
       }
     ]
   }

@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
-        "observed_name": "South Korea",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5900",
-        "observed_name": "Gangwon",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
+          "observed_name": "South Korea",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5900",
+          "observed_name": "Gangwon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1389,6 +1393,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q446",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated March 2012.pdf",
+          "authors": [
+            "Joseph Hirst",
+            "Paul Gribble"
+          ],
+          "year": 2012,
+          "month": 3,
+          "description": "This technical report provides a detailed mineral resource estimate for the Sangdong Project in South Korea, focusing on tungsten and molybdenum mineralization.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02f01d3a60d1f558797258c1b74eaeaa324baa10b4c408b183e97896ce9488d095"
+        }
       }
     ]
   }

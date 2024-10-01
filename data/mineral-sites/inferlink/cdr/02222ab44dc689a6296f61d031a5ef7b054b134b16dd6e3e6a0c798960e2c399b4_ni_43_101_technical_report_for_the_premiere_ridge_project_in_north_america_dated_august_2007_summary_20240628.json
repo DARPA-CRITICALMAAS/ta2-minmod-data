@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -8101,6 +8105,24 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Premiere Ridge Project in North America dated August 2007.pdf",
+          "authors": [
+            "Graham G. Clow",
+            "Richard E. Routledge",
+            "James L. Pearson",
+            "Sheila E. Daniel"
+          ],
+          "year": 2007,
+          "month": 8,
+          "description": "This report presents the technical and feasibility study for the Premiere Ridge Cu-Ni-Co-PGM Project, detailing the project's geology, resources, mining methods, environmental considerations, and economic analysis.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02222ab44dc689a6296f61d031a5ef7b054b134b16dd6e3e6a0c798960e2c399b4"
+        }
       }
     ]
   }

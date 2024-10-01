@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1170",
-        "observed_name": "Papua New Guinea",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5096",
-        "observed_name": "East New Britain Province",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1170",
+          "observed_name": "Papua New Guinea",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5096",
+          "observed_name": "East New Britain Province",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1521,6 +1525,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "Inferlink Extraction v2",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sinivit Project in Australasia, Papua-New Guinea dated October 2011.pdf",
+          "authors": [
+            "Ian Taylor"
+          ],
+          "year": 2011,
+          "month": 10,
+          "description": "This report provides an independent technical assessment of the mineral resources remaining at the Sinivit Gold Project in New Britain, Papua New Guinea, including geological analysis and exploration potential.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0204a719b93798cf3aa6de320508e5e9bdb9a19c689df8ede1532874e36f0df096"
+        }
       }
     ]
   }

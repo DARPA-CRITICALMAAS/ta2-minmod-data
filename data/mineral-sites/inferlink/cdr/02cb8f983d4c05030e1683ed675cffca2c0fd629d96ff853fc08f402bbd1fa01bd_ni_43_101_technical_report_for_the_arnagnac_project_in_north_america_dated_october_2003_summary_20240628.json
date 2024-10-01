@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -75,6 +79,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q350",
         "source": "Inferlink Extraction v2",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Arnagnac Project in North America dated October 2003.pdf",
+          "authors": [
+            "Jean Girard"
+          ],
+          "year": 2003,
+          "month": 10,
+          "description": "A technical report detailing the exploration work, geological context, and potential mining prospects for the Armagnac property in North America.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02cb8f983d4c05030e1683ed675cffca2c0fd629d96ff853fc08f402bbd1fa01bd"
+        }
       }
     ]
   }

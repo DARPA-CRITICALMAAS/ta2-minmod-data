@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -436,6 +440,28 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q411"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "TECHNICAL REPORT AND PRELIMINARY ECONOMIC ASSESSMENT (PEA) OF THE MURRAY BROOK PROJECT",
+          "doi": "https://w3id.org/usgs/z/4530692/3HEHSEU8",
+          "authors": [
+            "Mr. Eugene Puritch P.Eng.",
+            "Mr. Gerald Harron P.Geo.",
+            "Mr. Alfred Hayden P.Eng.",
+            "Mr. Yungang Wu P.Geo.",
+            "Mr. Ken Kuchling P.Eng",
+            "Mr. David Orava P.Eng.",
+            "Ms. Tracy Armstrong P.Geo.",
+            "Mr. Kirk Rodgers P.Eng."
+          ],
+          "year": 2013,
+          "month": 7,
+          "description": "A technical report and preliminary economic assessment for the Murray Brook Project."
+        }
+      }
     ]
   }
 ]

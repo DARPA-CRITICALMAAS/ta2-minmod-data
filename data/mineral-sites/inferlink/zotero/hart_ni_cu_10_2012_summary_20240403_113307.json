@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -45,6 +49,24 @@
         }
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Hart Project in North America dated October 2012",
+          "doi": "https://w3id.org/usgs/z/4530692/WNDU5EAG",
+          "authors": [
+            "Mark Hatton",
+            "Glen Cole",
+            "Heather Miree",
+            "Keyvan Salehi"
+          ],
+          "year": 2012,
+          "month": 10,
+          "description": "This report is a preliminary economic assessment for the Hart Project of Liberty Mines Inc. and includes inferred mineral resources that are considered too speculative geologically to be categorized as mineral reserves."
+        }
+      }
+    ]
   }
 ]

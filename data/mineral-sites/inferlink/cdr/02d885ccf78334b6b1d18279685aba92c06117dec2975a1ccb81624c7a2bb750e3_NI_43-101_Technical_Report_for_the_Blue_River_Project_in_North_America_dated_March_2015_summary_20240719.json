@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -368,6 +372,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q332",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Blue River Project in North America dated March 2015.pdf",
+          "authors": [
+            "Greg Kulla",
+            "Jenna Hardy"
+          ],
+          "year": 2015,
+          "month": 3,
+          "description": "The document is a technical report providing geological and mineral resource estimates for the Blue River Tantalum-Niobium Project in British Columbia, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d885ccf78334b6b1d18279685aba92c06117dec2975a1ccb81624c7a2bb750e3"
+        }
       }
     ]
   }

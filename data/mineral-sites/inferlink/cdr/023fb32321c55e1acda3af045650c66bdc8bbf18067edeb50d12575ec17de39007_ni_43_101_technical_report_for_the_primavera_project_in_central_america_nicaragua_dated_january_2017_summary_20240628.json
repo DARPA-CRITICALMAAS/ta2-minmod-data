@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1156",
-        "observed_name": "Nicaragua",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2139",
-        "observed_name": "Región Autónoma de la Costa Caribe Norte",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1156",
+          "observed_name": "Nicaragua",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2139",
+          "observed_name": "Región Autónoma de la Costa Caribe Norte",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1366,6 +1370,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Primavera Project in Central America, Nicaragua dated January 2017.pdf",
+          "authors": [
+            "Todd McCracken",
+            "Greg Smith",
+            "Marc Cianci"
+          ],
+          "year": 2017,
+          "month": 1,
+          "description": "This technical report, prepared by WSP Canada Inc. and commissioned by Calibre Mining Corp., presents a resource estimate and geological analysis for the Primavera Project located in north-central Nicaragua, and includes recommendations for further exploration and development actions.",
+          "uri": "https://api.cdr.land/v1/docs/documents/023fb32321c55e1acda3af045650c66bdc8bbf18067edeb50d12575ec17de39007"
+        }
       }
     ]
   }

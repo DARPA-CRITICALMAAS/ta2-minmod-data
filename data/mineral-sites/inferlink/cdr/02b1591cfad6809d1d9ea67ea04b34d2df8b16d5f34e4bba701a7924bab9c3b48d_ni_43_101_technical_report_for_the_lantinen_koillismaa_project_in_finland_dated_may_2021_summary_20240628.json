@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1074",
-        "observed_name": "Finland",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q3206",
-        "observed_name": "North-Central Finland",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1074",
+          "observed_name": "Finland",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3206",
+          "observed_name": "North-Central Finland",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1731,6 +1735,21 @@
         "zone": "kaukua"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Läntinen Koillismaa project in Finland dated May, 2021.pdf",
+          "authors": [
+            "Julian Aldridge"
+          ],
+          "year": 2021,
+          "month": 5,
+          "description": "This technical report provides an updated Mineral Resource Estimate (MRE) for the Haukiaho PGE-Cu-Ni-Co deposit on the Läntinen Koillismaa (LK) project in Finland, prepared for Palladium One Mining Inc.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02b1591cfad6809d1d9ea67ea04b34d2df8b16d5f34e4bba701a7924bab9c3b48d"
+        }
+      }
+    ]
   }
 ]

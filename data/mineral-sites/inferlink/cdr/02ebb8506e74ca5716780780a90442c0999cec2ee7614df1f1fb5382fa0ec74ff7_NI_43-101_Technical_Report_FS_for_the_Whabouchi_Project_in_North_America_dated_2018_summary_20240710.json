@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1701,6 +1705,28 @@
         "zone": "underground"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (FS) for the Whabouchi Project in North America dated 2018.pdf",
+          "authors": [
+            "Patrick Pérez",
+            "Maxime Dupéré",
+            "Pierre Girard",
+            "Dominic Tremblay",
+            "Martin Stapiusky",
+            "Alain Michaud",
+            "James Anson",
+            "Rock Gagnon"
+          ],
+          "year": 2018,
+          "month": 2,
+          "description": "A technical report providing a feasibility study of the Whabouchi Lithium Mine and Shawinigan Electrochemical Plant effective as of November 7th, 2017.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02ebb8506e74ca5716780780a90442c0999cec2ee7614df1f1fb5382fa0ec74ff7"
+        }
+      }
+    ]
   }
 ]

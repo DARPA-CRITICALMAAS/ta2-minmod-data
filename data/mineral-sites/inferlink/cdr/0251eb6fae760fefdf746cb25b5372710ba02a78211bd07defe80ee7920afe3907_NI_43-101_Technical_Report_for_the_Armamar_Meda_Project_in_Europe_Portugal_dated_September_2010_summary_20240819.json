@@ -11,17 +11,21 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1176",
-        "observed_name": "Portugal",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "observed_name": "Northern Portugal",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1176",
+          "observed_name": "Portugal",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "observed_name": "Northern Portugal",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -69,6 +73,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q426",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Armamar Meda Project in Europe, Portugal dated September 2010.pdf",
+          "authors": [
+            "W. Gruenwald",
+            "Filipe Faria"
+          ],
+          "year": 2010,
+          "month": 9,
+          "description": "A technical report prepared for Colt Resources Inc., detailing the exploration and potential for tungsten deposits at the Armamar Meda concession in northern Portugal for application to the TSX Venture Exchange.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0251eb6fae760fefdf746cb25b5372710ba02a78211bd07defe80ee7920afe3907"
+        }
       }
     ]
   }

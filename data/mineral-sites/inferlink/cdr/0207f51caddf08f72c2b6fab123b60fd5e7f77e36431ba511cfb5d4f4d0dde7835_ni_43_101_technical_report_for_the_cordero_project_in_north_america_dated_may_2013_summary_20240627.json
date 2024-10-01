@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4535",
-        "observed_name": "Chihuahua",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4535",
+          "observed_name": "Chihuahua",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1709,6 +1713,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q455",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Cordero Project in North America dated May 2013.pdf",
+          "authors": [
+            "Herbert E. Welhener"
+          ],
+          "year": 2013,
+          "month": 5,
+          "description": "This report provides a comprehensive update on the mineral resources of the Cordero Project in Chihuahua, Mexico, including geological setting, mineralization, exploration activities, and updated resource estimates as per the standards of NI 43-101.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0207f51caddf08f72c2b6fab123b60fd5e7f77e36431ba511cfb5d4f4d0dde7835"
+        }
       }
     ]
   }

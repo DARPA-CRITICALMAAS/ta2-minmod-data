@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -75,6 +79,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q437",
         "source": "Inferlink Extraction v2",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Hawk Project in North America dated May 2009.pdf",
+          "authors": [
+            "Bob Lane"
+          ],
+          "year": 2009,
+          "month": 5,
+          "description": "The report, authored by Bob Lane, provides a comprehensive review of the geology, exploration history, and future recommendations for the Hawk Project located in British Columbia, highlighting its potential for bulk tonnage copper-gold mineralization.",
+          "uri": "https://api.cdr.land/v1/docs/documents/024fde42346beb68fdece626341a169282b871be5700620e9b22d05c0cfea6012b"
+        }
       }
     ]
   }

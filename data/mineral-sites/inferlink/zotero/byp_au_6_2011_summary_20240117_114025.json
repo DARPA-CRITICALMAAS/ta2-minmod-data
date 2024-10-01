@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1044",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2759",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1044",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2759",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -280,6 +284,21 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q380"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "Technical Report on the BYP Property Hunan Province China",
+          "doi": "https://w3id.org/usgs/z/4530692/RHWSF8W4",
+          "authors": [
+            "Randal Cullen P. Geo."
+          ],
+          "year": 2011,
+          "month": 6,
+          "description": "This report for Silvercorp Metals Inc. provides details on the BYP Property in Hunan Province, China, including resource estimates, geological setting, exploration history, and recommendations."
+        }
+      }
     ]
   }
 ]

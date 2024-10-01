@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
-        "observed_name": "Argentina",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2187",
-        "observed_name": "Salta Province",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
+          "observed_name": "Argentina",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2187",
+          "observed_name": "Salta Province",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -51,6 +55,21 @@
         "observed_name": "Silver Peak, Nevada type, terrigenous salar",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Pastos Grandes Project in Argentina dated May 2019.pdf",
+          "authors": [
+            "Michael Rosko"
+          ],
+          "year": 2019,
+          "month": 5,
+          "description": "This document is a technical resource update report prepared for the Pastos Grandes Project in Argentina, detailing the Phase III lithium and potassium resource estimates.",
+          "uri": "https://api.cdr.land/v1/docs/documents/020bccd975b58405a3b2ad1757d0be9b6979198a3bfa752418dcd1184b2b938124"
+        }
       }
     ]
   }

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-        "observed_name": "Yukon Territory",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "observed_name": "Yukon Territory",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -57,6 +61,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q416",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Severance Project in North America dated November 2007.pdf",
+          "authors": [
+            "Scott Casselman"
+          ],
+          "year": 2007,
+          "month": 11,
+          "description": "This technical report provides a geological evaluation of the Severance Property located in the Dawson Ranges, Yukon Territory, focusing on its potential for copper-gold-molybdenum mineralization.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026b6e2d88a7e0498a7a06042950d0d22a7ae6642931508c72852a27e93adbf7e6"
+        }
       }
     ]
   }

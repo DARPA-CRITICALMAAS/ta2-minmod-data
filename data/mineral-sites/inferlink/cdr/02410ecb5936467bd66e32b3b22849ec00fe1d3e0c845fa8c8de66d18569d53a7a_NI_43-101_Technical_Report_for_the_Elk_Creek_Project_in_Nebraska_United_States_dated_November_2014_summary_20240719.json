@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "USA",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6875",
-        "observed_name": "Nebraska",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "USA",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6875",
+          "observed_name": "Nebraska",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -294,6 +298,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q320",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Elk Creek Project in Nebraska, United States dated November 2014.pdf",
+          "authors": [
+            "Martin Pittuck",
+            "Ben Parsons"
+          ],
+          "year": 2014,
+          "month": 11,
+          "description": "This technical report provides an assessment of mineral resources at the Elk Creek Niobium Project in Nebraska, detailing property description, geology, resource estimation, and recommendations for further exploration work.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02410ecb5936467bd66e32b3b22849ec00fe1d3e0c845fa8c8de66d18569d53a7a"
+        }
       }
     ]
   }

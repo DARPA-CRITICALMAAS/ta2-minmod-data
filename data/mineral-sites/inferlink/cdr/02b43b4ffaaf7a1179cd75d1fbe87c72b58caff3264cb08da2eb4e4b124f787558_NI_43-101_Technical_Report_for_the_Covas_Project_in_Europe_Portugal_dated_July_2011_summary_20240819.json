@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1176",
-        "observed_name": "Portugal",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2145",
-        "observed_name": "Vila Nova De Cerveira and Caminha",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1176",
+          "observed_name": "Portugal",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2145",
+          "observed_name": "Vila Nova De Cerveira and Caminha",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1284,6 +1288,21 @@
         "observed_name": "Reduced Intrusion-Related Gold Systems (RIRGS)",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated July 2011.pdf",
+          "authors": [
+            "Barry James Price"
+          ],
+          "year": 2011,
+          "month": 7,
+          "description": "A detailed technical report assessing the geology and exploration results of the Covas tungsten property in northwestern Portugal, prepared for Blackheath Resources Inc.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02b43b4ffaaf7a1179cd75d1fbe87c72b58caff3264cb08da2eb4e4b124f787558"
+        }
       }
     ]
   }

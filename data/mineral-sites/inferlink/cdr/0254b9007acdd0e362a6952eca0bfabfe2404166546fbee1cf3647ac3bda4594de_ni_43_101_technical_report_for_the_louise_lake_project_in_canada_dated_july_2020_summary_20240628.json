@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -493,6 +497,21 @@
         "date": "2020-7"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Louise Lake Project in Canada dated July 2020.pdf",
+          "authors": [
+            "Jason McLaughlin"
+          ],
+          "year": 2020,
+          "month": 7,
+          "description": "This report, prepared by Aurora Geosciences Ltd. for 79 Resources Ltd., provides a summary of geological and mineralogical settings, historical exploration activities, and recent exploration efforts at the Louise Lake Property in British Columbia, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0254b9007acdd0e362a6952eca0bfabfe2404166546fbee1cf3647ac3bda4594de"
+        }
+      }
+    ]
   }
 ]

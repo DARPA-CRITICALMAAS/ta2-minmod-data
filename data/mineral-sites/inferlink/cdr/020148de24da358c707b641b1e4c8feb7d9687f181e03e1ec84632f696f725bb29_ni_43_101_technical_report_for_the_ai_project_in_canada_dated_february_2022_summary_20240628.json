@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -52,6 +56,22 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the AI project in Canada dated February, 2022.pdf",
+          "authors": [
+            "Kristian Whitehead",
+            "David Mark"
+          ],
+          "year": 2022,
+          "month": 2,
+          "description": "This technical report, prepared under the guidelines of Canadian National Instrument 43-101, provides an independent assessment of the AT Property in British Columbia's south central region, detailing known information on magmatic-hosted Ni-Cu sulphides + PGE targets, historical and recent explorations, and recommendations for further exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/020148de24da358c707b641b1e4c8feb7d9687f181e03e1ec84632f696f725bb29"
+        }
       }
     ]
   }

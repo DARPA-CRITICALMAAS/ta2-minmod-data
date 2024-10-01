@@ -10,17 +10,21 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1085",
-        "observed_name": "Greece",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "observed_name": "Chalkidiki",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1085",
+          "observed_name": "Greece",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "observed_name": "Chalkidiki",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -4523,6 +4527,25 @@
         "date": "2007-5"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+          "authors": [
+            "Mike Beare",
+            "Geoff Bull",
+            "Patrick Forward",
+            "Philip Newman",
+            "Antony Francis"
+          ],
+          "year": 2007,
+          "month": 5,
+          "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+        }
+      }
+    ]
   }
 ]

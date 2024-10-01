@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-        "observed_name": "Yukon Territory",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "observed_name": "Yukon Territory",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -462,6 +466,28 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q446",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Mar Project in North America dated 2008.pdf",
+          "authors": [
+            "Dr. Bart Stryhas",
+            "Syver More",
+            "Al Kuestermeyer",
+            "Stuart Collins",
+            "Bret Swanson",
+            "Kenneth P. Black",
+            "Terry Mandziak",
+            "Michael Levy"
+          ],
+          "year": 2008,
+          "month": 12,
+          "description": "This document provides a Preliminary Assessment of the Dublin Gulch Property, Mar-Tungsten Zone in Yukon, Canada, including a comprehensive review of exploration activities, resource estimate, and economic evaluation.",
+          "uri": "https://api.cdr.land/v1/docs/documents/021568e025e2ea7f8a93e8399c3d103dc7fc7cd3c5f604e372be6602f1961b8ff1"
+        }
       }
     ]
   }

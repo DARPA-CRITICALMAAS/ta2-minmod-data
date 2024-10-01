@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
-        "observed_name": "New Brunswick",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
+          "observed_name": "New Brunswick",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3330,6 +3334,22 @@
         "observed_name": "stringer",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+          "authors": [
+            "Michael P. Cullen",
+            "Matthew Harrington"
+          ],
+          "year": 2008,
+          "month": 6,
+          "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+        }
       }
     ]
   }

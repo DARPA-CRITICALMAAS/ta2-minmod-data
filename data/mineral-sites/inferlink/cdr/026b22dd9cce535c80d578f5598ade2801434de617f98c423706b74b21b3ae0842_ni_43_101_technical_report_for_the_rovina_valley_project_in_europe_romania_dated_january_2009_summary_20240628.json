@@ -10,12 +10,14 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1180",
-        "observed_name": "Romania",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1180",
+          "observed_name": "Romania",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1423,6 +1425,22 @@
         "zone": "colnic"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Rovina Valley Project in Europe, Romania dated January 2009.pdf",
+          "authors": [
+            "Pierre Desautels",
+            "Randall K. Ruff"
+          ],
+          "year": 2009,
+          "month": 1,
+          "description": "An independent Mineral Resource Estimate and Technical Report for the Rovina Valley Project located in the Golden Quadrilateral Mining District of Romania.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026b22dd9cce535c80d578f5598ade2801434de617f98c423706b74b21b3ae0842"
+        }
+      }
+    ]
   }
 ]

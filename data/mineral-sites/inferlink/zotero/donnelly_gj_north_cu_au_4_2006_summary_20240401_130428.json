@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -850,6 +854,22 @@
         "observed_name": "gold-silver-copper-zinc bearing quartz veins",
         "source": "report",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Donnelly-GJ-North Project in North America dated April 2006",
+          "doi": "https://w3id.org/usgs/z/4530692/4DVAKK5E",
+          "authors": [
+            "David T. Mehner",
+            "Giles R. Peatfield"
+          ],
+          "year": 2006,
+          "month": 4,
+          "description": "An assessment report of the Kinaskan Lake Copper-Gold Porphyry Project in British Columbia, Canada, focusing on the Donnelly GJ and North Zones."
+        }
       }
     ]
   }

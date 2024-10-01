@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -129,6 +133,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q373",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Laronde Project in North America dated May 2003",
+          "doi": "https://w3id.org/usgs/z/4530692/2ZGNUWQX",
+          "authors": [
+            "Guy Gosselin"
+          ],
+          "year": 2003,
+          "month": 5,
+          "description": "This document presents the year 2003 mineral reserves and mineral resources estimate for Agnico-Eagle Mines Ltd.’s Laronde Division."
+        }
       }
     ]
   }

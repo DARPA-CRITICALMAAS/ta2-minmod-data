@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -317,6 +321,19 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q373",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Kudz Ze Kayah Project in Canada dated June 2019",
+          "doi": "https://w3id.org/usgs/z/4530692/3U6SGW2H",
+          "authors": [],
+          "year": 2019,
+          "month": 6,
+          "description": "The document details positive feasibility study results for the Kudz Ze Kayah Project in Yukon, Canada, presented by BMC Minerals, which assesses the project's reserves, expected production, costs, and financial projections."
+        }
       }
     ]
   }

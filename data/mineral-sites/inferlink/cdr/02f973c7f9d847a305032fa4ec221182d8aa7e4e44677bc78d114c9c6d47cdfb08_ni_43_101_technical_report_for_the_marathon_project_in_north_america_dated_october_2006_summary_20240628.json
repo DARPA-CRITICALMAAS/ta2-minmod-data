@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2716,6 +2720,26 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Marathon Project in North America dated October 2006.pdf",
+          "authors": [
+            "Tim Mann",
+            "Eugene Puritch",
+            "David Orava",
+            "Al Hayden",
+            "Tracy Armstrong",
+            "Wayne Ewert"
+          ],
+          "year": 2006,
+          "month": 10,
+          "description": "This is a National Instrument 43-101 (NI 43-101) compliant technical report and preliminary economic assessment for the Marathon PGM-Cu Property located in Northwestern Ontario, prepared to support further scientific and engineering investigations by Marathon PGM Corporation.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02f973c7f9d847a305032fa4ec221182d8aa7e4e44677bc78d114c9c6d47cdfb08"
+        }
       }
     ]
   }

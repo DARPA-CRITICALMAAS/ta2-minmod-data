@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1086",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "observed_name": "Qaqortoq District",
-        "source": "Inferlink Extraction v1",
-        "confidence": 0.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1086",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "observed_name": "Qaqortoq District",
+          "source": "Inferlink Extraction v1",
+          "confidence": 0.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -87,6 +91,21 @@
         "observed_name": "Transported ores (channel-fill and scree)",
         "source": "report",
         "confidence": 0.1111111111111111
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report on the Iron-Titanium-Vanadium Potential of the Isortoq Property South Greenland a Territory of Denmark",
+          "doi": "https://w3id.org/usgs/z/4530692/5IAF9JFM",
+          "authors": [
+            "Nadia Caira"
+          ],
+          "year": 2012,
+          "month": 1,
+          "description": "This report on the Isortoq Property evaluates its potential for iron, titanium, and vanadium, with amendments added in March and April 2012."
+        }
       }
     ]
   }

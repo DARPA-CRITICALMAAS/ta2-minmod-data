@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -188,6 +192,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q476",
         "source": "report",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the McWatters Project in North America dated October 2005",
+          "doi": "https://w3id.org/usgs/z/4530692/B55UNRNG",
+          "authors": [
+            "NATHAN ERIC FIER",
+            "DAVID A. ROSS"
+          ],
+          "year": 2005,
+          "month": 10,
+          "description": "A technical report prepared for Liberty Mines Inc. detailing a NI 43-101 compliant resource estimation for the McWatters Nickel property located near Timmins, Ontario."
+        }
       }
     ]
   }

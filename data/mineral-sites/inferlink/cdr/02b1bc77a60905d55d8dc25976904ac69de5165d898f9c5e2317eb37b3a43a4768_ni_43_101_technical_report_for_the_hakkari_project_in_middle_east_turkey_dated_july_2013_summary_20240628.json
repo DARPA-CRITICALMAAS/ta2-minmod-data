@@ -4,18 +4,22 @@
     "record_id": "02b1bc77a60905d55d8dc25976904ac69de5165d898f9c5e2317eb37b3a43a4768",
     "name": "NI 43-101 Technical Report for the Hakkari Project in Middle East, Turkey dated July 2013.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
-        "observed_name": "Turkey",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6373",
-        "observed_name": "Hakkari",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
+          "observed_name": "Turkey",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6373",
+          "observed_name": "Hakkari",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -713,6 +717,23 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Hakkari Project in Middle East, Turkey dated July 2013.pdf",
+          "authors": [
+            "Michael J Robertson",
+            "Michael Robert Hall",
+            "Ewald H. Meyer"
+          ],
+          "year": 2013,
+          "month": 7,
+          "description": "This is a technical report on the Hakkari Zinc Project in Turkey, detailing geological setting, mineral resources, exploration activities, and metallurgical testing conducted for zinc extraction.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02b1bc77a60905d55d8dc25976904ac69de5165d898f9c5e2317eb37b3a43a4768"
+        }
       }
     ]
   }

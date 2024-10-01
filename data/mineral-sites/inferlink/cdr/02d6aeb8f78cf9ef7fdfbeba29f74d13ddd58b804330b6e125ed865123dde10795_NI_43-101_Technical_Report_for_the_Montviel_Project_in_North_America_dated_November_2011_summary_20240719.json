@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -265,6 +269,22 @@
         "observed_name": "Polygenetic breccias",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Montviel Project in North America dated November 2011.pdf",
+          "authors": [
+            "Guy Desharnais",
+            "Claude Duplessis"
+          ],
+          "year": 2011,
+          "month": 9,
+          "description": "The report provides an estimate of the mineral resources of the Montviel Core Zone REE deposit, based on drilling data collected by Geomega Resources Inc. during the 2010 and early 2011 exploration programs.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d6aeb8f78cf9ef7fdfbeba29f74d13ddd58b804330b6e125ed865123dde10795"
+        }
       }
     ]
   }

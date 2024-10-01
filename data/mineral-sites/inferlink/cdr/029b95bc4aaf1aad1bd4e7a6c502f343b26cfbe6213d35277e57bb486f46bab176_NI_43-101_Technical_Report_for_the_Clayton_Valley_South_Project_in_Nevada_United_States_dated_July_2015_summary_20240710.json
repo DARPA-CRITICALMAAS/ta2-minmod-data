@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -336,6 +340,21 @@
         "zone": "southern zone"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Clayton Valley South Project in Nevada, United States dated July 2015.pdf",
+          "authors": [
+            "Raymond P. Spanjers"
+          ],
+          "year": 2015,
+          "month": 7,
+          "description": "This technical report, prepared for Pure Energy Minerals Ltd., provides an inferred resource estimate for lithium in the Clayton Valley South Project located in Esmeralda County, Nevada, including geological, hydrological, and geochemical data, as well as recommendations for future exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/029b95bc4aaf1aad1bd4e7a6c502f343b26cfbe6213d35277e57bb486f46bab176"
+        }
+      }
+    ]
   }
 ]

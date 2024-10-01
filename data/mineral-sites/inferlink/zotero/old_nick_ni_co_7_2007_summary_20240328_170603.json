@@ -9,16 +9,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -134,6 +138,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q478",
         "source": "report",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Old Nick Project in North America dated July 2007",
+          "doi": "https://w3id.org/usgs/z/4530692/3WDZDNIF",
+          "authors": [
+            "David K. Makepeace"
+          ],
+          "year": 2007,
+          "month": 7,
+          "description": "The Old Nick is a disseminated (low-grade) quartzite-hosted strataform nickel-cobalt deposit with estimated resources defined by David Makepeace P.Eng. of Geospectrum."
+        }
       }
     ]
   }

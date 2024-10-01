@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1298,6 +1302,29 @@
         "date": "2009-10"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Mount Milligan Project in North America dated October 2009.pdf",
+          "authors": [
+            "Karla Mills",
+            "John Huang",
+            "Grant Bosworth",
+            "Scott Cowie",
+            "Bruno Borntraeger",
+            "Herb Welhener",
+            "Jay Collins",
+            "Tim Bekhuys",
+            "Darin Labrenz"
+          ],
+          "year": 2009,
+          "month": 10,
+          "description": "This report provides a comprehensive feasibility update for the Mt. Milligan copper-gold porphyry project located in Northern British Columbia, detailing geological, metallurgical, environmental, and financial analyses to support the project's development and economic viability.",
+          "uri": "https://api.cdr.land/v1/docs/documents/020ce5b8e4de72e036aaf7e5242ee3e9b5ce1c4c281ed51d289a9cfa43c3a6023e"
+        }
+      }
+    ]
   }
 ]

@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "observed_name": "New Westminster Mining Division",
-        "source": "Inferlink Extraction v1",
-        "confidence": 0.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "observed_name": "New Westminster Mining Division",
+          "source": "Inferlink Extraction v1",
+          "confidence": 0.0
+        }
+      ]
     },
     "mineral_inventory": [],
     "deposit_type_candidate": [
@@ -50,6 +54,12 @@
         "observed_name": "SKARN",
         "source": "report",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": null
       }
     ]
   }

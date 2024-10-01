@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4545",
-        "observed_name": "Michoacán",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4545",
+          "observed_name": "Michoacán",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -6417,6 +6421,26 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Tepal Project in North America dated 2017.pdf",
+          "authors": [
+            "Gord Doerksen",
+            "Dino Pilotto",
+            "Kelly McLeod",
+            "Daniel Friedman",
+            "Michael Godard",
+            "David K. Makepeace"
+          ],
+          "year": 2017,
+          "month": 1,
+          "description": "A technical report documenting the preliminary economic assessment for the Tepal Project in Michoacán, Mexico, including revised process flows, mining costs, and updated capital and operating cost estimates.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0285f040a694da875bb7beaba7366fe02f29b2070e65633cb395a28feb4bf303f6"
+        }
       }
     ]
   }

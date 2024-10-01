@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1242",
-        "observed_name": "Vietnam",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2148",
-        "observed_name": "Thai Nguyen Province",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1242",
+          "observed_name": "Vietnam",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2148",
+          "observed_name": "Thai Nguyen Province",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1600,6 +1604,21 @@
         "observed_name": "buried gold-copper skarn",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Nui Phao Project in Asia, Vietnam dated April 2002.pdf",
+          "authors": [
+            "Stephen Juras"
+          ],
+          "year": 2002,
+          "month": 4,
+          "description": "This report provides an updated mineral resource estimate for the Nui Phao Project in Vietnam, focusing on tungsten, gold, copper, bismuth, and fluorine mineralization.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02483a2b478a9f4b00eedfd2fc56700d2e6ffa2eadfedef3eef923f7f41b12ed84"
+        }
       }
     ]
   }

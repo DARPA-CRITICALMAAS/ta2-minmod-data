@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -81,6 +85,25 @@
         "date": "2014-4"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Mayville-Makwa Project in North America dated April 2014",
+          "doi": "https://w3id.org/usgs/z/4530692/RWPS34U2",
+          "authors": [
+            "Reno Pressacco",
+            "David Ross",
+            "Hugo Miranda",
+            "Holger Krutzelmann",
+            "Stuart E. Collins"
+          ],
+          "year": 2014,
+          "month": 4,
+          "description": "A technical report on the preliminary economic assessment for the Mayville-Makwa Project in Manitoba, including resource estimates, project infrastructure, and economic analysis."
+        }
+      }
+    ]
   }
 ]

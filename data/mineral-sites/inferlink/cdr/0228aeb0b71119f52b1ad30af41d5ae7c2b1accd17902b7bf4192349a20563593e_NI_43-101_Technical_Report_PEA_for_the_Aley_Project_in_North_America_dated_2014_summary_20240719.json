@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1623,6 +1627,25 @@
         "observed_name": "Impact U-M intrusion nickel- copper-PGE",
         "source": "Inferlink Extraction v2",
         "confidence": 0.005291005291005291
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Aley Project in North America dated 2014.pdf",
+          "authors": [
+            "Scott Jones",
+            "Keith Merriam",
+            "Greg Yelland",
+            "Robert Rotzinger",
+            "Ronald G. Simpson"
+          ],
+          "year": 2014,
+          "month": 10,
+          "description": "This technical report provides a comprehensive Preliminary Economic Assessment (PEA) for the Aley niobium project, detailing aspects such as exploration, geology, mining, metallurgy, environmental considerations, and the economic viability of the project.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0228aeb0b71119f52b1ad30af41d5ae7c2b1accd17902b7bf4192349a20563593e"
+        }
       }
     ]
   }

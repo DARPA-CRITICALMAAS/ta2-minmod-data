@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1331,6 +1335,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q320",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Niobec Project in North America dated February 2009.pdf",
+          "authors": [
+            "Elzéar Belzile"
+          ],
+          "year": 2009,
+          "month": 2,
+          "description": "This report provides an independent review of the niobium mineral resource and reserve estimation of the Niobec mine in Quebec, Canada for IAMGOLD Corporation, as of December 31, 2008.",
+          "uri": "https://api.cdr.land/v1/docs/documents/022bc134c6a8247a34365f95435509d8d3738c8d96207e23c7ccafbe04990bbcf9"
+        }
       }
     ]
   }

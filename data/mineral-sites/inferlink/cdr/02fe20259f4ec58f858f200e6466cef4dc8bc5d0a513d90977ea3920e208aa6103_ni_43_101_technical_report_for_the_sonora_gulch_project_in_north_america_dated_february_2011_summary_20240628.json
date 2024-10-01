@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-        "observed_name": "Yukon",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "observed_name": "Yukon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -99,6 +103,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q464",
         "source": "Inferlink Extraction v2",
         "confidence": 0.1111111111111111
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sonora Gulch Project in North America dated February 2011.pdf",
+          "authors": [
+            "Robert H. Page"
+          ],
+          "year": 2011,
+          "month": 2,
+          "description": "This report is a National Instrument 43-101 compliant technical review of the Sonora Gulch property prepared by Watt, Griffis and McOuat Limited for Northern Tiger Resources Inc., detailing exploration activities and findings from 2008 through 2010.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02fe20259f4ec58f858f200e6466cef4dc8bc5d0a513d90977ea3920e208aa6103"
+        }
       }
     ]
   }

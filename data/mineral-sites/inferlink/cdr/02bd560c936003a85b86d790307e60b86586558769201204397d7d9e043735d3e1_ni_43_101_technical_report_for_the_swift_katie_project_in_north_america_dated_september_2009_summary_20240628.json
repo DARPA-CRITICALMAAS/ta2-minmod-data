@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -855,6 +859,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q303",
         "source": "Inferlink Extraction v2",
         "confidence": 0.09090909090909091
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+          "authors": [
+            "Callum D. Mark",
+            "Brian McGrath",
+            "Craig Payne"
+          ],
+          "year": 2009,
+          "month": 9,
+          "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+        }
       }
     ]
   }

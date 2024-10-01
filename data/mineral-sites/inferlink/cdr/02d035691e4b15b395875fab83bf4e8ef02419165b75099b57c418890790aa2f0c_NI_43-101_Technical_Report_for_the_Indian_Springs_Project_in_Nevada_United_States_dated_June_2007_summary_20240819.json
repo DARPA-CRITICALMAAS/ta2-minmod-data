@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -799,6 +803,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q461",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Indian Springs Project in Nevada, United States dated June 2007.pdf",
+          "authors": [
+            "Allan V. Moran",
+            "Bart Stryhas"
+          ],
+          "year": 2007,
+          "month": 6,
+          "description": "This report provides a comprehensive review of the historical and current exploration activities conducted at the Indian Springs Tungsten Property, including an updated resource estimate based on confirmation drilling and historical data.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d035691e4b15b395875fab83bf4e8ef02419165b75099b57c418890790aa2f0c"
+        }
       }
     ]
   }

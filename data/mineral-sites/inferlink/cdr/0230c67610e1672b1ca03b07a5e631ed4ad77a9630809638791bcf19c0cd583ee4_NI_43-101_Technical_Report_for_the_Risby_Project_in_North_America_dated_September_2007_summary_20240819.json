@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-        "observed_name": "Yukon",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "observed_name": "Yukon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -229,6 +233,23 @@
         "observed_name": "Contact Skarn",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Risby Project in North America dated September 2007.pdf",
+          "authors": [
+            "Pierre Desautels",
+            "Gilles Arseneau",
+            "Tim Maunula"
+          ],
+          "year": 2007,
+          "month": 9,
+          "description": "NI 43-101 compliant resource estimate for the Risby Tungsten Deposit in the Yukon Territory, prepared for Playfair Mining Ltd.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0230c67610e1672b1ca03b07a5e631ed4ad77a9630809638791bcf19c0cd583ee4"
+        }
       }
     ]
   }

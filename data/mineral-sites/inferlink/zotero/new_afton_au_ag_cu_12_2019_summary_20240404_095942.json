@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -229,6 +233,21 @@
         "observed_name": "Block caving",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the New Afton Project in Canada dated 2019",
+          "doi": "https://w3id.org/usgs/z/4530692/T6ZA6WFD",
+          "authors": [
+            "Roscoe Postle Associates Inc."
+          ],
+          "year": 2020,
+          "month": 2,
+          "description": "The report contains an independent technical review of the New Afton copper-gold mine in British Columbia, Canada, with the purpose to support the disclosure of the most recent estimates of Mineral Resources and Mineral Reserves."
+        }
       }
     ]
   }

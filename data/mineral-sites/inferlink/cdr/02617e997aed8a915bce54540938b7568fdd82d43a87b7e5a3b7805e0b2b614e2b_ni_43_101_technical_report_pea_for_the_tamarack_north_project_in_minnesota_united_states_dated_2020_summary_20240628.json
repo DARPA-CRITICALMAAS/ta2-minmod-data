@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "observed_name": "Minnesota",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "observed_name": "Minnesota",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3620,6 +3624,28 @@
         "zone": "smsu"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Tamarack North Project in Minnesota, United States dated 2020.pdf",
+          "authors": [
+            "Leslie Correia",
+            "Tim Fletcher",
+            "Daniel Gagnon",
+            "André-François Gravel",
+            "Oliver Peters",
+            "Tina Pint",
+            "David Ritchie",
+            "Brian Thomas"
+          ],
+          "year": 2020,
+          "month": 3,
+          "description": "This report provides an updated preliminary economic assessment for the Tamarack North Project in Minnesota, detailing aspects such as geology, mineral resources, mining methods, and economic analysis.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02617e997aed8a915bce54540938b7568fdd82d43a87b7e5a3b7805e0b2b614e2b"
+        }
+      }
+    ]
   }
 ]

@@ -10,12 +10,14 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1062",
-        "observed_name": "Dominican Republic",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1062",
+          "observed_name": "Dominican Republic",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -356,6 +358,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q416",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Ampliacion Pueblo Viejo Project in Caribbean, Santo Domingo dated April 2012.pdf",
+          "authors": [
+            "Maxime Dupéré",
+            "Jean-Philippe Paiement"
+          ],
+          "year": 2012,
+          "month": 4,
+          "description": "A technical report detailing the mineral resource estimation for the Ampliación Pueblo Viejo Property in the Dominican Republic, prepared for Everton Resources Inc.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0231b2cf42dab7de0f4f46c9a35ffd4971a903bd2cb1833ab9d3f88622d3667002"
+        }
       }
     ]
   }

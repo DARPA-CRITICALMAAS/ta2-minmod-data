@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
-        "observed_name": "Turkey",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6359",
-        "observed_name": "Çanakkale",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
+          "observed_name": "Turkey",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6359",
+          "observed_name": "Çanakkale",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -730,6 +734,21 @@
         "zone": "total"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Halilaga Project in Middle East, Turkey dated February 2011.pdf",
+          "authors": [
+            "Ian R. Cunningham-Dunlop"
+          ],
+          "year": 2011,
+          "month": 2,
+          "description": "This technical report presents an update on the exploration activities and geological findings of the Halilağa Exploration Property in Çanakkale, Western Turkey, focusing on copper-gold porphyry mineralization.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02da6059429de35f6763f599d66bde7cd12152e03433e92ba1158247cd9f0152ec"
+        }
+      }
+    ]
   }
 ]

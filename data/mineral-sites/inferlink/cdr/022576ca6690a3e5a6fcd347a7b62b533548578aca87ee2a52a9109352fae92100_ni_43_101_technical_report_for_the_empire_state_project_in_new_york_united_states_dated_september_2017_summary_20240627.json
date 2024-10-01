@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6880",
-        "observed_name": "New York",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6880",
+          "observed_name": "New York",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3201,6 +3205,26 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Empire State Project in New York, United States dated September 2017.pdf",
+          "authors": [
+            "Garett Macdonald",
+            "Mike Makarenko",
+            "Mike Creek",
+            "Allan Reeves",
+            "Robert Raponi",
+            "Indi Gopinathan"
+          ],
+          "year": 2017,
+          "month": 9,
+          "description": "This report provides a preliminary economic assessment, including mineral resource estimates and mine plans, for the Empire State Mines located in New York, prepared in accordance with NI 43-101 guidelines.",
+          "uri": "022576ca6690a3e5a6fcd347a7b62b533548578aca87ee2a52a9109352fae92100NI 43-101 Technical Report for the Empire State Project in New York, United States dated September 2017.pdf"
+        }
       }
     ]
   }

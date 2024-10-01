@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1958,6 +1962,22 @@
         "category": []
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Louise Lake Project in North America dated July 2006.pdf",
+          "authors": [
+            "Christopher Lee",
+            "Marek Nowak"
+          ],
+          "year": 2006,
+          "month": 7,
+          "description": "This report provides an independent and CIM-compliant resource estimate for the copper-gold-molybdenum-silver deposit at the Louise Lake Property in British Columbia, summarizing exploration history, geological setting, and resource classification.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02da758c5b950b0ed5792f01b2cc631e4cc25220bf345f3e10cb25348a752fb6f2"
+        }
+      }
+    ]
   }
 ]

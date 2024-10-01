@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1242",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q7029",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1242",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q7029",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -586,6 +590,26 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q423",
         "source": "report",
         "confidence": 1
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report - Ban Phuc Nickel Project",
+          "doi": "https://w3id.org/usgs/z/4530692/2W9NV5ZM",
+          "authors": [
+            "Dr Bielin Shi (MAusIMM MAIG)",
+            "Gerry Fahey (FAusIMM MAIG)",
+            "John Wyche (MAusIMM (CP))",
+            "Andrew Kinghorn (FSAIMM)",
+            "Peter J Lewis (FAusIMM)",
+            "Tom Gibbons (FAusIMM)"
+          ],
+          "year": 2013,
+          "month": 2,
+          "description": "Technical report by CSA Global Pty Ltd and others for Asian Mineral Resources Limited on the Ban Phuc Nickel Project in Son La Province, S.R. Vietnam."
+        }
       }
     ]
   }

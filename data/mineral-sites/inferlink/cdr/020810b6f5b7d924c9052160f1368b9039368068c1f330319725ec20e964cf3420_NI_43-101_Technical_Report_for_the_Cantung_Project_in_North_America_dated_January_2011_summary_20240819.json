@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2658",
-        "observed_name": "Northwest Territories",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2658",
+          "observed_name": "Northwest Territories",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1212,6 +1216,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q448",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Cantung Project in North America dated January 2011.pdf",
+          "authors": [
+            "Kevin Fitzpatrick",
+            "Finley J. Bakker"
+          ],
+          "year": 2011,
+          "month": 1,
+          "description": "This is a technical report prepared for North American Tungsten Corporation Ltd., detailing the mineral resources and reserves, geology, and mining operations at the Cantung Mine as of January 31, 2011.",
+          "uri": "https://api.cdr.land/v1/docs/documents/020810b6f5b7d924c9052160f1368b9039368068c1f330319725ec20e964cf3420"
+        }
       }
     ]
   }

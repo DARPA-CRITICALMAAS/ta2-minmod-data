@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4561",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4561",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -290,6 +294,24 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q402"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "Peñasquito Polymetallic Operations Zacatecas State Mexico NI 43-101 Technical Report",
+          "doi": "https://w3id.org/usgs/z/4530692/5SV8IBCW",
+          "authors": [
+            "Mr Dan Redmond P.Geo.",
+            "Dr Sally Goodman P.Geo.",
+            "Dr Guillermo Pareja P.Geo.",
+            "Mr Andre De Ruijter P.Eng."
+          ],
+          "year": 2016,
+          "month": 3,
+          "description": "NI 43-101 Technical Report for the Peñasquito Polymetallic Operations in Zacatecas State, Mexico, prepared for Goldcorp Inc."
+        }
+      }
     ]
   }
 ]

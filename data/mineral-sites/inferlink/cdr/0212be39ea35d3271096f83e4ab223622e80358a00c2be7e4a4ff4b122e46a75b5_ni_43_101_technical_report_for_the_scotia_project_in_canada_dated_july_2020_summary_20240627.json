@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2659",
-        "observed_name": "Nova Scotia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2659",
+          "observed_name": "Nova Scotia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -4801,6 +4805,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q380",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Scotia Project in Canada dated July 2020.pdf",
+          "authors": [
+            "Timothy Carew",
+            "Tony Gilman",
+            "Tommaso Roberto Raponi",
+            "Patrick Hannon"
+          ],
+          "year": 2020,
+          "month": 7,
+          "description": "This document is a comprehensive NI 43-101 compliant technical report detailing the pre-feasibility study for the Scotia Mine Project in Nova Scotia, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0212be39ea35d3271096f83e4ab223622e80358a00c2be7e4a4ff4b122e46a75b5"
+        }
       }
     ]
   }

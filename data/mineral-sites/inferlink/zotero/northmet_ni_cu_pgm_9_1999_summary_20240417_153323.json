@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -128,6 +132,21 @@
         "observed_name": "sulfide-bearing anorthositic troctolite to pyroxene troctolite deposit with associated ultramafic subunits",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated September 1999",
+          "doi": "https://w3id.org/usgs/z/4530692/SZRWIP5V",
+          "authors": [
+            "G.R. Peatfield"
+          ],
+          "year": 1999,
+          "month": 9,
+          "description": "This report provides a technical review of the NorthMet project and covers various aspects such as general background, geology, sampling, resource estimates, mining, and environmental topics."
+        }
       }
     ]
   }

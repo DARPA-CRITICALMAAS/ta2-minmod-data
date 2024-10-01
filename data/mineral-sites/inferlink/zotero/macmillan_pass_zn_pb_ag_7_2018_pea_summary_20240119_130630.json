@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2665",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -137,6 +141,26 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q375"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report Macmillan Pass Project Yukon Territory Canada",
+          "doi": "https://w3id.org/usgs/z/4530692/FF4M7ZNB",
+          "authors": [
+            "Michael Makarenko P. Eng.",
+            "Kelly McLeod P. Eng.",
+            "Mike Levy P.E. P.G.",
+            "Dennis Arne P. Geo.",
+            "Leon McGarry P. Geo.",
+            "Kenneth Embree P. Eng."
+          ],
+          "year": 2018,
+          "month": 7,
+          "description": "This NI 43-101 Technical Report pertains to the Macmillan Pass Project in Yukon, Canada, detailing geological, technical, and economic aspects of the prospective mining operation."
+        }
+      }
     ]
   }
 ]

@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -181,6 +185,23 @@
         "date": "2011-4"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the New Polaris Project in North America dated April 2011",
+          "doi": "https://w3id.org/usgs/z/4530692/FKHM39ZX",
+          "authors": [
+            "J.H. Gray",
+            "R.J. Morris",
+            "G.H. Giroux"
+          ],
+          "year": 2011,
+          "month": 4,
+          "description": "This document is the preliminary assessment update for the New Polaris Project, focusing on mining, metallurgical processes, and financial assessments based on updated resource models and economic parameters."
+        }
+      }
+    ]
   }
 ]

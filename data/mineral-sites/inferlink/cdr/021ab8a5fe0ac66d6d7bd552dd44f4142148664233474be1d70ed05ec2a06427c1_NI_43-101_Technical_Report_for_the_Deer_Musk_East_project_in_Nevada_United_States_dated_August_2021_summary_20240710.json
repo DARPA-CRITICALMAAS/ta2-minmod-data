@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "USA",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "USA",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -274,6 +278,21 @@
         "date": "2021-8"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Deer Musk East project in Nevada, United States dated August, 2021.pdf",
+          "authors": [
+            "Raymond P. Spanjers"
+          ],
+          "year": 2021,
+          "month": 8,
+          "description": "A technical report prepared for Ameriwest Lithium Inc. detailing the potential for lithium brine and lithium sedimentary deposits in the Deer Musk East Lithium Property, Clayton Valley, Esmeralda County, Nevada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/021ab8a5fe0ac66d6d7bd552dd44f4142148664233474be1d70ed05ec2a06427c1"
+        }
+      }
+    ]
   }
 ]

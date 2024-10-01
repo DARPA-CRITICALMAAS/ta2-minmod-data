@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -65,6 +69,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q467",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Separation Project in North America dated June 2009.pdf",
+          "authors": [
+            "Desmond Cullen",
+            "J. Garry Clark"
+          ],
+          "year": 2009,
+          "month": 6,
+          "description": "Technical report on the Separation Property commissioned by Pacific Iron Ore Corporation to comply with National Instrument 43-101 disclosure and reporting requirements.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02431079e62f3d8f7261af6847f06fc4edca8b8050d8f262c552ed4d95774a6d98"
+        }
       }
     ]
   }

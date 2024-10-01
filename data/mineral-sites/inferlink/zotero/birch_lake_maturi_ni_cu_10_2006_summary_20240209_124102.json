@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -135,6 +139,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q478",
         "confidence": 1,
         "source": "SME"
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Birch Lake-Maturi Project in Minnesota, United States dated October 2006",
+          "doi": "https://w3id.org/usgs/z/4530692/XI5AZB8U",
+          "authors": [
+            "Graham G. Clow P.Eng.",
+            "Jason J. Cox P.Eng.",
+            "Richard E. Routledge M.Sc. P.Geo.",
+            "Alfred S. Hayden P.Eng."
+          ],
+          "year": 2006,
+          "month": 10,
+          "description": "A NI 43-101 technical report prepared for Franconia Minerals Corporation assessing the Birch Lake and Maturi deposits in Minnesota, including resource estimates, geology, exploration, and recommendations."
+        }
       }
     ]
   }

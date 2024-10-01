@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1169",
-        "observed_name": "Panama",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5068",
-        "observed_name": "Colon Province",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1169",
+          "observed_name": "Panama",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5068",
+          "observed_name": "Colon Province",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1000,6 +1004,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Palmillo Project in Central America, Panama dated October 2013.pdf",
+          "authors": [
+            "Yann Camus"
+          ],
+          "year": 2013,
+          "month": 10,
+          "description": "A technical report providing an updated resource estimate for the Palmilla gold-copper-silver deposit in the Rio Belencillo Concession, Panama, prepared to meet NI 43-101 standards.",
+          "uri": "https://api.cdr.land/v1/docs/documents/023b30dec63e861dd0270964ad1038e53a6b29b44ab8a80a958319b9b59473c1f7"
+        }
       }
     ]
   }

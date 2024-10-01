@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -452,6 +456,24 @@
         "observed_name": "magmatic nickel-copper mineralized system",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Mayville Project in North America dated April 2013",
+          "doi": "https://w3id.org/usgs/z/4530692/UPUZ7HIE",
+          "authors": [
+            "David Ross",
+            "Reno Pressacco",
+            "Luke Evans",
+            "Wayne Valliant"
+          ],
+          "year": 2013,
+          "month": 4,
+          "description": "The report provides an updated mineral resource estimate for the Mayville Property in Manitoba, Canada, adhering to NI 43-101 standards."
+        }
       }
     ]
   }

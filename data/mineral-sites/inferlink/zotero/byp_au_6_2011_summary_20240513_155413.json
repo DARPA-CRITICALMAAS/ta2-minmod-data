@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1044",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2759",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1044",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2759",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -48,6 +52,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q380",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the BYP Project in Asia dated June 2011",
+          "doi": "https://w3id.org/usgs/z/4530692/RHWSF8W4",
+          "authors": [
+            "Randal Cullen"
+          ],
+          "year": 2011,
+          "month": 6,
+          "description": "This report evaluates the mineral resources and potential of the BYP Property located in the Hunan Province, China, specifically focusing on its gold, lead, and zinc deposits."
+        }
       }
     ]
   }

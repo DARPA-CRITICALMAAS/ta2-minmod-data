@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1817,6 +1821,28 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Mount Milligan Project in North America dated October 2011.pdf",
+          "authors": [
+            "Karla Mills",
+            "Herb Welhener",
+            "Darin Labrenz",
+            "John Huang",
+            "Bruno Borntraeger",
+            "Tim Bekhuys",
+            "Scott Cowie",
+            "Jay Collins"
+          ],
+          "year": 2009,
+          "month": 10,
+          "description": "This technical report, prepared by multiple consultants, provides a feasibility update for the Mount Milligan property in Northern British Columbia, including geological, environmental, and economic analyses.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02dca87acf2a7e44301719716c582311204ee650e1535ab3673c57146d98f33199"
+        }
       }
     ]
   }

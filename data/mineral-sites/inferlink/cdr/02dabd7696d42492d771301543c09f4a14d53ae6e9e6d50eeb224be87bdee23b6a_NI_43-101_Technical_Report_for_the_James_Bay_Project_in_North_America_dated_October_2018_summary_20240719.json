@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -222,6 +226,22 @@
         "observed_name": "Metasomatic Carbonatite",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the James Bay Project in North America dated October 2018.pdf",
+          "authors": [
+            "Dorota El Rassi",
+            "Paul Chamois"
+          ],
+          "year": 2018,
+          "month": 10,
+          "description": "A comprehensive technical report detailing the exploration, geological setting, mineral resources, and potential economic viability of the James Bay Niobium Project.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02dabd7696d42492d771301543c09f4a14d53ae6e9e6d50eeb224be87bdee23b6a"
+        }
       }
     ]
   }

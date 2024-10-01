@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2658",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2658",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -183,6 +187,21 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q380"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report: Pine Point Project, Northwest Territories Canada",
+          "authors": [
+            "Fred Barnard Ph.D.",
+            "Robert L. Sandefur P.E."
+          ],
+          "year": 2007,
+          "month": 8,
+          "description": "The report provides technical details on Pine Point Zn-Pb (zinc-lead) mining project, prepared for Tamerlane Ventures Inc. by Chlumsky Armbrust & Meyer LLC."
+        }
+      }
     ]
   }
 ]

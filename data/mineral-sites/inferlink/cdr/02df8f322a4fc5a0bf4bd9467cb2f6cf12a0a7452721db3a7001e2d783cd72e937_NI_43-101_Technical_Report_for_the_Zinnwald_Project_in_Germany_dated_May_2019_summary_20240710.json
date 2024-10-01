@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1082",
-        "observed_name": "Germany",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q3388",
-        "observed_name": "Saxony",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1082",
+          "observed_name": "Germany",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3388",
+          "observed_name": "Saxony",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -4874,6 +4878,23 @@
         "zone": "greisen beds a - e"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Zinnwald Project in Germany dated May 2019.pdf",
+          "authors": [
+            "Wolf-Dietrich Bock",
+            "Kersten Kühn",
+            "Richard Gowans"
+          ],
+          "year": 2019,
+          "month": 5,
+          "description": "A technical report summarizing the feasibility study for the Zinnwald Lithium Project in Germany, covering exploration, mining, and chemical processing aspects.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02df8f322a4fc5a0bf4bd9467cb2f6cf12a0a7452721db3a7001e2d783cd72e937"
+        }
+      }
+    ]
   }
 ]

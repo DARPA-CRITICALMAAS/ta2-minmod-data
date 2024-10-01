@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2659",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2659",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -350,6 +354,24 @@
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q378",
       "https://minmod.isi.edu/resource/Q380"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "TECHNICAL REPORT ON MINERAL RESOURCE ESTIMATE",
+          "doi": "https://w3id.org/usgs/z/4530692/V6TB3XSJ",
+          "uri": "file-ZTfAKgxVKg250uSpH8reBlJX",
+          "authors": [
+            "Michael P. Cullen M.Sc. P.Geo.",
+            "Paul J. Ténière M.Sc. P.Geo.",
+            "Rafael Cavalcanti de Albuquerque B.Sc."
+          ],
+          "year": 2007,
+          "month": 11,
+          "description": "Technical report on the Jubilee Zinc-Lead Deposit for Merrex Gold Inc. in Victoria County, Nova Scotia, Canada, prepared by Mercator Geological Services Limited."
+        }
+      }
     ]
   }
 ]

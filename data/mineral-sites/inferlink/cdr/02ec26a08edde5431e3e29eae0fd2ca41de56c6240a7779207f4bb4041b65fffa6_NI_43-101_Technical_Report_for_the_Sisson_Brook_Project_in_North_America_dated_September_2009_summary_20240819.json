@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
-        "observed_name": "New Brunswick",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
+          "observed_name": "New Brunswick",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -10060,6 +10064,26 @@
         "observed_name": "granite-related porphyry molybdenum-tungsten-copper deposit",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated September 2009.pdf",
+          "authors": [
+            "John Munro Marr",
+            "Peter Smith",
+            "Neil Humphreys",
+            "Charles Morrissy",
+            "H.M. Matt Bolu",
+            "M.J. Brodie"
+          ],
+          "year": 2009,
+          "month": 9,
+          "description": "Technical report providing an updated preliminary economic assessment for the Sisson Brook tungsten-molybdenum deposit, integrating recent drilling data and revised methodology.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02ec26a08edde5431e3e29eae0fd2ca41de56c6240a7779207f4bb4041b65fffa6"
+        }
       }
     ]
   }

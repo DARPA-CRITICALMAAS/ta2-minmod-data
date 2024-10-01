@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -84,6 +88,21 @@
         "observed_name": "deeper cupola intrusive phase with associated roof greisen mineralization",
         "source": "report",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sleitat Mountain Project in Alaska, United States dated March 2006",
+          "doi": "https://w3id.org/usgs/z/4530692/D7FAVPIZ",
+          "authors": [
+            "William T. Ellis"
+          ],
+          "year": 2006,
+          "month": 2,
+          "description": "This NI 43-101 technical report, prepared by William T. Ellis of Alaska Earth Sciences, Inc., documents the geological investigation and evaluations of tin and silver mineralization on the Sleitat Mountain property in Southwest Alaska."
+        }
       }
     ]
   }

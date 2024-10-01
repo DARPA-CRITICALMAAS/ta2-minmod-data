@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -931,6 +935,31 @@
         "observed_name": "Rare Metal Pegmatites",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Whabouchi Project in North America dated February 2013.pdf",
+          "authors": [
+            "André Laferrière",
+            "Yves Dessureault",
+            "Patrice Live",
+            "Nicolas Skiadas",
+            "Noël Journeaux",
+            "Gary H.K. Pearse",
+            "Ann Lamontagne",
+            "Isabelle Larouche",
+            "Alain Michaud",
+            "Michel Bilodeau",
+            "Céline Charbonneau"
+          ],
+          "year": 2013,
+          "month": 2,
+          "description": "This report provides a preliminary economic assessment of the Whabouchi Lithium Deposit and Hydromet Plant located in Quebec, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/025dd42f5bc4101f22c3faff620bdd312be9eef5d1c8f63957fb4dd4ba3b3cf5bd"
+        }
       }
     ]
   }

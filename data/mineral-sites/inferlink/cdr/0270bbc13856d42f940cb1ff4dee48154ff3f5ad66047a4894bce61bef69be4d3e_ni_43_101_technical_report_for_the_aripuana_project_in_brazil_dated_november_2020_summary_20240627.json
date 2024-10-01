@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1030",
-        "observed_name": "Brazil",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2495",
-        "observed_name": "Mato Grosso",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1030",
+          "observed_name": "Brazil",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2495",
+          "observed_name": "Mato Grosso",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -6760,6 +6764,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q409",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Aripuana Project in Brazil dated November 2020.pdf",
+          "authors": [
+            "Jason J. Cox",
+            "Sean Horan",
+            "Brenna J.Y. Scholey",
+            "Luis Vasquez"
+          ],
+          "year": 2020,
+          "month": 11,
+          "description": "This technical report, prepared for Nexa Resources S.A., provides a comprehensive overview and evaluation of the Aripuanã Zinc Project located in the State of Mato Grosso, Brazil, including resource estimates, mining methods, and environmental considerations.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0270bbc13856d42f940cb1ff4dee48154ff3f5ad66047a4894bce61bef69be4d3e"
+        }
       }
     ]
   }

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -562,6 +566,26 @@
         "zone": "north pit"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Marathon Project in North America dated April 2007.pdf",
+          "authors": [
+            "Tracy Armstrong",
+            "Wayne D. Ewert",
+            "Al Hayden",
+            "David Orava",
+            "Eugene Puritch",
+            "Antoine Yassa"
+          ],
+          "year": 2007,
+          "month": 4,
+          "description": "This report provides an updated NI 43-101 compliant technical report and preliminary economic assessment of the Marathon PGM-Cu Property in Northwestern Ontario, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/024cd2265b54462f7bc8dce7e05a64a1042f66d2bcf9f58ffa528338d02cd4cc5f"
+        }
+      }
+    ]
   }
 ]

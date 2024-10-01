@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -58,6 +62,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q455",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Cognac Project in North America dated July 2009.pdf",
+          "authors": [
+            "Philippe Allard",
+            "Harold Desbiens"
+          ],
+          "year": 2009,
+          "month": 7,
+          "description": "This technical report details the geological and economic potential of the Cognac Project, a property owned by Ressources Sirios Inc., based on exploration activities conducted in 2009 in the Baie-James region, Quebec.",
+          "uri": "https://api.cdr.land/v1/docs/documents/021ebba36ef07c496a0878db0da7be57ceff23ce5be586045f3e0c579622b97926"
+        }
       }
     ]
   }

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
-        "observed_name": "Alaska",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
+          "observed_name": "Alaska",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -327,6 +331,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Pebble Project in Alaska, United States dated November 2001.pdf",
+          "authors": [
+            "M.J. Casselman"
+          ],
+          "year": 2001,
+          "month": 11,
+          "description": "A detailed technical report on the Pebble Project, a significant copper-gold porphyry deposit in southwestern Alaska, including geological settings, exploration history, and resource estimates.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d50e3c635a76a4481e11c114c3f53fec3709c433c64686f658fbb1c5669143e4"
+        }
       }
     ]
   }

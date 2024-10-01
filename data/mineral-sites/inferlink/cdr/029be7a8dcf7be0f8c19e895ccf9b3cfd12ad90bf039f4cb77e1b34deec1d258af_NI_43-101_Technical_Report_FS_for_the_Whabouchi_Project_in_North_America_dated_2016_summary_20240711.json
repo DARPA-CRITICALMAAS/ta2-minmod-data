@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1966,6 +1970,33 @@
         "observed_name": "quartz-feldspar pegmatite",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (FS) for the Whabouchi Project in North America dated 2016.pdf",
+          "authors": [
+            "Jean-Philippe Paiement",
+            "Nicolas Skiadas",
+            "Noël Journeaux",
+            "Raymond Simoneau",
+            "Denis Carignan",
+            "Anthony Boyd",
+            "Daniel Gagnon",
+            "William Shadeed",
+            "Ewald Pengel",
+            "Alain Michaud",
+            "Michel Bilodeau",
+            "Mary-Jean Buchanan",
+            "André Boilard"
+          ],
+          "year": 2016,
+          "month": 6,
+          "description": "This document is an NI 43-101 Technical Report providing a feasibility study update on the Whabouchi Lithium Deposit and Hydromet Plant, detailing various aspects such as geology, resource and reserve estimates, mining methods, and economic analysis.",
+          "uri": "https://api.cdr.land/v1/docs/documents/029be7a8dcf7be0f8c19e895ccf9b3cfd12ad90bf039f4cb77e1b34deec1d258af"
+        }
       }
     ]
   }

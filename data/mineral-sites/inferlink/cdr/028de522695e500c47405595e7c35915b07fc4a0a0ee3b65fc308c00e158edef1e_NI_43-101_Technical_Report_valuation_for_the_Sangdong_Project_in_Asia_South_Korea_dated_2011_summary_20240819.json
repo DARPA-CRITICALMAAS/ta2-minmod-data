@@ -11,12 +11,14 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
-        "observed_name": "South Korea",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
+          "observed_name": "South Korea",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -777,6 +779,25 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q447",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (valuation) for the Sangdong Project in Asia, South Korea dated 2011.pdf",
+          "authors": [
+            "Ross Glanville",
+            "Paul Matthews",
+            "Heywood Bates",
+            "Willie McLucas",
+            "Hang Jae Le"
+          ],
+          "year": 2011,
+          "month": 8,
+          "description": "This document is a NI 43-101 Technical Report providing a valuation for the Sangdong Project in Asia, South Korea, detailing technical, economic, and financial aspects of the tungsten-molybdenum project.",
+          "uri": "https://api.cdr.land/v1/docs/documents/028de522695e500c47405595e7c35915b07fc4a0a0ee3b65fc308c00e158edef1e"
+        }
       }
     ]
   }

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2658",
-        "observed_name": "Northwest Territories",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2658",
+          "observed_name": "Northwest Territories",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -5284,6 +5288,22 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Pine Point Project in North America dated 2013.pdf",
+          "authors": [
+            "Albert Daniel Siega",
+            "Paul Gann"
+          ],
+          "year": 2013,
+          "month": 12,
+          "description": "This is a technical report providing an evaluation and update on the Pine Point Mine Development Project located in the Northwest Territories, Canada, including geology, mineral resources, and reserves.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02254d25f12b1fa96ecddb124b76d2f29d32b18c7e55ae106c0391400158f6226e"
+        }
       }
     ]
   }

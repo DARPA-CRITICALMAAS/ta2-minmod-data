@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -125,6 +129,20 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q412"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "TULSEQUAH CHIEF PROPERTY",
+          "authors": [
+            "JDS Energy & Mining Inc."
+          ],
+          "year": 2013,
+          "month": 1,
+          "description": "This technical report summarizes the results of the feasibility study for the Tulsequah Chief project, prepared in accordance with the Canadian Securities Administrators' National Instrument 43-101 and Form 43-101F1."
+        }
+      }
     ]
   }
 ]

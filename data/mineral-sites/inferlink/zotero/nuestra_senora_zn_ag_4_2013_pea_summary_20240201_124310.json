@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4554",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4554",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -360,6 +364,26 @@
       "https://minmod.isi.edu/resource/Q380",
       "https://minmod.isi.edu/resource/Q411",
       "https://minmod.isi.edu/resource/Q412"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "Technical Report and Preliminary Economic Assessment",
+          "doi": "https://w3id.org/usgs/z/4530692/SUCAJNPT",
+          "authors": [
+            "Thomas L. Dyer P.E.",
+            "Steven Ristorcelli C. P. G.",
+            "Paul Tietz C. P. G.",
+            "Michael S. Lindholm C. P. G.",
+            "Pierre Lacombe Eng.",
+            "Jack McPartland Q.P.M."
+          ],
+          "year": 2013,
+          "month": 4,
+          "description": "The document presents a technical report and preliminary economic assessment for the Nuestra Señora, San Rafael, and El Cajón Deposits in Sinaloa, Mexico, conducted by Mine Development Associates for Scorpio Mining Corporation with an effective date of December 31, 2012, and a report date of April 12, 2013."
+        }
+      }
     ]
   }
 ]

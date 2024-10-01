@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-        "observed_name": "Sonora",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+          "observed_name": "Sonora",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -793,6 +797,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q322",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the El Sauz-Fleur Project in North America dated October 2013.pdf",
+          "authors": [
+            "Carl G. Verley",
+            "Martin F. Vidal",
+            "David Lenigas"
+          ],
+          "year": 2013,
+          "month": 10,
+          "description": "This document is a technical report prepared to provide a summary of scientific and technical information concerning lithium mineral resource estimates on the El Sauz-Fleur Property in Sonora, Mexico.",
+          "uri": "https://api.cdr.land/v1/docs/documents/027c91b134c20156d9b58e7e96e63664e9afff4bee9a0ad4cc03c75eea31389893"
+        }
       }
     ]
   }

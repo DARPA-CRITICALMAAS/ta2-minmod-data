@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -271,6 +275,33 @@
         "zone": "southeast extension"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003",
+          "doi": "https://w3id.org/usgs/z/4530692/Z8RHSJWJ",
+          "authors": [
+            "W.G. Bacon",
+            "L.B. Cochrane",
+            "J. Barrett",
+            "Scott Bishop",
+            "G. Hoffman",
+            "Lori Dussault",
+            "Dan Lee",
+            "H. Mackowiak",
+            "Larry Smith",
+            "Olivier Tavchandjian",
+            "Dr. Peter F. Wells",
+            "Robert Wheeler",
+            "Heather White"
+          ],
+          "year": 2003,
+          "month": 8,
+          "description": "A comprehensive technical report for the Voisey’s Bay Nickel Company Limited and Inco Limited on the Voisey’s Bay Project in Newfoundland & Labrador, Canada, effective as of August 31, 2003."
+        }
+      }
+    ]
   }
 ]

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -10435,6 +10439,23 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Donnelly-GJ Project in North America dated April 2016.pdf",
+          "authors": [
+            "Giles R. Peatfield",
+            "Gary H. Giroux",
+            "Michael S. Cathro"
+          ],
+          "year": 2016,
+          "month": 4,
+          "description": "This technical report reviews data and provides recommendations for future work on the Donnelly-GJ copper-gold porphyry deposits and mineralized zones in British Columbia, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02908777f9ab24f02fcc80b6f36b1ba8488dd81858794297892456145689d69cfa"
+        }
       }
     ]
   }

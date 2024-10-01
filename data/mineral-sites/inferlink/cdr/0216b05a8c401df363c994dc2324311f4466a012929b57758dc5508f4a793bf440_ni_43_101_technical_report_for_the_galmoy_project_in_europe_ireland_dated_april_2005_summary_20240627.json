@@ -5,18 +5,22 @@
     "name": "NI 43-101 Technical Report for the Galmoy Project in Europe, Ireland dated April 2005.pdf",
     "location_info": {
       "location": "POINT(-7.58333 52.83333)",
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1105",
-        "observed_name": "Ireland",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q3761",
-        "observed_name": "County Kilkenny",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1105",
+          "observed_name": "Ireland",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3761",
+          "observed_name": "County Kilkenny",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2700,6 +2704,23 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Galmoy Project in Europe, Ireland dated April 2005.pdf",
+          "authors": [
+            "John R. Sullivan",
+            "G. Ross MacFarlane",
+            "Stephen B. Cheeseman"
+          ],
+          "year": 2005,
+          "month": 4,
+          "description": "The report provides an independent technical review of the Galmoy zinc, lead mine, and nearby prospecting licenses in Ireland, conducted for Lundin Mining Corporation.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0216b05a8c401df363c994dc2324311f4466a012929b57758dc5508f4a793bf440"
+        }
       }
     ]
   }

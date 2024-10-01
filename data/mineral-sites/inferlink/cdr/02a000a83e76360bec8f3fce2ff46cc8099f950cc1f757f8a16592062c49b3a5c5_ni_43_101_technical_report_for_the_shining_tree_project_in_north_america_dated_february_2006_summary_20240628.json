@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -163,6 +167,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q409",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Shining Tree Project in North America dated February 2006.pdf",
+          "authors": [
+            "Robert Carter"
+          ],
+          "year": 2006,
+          "month": 2,
+          "description": "The report provides an independent resource estimation of magmatic nickel-copper-cobalt mineralization on the Shining Tree Property, performed by Wardrop Engineering Inc., detailing historical and current drilling data, geological settings, and recommendations for further exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02a000a83e76360bec8f3fce2ff46cc8099f950cc1f757f8a16592062c49b3a5c5"
+        }
       }
     ]
   }

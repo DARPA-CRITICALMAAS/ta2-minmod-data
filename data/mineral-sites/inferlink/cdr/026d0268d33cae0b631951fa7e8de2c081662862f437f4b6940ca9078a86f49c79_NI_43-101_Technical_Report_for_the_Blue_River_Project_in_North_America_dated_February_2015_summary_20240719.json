@@ -4,18 +4,22 @@
     "record_id": "026d0268d33cae0b631951fa7e8de2c081662862f437f4b6940ca9078a86f49c79",
     "name": "NI 43-101 Technical Report for the Blue River Project in North America dated February 2015.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -473,6 +477,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q470",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Blue River Project in North America dated February 2015.pdf",
+          "authors": [
+            "Greg Kulla",
+            "Jenna Hardy"
+          ],
+          "year": 2015,
+          "month": 2,
+          "description": "This report provides an updated mineral resource estimation for the Blue River Tantalum-Niobium Project in British Columbia, Canada, incorporating data up to 2015, including recommendations for further exploration and development.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026d0268d33cae0b631951fa7e8de2c081662862f437f4b6940ca9078a86f49c79"
+        }
       }
     ]
   }

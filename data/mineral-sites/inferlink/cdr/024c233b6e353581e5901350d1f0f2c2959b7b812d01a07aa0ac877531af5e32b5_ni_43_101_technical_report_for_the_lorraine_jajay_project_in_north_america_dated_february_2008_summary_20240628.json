@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -803,6 +807,22 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Lorraine-Jajay Project in North America dated February 2008.pdf",
+          "authors": [
+            "G. L. Garratt",
+            "Joseph E.L. Lindinger"
+          ],
+          "year": 2008,
+          "month": 2,
+          "description": "This report is a National Instrument 43-101 compliant technical report prepared for Lorraine Copper Corp. covering the geological data, exploration history, and resource estimates of the Lorraine-Jajay Project located in the Omineca Mining Division, British Columbia.",
+          "uri": "https://api.cdr.land/v1/docs/documents/024c233b6e353581e5901350d1f0f2c2959b7b812d01a07aa0ac877531af5e32b5"
+        }
       }
     ]
   }

@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6843",
-        "observed_name": "Arkansas",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6843",
+          "observed_name": "Arkansas",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -283,6 +287,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q354",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Lanxess Project in Arkansas, United States dated August 2019.pdf",
+          "authors": [
+            "Roy Eccles",
+            "Stanislaw Kotowski",
+            "Ronald Molnar"
+          ],
+          "year": 2019,
+          "month": 8,
+          "description": "This report is a Preliminary Economic Assessment (PEA) of the Lanxess Project focused on lithium extraction from brine in the Smackover Formation located in Arkansas, USA.",
+          "uri": "https://api.cdr.land/v1/docs/documents/029ea282ff1dbaee6a1c1417ff1b3614a06fe51bdebb1e4061308be34a8d6ff112"
+        }
       }
     ]
   }

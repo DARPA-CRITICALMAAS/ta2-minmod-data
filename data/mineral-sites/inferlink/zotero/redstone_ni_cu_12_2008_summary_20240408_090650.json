@@ -4,16 +4,20 @@
     "record_id": "4530692/TPRFS8GX",
     "name": "NI 43-101 Technical Report for the Redstone Project in North America dated 2008",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -237,6 +241,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q476",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Redstone Project in North America dated 2008",
+          "doi": "https://w3id.org/usgs/z/4530692/TPRFS8GX",
+          "authors": [
+            "Glen Cole",
+            "Carlo Cattarello",
+            "Will Randall",
+            "Jean-François Couture"
+          ],
+          "year": 2008,
+          "month": 12,
+          "description": "The report presents the first published resource estimate for the Redstone nickel sulphide deposit, compiling data from a collaborative effort over about nine months with future drilling campaign designs in mind."
+        }
       }
     ]
   }

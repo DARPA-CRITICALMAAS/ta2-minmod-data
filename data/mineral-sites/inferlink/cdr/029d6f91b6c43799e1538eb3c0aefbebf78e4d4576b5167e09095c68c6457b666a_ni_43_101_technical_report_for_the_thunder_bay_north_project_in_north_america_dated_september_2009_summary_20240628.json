@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3341,6 +3345,23 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated September 2009.pdf",
+          "authors": [
+            "Glen Cole",
+            "Dorota El-Rassi",
+            "Jean-François Couture"
+          ],
+          "year": 2009,
+          "month": 9,
+          "description": "This technical report documents the initial mineral resource evaluation of the Thunder Bay North Polymetallic Project in Ontario, detailing the project's geology, exploration, and proposed work programs for evaluating the feasibility of a mining project.",
+          "uri": "https://api.cdr.land/v1/docs/documents/029d6f91b6c43799e1538eb3c0aefbebf78e4d4576b5167e09095c68c6457b666a"
+        }
       }
     ]
   }

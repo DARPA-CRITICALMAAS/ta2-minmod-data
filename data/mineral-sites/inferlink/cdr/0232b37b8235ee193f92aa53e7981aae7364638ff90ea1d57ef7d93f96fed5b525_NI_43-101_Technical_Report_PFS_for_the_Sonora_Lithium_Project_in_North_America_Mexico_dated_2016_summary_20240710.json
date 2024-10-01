@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-        "observed_name": "Sonora",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+          "observed_name": "Sonora",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1063,6 +1067,23 @@
         "observed_name": "hydrothermal alteration",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PFS) for the Sonora Lithium Project in North America, Mexico dated 2016.pdf",
+          "authors": [
+            "Oliver Jones",
+            "Ben Lepley",
+            "Martin Pittuck"
+          ],
+          "year": 2016,
+          "month": 4,
+          "description": "This document is a technical report summarizing the pre-feasibility study (PFS) for the Sonora Lithium Project in Mexico, including project scope, geological settings, mineral resource estimates, and economic analysis.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0232b37b8235ee193f92aa53e7981aae7364638ff90ea1d57ef7d93f96fed5b525"
+        }
       }
     ]
   }

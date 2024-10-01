@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2655",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -215,6 +219,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q478",
         "source": "report",
         "confidence": 0.16666666666666666
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Lynn Lake Project in North America dated October 2006",
+          "doi": "https://w3id.org/usgs/z/4530692/DSA9W4AA",
+          "authors": [
+            "Mario A. Morin",
+            "Daniel Sweeney",
+            "Dave West"
+          ],
+          "year": 2006,
+          "month": 10,
+          "description": "A preliminary economic assessment report for the Lynn Lake Nickel Mine, prepared for Independent Nickel Corp."
+        }
       }
     ]
   }

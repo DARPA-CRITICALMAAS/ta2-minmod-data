@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4554",
-        "observed_name": "Sinaloa",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4554",
+          "observed_name": "Sinaloa",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2468,6 +2472,21 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the El Gallo Project in North America dated 2010.pdf",
+          "authors": [
+            "Aaron McMahon"
+          ],
+          "year": 2010,
+          "month": 12,
+          "description": "This technical report provides an updated resource estimate for the El Gallo, Magistral, and Palmarito projects located in Sinaloa state, Mexico, under the guidance of Canadian National Instrument 43-101.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0223c909900bf685460d544cca9ec0417fd8526bc885a72711714888a855275f68"
+        }
       }
     ]
   }

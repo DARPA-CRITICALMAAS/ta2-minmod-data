@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -57,6 +61,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q353",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Clayton Valley Project in Nevada, United States dated January 2011.pdf",
+          "authors": [
+            "Todd Keast"
+          ],
+          "year": 2011,
+          "month": 1,
+          "description": "This report details the geology, mineralization, and exploration recommendations for the Clayton Valley Lithium Project in Esmeralda County, Nevada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/020d32534efcbca56bcfba8651b8b496cf802b901c26e7366f5e052e6073bd2d12"
+        }
       }
     ]
   }

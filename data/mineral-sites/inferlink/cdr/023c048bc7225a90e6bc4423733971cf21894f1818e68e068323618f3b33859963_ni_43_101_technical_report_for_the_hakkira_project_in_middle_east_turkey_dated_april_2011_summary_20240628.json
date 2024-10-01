@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
-        "observed_name": "Turkey",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6373",
-        "observed_name": "Hakkari",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
+          "observed_name": "Turkey",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6373",
+          "observed_name": "Hakkari",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -787,6 +791,23 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+          "authors": [
+            "Mike Robertson",
+            "Dr Brendan Clarke",
+            "Mike Hall"
+          ],
+          "year": 2011,
+          "month": 4,
+          "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
+          "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+        }
       }
     ]
   }

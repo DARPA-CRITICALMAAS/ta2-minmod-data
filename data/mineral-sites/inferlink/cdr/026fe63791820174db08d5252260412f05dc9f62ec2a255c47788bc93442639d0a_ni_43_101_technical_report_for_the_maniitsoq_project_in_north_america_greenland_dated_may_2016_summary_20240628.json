@@ -10,12 +10,14 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1086",
-        "observed_name": "Greenland",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1086",
+          "observed_name": "Greenland",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -41,6 +43,23 @@
         "category": []
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Maniitsoq Project in North America, Greenland dated May 2016.pdf",
+          "authors": [
+            "Lars Weiershäuser",
+            "Jean-François Ravenelle",
+            "Jean-François Couture"
+          ],
+          "year": 2016,
+          "month": 5,
+          "description": "This is an independent technical report prepared for the Maniitsoq Nickel-Copper-PGM Project in southwestern Greenland, summarizing technical evaluations and proposing further exploration work.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026fe63791820174db08d5252260412f05dc9f62ec2a255c47788bc93442639d0a"
+        }
+      }
+    ]
   }
 ]

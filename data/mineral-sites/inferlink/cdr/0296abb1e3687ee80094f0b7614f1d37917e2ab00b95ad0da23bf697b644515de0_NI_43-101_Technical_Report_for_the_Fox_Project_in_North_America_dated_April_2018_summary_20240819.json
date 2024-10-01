@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1147,6 +1151,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q447",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+          "authors": [
+            "Pierre Desautels",
+            "Paul Berndt"
+          ],
+          "year": 2018,
+          "month": 4,
+          "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
+        }
       }
     ]
   }

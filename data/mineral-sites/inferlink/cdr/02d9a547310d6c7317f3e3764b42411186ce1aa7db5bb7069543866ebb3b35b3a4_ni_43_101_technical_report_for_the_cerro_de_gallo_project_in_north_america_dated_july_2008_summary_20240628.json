@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4541",
-        "observed_name": "Guanajuato",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4541",
+          "observed_name": "Guanajuato",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -4737,6 +4741,21 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Cerro de Gallo Project in North America dated July 2008.pdf",
+          "authors": [
+            "Robert Stewart"
+          ],
+          "year": 2008,
+          "month": 7,
+          "description": "A technical report detailing the updated mineral resource estimation for the Cerro de Gallo deposit within the San Antón Property, Mexico, compliant with National Instrument 43-101.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d9a547310d6c7317f3e3764b42411186ce1aa7db5bb7069543866ebb3b35b3a4"
+        }
       }
     ]
   }

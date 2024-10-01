@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
-        "observed_name": "Australia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2211",
-        "observed_name": "Tasmania",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
+          "observed_name": "Australia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2211",
+          "observed_name": "Tasmania",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1067,6 +1071,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q449",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the King Island Project in Australasia dated March 2012.pdf",
+          "authors": [
+            "Tim Callaghan",
+            "Alan Fudge"
+          ],
+          "year": 2012,
+          "month": 3,
+          "description": "A technical report outlining the exploration results, mineral resources, ore reserves, and feasibility study of the King Island Scheelite Project in Australasia focusing on tungsten resources.",
+          "uri": "https://api.cdr.land/v1/docs/documents/022c56e53a9c22bdb8d82bef5f63186ab96ea8d4119d83527b9496a6deaac7d687"
+        }
       }
     ]
   }

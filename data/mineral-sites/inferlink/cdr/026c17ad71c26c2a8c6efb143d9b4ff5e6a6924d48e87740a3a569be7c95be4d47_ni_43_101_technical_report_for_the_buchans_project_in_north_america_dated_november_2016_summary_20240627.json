@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
-        "observed_name": "Newfoundland and Labrador",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
+          "observed_name": "Newfoundland and Labrador",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -907,6 +911,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q446",
         "source": "Inferlink Extraction v2",
         "confidence": 0.09090909090909091
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Buchans Project in North America dated November 2016.pdf",
+          "authors": [
+            "Michael P. Cullen"
+          ],
+          "year": 2016,
+          "month": 11,
+          "description": "The report provides an independent assessment of the Buchans Project exploration potential, prepared to support an Initial Public Offering (IPO) by Adventus Zinc Corporation.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026c17ad71c26c2a8c6efb143d9b4ff5e6a6924d48e87740a3a569be7c95be4d47"
+        }
       }
     ]
   }

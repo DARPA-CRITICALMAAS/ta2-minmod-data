@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6875",
-        "observed_name": "Nebraska",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6875",
+          "observed_name": "Nebraska",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1664,6 +1668,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q470",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Elk Creek Project in Nebraska, United States dated March 2011.pdf",
+          "authors": [
+            "Paul Daigle"
+          ],
+          "year": 2011,
+          "month": 3,
+          "description": "This technical report provides a resource estimate and evaluation of the Elk Creek niobium-rare earth element deposit located in southeast Nebraska, USA.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0247572cbfe922040ce8ac025bf733bfba3ed5708da8fa17c7e4484e48d4e99f66"
+        }
       }
     ]
   }

@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -479,6 +483,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q478",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated September 1999",
+          "doi": "https://w3id.org/usgs/z/4530692/SZRWIP5V",
+          "authors": [
+            "G.R. Peatfield"
+          ],
+          "year": 1999,
+          "month": 9,
+          "description": "The report provides a technical review of the NorthMet copper-nickel-platinum group elements project located in St. Louis County, Minnesota, detailing exploration work, geology, resource estimates, mining plans, and other relevant findings."
+        }
       }
     ]
   }

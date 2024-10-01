@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
-        "observed_name": "Newfoundland and Labrador",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
+          "observed_name": "Newfoundland and Labrador",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1725,6 +1729,23 @@
         "observed_name": "multiple tungsten-rich quartz veins within undeformed, linear fractures",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Grey River Project in North America dated March 2012.pdf",
+          "authors": [
+            "Joseph Rosaire Pierre Desautels",
+            "David Sprott",
+            "Andrew Bamber"
+          ],
+          "year": 2012,
+          "month": 3,
+          "description": "This technical report provides a preliminary economic assessment of the Grey River tungsten project, including geological setting, mineral resource estimation, and recommendations for further development.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02a474072a782316c5c8139ccba9f1da432abc851d5bd9742f4fd58470219f3d88"
+        }
       }
     ]
   }

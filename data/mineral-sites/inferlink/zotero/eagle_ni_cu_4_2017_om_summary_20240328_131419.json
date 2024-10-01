@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6868",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6868",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -313,6 +317,24 @@
         "observed_name": "Layered mafic complex mineralization",
         "source": "report",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (OM) for the Eagle Project in Michigan, United States dated 2017",
+          "doi": "https://w3id.org/usgs/z/4530692/GACV4Z6X",
+          "authors": [
+            "Graham G. Clow",
+            "Normand L. Lecuyer",
+            "David W. Rennie",
+            "Brenna J.Y. Scholey"
+          ],
+          "year": 2017,
+          "month": 4,
+          "description": "NI 43-101 Technical Report detailing the Eagle Mine in Michigan, U.S.A. by Lundin Mining Corporation."
+        }
       }
     ]
   }

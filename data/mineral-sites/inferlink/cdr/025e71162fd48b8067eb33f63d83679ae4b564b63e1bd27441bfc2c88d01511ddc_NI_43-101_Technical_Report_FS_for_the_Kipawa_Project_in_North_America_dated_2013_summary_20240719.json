@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -7915,6 +7919,35 @@
         "observed_name": "polymetallic deposit type of rare elements associated with peralkaline syenite occurrences",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (FS) for the Kipawa Project in North America dated 2013.pdf",
+          "authors": [
+            "Guy Saucier",
+            "Claude Noreau",
+            "Pierre Casgrain",
+            "Philippe Côté",
+            "Éric Larochelle",
+            "Michel Bilodeau",
+            "Al Hayden",
+            "Éric Poirier",
+            "Michel Garon",
+            "Valérie Bertrand",
+            "Mayana Kissiova",
+            "Michel Mailloux",
+            "Marc Rougier",
+            "Yann Camus",
+            "Gaston Gagnon"
+          ],
+          "year": 2013,
+          "month": 10,
+          "description": "This document is a NI 43-101-compliant feasibility study report on the Kipawa Joint Venture Heavy Rare Earth Project.",
+          "uri": "https://api.cdr.land/v1/docs/documents/025e71162fd48b8067eb33f63d83679ae4b564b63e1bd27441bfc2c88d01511ddc"
+        }
       }
     ]
   }

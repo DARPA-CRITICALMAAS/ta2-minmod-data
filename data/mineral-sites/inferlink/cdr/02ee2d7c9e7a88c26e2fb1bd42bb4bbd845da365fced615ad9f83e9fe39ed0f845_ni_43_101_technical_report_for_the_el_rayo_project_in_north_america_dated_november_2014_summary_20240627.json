@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4544",
-        "observed_name": "Jalisco",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4544",
+          "observed_name": "Jalisco",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3713,6 +3717,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q417",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the El Rayo Project in North America dated November 2014.pdf",
+          "authors": [
+            "Hrayr Agnerian",
+            "Michael F. Waldegger",
+            "Alfred S. Hayden"
+          ],
+          "year": 2014,
+          "month": 11,
+          "description": "This report provides an updated assessment of the El Rayo Property, including evaluations of silver and gold deposits and recommendations for further exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02ee2d7c9e7a88c26e2fb1bd42bb4bbd845da365fced615ad9f83e9fe39ed0f845"
+        }
       }
     ]
   }

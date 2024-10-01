@@ -4,18 +4,22 @@
     "record_id": "0274c23c6cee0123ac217b0164fc024410724d8f4e6a111a4b179da80c915d953c",
     "name": "NI 43-101 Technical Report for the Logtung Project in North America dated May 2008.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "Yukon Territory, British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "Yukon Territory, British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2208,6 +2212,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q459",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Logtung Project in North America dated May 2008.pdf",
+          "authors": [
+            "Farshid Ghazanfari",
+            "Robert A. Campbell",
+            "Warwick S. Board"
+          ],
+          "year": 2008,
+          "month": 5,
+          "description": "This NI 43-101 Technical Report details the updated Mineral Resource Estimate for the Northern Dancer (Logtung) tungsten-molybdenum project, highlighting geological surveys, drillings, and estimations conducted primarily by Largo Resources Ltd. with the assistance of Snowden Mining Industry Consultants.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0274c23c6cee0123ac217b0164fc024410724d8f4e6a111a4b179da80c915d953c"
+        }
       }
     ]
   }

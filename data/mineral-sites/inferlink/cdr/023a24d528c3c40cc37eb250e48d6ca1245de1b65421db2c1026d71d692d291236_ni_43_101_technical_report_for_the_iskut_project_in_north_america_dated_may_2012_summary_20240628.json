@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1779,6 +1783,21 @@
         "date": "2012-5"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Iskut Project in North America dated May 2012.pdf",
+          "authors": [
+            "A. A. Burgoyne"
+          ],
+          "year": 2012,
+          "month": 5,
+          "description": "This report provides a detailed technical evaluation of the Iskut Property in northwestern British Columbia, focusing on high-grade gold mineralization and exploration targets within Johnny Flats and the Burnie Trend.",
+          "uri": "https://api.cdr.land/v1/docs/documents/023a24d528c3c40cc37eb250e48d6ca1245de1b65421db2c1026d71d692d291236"
+        }
+      }
+    ]
   }
 ]

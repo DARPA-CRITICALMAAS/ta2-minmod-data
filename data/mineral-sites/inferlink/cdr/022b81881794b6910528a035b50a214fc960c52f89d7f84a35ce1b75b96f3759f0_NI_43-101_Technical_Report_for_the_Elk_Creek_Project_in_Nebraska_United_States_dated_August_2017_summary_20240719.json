@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6875",
-        "observed_name": "Nebraska",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6875",
+          "observed_name": "Nebraska",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -4311,6 +4315,35 @@
         "observed_name": "observed text",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Elk Creek Project in Nebraska, United States dated August 2017.pdf",
+          "authors": [
+            "Arun Vathavooran",
+            "Benjamin Parsons",
+            "Brian S. Prosser",
+            "Clara Balasko",
+            "David Stone",
+            "David Winters",
+            "Eric Larochelle",
+            "Grant Malensek",
+            "Jeff Osborn",
+            "Joanna Poeck",
+            "John (Ben) Day",
+            "John Tinucci",
+            "Mark Allan Willow",
+            "Paul Williams",
+            "Sylvain Harton"
+          ],
+          "year": 2017,
+          "month": 8,
+          "description": "This technical report is a feasibility study on the Elk Creek Niobium Project in Nebraska, providing an assessment of the geological, engineering, and economic aspects of the project.",
+          "uri": "https://api.cdr.land/v1/docs/documents/022b81881794b6910528a035b50a214fc960c52f89d7f84a35ce1b75b96f3759f0"
+        }
       }
     ]
   }

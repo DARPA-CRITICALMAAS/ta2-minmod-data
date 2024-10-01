@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1172",
-        "observed_name": "Peru",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5129",
-        "observed_name": "La Libertad",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1172",
+          "observed_name": "Peru",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5129",
+          "observed_name": "La Libertad",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -57,6 +61,21 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the San Vicente Project in Peru dated September 2019.pdf",
+          "authors": [
+            "George C. Sharpe"
+          ],
+          "year": 2019,
+          "month": 9,
+          "description": "A comprehensive technical report detailing the geological context, exploration activities, and recommendations for the San Vicente polymetallic vein project in La Libertad, Peru.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02138d079ca1fc122e032cc943f1ea6794d744fad5be975fd8ec58102dfed29f7a"
+        }
       }
     ]
   }

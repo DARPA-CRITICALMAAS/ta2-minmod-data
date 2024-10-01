@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Québec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Québec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3397,6 +3401,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q486",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Hawk Ridge project in Canada dated July, 2022.pdf",
+          "authors": [
+            "Antoine Yassa"
+          ],
+          "year": 2022,
+          "month": 7,
+          "description": "This technical report provides an updated Mineral Resource Estimate for the Hawk Ridge Nickel-Copper (PGE) Property in Northern Québec, incorporating drill holes and recent metal prices to estimate potential open pit and underground mining options.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02dd6bca9a4a06077e80ddd981f1def1059a932300acb96cc5785f90a771320d00"
+        }
       }
     ]
   }

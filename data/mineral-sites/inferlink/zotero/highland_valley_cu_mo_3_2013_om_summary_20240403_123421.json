@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -781,6 +785,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (OM) for the Highland Valley Project in North America dated 2013",
+          "doi": "https://w3id.org/usgs/z/4530692/EKT4QIHW",
+          "authors": [
+            "Ron Graden"
+          ],
+          "year": 2013,
+          "month": 3,
+          "description": "This report covers exploration data up to March 31, 2012 and mining information up to December 31, 2012 for the Highland Valley copper-molybdenum project."
+        }
       }
     ]
   }

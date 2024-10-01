@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
-        "observed_name": "Newfoundland and Labrador",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
+          "observed_name": "Newfoundland and Labrador",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -10295,6 +10299,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q319",
         "source": "Inferlink Extraction v2",
         "confidence": 0.14285714285714285
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Foxtrot Project in North America dated 2016.pdf",
+          "authors": [
+            "Katharine M. Masun",
+            "Ian C. Weir",
+            "John R. Goode"
+          ],
+          "year": 2016,
+          "month": 4,
+          "description": "The report details the Preliminary Economic Assessment (PEA) for Search Minerals' Foxtrot Rare Earth Element (REE) Project located near Port Hope Simpson, Newfoundland and Labrador, Canada, including geology, mineral resource estimates, mining methods, and economic analysis.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02595f3dd572720a6b95b4566ef12e7e4ac57d3bb9ec37b05c47013efbbd512e3a"
+        }
       }
     ]
   }

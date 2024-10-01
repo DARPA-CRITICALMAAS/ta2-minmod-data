@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3065,6 +3069,22 @@
         "observed_name": "clays",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+          "authors": [
+            "Derek Loveday",
+            "Mariea Kartick"
+          ],
+          "year": 2022,
+          "month": 6,
+          "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+        }
       }
     ]
   }

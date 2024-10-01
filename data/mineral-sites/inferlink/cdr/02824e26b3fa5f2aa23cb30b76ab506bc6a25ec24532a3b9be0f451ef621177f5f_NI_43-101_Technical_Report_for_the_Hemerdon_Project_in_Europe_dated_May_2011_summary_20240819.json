@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1234",
-        "observed_name": "United Kingdom",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6679",
-        "observed_name": "England",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1234",
+          "observed_name": "United Kingdom",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6679",
+          "observed_name": "England",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -922,6 +926,23 @@
         "observed_name": "open pit",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Hemerdon Project in Europe dated May 2011.pdf",
+          "authors": [
+            "H. Hale",
+            "Phil Jankowski",
+            "Quinton de Klerk"
+          ],
+          "year": 2011,
+          "month": 5,
+          "description": "This report provides a detailed overview of the Hemerdon Project's Definitive Feasibility Study, assessing its viability as a tungsten and tin mine located in SW England, with strategies to potentially extend the mine's life.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02824e26b3fa5f2aa23cb30b76ab506bc6a25ec24532a3b9be0f451ef621177f5f"
+        }
       }
     ]
   }

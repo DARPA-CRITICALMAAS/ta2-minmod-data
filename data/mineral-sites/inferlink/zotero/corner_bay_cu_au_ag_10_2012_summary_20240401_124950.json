@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -274,6 +278,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q425",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Corner Bay Project in North America dated October 2012",
+          "doi": "https://w3id.org/usgs/z/4530692/2NTJWKVD",
+          "authors": [
+            "Robert de l’Étoile"
+          ],
+          "year": 2012,
+          "month": 10,
+          "description": "A NI 43-101 technical report for the Corner Bay Project in Northern Québec, Canada, detailing the property's geology, mineralization, and resource estimates."
+        }
       }
     ]
   }

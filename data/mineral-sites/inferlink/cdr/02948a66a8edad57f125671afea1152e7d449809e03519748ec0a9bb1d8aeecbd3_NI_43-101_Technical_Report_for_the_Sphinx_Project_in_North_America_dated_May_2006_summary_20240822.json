@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1125,6 +1129,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q445",
         "source": "Inferlink Extraction v2",
         "confidence": 0.2
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sphinx Project in North America dated May 2006.pdf",
+          "authors": [
+            "Charles C. Downie",
+            "David L. Pighin",
+            "Barry Price"
+          ],
+          "year": 2006,
+          "month": 5,
+          "description": "A technical report detailing geological exploration and resource estimation for the Sphinx Property by Eagle Plains Resources Ltd.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02948a66a8edad57f125671afea1152e7d449809e03519748ec0a9bb1d8aeecbd3"
+        }
       }
     ]
   }

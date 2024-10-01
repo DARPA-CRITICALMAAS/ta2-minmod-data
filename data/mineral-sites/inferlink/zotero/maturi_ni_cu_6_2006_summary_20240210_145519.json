@@ -9,16 +9,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "record_id": "4530692/CGWU8XBQ",
     "mineral_inventory": [
@@ -529,6 +533,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q478",
         "confidence": 1,
         "source": "SME"
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Maturi Project in Minnesota, United States dated June 2006",
+          "doi": "https://w3id.org/usgs/z/4530692/CGWU8XBQ",
+          "authors": [
+            "Richard E. Routledge M.Sc. P.Geo.",
+            "Gregory F. Greenough B.Sc. P.Geo."
+          ],
+          "year": 2006,
+          "month": 6,
+          "description": "An independent estimate of the mineral resources for the Maturi copper-nickel PGM deposit in Lake County, Minnesota, following the National Instrument 43-101 standards."
+        }
       }
     ]
   }

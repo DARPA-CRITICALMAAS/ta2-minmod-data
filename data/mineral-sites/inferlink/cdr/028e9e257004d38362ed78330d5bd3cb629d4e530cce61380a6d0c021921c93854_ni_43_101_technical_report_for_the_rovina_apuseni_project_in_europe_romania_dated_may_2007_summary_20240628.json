@@ -4,18 +4,22 @@
     "record_id": "028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854",
     "name": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1180",
-        "observed_name": "Romania",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q3199",
-        "observed_name": "Hunedoara",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1180",
+          "observed_name": "Romania",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3199",
+          "observed_name": "Hunedoara",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -778,6 +782,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q437",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+          "authors": [
+            "David G. Thomas",
+            "Robert Cinits"
+          ],
+          "year": 2007,
+          "month": 5,
+          "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
+          "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+        }
       }
     ]
   }

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6880",
-        "observed_name": "New York",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6880",
+          "observed_name": "New York",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1411,6 +1415,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q374",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Empire State Project in New York, United States dated 2018.pdf",
+          "authors": [
+            "Michael Makarenko",
+            "Indi Gopinathan",
+            "Allan Reeves",
+            "Robert Raponi"
+          ],
+          "year": 2018,
+          "month": 5,
+          "description": "This document is a Preliminary Economic Assessment (PEA) Technical Report for the Empire State Mines (ESM) providing mineral resource estimates with mine planning and economic analysis.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0200a553c5495ec9558204ad275bbae6dd88fc2e286bd5e45b039a186ecf80b600"
+        }
       }
     ]
   }

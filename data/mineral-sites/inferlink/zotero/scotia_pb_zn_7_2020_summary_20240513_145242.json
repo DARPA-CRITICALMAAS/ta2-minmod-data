@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2659",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2659",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -395,6 +399,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q380",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Scotia Project in Canada dated July 2020",
+          "authors": [
+            "Timothy Carew",
+            "Tony Gilman",
+            "Tommaso Roberto Raponi",
+            "Patrick Hannon"
+          ],
+          "year": 2020,
+          "month": 7,
+          "description": "This report presents a pre-feasibility study for the Scotia Mine, detailing mineral resource estimates, mine design, economic analysis, and environmental considerations based on NI 43-101 standards.",
+          "doi": "https://w3id.org/usgs/z/4530692/QI4SWBKV"
+        }
       }
     ]
   }

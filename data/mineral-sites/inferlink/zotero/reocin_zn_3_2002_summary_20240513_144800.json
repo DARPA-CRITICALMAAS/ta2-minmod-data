@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5938",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5938",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -329,6 +333,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q385",
         "source": "report",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002",
+          "authors": [
+            "Mark G. Stevens",
+            "Bill Brooks"
+          ],
+          "year": 2002,
+          "month": 3,
+          "description": "This technical report provides a comprehensive overview and analysis of the Reocin mining project and its reserves, including detailed geological, operational, and financial data adhering to the NI 43-101 and JORC guidelines.",
+          "doi": "https://w3id.org/usgs/z/4530692/R49Z8F3P"
+        }
       }
     ]
   }

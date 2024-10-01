@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1055,6 +1059,22 @@
         "observed_name": "Dacite",
         "source": "Inferlink Extraction v2",
         "confidence": 0.047619047619047616
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Clayton Valley Project in Nevada, United States dated March 2009.pdf",
+          "authors": [
+            "7%##(;>@D.@%0%.:,@<+:%*+.(#<$-(-%.&(2a33>(7.,N%-.A33M@.(%@#*+'2a313>@-(I.-P$&-*Z%#$+C.-*,&P-=.%@@*@$.8$#",
+            "J$.(%@#I*$<%T%-%..9-,@8#,%.A33@.#U%DS=.%<.+$.,$-$8$.#,"
+          ],
+          "year": 2009,
+          "month": 3,
+          "description": "This is a technical report that provides detailed geological and resource information for the Clayton Valley Project in Nevada, prepared according to National Instrument 43-101 standards.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02b7c6bd13c41f17fbbc1392f57b0f0829308af291e3ac49b4f905937ba6e4feb1"
+        }
       }
     ]
   }

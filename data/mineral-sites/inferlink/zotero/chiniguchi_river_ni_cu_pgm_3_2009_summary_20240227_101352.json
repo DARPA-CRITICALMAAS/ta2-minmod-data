@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -48,6 +52,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q478",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "Independent Technical (Geological) Report - Chiniguchi River Property",
+          "doi": "https://w3id.org/usgs/z/4530692/5GJT468J",
+          "authors": [
+            "Hadyn R. Butler"
+          ],
+          "year": 2009,
+          "month": 3,
+          "description": "This report is designed to comply with National Instrument 43-101 standards of Disclosure for Mineral Projects and was prepared using Form 43-101F1 and guidelines in Companion Policy 43-101CP."
+        }
       }
     ]
   }

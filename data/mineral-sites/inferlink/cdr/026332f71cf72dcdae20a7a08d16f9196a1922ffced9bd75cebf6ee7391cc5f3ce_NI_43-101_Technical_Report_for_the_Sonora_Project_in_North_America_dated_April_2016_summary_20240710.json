@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-        "observed_name": "Sonora",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+          "observed_name": "Sonora",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2109,6 +2113,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q370",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+          "authors": [
+            "Martin Frank Pittuck",
+            "Ben Lepley",
+            "Oliver Jones"
+          ],
+          "year": 2016,
+          "month": 4,
+          "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+          "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+        }
       }
     ]
   }

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1090",
-        "observed_name": "Guatemala",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q3460",
-        "observed_name": "Huehuetenango",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1090",
+          "observed_name": "Guatemala",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3460",
+          "observed_name": "Huehuetenango",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -3842,6 +3846,22 @@
         "observed_name": "carbonate-hosted, manto-type zinc-lead deposit",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Torlon Hill Project in Central America, Guatemala dated 2008.pdf",
+          "authors": [
+            "Al Workman",
+            "Kurt Breede"
+          ],
+          "year": 2008,
+          "month": 12,
+          "description": "This document is a technical report and mineral resource estimate for the Torlon Hill 'Oxide' Zinc Project located in the Chiantla District, Huehuetenango, Guatemala, prepared for Firestone Ventures Inc.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02113ca702c46a53209531854d1982773cd162418ebdf8e5434449ae252f693150"
+        }
       }
     ]
   }

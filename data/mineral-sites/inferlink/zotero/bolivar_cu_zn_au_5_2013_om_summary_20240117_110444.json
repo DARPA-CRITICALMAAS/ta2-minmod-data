@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4535",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4535",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -189,6 +193,23 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q450"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 TECHNICAL REPORT - BOLÍVAR MINE",
+          "doi": "https://w3id.org/usgs/z/4530692/MGZFU4VF",
+          "authors": [
+            "Donald E. Hulse P.E. SME-RM",
+            "Zachary Black SME-RM",
+            "Karl D. Gurr SME-RM"
+          ],
+          "year": 2013,
+          "month": 5,
+          "description": "This NI 43-101 technical report is related to the Bolívar Mine in Chihuahua State, Mexico, and was prepared for Sierra Metals."
+        }
+      }
     ]
   }
 ]

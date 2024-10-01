@@ -11,12 +11,14 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
-        "observed_name": "South Korea",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
+          "observed_name": "South Korea",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1824,6 +1826,23 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q448",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated March 2008.pdf",
+          "authors": [
+            "Greg Z. Mosher",
+            "Gilles Arseneau",
+            "Ron Hall"
+          ],
+          "year": 2008,
+          "month": 3,
+          "description": "A detailed technical report on the Sangdong Property skarn deposit in South Korea, evaluating mineral resources and recommending further exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/027bbdd86d05c3222b6260ba8cf24f5aa003ac657d3a2018bb5bf81129f5c757d6"
+        }
       }
     ]
   }

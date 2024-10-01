@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
-        "observed_name": "Argentina",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2180",
-        "observed_name": "Jujuy",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
+          "observed_name": "Argentina",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2180",
+          "observed_name": "Jujuy",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1591,6 +1595,25 @@
         "observed_name": "Sulphate type brine deposits",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Cauchari-Olaroz Project in Argentina dated August 2019.pdf",
+          "authors": [
+            "Ernest Burga",
+            "David Burga",
+            "Daniel Weber",
+            "Wayne Genck",
+            "Anthony Sanford"
+          ],
+          "year": 2019,
+          "month": 8,
+          "description": "An updated feasibility study and mineral reserve estimation to support the production of lithium carbonate at the Cauchari-Olaroz Salars in Jujuy Province, Argentina.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02f2c23abb865dc5355895e0717bfb294e347fc5c2e6e3a780630680e2ff5269a1"
+        }
       }
     ]
   }

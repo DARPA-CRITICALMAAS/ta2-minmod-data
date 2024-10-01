@@ -4,18 +4,22 @@
     "record_id": "027dac5e873361536e7014d1f6f7c6b3c8db6ef317a8c7132da8ef66c70f887c75",
     "name": "NI 43-101 Technical Report for the Clayton Deep Project in Nevada, United States dated March 2013.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -62,6 +66,21 @@
         "observed_name": "A combination of all of these deposit models for lithium deposit genesis",
         "source": "Inferlink Extraction v2",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Clayton Deep Project in Nevada, United States dated March 2013.pdf",
+          "authors": [
+            "Robert M. Allender Jr."
+          ],
+          "year": 2013,
+          "month": 3,
+          "description": "This technical report encompasses geological and geophysical data analysis for the Clayton Deep Lithium Brine Project, highlighting exploration strategy and potential lithium resource identification in Esmeralda County, Nevada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/027dac5e873361536e7014d1f6f7c6b3c8db6ef317a8c7132da8ef66c70f887c75"
+        }
       }
     ]
   }

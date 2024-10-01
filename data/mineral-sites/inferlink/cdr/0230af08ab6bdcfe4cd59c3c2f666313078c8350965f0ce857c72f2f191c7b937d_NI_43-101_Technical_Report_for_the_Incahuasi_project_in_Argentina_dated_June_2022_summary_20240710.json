@@ -4,18 +4,22 @@
     "record_id": "0230af08ab6bdcfe4cd59c3c2f666313078c8350965f0ce857c72f2f191c7b937d",
     "name": "NI 43-101 Technical Report for the Incahuasi project in Argentina dated June, 2022.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
-        "observed_name": "Argentina",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2187",
-        "observed_name": "Salta",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
+          "observed_name": "Argentina",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2187",
+          "observed_name": "Salta",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -688,6 +692,21 @@
         "observed_name": "lithium-enriched, saline brine aquifer",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Incahuasi project in Argentina dated June, 2022.pdf",
+          "authors": [
+            "Michael J. Rosko"
+          ],
+          "year": 2022,
+          "month": 6,
+          "description": "Technical report prepared to conform to Canadian National Instrument 43-101 requirements, detailing the exploration and analysis of the Incahuasi Salar Lithium Concession in the Salta Province of Argentina.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0230af08ab6bdcfe4cd59c3c2f666313078c8350965f0ce857c72f2f191c7b937d"
+        }
       }
     ]
   }

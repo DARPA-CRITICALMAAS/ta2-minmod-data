@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -179,6 +183,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q319",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the McWatters Project in North America dated May 2008",
+          "doi": "https://w3id.org/usgs/z/4530692/FQPW54WS",
+          "authors": [
+            "William Randall"
+          ],
+          "year": 2008,
+          "month": 5,
+          "description": "The report summarizes the results of an aggressive surface drill program and a Feasibility Study for the McWatters Nickel Mine in Ontario, Canada【13†source】."
+        }
       }
     ]
   }

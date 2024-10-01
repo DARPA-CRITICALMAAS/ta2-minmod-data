@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
-        "observed_name": "Spain",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5965",
-        "observed_name": "Salamanca",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
+          "observed_name": "Spain",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5965",
+          "observed_name": "Salamanca",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -553,6 +557,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q447",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Los Santos Project in Europe, Spain dated October 2015.pdf",
+          "authors": [
+            "Adam Wheeler"
+          ],
+          "year": 2015,
+          "month": 10,
+          "description": "This report provides an independent update on the mineral resources and reserves of the Los Santos Mine Project in Spain, as at June 30, 2015, prepared in compliance with NI 43-101 standards.",
+          "uri": "https://api.cdr.land/v1/docs/documents/025616a24d90f78dc37e943df3495bce368e062297a2e33a6f519524496c09c443"
+        }
       }
     ]
   }

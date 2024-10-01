@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6880",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6880",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -803,6 +807,24 @@
         "observed_name": "Sub-level drift slashing and pillar slashing",
         "source": "report",
         "confidence": 0.25
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Empire State Project in New York, United States dated 2018",
+          "doi": "https://w3id.org/usgs/z/4530692/CQK4TSZX",
+          "authors": [
+            "Michael Makarenko",
+            "Indi Gopinathan",
+            "Allan Reeves",
+            "Robert Raponi"
+          ],
+          "year": 2018,
+          "month": 5,
+          "description": "This report provides a mineral resource estimate with mine plan and economics for SLZ’s Empire State Mines operation, following NI 43-101 guidelines."
+        }
       }
     ]
   }

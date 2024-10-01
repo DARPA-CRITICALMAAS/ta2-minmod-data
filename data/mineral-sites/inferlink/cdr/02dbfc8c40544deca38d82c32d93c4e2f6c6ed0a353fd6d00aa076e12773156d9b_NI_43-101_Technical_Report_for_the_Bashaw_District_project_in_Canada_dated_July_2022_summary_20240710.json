@@ -4,18 +4,22 @@
     "record_id": "02dbfc8c40544deca38d82c32d93c4e2f6c6ed0a353fd6d00aa076e12773156d9b",
     "name": "NI 43-101 Technical Report for the Bashaw District project in Canada dated July, 2022.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
-        "observed_name": "Alberta",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
+          "observed_name": "Alberta",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -89,6 +93,23 @@
         "observed_name": "lithium-rich brines",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Bashaw District project in Canada dated July, 2022.pdf",
+          "authors": [
+            "Daron Abbey",
+            "Alex Haluszka",
+            "Peter Ehren"
+          ],
+          "year": 2022,
+          "month": 7,
+          "description": "This document is a NI 43-101 Technical Report detailing the Lithium Resource Estimate for the Bashaw District Project in Central Alberta, authored by Daron Abbey, Alex Haluszka, and Peter Ehren, published in August 2022 with an effective date of July 11, 2022.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02dbfc8c40544deca38d82c32d93c4e2f6c6ed0a353fd6d00aa076e12773156d9b"
+        }
       }
     ]
   }

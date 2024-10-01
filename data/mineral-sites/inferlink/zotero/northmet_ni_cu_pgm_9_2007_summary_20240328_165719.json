@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -358,6 +362,24 @@
         "observed_name": "Copper-nickel deposit within the Duluth Complex, associated with the Partridge River (PRI) and South Kawishiwi (SKI) intrusions",
         "source": "report",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated September 2007",
+          "doi": "https://w3id.org/usgs/z/4530692/7RVNPM2V",
+          "authors": [
+            "Pierre Desautels",
+            "Richard Patelke",
+            "Tim Maunula",
+            "Noris Belluz"
+          ],
+          "year": 2007,
+          "month": 9,
+          "description": "The report is related to the NorthMet Deposit in Minnesota, USA, and includes information on geology, resources, and mining aspects of the project."
+        }
       }
     ]
   }

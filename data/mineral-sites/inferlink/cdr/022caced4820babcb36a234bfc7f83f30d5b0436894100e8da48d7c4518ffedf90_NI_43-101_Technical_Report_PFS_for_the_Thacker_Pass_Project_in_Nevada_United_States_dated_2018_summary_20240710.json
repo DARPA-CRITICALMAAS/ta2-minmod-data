@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "USA",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "USA",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -5462,6 +5466,27 @@
         "observed_name": "Lithium Mineralization",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PFS) for the Thacker Pass Project in Nevada, United States dated 2018.pdf",
+          "authors": [
+            "Reza Ehsani",
+            "Louis Fourie",
+            "Andrew Hutson",
+            "Daniel Peldiak",
+            "Rob Spiering",
+            "John Young",
+            "Ken Armstrong"
+          ],
+          "year": 2018,
+          "month": 8,
+          "description": "A technical report detailing the preliminary feasibility study findings for the Thacker Pass Project, including geological, mining, environmental, and economic assessments.",
+          "uri": "https://api.cdr.land/v1/docs/documents/022caced4820babcb36a234bfc7f83f30d5b0436894100e8da48d7c4518ffedf90"
+        }
       }
     ]
   }

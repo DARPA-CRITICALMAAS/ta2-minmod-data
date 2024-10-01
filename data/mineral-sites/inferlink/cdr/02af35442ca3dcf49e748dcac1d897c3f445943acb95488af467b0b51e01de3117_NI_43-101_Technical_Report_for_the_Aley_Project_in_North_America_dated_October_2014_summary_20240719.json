@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1217,6 +1221,25 @@
         "observed_name": "unknown factors created the Nb bearing alteration minerals fersmite and columbite",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Aley Project in North America dated October 2014.pdf",
+          "authors": [
+            "Scott Jones",
+            "Keith Merriam",
+            "Greg Yelland",
+            "Robert Rotzinger",
+            "Ronald G. Simpson"
+          ],
+          "year": 2014,
+          "month": 10,
+          "description": "NI 43-101 compliant technical report providing detailed geological, technical, and economic analysis of the Aley Niobium Project in British Columbia, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02af35442ca3dcf49e748dcac1d897c3f445943acb95488af467b0b51e01de3117"
+        }
       }
     ]
   }

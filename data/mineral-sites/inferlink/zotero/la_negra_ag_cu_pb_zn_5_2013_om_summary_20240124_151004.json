@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4551",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4551",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -239,6 +243,23 @@
         "date": "2013-5"
       }
     ],
-    "deposit_type": []
+    "deposit_type": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "Technical Report of the La Negra Mine Querétaro México",
+          "doi": "https://w3id.org/usgs/z/4530692/U7RE352Z",
+          "authors": [
+            "Baltazar Solano-Rico GEOL. ENG. M.SC. MMSA 01411QP",
+            "Betty Gibbs E.M. M.SC. MMSA 01164QP",
+            "Robert E Cameron Ph.D. MMSA 01357QP"
+          ],
+          "year": 2013,
+          "month": 5,
+          "description": "The document is a technical report on the La Negra Mine project in Querétaro, Mexico, prepared for Aurcana Corporation."
+        }
+      }
+    ]
   }
 ]

@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -187,6 +191,21 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "report",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Lucky Mike Project in North America dated September 2012",
+          "doi": "https://w3id.org/usgs/z/4530692/F4U77TXQ",
+          "authors": [
+            "James A. Turner"
+          ],
+          "year": 2012,
+          "month": 9,
+          "description": "This document is a detailed geological and exploration report of the Lucky Mike Copper-Tungsten Property providing data and recommendations for further exploration."
+        }
       }
     ]
   }

@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
-        "observed_name": "British Columbia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -975,6 +979,24 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Kwanika Project in North America dated 2017.pdf",
+          "authors": [
+            "Marek Nowak",
+            "Chad Yuhasz",
+            "Jim Gray",
+            "Tracey Meintjes"
+          ],
+          "year": 2017,
+          "month": 4,
+          "description": "This report details the Preliminary Economic Assessment (PEA) for the Kwanika Project, involving the development of a copper-gold deposit near Fort St. James, British Columbia, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02282971b6ef3459b289f53b69054519af9a099a7590ec1178cedd4bd35aa7b9f8"
+        }
       }
     ]
   }

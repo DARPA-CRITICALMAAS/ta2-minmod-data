@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
-        "observed_name": "South Korea",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5900",
-        "observed_name": "Gangwon",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
+          "observed_name": "South Korea",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5900",
+          "observed_name": "Gangwon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -947,6 +951,21 @@
         "observed_name": "Granite Related Molybdenum",
         "source": "Inferlink Extraction v2",
         "confidence": 0.5
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated July 2016.pdf",
+          "authors": [
+            "Adam Wheeler"
+          ],
+          "year": 2016,
+          "month": 7,
+          "description": "This report provides a comprehensive technical evaluation of the Sangdong Tungsten Project in South Korea, including a review of geological, mining, and resource estimates as of July 2016.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02ddf32568b0e10f7595a6a8627b795be801da3c60c926b359b1518910a7ebf25c"
+        }
       }
     ]
   }

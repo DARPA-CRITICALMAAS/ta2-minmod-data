@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
-        "observed_name": "Ontario",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
+          "observed_name": "Ontario",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2664,6 +2668,23 @@
         "zone": "depth zone"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Lockerby Project in North America dated August 2012.pdf",
+          "authors": [
+            "George Darling",
+            "Jim Fuchs",
+            "Chester Moore"
+          ],
+          "year": 2012,
+          "month": 8,
+          "description": "This report, prepared for First Nickel Inc., provides an updated technical study on the Lockerby Mine to reflect operational and economic improvements, supporting mine development and mining sequence details as well as updated capital and operating cost information.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02d80cfd94b92780c3f1ed4c0d7555a2ddc65879d8736adbe95386e862399b03ad"
+        }
+      }
+    ]
   }
 ]

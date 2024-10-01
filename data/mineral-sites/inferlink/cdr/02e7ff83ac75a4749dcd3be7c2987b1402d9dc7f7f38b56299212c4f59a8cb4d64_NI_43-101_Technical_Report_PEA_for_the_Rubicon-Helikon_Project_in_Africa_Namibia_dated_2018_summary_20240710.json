@@ -4,18 +4,22 @@
     "record_id": "02e7ff83ac75a4749dcd3be7c2987b1402d9dc7f7f38b56299212c4f59a8cb4d64",
     "name": "NI 43-101 Technical Report (PEA) for the Rubicon-Helikon Project in Africa, Namibia dated 2018.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1150",
-        "observed_name": "Namibia",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2313",
-        "observed_name": "Karibib District",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1150",
+          "observed_name": "Namibia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2313",
+          "observed_name": "Karibib District",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1576,6 +1580,23 @@
         "zone": "rubicon slimes"
       }
     ],
-    "deposit_type_candidate": []
+    "deposit_type_candidate": [],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report (PEA) for the Rubicon-Helikon Project in Africa, Namibia dated 2018.pdf",
+          "authors": [
+            "Anton Geldenhuys",
+            "Anton von Wielligh",
+            "Robert Duinker"
+          ],
+          "year": 2018,
+          "month": 11,
+          "description": "This report provides a preliminary economic assessment for the Desert Lion Energy Lithium Project, including considerations for mining methods, production schedules, and economic feasibility.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02e7ff83ac75a4749dcd3be7c2987b1402d9dc7f7f38b56299212c4f59a8cb4d64"
+        }
+      }
+    ]
   }
 ]

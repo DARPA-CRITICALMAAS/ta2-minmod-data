@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "USA",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "USA",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -51,6 +55,21 @@
         "observed_name": "Lithium-bearing continental brines",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Kibby Basin Project in Nevada, United States dated May 2016.pdf",
+          "authors": [
+            "Ernest L. Hunsaker III"
+          ],
+          "year": 2016,
+          "month": 5,
+          "description": "This report is a technical review and assessment of the Kibby Basin Project in Esmeralda County, Nevada, evaluating its potential for lithium-bearing brines.",
+          "uri": "https://api.cdr.land/v1/docs/documents/023976d1771fd8cc0df3d84b64bc8361566dff5c4e579b452fe0934ce9b4c79fcd"
+        }
       }
     ]
   }

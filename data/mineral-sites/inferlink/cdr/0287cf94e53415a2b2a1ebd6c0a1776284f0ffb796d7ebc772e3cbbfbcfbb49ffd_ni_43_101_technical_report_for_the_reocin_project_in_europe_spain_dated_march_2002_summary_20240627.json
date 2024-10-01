@@ -4,18 +4,22 @@
     "record_id": "0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd",
     "name": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
     "location_info": {
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
-        "observed_name": "Spain",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q5938",
-        "observed_name": "Cantabria",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
+          "observed_name": "Spain",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5938",
+          "observed_name": "Cantabria",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -773,6 +777,22 @@
         "normalized_uri": "https://minmod.isi.edu/resource/Q400",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
+          "authors": [
+            "Mark G. Stevens",
+            "Bill Brooks"
+          ],
+          "year": 2002,
+          "month": 3,
+          "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+          "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
+        }
       }
     ]
   }

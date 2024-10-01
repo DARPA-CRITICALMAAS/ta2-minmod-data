@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "observed_name": "Mexico",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
-        "observed_name": "Sonora",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "observed_name": "Mexico",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
+          "observed_name": "Sonora",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1038,6 +1042,22 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Penasco Quemado Project in North America dated March 2006.pdf",
+          "authors": [
+            "William J. Lewis",
+            "James A. McCrea"
+          ],
+          "year": 2007,
+          "month": 3,
+          "description": "This report provides an updated technical review and resource estimate for the Peñasco Quemado silver property situated in the Magdalena-Tubutama Mining District of Sonora, Mexico. It includes the results of the 2006 drilling program and the proposed work plan for further exploration.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02de5a9e3225d2c916932a76b4f22955d820d89cf839f40b92b34c146f2ebe9111"
+        }
       }
     ]
   }

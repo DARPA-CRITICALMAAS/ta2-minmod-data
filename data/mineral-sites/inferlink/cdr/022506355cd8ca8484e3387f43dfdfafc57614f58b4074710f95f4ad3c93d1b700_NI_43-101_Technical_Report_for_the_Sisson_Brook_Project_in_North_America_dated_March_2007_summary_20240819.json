@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
-        "observed_name": "New Brunswick",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
+          "observed_name": "New Brunswick",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1636,6 +1640,23 @@
         "observed_name": "Granite-related porphyry tungsten-molybdenum deposit",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated March 2007.pdf",
+          "authors": [
+            "Michael P. Cullen",
+            "Matthew Harrington",
+            "H. Andrew Daniels"
+          ],
+          "year": 2007,
+          "month": 3,
+          "description": "A technical report providing a mineral resource estimate for the Sisson Brook Zone III tungsten-molybdenum deposit located in New Brunswick, Canada.",
+          "uri": "https://api.cdr.land/v1/docs/documents/022506355cd8ca8484e3387f43dfdfafc57614f58b4074710f95f4ad3c93d1b700"
+        }
       }
     ]
   }

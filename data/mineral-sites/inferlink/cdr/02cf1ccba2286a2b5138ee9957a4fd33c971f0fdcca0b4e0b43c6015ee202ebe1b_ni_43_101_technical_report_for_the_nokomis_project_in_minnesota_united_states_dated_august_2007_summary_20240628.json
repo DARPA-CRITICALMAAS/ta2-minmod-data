@@ -10,18 +10,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "United States",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
-        "observed_name": "Minnesota",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
+          "observed_name": "Minnesota",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -6183,6 +6187,21 @@
         "normalized_uri": "",
         "source": "Inferlink Extraction v2",
         "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Nokomis Project in Minnesota, United States dated August 2007.pdf",
+          "authors": [
+            "Richard E. Routledge"
+          ],
+          "year": 2007,
+          "month": 8,
+          "description": "This report, prepared for Duluth Metals Limited, presents a resource estimate and geological review of the Nokomis Deposit located in the Maturi Extension Properties, Minnesota, USA, conforming to National Instrument (NI) 43-101 standards.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02cf1ccba2286a2b5138ee9957a4fd33c971f0fdcca0b4e0b43c6015ee202ebe1b"
+        }
       }
     ]
   }

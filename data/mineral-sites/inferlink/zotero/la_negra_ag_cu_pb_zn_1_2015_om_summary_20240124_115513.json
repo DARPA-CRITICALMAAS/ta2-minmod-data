@@ -10,16 +10,20 @@
         "source": "Inferlink Extraction v1",
         "confidence": 1.0
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q4551",
-        "source": "Inferlink Extraction v1",
-        "confidence": 1.0
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q4551",
+          "source": "Inferlink Extraction v1",
+          "confidence": 1.0
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1213,6 +1217,23 @@
     ],
     "deposit_type": [
       "https://minmod.isi.edu/resource/Q450"
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "Technical Report Minera La Negra Property Querétaro Mexico",
+          "authors": [
+            "G.Z. Mosher P.Geo.",
+            "C Keogh P.Eng",
+            "A Riles MAIG",
+            "P R Stephenson P.Geo"
+          ],
+          "year": 2015,
+          "month": 1,
+          "description": "The report, prepared by AMC Mining Consultants (Canada) Ltd. for Aurcana Corporation, provides an NI-43-101-compliant technical analysis and updated Mineral Resource estimates for the La Negra property."
+        }
+      }
     ]
   }
 ]

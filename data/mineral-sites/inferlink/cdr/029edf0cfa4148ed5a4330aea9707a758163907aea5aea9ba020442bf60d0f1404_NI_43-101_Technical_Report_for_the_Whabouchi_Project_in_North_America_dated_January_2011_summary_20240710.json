@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
-        "observed_name": "Canada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
-        "observed_name": "Quebec",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -1159,6 +1163,22 @@
         "observed_name": "Spodumene",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Whabouchi Project in North America dated January 2011.pdf",
+          "authors": [
+            "Gary Pearse",
+            "Guy Bourassa"
+          ],
+          "year": 2011,
+          "month": 1,
+          "description": "The report is a National Instrument 43-101 compliant Preliminary Economic Assessment (PEA) for the Whabouchi lithium deposit, presenting its economic viability and justifying steps towards a pilot plant and feasibility study.",
+          "uri": "https://api.cdr.land/v1/docs/documents/029edf0cfa4148ed5a4330aea9707a758163907aea5aea9ba020442bf60d0f1404"
+        }
       }
     ]
   }

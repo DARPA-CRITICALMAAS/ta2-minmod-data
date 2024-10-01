@@ -11,18 +11,22 @@
         "confidence": 1,
         "source": "Inferlink Extraction v2"
       },
-      "country": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-        "observed_name": "USA",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
-      "state_or_province": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
-        "observed_name": "Nevada",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      }
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "USA",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
+          "observed_name": "Nevada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        }
+      ]
     },
     "mineral_inventory": [
       {
@@ -2701,6 +2705,22 @@
         "observed_name": "lithium-rich clay minerals including illite and smectite, specifically hectorite",
         "source": "Inferlink Extraction v2",
         "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-09-20T00:00:00",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the Nevada Project in Nevada, United States dated June 2016.pdf",
+          "authors": [
+            "Timothy J. Carew",
+            "Mario E. Rossi"
+          ],
+          "year": 2016,
+          "month": 5,
+          "description": "This report serves as a status update for the Lithium Nevada project, providing NI 43-101 compliant resource statements for the Stage I and Stage II deposits, and includes updated advancements in the metallurgical process.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02855c7e7b75c5c849650174b457b8641d6fbca279bdc6ea75ab41d00d1fc43534"
+        }
       }
     ]
   }
