@@ -1,0 +1,95 @@
+[
+  {
+    "source_id": "https://api.cdr.land/v1/docs/documents",
+    "record_id": "02dbfc8c40544deca38d82c32d93c4e2f6c6ed0a353fd6d00aa076e12773156d9b",
+    "name": "NI 43-101 Technical Report for the Bashaw District project in Canada dated July, 2022.pdf",
+    "location_info": {
+      "country": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+        "observed_name": "Canada",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      },
+      "state_or_province": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q2653",
+        "observed_name": "Alberta",
+        "confidence": 1,
+        "source": "Inferlink Extraction v2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Li",
+          "confidence": 1,
+          "source": "Inferlink Extraction v2"
+        },
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 4398890.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/L",
+            "confidence": 1,
+            "source": "Inferlink Extraction v2"
+          },
+          "value": 74.5
+        },
+        "contained_metal": 3277173.05,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bashaw District project in Canada dated July, 2022.pdf",
+            "authors": [
+              "Daron Abbey",
+              "Alex Haluszka",
+              "Peter Ehren"
+            ],
+            "year": 2022,
+            "month": 7,
+            "description": "This document is a NI 43-101 Technical Report detailing the Lithium Resource Estimate for the Bashaw District Project in Central Alberta, authored by Daron Abbey, Alex Haluszka, and Peter Ehren, published in August 2022 with an effective date of July 11, 2022.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02dbfc8c40544deca38d82c32d93c4e2f6c6ed0a353fd6d00aa076e12773156d9b"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2022-7",
+        "zone": "bashaw district"
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "hard rock deposits (spodumene, hectorite, and pegmatites)",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "lithium-rich brines",
+        "source": "Inferlink Extraction v2",
+        "confidence": 0.5
+      }
+    ]
+  }
+]

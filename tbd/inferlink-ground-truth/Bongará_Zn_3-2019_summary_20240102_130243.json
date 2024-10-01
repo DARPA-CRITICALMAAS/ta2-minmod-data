@@ -1,0 +1,99 @@
+{
+  "MineralSite": {
+    "id": 0,
+    "name": "BONGARÁ ZINC PROJECT",
+    "location_info": {
+      "location": "POINT(171425 9367875)",
+      "crs": "WGS84",
+      "country": "Peru",
+      "state_or_province": "Amazonas"
+    }
+  },
+  "MineralInventory": [
+    {
+      "id": 0,
+      "commodity": "Zinc",
+      "category": "indicated",
+      "ore": {
+        "ore_unit": "tonnes",
+        "ore_value": 822000
+      },
+      "grade": {
+        "grade_unit": "percent",
+        "grade_value": "18.9"
+      },
+      "cutoff_grade": {
+        "cutoff_grade_unit": "percent",
+        "cutoff_grade_value": 10
+      },
+      "contained_metal": 155000000,
+      "reference": {
+        "id": 0,
+        "document": {
+          "id": "doc_id_0",
+          "title": "Bongar\u00e1 Zn 3-2019",
+          "uri": "",
+          "month": 1,
+          "year": 2019
+        },
+        "page_info": [
+          {
+            "page": 91,
+            "bounding_box": {
+              "x_min": "",
+              "x_max": "",
+              "y_min": "",
+              "y_max": ""
+            }
+          }
+        ]
+      },
+      "date": "2019-01"
+    },
+    {
+      "id": 1,
+      "commodity": "Zinc",
+      "category": "inferred",
+      "ore": {
+        "ore_unit": "tonnes",
+        "ore_value": 1340000
+      },
+      "grade": {
+        "grade_unit": "percent",
+        "grade_value": "16.8"
+      },
+      "cutoff_grade": {
+        "cutoff_grade_unit": "percent",
+        "cutoff_grade_value": 10
+      },
+      "contained_metal": 225000000,
+      "reference": {
+        "id": 1,
+        "document": {
+          "id": "doc_id_0",
+          "title": "Bongar\u00e1 Zn 3-2019",
+          "uri": "",
+          "month": 1,
+          "year": 2019
+        },
+        "page_info": [
+          {
+            "page": 91,
+            "bounding_box": {
+              "x_min": "",
+              "x_max": "",
+              "y_min": "",
+              "y_max": ""
+            }
+          }
+        ]
+      },
+      "date": "2019-01"
+    }
+  ],
+  "deposit_type": [
+    {
+      "id": "MVT zinc-lead"
+    }
+  ]
+}
