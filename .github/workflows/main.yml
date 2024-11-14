@@ -32,6 +32,7 @@ jobs:
         run: |
           cd ta2-minmod-kg
           pip install -e .
+          cp config.yml.template config.yml
       - name: get shacl validator
         run: |
           mkdir kgdata
