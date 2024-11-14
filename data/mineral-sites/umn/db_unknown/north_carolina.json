@@ -1,0 +1,2883 @@
+{
+    "columns": [
+        {
+            "name": "record_id",
+            "datatype": "Int64",
+            "values": [
+                5,
+                4,
+                2,
+                7,
+                6,
+                1,
+                8,
+                3
+            ]
+        },
+        {
+            "name": "site_type",
+            "datatype": "Utf8",
+            "values": [
+                "Chemical Sediment, Marine",
+                "Contact Metamorphic"
+            ]
+        },
+        {
+            "name": "mineral_inventory",
+            "datatype": {
+                "List": {
+                    "Struct": [
+                        {
+                            "name": "commodity",
+                            "dtype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "name": "reference",
+                            "dtype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "bit_settings": "FAST_EXPLODE_LIST",
+            "values": [
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "commodity",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "observed_name",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "confidence",
+                                            "dtype": "Float64"
+                                        },
+                                        {
+                                            "name": "source",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "normalized_uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": "reference",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "document",
+                                            "dtype": {
+                                                "Struct": [
+                                                    {
+                                                        "name": "uri",
+                                                        "dtype": "Utf8"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "commodity",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "Phosphorus-Phosphates",
+                                        "Uranium",
+                                        "Gypsum-Anhydrite",
+                                        "Fluorine-Fluorite"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "values": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q653",
+                                        "https://minmod.isi.edu/resource/Q588",
+                                        "https://minmod.isi.edu/resource/Q555",
+                                        "https://minmod.isi.edu/resource/Q543"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reference",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "document",
+                                    "datatype": {
+                                        "Struct": [
+                                            {
+                                                "name": "uri",
+                                                "dtype": "Utf8"
+                                            }
+                                        ]
+                                    },
+                                    "values": [
+                                        {
+                                            "name": "uri",
+                                            "datatype": "Utf8",
+                                            "values": [
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "commodity",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "observed_name",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "confidence",
+                                            "dtype": "Float64"
+                                        },
+                                        {
+                                            "name": "source",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "normalized_uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": "reference",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "document",
+                                            "dtype": {
+                                                "Struct": [
+                                                    {
+                                                        "name": "uri",
+                                                        "dtype": "Utf8"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "commodity",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "Niobium",
+                                        "Columbium",
+                                        "Tantalum",
+                                        "Mica",
+                                        "Feldspar"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "values": [
+                                        1.0,
+                                        0.001,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q579",
+                                        "https://minmod.isi.edu/resource/Q610",
+                                        "https://minmod.isi.edu/resource/Q574",
+                                        "https://minmod.isi.edu/resource/Q542"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reference",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "document",
+                                    "datatype": {
+                                        "Struct": [
+                                            {
+                                                "name": "uri",
+                                                "dtype": "Utf8"
+                                            }
+                                        ]
+                                    },
+                                    "values": [
+                                        {
+                                            "name": "uri",
+                                            "datatype": "Utf8",
+                                            "values": [
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "commodity",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "observed_name",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "confidence",
+                                            "dtype": "Float64"
+                                        },
+                                        {
+                                            "name": "source",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "normalized_uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": "reference",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "document",
+                                            "dtype": {
+                                                "Struct": [
+                                                    {
+                                                        "name": "uri",
+                                                        "dtype": "Utf8"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "commodity",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "Molybdenum"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q576"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reference",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "document",
+                                    "datatype": {
+                                        "Struct": [
+                                            {
+                                                "name": "uri",
+                                                "dtype": "Utf8"
+                                            }
+                                        ]
+                                    },
+                                    "values": [
+                                        {
+                                            "name": "uri",
+                                            "datatype": "Utf8",
+                                            "bit_settings": "SORTED_ASC",
+                                            "values": [
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "commodity",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "observed_name",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "confidence",
+                                            "dtype": "Float64"
+                                        },
+                                        {
+                                            "name": "source",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "normalized_uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": "reference",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "document",
+                                            "dtype": {
+                                                "Struct": [
+                                                    {
+                                                        "name": "uri",
+                                                        "dtype": "Utf8"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "commodity",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "Lithium",
+                                        "Feldspar",
+                                        "Mica",
+                                        "Stone",
+                                        "Crushed",
+                                        "Broken",
+                                        "Niobium",
+                                        "Columbium",
+                                        "Tantalum",
+                                        "Beryllium",
+                                        "Tin"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "values": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.001,
+                                        0.001,
+                                        1.0,
+                                        0.001,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q569",
+                                        "https://minmod.isi.edu/resource/Q542",
+                                        "https://minmod.isi.edu/resource/Q574",
+                                        "https://minmod.isi.edu/resource/Q663",
+                                        "https://minmod.isi.edu/resource/Q579",
+                                        "https://minmod.isi.edu/resource/Q610",
+                                        "https://minmod.isi.edu/resource/Q590",
+                                        "https://minmod.isi.edu/resource/Q587"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reference",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "document",
+                                    "datatype": {
+                                        "Struct": [
+                                            {
+                                                "name": "uri",
+                                                "dtype": "Utf8"
+                                            }
+                                        ]
+                                    },
+                                    "values": [
+                                        {
+                                            "name": "uri",
+                                            "datatype": "Utf8",
+                                            "values": [
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "commodity",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "observed_name",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "confidence",
+                                            "dtype": "Float64"
+                                        },
+                                        {
+                                            "name": "source",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "normalized_uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": "reference",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "document",
+                                            "dtype": {
+                                                "Struct": [
+                                                    {
+                                                        "name": "uri",
+                                                        "dtype": "Utf8"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "commodity",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "Lithium",
+                                        "Feldspar",
+                                        "Mica",
+                                        "Beryllium"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "values": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q569",
+                                        "https://minmod.isi.edu/resource/Q542",
+                                        "https://minmod.isi.edu/resource/Q574",
+                                        "https://minmod.isi.edu/resource/Q590"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reference",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "document",
+                                    "datatype": {
+                                        "Struct": [
+                                            {
+                                                "name": "uri",
+                                                "dtype": "Utf8"
+                                            }
+                                        ]
+                                    },
+                                    "values": [
+                                        {
+                                            "name": "uri",
+                                            "datatype": "Utf8",
+                                            "values": [
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "commodity",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "observed_name",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "confidence",
+                                            "dtype": "Float64"
+                                        },
+                                        {
+                                            "name": "source",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "normalized_uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": "reference",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "document",
+                                            "dtype": {
+                                                "Struct": [
+                                                    {
+                                                        "name": "uri",
+                                                        "dtype": "Utf8"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "commodity",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "Molybdenum",
+                                        "Copper",
+                                        "Silver"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "values": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q576",
+                                        "https://minmod.isi.edu/resource/Q538",
+                                        "https://minmod.isi.edu/resource/Q585"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reference",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "document",
+                                    "datatype": {
+                                        "Struct": [
+                                            {
+                                                "name": "uri",
+                                                "dtype": "Utf8"
+                                            }
+                                        ]
+                                    },
+                                    "values": [
+                                        {
+                                            "name": "uri",
+                                            "datatype": "Utf8",
+                                            "values": [
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "commodity",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "observed_name",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "confidence",
+                                            "dtype": "Float64"
+                                        },
+                                        {
+                                            "name": "source",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "normalized_uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": "reference",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "document",
+                                            "dtype": {
+                                                "Struct": [
+                                                    {
+                                                        "name": "uri",
+                                                        "dtype": "Utf8"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "commodity",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "Titanium",
+                                        "Metal"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "values": [
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q614",
+                                        "https://minmod.isi.edu/resource/Q628"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reference",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "document",
+                                    "datatype": {
+                                        "Struct": [
+                                            {
+                                                "name": "uri",
+                                                "dtype": "Utf8"
+                                            }
+                                        ]
+                                    },
+                                    "values": [
+                                        {
+                                            "name": "uri",
+                                            "datatype": "Utf8",
+                                            "values": [
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "commodity",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "observed_name",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "confidence",
+                                            "dtype": "Float64"
+                                        },
+                                        {
+                                            "name": "source",
+                                            "dtype": "Utf8"
+                                        },
+                                        {
+                                            "name": "normalized_uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": "reference",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "document",
+                                            "dtype": {
+                                                "Struct": [
+                                                    {
+                                                        "name": "uri",
+                                                        "dtype": "Utf8"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "commodity",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "Niobium",
+                                        "Columbium",
+                                        "Tantalum",
+                                        "Mica",
+                                        "Feldspar"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "values": [
+                                        1.0,
+                                        0.001,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1",
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q579",
+                                        "https://minmod.isi.edu/resource/Q610",
+                                        "https://minmod.isi.edu/resource/Q574",
+                                        "https://minmod.isi.edu/resource/Q542"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "reference",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "document",
+                                        "dtype": {
+                                            "Struct": [
+                                                {
+                                                    "name": "uri",
+                                                    "dtype": "Utf8"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "document",
+                                    "datatype": {
+                                        "Struct": [
+                                            {
+                                                "name": "uri",
+                                                "dtype": "Utf8"
+                                            }
+                                        ]
+                                    },
+                                    "values": [
+                                        {
+                                            "name": "uri",
+                                            "datatype": "Utf8",
+                                            "values": [
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                                                "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "reference",
+            "datatype": {
+                "List": {
+                    "Struct": [
+                        {
+                            "name": "document",
+                            "dtype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "bit_settings": "FAST_EXPLODE_LIST",
+            "values": [
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "document",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "document",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "document",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "document",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "document",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "document",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "document",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "document",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "document",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "document",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "document",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "document",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "document",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "document",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "document",
+                                "dtype": {
+                                    "Struct": [
+                                        {
+                                            "name": "uri",
+                                            "dtype": "Utf8"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "document",
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "created_by",
+            "datatype": "Utf8",
+            "values": [
+                "https://minmod.isi.edu/users/umn",
+                "https://minmod.isi.edu/users/umn",
+                "https://minmod.isi.edu/users/umn",
+                "https://minmod.isi.edu/users/umn",
+                "https://minmod.isi.edu/users/umn",
+                "https://minmod.isi.edu/users/umn",
+                "https://minmod.isi.edu/users/umn",
+                "https://minmod.isi.edu/users/umn"
+            ]
+        },
+        {
+            "name": "modified_at",
+            "datatype": "Utf8",
+            "bit_settings": "SORTED_ASC",
+            "values": [
+                "2024-11-14T21:48:21Z",
+                "2024-11-14T21:48:21Z",
+                "2024-11-14T21:48:21Z",
+                "2024-11-14T21:48:21Z",
+                "2024-11-14T21:48:21Z",
+                "2024-11-14T21:48:21Z",
+                "2024-11-14T21:48:21Z",
+                "2024-11-14T21:48:21Z"
+            ]
+        },
+        {
+            "name": "name",
+            "datatype": "Utf8",
+            "values": [
+                "Lee Creek Mine",
+                "Deake Mine",
+                "Robert Miller's Farm",
+                "Kings Mountain",
+                "Bessemer City",
+                "Boy Scout",
+                "Aurora Deposit",
+                "Randolph Mine"
+            ]
+        },
+        {
+            "name": "source_id",
+            "datatype": "Utf8",
+            "values": [
+                "database::https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                "database::https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                "database::https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                "database::https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                "database::https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                "database::https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                "database::https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey",
+                "database::https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey"
+            ]
+        },
+        {
+            "name": "location_info",
+            "datatype": {
+                "Struct": [
+                    {
+                        "name": "country",
+                        "dtype": {
+                            "List": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "name": "location",
+                        "dtype": "Utf8"
+                    },
+                    {
+                        "name": "state_or_province",
+                        "dtype": {
+                            "List": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "name": "crs",
+                        "dtype": {
+                            "Struct": [
+                                {
+                                    "name": "observed_name",
+                                    "dtype": "Utf8"
+                                },
+                                {
+                                    "name": "confidence",
+                                    "dtype": "Float64"
+                                },
+                                {
+                                    "name": "source",
+                                    "dtype": "Utf8"
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "dtype": "Utf8"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "values": [
+                {
+                    "name": "country",
+                    "datatype": {
+                        "List": {
+                            "Struct": [
+                                {
+                                    "name": "observed_name",
+                                    "dtype": "Utf8"
+                                },
+                                {
+                                    "name": "confidence",
+                                    "dtype": "Float64"
+                                },
+                                {
+                                    "name": "source",
+                                    "dtype": "Utf8"
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "dtype": "Utf8"
+                                }
+                            ]
+                        }
+                    },
+                    "bit_settings": "FAST_EXPLODE_LIST",
+                    "values": [
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "United States"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q1235"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "United States"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q1235"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "United States"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q1235"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "United States"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q1235"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "United States"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q1235"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "United States"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q1235"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "United States"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q1235"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "United States"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q1235"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "location",
+                    "datatype": "Utf8",
+                    "values": [
+                        "POINT (-76.786112 35.3797271)",
+                        "POINT (-82.0500036 35.933337)",
+                        "POINT (-82.2666737 36.050007)",
+                        "POINT (-81.3500034 35.2500069)",
+                        "POINT (-81.3134782 35.336938)",
+                        "POINT (-77.8802824 36.2583372)",
+                        "POINT (-76.833332 35.233337)",
+                        "POINT (-82.2666737 35.983337)"
+                    ]
+                },
+                {
+                    "name": "state_or_province",
+                    "datatype": {
+                        "List": {
+                            "Struct": [
+                                {
+                                    "name": "observed_name",
+                                    "dtype": "Utf8"
+                                },
+                                {
+                                    "name": "confidence",
+                                    "dtype": "Float64"
+                                },
+                                {
+                                    "name": "source",
+                                    "dtype": "Utf8"
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "dtype": "Utf8"
+                                }
+                            ]
+                        }
+                    },
+                    "bit_settings": "FAST_EXPLODE_LIST",
+                    "values": [
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "North Carolina"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q6881"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "North Carolina"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q6881"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "North Carolina"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q6881"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "North Carolina"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q6881"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "North Carolina"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q6881"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "North Carolina"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q6881"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "North Carolina"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q6881"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "datatype": {
+                                "Struct": [
+                                    {
+                                        "name": "observed_name",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "confidence",
+                                        "dtype": "Float64"
+                                    },
+                                    {
+                                        "name": "source",
+                                        "dtype": "Utf8"
+                                    },
+                                    {
+                                        "name": "normalized_uri",
+                                        "dtype": "Utf8"
+                                    }
+                                ]
+                            },
+                            "values": [
+                                {
+                                    "name": "observed_name",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "North Carolina"
+                                    ]
+                                },
+                                {
+                                    "name": "confidence",
+                                    "datatype": "Float64",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        1.0
+                                    ]
+                                },
+                                {
+                                    "name": "source",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "UMN Matching System v1"
+                                    ]
+                                },
+                                {
+                                    "name": "normalized_uri",
+                                    "datatype": "Utf8",
+                                    "bit_settings": "SORTED_ASC",
+                                    "values": [
+                                        "https://minmod.isi.edu/resource/Q6881"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "crs",
+                    "datatype": {
+                        "Struct": [
+                            {
+                                "name": "observed_name",
+                                "dtype": "Utf8"
+                            },
+                            {
+                                "name": "confidence",
+                                "dtype": "Float64"
+                            },
+                            {
+                                "name": "source",
+                                "dtype": "Utf8"
+                            },
+                            {
+                                "name": "normalized_uri",
+                                "dtype": "Utf8"
+                            }
+                        ]
+                    },
+                    "values": [
+                        {
+                            "name": "observed_name",
+                            "datatype": "Utf8",
+                            "values": [
+                                "EPSG:4326",
+                                "EPSG:4326",
+                                "EPSG:4326",
+                                "EPSG:4326",
+                                "EPSG:4326",
+                                "EPSG:4326",
+                                "EPSG:4326",
+                                "EPSG:4326"
+                            ]
+                        },
+                        {
+                            "name": "confidence",
+                            "datatype": "Float64",
+                            "values": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "name": "source",
+                            "datatype": "Utf8",
+                            "values": [
+                                "UMN Matching System v1",
+                                "UMN Matching System v1",
+                                "UMN Matching System v1",
+                                "UMN Matching System v1",
+                                "UMN Matching System v1",
+                                "UMN Matching System v1",
+                                "UMN Matching System v1",
+                                "UMN Matching System v1"
+                            ]
+                        },
+                        {
+                            "name": "normalized_uri",
+                            "datatype": "Utf8",
+                            "values": [
+                                "https://minmod.isi.edu/resource/Q701",
+                                "https://minmod.isi.edu/resource/Q701",
+                                "https://minmod.isi.edu/resource/Q701",
+                                "https://minmod.isi.edu/resource/Q701",
+                                "https://minmod.isi.edu/resource/Q701",
+                                "https://minmod.isi.edu/resource/Q701",
+                                "https://minmod.isi.edu/resource/Q701",
+                                "https://minmod.isi.edu/resource/Q701"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
