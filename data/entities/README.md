@@ -18,3 +18,5 @@ To access record of a source, users can provide a string specifying how to do it
 - `{page_number}`: the page number if the mineral
 
 For each argument, we can provide a default value for it using this syntax: `{arg=value}`.
+
+Available types are: `pdf`, `webpage`
