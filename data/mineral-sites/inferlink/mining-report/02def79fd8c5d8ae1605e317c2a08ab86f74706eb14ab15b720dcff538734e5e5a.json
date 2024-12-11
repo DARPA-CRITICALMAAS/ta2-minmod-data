@@ -2,20 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a",
-    "name": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
+    "name": "Namiquipa Silver Deposit",
     "location_info": {
-      "location": "POINT(-107.36156 29.1822)",
+      "location": "POINT(-105.880052 30.174173)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
           "observed_name": "Mexico",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,135 +24,56 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q4535",
           "observed_name": "Chihuahua",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "silver, lead, zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "M",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.6
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 103.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-            "observed_name": "AgEq g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 100.0
         },
-        "contained_metal": 4.738,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
             "authors": [
-              "Timothy J. Carew",
-              "Bill R. Fleshman",
-              "Trevor A. Leahey"
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
             ],
             "year": 2012,
             "month": 11,
-            "description": "A detailed technical report summarizing exploration and resource estimation for the Namiquipa Silver Deposit in Chihuahua, Mexico, according to the National Instrument 43-101 guidelines.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
-          }
-        },
-        "date": "2012-11"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ag",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "M",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.91
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-            "observed_name": "AgEq g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 100.0
-        },
-        "contained_metal": 0.0419,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
-            "authors": [
-              "Timothy J. Carew",
-              "Bill R. Fleshman",
-              "Trevor A. Leahey"
-            ],
-            "year": 2012,
-            "month": 11,
-            "description": "A detailed technical report summarizing exploration and resource estimation for the Namiquipa Silver Deposit in Chihuahua, Mexico, according to the National Instrument 43-101 guidelines.",
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
             "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
           },
           "page_info": [
             {
-              "page": 82
+              "page": 17
             }
           ]
         },
@@ -159,128 +81,387 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Ag",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "M",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.6
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 103.0
+          "value": 0.91
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-            "observed_name": "AgEq g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 100.0
         },
-        "contained_metal": 4.738,
+        "contained_metal": 0.0419,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
             "authors": [
-              "Timothy J. Carew",
-              "Bill R. Fleshman",
-              "Trevor A. Leahey"
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
             ],
             "year": 2012,
             "month": 11,
-            "description": "A detailed technical report summarizing exploration and resource estimation for the Namiquipa Silver Deposit in Chihuahua, Mexico, according to the National Instrument 43-101 guidelines.",
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
             "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
         },
         "date": "2012-11"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Zn",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "M",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.6
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.66
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q209",
-            "observed_name": "AgEq g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 100.0
         },
-        "contained_metal": 0.0764,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
             "authors": [
-              "Timothy J. Carew",
-              "Bill R. Fleshman",
-              "Trevor A. Leahey"
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
             ],
             "year": 2012,
             "month": 11,
-            "description": "A detailed technical report summarizing exploration and resource estimation for the Namiquipa Silver Deposit in Chihuahua, Mexico, according to the National Instrument 43-101 guidelines.",
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
             "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
           },
           "page_info": [
             {
-              "page": 82
+              "page": 17
+            }
+          ]
+        },
+        "date": "2012-11"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 100.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
+            "authors": [
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
+            ],
+            "year": 2012,
+            "month": 11,
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
+            "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2012-11"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4.6
+        },
+        "grade": {
+          "value": 0.91
+        },
+        "cutoff_grade": {
+          "value": 100.0
+        },
+        "contained_metal": 0.0419,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
+            "authors": [
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
+            ],
+            "year": 2012,
+            "month": 11,
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
+            "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2012-11"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 100.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
+            "authors": [
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
+            ],
+            "year": 2012,
+            "month": 11,
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
+            "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2012-11"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 100.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
+            "authors": [
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
+            ],
+            "year": 2012,
+            "month": 11,
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
+            "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2012-11"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4.6
+        },
+        "grade": {
+          "value": 0.91
+        },
+        "cutoff_grade": {
+          "value": 100.0
+        },
+        "contained_metal": 0.0419,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
+            "authors": [
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
+            ],
+            "year": 2012,
+            "month": 11,
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
+            "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2012-11"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 100.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
+            "authors": [
+              "T. J. Carew",
+              "B. R. Fleshman",
+              "T. A. Leahey"
+            ],
+            "year": 2012,
+            "month": 11,
+            "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
+            "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
+          },
+          "page_info": [
+            {
+              "page": 17
             }
           ]
         },
@@ -289,34 +470,35 @@
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Fresnillo style polymetallic vein system",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Low-sulfidation (LS) epithermal gold-silver",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q416",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.5
       },
       {
-        "observed_name": "low sulphidation epithermal polymetallic Ag-Au style",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q416",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Intermediate-sulfidation (IS) epithermal silver-gold \u00b1 Zn, Pb, Cu, Sn, Mn",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q417",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T23:14:18.075317Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Namiquipa Project in North America dated November 2012.pdf",
           "authors": [
-            "Timothy J. Carew",
-            "Bill R. Fleshman",
-            "Trevor A. Leahey"
+            "T. J. Carew",
+            "B. R. Fleshman",
+            "T. A. Leahey"
           ],
           "year": 2012,
           "month": 11,
-          "description": "A detailed technical report summarizing exploration and resource estimation for the Namiquipa Silver Deposit in Chihuahua, Mexico, according to the National Instrument 43-101 guidelines.",
+          "description": "Technical Report \u2013 Namiquipa Silver Deposit, Namiquipa, Chihuahua, Mexico",
           "uri": "https://api.cdr.land/v1/docs/documents/02def79fd8c5d8ae1605e317c2a08ab86f74706eb14ab15b720dcff538734e5e5a"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]
