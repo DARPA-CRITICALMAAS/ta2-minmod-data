@@ -2,14 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "021d815ab42768146b121313260e1c3b15714ef7ef597ef121b35f143aafc246bd",
-    "name": "NI 43-101 Technical Report for the Tamarack South Project in Minnesota, United States dated 2018.pdf",
+    "name": "Tamarack South Project",
     "location_info": {
+      "location": "POINT(-93.641 46.417)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "confidence": 1,
+        "source": "Inferlink Extraction v3"
+      },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
           "observed_name": "United States",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -17,16 +24,41 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
           "observed_name": "Minnesota",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "metal",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q628"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 160.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "N/A",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
         },
         "reference": {
           "document": {
@@ -36,28 +68,41 @@
             ],
             "year": 2018,
             "month": 12,
-            "description": "The report provides an initial disclosure of geology for the Tamarack South Project, including details on drilling data, geophysical surveys, geological setting, and exploration recommendations highlighting the presence of potential Ni-Cu-PGE deposits.",
+            "description": "First Technical Report on the Tamarack South Project",
             "uri": "https://api.cdr.land/v1/docs/documents/021d815ab42768146b121313260e1c3b15714ef7ef597ef121b35f143aafc246bd"
           },
-          "url": "https://api.cdr.land/v1/docs/documents/021d815ab42768146b121313260e1c3b15714ef7ef597ef121b35f143aafc246bd"
+          "page_info": [
+            {
+              "page": 30
+            }
+          ]
         },
-        "category": []
+        "date": "2018-12",
+        "zone": "sec. 24: se/4sw/4, nw/4se/4, sw/4se/4\nsec. 25: nw/4ne/4"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "magmatic Ni-Cu-PGE sulphide mineralization",
+        "observed_name": "Komatiite nickel-copper-PGE",
         "normalized_uri": "https://minmod.isi.edu/resource/Q476",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
       },
       {
-        "observed_name": "layered PGE-Au mineralization",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
+        "observed_name": "U-M layered intrusion nickel-copper-PGE",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Ni sulphide",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q357",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T19:25:57.194380Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -67,11 +112,10 @@
           ],
           "year": 2018,
           "month": 12,
-          "description": "The report provides an initial disclosure of geology for the Tamarack South Project, including details on drilling data, geophysical surveys, geological setting, and exploration recommendations highlighting the presence of potential Ni-Cu-PGE deposits.",
+          "description": "First Technical Report on the Tamarack South Project",
           "uri": "https://api.cdr.land/v1/docs/documents/021d815ab42768146b121313260e1c3b15714ef7ef597ef121b35f143aafc246bd"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]
