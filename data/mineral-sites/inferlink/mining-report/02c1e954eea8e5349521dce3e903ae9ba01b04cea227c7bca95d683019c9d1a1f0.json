@@ -2,14 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0",
-    "name": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+    "name": "Victorio Advanced Exploration Molybdenum-Tungsten Project",
     "location_info": {
+      "location": "POINT(-107.7204 32.2670)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "confidence": 1,
+        "source": "Inferlink Extraction v3"
+      },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
           "observed_name": "United States",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -17,51 +24,33 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q6879",
           "observed_name": "New Mexico",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 37.7
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 25.0
         },
         "contained_metal": 0.0377,
@@ -73,2654 +62,45 @@
             ],
             "year": 2008,
             "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
           },
           "page_info": [
             {
-              "page": 48
+              "page": 5
             }
           ]
         },
-        "date": "2008-9"
+        "date": "2008-09"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 39.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.08
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0316,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.054,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.3
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.12
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0244,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0191,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 34.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0347,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "molybdenum",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 37.7
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0377,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 39.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.08
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0316,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.054,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.3
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.12
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0244,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0191,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 34.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0347,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 37.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0377,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 39.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.08
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0316,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.054,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.3
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.12
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0244,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0191,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 34.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0347,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 42.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.038,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 45.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.08
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0366,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 79.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0559,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0249,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0221,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 27.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.025,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 37.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0377,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 37.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0377,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.3
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.12
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0244,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 42.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.038,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0249,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum and tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0695,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum and tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 34.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0382,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum and tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0695,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 3
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum and tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 34.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0382,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 3
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum and tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 79.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0718,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum and tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 27.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.22
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0612,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0695,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 34.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0382,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0695,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 34.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0382,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          },
-          "page_info": [
-            {
-              "page": 48
-            }
-          ]
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 79.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
-        },
-        "contained_metal": 0.0718,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 27.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.22
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 35.0
-        },
-        "contained_metal": 0.0612,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
-            "authors": [
-              "Harvey P. Knudsen"
-            ],
-            "year": 2008,
-            "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
-        },
-        "date": "2008-9"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 37.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.08
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 25.0
         },
         "contained_metal": 0.0302,
@@ -2732,7 +112,7 @@
             ],
             "year": 2008,
             "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
           },
           "page_info": [
@@ -2741,54 +121,268 @@
             }
           ]
         },
-        "date": "2008-9"
+        "date": "2008-09"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 39.5
+        },
+        "grade": {
+          "value": 0.08
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0316,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 39.5
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0355,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 77.2
+        },
+        "grade": {
+          "value": 0.07
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.054,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 77.2
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0695,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 20.3
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0244,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 20.3
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.11
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 35.0
         },
         "contained_metal": 0.0223,
@@ -2800,7 +394,7 @@
             ],
             "year": 2008,
             "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
           },
           "page_info": [
@@ -2809,54 +403,488 @@
             }
           ]
         },
-        "date": "2008-9"
+        "date": "2008-09"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 19.1
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0191,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 19.1
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0229,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 34.7
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0347,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 34.7
+        },
+        "grade": {
+          "value": 0.11
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0382,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 37.7
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0377,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 39.5
+        },
+        "grade": {
+          "value": 0.08
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0316,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 77.2
+        },
+        "grade": {
+          "value": 0.07
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.054,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 20.3
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0244,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 19.1
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0191,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 34.7
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0347,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 37.7
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.08
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 25.0
         },
         "contained_metal": 0.0302,
@@ -2868,63 +896,145 @@
             ],
             "year": 2008,
             "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
           },
           "page_info": [
             {
-              "page": 48
+              "page": 5
             }
           ]
         },
-        "date": "2008-9"
+        "date": "2008-09"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 39.5
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0355,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 77.2
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0695,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 20.3
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.11
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 35.0
         },
         "contained_metal": 0.0223,
@@ -2936,66 +1046,48 @@
             ],
             "year": 2008,
             "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
           },
           "page_info": [
             {
-              "page": 48
+              "page": 5
             }
           ]
         },
-        "date": "2008-9"
+        "date": "2008-09"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 42.2
+          "value": 19.1
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.08
+          "value": 0.12
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
+          "value": 35.0
         },
-        "contained_metal": 0.0338,
+        "contained_metal": 0.0229,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
@@ -3004,61 +1096,48 @@
             ],
             "year": 2008,
             "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-9"
+        "date": "2008-09"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "tungsten",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "Million short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.6
+          "value": 34.7
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.11
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q217",
-            "observed_name": "$/ton",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 35.0
         },
-        "contained_metal": 0.0249,
+        "contained_metal": 0.0382,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
@@ -3067,21 +1146,1156 @@
             ],
             "year": 2008,
             "month": 9,
-            "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-9"
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 37.7
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0377,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 37.7
+        },
+        "grade": {
+          "value": 0.08
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0302,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 39.5
+        },
+        "grade": {
+          "value": 0.08
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0316,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 39.5
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0355,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 77.2
+        },
+        "grade": {
+          "value": 0.07
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.054,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 77.2
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0695,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 20.3
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0244,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 20.3
+        },
+        "grade": {
+          "value": 0.11
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0223,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 19.1
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0191,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 19.1
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0229,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 34.7
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0347,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 34.7
+        },
+        "grade": {
+          "value": 0.11
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0382,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 37.7
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0377,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 37.7
+        },
+        "grade": {
+          "value": 0.08
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0302,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 39.5
+        },
+        "grade": {
+          "value": 0.08
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0316,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 39.5
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0355,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 77.2
+        },
+        "grade": {
+          "value": 0.07
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.054,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 77.2
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 25.0
+        },
+        "contained_metal": 0.0695,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 20.3
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0244,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 20.3
+        },
+        "grade": {
+          "value": 0.11
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0223,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 19.1
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0191,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 19.1
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0229,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 34.7
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0347,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 34.7
+        },
+        "grade": {
+          "value": 0.11
+        },
+        "cutoff_grade": {
+          "value": 35.0
+        },
+        "contained_metal": 0.0382,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Victorio Project in New Mexico, United States dated September 2008.pdf",
+            "authors": [
+              "Harvey P. Knudsen"
+            ],
+            "year": 2008,
+            "month": 9,
+            "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-09"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "stratiform",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Vein tungsten",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q427",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T20:01:06.882348Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -3091,11 +2305,10 @@
           ],
           "year": 2008,
           "month": 9,
-          "description": "A technical report providing a comprehensive review of the historical and recent exploration activities and the current resource estimate for the Victorio Molybdenum-Tungsten Project.",
+          "description": "NI 43-101 Technical Report on the Victorio Molybdenum-Tungsten Project.",
           "uri": "https://api.cdr.land/v1/docs/documents/02c1e954eea8e5349521dce3e903ae9ba01b04cea227c7bca95d683019c9d1a1f0"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

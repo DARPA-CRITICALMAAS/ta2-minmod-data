@@ -2,21 +2,20 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0",
-    "name": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+    "name": "Fox Tungsten Project",
     "location_info": {
-      "location": "POINT(-120.5 53.0)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,57 +23,39 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
           "observed_name": "British Columbia",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 397400.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.713
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
         "contained_metal": 2833.462,
@@ -87,7 +68,7 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
@@ -96,58 +77,44 @@
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone within resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 185000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.067
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
-        "contained_metal": 1973.95,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
@@ -157,7 +124,7 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
@@ -166,55 +133,37 @@
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone below the resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14700.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.662
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
         "contained_metal": 97.314,
@@ -227,7 +176,7 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
@@ -236,55 +185,37 @@
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone within resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 76800.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.961
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
         "contained_metal": 738.048,
@@ -297,7 +228,7 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
@@ -306,58 +237,44 @@
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone below the resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 453000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.321
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
-        "contained_metal": 5984.13,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
@@ -367,7 +284,7 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
@@ -376,55 +293,37 @@
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "bn zone (amendable to ug extraction)"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 20900.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.672
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
         "contained_metal": 140.448,
@@ -437,7 +336,7 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
@@ -446,55 +345,37 @@
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "bk zone (within resource constraining shell)"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 397400.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.713
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
         "contained_metal": 2833.462,
@@ -507,67 +388,53 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 155
+              "page": 18
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone within resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 185000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.067
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
-        "contained_metal": 1973.95,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
@@ -577,64 +444,46 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 155
+              "page": 18
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone below the resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14700.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.662
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
         "contained_metal": 97.314,
@@ -647,64 +496,46 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 155
+              "page": 18
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone within resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 76800.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.961
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
         "contained_metal": 738.048,
@@ -717,67 +548,53 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 155
+              "page": 18
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone below the resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 453000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.321
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
-        "contained_metal": 5984.13,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
@@ -787,59 +604,46 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
-          }
+          },
+          "page_info": [
+            {
+              "page": 18
+            }
+          ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "bn zone (amendable to ug extraction)"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 20900.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.672
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
         "contained_metal": 140.448,
@@ -852,64 +656,148 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 155
+              "page": 18
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "bk zone (within resource constraining shell)"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 582400.0
+        },
+        "grade": {
+          "value": 0.826
+        },
+        "contained_metal": 4810.624,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
-          "value": 397400.0
+          "page_info": [
+            {
+              "page": 18
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "total"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 565400.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
+          "page_info": [
+            {
+              "page": 18
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "total"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 397400.0
+        },
+        "grade": {
           "value": 0.713
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
         "contained_metal": 2833.462,
@@ -922,67 +810,53 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 18
+              "page": 155
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone within resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 185000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.067
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
-        "contained_metal": 1973.95,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
@@ -992,64 +866,258 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 18
+              "page": 155
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone below the resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 14700.0
+        },
+        "grade": {
+          "value": 0.662
+        },
+        "cutoff_grade": {
+          "value": 0.175
+        },
+        "contained_metal": 97.314,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
-          "value": 397400.0
+          "page_info": [
+            {
+              "page": 155
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "rc zone within resource constraining shell"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 76800.0
+        },
+        "grade": {
+          "value": 0.961
+        },
+        "cutoff_grade": {
+          "value": 0.45
+        },
+        "contained_metal": 738.048,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
+          },
+          "page_info": [
+            {
+              "page": 155
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "rc zone below the resource constraining shell"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 453000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.45
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
+          "page_info": [
+            {
+              "page": 155
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "bn zone (amendable to ug extraction)"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 20900.0
+        },
+        "grade": {
+          "value": 0.672
+        },
+        "cutoff_grade": {
+          "value": 0.175
+        },
+        "contained_metal": 140.448,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
+          },
+          "page_info": [
+            {
+              "page": 155
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "bk zone (within resource constraining shell)"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 397400.0
+        },
+        "grade": {
           "value": 0.713
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
         "contained_metal": 2833.462,
@@ -1062,67 +1130,53 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 155
+              "page": 18
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone within resource constraining shell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "T",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 185000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.067
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
-        "contained_metal": 1973.95,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
@@ -1132,28 +1186,247 @@
             ],
             "year": 2018,
             "month": 4,
-            "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
           },
           "page_info": [
             {
-              "page": 155
+              "page": 18
             }
           ]
         },
-        "date": "2018-4",
+        "date": "2018-04",
         "zone": "rc zone below the resource constraining shell"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 14700.0
+        },
+        "grade": {
+          "value": 0.662
+        },
+        "cutoff_grade": {
+          "value": 0.175
+        },
+        "contained_metal": 97.314,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
+          },
+          "page_info": [
+            {
+              "page": 18
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "rc zone within resource constraining shell"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 76800.0
+        },
+        "grade": {
+          "value": 0.961
+        },
+        "cutoff_grade": {
+          "value": 0.45
+        },
+        "contained_metal": 738.048,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
+          },
+          "page_info": [
+            {
+              "page": 18
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "rc zone below the resource constraining shell"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 453000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.45
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
+          },
+          "page_info": [
+            {
+              "page": 18
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "bn zone (amendable to ug extraction)"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 20900.0
+        },
+        "grade": {
+          "value": 0.672
+        },
+        "cutoff_grade": {
+          "value": 0.175
+        },
+        "contained_metal": 140.448,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fox Project in North America dated April 2018.pdf",
+            "authors": [
+              "Pierre Desautels",
+              "Paul Berndt"
+            ],
+            "year": 2018,
+            "month": 4,
+            "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
+          },
+          "page_info": [
+            {
+              "page": 18
+            }
+          ]
+        },
+        "date": "2018-04",
+        "zone": "bk zone (within resource constraining shell)"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Tungsten skarn",
+        "observed_name": "Skarn tungsten",
         "normalized_uri": "https://minmod.isi.edu/resource/Q447",
-        "source": "Inferlink Extraction v2",
-        "confidence": 1.0
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "Calc-silicate-hosted tungsten",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q379",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T22:00:10.655206Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -1164,11 +1437,10 @@
           ],
           "year": 2018,
           "month": 4,
-          "description": "This technical report provides an update on the resource estimates for the RC and BN Zones and introduces the maiden resource estimate for the BK Zone of the Fox Tungsten Project in British Columbia, detailing geological, geochemical, and geophysical data along with recommendations for future exploration.",
+          "description": "NI 43 -101 Resource Update for the RC and BN Zones and Maiden Resource Estimate for the BK Zone of the Fox Tungsten Project",
           "uri": "https://api.cdr.land/v1/docs/documents/0296abb1e3687ee80094f0b7614f1d37917e2ab00b95ad0da23bf697b644515de0"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]
