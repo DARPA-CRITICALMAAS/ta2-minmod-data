@@ -2,72 +2,51 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854",
-    "name": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+    "name": "Rovina-Apuseni Property",
     "location_info": {
+      "location": "POINT(24 45)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1180",
           "observed_name": "Romania",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
         {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q3199",
-          "observed_name": "Hunedoara",
+          "observed_name": "",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "iron",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q561"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 68.0
+          "value": 18.4
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.64
+          "value": 0.07
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
+          "value": 0.35
         },
-        "contained_metal": 0.4352,
+        "contained_metal": 0.0129,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
@@ -77,605 +56,41 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
             "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
           },
           "page_info": [
             {
-              "page": 18
+              "page": 17
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "colnic (au-cu)"
+        "date": "2007-05",
+        "zone": "colnic (au-cu plus au-only) mineralization"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.47
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0442,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          },
-          "page_info": [
-            {
-              "page": 18
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "colnic (au-cu)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.82
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0558,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          }
-        },
-        "date": "2007-5",
-        "zone": "colnic (au only)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 144.1
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 0.4323,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          },
-          "page_info": [
-            {
-              "page": 18
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "rovina (au-cu)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 68.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.64
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.4352,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          },
-          "page_info": [
-            {
-              "page": 18
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "colnic (au-cu)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.47
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0442,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          },
-          "page_info": [
-            {
-              "page": 18
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "colnic (au-cu)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.82
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0558,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          }
-        },
-        "date": "2007-5",
-        "zone": "colnic (au only)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 144.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 0.4323,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          },
-          "page_info": [
-            {
-              "page": 18
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "rovina (au-cu)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 0.0094,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          },
-          "page_info": [
-            {
-              "page": 18
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "colnic (au-cu)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.03
-        },
-        "contained_metal": 0.002,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
-            "authors": [
-              "David G. Thomas",
-              "Robert Cinits"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
-            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
-          }
-        },
-        "date": "2007-5",
-        "zone": "colnic (au only)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 144.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.26
+        },
+        "cutoff_grade": {
+          "value": 0.25
         },
         "contained_metal": 0.3747,
         "reference": {
@@ -687,7 +102,7 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
             "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
           },
           "page_info": [
@@ -696,44 +111,582 @@
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "rovina (au-cu)"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 144.1
+        },
+        "grade": {
+          "value": 0.3
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.4323,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 18
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Au-Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 39.4
+        },
+        "grade": {
+          "value": 0.82
+        },
+        "cutoff_grade": {
+          "value": 0.7
+        },
+        "contained_metal": 0.3231,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
           },
+          "page_info": [
+            {
+              "page": 178
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 39.4
+        },
+        "grade": {
+          "value": 0.13
+        },
+        "cutoff_grade": {
+          "value": 0.7
+        },
+        "contained_metal": 0.0512,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 178
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 50.7
+        },
+        "grade": {
+          "value": 0.74
+        },
+        "cutoff_grade": {
+          "value": 0.6
+        },
+        "contained_metal": 0.3752,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 178
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 50.7
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 0.6
+        },
+        "contained_metal": 0.0608,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 178
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 61.1
+        },
+        "grade": {
+          "value": 0.68
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "contained_metal": 0.4155,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 178
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 61.1
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "contained_metal": 0.0733,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 178
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 38.5
+        },
+        "grade": {
+          "value": 0.33
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "contained_metal": 0.127,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 179
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "n/a"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 38.5
+        },
+        "grade": {
+          "value": 0.42
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "contained_metal": 0.1617,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 179
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "n/a"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 144.1
+        },
+        "grade": {
+          "value": 0.26
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.3747,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 179
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "n/a"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 144.1
+        },
+        "grade": {
+          "value": 0.3
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.4323,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 179
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "n/a"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 68.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.64
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.4352,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
           },
+          "page_info": [
+            {
+              "page": 182
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "colnic (au\u2013cu)"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 68.0
+        },
+        "grade": {
           "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 0.4
         },
         "contained_metal": 0.0816,
         "reference": {
@@ -745,46 +698,942 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
             "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
           },
           "page_info": [
             {
-              "page": 18
+              "page": 182
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "colnic (au-cu)"
+        "date": "2007-05",
+        "zone": "colnic (au\u2013cu)"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.4
+        },
+        "grade": {
+          "value": 0.47
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0442,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 182
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "colnic (au\u2013cu)"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.4
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0094,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 182
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "colnic (au\u2013cu)"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6.8
+        },
+        "grade": {
+          "value": 0.82
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0558,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 182
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "colnic (au only)"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 144.1
+        },
+        "grade": {
+          "value": 0.3
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.4323,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 182
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "rovina (au\u2013cu)"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 144.1
+        },
+        "grade": {
+          "value": 0.26
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.3747,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 182
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "rovina (au\u2013cu)"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 68.0
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0816,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 39.4
+        },
+        "grade": {
+          "value": 0.82
+        },
+        "cutoff_grade": {
+          "value": 39.4
+        },
+        "contained_metal": 0.3231,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2.2
+        },
+        "grade": {
+          "value": 0.75
+        },
+        "contained_metal": 0.0165,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "gold only mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 68.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 167
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.4
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0094,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 167
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "k3"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 68.0
+        },
+        "grade": {
+          "value": 0.64
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.4352,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.4
+        },
+        "grade": {
+          "value": 0.47
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0442,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6.8
+        },
+        "grade": {
+          "value": 0.82
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0558,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "gold only"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 68.0
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0816,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 68.0
+        },
+        "grade": {
+          "value": 0.64
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.4352,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.4
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0094,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.4
+        },
+        "grade": {
+          "value": 0.47
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0442,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 144.1
+        },
+        "grade": {
+          "value": 0.26
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.3747,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 144.1
+        },
+        "grade": {
+          "value": 0.3
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.4323,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Rovina-Apuseni Project in Europe, Romania dated May 2007.pdf",
+            "authors": [
+              "David G. Thomas",
+              "Robert Cinits"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
+            "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
+          },
+          "page_info": [
+            {
+              "page": 17
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "au\u2013cu mineralization"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "porphyry copper",
+        "observed_name": "Porphyry copper \b gold",
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "epithermal veins (low-sulphidation, and less commonly high-sulphidation)",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q416",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "breccia pipes",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q431",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "replacement bodies",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q437",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "source": "Inferlink Extraction v3",
+        "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T17:28:54.496604Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -795,11 +1644,10 @@
           ],
           "year": 2007,
           "month": 5,
-          "description": "This document is a technical report detailing the resource estimation for the Colnic and Rovina deposits located in the Rovina-Apuseni Property in Romania, providing geological, mineralization, exploration, and metallurgical testing data.",
+          "description": "Technical Report on Resource Estimation on the Colnic and Rovina Deposits",
           "uri": "https://api.cdr.land/v1/docs/documents/028e9e257004d38362ed78330d5bd3cb629d4e530cce61380a6d0c021921c93854"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

@@ -2,20 +2,20 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d",
-    "name": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+    "name": "Thunder Bay North Polymetallic Project",
     "location_info": {
-      "location": "MULTIPOINT(-89.2451 48.4284)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,65 +23,49 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
           "observed_name": "Ontario",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9604.0
+          "value": 8015000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.98
+          "value": 0.26
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
+          "value": 0.61
         },
-        "contained_metal": 94.1192,
+        "contained_metal": 20839.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
           },
           "page_info": [
@@ -95,123 +79,42 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9604.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.98
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 94.1192,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          },
-          "page_info": [
-            {
-              "page": 190
-            }
-          ]
-        },
-        "date": "2010-10",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 213.0
+          "value": 53000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
+          "value": 0.22
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.94
+          "value": 0.61
         },
-        "contained_metal": 2.982,
+        "contained_metal": 116.6,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
           },
           "page_info": [
@@ -225,248 +128,42 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 210.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.5
-        },
-        "contained_metal": 2.94,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          },
-          "page_info": [
-            {
-              "page": 191
-            }
-          ]
-        },
-        "date": "2010-10",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9604.0
+          "value": 1046000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.98
+          "value": 0.39
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 94.1192,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          },
-          "page_info": [
-            {
-              "page": 31
-            }
-          ]
-        },
-        "date": "2010-10",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9604.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.98
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 94.1192,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1046.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.62
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1.94
         },
-        "contained_metal": 16.9452,
+        "contained_metal": 4079.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
           },
           "page_info": [
@@ -480,502 +177,42 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "value": 210.0
+          "value": 213000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
+          "value": 0.34
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.5
-        },
-        "contained_metal": 2.94,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "value": 210.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.5
-        },
-        "contained_metal": 2.94,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "value": 213.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.29
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1.94
         },
-        "contained_metal": 2.7477,
+        "contained_metal": 724.2,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "value": 163.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.34
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.5
-        },
-        "contained_metal": 2.1842,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "value": 66.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.49
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "contained_metal": 0.9834,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "value": 8.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.82
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.0
-        },
-        "contained_metal": 0.1456,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9604.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.98
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 94.1192,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          },
-          "page_info": [
-            {
-              "page": 31
-            }
-          ]
-        },
-        "date": "2010-10",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9604.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.98
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 94.1192,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1046.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.94
-        },
-        "contained_metal": 15.69,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
           },
           "page_info": [
@@ -989,1223 +226,438 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 918.0
+          "value": 8015000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.46
+          "value": 0.18
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.5
+          "value": 0.61
         },
-        "contained_metal": 13.4028,
+        "contained_metal": 14427.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
         },
         "date": "2010-10",
-        "zone": "underground"
+        "zone": "open pit"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q604",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 213.0
+          "value": 53000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
+          "value": 0.18
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.94
+          "value": 0.61
         },
-        "contained_metal": 2.982,
+        "contained_metal": 95.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
         },
         "date": "2010-10",
-        "zone": "underground"
+        "zone": "open pit"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q604",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 163.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.46
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.5
-        },
-        "contained_metal": 2.3798,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q604",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 66.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.64
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "contained_metal": 1.0824,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q604",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.0
-        },
-        "contained_metal": 0.1616,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q604",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 213.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.94
-        },
-        "contained_metal": 2.982,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q604",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 163.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.46
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.5
-        },
-        "contained_metal": 2.3798,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q604",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 66.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.64
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "contained_metal": 1.0824,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q604",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.0
-        },
-        "contained_metal": 0.1616,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 210.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.5
-        },
-        "contained_metal": 2.94,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 213.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.94
-        },
-        "contained_metal": 2.982,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 163.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.46
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.5
-        },
-        "contained_metal": 2.3798,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 66.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.64
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "contained_metal": 1.0824,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.0
-        },
-        "contained_metal": 0.1616,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 210.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.5
-        },
-        "contained_metal": 2.94,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 213.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.94
-        },
-        "contained_metal": 2.982,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 163.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.46
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.5
-        },
-        "contained_metal": 2.3798,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 66.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.64
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "contained_metal": 1.0824,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.0
-        },
-        "contained_metal": 0.1616,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
-            "authors": [
-              "Greg Kulla",
-              "David Thomas",
-              "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
-        },
-        "date": "2010-10",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
+        "ore": {
+          "value": 1046000.0
+        },
+        "grade": {
+          "value": 0.24
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "contained_metal": 2510.4,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 213000.0
+        },
+        "grade": {
+          "value": 0.23
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "contained_metal": 489.9,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8015000.0
+        },
+        "grade": {
+          "value": 0.05
+        },
+        "cutoff_grade": {
+          "value": 0.61
+        },
+        "contained_metal": 4007.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "open pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 53000.0
+        },
+        "grade": {
+          "value": 0.04
+        },
+        "cutoff_grade": {
+          "value": 0.61
+        },
+        "contained_metal": 21.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "open pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1046000.0
+        },
+        "grade": {
+          "value": 0.06
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "contained_metal": 627.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 213000.0
+        },
+        "grade": {
+          "value": 0.06
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "contained_metal": 127.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
           "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9604.0
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8015000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
+          "value": 0.61
         },
-        "contained_metal": 134.456,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
           },
           "page_info": [
@@ -2219,128 +671,99 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "silver",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9604.0
+          "value": 53000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.4
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
+          "value": 0.61
         },
-        "contained_metal": 134.456,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
-          }
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
         },
         "date": "2010-10",
         "zone": "open pit"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "silver",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1046.0
+          "value": 1046000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.4
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1.94
         },
-        "contained_metal": 25.104,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
           },
           "page_info": [
@@ -2354,65 +777,665 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "silver",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "t x 1,000",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 918.0
+          "value": 213000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.3
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t PtEq",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.5
+          "value": 1.94
         },
-        "contained_metal": 21.114,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
             "authors": [
               "Greg Kulla",
-              "David Thomas",
+              "David G. Thomas",
+              "Lynton Gormely",
               "Ted Eggleston",
-              "Stella Searston",
-              "Lynton Gormely"
+              "Stella Searston"
             ],
             "year": 2010,
             "month": 10,
-            "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
+        ],
+        "ore": {
+          "value": 8015000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.61
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "open pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 53000.0
+        },
+        "grade": {
+          "value": 0.96
+        },
+        "cutoff_grade": {
+          "value": 0.61
+        },
+        "contained_metal": 508.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "open pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1046000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 213000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8015000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.61
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "open pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 53000.0
+        },
+        "grade": {
+          "value": 0.89
+        },
+        "cutoff_grade": {
+          "value": 0.61
+        },
+        "contained_metal": 471.7,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "open pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1046000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 213000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8015000.0
+        },
+        "grade": {
+          "value": 0.07
+        },
+        "cutoff_grade": {
+          "value": 0.61
+        },
+        "contained_metal": 5610.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "open pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 53000.0
+        },
+        "grade": {
+          "value": 0.07
+        },
+        "cutoff_grade": {
+          "value": 0.61
+        },
+        "contained_metal": 37.1,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "open pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1046000.0
+        },
+        "grade": {
+          "value": 0.11
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "contained_metal": 1150.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 213000.0
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 1.94
+        },
+        "contained_metal": 191.7,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
+            "authors": [
+              "Greg Kulla",
+              "David G. Thomas",
+              "Lynton Gormely",
+              "Ted Eggleston",
+              "Stella Searston"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
+          },
+          "page_info": [
+            {
+              "page": 31
+            }
+          ]
         },
         "date": "2010-10",
         "zone": "underground"
@@ -2420,64 +1443,31 @@
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Disseminated sulphide deposits",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "observed_name": "Net-textured sulphide deposits",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "observed_name": "Massive sulphide deposits",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "observed_name": "Magmatic sulphide deposits",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q481",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "observed_name": "Nickel-copper sulphide deposits",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q481",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.14285714285714285
-      },
-      {
         "observed_name": "Rift and continental flood basalt-associated mafic sills and dyke-like bodies",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q481",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.14285714285714285
-      },
-      {
-        "observed_name": "Komatiite (magnesium-rich) ultramafic volcanic flows and related sill-like intrusions",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q481",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.14285714285714285
+        "normalized_uri": "https://minmod.isi.edu/resource/Q352",
+        "source": "Inferlink Extraction v3",
+        "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T17:37:59.256404Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Thunder Bay North Project in North America dated October 2010.pdf",
           "authors": [
             "Greg Kulla",
-            "David Thomas",
+            "David G. Thomas",
+            "Lynton Gormely",
             "Ted Eggleston",
-            "Stella Searston",
-            "Lynton Gormely"
+            "Stella Searston"
           ],
           "year": 2010,
           "month": 10,
-          "description": "This technical report, commissioned by Magma Metals Limited and prepared by AMEC Americas Limited, provides an updated mineral resource estimate and other detailed geological and operational analyses for the Thunder Bay North polymetallic project in Ontario, Canada.",
+          "description": "NI 43-101 Technical Report on Magma Metals Limited, Thunder Bay North Polymetallic Project, Ontario, Canada",
           "uri": "https://api.cdr.land/v1/docs/documents/0275b5be425dad03ece21eaa64ebc388d765b47ed001e4956f494978c11214f37d"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

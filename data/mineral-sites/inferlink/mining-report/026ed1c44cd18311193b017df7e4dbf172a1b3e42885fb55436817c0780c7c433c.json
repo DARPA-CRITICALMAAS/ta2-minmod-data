@@ -2,21 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c",
-    "name": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+    "name": "McGee Lithium Clay Deposit",
     "location_info": {
-      "location": "POINT(-117.5425 37.7147)",
+      "location": "POINT(-116.797 38.237)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-          "observed_name": "United States",
+          "observed_name": "USA",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,33 +24,33 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
           "observed_name": "Nevada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 353.0
         },
         "grade": {
@@ -58,20 +58,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 300.0
         },
-        "contained_metal": 2834.59,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -81,7 +73,7 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
@@ -90,786 +82,30 @@
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 173.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 1496.45,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 320.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 2569.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 157.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 1358.05,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 353.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 2834.59,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 67
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 173.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 1496.45,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 67
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 320.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 2569.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 67
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 157.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 1358.05,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 67
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 353.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 2834.59,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 81
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 173.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 1496.45,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 81
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 320.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 2569.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 82
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 157.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 1358.05,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 82
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 353.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 2834.59,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 296.0
         },
         "grade": {
@@ -877,20 +113,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 861.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 600.0
         },
-        "contained_metal": 2548.56,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -900,7 +128,7 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
@@ -909,30 +137,30 @@
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 111.0
         },
         "grade": {
@@ -940,20 +168,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1030.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 900.0
         },
-        "contained_metal": 1143.3,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -963,7 +183,7 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
@@ -972,30 +192,30 @@
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 173.0
         },
         "grade": {
@@ -1003,20 +223,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 300.0
         },
-        "contained_metal": 1496.45,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1026,7 +238,7 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
@@ -1035,30 +247,30 @@
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 158.0
         },
         "grade": {
@@ -1066,20 +278,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 898.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 600.0
         },
-        "contained_metal": 1418.84,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1089,7 +293,7 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
@@ -1098,30 +302,30 @@
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 76.0
         },
         "grade": {
@@ -1129,20 +333,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1041.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 900.0
         },
-        "contained_metal": 791.16,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1152,7 +348,7 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
@@ -1161,30 +357,30 @@
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 320.0
         },
         "grade": {
@@ -1192,20 +388,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 300.0
         },
-        "contained_metal": 2569.6,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1215,39 +403,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 10
+              "page": 9
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 268.0
         },
         "grade": {
@@ -1255,20 +443,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 861.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 600.0
         },
-        "contained_metal": 2307.48,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1278,39 +458,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 10
+              "page": 9
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 101.0
         },
         "grade": {
@@ -1318,20 +498,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1030.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 900.0
         },
-        "contained_metal": 1040.3,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1341,39 +513,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 10
+              "page": 9
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 157.0
         },
         "grade": {
@@ -1381,20 +553,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 300.0
         },
-        "contained_metal": 1358.05,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1404,39 +568,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 10
+              "page": 9
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 143.0
         },
         "grade": {
@@ -1444,20 +608,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 898.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 600.0
         },
-        "contained_metal": 1284.14,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1467,39 +623,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 10
+              "page": 9
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 69.0
         },
         "grade": {
@@ -1507,20 +663,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1041.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 900.0
         },
-        "contained_metal": 718.29,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1530,7 +678,398 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 9
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 169.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 400.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 30
+            }
+          ]
+        },
+        "date": "2022-06",
+        "zone": "not specified in table"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 148.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 600.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 30
+            }
+          ]
+        },
+        "date": "2022-06",
+        "zone": "not specified in table"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 91.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 800.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 30
+            }
+          ]
+        },
+        "date": "2022-06",
+        "zone": "not specified in table"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 40.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 400.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 30
+            }
+          ]
+        },
+        "date": "2022-06",
+        "zone": "not specified in table"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 37.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 600.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 30
+            }
+          ]
+        },
+        "date": "2022-06",
+        "zone": "not specified in table"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 23.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 800.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 30
+            }
+          ]
+        },
+        "date": "2022-06",
+        "zone": "not specified in table"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 320.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 300.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
@@ -1539,30 +1078,965 @@
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
+          "value": 268.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 600.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 101.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 900.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 157.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 300.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 143.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 600.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 69.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 900.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 320.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 300.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 268.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 600.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 101.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 900.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 157.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 300.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 143.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 600.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 69.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 900.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 320.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 300.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 67
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 268.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 600.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 67
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 101.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 900.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 67
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 157.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 300.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 67
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 143.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 600.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 67
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 69.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 900.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
+            "authors": [
+              "Derek Loveday",
+              "Mariea Kartick"
+            ],
+            "year": 2022,
+            "month": 6,
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
+            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
+          },
+          "page_info": [
+            {
+              "page": 67
+            }
+          ]
+        },
+        "date": "2022-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
           "value": 353.0
         },
         "grade": {
@@ -1570,20 +2044,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 300.0
         },
-        "contained_metal": 2834.59,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1593,39 +2059,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 81
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 296.0
         },
         "grade": {
@@ -1633,20 +2099,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 861.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 600.0
         },
-        "contained_metal": 2548.56,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1656,39 +2114,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 81
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 111.0
         },
         "grade": {
@@ -1696,20 +2154,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1030.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 900.0
         },
-        "contained_metal": 1143.3,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1719,39 +2169,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 81
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 173.0
         },
         "grade": {
@@ -1759,20 +2209,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 300.0
         },
-        "contained_metal": 1496.45,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1782,39 +2224,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 81
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 158.0
         },
         "grade": {
@@ -1822,20 +2264,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 898.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 600.0
         },
-        "contained_metal": 1418.84,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1845,39 +2279,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 81
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 76.0
         },
         "grade": {
@@ -1885,20 +2319,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1041.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 900.0
         },
-        "contained_metal": 791.16,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1908,39 +2334,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 81
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 320.0
         },
         "grade": {
@@ -1948,20 +2374,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 300.0
         },
-        "contained_metal": 2569.6,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -1971,39 +2389,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 29
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 268.0
         },
         "grade": {
@@ -2011,20 +2429,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 861.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 600.0
         },
-        "contained_metal": 2307.48,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -2034,39 +2444,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 29
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 101.0
         },
         "grade": {
@@ -2074,20 +2484,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1030.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 900.0
         },
-        "contained_metal": 1040.3,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -2097,39 +2499,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 29
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 157.0
         },
         "grade": {
@@ -2137,20 +2539,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 300.0
         },
-        "contained_metal": 1358.05,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -2160,39 +2554,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 29
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 143.0
         },
         "grade": {
@@ -2200,20 +2594,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 898.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 600.0
         },
-        "contained_metal": 1284.14,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -2223,39 +2609,39 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 29
             }
           ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 69.0
         },
         "grade": {
@@ -2263,20 +2649,12 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1041.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 900.0
         },
-        "contained_metal": 718.29,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
@@ -2286,792 +2664,28 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+            "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
             "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
           },
           "page_info": [
             {
-              "page": 67
+              "page": 29
             }
           ]
         },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 353.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 2834.59,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 81
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 296.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 861.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 600.0
-        },
-        "contained_metal": 2548.56,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 81
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 111.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1030.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 900.0
-        },
-        "contained_metal": 1143.3,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 81
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 173.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 1496.45,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 81
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 158.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 898.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 600.0
-        },
-        "contained_metal": 1418.84,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 81
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Mst",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 76.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1041.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 900.0
-        },
-        "contained_metal": 791.16,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 81
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 320.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 803.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 2569.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 82
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 268.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 861.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 600.0
-        },
-        "contained_metal": 2307.48,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 82
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 101.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1030.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 900.0
-        },
-        "contained_metal": 1040.3,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 82
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 157.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 865.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 300.0
-        },
-        "contained_metal": 1358.05,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 82
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 143.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 898.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 600.0
-        },
-        "contained_metal": 1284.14,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 82
-            }
-          ]
-        },
-        "date": "2022-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 69.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1041.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 900.0
-        },
-        "contained_metal": 718.29,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the McGee project in Nevada, United States dated August, 2022.pdf",
-            "authors": [
-              "Derek Loveday",
-              "Mariea Kartick"
-            ],
-            "year": 2022,
-            "month": 6,
-            "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
-          },
-          "page_info": [
-            {
-              "page": 82
-            }
-          ]
-        },
-        "date": "2022-6"
+        "date": "2022-06"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "pegmatites",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
-      },
-      {
-        "observed_name": "continental brines",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
-      },
-      {
-        "observed_name": "clays",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
+        "observed_name": "Lacustrine clay lithium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q356",
+        "source": "Inferlink Extraction v3",
+        "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-11T19:18:49.909736Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -3082,11 +2696,10 @@
           ],
           "year": 2022,
           "month": 6,
-          "description": "This technical report provides a resource estimate for the McGee Lithium Clay Deposit located in Esmeralda County, Nevada, prepared by Stantec Consulting Ltd. for Spearmint Resources Inc.",
+          "description": "Technical Report \u2013 McGee Lithium Clay Deposit, Nevada, USA",
           "uri": "https://api.cdr.land/v1/docs/documents/026ed1c44cd18311193b017df7e4dbf172a1b3e42885fb55436817c0780c7c433c"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

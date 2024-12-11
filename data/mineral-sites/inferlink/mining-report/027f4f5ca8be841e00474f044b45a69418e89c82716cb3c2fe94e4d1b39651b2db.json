@@ -2,20 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db",
-    "name": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+    "name": "Red Dog Mine Review",
     "location_info": {
-      "location": "MULTIPOINT(-162.825 -68.070833,-162.829722 -68.076111,-162.827222 -68.081667,-162.836111 -68.057778,-162.962222 -68.161667)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-164.462 67.580)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
           "observed_name": "United States",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,1959 +18,2859 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q6840",
           "observed_name": "Alaska",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 41.9
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19.2
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 22.75
         },
-        "contained_metal": 8.0448,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
             "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
+              "Stephen Juras"
             ],
             "year": 2001,
             "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
             "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
         },
-        "date": "2001-5",
-        "zone": "main deposit",
-        "category": []
+        "date": "2001-05",
+        "zone": "main deposit"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 56.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16.6
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 9.3126,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.3332,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.0
-        },
-        "contained_metal": 1.7088,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "qanaiyaq deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.442,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 1.95,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "paalaaq deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 2.7176,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aÿarraaq deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 41.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 8.0448,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "main deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 56.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16.6
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 9.3126,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.3332,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.0
-        },
-        "contained_metal": 1.7088,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "qanaiyaq deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.442,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 1.95,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "paalaaq deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 2.7176,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aÿarraaq deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.3332,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.0
-        },
-        "contained_metal": 1.7088,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "qanaiyaq deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.3332,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.0
-        },
-        "contained_metal": 1.7088,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "qanaiyaq deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 41.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 8.0448,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "main deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 41.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 8.0448,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "main deposit",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
           "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.442,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 1.95,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "paalaaq deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 2.7176,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aÿarraaq deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.442,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 1.95,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "paalaaq deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 2.7176,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aÿarraaq deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.442,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 1.95,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "paalaaq deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 2.7176,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aÿarraaq deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 22.75
-        },
-        "contained_metal": 0.442,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aqqaluk deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 1.95,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "paalaaq deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 2.7176,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
-            "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
-            ],
-            "year": 2001,
-            "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
-            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
-        },
-        "date": "2001-5",
-        "zone": "aÿarraaq deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 56.1
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16.6
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 22.75
         },
-        "contained_metal": 9.3126,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
             "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
+              "Stephen Juras"
             ],
             "year": 2001,
             "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
             "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
-          }
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
         },
-        "date": "2001-5",
+        "date": "2001-05",
         "zone": "aqqaluk deposit"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 98.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3.4
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "qanaiyaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6.8
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13.0
+        },
+        "grade": {
+          "value": 15.0
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "contained_metal": 1.95,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "paalaaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 17.2
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "a\u00ffarraaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 37.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 41.9
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "main deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 56.1
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16.6
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "US$/tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 22.75
         },
-        "contained_metal": 9.3126,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
             "authors": [
-              "Stephen Juras",
-              "Stephen Hodgson",
-              "Robert Johnson"
+              "Stephen Juras"
             ],
             "year": 2001,
             "month": 5,
-            "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
             "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 98.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         },
-        "date": "2001-5",
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3.4
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
         "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "qanaiyaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13.0
+        },
+        "grade": {
+          "value": 5.0
+        },
+        "contained_metal": 0.65,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6.8
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13.0
+        },
+        "grade": {
+          "value": 4.0
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "contained_metal": 0.52,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "paalaaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 17.2
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "a\u00ffarraaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 37.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 41.9
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "main deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 56.1
+        },
+        "grade": {
+          "value": 76.0
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "contained_metal": 42.636,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 98.0
+        },
+        "grade": {
+          "value": 86.0
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "contained_metal": 84.28,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3.4
+        },
+        "grade": {
+          "value": 78.0
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "contained_metal": 2.652,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "qanaiyaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6.8
+        },
+        "grade": {
+          "value": 59.0
+        },
+        "cutoff_grade": {
+          "value": 22.75
+        },
+        "contained_metal": 4.012,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13.0
+        },
+        "grade": {
+          "value": 90.0
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "contained_metal": 11.7,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "paalaaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 17.2
+        },
+        "grade": {
+          "value": 71.0
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "contained_metal": 12.212,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "a\u00ffarraaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 37.0
+        },
+        "grade": {
+          "value": 75.0
+        },
+        "contained_metal": 27.75,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 41900000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "main deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 56100000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3400000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9600000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "qanaiyaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6800000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13000000.0
+        },
+        "grade": {
+          "value": 15.0
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "contained_metal": 1950000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "paalaaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 17200000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "a\u00ffarraaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 41900000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "main deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 56100000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3400000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9600000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "qanaiyaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6800000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13000000.0
+        },
+        "grade": {
+          "value": 4.0
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "contained_metal": 520000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "paalaaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 17200000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "a\u00ffarraaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 41900000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "main deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 56100000.0
+        },
+        "grade": {
+          "value": 76.0
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "contained_metal": 42636000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3400000.0
+        },
+        "grade": {
+          "value": 78.0
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "contained_metal": 2652000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9600000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "qanaiyaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6800000.0
+        },
+        "grade": {
+          "value": 59.0
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "contained_metal": 4012000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13000000.0
+        },
+        "grade": {
+          "value": 90.0
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "contained_metal": 11700000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "paalaaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 17200000.0
+        },
+        "grade": {
+          "value": 71.0
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "contained_metal": 12212000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "a\u00ffarraaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "barium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q684"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 41900000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "main deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "barium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q684"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 56100000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "barium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q684"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3400000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "barium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q684"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9600000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "qanaiyaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "barium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q684"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 6800000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 6.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "aqqaluk deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "barium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q684"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 13000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "paalaaq deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "barium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q684"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 17200000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 8.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
+            "authors": [
+              "Stephen Juras"
+            ],
+            "year": 2001,
+            "month": 5,
+            "volume": "L458A",
+            "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
+            "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2001-05",
+        "zone": "a\u00ffarraaq deposit"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "sedimentary-hosted exhalite (SEDEX)",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Siliciclastic-mafic zinc-lead",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q375",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T21:06:04.345588Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Red Dog Project in Alaska, United States dated May 2001.pdf",
           "authors": [
-            "Stephen Juras",
-            "Stephen Hodgson",
-            "Robert Johnson"
+            "Stephen Juras"
           ],
           "year": 2001,
           "month": 5,
-          "description": "This document is a NI 43-101 Technical Report prepared by MRDI Canada, detailing the geological, mining, and metallurgical data of the Red Dog Operation in Alaska to support the 2000 mineral resource and reserve statement.",
+          "volume": "L458A",
+          "description": "This report was prepared exclusively for Cominco Ltd. by MRDI Canada, a Division of AMEC E&C Services Limited (MRDI).",
           "uri": "https://api.cdr.land/v1/docs/documents/027f4f5ca8be841e00474f044b45a69418e89c82716cb3c2fe94e4d1b39651b2db"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]
