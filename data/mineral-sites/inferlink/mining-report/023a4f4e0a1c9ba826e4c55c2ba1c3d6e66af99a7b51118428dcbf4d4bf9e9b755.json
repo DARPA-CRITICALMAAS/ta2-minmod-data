@@ -2,108 +2,43 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755",
-    "name": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
+    "name": "ANA PAULA PROJECT",
     "location_info": {
-      "location": "POINT(99.8757 18.3971)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "MULTIPOINT(-99.416 -17.671)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
-          "observed_name": "Mexico",
+          "observed_name": "M\u00c9XICO",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q4542",
-          "observed_name": "Guerrero",
+          "observed_name": "GUERRERO",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 412.25
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.504
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 2.0777,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 13.3
         },
         "grade": {
@@ -111,55 +46,146 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.049
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
+          "value": 0.2
         },
-        "contained_metal": 0.2725,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
             "authors": [
-              "Robert A. Lunceford"
+              "R. A. Lunceford"
             ],
             "year": 2010,
             "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
+            "description": "GEOLOGICAL REPORT AND SUMMARY OF FIELD EXAMINATIONS",
             "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
+          },
+          "page_info": [
+            {
+              "page": 60
+            }
+          ]
         },
-        "date": "2010-6",
-        "zone": "san jerónimo"
+        "date": "2010-06",
+        "zone": "ap-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
+          "value": 13.1
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.2
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
+            "authors": [
+              "R. A. Lunceford"
+            ],
+            "year": 2010,
+            "month": 6,
+            "description": "GEOLOGICAL REPORT AND SUMMARY OF FIELD EXAMINATIONS",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
           },
+          "page_info": [
+            {
+              "page": 60
+            }
+          ]
+        },
+        "date": "2010-06",
+        "zone": "ap-02"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8.9
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.2
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
+            "authors": [
+              "R. A. Lunceford"
+            ],
+            "year": 2010,
+            "month": 6,
+            "description": "GEOLOGICAL REPORT AND SUMMARY OF FIELD EXAMINATIONS",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
+          },
+          "page_info": [
+            {
+              "page": 60
+            }
+          ]
+        },
+        "date": "2010-06",
+        "zone": "ap-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 11.1
         },
         "grade": {
@@ -167,869 +193,172 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.55
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
+          "value": 0.2
         },
-        "contained_metal": 0.616,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
             "authors": [
-              "Robert A. Lunceford"
+              "R. A. Lunceford"
             ],
             "year": 2010,
             "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
+            "description": "GEOLOGICAL REPORT AND SUMMARY OF FIELD EXAMINATIONS",
             "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
+          },
+          "page_info": [
+            {
+              "page": 60
+            }
+          ]
         },
-        "date": "2010-6",
-        "zone": "san jerónimo"
+        "date": "2010-06",
+        "zone": "ap-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.55
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.336
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 0.1142,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.2
+          "value": 5.8
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.295
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.2
         },
-        "contained_metal": 0.0094,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
             "authors": [
-              "Robert A. Lunceford"
+              "R. A. Lunceford"
             ],
             "year": 2010,
             "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
+            "description": "GEOLOGICAL REPORT AND SUMMARY OF FIELD EXAMINATIONS",
             "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
+          },
+          "page_info": [
+            {
+              "page": 60
+            }
+          ]
         },
-        "date": "2010-6",
-        "zone": "san jerónimo"
+        "date": "2010-06",
+        "zone": "ap-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.05
+          "value": 26.6
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.235
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.2
         },
-        "contained_metal": 0.0589,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
             "authors": [
-              "Robert A. Lunceford"
+              "R. A. Lunceford"
             ],
             "year": 2010,
             "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
+            "description": "GEOLOGICAL REPORT AND SUMMARY OF FIELD EXAMINATIONS",
             "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
           },
-          "value": 70.0
+          "page_info": [
+            {
+              "page": 60
+            }
+          ]
         },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.233
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 0.1631,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.489
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 0.1221,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 412.25
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.504
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 2.0777,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13.3
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.049
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 0.2725,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.55
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 0.616,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.55
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.336
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 0.1142,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.295
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 0.0094,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.05
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.235
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 0.0589,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 70.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.233
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 0.1631,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.489
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 0.1221,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 412.25
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.504
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 2.0777,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
-            "authors": [
-              "Robert A. Lunceford"
-            ],
-            "year": 2010,
-            "month": 6,
-            "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
-          }
-        },
-        "date": "2010-6",
-        "zone": "san jerónimo"
+        "date": "2010-06",
+        "zone": "ap-09"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "disseminated",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.16666666666666666
+        "observed_name": "Skarn iron",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q445",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
       },
       {
-        "observed_name": "stockwork",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "observed_name": "structurally controlled",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "observed_name": "replacements",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "observed_name": "skarn-porphyry",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.16666666666666666
-      },
-      {
-        "observed_name": "epithermal",
+        "observed_name": "Epithermal gold-silver",
         "normalized_uri": "https://minmod.isi.edu/resource/Q416",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.16666666666666666
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "Porphyry copper \n gold",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "Epithermal mercury",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q420",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T20:55:59.203445Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Ana Paula Project in North America dated June 2010.pdf",
           "authors": [
-            "Robert A. Lunceford"
+            "R. A. Lunceford"
           ],
           "year": 2010,
           "month": 6,
-          "description": "The report is a geological evaluation and summary of field examinations for the Ana Paula Property in Guerrero State, Mexico, providing detailed data and recommendations for future exploration work.",
+          "description": "GEOLOGICAL REPORT AND SUMMARY OF FIELD EXAMINATIONS",
           "uri": "https://api.cdr.land/v1/docs/documents/023a4f4e0a1c9ba826e4c55c2ba1c3d6e66af99a7b51118428dcbf4d4bf9e9b755"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

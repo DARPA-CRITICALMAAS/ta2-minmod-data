@@ -2,140 +2,366 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963",
-    "name": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+    "name": "Hakkari Zinc Project",
     "location_info": {
-      "location": "POINT(43.737 37.357)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(39.9334 32.8597)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
           "observed_name": "Turkey",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
         {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6373",
-          "observed_name": "Hakkari",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6344",
+          "observed_name": "Ankara",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "observed_name": "000's",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 474.8
+          "value": 1937300.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.45
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.5
         },
-        "contained_metal": 11.6326,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
             "authors": [
               "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
+              "Mike Hall",
+              "Mike Venter"
             ],
             "year": 2011,
             "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
             "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          }
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
         },
-        "date": "2011-4",
-        "zone": "upper mineralized zone"
+        "date": "2011-04",
+        "zone": "lower mineralisation"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "observed_name": "000's",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2412.1
+          "value": 1937300.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.92
+          "value": 0.34
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.5
         },
-        "contained_metal": 46.3123,
+        "contained_metal": 6586.82,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
             "authors": [
               "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
+              "Mike Hall",
+              "Mike Venter"
             ],
             "year": 2011,
             "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04",
+        "zone": "lower mineralisation"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1937300.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04",
+        "zone": "lower mineralisation"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 474800.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 474800.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 474800.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2412100.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
             "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
           },
           "page_info": [
@@ -144,671 +370,738 @@
             }
           ]
         },
-        "date": "2011-4",
-        "zone": "combined license 5"
+        "date": "2011-04"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "lead",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "observed_name": "samples",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.0
+          "value": 2412100.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.508
-        },
-        "contained_metal": 0.377,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
-            "authors": [
-              "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          }
-        },
-        "date": "2011-4",
-        "zone": "upper mineralized zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "lead",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "observed_name": "samples",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 97.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.293
-        },
-        "contained_metal": 0.2842,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
-            "authors": [
-              "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          }
-        },
-        "date": "2011-4",
-        "zone": "lower mineralized zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "lead",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000's tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 474.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.38
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 6.5522,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
-            "authors": [
-              "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          }
-        },
-        "date": "2011-4",
-        "zone": "upper mineralization"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "lead",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000's tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2412.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.54
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.5
         },
-        "contained_metal": 13.0253,
+        "contained_metal": 13025.34,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
             "authors": [
               "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
+              "Mike Hall",
+              "Mike Venter"
             ],
             "year": 2011,
             "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
             "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          }
+          },
+          "page_info": [
+            {
+              "page": 125
+            }
+          ]
         },
-        "date": "2011-4",
-        "zone": "combined license 5 mineralization"
+        "date": "2011-04"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
+        "ore": {
+          "value": 2412100.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 125
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1937300.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 125
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1937300.0
+        },
+        "grade": {
+          "value": 0.34
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "contained_metal": 6586.82,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 125
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
           "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000's tonnes",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1937300.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
           },
-          "value": 474.8
+          "page_info": [
+            {
+              "page": 125
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 474800.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 125
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 474800.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 125
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 474800.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 125
+            }
+          ]
+        },
+        "date": "2011-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 198.2
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04",
+        "zone": "pentagon"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 198.2
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04",
+        "zone": "pentagon"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 198.2
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.83
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.5
         },
-        "contained_metal": 8.6888,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
             "authors": [
               "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
+              "Mike Hall",
+              "Mike Venter"
             ],
             "year": 2011,
             "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
             "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          }
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
         },
-        "date": "2011-4",
-        "zone": "upper mineralized zone"
+        "date": "2011-04",
+        "zone": "pentagon"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
+        "ore": {
+          "value": 197.5
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04",
+        "zone": "pentagon"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 197.5
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
+            "authors": [
+              "Mike Robertson",
+              "Mike Hall",
+              "Mike Venter"
+            ],
+            "year": 2011,
+            "month": 4,
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
+          },
+          "page_info": [
+            {
+              "page": 124
+            }
+          ]
+        },
+        "date": "2011-04",
+        "zone": "pentagon"
+      },
+      {
+        "commodity": {
           "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000's tonnes",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2412.1
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 197.5
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.67
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
+          "value": 1.0
         },
-        "contained_metal": 40.2821,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
             "authors": [
               "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
+              "Mike Hall",
+              "Mike Venter"
             ],
             "year": 2011,
             "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
+            "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
             "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
           },
           "page_info": [
             {
-              "page": 125
+              "page": 124
             }
           ]
         },
-        "date": "2011-4",
-        "zone": "combined license 5 mineralisation"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000's tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 474.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.007
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 0.0332,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
-            "authors": [
-              "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          }
-        },
-        "date": "2011-4",
-        "zone": "upper mineralized zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000's tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2412.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.002
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 0.0482,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
-            "authors": [
-              "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          },
-          "page_info": [
-            {
-              "page": 125
-            }
-          ]
-        },
-        "date": "2011-4",
-        "zone": "combined license 5 mineralisation"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q561",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "iron",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000's tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 474.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.76
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 46.3405,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
-            "authors": [
-              "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          }
-        },
-        "date": "2011-4",
-        "zone": "upper mineralized zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q561",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "iron",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000's tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2412.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.32
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q207",
-            "observed_name": "Zn%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 490.1387,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
-            "authors": [
-              "Mike Robertson",
-              "Dr Brendan Clarke",
-              "Mike Hall"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
-          },
-          "page_info": [
-            {
-              "page": 125
-            }
-          ]
-        },
-        "date": "2011-4",
-        "zone": "combined license 5 mineralisation"
+        "date": "2011-04",
+        "zone": "pentagon"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Mississippi Valley Type (MVT) deposits",
+        "observed_name": "Supergene zinc",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q330",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "MVT zinc-lead",
         "normalized_uri": "https://minmod.isi.edu/resource/Q380",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
-      },
-      {
-        "observed_name": "Supergene deposits",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q329",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
-      },
-      {
-        "observed_name": "Hypogene deposits",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T16:46:52.369479Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Hakkira Project in Middle East, Turkey dated April 2011.pdf",
           "authors": [
             "Mike Robertson",
-            "Dr Brendan Clarke",
-            "Mike Hall"
+            "Mike Hall",
+            "Mike Venter"
           ],
           "year": 2011,
           "month": 4,
-          "description": "This report provides a comprehensive technical and geological assessment of the Hakkari Zinc Project (HZP) in southeastern Turkey, highlighting the mineralization qualities, exploration history, and proposed evaluation programs.",
+          "description": "NI 43 -101 Technical Report on the Hakkari Zinc Project located in the Republic of Turkey.",
           "uri": "https://api.cdr.land/v1/docs/documents/023c048bc7225a90e6bc4423733971cf21894f1818e68e068323618f3b33859963"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

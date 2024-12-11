@@ -2,20 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "024e6141887ad52eafdbffe9ba2d278e9d9f24a109dd6b6f907ab6a2825e021dc0",
-    "name": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated April 2006.pdf",
+    "name": "NorthMet Project",
     "location_info": {
-      "location": "POINT(-91.6437 47.7046)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-91.5 47.5)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
           "observed_name": "United States",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,59 +18,92 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q6870",
           "observed_name": "Minnesota",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
-    "mineral_inventory": [
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q606",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated April 2006.pdf",
-            "authors": [
-              "Patrick G. Downey"
-            ],
-            "year": 2006,
-            "month": 4,
-            "description": "This technical report provides an updated assessment of the NorthMet Project, including geological, resource, metallurgical, and feasibility studies.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024e6141887ad52eafdbffe9ba2d278e9d9f24a109dd6b6f907ab6a2825e021dc0"
-          }
-        },
-        "category": []
-      }
-    ],
+    "mineral_inventory": [],
     "deposit_type_candidate": [
       {
-        "observed_name": "hydrothermal",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
+        "observed_name": "Magnetite-dominant IOCG",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q406",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
       },
       {
-        "observed_name": "magmatic",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
+        "observed_name": "Magnetite-dominant IOA",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q408",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
+      },
+      {
+        "observed_name": "Magnetite-dominant IOCG",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q406",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
+      },
+      {
+        "observed_name": "Magnetite-dominant IOA",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q408",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
+      },
+      {
+        "observed_name": "Sediment-hosted copper \nCopper-sulfide veins",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
+      },
+      {
+        "observed_name": "Sediment-hosted copper \nCopper-sulfide veins",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
+      },
+      {
+        "observed_name": "Sediment-hosted copper \nCopper-sulfide veins",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
+      },
+      {
+        "observed_name": "Sediment-hosted copper \nCopper-sulfide veins",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
+      },
+      {
+        "observed_name": "Sediment-hosted copper \nCopper-sulfide veins",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
+      },
+      {
+        "observed_name": "Sediment-hosted copper \nCopper-sulfide veins",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.1
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T17:11:59.921347Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Northmet Project in Minnesota, United States dated April 2006.pdf",
           "authors": [
-            "Patrick G. Downey"
+            "P. Downey",
+            "Patrick G. Downey",
+            "Dr. Rodney Hammond",
+            "Dr. Phil Hellman",
+            "John Wyche"
           ],
           "year": 2006,
           "month": 4,
-          "description": "This technical report provides an updated assessment of the NorthMet Project, including geological, resource, metallurgical, and feasibility studies.",
+          "description": "Independent technical report for the NorthMet Project.",
           "uri": "https://api.cdr.land/v1/docs/documents/024e6141887ad52eafdbffe9ba2d278e9d9f24a109dd6b6f907ab6a2825e021dc0"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

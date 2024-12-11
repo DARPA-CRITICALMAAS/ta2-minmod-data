@@ -2,14 +2,14 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428",
-    "name": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
+    "name": "FIR CARBONATITE PROPERTY",
     "location_info": {
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -17,68 +17,54 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
           "observed_name": "British Columbia",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
           "observed_name": "tantalum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "observed_name": "Ta2O5",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5650682.0
+          "value": 12075093.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 203.1
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 120.0
         },
-        "contained_metal": 11476535.142,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
             "authors": [
               "Ruben S. Verzosa"
             ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
+            "year": 2003,
+            "month": 3,
+            "description": "GEOLOGICAL SUMMARY AND RESOURCE POTENTIAL OF THE FIR CARBONATITE PROPERTY BLUE RIVER, BRITISH COLUMBIA",
             "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
           },
           "page_info": [
@@ -87,120 +73,52 @@
             }
           ]
         },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
+        "date": "2003-03",
+        "zone": "fir block model"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
+          "observed_name": "niobium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "Ta2O5",
+          "observed_name": "Nb2O5",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6746096.0
+          "value": 12075093.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 203.1
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 120.0
         },
-        "contained_metal": 13701320.976,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
             "authors": [
               "Ruben S. Verzosa"
             ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          }
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5650682.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 203.1
-        },
-        "contained_metal": 11476535.142,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
+            "year": 2003,
+            "month": 3,
+            "description": "GEOLOGICAL SUMMARY AND RESOURCE POTENTIAL OF THE FIR CARBONATITE PROPERTY BLUE RIVER, BRITISH COLUMBIA",
             "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
           },
           "page_info": [
@@ -209,499 +127,52 @@
             }
           ]
         },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
+        "date": "2003-03",
+        "zone": "fir block model"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5650682.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1074.0
-        },
-        "contained_metal": 60688324.68,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          },
-          "page_info": [
-            {
-              "page": 22
-            }
-          ]
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6746096.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 203.1
-        },
-        "contained_metal": 13701320.976,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          }
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6746096.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1074.0
-        },
-        "contained_metal": 72453071.04,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          }
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6746096.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 203.1
-        },
-        "contained_metal": 13701320.976,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          }
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6746096.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1074.0
-        },
-        "contained_metal": 72453071.04,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          }
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5650682.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1074.0
-        },
-        "contained_metal": 60688324.68,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          },
-          "page_info": [
-            {
-              "page": 22
-            }
-          ]
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q588",
           "observed_name": "uranium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6746096.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 203.1
-        },
-        "contained_metal": 13701320.976,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          }
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q588",
-          "observed_name": "uranium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6746096.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1074.0
-        },
-        "contained_metal": 72453071.04,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
-            "authors": [
-              "Ruben S. Verzosa"
-            ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
-          }
-        },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q588",
-          "observed_name": "uranium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q588"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "Nb2O5",
+          "observed_name": "U",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5650682.0
+          "value": 12075093.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1074.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 60688324.68,
+        "cutoff_grade": {
+          "value": 120.0
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
             "authors": [
               "Ruben S. Verzosa"
             ],
-            "year": 2004,
-            "month": 11,
-            "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
+            "year": 2003,
+            "month": 3,
+            "description": "GEOLOGICAL SUMMARY AND RESOURCE POTENTIAL OF THE FIR CARBONATITE PROPERTY BLUE RIVER, BRITISH COLUMBIA",
             "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
           },
           "page_info": [
@@ -710,19 +181,224 @@
             }
           ]
         },
-        "date": "2004-11",
-        "zone": "fir carbonatite"
+        "date": "2003-03",
+        "zone": "fir block model"
+      },
+      {
+        "commodity": {
+          "observed_name": "tantalum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Ta2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5860000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
+            "authors": [
+              "Ruben S. Verzosa"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "GEOLOGICAL SUMMARY AND RESOURCE POTENTIAL OF THE FIR CARBONATITE PROPERTY BLUE RIVER, BRITISH COLUMBIA",
+            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "fir prospect"
+      },
+      {
+        "commodity": {
+          "observed_name": "tantalum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Ta2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 6746096.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
+            "authors": [
+              "Ruben S. Verzosa"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "GEOLOGICAL SUMMARY AND RESOURCE POTENTIAL OF THE FIR CARBONATITE PROPERTY BLUE RIVER, BRITISH COLUMBIA",
+            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "fir prospect"
+      },
+      {
+        "commodity": {
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5860000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
+            "authors": [
+              "Ruben S. Verzosa"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "GEOLOGICAL SUMMARY AND RESOURCE POTENTIAL OF THE FIR CARBONATITE PROPERTY BLUE RIVER, BRITISH COLUMBIA",
+            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "fir prospect"
+      },
+      {
+        "commodity": {
+          "observed_name": "niobium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 6746096.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Fir Project in North America dated November 2004.pdf",
+            "authors": [
+              "Ruben S. Verzosa"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "GEOLOGICAL SUMMARY AND RESOURCE POTENTIAL OF THE FIR CARBONATITE PROPERTY BLUE RIVER, BRITISH COLUMBIA",
+            "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "fir prospect"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Carbonatite",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q320",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Carbonatite niobium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q471",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T22:26:08.052570Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -730,13 +406,12 @@
           "authors": [
             "Ruben S. Verzosa"
           ],
-          "year": 2004,
-          "month": 11,
-          "description": "A technical report summarizing the geology and resource potential of the Fir Carbonatite Property at Blue River, British Columbia, with resource estimates and recommendations for further exploration.",
+          "year": 2003,
+          "month": 3,
+          "description": "GEOLOGICAL SUMMARY AND RESOURCE POTENTIAL OF THE FIR CARBONATITE PROPERTY BLUE RIVER, BRITISH COLUMBIA",
           "uri": "https://api.cdr.land/v1/docs/documents/0230a54c6daf27b3418e2086a776e846c705735b759434a8d03abc33b4f1f36428"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

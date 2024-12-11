@@ -2,21 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5",
-    "name": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+    "name": "Sisson Brook Property",
     "location_info": {
-      "location": "POINT(-67.043889 46.368056)",
+      "location": "MULTIPOINT(-67.0448 46.3680)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,107 +24,42 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
           "observed_name": "New Brunswick",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7500000.0
+          "value": 18600000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.35
+          "value": 0.067
         },
-        "contained_metal": 26250.0,
+        "cutoff_grade": {
+          "value": 0.025
+        },
+        "contained_metal": 12462.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -134,146 +69,257 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone i"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
           },
           "page_info": [
             {
-              "page": 84
+              "page": 5
             }
           ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.025
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 15200000.0
+        },
+        "grade": {
+          "value": 0.075
+        },
+        "cutoff_grade": {
+          "value": 0.075
+        },
+        "contained_metal": 11400.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.075
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 10300000.0
+        },
+        "grade": {
+          "value": 0.086
+        },
+        "cutoff_grade": {
+          "value": 0.125
+        },
+        "contained_metal": 8858.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.125
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5600000.0
+        },
+        "grade": {
+          "value": 0.099
+        },
+        "cutoff_grade": {
+          "value": 0.175
+        },
+        "contained_metal": 5544.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.175
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 3000000.0
+        },
+        "grade": {
+          "value": 0.109
+        },
+        "cutoff_grade": {
+          "value": 0.225
+        },
+        "contained_metal": 3270.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.225
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7500000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.35
-        },
-        "contained_metal": 26250.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone i"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "Millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 18.6
+          "value": 225300000.0
         },
         "grade": {
-          "unit": {
-            "observed_name": "WO3%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.067
+          "value": 0.061
         },
         "cutoff_grade": {
           "value": 0.025
         },
-        "contained_metal": 0.0125,
+        "contained_metal": 137433.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -283,112 +329,49 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.025
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "Millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 18.6
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "Mo%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.025
-        },
-        "cutoff_grade": {
-          "value": 0.025
-        },
-        "contained_metal": 0.0047,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "Millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.2
+          "value": 160000000.0
         },
         "grade": {
-          "unit": {
-            "observed_name": "WO3%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
+          "value": 0.073
         },
         "cutoff_grade": {
           "value": 0.075
         },
-        "contained_metal": 0.0114,
+        "contained_metal": 116800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -398,54 +381,505 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.075
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 92500000.0
+        },
+        "grade": {
+          "value": 0.088
+        },
+        "cutoff_grade": {
+          "value": 0.125
+        },
+        "contained_metal": 81400.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.125
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 47400000.0
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "cutoff_grade": {
+          "value": 0.175
+        },
+        "contained_metal": 47400.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.175
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 22600000.0
+        },
+        "grade": {
+          "value": 0.111
+        },
+        "cutoff_grade": {
+          "value": 0.225
+        },
+        "contained_metal": 25086.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.225
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 154400000.0
+        },
+        "grade": {
+          "value": 0.049
+        },
+        "cutoff_grade": {
+          "value": 0.025
+        },
+        "contained_metal": 75656.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.025
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 103400000.0
+        },
+        "grade": {
+          "value": 0.059
+        },
+        "cutoff_grade": {
+          "value": 0.075
+        },
+        "contained_metal": 61006.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.075
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 55400000.0
+        },
+        "grade": {
+          "value": 0.072
+        },
+        "cutoff_grade": {
+          "value": 0.125
+        },
+        "contained_metal": 39888.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.125
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 25700000.0
+        },
+        "grade": {
+          "value": 0.085
+        },
+        "cutoff_grade": {
+          "value": 0.175
+        },
+        "contained_metal": 21845.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.175
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 11400000.0
+        },
+        "grade": {
+          "value": 0.094
+        },
+        "cutoff_grade": {
+          "value": 0.225
+        },
+        "contained_metal": 10716.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.225
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "Millions",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.2
+          "value": 18600000.0
         },
         "grade": {
-          "unit": {
-            "observed_name": "Mo%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.025
+        },
+        "cutoff_grade": {
+          "value": 0.025
+        },
+        "contained_metal": 4650.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
           },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.025
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 15200000.0
+        },
+        "grade": {
           "value": 0.029
         },
         "cutoff_grade": {
           "value": 0.075
         },
-        "contained_metal": 0.0044,
+        "contained_metal": 4408.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -455,384 +889,43 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.075
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 154.4
+          "value": 10300000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.049
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.025
-        },
-        "contained_metal": 0.0757,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 154.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.025
-        },
-        "contained_metal": 0.0309,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 103.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.059
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.061,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 103.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.027
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.0279,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.072
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.125
-        },
-        "contained_metal": 0.0399,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.036
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.125
         },
-        "contained_metal": 0.0199,
+        "contained_metal": 3708.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -842,126 +935,43 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.125
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.7
+          "value": 5600000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.085
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.175
-        },
-        "contained_metal": 0.0218,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.047
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
-        "contained_metal": 0.0121,
+        "contained_metal": 2632.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -971,126 +981,43 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.175
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.4
+          "value": 3000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.094
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.225
-        },
-        "contained_metal": 0.0107,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.06
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.225
         },
-        "contained_metal": 0.0068,
+        "contained_metal": 1800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -1100,62 +1027,43 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.225
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 154.4
+          "value": 225300000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.049
+          "value": 0.019
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.025
         },
-        "contained_metal": 0.0757,
+        "contained_metal": 42807.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -1165,61 +1073,227 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.025
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 160000000.0
+        },
+        "grade": {
+          "value": 0.025
+        },
+        "cutoff_grade": {
+          "value": 0.075
+        },
+        "contained_metal": 40000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.075
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 92500000.0
+        },
+        "grade": {
+          "value": 0.033
+        },
+        "cutoff_grade": {
+          "value": 0.125
+        },
+        "contained_metal": 30525.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.125
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 47400000.0
+        },
+        "grade": {
+          "value": 0.043
+        },
+        "cutoff_grade": {
+          "value": 0.175
+        },
+        "contained_metal": 20382.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.175
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 22600000.0
+        },
+        "grade": {
+          "value": 0.055
+        },
+        "cutoff_grade": {
+          "value": 0.225
+        },
+        "contained_metal": 12430.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
+            "authors": [
+              "Michael P. Cullen",
+              "Matthew Harrington"
+            ],
+            "year": 2008,
+            "month": 6,
+            "description": "Technical report on 2008 mineral resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2008-06",
+        "zone": 0.225
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 154.4
+          "value": 154400000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.02
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.025
         },
-        "contained_metal": 0.0309,
+        "contained_metal": 30880.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -1229,126 +1303,43 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.025
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 103.4
+          "value": 103400000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.059
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.061,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 103.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.027
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.075
         },
-        "contained_metal": 0.0279,
+        "contained_metal": 27918.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -1358,126 +1349,43 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.075
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.4
+          "value": 55400000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.072
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.125
-        },
-        "contained_metal": 0.0399,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.036
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.125
         },
-        "contained_metal": 0.0199,
+        "contained_metal": 19944.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -1487,126 +1395,43 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.125
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.7
+          "value": 25700000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.085
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.175
-        },
-        "contained_metal": 0.0218,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.047
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.175
         },
-        "contained_metal": 0.0121,
+        "contained_metal": 12079.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -1616,126 +1441,43 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.175
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.4
+          "value": 11400000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.094
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.225
-        },
-        "contained_metal": 0.0107,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.06
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.225
         },
-        "contained_metal": 0.0068,
+        "contained_metal": 6840.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -1745,645 +1487,49 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06",
+        "zone": 0.225
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 18.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.067
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.025
-        },
-        "contained_metal": 0.0125,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 18.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.025
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.025
-        },
-        "contained_metal": 0.0047,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.0114,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Mo",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.029
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.0044,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 154.4
+          "value": 167400000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.049
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.025
-        },
-        "contained_metal": 0.0757,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 103.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.059
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.061,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.072
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.125
-        },
-        "contained_metal": 0.0399,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.085
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.175
-        },
-        "contained_metal": 0.0218,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.094
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.225
-        },
-        "contained_metal": 0.0107,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 154.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.049
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.025
         },
-        "contained_metal": 0.0757,
+        "contained_metal": 98766.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -2393,322 +1539,42 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
         },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 103.4
+          "value": 167400000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.059
+          "value": 0.021
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.061,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.072
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.125
-        },
-        "contained_metal": 0.0399,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.085
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.175
-        },
-        "contained_metal": 0.0218,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.094
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.225
-        },
-        "contained_metal": 0.0107,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 18.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.067
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.025
         },
-        "contained_metal": 0.0125,
+        "contained_metal": 35154.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
@@ -2718,625 +1584,34 @@
             ],
             "year": 2008,
             "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+            "description": "Technical report on 2008 mineral resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
           },
-          "value": 15.2
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
         },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.0114,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 10.3
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.086
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.125
-        },
-        "contained_metal": 0.0089,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.099
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.175
-        },
-        "contained_metal": 0.0055,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.109
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.225
-        },
-        "contained_metal": 0.0033,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 18.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.067
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.025
-        },
-        "contained_metal": 0.0125,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 15.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.075
-        },
-        "contained_metal": 0.0114,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 10.3
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.086
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.125
-        },
-        "contained_metal": 0.0089,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.099
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.175
-        },
-        "contained_metal": 0.0055,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.109
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.225
-        },
-        "contained_metal": 0.0033,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sisson Brook Project in North America dated June 2008.pdf",
-            "authors": [
-              "Michael P. Cullen",
-              "Matthew Harrington"
-            ],
-            "year": 2008,
-            "month": 6,
-            "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
-          }
-        },
-        "date": "2008-6",
-        "zone": "zone iii"
+        "date": "2008-06"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "granite-related porphyry",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "observed_name": "Skarn tungsten \n Mo",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q447",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       },
       {
-        "observed_name": "polymetallic",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q437",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "epigenetic vein",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q430",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "stringer",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "observed_name": "Porphyry tungsten",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q459",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T20:19:26.633937Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -3347,11 +1622,10 @@
           ],
           "year": 2008,
           "month": 6,
-          "description": "This document is a technical report prepared by Mercator Geological Services Limited for Geodex Minerals Ltd., detailing the mineral resource estimate for the Zone III tungsten-molybdenum deposit at the Sisson Brook property in New Brunswick, Canada.",
+          "description": "Technical report on 2008 mineral resource estimate.",
           "uri": "https://api.cdr.land/v1/docs/documents/024697e806f6570c6b907223e662b4de0fdfc0e01d02524281c855c0fbfc88c2a5"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]
