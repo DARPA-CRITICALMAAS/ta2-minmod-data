@@ -2,21 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d",
-    "name": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
+    "name": "Sal de los Angeles Project",
     "location_info": {
-      "location": "POINT(-66.9 -24.036)",
+      "location": "POINT(-65.45 -24.25)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1010",
           "observed_name": "Argentina",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,542 +24,336 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2187",
           "observed_name": "Salta",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 189130.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 410.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 100.0
-        },
-        "contained_metal": 775433.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
-            "authors": [
-              "Frederik Reidel"
-            ],
-            "year": 2017,
-            "month": 2,
-            "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
-          },
-          "page_info": [
-            {
-              "page": 96
-            }
-          ]
-        },
-        "date": "2017-2",
-        "zone": "sal de los angeles project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 189130.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 410.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 100.0
-        },
-        "contained_metal": 775433.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
-            "authors": [
-              "Frederik Reidel"
-            ],
-            "year": 2017,
-            "month": 2,
-            "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
-          },
-          "page_info": [
-            {
-              "page": 110
-            }
-          ]
-        },
-        "date": "2017-2",
-        "zone": "sal de los angeles project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 194860.0
         },
         "grade": {
           "unit": {
             "observed_name": "mg/L",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 501.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 100.0
         },
-        "contained_metal": 976248.6,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
             "authors": [
+              "Frits Reidel",
               "Frederik Reidel"
             ],
             "year": 2017,
             "month": 2,
-            "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
+            "description": "Resource Estimate for Lithium & Potassium",
             "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
           },
           "page_info": [
             {
-              "page": 96
+              "page": 12
             }
           ]
         },
-        "date": "2017-2",
-        "zone": "sal de los angeles project"
+        "date": "2017-02",
+        "zone": "aquifer area 22.2 km2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 194860.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 501.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 100.0
-        },
-        "contained_metal": 976248.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
-            "authors": [
-              "Frederik Reidel"
-            ],
-            "year": 2017,
-            "month": 2,
-            "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
-          },
-          "page_info": [
-            {
-              "page": 110
-            }
-          ]
-        },
-        "date": "2017-2",
-        "zone": "sal de los angeles project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 189130.0
         },
         "grade": {
           "unit": {
             "observed_name": "mg/L",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4489.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 100.0
         },
-        "contained_metal": 8490045.7,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
             "authors": [
+              "Frits Reidel",
               "Frederik Reidel"
             ],
             "year": 2017,
             "month": 2,
-            "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
+            "description": "Resource Estimate for Lithium & Potassium",
             "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
           },
           "page_info": [
             {
-              "page": 96
+              "page": 12
             }
           ]
         },
-        "date": "2017-2",
-        "zone": "sal de los angeles project"
+        "date": "2017-02",
+        "zone": "aquifer area 32.4 km2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
           "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2143491.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/L",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 100.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
+            "authors": [
+              "Frits Reidel",
+              "Frederik Reidel"
+            ],
+            "year": 2017,
+            "month": 2,
+            "description": "Resource Estimate for Lithium & Potassium",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2017-02",
+        "zone": "aquifer area 22.2 km2"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 189130.0
+          "value": 2068161.0
         },
         "grade": {
           "unit": {
             "observed_name": "mg/L",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4489.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 100.0
         },
-        "contained_metal": 8490045.7,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
             "authors": [
+              "Frits Reidel",
               "Frederik Reidel"
             ],
             "year": 2017,
             "month": 2,
-            "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
+            "description": "Resource Estimate for Lithium & Potassium",
             "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
           },
           "page_info": [
             {
-              "page": 110
+              "page": 12
             }
           ]
         },
-        "date": "2017-2",
-        "zone": "sal de los angeles project"
+        "date": "2017-02",
+        "zone": "aquifer area 32.4 km2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
+          "observed_name": "boron",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q515"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 194860.0
+          "value": 216807.0
         },
         "grade": {
           "unit": {
             "observed_name": "mg/L",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5512.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 100.0
         },
-        "contained_metal": 10740683.2,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
             "authors": [
+              "Frits Reidel",
               "Frederik Reidel"
             ],
             "year": 2017,
             "month": 2,
-            "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
+            "description": "Resource Estimate for Lithium & Potassium",
             "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
           },
           "page_info": [
             {
-              "page": 96
+              "page": 12
             }
           ]
         },
-        "date": "2017-2",
-        "zone": "sal de los angeles project"
+        "date": "2017-02",
+        "zone": "aquifer area 22.2 km2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
+          "observed_name": "boron",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q515"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 194860.0
+          "value": 232601.0
         },
         "grade": {
           "unit": {
             "observed_name": "mg/L",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5512.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 100.0
         },
-        "contained_metal": 10740683.2,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
             "authors": [
+              "Frits Reidel",
               "Frederik Reidel"
             ],
             "year": 2017,
             "month": 2,
-            "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
+            "description": "Resource Estimate for Lithium & Potassium",
             "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
           },
           "page_info": [
             {
-              "page": 110
+              "page": 12
             }
           ]
         },
-        "date": "2017-2",
-        "zone": "sal de los angeles project"
+        "date": "2017-02",
+        "zone": "aquifer area 32.4 km2"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "brine aquifer within a salar basin",
-        "source": "Inferlink Extraction v2",
-        "confidence": 1.0
+        "observed_name": "Lacustrine evaporite borate",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q349",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "Lacustrine brine lithium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q354",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T23:28:04.870246Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Sal de los Angeles Project in North America dated February 2017.pdf",
           "authors": [
+            "Frits Reidel",
             "Frederik Reidel"
           ],
           "year": 2017,
           "month": 2,
-          "description": "The report provides a resource estimate for lithium and potassium for the Sal de los Angeles Project based on exploration data collected between 2011 and 2016.",
+          "description": "Resource Estimate for Lithium & Potassium",
           "uri": "https://api.cdr.land/v1/docs/documents/02a4865ce2cccd882f77a746830417ef015fb3050e8fd64ccbbb2e672cd49bba1d"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

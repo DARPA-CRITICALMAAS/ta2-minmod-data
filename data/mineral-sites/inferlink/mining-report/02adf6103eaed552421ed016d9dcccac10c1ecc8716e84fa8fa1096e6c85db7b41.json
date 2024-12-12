@@ -2,21 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41",
-    "name": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+    "name": "Cantung Mine",
     "location_info": {
-      "location": "POINT(-128.283333 61.966667)",
+      "location": "POINT(-128.28333 61.96667)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,208 +24,929 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2658",
           "observed_name": "Northwest Territories",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q214",
-            "observed_name": "short tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 771126.0
+          "value": 154002.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.75
+          "value": 0.63
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
+          "value": 0.63
         },
-        "contained_metal": 13494.705,
+        "contained_metal": 970.2126,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
             "authors": [
-              "Christopher J. Hodgson"
+              "C. J. Hodgson"
             ],
             "year": 2003,
             "month": 2,
-            "description": "This is an independent technical review of mining reserves at the Cantung Mine conducted for North American Tungsten Corporation Ltd.",
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2003-2",
-        "zone": "west extension"
+        "date": "2003-02",
+        "zone": "b"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 114625.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.7
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "pit"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 3407970.0
+        },
+        "grade": {
+          "value": 0.55
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 18743.835,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "chert low grade"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 966050.0
+        },
+        "grade": {
+          "value": 0.66
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 6375.93,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "chert pit design"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 75900.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.22
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": 1008
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 1597882.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "entire e zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
             "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
+          "value": 1300000.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.8
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
           },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "e zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 621000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "e zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 829146.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.25
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "e zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 694000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "e zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 791295.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "e zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
           "value": 123119.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.79
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 2203.8301,
+        "cutoff_grade": {
+          "value": 1.0
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
             "authors": [
-              "Christopher J. Hodgson"
+              "C. J. Hodgson"
             ],
             "year": 2003,
             "month": 2,
-            "description": "This is an independent technical review of mining reserves at the Cantung Mine conducted for North American Tungsten Corporation Ltd.",
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
-          }
+          },
+          "page_info": [
+            {
+              "page": 32
+            }
+          ]
         },
-        "date": "2003-2",
-        "zone": "west extension above 3950 level"
+        "date": "2003-02",
+        "zone": "west extension (above 3950 level)"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 381347.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.94
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 7398.1318,
+        "cutoff_grade": {
+          "value": 1.0
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
             "authors": [
-              "Christopher J. Hodgson"
+              "C. J. Hodgson"
             ],
             "year": 2003,
             "month": 2,
-            "description": "This is an independent technical review of mining reserves at the Cantung Mine conducted for North American Tungsten Corporation Ltd.",
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 32
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "west extension (below 3950 level)"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 504466.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         },
-        "date": "2003-2",
-        "zone": "west extension below 3950 level"
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 32
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "west extension"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 258003.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 32
+            }
+          ]
+        },
+        "date": "2003-02",
+        "zone": "e-zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 771126.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
+            "authors": [
+              "C. J. Hodgson"
+            ],
+            "year": 2003,
+            "month": 2,
+            "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
+          },
+          "page_info": [
+            {
+              "page": 32
+            }
+          ]
+        },
+        "date": "2003-02"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "disseminated scheelite deposits in calc-silicate skarn replacement zones",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Skarn tungsten",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q447",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T21:58:12.318138Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Cantung Project in North America dated February 2003.pdf",
           "authors": [
-            "Christopher J. Hodgson"
+            "C. J. Hodgson"
           ],
           "year": 2003,
           "month": 2,
-          "description": "This is an independent technical review of mining reserves at the Cantung Mine conducted for North American Tungsten Corporation Ltd.",
+          "description": "Technical review of mining reserves at the Cantung mine conducted by Andean Engineering for North American Tungsten Corporation Ltd.",
           "uri": "https://api.cdr.land/v1/docs/documents/02adf6103eaed552421ed016d9dcccac10c1ecc8716e84fa8fa1096e6c85db7b41"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

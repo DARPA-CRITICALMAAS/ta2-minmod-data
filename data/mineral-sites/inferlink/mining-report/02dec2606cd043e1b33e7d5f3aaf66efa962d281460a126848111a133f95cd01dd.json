@@ -2,21 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd",
-    "name": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
+    "name": "Playter Molybdenum \u2013 Rhenium Deposit",
     "location_info": {
-      "location": "POINT(-86.36 48.719)",
+      "location": "POINT(-85.2211 48.7655)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,33 +24,27 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
           "observed_name": "Ontario",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 874410.0
         },
         "grade": {
@@ -58,319 +52,142 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2514.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "observed_name": "$/lb",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.5
+          "value": 26.0
         },
-        "contained_metal": 21982667.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
             "authors": [
               "Richard Kilpatrick",
-              "Nicole J. Grieco"
+              "Nikki Grieco"
             ],
-            "year": 2009,
-            "month": 11,
-            "description": "This report provides a mineral resource estimate and technical evaluation for the Playter Molybdenum-Rhenium Deposit in Marathon, Ontario, outlining geological findings, historical data, and exploration recommendations.",
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
           },
           "page_info": [
             {
-              "page": 9
+              "page": 83
             }
           ]
         },
-        "date": "2009-11"
+        "date": "2010-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 874410.0
+          "value": 351409.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2514.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "observed_name": "$/lb",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.5
-        },
-        "contained_metal": 21982667.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
             "authors": [
               "Richard Kilpatrick",
-              "Nicole J. Grieco"
+              "Nikki Grieco"
             ],
-            "year": 2009,
-            "month": 11,
-            "description": "This report provides a mineral resource estimate and technical evaluation for the Playter Molybdenum-Rhenium Deposit in Marathon, Ontario, outlining geological findings, historical data, and exploration recommendations.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
-          }
-        },
-        "date": "2009-11"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q603",
-          "observed_name": "rhenium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 874410.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.673
-        },
-        "cutoff_grade": {
-          "unit": {
-            "observed_name": "$/kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8000.0
-        },
-        "contained_metal": 14628.8793,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
-            "authors": [
-              "Richard Kilpatrick",
-              "Nicole J. Grieco"
-            ],
-            "year": 2009,
-            "month": 11,
-            "description": "This report provides a mineral resource estimate and technical evaluation for the Playter Molybdenum-Rhenium Deposit in Marathon, Ontario, outlining geological findings, historical data, and exploration recommendations.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
-          }
-        },
-        "date": "2009-11"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q603",
-          "observed_name": "rhenium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "rhenium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 874410.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.673
-        },
-        "cutoff_grade": {
-          "unit": {
-            "observed_name": "$/kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8000.0
-        },
-        "contained_metal": 14628.8793,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
-            "authors": [
-              "Richard Kilpatrick",
-              "Nicole J. Grieco"
-            ],
-            "year": 2009,
-            "month": 11,
-            "description": "This report provides a mineral resource estimate and technical evaluation for the Playter Molybdenum-Rhenium Deposit in Marathon, Ontario, outlining geological findings, historical data, and exploration recommendations.",
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
           },
           "page_info": [
             {
-              "page": 9
+              "page": 83
             }
           ]
         },
-        "date": "2009-11"
+        "date": "2010-01",
+        "zone": "sensitivity 1"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "observed_name": "silver",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "silver",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 874410.0
+          "value": 1852895.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.382
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "observed_name": "$/oz",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.5
-        },
-        "contained_metal": 29572.5462,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
             "authors": [
               "Richard Kilpatrick",
-              "Nicole J. Grieco"
+              "Nikki Grieco"
             ],
-            "year": 2009,
-            "month": 11,
-            "description": "This report provides a mineral resource estimate and technical evaluation for the Playter Molybdenum-Rhenium Deposit in Marathon, Ontario, outlining geological findings, historical data, and exploration recommendations.",
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
           },
           "page_info": [
             {
-              "page": 9
+              "page": 83
             }
           ]
         },
-        "date": "2009-11"
+        "date": "2010-01",
+        "zone": "sensitivity 2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "observed_name": "silver",
+          "observed_name": "rhenium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q603"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "silver",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 874410.0
         },
         "grade": {
@@ -378,74 +195,300 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.382
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "observed_name": "$/oz",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.5
+          "value": 26.0
         },
-        "contained_metal": 29572.5462,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
             "authors": [
               "Richard Kilpatrick",
-              "Nicole J. Grieco"
+              "Nikki Grieco"
             ],
-            "year": 2009,
-            "month": 11,
-            "description": "This report provides a mineral resource estimate and technical evaluation for the Playter Molybdenum-Rhenium Deposit in Marathon, Ontario, outlining geological findings, historical data, and exploration recommendations.",
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
             "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2010-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "rhenium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q603"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 351409.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         },
-        "date": "2009-11"
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
+            "authors": [
+              "Richard Kilpatrick",
+              "Nikki Grieco"
+            ],
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2010-01",
+        "zone": "sensitivity 1"
+      },
+      {
+        "commodity": {
+          "observed_name": "rhenium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q603"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1852895.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
+            "authors": [
+              "Richard Kilpatrick",
+              "Nikki Grieco"
+            ],
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2010-01",
+        "zone": "sensitivity 2"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 874410.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 26.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
+            "authors": [
+              "Richard Kilpatrick",
+              "Nikki Grieco"
+            ],
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2010-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 351409.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
+            "authors": [
+              "Richard Kilpatrick",
+              "Nikki Grieco"
+            ],
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2010-01",
+        "zone": "sensitivity 1"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1852895.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
+            "authors": [
+              "Richard Kilpatrick",
+              "Nikki Grieco"
+            ],
+            "year": 2010,
+            "month": 1,
+            "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
+            "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2010-01",
+        "zone": "sensitivity 2"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "massive quartz veins",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q426",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "observed_name": "Vein tungsten",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q427",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       },
       {
-        "observed_name": "granitic porphyry veins",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "felsic porphyries (stockwork)",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "orogenic belts",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "observed_name": "Vein polymetallic",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q430",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T22:26:16.956093Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Playter Project in North America dated November 2009.pdf",
           "authors": [
             "Richard Kilpatrick",
-            "Nicole J. Grieco"
+            "Nikki Grieco"
           ],
-          "year": 2009,
-          "month": 11,
-          "description": "This report provides a mineral resource estimate and technical evaluation for the Playter Molybdenum-Rhenium Deposit in Marathon, Ontario, outlining geological findings, historical data, and exploration recommendations.",
+          "year": 2010,
+          "month": 1,
+          "description": "NI 43-101 Technical Report on the Playter Molybdenum - Rhenium Deposit, Marathon, Ontario, Canada",
           "uri": "https://api.cdr.land/v1/docs/documents/02dec2606cd043e1b33e7d5f3aaf66efa962d281460a126848111a133f95cd01dd"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

@@ -2,69 +2,54 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc",
-    "name": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+    "name": "Skouries Project",
     "location_info": {
-      "location": "POINT(23.654 40.473)",
+      "location": "POINT(23.5 40.5)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1085",
           "observed_name": "Greece",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
         {
           "observed_name": "Chalkidiki",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 180.4
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.83
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 1.4973,
@@ -80,56 +65,87 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
             {
-              "page": 53
+              "page": 10
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "skouries"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 180.4
+        },
+        "grade": {
+          "value": 0.55
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.9922,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 10.8
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.61
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 0.0659,
@@ -145,463 +161,7 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0888,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 42.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.71
-        },
-        "contained_metal": 0.3017,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "contained_metal": 0.0582,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 32.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.07
-        },
-        "contained_metal": 0.3467,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.16
-        },
-        "contained_metal": 0.0302,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "contained_metal": 0.4463,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.9
-        },
-        "contained_metal": 0.0351,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.83
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.4973,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
@@ -610,50 +170,33 @@
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "skouries"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 10.8
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.61
+          "value": 0.47
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 0.0659,
+        "contained_metal": 0.0508,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
@@ -666,7 +209,7 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
@@ -675,47 +218,30 @@
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "skouries"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14.8
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.6
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 0.0888,
@@ -731,7 +257,7 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
@@ -740,496 +266,33 @@
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "skouries"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 42.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.71
-        },
-        "contained_metal": 0.3017,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "contained_metal": 0.0582,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 32.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.07
-        },
-        "contained_metal": 0.3467,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.16
-        },
-        "contained_metal": 0.0302,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "contained_metal": 0.4463,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.9
-        },
-        "contained_metal": 0.0351,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.83
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.4973,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 10.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.61
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0659,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14.8
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
+          "value": 0.45
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 0.0888,
+        "contained_metal": 0.0666,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
@@ -1242,47 +305,36 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
             {
-              "page": 53
+              "page": 10
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "skouries"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 42.5
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.71
         },
         "contained_metal": 0.3017,
@@ -1298,342 +350,7 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "contained_metal": 0.0582,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 32.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.07
-        },
-        "contained_metal": 0.3467,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.16
-        },
-        "contained_metal": 0.0302,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "contained_metal": 0.4463,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.9
-        },
-        "contained_metal": 0.0351,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.83
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.4973,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
@@ -1642,171 +359,30 @@
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "skouries"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 10.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.61
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0659,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0888,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 42.5
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.71
+          "value": 0.46
         },
-        "contained_metal": 0.3017,
+        "contained_metal": 0.1955,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
@@ -1819,42 +395,36 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
         },
-        "date": "2007-5",
-        "zone": "open pit"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 9.7
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.6
         },
         "contained_metal": 0.0582,
@@ -1870,45 +440,88 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
         },
-        "date": "2007-5",
-        "zone": "open pit"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9.7
+        },
+        "grade": {
+          "value": 0.39
+        },
+        "contained_metal": 0.0378,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 32.4
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.07
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 0.3467,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
@@ -1921,7 +534,7 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
@@ -1930,871 +543,31 @@
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "underground operations"
+        "date": "2007-05",
+        "zone": "slc"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.16
-        },
-        "contained_metal": 0.0302,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "contained_metal": 0.4463,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.9
-        },
-        "contained_metal": 0.0351,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.83
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.4973,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.83
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.4973,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "contained_metal": 0.0582,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "contained_metal": 0.4463,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.9
-        },
-        "contained_metal": 0.0351,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground development"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 68.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.78
-        },
-        "contained_metal": 0.5359,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "all sources"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "contained_metal": 0.0582,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "contained_metal": 0.4463,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "underground operations"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.9
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.9
-        },
-        "contained_metal": 0.0351,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground development"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 68.7
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.78
-        },
-        "contained_metal": 0.5359,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 11
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "all sources"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 42.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.71
-        },
-        "contained_metal": 0.3017,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 32.4
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.07
+          "value": 0.62
         },
-        "contained_metal": 0.3467,
+        "contained_metal": 0.2009,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
@@ -2807,55 +580,44 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
             {
-              "page": 55
+              "page": 10
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "underground operations"
+        "date": "2007-05",
+        "zone": "slc"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2.6
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.16
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 0.0302,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
@@ -2868,47 +630,267 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
         },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
+        "date": "2007-05",
+        "zone": "development"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 2.6
+        },
+        "grade": {
+          "value": 0.66
+        },
+        "contained_metal": 0.0172,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "development"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 55.1
+        },
+        "grade": {
+          "value": 0.81
+        },
+        "contained_metal": 0.4463,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "slc"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 55.1
+        },
+        "grade": {
+          "value": 0.57
+        },
+        "contained_metal": 0.3141,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "slc"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3.9
+        },
+        "grade": {
+          "value": 0.9
+        },
+        "contained_metal": 0.0351,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "development"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3.9
+        },
+        "grade": {
+          "value": 0.62
+        },
+        "contained_metal": 0.0242,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "development"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 77.5
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.87
         },
         "contained_metal": 0.6742,
@@ -2924,868 +906,422 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
             {
-              "page": 55
+              "page": 11
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "all sources"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 191.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.5487,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 191.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.5487,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0888,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0888,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.55
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.9922,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 10.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.47
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0508,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0666,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.55
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.9922,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 10.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.47
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0508,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.0666,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 10
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "skouries"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.55
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.9922,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 53
-            }
-          ]
-        },
-        "date": "2007-5"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 180.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.55
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.9922,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 68.7
+        },
+        "grade": {
+          "value": 0.78
+        },
+        "contained_metal": 0.5359,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 77.5
+        },
+        "grade": {
+          "value": 0.54
+        },
+        "contained_metal": 0.4185,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 68.7
+        },
+        "grade": {
+          "value": 0.55
+        },
+        "contained_metal": 0.3779,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 180.4
+        },
+        "grade": {
+          "value": 0.83
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 1.4973,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 180.4
+        },
+        "grade": {
+          "value": 0.55
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.9922,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "None",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 42.5
+        },
+        "grade": {
+          "value": 0.46
+        },
+        "contained_metal": 0.1955,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "None",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
           "value": 9.7
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.39
+        },
+        "contained_metal": 0.0378,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "None",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 42.5
+        },
+        "grade": {
+          "value": 0.71
+        },
+        "contained_metal": 0.3017,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "None",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 9.7
+        },
+        "grade": {
           "value": 0.6
         },
         "contained_metal": 0.0582,
@@ -3801,47 +1337,136 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
             {
-              "page": 55
+              "page": 10
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "open pit"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55.1
+          "value": 32.4
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "proven slc"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2.6
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "proven development"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 55.1
+        },
+        "grade": {
           "value": 0.81
         },
         "contained_metal": 0.4463,
@@ -3857,47 +1482,37 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
             {
-              "page": 55
+              "page": 10
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "underground operations"
+        "date": "2007-05",
+        "zone": "probable slc"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 3.9
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.9
         },
         "contained_metal": 0.0351,
@@ -3913,297 +1528,7 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 42.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.46
-        },
-        "contained_metal": 0.1955,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "open pit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 32.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.62
-        },
-        "contained_metal": 0.2009,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (slc)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.6
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.66
-        },
-        "contained_metal": 0.0172,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.54
-        },
-        "contained_metal": 0.4185,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          },
-          "page_info": [
-            {
-              "page": 55
-            }
-          ]
-        },
-        "date": "2007-5",
-        "zone": "all sources"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 42.5
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.46
-        },
-        "contained_metal": 0.1955,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
@@ -4212,43 +1537,28 @@
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "open pit"
+        "date": "2007-05",
+        "zone": "probable development"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 32.4
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.62
         },
         "contained_metal": 0.2009,
@@ -4264,47 +1574,37 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
         },
-        "date": "2007-5",
-        "zone": "underground operations (slc)"
+        "date": "2007-05",
+        "zone": "proven slc"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2.6
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.66
         },
         "contained_metal": 0.0172,
@@ -4320,47 +1620,219 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
         },
-        "date": "2007-5",
-        "zone": "underground operations (development)"
+        "date": "2007-05",
+        "zone": "proven development"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 55.1
+        },
+        "grade": {
+          "value": 0.57
+        },
+        "contained_metal": 0.3141,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "probable slc"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3.9
+        },
+        "grade": {
+          "value": 0.62
+        },
+        "contained_metal": 0.0242,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2007-05",
+        "zone": "probable development"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Gold and Copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 77.5
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.87
+        },
+        "contained_metal": 0.6742,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
+          "page_info": [
+            {
+              "page": 55
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 68.7
+        },
+        "grade": {
+          "value": 0.78
+        },
+        "contained_metal": 0.5359,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
+            "authors": [
+              "Mike Beare",
+              "Geoff Bull",
+              "Patrick Forward",
+              "Philip Newman",
+              "Antony Francis"
+            ],
+            "year": 2007,
+            "month": 5,
+            "description": "Technical Report on the Skouries Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
+          },
+          "page_info": [
+            {
+              "page": 55
+            }
+          ]
+        },
+        "date": "2007-05"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 77.5
+        },
+        "grade": {
           "value": 0.54
         },
         "contained_metal": 0.4185,
@@ -4376,69 +1848,39 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
           },
           "page_info": [
             {
-              "page": 11
+              "page": 55
             }
           ]
         },
-        "date": "2007-5",
-        "zone": "all sources"
+        "date": "2007-05"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 191.2
+          "value": 68.7
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
+          "value": 0.55
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.5487,
+        "contained_metal": 0.3779,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
@@ -4451,84 +1893,28 @@
             ],
             "year": 2007,
             "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+            "description": "Technical Report on the Skouries Project",
             "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
           },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "page_info": [
+            {
+              "page": 55
+            }
+          ]
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 191.2
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.81
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gAu/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.5487,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Skouries Project in Europe, Greece dated May 2007.pdf",
-            "authors": [
-              "Mike Beare",
-              "Geoff Bull",
-              "Patrick Forward",
-              "Philip Newman",
-              "Antony Francis"
-            ],
-            "year": 2007,
-            "month": 5,
-            "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
-          }
-        },
-        "date": "2007-5"
+        "date": "2007-05"
       }
     ],
-    "deposit_type_candidate": [],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Porphyry copper \b gold",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+        "source": "Inferlink Extraction v3",
+        "confidence": 1.0
+      }
+    ],
+    "modified_at": "2024-12-10T17:51:38.761491Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -4542,11 +1928,10 @@
           ],
           "year": 2007,
           "month": 5,
-          "description": "A detailed technical report providing an assessment of the Skouries Cu-Au deposit in Greece, with a focus on mineral reserves, mining plans, and economic evaluation.",
+          "description": "Technical Report on the Skouries Project",
           "uri": "https://api.cdr.land/v1/docs/documents/0204a8a525576c06b07b624e4001d92a20fddc23a70ab4fcb7d9f9e9ce998b50fc"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

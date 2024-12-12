@@ -2,21 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02c3ff37f5332e4d1b105253988c49a9409660975cd504c919ac375735831313bc",
-    "name": "NI 43-101 Technical Report for the NMC Moland Project in Asia, South Korea dated October 2009.pdf",
+    "name": "NMC Moland Molybdenum Property",
     "location_info": {
-      "location": "POINT(128.072583 37.139574)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(28.2205 37.0658)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
           "observed_name": "South Korea",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,57 +18,41 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q5903",
           "observed_name": "Chungcheongbuk-do",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "observed_name": "MoS2",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1726299.0
         },
         "grade": {
-          "unit": {
-            "observed_name": "%MoS2",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.366
+          "value": 0.37
         },
         "cutoff_grade": {
-          "unit": {
-            "observed_name": "%MoS2",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
-        "contained_metal": 6318.2543,
+        "contained_metal": 6387.3063,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the NMC Moland Project in Asia, South Korea dated October 2009.pdf",
@@ -83,23 +61,28 @@
             ],
             "year": 2009,
             "month": 10,
-            "description": "This technical report summarizes the geology, status of development, ore reserve classification, and capital cost expenditure of the NMC Moland Molybdenum Property in South Korea.",
+            "description": "This report has been prepared to summarize the geology, status of development, ore reserve classification and capital cost expenditure of the NMC Moland Molybdenum Property in South Korea.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c3ff37f5332e4d1b105253988c49a9409660975cd504c919ac375735831313bc"
-          }
+          },
+          "page_info": [
+            {
+              "page": 67
+            }
+          ]
         },
-        "date": "2009-10",
-        "zone": "setong adit"
+        "date": "2009-10"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "skarn hosted",
+        "observed_name": "Skarn molybdenum",
         "normalized_uri": "https://minmod.isi.edu/resource/Q451",
-        "source": "Inferlink Extraction v2",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T16:31:29.861202Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -109,11 +92,10 @@
           ],
           "year": 2009,
           "month": 10,
-          "description": "This technical report summarizes the geology, status of development, ore reserve classification, and capital cost expenditure of the NMC Moland Molybdenum Property in South Korea.",
+          "description": "This report has been prepared to summarize the geology, status of development, ore reserve classification and capital cost expenditure of the NMC Moland Molybdenum Property in South Korea.",
           "uri": "https://api.cdr.land/v1/docs/documents/02c3ff37f5332e4d1b105253988c49a9409660975cd504c919ac375735831313bc"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

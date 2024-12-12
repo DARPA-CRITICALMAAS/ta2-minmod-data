@@ -2,20 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f",
-    "name": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+    "name": "Kisladag Project",
     "location_info": {
-      "location": "POINT(29.2 38.6)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(29.6995 38.6611)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1227",
           "observed_name": "Turkey",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,206 +18,75 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q7069",
           "observed_name": "Usak",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 55470000.0
+          "value": 9600000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.03
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 571341.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
             "authors": [
-              "G. H. Giroux"
+              "Gary Giroux"
             ],
             "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
           },
           "page_info": [
             {
-              "page": 27
+              "page": 4
             }
           ]
         },
-        "date": "2000-11"
+        "date": "2000-10"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 430000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1935.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
-            "authors": [
-              "G. H. Giroux"
-            ],
-            "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
-          },
-          "page_info": [
-            {
-              "page": 54
-            }
-          ]
-        },
-        "date": "2000-11"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 57900000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 694800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
-            "authors": [
-              "G. H. Giroux"
-            ],
-            "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
-          }
-        },
-        "date": "2000-11"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 116400000.0
         },
         "grade": {
@@ -230,182 +94,145 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.19
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1385160.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
-            "authors": [
-              "G. H. Giroux"
-            ],
-            "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
-          },
-          "page_info": [
-            {
-              "page": 25
-            }
-          ]
-        },
-        "date": "2000-11",
-        "zone": "oxide and sulphide domains"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 430000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.47
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 2021.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
             "authors": [
-              "G. H. Giroux"
+              "Gary Giroux"
             ],
             "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
           },
           "page_info": [
             {
-              "page": 54
+              "page": 4
             }
           ]
         },
-        "date": "2000-11",
-        "zone": "low grade mineralized latite"
+        "date": "2000-10"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 130000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.56
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 728.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
-            "authors": [
-              "G. H. Giroux"
-            ],
-            "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
-          },
-          "page_info": [
-            {
-              "page": 49
-            }
-          ]
-        },
-        "date": "2000-11",
-        "zone": "fine grained latite core"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
+          "value": 126000000.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
           },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 55000000.0
+        },
+        "grade": {
+          "value": 1.0
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 550000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 3700000.0
         },
         "grade": {
@@ -413,59 +240,197 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.35
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 49950.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
             "authors": [
-              "G. H. Giroux"
+              "Gary Giroux"
             ],
             "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
           },
           "page_info": [
             {
-              "page": 2
+              "page": 10
             }
           ]
         },
-        "date": "2000-11"
+        "date": "2000-10"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 57900000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
+          "value": 61600000.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
           },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 48300000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 9570000.0
         },
         "grade": {
@@ -473,29 +438,21 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.3
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 124410.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
             "authors": [
-              "G. H. Giroux"
+              "Gary Giroux"
             ],
             "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
           },
           "page_info": [
@@ -504,155 +461,78 @@
             }
           ]
         },
-        "date": "2000-11",
-        "zone": "oxide and sulphide domains"
+        "date": "2000-10"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9000.0
+          "value": 116400000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 36.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
             "authors": [
-              "G. H. Giroux"
+              "Gary Giroux"
             ],
             "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
           },
           "page_info": [
             {
-              "page": 54
+              "page": 24
             }
           ]
         },
-        "date": "2000-11",
-        "zone": "low grade mineralized latite"
+        "date": "2000-10"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           },
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 61600000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.22
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 751520.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
-            "authors": [
-              "G. H. Giroux"
-            ],
-            "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
-          }
-        },
-        "date": "2000-11"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 126000000.0
         },
         "grade": {
@@ -660,59 +540,307 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.2
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 1512000.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
             "authors": [
-              "G. H. Giroux"
+              "Gary Giroux"
             ],
             "year": 2000,
-            "month": 11,
-            "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 24
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 55470000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         },
-        "date": "2000-11",
-        "zone": "oxide and sulphide domains"
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 24
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 9600000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 24
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 116400000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 25
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 126000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 26
+            }
+          ]
+        },
+        "date": "2000-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 55470000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
+            "authors": [
+              "Gary Giroux"
+            ],
+            "year": 2000,
+            "month": 10,
+            "description": "Update of resources contained within the Kisladag gold deposit.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
+          },
+          "page_info": [
+            {
+              "page": 27
+            }
+          ]
+        },
+        "date": "2000-10"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "porphyry gold deposit",
+        "observed_name": "Porphyry copper \b gold",
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-        "source": "Inferlink Extraction v2",
-        "confidence": 1.0
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "Porphyry gold \b copper",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q456",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T22:07:29.411301Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Kisladag Project in Middle East, Turkey dated November 2000.pdf",
           "authors": [
-            "G. H. Giroux"
+            "Gary Giroux"
           ],
           "year": 2000,
-          "month": 11,
-          "description": "This technical report provides a comprehensive update on the resource estimation of the Kisladag gold deposit in Turkey, reflecting additional drilling data, specific gravity determinations, and a revised geological model.",
+          "month": 10,
+          "description": "Update of resources contained within the Kisladag gold deposit.",
           "uri": "https://api.cdr.land/v1/docs/documents/02ac93f8165401c94635394e9d73ff81b528435720941179946764649fb286057f"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

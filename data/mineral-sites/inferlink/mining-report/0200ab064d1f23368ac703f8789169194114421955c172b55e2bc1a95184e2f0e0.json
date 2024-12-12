@@ -2,37 +2,51 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0200ab064d1f23368ac703f8789169194114421955c172b55e2bc1a95184e2f0e0",
-    "name": "NI 43-101 Technical Report for the Bleiberg Project in Europe dated May 2017.pdf",
+    "name": "Bleiberg",
     "location_info": {
-      "location": "POINT(13.5875 46.615)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1014",
           "observed_name": "Austria",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
         {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2215",
-          "observed_name": "Carinthia",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q3186",
+          "observed_name": "Bad Bleiberg",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 7864.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
         },
         "reference": {
           "document": {
@@ -41,23 +55,74 @@
               "R. Tim Henneberry"
             ],
             "year": 2017,
-            "month": 5,
-            "description": "A technical report detailing the geology, historical data, and recommended exploration programs for the Bleiberg property in Southern Austria, prepared for Tasca Resources Ltd.",
+            "month": 2,
+            "description": "Technical report for Bleiberg property project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0200ab064d1f23368ac703f8789169194114421955c172b55e2bc1a95184e2f0e0"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2017-02"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 69816.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "tonnes",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         },
-        "category": []
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bleiberg Project in Europe dated May 2017.pdf",
+            "authors": [
+              "R. Tim Henneberry"
+            ],
+            "year": 2017,
+            "month": 2,
+            "description": "Technical report for Bleiberg property project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0200ab064d1f23368ac703f8789169194114421955c172b55e2bc1a95184e2f0e0"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2017-02"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Mississippi Valley Type Lead Zinc Deposits",
+        "observed_name": "MVT zinc-lead",
         "normalized_uri": "https://minmod.isi.edu/resource/Q380",
-        "source": "Inferlink Extraction v2",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T20:00:37.867793Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -66,12 +131,11 @@
             "R. Tim Henneberry"
           ],
           "year": 2017,
-          "month": 5,
-          "description": "A technical report detailing the geology, historical data, and recommended exploration programs for the Bleiberg property in Southern Austria, prepared for Tasca Resources Ltd.",
+          "month": 2,
+          "description": "Technical report for Bleiberg property project.",
           "uri": "https://api.cdr.land/v1/docs/documents/0200ab064d1f23368ac703f8789169194114421955c172b55e2bc1a95184e2f0e0"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

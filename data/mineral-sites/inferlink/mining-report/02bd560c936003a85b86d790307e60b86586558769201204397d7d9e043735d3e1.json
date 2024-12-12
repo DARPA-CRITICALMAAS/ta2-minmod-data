@@ -2,20 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1",
-    "name": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+    "name": "SWIFT-KATIE PROPERTY",
     "location_info": {
-      "location": "POINT(117.3361 49.1486)",
+      "location": "POINT(-117.336 49.148611)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,45 +24,139 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
           "observed_name": "British Columbia",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [],
+        "ore": {
+          "value": 288000000.0
+        },
+        "grade": {
+          "value": 0.456
+        },
+        "contained_metal": 1313280.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "copper mountain"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [],
+        "ore": {
+          "value": 288000000.0
+        },
+        "grade": {
+          "value": 0.127
+        },
+        "contained_metal": 365760.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "copper mountain"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [],
+        "ore": {
+          "value": 288000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "copper mountain"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 129000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.39
         },
         "contained_metal": 503100.0,
@@ -69,13 +164,11 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -84,42 +177,28 @@
             }
           ]
         },
-        "date": "2009-9"
+        "date": "2009-09",
+        "zone": "copper mountain"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 129000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.16
         },
         "contained_metal": 206400.0,
@@ -127,13 +206,11 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -142,33 +219,25 @@
             }
           ]
         },
-        "date": "2009-9"
+        "date": "2009-09",
+        "zone": "copper mountain"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
           "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 129000000.0
         },
         "grade": {
@@ -176,22 +245,18 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.6
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 2064000.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -200,56 +265,191 @@
             }
           ]
         },
-        "date": "2009-9"
+        "date": "2009-09",
+        "zone": "copper mountain"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [],
+        "ore": {
+          "value": 18325000.0
+        },
+        "grade": {
+          "value": 0.47
+        },
+        "contained_metal": 86127.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "ajax west"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [],
+        "ore": {
+          "value": 18325000.0
+        },
+        "grade": {
+          "value": 0.37
+        },
+        "contained_metal": 67802.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "ajax west"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
+        "ore": {
+          "value": 147000000.0
+        },
+        "grade": {
+          "value": 0.36
+        },
+        "contained_metal": 529200.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "ajax west"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 147000000.0
+        },
+        "grade": {
+          "value": 0.23
+        },
+        "contained_metal": 338100.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "ajax west"
+      },
+      {
+        "commodity": {
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
+        "category": [],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 129000000.0
+          "value": 9525000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
             "observed_name": "%",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.39
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 503100.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -258,57 +458,37 @@
             }
           ]
         },
-        "date": "2009-9",
-        "zone": "copper mountain"
+        "date": "2009-09",
+        "zone": "afton"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
           "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
+        "category": [],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 129000000.0
+          "value": 9525000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.16
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 206400.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -317,57 +497,107 @@
             }
           ]
         },
-        "date": "2009-9",
-        "zone": "copper mountain"
+        "date": "2009-09",
+        "zone": "afton"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
+        "category": [],
+        "ore": {
+          "value": 44400000.0
+        },
+        "grade": {
+          "value": 0.98
+        },
+        "contained_metal": 435120.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "afton"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [],
+        "ore": {
+          "value": 44400000.0
+        },
+        "grade": {
+          "value": 0.72
+        },
+        "contained_metal": 319680.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "afton"
+      },
+      {
+        "commodity": {
           "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
+        "category": [],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 129000000.0
+          "value": 44400000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.6
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 2064000.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -376,57 +606,40 @@
             }
           ]
         },
-        "date": "2009-9",
-        "zone": "copper mountain"
+        "date": "2009-09",
+        "zone": "afton"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 299000000.0
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 465000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
+          "value": 0.37
         },
-        "contained_metal": 1345500.0,
+        "contained_metal": 1720500.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -435,57 +648,40 @@
             }
           ]
         },
-        "date": "2009-9",
-        "zone": "mt. milligan"
+        "date": "2009-09",
+        "zone": "galore creek"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
           "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 299000000.0
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 465000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.22
+          "value": 0.33
         },
-        "contained_metal": 657800.0,
+        "contained_metal": 1534500.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -494,175 +690,44 @@
             }
           ]
         },
-        "date": "2009-9",
-        "zone": "mt. milligan"
+        "date": "2009-09",
+        "zone": "galore creek"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 129000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.39
-        },
-        "contained_metal": 503100.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
-            "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
-            ],
-            "year": 2009,
-            "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
-          },
-          "page_info": [
-            {
-              "page": 46
-            }
-          ]
-        },
-        "date": "2009-9",
-        "zone": "copper mountain"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 129000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.16
-        },
-        "contained_metal": 206400.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
-            "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
-            ],
-            "year": 2009,
-            "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
-          },
-          "page_info": [
-            {
-              "page": 46
-            }
-          ]
-        },
-        "date": "2009-9",
-        "zone": "copper mountain"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
           "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 129000000.0
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 465000000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.6
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 2064000.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -671,57 +736,40 @@
             }
           ]
         },
-        "date": "2009-9",
-        "zone": "copper mountain"
+        "date": "2009-09",
+        "zone": "galore creek"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 299000000.0
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 35700000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
+          "value": 0.75
         },
-        "contained_metal": 1345500.0,
+        "contained_metal": 267750.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -730,57 +778,44 @@
             }
           ]
         },
-        "date": "2009-9",
-        "zone": "mt. milligan"
+        "date": "2009-09",
+        "zone": "copper canyon"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 299000000.0
+          "value": 35700000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
             "observed_name": "g/t",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.22
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 657800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
             "authors": [
-              "Callum D. Mark",
-              "Brian McGrath",
-              "Craig Payne"
+              "Callum D. Mark"
             ],
             "year": 2009,
             "month": 9,
-            "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+            "description": "Technical Report",
             "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
           },
           "page_info": [
@@ -789,89 +824,169 @@
             }
           ]
         },
-        "date": "2009-9",
-        "zone": "mt. milligan"
+        "date": "2009-09",
+        "zone": "copper canyon"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 35700000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
+            "authors": [
+              "Callum D. Mark"
+            ],
+            "year": 2009,
+            "month": 9,
+            "description": "Technical Report",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
+          },
+          "page_info": [
+            {
+              "page": 46
+            }
+          ]
+        },
+        "date": "2009-09",
+        "zone": "copper canyon"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Katie - An alkalic copper-gold porphyry",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
+        "observed_name": "Alkalic epithermal gold \n Ag",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q419",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
       },
       {
-        "observed_name": "Swift - Polymetallic veins",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q430",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
+        "observed_name": "Placer gold deposits",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q306",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
       },
       {
-        "observed_name": "Ace in the Hole - Polymetallic veins",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q430",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "observed_name": "Gold bearing quartz veins (Sheep Creek Mining Camp, Ymir camp)",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "observed_name": "Sedimentary Exhalative deposits in Cambrian limestones (HB and Reeves Macdonald Mines)",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "observed_name": "Molybdenum Tungsten skarns and porphyries (Jersey, Emerald)",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
-      },
-      {
-        "observed_name": "Intrusive hosted gold deposits (Kena)",
+        "observed_name": "Porphyry copper \n gold \n",
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
       },
       {
-        "observed_name": "Gold bearing skarns (Second Relief)",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
+        "observed_name": "Vein polymetallic",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q430",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
       },
       {
-        "observed_name": "Polymetallic skarns",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q408",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
+        "observed_name": "Replacement polymetallic",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q437",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
       },
       {
-        "observed_name": "Industrial minerals (Flagstones)",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
+        "observed_name": "Replacement magnesium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q443",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
       },
       {
-        "observed_name": "Placer gold deposits (Hellroaring Creek, Pend d'Oreille River)",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q303",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.09090909090909091
+        "observed_name": "Replacement fluorite",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q444",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn iron",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q445",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn copper",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q446",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn tungsten \n Mo",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q447",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn tin \n copper \n Mo",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q448",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn gold \n copper \n tungsten",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q449",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn zinc-lead-silver",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q450",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn molybdenum",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q451",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn beryllium-fluorite",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q452",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
+      },
+      {
+        "observed_name": "Skarn uranium-REE",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q453",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.0625
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T22:03:20.969793Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Swift-Katie Project in North America dated September 2009.pdf",
           "authors": [
-            "Callum D. Mark",
-            "Brian McGrath",
-            "Craig Payne"
+            "Callum D. Mark"
           ],
           "year": 2009,
           "month": 9,
-          "description": "This technical report identifies the Swift-Katie property in the Nelson Mining Division of southeastern British Columbia, detailing its geological and exploration history, and recommending a phased exploration program.",
+          "description": "Technical Report",
           "uri": "https://api.cdr.land/v1/docs/documents/02bd560c936003a85b86d790307e60b86586558769201204397d7d9e043735d3e1"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

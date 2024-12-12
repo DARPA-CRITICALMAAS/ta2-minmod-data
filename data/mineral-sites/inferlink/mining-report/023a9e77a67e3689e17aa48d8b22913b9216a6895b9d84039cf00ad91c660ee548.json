@@ -2,20 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548",
-    "name": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+    "name": "West Graham Property",
     "location_info": {
-      "location": "POINT(-81.4167 46.4667)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-81.299389 46.492383)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,49 +18,33 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
           "observed_name": "Ontario",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 8550000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 38475.0,
@@ -78,51 +57,40 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01",
+        "zone": "conwest zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.38
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 7600.0,
@@ -135,33 +103,740 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01",
+        "zone": "conwest zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 270000.0
+        },
+        "grade": {
+          "value": 0.57
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 1539.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "boundary pillar"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.31
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 26505.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.3
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 6000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [],
+        "ore": {
+          "value": 270000.0
+        },
+        "grade": {
+          "value": 0.33
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 891.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "boundary pillar"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.01
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 855.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.01
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 200.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [],
+        "ore": {
+          "value": 270000.0
+        },
+        "grade": {
+          "value": 0.02
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 54.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "boundary pillar"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 2565.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.04
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 800.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [],
+        "ore": {
+          "value": 270000.0
+        },
+        "grade": {
+          "value": 0.02
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 54.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "boundary pillar"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum-group elements",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q582"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.07
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 5985.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum-group elements",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q582"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 1800.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum-group elements",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q582"
+        },
+        "category": [],
+        "ore": {
+          "value": 270000.0
+        },
+        "grade": {
+          "value": 0.06
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 162.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "boundary pillar"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [],
+        "ore": {
+          "value": 270000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "boundary pillar"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 8550000.0
         },
         "grade": {
@@ -169,17 +844,144 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
             "observed_name": "%",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
             "observed_name": "%",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "conwest zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [],
+        "ore": {
+          "value": 270000.0
+        },
+        "grade": {
+          "value": 3.0
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 8100.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01",
+        "zone": "boundary pillar"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.45
+        },
+        "cutoff_grade": {
           "value": 0.3
         },
         "contained_metal": 38475.0,
@@ -192,51 +994,223 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.31
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 26505.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
-          "value": 2000000.0
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.01
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 855.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 2565.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
           "value": 0.38
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 7600.0,
@@ -249,165 +1223,550 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8550000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 38475.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8550000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 38475.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.3
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 6000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.01
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 200.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 2000000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.04
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 800.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.45
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 38475.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.31
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 26505.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.01
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 855.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 2565.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum-group elements",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q582"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
           "value": 0.38
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 7600.0,
@@ -420,51 +1779,321 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.3
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 6000.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
-          "value": 8550000.0
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.01
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 200.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "value": 0.04
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 800.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum-group elements",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q582"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
+          "page_info": [
+            {
+              "page": 66
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
           "value": 0.45
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 38475.0,
@@ -477,51 +2106,227 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.31
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 26505.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
-          "value": 2000000.0
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "value": 0.01
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 855.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
           },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8550000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
+            "authors": [
+              "Richard Routledge",
+              "Bruce Churchill"
+            ],
+            "year": 2009,
+            "month": 1,
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
+            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2009-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2000000.0
+        },
+        "grade": {
           "value": 0.38
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 7600.0,
@@ -534,54 +2339,42 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8550000.0
+          "value": 2000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
-        "contained_metal": 38475.0,
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 6000.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
@@ -591,51 +2384,39 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
+          "observed_name": "cobalt",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.01
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 200.0,
@@ -648,54 +2429,46 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
+          "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2000000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.01
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
-        "contained_metal": 200.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
@@ -705,280 +2478,46 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
+        "date": "2009-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
+          "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.01
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.01
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.01
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.01
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2000000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.04
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
-        "contained_metal": 800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
@@ -988,1675 +2527,39 @@
             ],
             "year": 2009,
             "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+            "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
             "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 1800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 1800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 1800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 1800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 1800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 1800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.03
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 600.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.03
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 600.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.03
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 600.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.03
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 600.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.03
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 600.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.03
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 600.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 42200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 42200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 42200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 42200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 42200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 42200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.15
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 43000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.15
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 43000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
           },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.15
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 43000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.15
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 43000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.15
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 43000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
-        },
-        "date": "2009-1",
-        "zone": "conwest zone, west graham property"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.15
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 43000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Graham Project in North America dated January 2009.pdf",
-            "authors": [
-              "Richard Routledge",
-              "Bruce Churchill"
-            ],
-            "year": 2009,
-            "month": 1,
-            "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
-          }
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
         },
-        "date": "2009-1"
+        "date": "2009-01"
       }
     ],
     "deposit_type_candidate": [
       {
         "observed_name": "Contact-type massive to disseminated sulphides",
-        "source": "Inferlink Extraction v2",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q365",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.3333333333333333
       },
       {
         "observed_name": "Copper and PGE-rich footwall veins and stockworks",
-        "source": "Inferlink Extraction v2",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q304",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.3333333333333333
       },
       {
         "observed_name": "Offset quartz-norite dikes",
-        "source": "Inferlink Extraction v2",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.3333333333333333
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T16:45:24.365634Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -2667,11 +2570,10 @@
           ],
           "year": 2009,
           "month": 1,
-          "description": "This report is a resource estimate and technical analysis of the West Graham property near the Lockerby Mine, focusing on nickel-copper sulphide mineralization.",
+          "description": "Technical report on the West Graham property, Conwest Zone resource estimate.",
           "uri": "https://api.cdr.land/v1/docs/documents/023a9e77a67e3689e17aa48d8b22913b9216a6895b9d84039cf00ad91c660ee548"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

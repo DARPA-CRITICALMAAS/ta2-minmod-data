@@ -2,66 +2,59 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2",
-    "name": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+    "name": "Minera Salar Blanco - Lithium Project",
     "location_info": {
-      "location": "POINT(-69.229437 28.256845)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS 84",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-69.2921 -24.1993)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1043",
           "observed_name": "Chile",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q2732",
-          "observed_name": "Atacama",
+          "observed_name": "III Regi\u00f3n, Atacama",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 154500.0
+          "value": 19.0
         },
         "grade": {
           "unit": {
-            "observed_name": "mg/L",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q208",
+            "observed_name": "milligram per litre",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 968.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 1495560.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
@@ -72,7 +65,391 @@
             ],
             "year": 2022,
             "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 29
+            }
+          ]
+        },
+        "date": "2022-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 13.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q208",
+            "observed_name": "milligram per litre",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 29
+            }
+          ]
+        },
+        "date": "2022-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 60.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q208",
+            "observed_name": "milligram per litre",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 29
+            }
+          ]
+        },
+        "date": "2022-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 358000.0
+        },
+        "grade": {
+          "value": 99.0
+        },
+        "contained_metal": 354420.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 248
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "old code concessions"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Potash",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2600000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q208",
+            "observed_name": "g/m3",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 248
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "old code concessions"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 1905000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 248
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "occ"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "KCl",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 4950000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 248
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "occ"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 154500.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
           },
           "page_info": [
@@ -81,42 +458,33 @@
             }
           ]
         },
-        "date": "2022-1",
-        "zone": "stage one project"
+        "date": "2022-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 203500.0
         },
         "grade": {
           "unit": {
-            "observed_name": "mg/L",
+            "observed_name": "mg/l",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 939.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 1910865.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
@@ -127,7 +495,7 @@
             ],
             "year": 2022,
             "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
           },
           "page_info": [
@@ -136,422 +504,39 @@
             }
           ]
         },
-        "date": "2022-1",
-        "zone": "stage one project"
+        "date": "2022-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           },
-          "value": 146000.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1175.0
-        },
-        "contained_metal": 1715500.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          },
-          "page_info": [
-            {
-              "page": 78
-            }
-          ]
-        },
-        "date": "2022-1",
-        "zone": "blanco project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 244000.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1153.0
-        },
-        "contained_metal": 2813320.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          },
-          "page_info": [
-            {
-              "page": 78
-            }
-          ]
-        },
-        "date": "2022-1",
-        "zone": "blanco project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 389000.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1167.0
-        },
-        "contained_metal": 4539630.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          },
-          "page_info": [
-            {
-              "page": 78
-            }
-          ]
-        },
-        "date": "2022-1",
-        "zone": "blanco project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 203500.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 939.0
-        },
-        "contained_metal": 1910865.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          }
-        },
-        "date": "2022-1",
-        "zone": "stage one project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 244000.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1153.0
-        },
-        "contained_metal": 2813320.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          },
-          "page_info": [
-            {
-              "page": 78
-            }
-          ]
-        },
-        "date": "2022-1",
-        "zone": "blanco project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 154500.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 968.0
-        },
-        "contained_metal": 1495560.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          }
-        },
-        "date": "2022-1",
-        "zone": "stage one project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 146000.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1175.0
-        },
-        "contained_metal": 1715500.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          },
-          "page_info": [
-            {
-              "page": 78
-            }
-          ]
-        },
-        "date": "2022-1",
-        "zone": "blanco project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Li metal",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 26000.0
+          "value": 358000.0
         },
         "grade": {
           "unit": {
             "observed_name": "mg/l",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1068.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 277680.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
@@ -562,216 +547,42 @@
             ],
             "year": 2022,
             "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 28
             }
           ]
         },
-        "date": "2022-1",
-        "zone": "old code"
+        "date": "2022-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Li metal",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 32000.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/l",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1170.0
-        },
-        "contained_metal": 374400.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          }
-        },
-        "date": "2022-1",
-        "zone": "litio 1-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Li metal",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 76000.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/l",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 950.0
-        },
-        "contained_metal": 722000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          }
-        },
-        "date": "2022-1",
-        "zone": "stage one project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
           "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2818000.0
-        },
-        "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8500.0
-        },
-        "contained_metal": 239530000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
-            "authors": [
-              "Frederik Reidel",
-              "Peter Ehren",
-              "Marek Dworzanowski"
-            ],
-            "year": 2022,
-            "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          },
-          "page_info": [
-            {
-              "page": 78
-            }
-          ]
-        },
-        "date": "2022-1",
-        "zone": "blanco project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1140000.0
         },
         "grade": {
           "unit": {
-            "observed_name": "mg/L",
+            "observed_name": "mg/l",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7125.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 81225000.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
@@ -782,46 +593,143 @@
             ],
             "year": 2022,
             "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
-          }
+          },
+          "page_info": [
+            {
+              "page": 28
+            }
+          ]
         },
-        "date": "2022-1",
-        "zone": "stage one project"
+        "date": "2022-01"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
           "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1460000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 28
+            }
+          ]
+        },
+        "date": "2022-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2600000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 28
+            }
+          ]
+        },
+        "date": "2022-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
             "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1065000.0
+          "value": 154500.0
         },
         "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8624.0
+          "value": 87.0
         },
-        "contained_metal": 91845600.0,
+        "contained_metal": 134415.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
@@ -832,56 +740,382 @@
             ],
             "year": 2022,
             "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 28
             }
           ]
         },
-        "date": "2022-1",
-        "zone": "blanco project"
+        "date": "2022-01",
+        "zone": "old code concessions"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 203500.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q208",
+            "observed_name": "g/m3",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 28
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "old code concessions"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 358000.0
+        },
+        "grade": {
+          "value": 99.0
+        },
+        "contained_metal": 354420.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 28
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "old code concessions"
+      },
+      {
+        "commodity": {
           "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Potash",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 1140000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q208",
+            "observed_name": "g/m3",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 28
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "old code concessions"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Potash",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 1460000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q208",
+            "observed_name": "g/m3",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 28
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "old code concessions"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Potash",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2600000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q208",
+            "observed_name": "g/m3",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 28
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "old code concessions"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 19.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 65.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 300
+            }
+          ]
+        },
+        "date": "2022-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
             "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "Li metal",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 26000.0
+          "value": 13.0
         },
         "grade": {
           "unit": {
             "observed_name": "mg/l",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1068.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 277680.0,
+        "cutoff_grade": {
+          "value": 65.0
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
@@ -892,56 +1126,52 @@
             ],
             "year": 2022,
             "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 300
             }
           ]
         },
-        "date": "2022-1",
-        "zone": "old code"
+        "date": "2022-01",
+        "zone": "1-7"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
+          "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
             "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "Li metal",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 32000.0
+          "value": 60.0
         },
         "grade": {
           "unit": {
             "observed_name": "mg/l",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1170.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 374400.0,
+        "cutoff_grade": {
+          "value": 65.0
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
@@ -952,32 +1182,258 @@
             ],
             "year": 2022,
             "month": 1,
-            "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
             "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 300
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "8-20"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 92.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         },
-        "date": "2022-1",
-        "zone": "litio 1-6"
+        "cutoff_grade": {
+          "value": 65.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 300
+            }
+          ]
+        },
+        "date": "2022-01",
+        "zone": "1-20"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 9000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 393
+            }
+          ]
+        },
+        "date": "2022-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 12000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 393
+            }
+          ]
+        },
+        "date": "2022-01"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 37000.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "mg/l",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Minera Salar Blanco project in Chile dated January, 2022.pdf",
+            "authors": [
+              "Frederik Reidel",
+              "Peter Ehren",
+              "Marek Dworzanowski"
+            ],
+            "year": 2022,
+            "month": 1,
+            "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
+          },
+          "page_info": [
+            {
+              "page": 393
+            }
+          ]
+        },
+        "date": "2022-01"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Mature salars",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
+        "observed_name": "Lacustrine brine lithium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q354",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
       },
       {
-        "observed_name": "Immature salars",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
+        "observed_name": "Lacustrine evaporite salt",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q346",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
       },
       {
-        "observed_name": "Mixed type salars",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
+        "observed_name": "Lacustrine evaporite carnallite-bischofite",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q348",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "Lacustrine evaporite borate",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q349",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "Lacustrine brine potash",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q353",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-11T19:37:39.582643Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -989,11 +1445,10 @@
           ],
           "year": 2022,
           "month": 1,
-          "description": "This report provides an independent updated Mineral Reserve estimation and a technical appraisal of the economic viability of the production of battery-grade lithium carbonate over a 20-year mine-life from the Maricunga project in Chile.",
+          "description": "Technical Report NI 43 -101 Definitive Feasibility Study for Minera Salar Blanco.",
           "uri": "https://api.cdr.land/v1/docs/documents/02ca551dfc7cb14d58e78efed93976f62ab3bea5d63474e1b76ad83bba9641fdc2"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

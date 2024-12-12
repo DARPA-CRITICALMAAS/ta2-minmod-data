@@ -2,83 +2,67 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a",
-    "name": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
+    "name": "Point Leamington Property",
     "location_info": {
-      "location": "POINT(554475 5488890)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-57.029918 48.132367)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
-          "observed_name": "Newfoundland and Labrador",
+          "observed_name": "Newfoundland",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14100000.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.07
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.0
         },
-        "contained_metal": 150870.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
             "authors": [
               "Todd McCracken",
-              "Paul Daigle"
+              "Paul Daigle",
+              "Jeff Wilson"
             ],
             "year": 2013,
             "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
           },
           "page_info": [
@@ -87,476 +71,30 @@
             }
           ]
         },
-        "date": "2013-7",
-        "zone": "point leamington"
+        "date": "2013-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19367000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.95
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "contained_metal": 183986.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14093000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.0
-        },
-        "contained_metal": 150795.1,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9669000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.22
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
-        },
-        "contained_metal": 117961.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6184000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.41
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.0
-        },
-        "contained_metal": 87194.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3460000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.68
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7.0
-        },
-        "contained_metal": 58128.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2038000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.94
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 39537.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14.1
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.0
-        },
-        "contained_metal": 0.1509,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          }
-        },
-        "date": "2013-7",
-        "zone": "north zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14100000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.42
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.0
         },
         "contained_metal": 59220.0,
@@ -565,11 +103,12 @@
             "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
             "authors": [
               "Todd McCracken",
-              "Paul Daigle"
+              "Paul Daigle",
+              "Jeff Wilson"
             ],
             "year": 2013,
             "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
           },
           "page_info": [
@@ -578,419 +117,30 @@
             }
           ]
         },
-        "date": "2013-7",
-        "zone": "point leamington"
+        "date": "2013-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19367000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.37
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "contained_metal": 71657.9,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14093000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.42
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4.0
-        },
-        "contained_metal": 59190.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9669000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.46
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
-        },
-        "contained_metal": 44477.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6184000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.0
-        },
-        "contained_metal": 30920.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3460000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.52
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7.0
-        },
-        "contained_metal": 17992.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2038000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.51
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 10393.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14100000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.02
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.0
         },
         "contained_metal": 2820.0,
@@ -999,11 +149,12 @@
             "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
             "authors": [
               "Todd McCracken",
-              "Paul Daigle"
+              "Paul Daigle",
+              "Jeff Wilson"
             ],
             "year": 2013,
             "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
           },
           "page_info": [
@@ -1012,60 +163,148 @@
             }
           ]
         },
-        "date": "2013-7",
-        "zone": "point leamington"
+        "date": "2013-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19367.0
+          "value": 14100000.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.02
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
+          "value": 4.0
         },
-        "contained_metal": 3.8734,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
             "authors": [
               "Todd McCracken",
-              "Paul Daigle"
+              "Paul Daigle",
+              "Jeff Wilson"
             ],
             "year": 2013,
             "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2013-07"
+      },
+      {
+        "commodity": {
+          "observed_name": "silver",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 14100000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 4.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
+            "authors": [
+              "Todd McCracken",
+              "Paul Daigle",
+              "Jeff Wilson"
+            ],
+            "year": 2013,
+            "month": 7,
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2013-07"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 14093.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 4.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
+            "authors": [
+              "Todd McCracken",
+              "Paul Daigle",
+              "Jeff Wilson"
+            ],
+            "year": 2013,
+            "month": 7,
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
           },
           "page_info": [
@@ -1074,47 +313,30 @@
             }
           ]
         },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
+        "date": "2013-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14093.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.02
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.0
         },
         "contained_metal": 2.8186,
@@ -1123,11 +345,12 @@
             "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
             "authors": [
               "Todd McCracken",
-              "Paul Daigle"
+              "Paul Daigle",
+              "Jeff Wilson"
             ],
             "year": 2013,
             "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
           },
           "page_info": [
@@ -1136,370 +359,44 @@
             }
           ]
         },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
+        "date": "2013-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9669.0
+          "value": 14093.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.02
+          "value": 0.42
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
-        },
-        "contained_metal": 1.9338,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6184.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.0
-        },
-        "contained_metal": 1.2368,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3460.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7.0
-        },
-        "contained_metal": 0.692,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2038.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 0.4076,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14100000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.86
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.0
         },
-        "contained_metal": 262260.0,
+        "contained_metal": 59.1906,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
             "authors": [
               "Todd McCracken",
-              "Paul Daigle"
+              "Paul Daigle",
+              "Jeff Wilson"
             ],
             "year": 2013,
             "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 12
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 19367000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.63
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.0
-        },
-        "contained_metal": 315682.1,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
           },
           "page_info": [
@@ -1508,60 +405,48 @@
             }
           ]
         },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
+        "date": "2013-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 14093000.0
+          "value": 14093.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.86
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.0
         },
-        "contained_metal": 262129.8,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
             "authors": [
               "Todd McCracken",
-              "Paul Daigle"
+              "Paul Daigle",
+              "Jeff Wilson"
             ],
             "year": 2013,
             "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
           },
           "page_info": [
@@ -1570,60 +455,48 @@
             }
           ]
         },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
+        "date": "2013-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "silver",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9669000.0
+          "value": 14093.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.11
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
+          "value": 4.0
         },
-        "contained_metal": 204015.9,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
             "authors": [
               "Todd McCracken",
-              "Paul Daigle"
+              "Paul Daigle",
+              "Jeff Wilson"
             ],
             "year": 2013,
             "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+            "description": "Technical report and resource estimate on the Point Leamington Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
           },
           "page_info": [
@@ -1632,224 +505,34 @@
             }
           ]
         },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6184000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.36
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.0
-        },
-        "contained_metal": 145942.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3460000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2.69
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7.0
-        },
-        "contained_metal": 93074.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2038000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3.02
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 8.0
-        },
-        "contained_metal": 61547.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
-            "authors": [
-              "Todd McCracken",
-              "Paul Daigle"
-            ],
-            "year": 2013,
-            "month": 7,
-            "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
-          },
-          "page_info": [
-            {
-              "page": 74
-            }
-          ]
-        },
-        "date": "2013-7",
-        "zone": "point leamington deposit"
+        "date": "2013-07"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Noranda-type VMS",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
-      },
-      {
-        "observed_name": "VMS (Volcanogenic Massive Sulphide)",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
+        "observed_name": "Mafic-siliciclastic VMS",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q410",
+        "source": "Inferlink Extraction v3",
+        "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-11T19:44:44.231166Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Point Leamington Project in North America dated July 2013.pdf",
           "authors": [
             "Todd McCracken",
-            "Paul Daigle"
+            "Paul Daigle",
+            "Jeff Wilson"
           ],
           "year": 2013,
           "month": 7,
-          "description": "This report provides an independent assessment and mineral resource estimate for the Point Leamington Project in Newfoundland, Canada, and recommends further exploration programs.",
+          "description": "Technical report and resource estimate on the Point Leamington Property.",
           "uri": "https://api.cdr.land/v1/docs/documents/02bf9bb14d638b43856fdde1a15a9ef944726e2d8c30820b2413d7c51fcaf9cd3a"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

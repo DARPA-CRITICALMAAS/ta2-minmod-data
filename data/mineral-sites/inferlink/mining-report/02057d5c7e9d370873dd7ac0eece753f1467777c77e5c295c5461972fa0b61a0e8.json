@@ -2,21 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02057d5c7e9d370873dd7ac0eece753f1467777c77e5c295c5461972fa0b61a0e8",
-    "name": "NI 43-101 Technical Report for the Kindersley project in Canada dated April, 2022.pdf",
+    "name": "Kindersley Lithium Project",
     "location_info": {
-      "location": "POINT(-109.168444 51.474361)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-106.0 53.0)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,43 +18,39 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2664",
           "observed_name": "Saskatchewan",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "observed_name": "Kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2906000000.0
+          "value": 2906000.0
         },
         "grade": {
-          "unit": {
-            "observed_name": "mg/L",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 74.0
         },
-        "contained_metal": 2150440000.0,
+        "contained_metal": 2150440.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Kindersley project in Canada dated April, 2022.pdf",
@@ -72,26 +62,28 @@
             ],
             "year": 2022,
             "month": 6,
-            "description": "This technical report presents a resource assessment for the Kindersley Lithium Project located in Saskatchewan, Canada, focusing on the exploration, geology, and potential development of lithium-enriched subsurface brines.",
+            "description": "NI 43\u2010101 Technical Report: Resource Assessment \u2013 Kindersley Lithium Project (Saskatchewan, Canada)",
             "uri": "https://api.cdr.land/v1/docs/documents/02057d5c7e9d370873dd7ac0eece753f1467777c77e5c295c5461972fa0b61a0e8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 52
+            }
+          ]
         },
-        "date": "2022-6"
+        "date": "2022-06"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Conventional hard rock mining of pegmatites",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
-      },
-      {
-        "observed_name": "Evapo-concentration of subsurface brine",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
+        "observed_name": "Lacustrine brine lithium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q354",
+        "source": "Inferlink Extraction v3",
+        "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T23:21:51.371445Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -104,11 +96,10 @@
           ],
           "year": 2022,
           "month": 6,
-          "description": "This technical report presents a resource assessment for the Kindersley Lithium Project located in Saskatchewan, Canada, focusing on the exploration, geology, and potential development of lithium-enriched subsurface brines.",
+          "description": "NI 43\u2010101 Technical Report: Resource Assessment \u2013 Kindersley Lithium Project (Saskatchewan, Canada)",
           "uri": "https://api.cdr.land/v1/docs/documents/02057d5c7e9d370873dd7ac0eece753f1467777c77e5c295c5461972fa0b61a0e8"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

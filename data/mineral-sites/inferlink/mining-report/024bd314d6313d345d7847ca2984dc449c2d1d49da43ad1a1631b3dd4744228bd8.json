@@ -2,70 +2,59 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8",
-    "name": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+    "name": "Sangdong Project Feasibility Study",
     "location_info": {
-      "location": "POINT(129.29985 37.1346)",
+      "location": "POINT(0 0)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1206",
-          "observed_name": "South Korea",
+          "observed_name": "",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
+        }
+      ],
+      "state_or_province": [
+        {
+          "observed_name": "",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2298000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.63
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 14477.4,
@@ -73,75 +62,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "f2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2604000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.56
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 14582.4,
@@ -149,75 +121,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "f3"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 5576000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.27
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 15055.2,
@@ -225,75 +180,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "halo"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 5952000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.5
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 29760.0,
@@ -301,75 +239,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "main"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2680000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.5
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 13400.0,
@@ -377,75 +298,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "f2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2712000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.49
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 13288.8,
@@ -453,75 +357,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "f3"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 6523000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.23
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 15002.9,
@@ -529,75 +416,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "halo"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 7191000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.58
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 41707.8,
@@ -605,75 +475,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "hangingwall"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
-          "observed_name": "MoS2",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 259000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.52
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 1346.8,
@@ -681,130 +534,1048 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "main"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
-        "category": [],
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
         "material_form": {
-          "observed_name": "MoS2",
+          "observed_name": "Molybdenum Disulphide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13314000.0
+          "value": 2298000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.425
+          "value": 0.04
         },
-        "contained_metal": 56584.5,
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 919.2,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
         },
-        "date": "2012-6"
+        "date": "2012-06",
+        "zone": "f2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2604000.0
+        },
+        "grade": {
+          "value": 0.05
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 1302.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f3"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5576000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 1672.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "halo"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5952000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 1785.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "main"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2680000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 804.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f2"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2712000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 813.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f3"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 6523000.0
+        },
+        "grade": {
+          "value": 0.02
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 1304.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "halo"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 7191000.0
+        },
+        "grade": {
+          "value": 0.08
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 5752.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "hangingwall"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 259000.0
+        },
+        "grade": {
+          "value": 0.02
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 51.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "main"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2680000.0
+          "value": 2298000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.63
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 14477.4,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f2"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2298000.0
+        },
+        "grade": {
+          "value": 0.04
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 919.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f2"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2604000.0
+        },
+        "grade": {
+          "value": 0.56
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 14582.4,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f3"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2604000.0
+        },
+        "grade": {
+          "value": 0.05
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 1302.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f3"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5576000.0
+        },
+        "grade": {
+          "value": 0.27
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 15055.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "halo"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5576000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 1672.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "halo"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5952000.0
+        },
+        "grade": {
           "value": 0.5
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.15
+        },
+        "contained_metal": 29760.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "main"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5952000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 1785.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "main"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2680000.0
+        },
+        "grade": {
+          "value": 0.5
+        },
+        "cutoff_grade": {
           "value": 0.15
         },
         "contained_metal": 13400.0,
@@ -812,76 +1583,116 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "f2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2680000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 804.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f2"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2712000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.49
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 13288.8,
@@ -889,76 +1700,116 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "f3"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2712000.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 813.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f3"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 6523000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.23
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 15002.9,
@@ -966,76 +1817,116 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "halo"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 6523000.0
+        },
+        "grade": {
+          "value": 0.02
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 1304.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "halo"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 7191000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.58
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 41707.8,
@@ -1043,76 +1934,116 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "hangingwall"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 7191000.0
+        },
+        "grade": {
+          "value": 0.08
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 5752.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "hangingwall"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 259000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.52
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 1346.8,
@@ -1120,209 +2051,352 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
           "page_info": [
             {
-              "page": 78
+              "page": 19
             }
           ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "main"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13314000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.425
-        },
-        "contained_metal": 56584.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
-            "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
-              "Paul Gribble",
-              "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
-              "Karlis Jansons",
-              "Tim Wrigley"
-            ],
-            "year": 2012,
-            "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
-        },
-        "date": "2012-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13314000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.425
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.239
-        },
-        "contained_metal": 56584.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
-            "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
-              "Paul Gribble",
-              "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
-              "Karlis Jansons",
-              "Tim Wrigley"
-            ],
-            "year": 2012,
-            "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
-        },
-        "date": "2012-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
           "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "molybdenum disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 259000.0
+        },
+        "grade": {
+          "value": 0.02
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 51.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "main"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2680000.0
+          "value": 2298000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.63
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 14477.4,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f2"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2604000.0
+        },
+        "grade": {
+          "value": 0.56
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 14582.4,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f3"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5576000.0
+        },
+        "grade": {
+          "value": 0.27
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 15055.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "halo"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5952000.0
+        },
+        "grade": {
           "value": 0.5
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.15
+        },
+        "contained_metal": 29760.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "main"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2680000.0
+        },
+        "grade": {
+          "value": 0.5
+        },
+        "cutoff_grade": {
           "value": 0.15
         },
         "contained_metal": 13400.0,
@@ -1330,71 +2404,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "f2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 2712000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.49
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 13288.8,
@@ -1402,71 +2463,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "f3"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 6523000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.23
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 15002.9,
@@ -1474,71 +2522,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "halo"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 7191000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.58
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 41707.8,
@@ -1546,71 +2581,58 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "hangingwall"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 259000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.52
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.15
         },
         "contained_metal": 1346.8,
@@ -1618,329 +2640,632 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
         },
-        "date": "2012-6",
+        "date": "2012-06",
         "zone": "main"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "Probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13314000.0
+          "value": 4097000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.425
-        },
-        "contained_metal": 56584.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
-            "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
-              "Paul Gribble",
-              "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
-              "Karlis Jansons",
-              "Tim Wrigley"
-            ],
-            "year": 2012,
-            "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
-        },
-        "date": "2012-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13314000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.425
+          "value": 0.6
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.239
+          "value": 0.15
         },
-        "contained_metal": 56584.5,
+        "contained_metal": 24582.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
         },
-        "date": "2012-6"
+        "date": "2012-06",
+        "zone": "f2"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
+          "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "Probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13314000.0
+          "value": 4315000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.425
-        },
-        "contained_metal": 56584.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
-            "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
-              "Paul Gribble",
-              "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
-              "Karlis Jansons",
-              "Tim Wrigley"
-            ],
-            "year": 2012,
-            "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
-            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
-        },
-        "date": "2012-6"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13314000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.425
+          "value": 0.57
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.15
+        },
+        "contained_metal": 24595.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
           },
-          "value": 0.239
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "f3"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5973000.0
+        },
+        "grade": {
+          "value": 0.21
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 12543.3,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "halo"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 15924000.0
+        },
+        "grade": {
+          "value": 0.69
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 109875.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "hangingwall"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 4208000.0
+        },
+        "grade": {
+          "value": 0.6
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 25248.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "main"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 13314000.0
+        },
+        "grade": {
+          "value": 0.425
         },
         "contained_metal": 56584.5,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
             "authors": [
-              "Philip Thomas",
-              "Michael Harry Turner",
+              "Jonathan Gliddon",
               "Paul Gribble",
               "Andrew Carter",
-              "Rodney David Elvish",
-              "Jonathan Gliddon",
-              "Garth Matti Liukko",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
               "Karlis Jansons",
               "Tim Wrigley"
             ],
             "year": 2012,
             "month": 6,
-            "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+            "description": "Feasibility study for the Sangdong mining project.",
             "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
         },
-        "date": "2012-6"
+        "date": "2012-06"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 4568000.0
+        },
+        "grade": {
+          "value": 0.033
+        },
+        "contained_metal": 1507.44,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "main"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 3837000.0
+        },
+        "grade": {
+          "value": 0.027
+        },
+        "contained_metal": 1035.99,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "footwall east"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2817000.0
+        },
+        "grade": {
+          "value": 0.061
+        },
+        "contained_metal": 1718.37,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "footwall mid"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Molybdenum Disulphide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2092000.0
+        },
+        "grade": {
+          "value": 0.047
+        },
+        "contained_metal": 983.24,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
+            "authors": [
+              "Jonathan Gliddon",
+              "Paul Gribble",
+              "Andrew Carter",
+              "Rodney Elvish",
+              "Phil Thomas",
+              "Mike Turner",
+              "Garth Liukko",
+              "Karlis Jansons",
+              "Tim Wrigley"
+            ],
+            "year": 2012,
+            "month": 6,
+            "description": "Feasibility study for the Sangdong mining project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
+          },
+          "page_info": [
+            {
+              "page": 19
+            }
+          ]
+        },
+        "date": "2012-06",
+        "zone": "footwall west"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "tungsten skarn",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q448",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
-      },
-      {
-        "observed_name": "molybdenum skarn",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q462",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.5
+        "observed_name": "Skarn tungsten-molybdenum-bismuth",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q427",
+        "source": "Inferlink Extraction v3",
+        "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T21:22:58.980814Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Sangdong Project in Asia, South Korea dated June 2012.pdf",
           "authors": [
-            "Philip Thomas",
-            "Michael Harry Turner",
+            "Jonathan Gliddon",
             "Paul Gribble",
             "Andrew Carter",
-            "Rodney David Elvish",
-            "Jonathan Gliddon",
-            "Garth Matti Liukko",
+            "Rodney Elvish",
+            "Phil Thomas",
+            "Mike Turner",
+            "Garth Liukko",
             "Karlis Jansons",
             "Tim Wrigley"
           ],
           "year": 2012,
           "month": 6,
-          "description": "This technical report presents the Sangdong Project feasibility study with detailed analyses on geology, mining methods, mineral resource estimates, and financials.",
+          "description": "Feasibility study for the Sangdong mining project.",
           "uri": "https://api.cdr.land/v1/docs/documents/024bd314d6313d345d7847ca2984dc449c2d1d49da43ad1a1631b3dd4744228bd8"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

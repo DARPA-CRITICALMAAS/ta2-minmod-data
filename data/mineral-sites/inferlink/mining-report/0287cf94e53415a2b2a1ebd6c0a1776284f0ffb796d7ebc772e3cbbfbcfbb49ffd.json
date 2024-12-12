@@ -2,14 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd",
-    "name": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
+    "name": "Reoc\u00edn Mine and San Juan de Nieva zinc assets",
     "location_info": {
+      "location": "MULTIPOINT(-4.0132 43.3367)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "confidence": 1,
+        "source": "Inferlink Extraction v3"
+      },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
           "observed_name": "Spain",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -17,97 +24,75 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q5938",
           "observed_name": "Cantabria",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "’000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1441.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7.42
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 106.9222,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
             "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
+              "Pincock, Allen & Holt"
             ],
             "year": 2002,
             "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
             "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2002-3"
+        "date": "2002-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "lead",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "’000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1441.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.8
         },
         "contained_metal": 11.528,
@@ -115,64 +100,56 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
             "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
+              "Pincock, Allen & Holt"
             ],
             "year": 2002,
             "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
             "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2002-3"
+        "date": "2002-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "’000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 417.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 11.73
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 48.9141,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
             "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
+              "Pincock, Allen & Holt"
             ],
             "year": 2002,
             "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
             "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
           },
           "page_info": [
@@ -181,56 +158,44 @@
             }
           ]
         },
-        "date": "2002-3",
+        "date": "2002-03",
         "zone": "underground"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "lead",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "’000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 417.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.24
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 5.1708,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
             "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
+              "Pincock, Allen & Holt"
             ],
             "year": 2002,
             "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
             "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
           },
           "page_info": [
@@ -239,56 +204,37 @@
             }
           ]
         },
-        "date": "2002-3",
+        "date": "2002-03",
         "zone": "underground"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
+        "category": [],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "’000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 745.0
+          "value": 488.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7.78
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 57.961,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
             "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
+              "Pincock, Allen & Holt"
             ],
             "year": 2002,
             "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
             "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
           },
           "page_info": [
@@ -297,43 +243,67 @@
             }
           ]
         },
-        "date": "2002-3",
-        "zone": "opencut"
+        "date": "2002-03",
+        "zone": "underground"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "lead",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
+        "category": [],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "’000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 745.0
+          "value": 488.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
+            "authors": [
+              "Pincock, Allen & Holt"
+            ],
+            "year": 2002,
+            "month": 3,
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
           },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2002-03",
+        "zone": "underground"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 745.0
+        },
+        "grade": {
           "value": 0.84
         },
         "contained_metal": 6.258,
@@ -341,12 +311,11 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
             "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
+              "Pincock, Allen & Holt"
             ],
             "year": 2002,
             "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
             "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
           },
           "page_info": [
@@ -355,114 +324,44 @@
             }
           ]
         },
-        "date": "2002-3",
+        "date": "2002-03",
         "zone": "opencut"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
           "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "’000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1162.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 9.2
-        },
-        "contained_metal": 106.904,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
-            "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
-            ],
-            "year": 2002,
-            "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
-          },
-          "page_info": [
-            {
-              "page": 11
-            }
-          ]
-        },
-        "date": "2002-3",
-        "zone": "reocín total"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "lead",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "’000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1162.0
+          "value": 745.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.98
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 11.3876,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
             "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
+              "Pincock, Allen & Holt"
             ],
             "year": 2002,
             "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
             "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
           },
           "page_info": [
@@ -471,286 +370,21 @@
             }
           ]
         },
-        "date": "2002-3",
-        "zone": "reocín total"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "'000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1441.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.8
-        },
-        "contained_metal": 11.528,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
-            "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
-            ],
-            "year": 2002,
-            "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
-          },
-          "page_info": [
-            {
-              "page": 4
-            }
-          ]
-        },
-        "date": "2002-3"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "'000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1441.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 7.42
-        },
-        "contained_metal": 106.9222,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
-            "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
-            ],
-            "year": 2002,
-            "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
-          },
-          "page_info": [
-            {
-              "page": 4
-            }
-          ]
-        },
-        "date": "2002-3"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "'000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 488.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.06
-        },
-        "contained_metal": 5.1728,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
-            "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
-            ],
-            "year": 2002,
-            "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
-          }
-        },
-        "date": "2002-3",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "'000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 488.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 10.04
-        },
-        "contained_metal": 48.9952,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
-            "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
-            ],
-            "year": 2002,
-            "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
-          }
-        },
-        "date": "2002-3",
-        "zone": "underground"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "'000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 953.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.08
-        },
-        "contained_metal": 57.9424,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
-            "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
-            ],
-            "year": 2002,
-            "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
-          }
-        },
-        "date": "2002-3",
+        "date": "2002-03",
         "zone": "opencut"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "lead",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
+        "category": [],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "'000 tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 953.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.66
         },
         "contained_metal": 6.2898,
@@ -758,43 +392,259 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
             "authors": [
-              "Mark G. Stevens",
-              "Bill Brooks"
+              "Pincock, Allen & Holt"
             ],
             "year": 2002,
             "month": 3,
-            "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
             "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2002-03",
+        "zone": "opencut"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [],
+        "ore": {
+          "value": 953.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
           }
         },
-        "date": "2002-3",
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
+            "authors": [
+              "Pincock, Allen & Holt"
+            ],
+            "year": 2002,
+            "month": 3,
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2002-03",
         "zone": "opencut"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1162.0
+        },
+        "grade": {
+          "value": 0.98
+        },
+        "contained_metal": 11.3876,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
+            "authors": [
+              "Pincock, Allen & Holt"
+            ],
+            "year": 2002,
+            "month": 3,
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2002-03",
+        "zone": "reoc\u00edn total"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1162.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
+            "authors": [
+              "Pincock, Allen & Holt"
+            ],
+            "year": 2002,
+            "month": 3,
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2002-03",
+        "zone": "reoc\u00edn total"
+      },
+      {
+        "commodity": {
+          "observed_name": "lead",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+        },
+        "category": [],
+        "ore": {
+          "value": 1441.0
+        },
+        "grade": {
+          "value": 0.8
+        },
+        "contained_metal": 11.528,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
+            "authors": [
+              "Pincock, Allen & Holt"
+            ],
+            "year": 2002,
+            "month": 3,
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2002-03",
+        "zone": "reoc\u00edn total"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [],
+        "ore": {
+          "value": 1441.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
+            "authors": [
+              "Pincock, Allen & Holt"
+            ],
+            "year": 2002,
+            "month": 3,
+            "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
+          },
+          "page_info": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        "date": "2002-03",
+        "zone": "reoc\u00edn total"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "sulphide mineralisation",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q400",
-        "source": "Inferlink Extraction v2",
-        "confidence": 1.0
+        "observed_name": "Fluvial placer gold",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q303",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Sediment-hosted copper \n{Co}",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Low-sulfidation (LS) epithermal gold-silver",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q416",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T17:21:17.574036Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Reocin Project in Europe, Spain dated March 2002.pdf",
           "authors": [
-            "Mark G. Stevens",
-            "Bill Brooks"
+            "Pincock, Allen & Holt"
           ],
           "year": 2002,
           "month": 3,
-          "description": "This document is a technical report for the Reocin Project in Spain, prepared to provide an independent review of the project's mining and processing operations, resources and reserves, and associated environmental and financial assessments.",
+          "description": "Competent person\u2019s report for the Reoc\u00edn Mine and San Juan de Nieva zinc assets held by Asturiana de Zinc, S.L.",
           "uri": "https://api.cdr.land/v1/docs/documents/0287cf94e53415a2b2a1ebd6c0a1776284f0ffb796d7ebc772e3cbbfbcfbb49ffd"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

@@ -2,20 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02ce0e0d4d719d873bb6055eaf152266fba7baf276e3fb4935b461fe62edf8d329",
-    "name": "NI 43-101 Technical Report for the UMEX Project in North America dated February 2018.pdf",
+    "name": "UMEX PROJECT",
     "location_info": {
-      "location": "POINT(-75.85 49.79)",
+      "location": "POINT(-75.85 49.81)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,135 +24,34 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
           "observed_name": "Quebec",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
-    "mineral_inventory": [
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 450000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 38.0
-        },
-        "contained_metal": 171000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the UMEX Project in North America dated February 2018.pdf",
-            "authors": [
-              "Dominique Gagné",
-              "Marcel Robillard"
-            ],
-            "year": 2018,
-            "month": 2,
-            "description": "This report provides a technical analysis and recommendations for the UMEX project for listing MPV Exploration Inc. on the Canadian Securities Exchange (CSE) and includes a comprehensive compilation of past exploration work on the property.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ce0e0d4d719d873bb6055eaf152266fba7baf276e3fb4935b461fe62edf8d329"
-          },
-          "page_info": [
-            {
-              "page": 3
-            }
-          ]
-        },
-        "date": "2018-2",
-        "zone": "umex 1",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "silver",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 450000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "g/t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 38.0
-        },
-        "contained_metal": 171000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the UMEX Project in North America dated February 2018.pdf",
-            "authors": [
-              "Dominique Gagné",
-              "Marcel Robillard"
-            ],
-            "year": 2018,
-            "month": 2,
-            "description": "This report provides a technical analysis and recommendations for the UMEX project for listing MPV Exploration Inc. on the Canadian Securities Exchange (CSE) and includes a comprehensive compilation of past exploration work on the property.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02ce0e0d4d719d873bb6055eaf152266fba7baf276e3fb4935b461fe62edf8d329"
-          }
-        },
-        "date": "2018-2",
-        "zone": "umex 1"
-      }
-    ],
+    "mineral_inventory": [],
     "deposit_type_candidate": [
       {
-        "observed_name": "sedimentary exhalative (SedEx) deposit",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Sediment-hosted copper \b1 Co",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T20:10:00.717722Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the UMEX Project in North America dated February 2018.pdf",
           "authors": [
-            "Dominique Gagné",
-            "Marcel Robillard"
+            "G\u00e9ominex Inc."
           ],
-          "year": 2018,
-          "month": 2,
-          "description": "This report provides a technical analysis and recommendations for the UMEX project for listing MPV Exploration Inc. on the Canadian Securities Exchange (CSE) and includes a comprehensive compilation of past exploration work on the property.",
+          "year": 2017,
+          "month": 8,
+          "description": "This report w as prepared to provide a technical report in accordance with National Instrument 43 -101 (NI 43 -101) for the UMEX project for the purposes of listing MPV Exploration Inc.",
           "uri": "https://api.cdr.land/v1/docs/documents/02ce0e0d4d719d873bb6055eaf152266fba7baf276e3fb4935b461fe62edf8d329"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

@@ -2,149 +2,74 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c",
-    "name": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+    "name": "Covas Tungsten Deposit",
     "location_info": {
-      "location": "POINT(-8.617 41.900)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-8.617 -41.9)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1176",
-          "observed_name": "Portugal",
+          "observed_name": "Republic of Portugal",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5930",
+          "observed_name": "Vila Nova De Cerveira",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2215",
+          "observed_name": "Caminha",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 319000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.36
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.05
+          "value": 0.1
         },
         "contained_metal": 1148.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1081000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.42
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 4540.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
           },
           "page_info": [
@@ -153,760 +78,37 @@
             }
           ]
         },
-        "date": "2015-5",
-        "zone": "covas"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 157000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.48
-        },
-        "contained_metal": 753.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
+        "date": "2015-05",
         "zone": "lapa grande"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 53200.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.14
-        },
-        "contained_metal": 606.48,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          },
-          "page_info": [
-            {
-              "page": 2
-            }
-          ]
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 319000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.36
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.05
-        },
-        "contained_metal": 1148.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 319000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.36
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 1148.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 221000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.44
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 972.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 162000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.52
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 842.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 137000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.57
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 780.9,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 115000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.62
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.35
-        },
-        "contained_metal": 713.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1081000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.42
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 4540.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          },
-          "page_info": [
-            {
-              "page": 4
-            }
-          ]
-        },
-        "date": "2015-5",
-        "zone": "covas"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 860000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.48
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 4128.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          },
-          "page_info": [
-            {
-              "page": 4
-            }
-          ]
-        },
-        "date": "2015-5",
-        "zone": "covas"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 319000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.36
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 1148.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
-            "authors": [
-              "Barry J. Price",
-              "Gary Giroux"
-            ],
-            "year": 2015,
-            "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
-        },
-        "date": "2015-5",
-        "zone": "lapa grande"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 113000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.39
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "contained_metal": 440.7,
@@ -914,64 +116,51 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
         "zone": "valdarcas"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 131000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.83
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "contained_metal": 1087.3,
@@ -979,64 +168,51 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
         "zone": "telheira"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 223000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.32
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "contained_metal": 713.6,
@@ -1044,64 +220,51 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
         "zone": "castelo"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 295000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.38
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "contained_metal": 1121.0,
@@ -1109,374 +272,1042 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
         "zone": "cerdeirinha & boundary"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 162000.0
+          "value": 205000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.52
+          "value": 0.21
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
+          "value": 0.1
         },
-        "contained_metal": 842.4,
+        "contained_metal": 430.5,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
         "zone": "lapa grande"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 77000.0
+          "value": 191000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.48
+          "value": 0.32
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
+          "value": 0.1
         },
-        "contained_metal": 369.6,
+        "contained_metal": 611.2,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
         "zone": "valdarcas"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 126000.0
+          "value": 249000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.85
+          "value": 0.46
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
+          "value": 0.1
         },
-        "contained_metal": 1071.0,
+        "contained_metal": 1145.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
+        "zone": "fervenca"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 218000.0
+        },
+        "grade": {
+          "value": 0.31
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 675.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "muito seco"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 166000.0
+        },
+        "grade": {
+          "value": 0.78
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 1294.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
+        },
+        "date": "2015-05",
         "zone": "telheira"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 148000.0
+          "value": 600000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.39
+          "value": 0.27
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
+          "value": 0.1
         },
-        "contained_metal": 577.2,
+        "contained_metal": 1620.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
         "zone": "castelo"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
           "observed_name": "tungsten",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
+          "observed_name": "Tungsten Trioxide",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 173000.0
+          "value": 582000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.52
+          "value": 0.33
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
+          "value": 0.1
         },
-        "contained_metal": 899.6,
+        "contained_metal": 1920.6,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
             "authors": [
-              "Barry J. Price",
+              "B.J. Price",
               "Gary Giroux"
             ],
             "year": 2015,
             "month": 5,
-            "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
             "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 4
+            }
+          ]
         },
-        "date": "2015-5",
+        "date": "2015-05",
+        "zone": "cerdeirinha & boundary"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 319000.0
+        },
+        "grade": {
+          "value": 0.36
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 1148.4,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "lapa grande"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 113000.0
+        },
+        "grade": {
+          "value": 0.39
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 440.7,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "valdarcas"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 131000.0
+        },
+        "grade": {
+          "value": 0.83
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 1087.3,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "telheira"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 223000.0
+        },
+        "grade": {
+          "value": 0.32
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 713.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "castelo"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 295000.0
+        },
+        "grade": {
+          "value": 0.38
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 1121.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "cerdeirinha & boundary"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 205000.0
+        },
+        "grade": {
+          "value": 0.21
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 430.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "lapa grande"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 191000.0
+        },
+        "grade": {
+          "value": 0.32
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 611.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "valdarcas"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 249000.0
+        },
+        "grade": {
+          "value": 0.46
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 1145.4,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "fervenca"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 218000.0
+        },
+        "grade": {
+          "value": 0.31
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 675.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "muito seco"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 166000.0
+        },
+        "grade": {
+          "value": 0.78
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 1294.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "telheira"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 600000.0
+        },
+        "grade": {
+          "value": 0.27
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 1620.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
+        "zone": "castelo"
+      },
+      {
+        "commodity": {
+          "observed_name": "tungsten",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
+          "observed_name": "Tungsten Trioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 582000.0
+        },
+        "grade": {
+          "value": 0.33
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 1920.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
+            "authors": [
+              "B.J. Price",
+              "Gary Giroux"
+            ],
+            "year": 2015,
+            "month": 5,
+            "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
+          },
+          "page_info": [
+            {
+              "page": 90
+            }
+          ]
+        },
+        "date": "2015-05",
         "zone": "cerdeirinha & boundary"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Skarn-hosted tungsten deposit",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q446",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Skarn tungsten",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q447",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.5
       },
       {
-        "observed_name": "Reduced Intrusion-related gold system",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q464",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Vein quartz-hosted ferberite (wolframite)",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-11T00:19:49.944061Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Covas Project in Europe, Portugal dated May 2015.pdf",
           "authors": [
-            "Barry J. Price",
+            "B.J. Price",
             "Gary Giroux"
           ],
           "year": 2015,
           "month": 5,
-          "description": "This document is a NI 43-101 compliant technical report and resource estimate for the Covas Tungsten Deposit in Portugal, detailing the geology, exploration results, and current mineral resources based on diamond drilling.",
+          "description": "Technical report on the Covas tungsten property in northwestern Portugal, including resource estimates and historical data.",
           "uri": "https://api.cdr.land/v1/docs/documents/02c606a224ee1d82e7a8ef54d92ab65444266dea03be67f23f95d761baf330493c"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

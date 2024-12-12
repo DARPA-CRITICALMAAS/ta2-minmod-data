@@ -2,20 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c",
-    "name": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
+    "name": "Daniel\u2019s Harbour Property",
     "location_info": {
-      "location": "POINT(-57.4651217583147 50.2957591412575)",
+      "location": "POINT(-59.19 49.29)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,130 +24,37 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2657",
           "observed_name": "Newfoundland and Labrador",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 31124.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 13.87
-        },
-        "contained_metal": 4316.8988,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
-            "authors": [
-              "Elliott M. Stuckless"
-            ],
-            "year": 2017,
-            "month": 12,
-            "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
-          }
-        },
-        "date": "2017-12",
-        "zone": "daniel’s harbour b zone",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 368017.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.23
-        },
-        "contained_metal": 22927.4591,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
-            "authors": [
-              "Elliott M. Stuckless"
-            ],
-            "year": 2017,
-            "month": 12,
-            "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
-          }
-        },
-        "date": "2017-12",
-        "zone": "daniel’s harbour c zone",
-        "category": []
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 91272.0
+          "value": 503.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.22
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 5677.1184,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
@@ -155,50 +63,44 @@
             ],
             "year": 2017,
             "month": 12,
-            "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
+            "description": "Technical report on the Daniel's Harbour Property mineral licences 22337M, 25085M, 25179M, 25180M, 25497M, 25539M & 25555M.",
             "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 139
+            }
+          ]
         },
         "date": "2017-12",
         "zone": "c zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17955.0
+          "value": 138844.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 12.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 2154.6,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
@@ -207,50 +109,44 @@
             ],
             "year": 2017,
             "month": 12,
-            "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
+            "description": "Technical report on the Daniel's Harbour Property mineral licences 22337M, 25085M, 25179M, 25180M, 25497M, 25539M & 25555M.",
             "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 139
+            }
+          ]
         },
         "date": "2017-12",
-        "zone": "d zone"
+        "zone": "l zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q516",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 91272.0
+          "value": 1672.7
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.22
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 5677.1184,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
@@ -259,50 +155,40 @@
             ],
             "year": 2017,
             "month": 12,
-            "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
+            "description": "Technical report on the Daniel's Harbour Property mineral licences 22337M, 25085M, 25179M, 25180M, 25497M, 25539M & 25555M.",
             "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 139
+            }
+          ]
         },
         "date": "2017-12",
-        "zone": "c zone"
+        "zone": "l zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q516",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17955.0
+          "value": 8175.8
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 12.0
+          "value": 0.85
         },
-        "contained_metal": 2154.6,
+        "contained_metal": 69.4943,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
@@ -311,127 +197,29 @@
             ],
             "year": 2017,
             "month": 12,
-            "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
+            "description": "Technical report on the Daniel's Harbour Property mineral licences 22337M, 25085M, 25179M, 25180M, 25497M, 25539M & 25555M.",
             "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
-          }
+          },
+          "page_info": [
+            {
+              "page": 139
+            }
+          ]
         },
         "date": "2017-12",
-        "zone": "d zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q541",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 91272.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 6.22
-        },
-        "contained_metal": 5677.1184,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
-            "authors": [
-              "Elliott M. Stuckless"
-            ],
-            "year": 2017,
-            "month": 12,
-            "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
-          }
-        },
-        "date": "2017-12",
-        "zone": "c zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q541",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 17955.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 12.0
-        },
-        "contained_metal": 2154.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Daniels Harbour Project in North America dated 2017.pdf",
-            "authors": [
-              "Elliott M. Stuckless"
-            ],
-            "year": 2017,
-            "month": 12,
-            "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
-          }
-        },
-        "date": "2017-12",
-        "zone": "d zone"
+        "zone": "l zone"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Stratabound epigenetic secondary void filling deposit in carbonate rocks",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "MVT zinc-lead",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q380",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T17:23:23.141354Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -441,11 +229,10 @@
           ],
           "year": 2017,
           "month": 12,
-          "description": "This NI 43-101 technical report provides a detailed evaluation of the Daniels Harbour Property on the Northern Peninsula of Newfoundland and Labrador, covering its geology, exploration history, mineral potential, and recommendations for ongoing exploration and development.",
+          "description": "Technical report on the Daniel's Harbour Property mineral licences 22337M, 25085M, 25179M, 25180M, 25497M, 25539M & 25555M.",
           "uri": "https://api.cdr.land/v1/docs/documents/0223acd62ea02ba8d62389e2000117fbff0d5f325d78f5974f4d78cdd823272c9c"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

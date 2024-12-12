@@ -2,20 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a",
-    "name": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+    "name": "ANN MASON PROJECT",
     "location_info": {
-      "location": "POINT(-119.3 38.6)",
+      "location": "POINT(-116.571728 39.000740)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
-          "observed_name": "United States",
+          "observed_name": "USA",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,136 +24,47 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q6876",
           "observed_name": "Nevada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "x000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1471000.0
+          "value": 810.39
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.33
+          "value": 0.399
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.2
-        },
-        "contained_metal": 4854.3,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
-            "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
-            ],
-            "year": 2012,
-            "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          },
-          "page_info": [
-            {
-              "page": 52
-            }
-          ]
-        },
-        "date": "2012-3",
-        "zone": "pacmag"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "x000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 810000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
-        "contained_metal": 3240.0,
+        "contained_metal": 3.2335,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
@@ -161,66 +73,44 @@
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "pacmag"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "x000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 494000.0
+          "value": 523.16
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.44
+          "value": 0.441
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.35
         },
-        "contained_metal": 2173.6,
+        "contained_metal": 2.3071,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
@@ -229,66 +119,44 @@
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "pacmag"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "x000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 221000.0
+          "value": 2426.01
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.51
+          "value": 0.245
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.425
+          "value": 0.05
         },
-        "contained_metal": 1127.1,
+        "contained_metal": 5.9437,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
@@ -297,66 +165,44 @@
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "pacmag"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "x000 t",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 89000.0
+          "value": 2040.64
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.6
+          "value": 0.278
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.5
+          "value": 0.1
         },
-        "contained_metal": 534.0,
+        "contained_metal": 5.673,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
@@ -365,52 +211,214 @@
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "pacmag"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1110.92
+        },
+        "grade": {
+          "value": 0.366
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 4.066,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 52
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 315.22
+        },
+        "grade": {
+          "value": 0.485
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 1.5288,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 52
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1709.03
+        },
+        "grade": {
+          "value": 0.308
+        },
+        "cutoff_grade": {
+          "value": 0.15
+        },
+        "contained_metal": 5.2638,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 52
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1409.96
+        },
+        "grade": {
+          "value": 0.336
+        },
+        "cutoff_grade": {
+          "value": 0.2
+        },
+        "contained_metal": 4.7375,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 52
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1115.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.33
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.2
         },
         "contained_metal": 3.6795,
@@ -418,67 +426,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 904.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.35
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.25
         },
         "contained_metal": 3.164,
@@ -486,67 +472,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 640.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.38
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 2.432,
@@ -554,67 +518,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 391.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.42
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.35
         },
         "contained_metal": 1.6422,
@@ -622,67 +564,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 201.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.46
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 0.9246,
@@ -690,67 +610,735 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1131.0
+        },
+        "grade": {
+          "value": 0.29
+        },
+        "cutoff_grade": {
+          "value": 0.2
+        },
+        "contained_metal": 3.2799,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 780.0
+        },
+        "grade": {
+          "value": 0.32
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 2.496,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 444.0
+        },
+        "grade": {
+          "value": 0.36
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 1.5984,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 215.0
+        },
+        "grade": {
+          "value": 0.4
+        },
+        "cutoff_grade": {
+          "value": 0.35
+        },
+        "contained_metal": 0.86,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 82.0
+        },
+        "grade": {
+          "value": 0.45
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.369,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1115.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+          "value": 0.007
+        },
+        "cutoff_grade": {
+          "value": 0.2
+        },
+        "contained_metal": 0.0781,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 904.0
+        },
+        "grade": {
+          "value": 0.007
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.0633,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 640.0
+        },
+        "grade": {
+          "value": 0.007
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 0.0448,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 391.0
+        },
+        "grade": {
+          "value": 0.007
+        },
+        "cutoff_grade": {
+          "value": 0.35
+        },
+        "contained_metal": 0.0274,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 201.0
+        },
+        "grade": {
+          "value": 0.008
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0161,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1131.0
+        },
+        "grade": {
+          "value": 0.004
+        },
+        "cutoff_grade": {
+          "value": 0.2
+        },
+        "contained_metal": 0.0452,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 780.0
+        },
+        "grade": {
+          "value": 0.004
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.0312,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 444.0
+        },
+        "grade": {
+          "value": 0.004
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 0.0178,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 215.0
+        },
+        "grade": {
+          "value": 0.004
+        },
+        "cutoff_grade": {
+          "value": 0.35
+        },
+        "contained_metal": 0.0086,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 82.0
+        },
+        "grade": {
+          "value": 0.005
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0041,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1115.0
+        },
+        "grade": {
           "value": 0.33
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.2
         },
         "contained_metal": 3.6795,
@@ -758,62 +1346,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 904.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.35
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.25
         },
         "contained_metal": 3.164,
@@ -821,62 +1392,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 640.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.38
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 2.432,
@@ -884,62 +1438,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 391.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.42
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.35
         },
         "contained_metal": 1.6422,
@@ -947,62 +1484,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 201.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.46
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 0.9246,
@@ -1010,62 +1530,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1131.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.29
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.2
         },
         "contained_metal": 3.2799,
@@ -1073,67 +1576,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 780.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.32
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.25
         },
         "contained_metal": 2.496,
@@ -1141,67 +1622,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 444.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.36
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 1.5984,
@@ -1209,67 +1668,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 215.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.35
         },
         "contained_metal": 0.86,
@@ -1277,67 +1714,45 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 82.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.45
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 0.369,
@@ -1345,371 +1760,515 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
           },
           "page_info": [
             {
-              "page": 187
+              "page": 21
             }
           ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1115.0
+        },
+        "grade": {
+          "value": 0.007
+        },
+        "cutoff_grade": {
+          "value": 0.2
+        },
+        "contained_metal": 0.0781,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 904.0
+        },
+        "grade": {
+          "value": 0.007
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 0.0633,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 640.0
+        },
+        "grade": {
+          "value": 0.007
+        },
+        "cutoff_grade": {
+          "value": 0.3
+        },
+        "contained_metal": 0.0448,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 391.0
+        },
+        "grade": {
+          "value": 0.007
+        },
+        "cutoff_grade": {
+          "value": 0.35
+        },
+        "contained_metal": 0.0274,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 201.0
+        },
+        "grade": {
+          "value": 0.008
+        },
+        "cutoff_grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.0161,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
+            "authors": [
+              "Jackson",
+              "Cinits",
+              "Jones"
+            ],
+            "year": 2012,
+            "month": 3,
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
+        },
+        "date": "2012-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "molybdenum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1131.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.29
+          "value": 0.004
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.2
         },
-        "contained_metal": 3.2799,
+        "contained_metal": 0.0452,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 780.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.32
+          "value": 0.004
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.25
         },
-        "contained_metal": 2.496,
+        "contained_metal": 0.0312,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 444.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.36
+          "value": 0.004
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
-        "contained_metal": 1.5984,
+        "contained_metal": 0.0178,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 215.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
+          "value": 0.004
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.35
         },
-        "contained_metal": 0.86,
+        "contained_metal": 0.0086,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "molybdenum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 82.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.45
+          "value": 0.005
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "%Cu",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
-        "contained_metal": 0.369,
+        "contained_metal": 0.0041,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
             "authors": [
-              "Scott Jackson",
-              "Robert Cinits",
-              "Lyn Jones"
+              "Jackson",
+              "Cinits",
+              "Jones"
             ],
             "year": 2012,
             "month": 3,
-            "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+            "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
             "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
-          }
+          },
+          "page_info": [
+            {
+              "page": 21
+            }
+          ]
         },
-        "date": "2012-3",
-        "zone": "ann mason"
+        "date": "2012-03"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Porphyry Copper Deposits",
+        "observed_name": "Porphyry copper \\\\u00b1 gold",
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-        "source": "Inferlink Extraction v2",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.5
       },
       {
-        "observed_name": "Supergene Oxide Copper Deposits",
+        "observed_name": "Supergene copper",
         "normalized_uri": "https://minmod.isi.edu/resource/Q331",
-        "source": "Inferlink Extraction v2",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T21:47:11.917165Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Ann Mason Project in Nevada, United States dated March 2012.pdf",
           "authors": [
-            "Scott Jackson",
-            "Robert Cinits",
-            "Lyn Jones"
+            "Jackson",
+            "Cinits",
+            "Jones"
           ],
           "year": 2012,
           "month": 3,
-          "description": "This technical report provides an updated mineral resource estimate and comprehensive assessment of the Ann Mason Project, a copper and molybdenum exploration site in Nevada, prepared by Entrée Gold Inc.",
+          "description": "NI-43-101 Technical Report on the Ann Mason Project located in Nevada, USA.",
           "uri": "https://api.cdr.land/v1/docs/documents/0290e7b51273224b99f8cc2c937d78cabf6b8c3f30441e64575e32ca3c8808ec7a"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

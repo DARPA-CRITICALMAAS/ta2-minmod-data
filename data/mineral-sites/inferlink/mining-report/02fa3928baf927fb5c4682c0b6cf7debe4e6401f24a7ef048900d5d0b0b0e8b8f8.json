@@ -2,20 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8",
-    "name": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+    "name": "DUKE Project",
     "location_info": {
-      "location": "POINT(-126.5 54.75)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-127.0222 54.2000)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,40 +18,30 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
           "observed_name": "British Columbia",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 57.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.41
         },
         "contained_metal": 0.2337,
@@ -69,42 +54,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "bell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 200.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 0.8,
@@ -117,47 +97,43 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "bell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           },
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 257.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 1.028,
@@ -170,42 +146,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "bell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 18.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.34
         },
         "contained_metal": 0.0612,
@@ -218,42 +189,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "granisle"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 55.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 0.165,
@@ -266,47 +232,43 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "granisle"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           },
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 73.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 0.219,
@@ -319,42 +281,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "granisle"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 115.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.36
         },
         "contained_metal": 0.414,
@@ -367,42 +324,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "morrison"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 109.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.3
         },
         "contained_metal": 0.327,
@@ -415,47 +367,43 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "morrison"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           },
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 224.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.33
         },
         "contained_metal": 0.7392,
@@ -468,42 +416,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "morrison"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 98.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.4
         },
         "contained_metal": 0.392,
@@ -516,42 +459,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "morrison"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 110.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.39
         },
         "contained_metal": 0.429,
@@ -564,47 +502,43 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "morrison"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           },
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 208.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.39
         },
         "contained_metal": 0.8112,
@@ -617,42 +551,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "morrison"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 60.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.16
         },
         "contained_metal": 0.096,
@@ -665,534 +594,37 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "hearne"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Indicated",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 200.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "Cu %",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 0.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "indicated"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 57.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.41
-        },
-        "contained_metal": 0.2337,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "bell"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 18.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.34
-        },
-        "contained_metal": 0.0612,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "granisle"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 109.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 0.327,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "morrison"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 115.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.36
-        },
-        "contained_metal": 0.414,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "morrison"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 257.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.028,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "bell"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 73.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 0.219,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "granisle"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 208.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.39
-        },
-        "contained_metal": 0.8112,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "morrison"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 60.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.16
-        },
-        "contained_metal": 0.096,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "hearne"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.2
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "Cu %",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.6
         },
         "contained_metal": 0.0252,
@@ -1205,282 +637,40 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "indicated"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
           },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 257.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
-        },
-        "contained_metal": 1.028,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "bell"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 73.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 0.219,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "granisle"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 208.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.39
-        },
-        "contained_metal": 0.8112,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
-        "zone": "morrison"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 60.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.16
-        },
-        "contained_metal": 0.096,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
-            "authors": [
-              "C. Mark Rebagliati",
-              "Eric Titley"
-            ],
-            "year": 2020,
-            "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
-        },
-        "date": "2020-4",
+        "date": "2020-04",
         "zone": "hearne"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 257.0
+          "value": 0.95
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.4
+          "value": 0.41
         },
-        "contained_metal": 1.028,
+        "contained_metal": 0.0039,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
@@ -1490,55 +680,83 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
+        "zone": "hearne"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 57.0
+        },
+        "grade": {
+          "value": 0.18
+        },
+        "contained_metal": 0.1026,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
         "zone": "bell"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 73.0
+          "value": 200.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.3
+          "value": 0.2
         },
-        "contained_metal": 0.219,
+        "contained_metal": 0.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
@@ -1548,55 +766,132 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
+        "zone": "bell"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 257.0
+        },
+        "grade": {
+          "value": 0.2
+        },
+        "contained_metal": 0.514,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "bell"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 18.0
+        },
+        "grade": {
+          "value": 0.11
+        },
+        "contained_metal": 0.0198,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
         "zone": "granisle"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Cu",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Million Tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 208.0
+          "value": 55.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.39
+          "value": 0.1
         },
-        "contained_metal": 0.8112,
+        "contained_metal": 0.055,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
@@ -1606,35 +901,734 @@
             ],
             "year": 2020,
             "month": 4,
-            "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
-          }
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
         },
-        "date": "2020-4",
+        "date": "2020-04",
+        "zone": "granisle"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 73.0
+        },
+        "grade": {
+          "value": 0.1
+        },
+        "contained_metal": 0.073,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "granisle"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 115.0
+        },
+        "grade": {
+          "value": 0.17
+        },
+        "contained_metal": 0.1955,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
         "zone": "morrison"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 109.0
+        },
+        "grade": {
+          "value": 0.15
+        },
+        "contained_metal": 0.1635,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "morrison"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 224.0
+        },
+        "grade": {
+          "value": 0.16
+        },
+        "contained_metal": 0.3584,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "morrison"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 98.0
+        },
+        "grade": {
+          "value": 0.19
+        },
+        "contained_metal": 0.1862,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "morrison"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 110.0
+        },
+        "grade": {
+          "value": 0.19
+        },
+        "contained_metal": 0.209,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "morrison"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 208.0
+        },
+        "grade": {
+          "value": 0.19
+        },
+        "contained_metal": 0.3952,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "morrison"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4.2
+        },
+        "grade": {
+          "value": 0.19
+        },
+        "contained_metal": 0.008,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "hearne"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 0.95
+        },
+        "grade": {
+          "value": 0.18
+        },
+        "contained_metal": 0.0017,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04",
+        "zone": "hearne"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.27
+        },
+        "contained_metal": 0.0027,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.44
+        },
+        "contained_metal": 0.0044,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.2
+        },
+        "contained_metal": 0.002,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.22
+        },
+        "contained_metal": 0.0022,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.28
+        },
+        "contained_metal": 0.0028,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.2
+        },
+        "contained_metal": 0.002,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.29
+        },
+        "contained_metal": 0.0029,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Duke Project in Canada dated April 2020.pdf",
+            "authors": [
+              "C. Mark Rebagliati",
+              "Eric Titley"
+            ],
+            "year": 2020,
+            "month": 4,
+            "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
+          },
+          "page_info": [
+            {
+              "page": 106
+            }
+          ]
+        },
+        "date": "2020-04"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "porphyry Cu-Au-Mo-Ag",
+        "observed_name": "Porphyry copper \b1 gold",
         "normalized_uri": "https://minmod.isi.edu/resource/Q454",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       },
       {
-        "observed_name": "skarn",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q446",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
-      },
-      {
-        "observed_name": "vein",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q430",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
+        "observed_name": "Porphyry copper-molybdenum",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q455",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T18:40:30.601169Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -1645,11 +1639,10 @@
           ],
           "year": 2020,
           "month": 4,
-          "description": "The report documents the exploration activities, findings, and recommendations for the Duke Porphyry Copper Project conducted in the Babine District of Central British Columbia, Canada.",
+          "description": "Technical report summarizing exploration work on the DUKE Project located in British Columbia, Canada.",
           "uri": "https://api.cdr.land/v1/docs/documents/02fa3928baf927fb5c4682c0b6cf7debe4e6401f24a7ef048900d5d0b0b0e8b8f8"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

@@ -2,20 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02bd8a939ab32e8cd3e4d509284b44f608f790ca7d68a8e09f9775ee467519febd",
-    "name": "NI 43-101 Technical Report for the Post Creek Project in North America dated January 2011.pdf",
+    "name": "Post Creek Property",
     "location_info": {
-      "location": "POINT(-80.85833 46.79167)",
+      "location": "MULTIPOINT(-80.85833 46.79167)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,73 +24,58 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2661",
           "observed_name": "Ontario",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
-    "mineral_inventory": [
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Post Creek Project in North America dated January 2011.pdf",
-            "authors": [
-              "Walter V Peredery",
-              "Mark Fedikow"
-            ],
-            "year": 2011,
-            "month": 1,
-            "description": "A detailed technical report on the early-stage exploration activities and findings at the Post Creek Property located in Norman and Parkin Townships, Sudbury Mining District, prepared in compliance with National Instrument 43-101.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02bd8a939ab32e8cd3e4d509284b44f608f790ca7d68a8e09f9775ee467519febd"
-          }
-        },
-        "category": []
-      }
-    ],
+    "mineral_inventory": [],
     "deposit_type_candidate": [
       {
-        "observed_name": "Cu-Au deposit associated with volcanic rocks",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "observed_name": "Volcanic-hosted copper",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q373",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
       },
       {
-        "observed_name": "Stratabound or VMS Cu-Zn deposit associated with volcanic rocks",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q410",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "observed_name": "Hypozonal orogenic gold",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q387",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
       },
       {
-        "observed_name": "Ni-Cu-Co-PGE mineralization associated with a gabbroic rock or a Footwall Breccia type of rock",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "observed_name": "Sediment-hosted copper \u00b1 Co",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
       },
       {
-        "observed_name": "Whistle Offset Dyke with its sulphide mineralization",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.25
+        "observed_name": "Iron silicate polymetallic",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q401",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
+      },
+      {
+        "observed_name": "Mafic-ultramafic VMS",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q409",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.2
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T23:11:17.595915Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Post Creek Project in North America dated January 2011.pdf",
           "authors": [
-            "Walter V Peredery",
-            "Mark Fedikow"
+            "Walter V Peredery"
           ],
           "year": 2011,
           "month": 1,
-          "description": "A detailed technical report on the early-stage exploration activities and findings at the Post Creek Property located in Norman and Parkin Townships, Sudbury Mining District, prepared in compliance with National Instrument 43-101.",
+          "description": "Report on Post Creek Property in Norman and Parkin Townships Sudbury Mining District",
           "uri": "https://api.cdr.land/v1/docs/documents/02bd8a939ab32e8cd3e4d509284b44f608f790ca7d68a8e09f9775ee467519febd"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

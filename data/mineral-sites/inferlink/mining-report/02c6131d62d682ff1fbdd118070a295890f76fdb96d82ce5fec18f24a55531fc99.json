@@ -2,20 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02c6131d62d682ff1fbdd118070a295890f76fdb96d82ce5fec18f24a55531fc99",
-    "name": "NI 43-101 Technical Report for the Dude Project in North America dated October 2004.pdf",
+    "name": "Dude Property",
     "location_info": {
-      "location": "POINT(-121.3833 49.3156)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-121.383 52.25)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -23,41 +18,38 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
           "observed_name": "British Columbia",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
-    "mineral_inventory": [
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Dude Project in North America dated October 2004.pdf",
-            "authors": [
-              "L. John Peters"
-            ],
-            "year": 2004,
-            "month": 10,
-            "description": "This document is a summary technical report detailing the exploration potential and geological assessment of the Dude Property, located in Texada Island, British Columbia, focusing on its prospects for copper-molybdenum-gold mineralization.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02c6131d62d682ff1fbdd118070a295890f76fdb96d82ce5fec18f24a55531fc99"
-          }
-        },
-        "category": []
-      }
-    ],
+    "mineral_inventory": [],
     "deposit_type_candidate": [
       {
-        "observed_name": "Porphyry Cu-Mo-Au",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q455",
-        "source": "Inferlink Extraction v2",
-        "confidence": 1.0
+        "observed_name": "Porphyry copper \", ",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "molybdenum",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q433",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "  , \"",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "Porphyry gold",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q456",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T22:18:33.664860Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
@@ -67,11 +59,10 @@
           ],
           "year": 2004,
           "month": 10,
-          "description": "This document is a summary technical report detailing the exploration potential and geological assessment of the Dude Property, located in Texada Island, British Columbia, focusing on its prospects for copper-molybdenum-gold mineralization.",
+          "description": "Summary Technical Report on the Dude Property.",
           "uri": "https://api.cdr.land/v1/docs/documents/02c6131d62d682ff1fbdd118070a295890f76fdb96d82ce5fec18f24a55531fc99"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]

@@ -2,21 +2,15 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef",
-    "name": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
+    "name": "Crevier Niobium Project",
     "location_info": {
-      "location": "POINT(-72.816667 49.5)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
-        "confidence": 1,
-        "source": "Inferlink Extraction v2"
-      },
+      "location": "POINT(-72.81667 49.5)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,42 +18,35 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
           "observed_name": "Quebec",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
           "observed_name": "niobium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 30940000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.168
         },
         "contained_metal": 51979.2,
@@ -67,21 +54,22 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
           },
           "page_info": [
             {
-              "page": 83
+              "page": 8
             }
           ]
         },
@@ -90,252 +78,55 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
+          "observed_name": "tantalum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.122
-        },
-        "contained_metal": 35197.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          },
-          "page_info": [
-            {
-              "page": 83
-            }
-          ]
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 25750000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.186
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 47895.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          },
-          "page_info": [
-            {
-              "page": 83
-            }
-          ]
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
+        "material_form": {
+          "observed_name": "Ta2O5",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.162
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 27345.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          },
-          "page_info": [
-            {
-              "page": 83
-            }
-          ]
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 30940000.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.168
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 51979.2,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
           },
           "page_info": [
             {
-              "page": 55
+              "page": 8
             }
           ]
         },
@@ -344,35 +135,28 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
           "observed_name": "niobium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 28850000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.122
         },
         "contained_metal": 35197.0,
@@ -380,21 +164,22 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
           },
           "page_info": [
             {
-              "page": 55
+              "page": 8
             }
           ]
         },
@@ -403,44 +188,88 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "tantalum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Ta2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 28850000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
+            "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
+              "Daniel M. Gagnon",
+              "Ewald Pengel",
+              "Gared J. Daniel",
+              "Sylvain Boucher"
+            ],
+            "year": 2011,
+            "month": 12,
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
+          },
+          "page_info": [
+            {
+              "page": 8
+            }
+          ]
+        },
+        "date": "2011-12",
+        "zone": "all (3)"
+      },
+      {
+        "commodity": {
           "observed_name": "niobium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 25750000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.186
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "contained_metal": 47895.0,
@@ -448,21 +277,22 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
           },
           "page_info": [
             {
-              "page": 55
+              "page": 8
             }
           ]
         },
@@ -471,44 +301,91 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
+          "observed_name": "tantalum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Ta2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 25750000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
+            "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
+              "Daniel M. Gagnon",
+              "Ewald Pengel",
+              "Gared J. Daniel",
+              "Sylvain Boucher"
+            ],
+            "year": 2011,
+            "month": 12,
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
+            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
+          },
+          "page_info": [
+            {
+              "page": 8
+            }
+          ]
+        },
+        "date": "2011-12",
+        "zone": "all (3)"
+      },
+      {
+        "commodity": {
           "observed_name": "niobium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 16880000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.162
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "contained_metal": 27345.6,
@@ -516,21 +393,22 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
           },
           "page_info": [
             {
-              "page": 55
+              "page": 8
             }
           ]
         },
@@ -539,116 +417,58 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
+          "observed_name": "tantalum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 30940000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.168
-        },
-        "contained_metal": 51979.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          },
-          "page_info": [
-            {
-              "page": 83
-            }
-          ]
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Ta2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
+          "value": 16880000.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.122
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 35197.0,
+        "cutoff_grade": {
+          "value": 0.1
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
           },
           "page_info": [
             {
-              "page": 83
+              "page": 8
             }
           ]
         },
@@ -657,44 +477,31 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
           "observed_name": "niobium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 25750000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.186
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "contained_metal": 47895.0,
@@ -702,296 +509,115 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
+          },
+          "page_info": [
+            {
+              "page": 57
+            }
+          ]
         },
         "date": "2011-12",
         "zone": "all (3)"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
+          "observed_name": "tantalum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.162
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 27345.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 30940000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.168
-        },
-        "contained_metal": 51979.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
+        "material_form": {
+          "observed_name": "Ta2O5",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.122
-        },
-        "contained_metal": 35197.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
-          "observed_name": "niobium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "Indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 25750000.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "parts per million",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.186
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
-        "contained_metal": 47895.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
+          },
+          "page_info": [
+            {
+              "page": 57
+            }
+          ]
         },
         "date": "2011-12",
         "zone": "all (3)"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q579",
           "observed_name": "niobium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q579"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Nb2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 16880000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.162
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.1
         },
         "contained_metal": 27345.6,
@@ -999,80 +625,22 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.122
-        },
-        "contained_metal": 35197.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
           },
           "page_info": [
             {
-              "page": 83
+              "page": 57
             }
           ]
         },
@@ -1081,972 +649,60 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
           "observed_name": "tantalum",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q610"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "material_form": {
           "observed_name": "Ta2O5",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
+          "value": 16880000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
+            "observed_name": "parts per million",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 166.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 47891000.0,
+        "cutoff_grade": {
+          "value": 0.1
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
             "authors": [
+              "C\u00e9line Charbonneau",
+              "Claude Duplessis",
               "Daniel M. Gagnon",
               "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
               "Gared J. Daniel",
               "Sylvain Boucher"
             ],
             "year": 2011,
             "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+            "volume": "QPF-009-12/B",
+            "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
             "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
           },
           "page_info": [
             {
-              "page": 83
+              "page": 57
             }
           ]
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.162
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 27345.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 204.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 34435200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.122
-        },
-        "contained_metal": 35197.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 166.0
-        },
-        "contained_metal": 47891000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.162
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 27345.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 204.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 34435200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.122
-        },
-        "contained_metal": 35197.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          },
-          "page_info": [
-            {
-              "page": 83
-            }
-          ]
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 166.0
-        },
-        "contained_metal": 47891000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          },
-          "page_info": [
-            {
-              "page": 83
-            }
-          ]
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.162
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 27345.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 204.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 34435200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.122
-        },
-        "contained_metal": 35197.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 28850000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 166.0
-        },
-        "contained_metal": 47891000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Nb2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.162
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 27345.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
-        },
-        "date": "2011-12",
-        "zone": "all (3)"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q610",
-          "observed_name": "tantalum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "Inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Ta2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q216",
-            "observed_name": "metric tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 16880000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 204.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 34435200.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
-            "authors": [
-              "Daniel M. Gagnon",
-              "Ewald Pengel",
-              "Céline M. Charbonneau",
-              "Claude Duplessis",
-              "Gared J. Daniel",
-              "Sylvain Boucher"
-            ],
-            "year": 2011,
-            "month": 12,
-            "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
-          }
         },
         "date": "2011-12",
         "zone": "all (3)"
@@ -2054,43 +710,45 @@
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "uranium-niobium mineralization",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Carbonatite niobium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q471",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.3333333333333333
       },
       {
-        "observed_name": "niobium-tantalum mineralization",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q306",
-        "source": "Inferlink Extraction v2",
-        "confidence": 0.3333333333333333
-      },
-      {
-        "observed_name": "pegmatite-nepheline syenite dyke",
+        "observed_name": "Pegmatite",
         "normalized_uri": "https://minmod.isi.edu/resource/Q467",
-        "source": "Inferlink Extraction v2",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Carbonatite REE",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q470",
+        "source": "Inferlink Extraction v3",
         "confidence": 0.3333333333333333
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-10T16:50:49.849904Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Crevier Project in North America dated 2011.pdf",
           "authors": [
+            "C\u00e9line Charbonneau",
+            "Claude Duplessis",
             "Daniel M. Gagnon",
             "Ewald Pengel",
-            "Céline M. Charbonneau",
-            "Claude Duplessis",
             "Gared J. Daniel",
             "Sylvain Boucher"
           ],
           "year": 2011,
           "month": 12,
-          "description": "This report is a revised preliminary economic assessment of the Crevier Project, focusing on niobium and tantalum resources in North America, addressing geological, mining, and economic aspects.",
+          "volume": "QPF-009-12/B",
+          "description": "NI 43-101 Technical Report - Preliminary Economic Assessment of the Crevier Niobium Project",
           "uri": "https://api.cdr.land/v1/docs/documents/02abf69f51a0e21c9ad50e36cb536696e6a6a5ff726c334b7092faaa35a36894ef"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/inferlink"
+    ]
   }
 ]
