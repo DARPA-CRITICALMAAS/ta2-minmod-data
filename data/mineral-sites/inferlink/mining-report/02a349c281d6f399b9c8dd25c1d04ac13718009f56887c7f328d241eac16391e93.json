@@ -2,9 +2,9 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93",
-    "name": "Eagle’s Nest",
+    "name": "Eagle's Nest Project",
     "location_info": {
-      "location": "POINT(86.06 52.50)",
+      "location": "POINT(-80.716667 52.8333)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
@@ -25,10 +25,10 @@
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -45,13 +45,7 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
+          "value": 5346000.0
         },
         "grade": {
           "unit": {
@@ -59,177 +53,40 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.78
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.5
         },
-        "contained_metal": 195800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 98626.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.31
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 5006.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -246,13 +103,7 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
+          "value": 5346000.0
         },
         "grade": {
           "unit": {
@@ -260,177 +111,40 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.98
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.5
         },
-        "contained_metal": 107800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "platinum",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.14
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 102212.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 1453.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
         },
         "category": [
           {
@@ -447,13 +161,7 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
+          "value": 5346000.0
         },
         "grade": {
           "unit": {
@@ -461,177 +169,40 @@
             "observed_name": "gram per tonne",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 3.4
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.5
         },
-        "contained_metal": 374000.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
           "observed_name": "palladium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 304844.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 6460.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
         },
         "category": [
           {
@@ -648,13 +219,7 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
+          "value": 5346000.0
         },
         "grade": {
           "unit": {
@@ -662,177 +227,40 @@
             "observed_name": "gram per tonne",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.99
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.5
         },
-        "contained_metal": 108900.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.16
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 104005.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.12
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 1938.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
           "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
@@ -849,1163 +277,12 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
+          "value": 5346000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.2
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 22000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.3
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 26898.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 646.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q519",
-          "observed_name": "chromium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Chromium dioxide",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1258000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 34.29
-        },
-        "contained_metal": 431368.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 83
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "blackbird 2 bb2"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q519",
-          "observed_name": "chromium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Chromium dioxide",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3488000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 34.93
-        },
-        "contained_metal": 1218358.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 83
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "blackbird 2 bb2"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.08
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 111196.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.12
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 100419.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.31
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 5006.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 57202.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.14
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 102212.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 1453.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 55598.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.16
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 104005.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.12
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 1938.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 187110.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 304844.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 6460.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.5
         },
         "contained_metal": 10692.0,
@@ -2013,30 +290,31 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 97
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2047,12 +325,110 @@
           }
         ],
         "ore": {
+          "value": 8966000.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8966000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
           "value": 8966000.0
         },
         "grade": {
@@ -2061,16 +437,108 @@
             "observed_name": "gram per tonne",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8966000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8966000.0
+        },
+        "grade": {
           "value": 0.3
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.5
         },
         "contained_metal": 26898.0,
@@ -2078,30 +546,31 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 97
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2112,593 +581,44 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1615000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.25
-        },
-        "contained_metal": 646.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.08
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 111196.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5643000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 84645.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.78
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 195800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.1
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 98626.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.31
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          "value": 0.25
         },
         "contained_metal": 5006.5,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "east zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 57202.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5643000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.89
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 50222.7,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.98
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 107800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -2709,327 +629,44 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.14
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 102212.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1615000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.09
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          "value": 0.25
         },
         "contained_metal": 1453.5,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "east zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
           "observed_name": "platinum",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 55598.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5643000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.94
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 53044.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.99
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 108900.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
         },
         "category": [
           {
@@ -3040,327 +677,44 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.16
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 104005.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q601",
-          "observed_name": "platinum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1615000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.12
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          "value": 0.25
         },
         "contained_metal": 1938.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "east zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
           "observed_name": "palladium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.55
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 189783.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5643000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 180576.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 374000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
         },
         "category": [
           {
@@ -3371,191 +725,92 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.4
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 304844.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q600",
-          "observed_name": "palladium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1615000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.4
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          "value": 0.25
         },
         "contained_metal": 6460.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "east zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
           "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5346000.0
+          "value": 1615000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.55
+          "value": 0.04
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          "value": 0.25
         },
-        "contained_metal": 29403.0,
+        "contained_metal": 646.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 12
             }
           ]
         },
-        "date": "2011-04",
-        "zone": "main zone"
+        "date": "2011-03",
+        "zone": "east zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
+          "observed_name": "chromium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q519"
         },
         "category": [
           {
@@ -3565,62 +820,339 @@
             "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Chromium dioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 5643000.0
+          "value": 1950000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.27
-        },
-        "cutoff_grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          }
         },
-        "contained_metal": 15236.1,
+        "cutoff_grade": {
+          "value": 30.0
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 83
             }
           ]
         },
-        "date": "2011-04",
-        "zone": "main zone"
+        "date": "2011-03",
+        "zone": "bb2-1"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
+          "observed_name": "chromium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q519"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Chromium dioxide",
           "confidence": 1,
           "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 816000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 30.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "bb2-2"
+      },
+      {
+        "commodity": {
+          "observed_name": "chromium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q519"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Chromium dioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 438000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 30.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "bb2-4"
+      },
+      {
+        "commodity": {
+          "observed_name": "chromium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q519"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Chromium dioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 1635000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 30.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "bb2-1"
+      },
+      {
+        "commodity": {
+          "observed_name": "chromium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q519"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Chromium dioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 881000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 30.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "bb2-2"
+      },
+      {
+        "commodity": {
+          "observed_name": "chromium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q519"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Chromium dioxide",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 1675000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 30.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 83
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "bb2-4"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -3637,191 +1169,48 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
+          "value": 11300000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.41
-        },
-        "cutoff_grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          }
         },
-        "contained_metal": 45100.0,
+        "cutoff_grade": {
+          "value": 0.25
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
             {
-              "page": 99
+              "page": 97
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.49
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 43933.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
-          "observed_name": "gold",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
-            "observed_name": "gram per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.04
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 646.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 99
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "east zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -3838,44 +1227,27 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
+          "value": 11300000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.78
+          "value": 0.98
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          "value": 0.25
         },
-        "contained_metal": 195800.0,
+        "contained_metal": 110740.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
@@ -3884,15 +1256,181 @@
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 11300000.0
+        },
+        "grade": {
+          "value": 0.99
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 111870.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 11300000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 11300000.0
+        },
+        "grade": {
+          "value": 0.2
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 22600.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -3903,44 +1441,31 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 8966000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.1
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
+          "value": 0.25
         },
-        "contained_metal": 98626.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
@@ -3949,15 +1474,15 @@
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "main zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -3968,30 +1493,212 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
+          "value": 8966000.0
+        },
+        "grade": {
+          "value": 0.97
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 86970.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1615000.0
+          }
+        ],
+        "ore": {
+          "value": 8966000.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8966000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 8966000.0
+        },
+        "grade": {
+          "value": 0.28
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 25104.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "main zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1615000.0
+        },
+        "grade": {
           "value": 0.31
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.25
         },
         "contained_metal": 5006.5,
@@ -3999,13 +1706,14 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
@@ -4014,86 +1722,15 @@
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "east zone"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 11000000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.98
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 107800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -4104,95 +1741,12 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8966000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.14
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 102212.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
-            "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
-            ],
-            "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
-          },
-          "page_info": [
-            {
-              "page": 97
-            }
-          ]
-        },
-        "date": "2011-04",
-        "zone": "main zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1615000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.09
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.25
         },
         "contained_metal": 1453.5,
@@ -4200,13 +1754,14 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
             "authors": [
-              "James McFaulds",
-              "Alan J. Spooner",
-              "Jane M. Gowan"
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
             ],
             "year": 2011,
-            "month": 4,
-            "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
             "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
           },
           "page_info": [
@@ -4215,44 +1770,431 @@
             }
           ]
         },
-        "date": "2011-04",
+        "date": "2011-03",
         "zone": "east zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1615000.0
+        },
+        "grade": {
+          "value": 0.12
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 1938.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "east zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1615000.0
+        },
+        "grade": {
+          "value": 0.45
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 7267.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "east zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1615000.0
+        },
+        "grade": {
+          "value": 0.04
+        },
+        "cutoff_grade": {
+          "value": 0.25
+        },
+        "contained_metal": 646.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 97
+            }
+          ]
+        },
+        "date": "2011-03",
+        "zone": "east zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "geothermal",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q550"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 10000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "geothermal",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q550"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 5346000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "geothermal",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q550"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 5643000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "geothermal",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q550"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 11000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "geothermal",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q550"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1615000.0
+        },
+        "grade": {
+          "value": 0.31
+        },
+        "contained_metal": 5006.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
+            "authors": [
+              "Charley Murahwi",
+              "Alan J. Gowan",
+              "Richard M. Spooner",
+              "Jane"
+            ],
+            "year": 2011,
+            "month": 3,
+            "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
+          },
+          "page_info": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        "date": "2011-03"
       }
     ],
     "deposit_type_candidate": [
+      {
+        "observed_name": "Vein copper",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q425",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Vein nickel",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q358",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
       {
         "observed_name": "Ophiolite nickel-copper-PGE",
         "normalized_uri": "https://minmod.isi.edu/resource/Q484",
         "source": "Inferlink Extraction v3",
         "confidence": 0.3333333333333333
-      },
-      {
-        "observed_name": "Volcanogenic massive sulfide (VMS)",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q409",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.3333333333333333
-      },
-      {
-        "observed_name": "Fluvial placer nickel-copper-PGE",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q301",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.3333333333333333
       }
     ],
-    "modified_at": "2024-11-14T22:12:04.572530Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "modified_at": "2024-12-17T21:09:49.000306Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Eagles Nest Project in North America dated April 2011.pdf",
           "authors": [
-            "James McFaulds",
-            "Alan J. Spooner",
-            "Jane M. Gowan"
+            "Charley Murahwi",
+            "Alan J. Gowan",
+            "Richard M. Spooner",
+            "Jane"
           ],
           "year": 2011,
-          "month": 4,
-          "description": "Technical report on the Eagle’s Nest mineral exploration project.",
+          "month": 3,
+          "description": "Technical report on the Eagle's Nest Project in Northern Ontario, Canada.",
           "uri": "https://api.cdr.land/v1/docs/documents/02a349c281d6f399b9c8dd25c1d04ac13718009f56887c7f328d241eac16391e93"
         }
       }

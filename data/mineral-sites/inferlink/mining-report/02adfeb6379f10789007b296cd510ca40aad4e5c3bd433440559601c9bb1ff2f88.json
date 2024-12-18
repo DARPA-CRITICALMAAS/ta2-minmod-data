@@ -4,7 +4,7 @@
     "record_id": "02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88",
     "name": "Mount Pleasant Property",
     "location_info": {
-      "location": "POINT(-67.2333 45.9833)",
+      "location": "POINT(-66.95969 45.80354)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
@@ -31,2262 +31,26 @@
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
           "observed_name": "tin",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q587"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 12.4
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.38
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 0.0471,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 124
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 63.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 7.874,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 124
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.86
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 0.1066,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 124
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.05
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 0.0062,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 124
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q514",
-          "observed_name": "bismuth",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.07
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 0.0087,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 124
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "Tungsten Trioxide",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q204",
-            "observed_name": "WO3 Eq grade",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 0.0112,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 124
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Molybdenum Sulfide",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.06
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 0.0074,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 124
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q511",
-          "observed_name": "arsenic",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.99
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.1
-        },
-        "contained_metal": 0.1228,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 124
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
-          "observed_name": "tin",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.718338
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.662
-        },
-        "contained_metal": 0.0246,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.718338
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.15
-        },
-        "contained_metal": 0.0056,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.718338
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 85.72
-        },
-        "contained_metal": 3.1874,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.718338
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.091
-        },
-        "contained_metal": 0.0034,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.718338
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.695
-        },
-        "contained_metal": 0.0258,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615",
-          "observed_name": "tungsten",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1304",
-          "observed_name": "WO3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 6.8633
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.38
-        },
-        "contained_metal": 0.0261,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576",
-          "observed_name": "molybdenum",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "observed_name": "MoS2",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 6.8633
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.17
-        },
-        "contained_metal": 0.0117,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q511",
-          "observed_name": "arsenic",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 9148900.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.29
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 26531.81,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "fire tower west"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q511",
-          "observed_name": "arsenic",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 4340100.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.15
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 49911.15,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "fire tower north"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q511",
-          "observed_name": "arsenic",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 831000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.21
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 1745.1,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 9
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "fire tower west"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
-          "observed_name": "tin",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.38
-        },
-        "contained_metal": 0.0471,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
-          "observed_name": "tin",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.3
-        },
-        "contained_metal": 0.0084,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.86
-        },
-        "contained_metal": 0.1066,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.13
-        },
-        "contained_metal": 0.0316,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "parts per million",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 63.5
-        },
-        "contained_metal": 7.874,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.8
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "parts per million",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 69.8
-        },
-        "contained_metal": 1.9544,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
-          "observed_name": "tin",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "observed_name": "kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 47000000.0
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 116
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "north zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
-          "observed_name": "tin",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "observed_name": "kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 8600000.0
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 116
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "north zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "observed_name": "kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 107000000.0
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 116
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "north zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "observed_name": "kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 32000000.0
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 116
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "north zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "observed_name": "kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 789000.0
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 116
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "north zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "observed_name": "kg",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 198000.0
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 116
-            }
-          ]
-        },
-        "date": "2012-04",
-        "zone": "north zone"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
-          "observed_name": "tin",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12400000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.38
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 75.0
-        },
-        "contained_metal": 47120.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
-          "observed_name": "tin",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2800000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.3
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 75.0
-        },
-        "contained_metal": 8400.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12400000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.86
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 75.0
-        },
-        "contained_metal": 106640.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
-          "observed_name": "zinc",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2800000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.13
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 75.0
-        },
-        "contained_metal": 31640.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12400000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 63.5
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 75.0
-        },
-        "contained_metal": 7874000.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2800000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 69.8
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 75.0
-        },
-        "contained_metal": 1954400.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
-            "authors": [
-              "Steven McCutcheon",
-              "John Reddick",
-              "Tim McKeen",
-              "Stephanie Scott",
-              "Michael Kociumbas"
-            ],
-            "year": 2012,
-            "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
-          },
-          "page_info": [
-            {
-              "page": 14
-            }
-          ]
-        },
-        "date": "2012-04"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
-          "observed_name": "tin",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 12.4
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.38
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 75.0
         },
         "contained_metal": 0.0471,
@@ -2302,7 +66,7 @@
             ],
             "year": 2012,
             "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
           },
           "page_info": [
@@ -2311,15 +75,14 @@
             }
           ]
         },
-        "date": "2012-04",
-        "zone": "north zone"
+        "date": "2012-04"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
           "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
@@ -2330,30 +93,12 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 12.4
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.86
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 75.0
         },
         "contained_metal": 0.1066,
@@ -2369,7 +114,7 @@
             ],
             "year": 2012,
             "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
           },
           "page_info": [
@@ -2378,15 +123,14 @@
             }
           ]
         },
-        "date": "2012-04",
-        "zone": "north zone"
+        "date": "2012-04"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
           "observed_name": "indium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q559"
         },
         "category": [
           {
@@ -2397,12 +141,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 12.4
         },
         "grade": {
@@ -2411,19 +149,11 @@
             "observed_name": "parts per million",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 63.5
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 75.0
         },
-        "contained_metal": 7.874,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
@@ -2436,7 +166,7 @@
             ],
             "year": 2012,
             "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
           },
           "page_info": [
@@ -2445,15 +175,14 @@
             }
           ]
         },
-        "date": "2012-04",
-        "zone": "north zone"
+        "date": "2012-04"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q587",
           "observed_name": "tin",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q587"
         },
         "category": [
           {
@@ -2464,30 +193,12 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2.8
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.3
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 75.0
         },
         "contained_metal": 0.0084,
@@ -2503,7 +214,7 @@
             ],
             "year": 2012,
             "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
           },
           "page_info": [
@@ -2512,15 +223,14 @@
             }
           ]
         },
-        "date": "2012-04",
-        "zone": "north zone"
+        "date": "2012-04"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
           "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
@@ -2531,12 +241,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2.8
         },
         "grade": {
@@ -2545,19 +249,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.13
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 75.0
         },
-        "contained_metal": 0.0316,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
@@ -2570,7 +266,112 @@
             ],
             "year": 2012,
             "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
+          },
+          "page_info": [
+            {
+              "page": 14
+            }
+          ]
+        },
+        "date": "2012-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "indium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q559"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2.8
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "parts per million",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 75.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
+            "authors": [
+              "Steven McCutcheon",
+              "John Reddick",
+              "Tim McKeen",
+              "Stephanie Scott",
+              "Michael Kociumbas"
+            ],
+            "year": 2012,
+            "month": 4,
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
+          },
+          "page_info": [
+            {
+              "page": 14
+            }
+          ]
+        },
+        "date": "2012-04"
+      },
+      {
+        "commodity": {
+          "observed_name": "tin",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q587"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Tin",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 12.4
+        },
+        "grade": {
+          "value": 0.38
+        },
+        "cutoff_grade": {
+          "value": 75.0
+        },
+        "contained_metal": 0.0471,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
+            "authors": [
+              "Steven McCutcheon",
+              "John Reddick",
+              "Tim McKeen",
+              "Stephanie Scott",
+              "Michael Kociumbas"
+            ],
+            "year": 2012,
+            "month": 4,
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
           },
           "page_info": [
@@ -2584,47 +385,34 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q559",
-          "observed_name": "indium",
+          "observed_name": "zinc",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "observed_name": "Zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "million tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.8
+          "value": 12.4
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "parts per million",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 69.8
+          "value": 0.86
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q206",
-            "observed_name": "dollar per tonne",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 75.0
         },
-        "contained_metal": 1.9544,
+        "contained_metal": 0.1066,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
@@ -2637,7 +425,235 @@
             ],
             "year": 2012,
             "month": 4,
-            "description": "Technical report including an updated mineral resource estimate on the North Zone.",
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
+          },
+          "page_info": [
+            {
+              "page": 14
+            }
+          ]
+        },
+        "date": "2012-04",
+        "zone": "north zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "indium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q559"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Indium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 12.4
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 75.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
+            "authors": [
+              "Steven McCutcheon",
+              "John Reddick",
+              "Tim McKeen",
+              "Stephanie Scott",
+              "Michael Kociumbas"
+            ],
+            "year": 2012,
+            "month": 4,
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
+          },
+          "page_info": [
+            {
+              "page": 14
+            }
+          ]
+        },
+        "date": "2012-04",
+        "zone": "north zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "tin",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q587"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Tin",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2.8
+        },
+        "grade": {
+          "value": 0.3
+        },
+        "cutoff_grade": {
+          "value": 75.0
+        },
+        "contained_metal": 0.0084,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
+            "authors": [
+              "Steven McCutcheon",
+              "John Reddick",
+              "Tim McKeen",
+              "Stephanie Scott",
+              "Michael Kociumbas"
+            ],
+            "year": 2012,
+            "month": 4,
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
+          },
+          "page_info": [
+            {
+              "page": 14
+            }
+          ]
+        },
+        "date": "2012-04",
+        "zone": "north zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Zinc",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2.8
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 75.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
+            "authors": [
+              "Steven McCutcheon",
+              "John Reddick",
+              "Tim McKeen",
+              "Stephanie Scott",
+              "Michael Kociumbas"
+            ],
+            "year": 2012,
+            "month": 4,
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
+          },
+          "page_info": [
+            {
+              "page": 14
+            }
+          ]
+        },
+        "date": "2012-04",
+        "zone": "north zone"
+      },
+      {
+        "commodity": {
+          "observed_name": "indium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q559"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Indium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2.8
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 75.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mount Pleasant Project in North America dated April 2012.pdf",
+            "authors": [
+              "Steven McCutcheon",
+              "John Reddick",
+              "Tim McKeen",
+              "Stephanie Scott",
+              "Michael Kociumbas"
+            ],
+            "year": 2012,
+            "month": 4,
+            "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
             "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
           },
           "page_info": [
@@ -2652,38 +668,20 @@
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Skarn tungsten \n Mo",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q447",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.2
-      },
-      {
-        "observed_name": "Skarn tin \n copper \n Mo",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q448",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.2
-      },
-      {
         "observed_name": "Porphyry tin",
         "normalized_uri": "https://minmod.isi.edu/resource/Q460",
         "source": "Inferlink Extraction v3",
-        "confidence": 0.2
+        "confidence": 0.5
       },
       {
         "observed_name": "Porphyry tungsten",
         "normalized_uri": "https://minmod.isi.edu/resource/Q459",
         "source": "Inferlink Extraction v3",
-        "confidence": 0.2
-      },
-      {
-        "observed_name": "Hypozonal orogenic gold",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q387",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.2
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-11-13T19:08:32.368422Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "modified_at": "2024-12-17T20:31:12.580105Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {
@@ -2697,7 +695,7 @@
           ],
           "year": 2012,
           "month": 4,
-          "description": "Technical report including an updated mineral resource estimate on the North Zone.",
+          "description": "Technical report including an updated mineral resource estimate on the North Zone, southwestern New Brunswick.",
           "uri": "https://api.cdr.land/v1/docs/documents/02adfeb6379f10789007b296cd510ca40aad4e5c3bd433440559601c9bb1ff2f88"
         }
       }

@@ -4,7 +4,7 @@
     "record_id": "02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb",
     "name": "BUCKO LAKE NICKEL PROJECT",
     "location_info": {
-      "location": "MULTIPOINT(-97.4531 51.6859)",
+      "location": "POINT(-97.4253 56.2345)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
@@ -31,10 +31,10 @@
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -45,12 +45,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 616000.0
         },
         "grade": {
@@ -59,19 +53,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.43
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.25
         },
-        "contained_metal": 8808.8,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -82,7 +68,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -96,10 +82,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -110,12 +96,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1994000.0
         },
         "grade": {
@@ -124,19 +104,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.44
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.25
         },
-        "contained_metal": 28713.6,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -147,7 +119,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -161,10 +133,54 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 2610000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.25
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 16
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "bucko lake mine"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -175,12 +191,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 751000.0
         },
         "grade": {
@@ -189,19 +199,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.37
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 10288.7,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -212,7 +214,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -226,10 +228,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -240,12 +242,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2845000.0
         },
         "grade": {
@@ -254,19 +250,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.28
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 36416.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -277,7 +265,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -291,10 +279,67 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3596000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 16
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "bucko lake mine"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -305,12 +350,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 5043000.0
         },
         "grade": {
@@ -319,19 +358,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.41
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 71106.3,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -342,7 +373,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -356,10 +387,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -370,12 +401,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 800000.0
         },
         "grade": {
@@ -384,19 +409,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.17
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 9360.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -407,7 +424,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -421,10 +438,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -435,12 +452,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 525000.0
         },
         "grade": {
@@ -449,19 +460,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.11
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 5827.5,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -472,7 +475,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -486,10 +489,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -500,12 +503,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 41000.0
         },
         "grade": {
@@ -514,19 +511,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.19
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 487.9,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -537,7 +526,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -551,10 +540,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -565,12 +554,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2044000.0
         },
         "grade": {
@@ -579,19 +562,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.16
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 23710.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -602,7 +577,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -616,10 +591,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -630,12 +605,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 900000.0
         },
         "grade": {
@@ -644,19 +613,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.2
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 10800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -667,7 +628,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -681,10 +642,54 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 3510000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 16
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "satellite deposits"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -695,12 +700,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 751000.0
         },
         "grade": {
@@ -709,19 +708,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.37
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 10288.7,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -732,7 +723,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -742,14 +733,14 @@
           ]
         },
         "date": "2012-10",
-        "zone": "bucko lake mine"
+        "zone": "n/a"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -760,12 +751,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2845000.0
         },
         "grade": {
@@ -774,19 +759,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.28
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 36416.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -797,7 +774,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -807,14 +784,14 @@
           ]
         },
         "date": "2012-10",
-        "zone": "bucko lake mine"
+        "zone": "n/a"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -825,12 +802,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 5043000.0
         },
         "grade": {
@@ -839,19 +810,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.41
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 71106.3,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -862,7 +825,58 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 16
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "n/a"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 616000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.25
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -876,10 +890,61 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1994000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.25
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 16
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "bucko lake mine"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -890,12 +955,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 751000.0
         },
         "grade": {
@@ -904,19 +963,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.11
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 826.1,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -927,7 +978,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -941,10 +992,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -955,12 +1006,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2845000.0
         },
         "grade": {
@@ -969,19 +1014,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.11
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 3129.5,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -992,7 +1029,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1006,10 +1043,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1020,12 +1057,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 5043000.0
         },
         "grade": {
@@ -1034,19 +1065,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.11
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 5547.3,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1057,7 +1080,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1071,10 +1094,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1085,12 +1108,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 800000.0
         },
         "grade": {
@@ -1099,19 +1116,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.17
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 9360.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1122,7 +1131,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1132,14 +1141,14 @@
           ]
         },
         "date": "2012-10",
-        "zone": "m11a north"
+        "zone": "m11a project"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1150,12 +1159,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 525000.0
         },
         "grade": {
@@ -1164,19 +1167,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.11
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 5827.5,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1187,7 +1182,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1197,14 +1192,14 @@
           ]
         },
         "date": "2012-10",
-        "zone": "m11a north"
+        "zone": "m11a project"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1215,12 +1210,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 41000.0
         },
         "grade": {
@@ -1229,19 +1218,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.19
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 487.9,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1252,7 +1233,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1262,14 +1243,14 @@
           ]
         },
         "date": "2012-10",
-        "zone": "apex"
+        "zone": "apex prospect"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1280,12 +1261,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2044000.0
         },
         "grade": {
@@ -1294,19 +1269,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.16
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 23710.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1317,7 +1284,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1327,14 +1294,14 @@
           ]
         },
         "date": "2012-10",
-        "zone": "bowden"
+        "zone": "bowden prospect"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1345,12 +1312,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 900000.0
         },
         "grade": {
@@ -1359,19 +1320,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.2
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 10800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1382,7 +1335,313 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 16
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "halfway lake prospect"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 800000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 76
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "m11a north"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 525000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 76
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "m11a north"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 41000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 76
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "apex"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2044000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 76
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "bowden"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 900000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
+            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
+          },
+          "page_info": [
+            {
+              "page": 76
+            }
+          ]
+        },
+        "date": "2012-10",
+        "zone": "halfway lake"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 900000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
+            "authors": [
+              "Lane A. Griffin",
+              "Paul L. Martin",
+              "Chris C. Broili"
+            ],
+            "year": 2012,
+            "month": 10,
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1396,399 +1655,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 800000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.17
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 9360.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
-            "authors": [
-              "Lane A. Griffin",
-              "Paul L. Martin",
-              "Chris C. Broili"
-            ],
-            "year": 2012,
-            "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
-          },
-          "page_info": [
-            {
-              "page": 16
-            }
-          ]
-        },
-        "date": "2012-10",
-        "zone": "m11a project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 525000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.11
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 5827.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
-            "authors": [
-              "Lane A. Griffin",
-              "Paul L. Martin",
-              "Chris C. Broili"
-            ],
-            "year": 2012,
-            "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
-          },
-          "page_info": [
-            {
-              "page": 16
-            }
-          ]
-        },
-        "date": "2012-10",
-        "zone": "m11a project"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 41000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.19
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 487.9,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
-            "authors": [
-              "Lane A. Griffin",
-              "Paul L. Martin",
-              "Chris C. Broili"
-            ],
-            "year": 2012,
-            "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
-          },
-          "page_info": [
-            {
-              "page": 16
-            }
-          ]
-        },
-        "date": "2012-10",
-        "zone": "apex prospect"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2044000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.16
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 23710.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
-            "authors": [
-              "Lane A. Griffin",
-              "Paul L. Martin",
-              "Chris C. Broili"
-            ],
-            "year": 2012,
-            "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
-          },
-          "page_info": [
-            {
-              "page": 16
-            }
-          ]
-        },
-        "date": "2012-10",
-        "zone": "bowden prospect"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 900000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 10800.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
-            "authors": [
-              "Lane A. Griffin",
-              "Paul L. Martin",
-              "Chris C. Broili"
-            ],
-            "year": 2012,
-            "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
-          },
-          "page_info": [
-            {
-              "page": 16
-            }
-          ]
-        },
-        "date": "2012-10",
-        "zone": "halfway lake prospect"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3510000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.16
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 40716.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
-            "authors": [
-              "Lane A. Griffin",
-              "Paul L. Martin",
-              "Chris C. Broili"
-            ],
-            "year": 2012,
-            "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
-          },
-          "page_info": [
-            {
-              "page": 16
-            }
-          ]
-        },
-        "date": "2012-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1799,12 +1669,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 616000.0
         },
         "grade": {
@@ -1813,19 +1677,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.43
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.25
         },
-        "contained_metal": 8808.8,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1836,7 +1692,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1850,10 +1706,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1864,12 +1720,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1994000.0
         },
         "grade": {
@@ -1878,19 +1728,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.44
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.25
         },
-        "contained_metal": 28713.6,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1901,7 +1743,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1915,10 +1757,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1929,12 +1771,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 751000.0
         },
         "grade": {
@@ -1943,19 +1779,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.37
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 10288.7,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -1966,7 +1794,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -1980,10 +1808,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1994,12 +1822,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2845000.0
         },
         "grade": {
@@ -2008,19 +1830,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.28
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 36416.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -2031,7 +1845,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -2045,10 +1859,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2059,12 +1873,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 5043000.0
         },
         "grade": {
@@ -2073,19 +1881,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.41
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 71106.3,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -2096,7 +1896,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -2110,10 +1910,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2124,12 +1924,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 800000.0
         },
         "grade": {
@@ -2138,19 +1932,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.17
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 9360.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -2161,7 +1947,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -2175,10 +1961,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2189,12 +1975,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 525000.0
         },
         "grade": {
@@ -2203,19 +1983,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.11
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 5827.5,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -2226,7 +1998,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -2240,10 +2012,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2254,12 +2026,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 41000.0
         },
         "grade": {
@@ -2268,19 +2034,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.19
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 487.9,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -2291,7 +2049,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -2305,10 +2063,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2319,12 +2077,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2044000.0
         },
         "grade": {
@@ -2333,19 +2085,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.16
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 23710.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -2356,7 +2100,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -2370,10 +2114,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2384,12 +2128,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 900000.0
         },
         "grade": {
@@ -2398,19 +2136,11 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.2
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1.0
         },
-        "contained_metal": 10800.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Bucko Lake Project in North America dated October 2012.pdf",
@@ -2421,7 +2151,7 @@
             ],
             "year": 2012,
             "month": 10,
-            "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+            "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
             "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
           },
           "page_info": [
@@ -2436,20 +2166,14 @@
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "U-M conduit nickel-copper-PGE",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q482",
+        "observed_name": "Komatiite nickel-copper-PGE",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q476",
         "source": "Inferlink Extraction v3",
-        "confidence": 0.5
-      },
-      {
-        "observed_name": "U-M intrusion nickel-copper-PGE",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q481",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.5
+        "confidence": 1.0
       }
     ],
-    "modified_at": "2024-11-15T03:59:50.552944Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "modified_at": "2024-12-18T04:08:19.859466Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {
@@ -2461,7 +2185,7 @@
           ],
           "year": 2012,
           "month": 10,
-          "description": "Technical report regarding update to reserves and resources for the Bucko Lake Nickel Project.",
+          "description": "NI 43 -101 TECHNICAL REPORT REGARDING UPDATE TO RESERVES AND RESOURCES for the BUCKO LAKE NICKEL PROJECT",
           "uri": "https://api.cdr.land/v1/docs/documents/02eab400bd0394dc3264b5db27f3d44d7f178aee941def1258b366306f23988ecb"
         }
       }

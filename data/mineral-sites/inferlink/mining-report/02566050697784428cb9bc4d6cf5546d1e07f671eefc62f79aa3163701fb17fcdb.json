@@ -4,7 +4,7 @@
     "record_id": "02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb",
     "name": "Mel Deposit",
     "location_info": {
-      "location": "POINT(-97.845 -55.975)",
+      "location": "POINT(-96.0417 55.7425)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
@@ -31,10 +31,145 @@
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4066.0
+        },
+        "grade": {
+          "value": 0.65
+        },
+        "cutoff_grade": {},
+        "contained_metal": 26.429,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 47
+            }
+          ]
+        },
+        "date": "2007-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4366.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 47
+            }
+          ]
+        },
+        "date": "2007-03",
+        "zone": "mel property"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3280.0
+        },
+        "grade": {
+          "value": 0.39
+        },
+        "contained_metal": 12.792,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 54
+            }
+          ]
+        },
+        "date": "2007-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -46,12 +181,11 @@
         ],
         "ore": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 4279000.0
+          }
         },
         "grade": {
           "unit": {
@@ -59,35 +193,24 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.875
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 37441.25,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
             "authors": [
-              "Shahé Naccashian",
+              "Shah\u00e9 Naccashian",
               "Gilles Arseneau",
               "Tim Maunula"
             ],
             "year": 2007,
             "month": 3,
-            "description": "Technical Report on the Mel Deposit, Northern Manitoba",
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
             "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
           },
           "page_info": [
             {
-              "page": 58
+              "page": 51
             }
           ]
         },
@@ -95,10 +218,251 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 51
+            }
+          ]
+        },
+        "date": "2007-03"
+      },
+      {
+        "commodity": {
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 887.5
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 102
+            }
+          ]
+        },
+        "date": "2007-03",
+        "zone": "mel deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1173.5
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 102
+            }
+          ]
+        },
+        "date": "2007-03",
+        "zone": "mel deposit"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {},
+        "grade": {
+          "value": 0.65
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 47
+            }
+          ]
+        },
+        "date": "2007-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2036000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 47
+            }
+          ]
+        },
+        "date": "2007-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -109,13 +473,7 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tons",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1010000.0
+          "value": 299000.0
         },
         "grade": {
           "unit": {
@@ -123,35 +481,73 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 0.839
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.5
-        },
-        "contained_metal": 8473.9,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
             "authors": [
-              "Shahé Naccashian",
+              "Shah\u00e9 Naccashian",
               "Gilles Arseneau",
               "Tim Maunula"
             ],
             "year": 2007,
             "month": 3,
-            "description": "Technical Report on the Mel Deposit, Northern Manitoba",
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
             "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
           },
           "page_info": [
             {
-              "page": 58
+              "page": 47
+            }
+          ]
+        },
+        "date": "2007-03"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 3227.0
+        },
+        "grade": {
+          "value": 0.4
+        },
+        "contained_metal": 12.908,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
+            "authors": [
+              "Shah\u00e9 Naccashian",
+              "Gilles Arseneau",
+              "Tim Maunula"
+            ],
+            "year": 2007,
+            "month": 3,
+            "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
+          },
+          "page_info": [
+            {
+              "page": 102
             }
           ]
         },
@@ -160,7 +556,7 @@
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Sediment-hosted copper ± Co",
+        "observed_name": "Sediment-hosted copper \b1 Co",
         "normalized_uri": "https://minmod.isi.edu/resource/Q374",
         "source": "Inferlink Extraction v3",
         "confidence": 0.5
@@ -172,20 +568,20 @@
         "confidence": 0.5
       }
     ],
-    "modified_at": "2024-11-14T18:16:03.769540Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "modified_at": "2024-12-17T19:59:46.180863Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Mel Project in North America dated March 2007.pdf",
           "authors": [
-            "Shahé Naccashian",
+            "Shah\u00e9 Naccashian",
             "Gilles Arseneau",
             "Tim Maunula"
           ],
           "year": 2007,
           "month": 3,
-          "description": "Technical Report on the Mel Deposit, Northern Manitoba",
+          "description": "Technical Report on the Mel Deposit, Northern Manitoba.",
           "uri": "https://api.cdr.land/v1/docs/documents/02566050697784428cb9bc4d6cf5546d1e07f671eefc62f79aa3163701fb17fcdb"
         }
       }

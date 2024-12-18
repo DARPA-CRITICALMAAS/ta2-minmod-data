@@ -2,14 +2,8 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7",
-    "name": "Texmont Property",
+    "name": "Texmont",
     "location_info": {
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "EPSG:4326",
-        "confidence": 1,
-        "source": "Inferlink Extraction v3"
-      },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
@@ -27,23 +21,583 @@
         }
       ]
     },
-    "mineral_inventory": [],
-    "deposit_type_candidate": [
+    "mineral_inventory": [
       {
-        "observed_name": "Komatiite nickel-copper-PGE",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q476",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.5
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 51529.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "alexo"
       },
       {
-        "observed_name": "Ophiolite nickel-copper-PGE",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q484",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.5
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [],
+        "ore": {
+          "value": 51529.0
+        },
+        "grade": {
+          "value": 0.07
+        },
+        "contained_metal": 36.0703,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "alexo"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 1000000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "dundonald"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 220000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "langmuir #1"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 320000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "langmuir #2"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 440000.0
+        },
+        "grade": {
+          "value": 0.9
+        },
+        "contained_metal": 3960.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "sothman"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 525700.0
+        },
+        "grade": {
+          "value": 0.73
+        },
+        "contained_metal": 3837.61,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "mcwatters"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 181500.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "mcwatters"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 1220000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "redstone"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [],
+        "ore": {
+          "value": 1220000.0
+        },
+        "grade": {
+          "value": 0.09
+        },
+        "contained_metal": 1098.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "redstone"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 770000.0
+        },
+        "grade": {
+          "value": 0.9
+        },
+        "contained_metal": 6930.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "hart"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 5113000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "montcalm"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [],
+        "ore": {
+          "value": 5113000.0
+        },
+        "grade": {
+          "value": 0.71
+        },
+        "contained_metal": 36302.3,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "montcalm"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [],
+        "ore": {
+          "value": 5113000.0
+        },
+        "grade": {
+          "value": 0.06
+        },
+        "contained_metal": 3067.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "montcalm"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [],
+        "ore": {
+          "value": 3190000.0
+        },
+        "grade": {
+          "value": 0.92
+        },
+        "contained_metal": 29348.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Texmont-Bartlett-English Project in North America dated February 2007.pdf",
+            "authors": [
+              "Hadyn R. Butler"
+            ],
+            "year": 2007,
+            "month": 2,
+            "description": "Independent Technical (Geological) Report for Fletcher Nickel Inc.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02c06d8c9ccae17f35dc58218a0ec80ca802690ad658d2ae80f17abf78bd055fd7"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2007-02",
+        "zone": "texmont"
       }
     ],
-    "modified_at": "2024-11-15T17:23:38.298244Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Type II, stratabound internal deposits",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q435",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Type I, basal/footwall deposits",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q435",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Type IV, hydrothermal-metamorphic",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q395",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2024-12-18T18:00:41.942246Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {

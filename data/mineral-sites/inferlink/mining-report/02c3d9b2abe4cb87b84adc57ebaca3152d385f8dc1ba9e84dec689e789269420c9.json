@@ -4,13 +4,7 @@
     "record_id": "02c3d9b2abe4cb87b84adc57ebaca3152d385f8dc1ba9e84dec689e789269420c9",
     "name": "Burnt Hill Tungsten Property",
     "location_info": {
-      "location": "POINT(-66.8 46.7)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "EPSG:4326",
-        "confidence": 1,
-        "source": "Inferlink Extraction v3"
-      },
+      "location": "POINT(66.8 46.7)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
@@ -31,20 +25,32 @@
     "mineral_inventory": [],
     "deposit_type_candidate": [
       {
+        "observed_name": "Vein tungsten",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q427",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
+      },
+      {
         "observed_name": "Vein tin",
         "normalized_uri": "https://minmod.isi.edu/resource/Q426",
         "source": "Inferlink Extraction v3",
-        "confidence": 0.5
+        "confidence": 0.25
       },
       {
         "observed_name": "Greisen tin \nMo",
         "normalized_uri": "https://minmod.isi.edu/resource/Q461",
         "source": "Inferlink Extraction v3",
-        "confidence": 0.5
+        "confidence": 0.25
+      },
+      {
+        "observed_name": "Greisen tungsten-molybdenum\nBi",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q462",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.25
       }
     ],
-    "modified_at": "2024-11-13T19:43:06.871184Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "modified_at": "2024-12-18T18:00:21.787598Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {
@@ -52,7 +58,9 @@
           "authors": [
             "Uldis Abolins"
           ],
-          "description": "Summary report on Billiken Syndicate’s Burnt Hill Tungsten Property.",
+          "year": 2000,
+          "month": 8,
+          "description": "Summary report on Billiken Syndicate's Burnt Hill Tungsten property.",
           "uri": "https://api.cdr.land/v1/docs/documents/02c3d9b2abe4cb87b84adc57ebaca3152d385f8dc1ba9e84dec689e789269420c9"
         }
       }

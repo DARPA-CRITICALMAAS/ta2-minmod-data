@@ -4,7 +4,13 @@
     "record_id": "022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a",
     "name": "Hitura Nickel Mine",
     "location_info": {
-      "location": "POINT(25.736 62.668)",
+      "location": "POINT(25.0 62.0)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "confidence": 1,
+        "source": "Inferlink Extraction v3"
+      },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1074",
@@ -25,10 +31,10 @@
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -39,35 +45,26 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 972000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.69
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 6706.8,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -80,10 +77,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -94,35 +91,26 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 350000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.62
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 2170.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -135,10 +123,148 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1336000.0
+        },
+        "grade": {
+          "value": 0.71
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 9485.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1086000.0
+        },
+        "grade": {
+          "value": 0.6
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 6516.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 615000.0
+        },
+        "grade": {
+          "value": 0.67
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 4120.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -155,35 +281,26 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1322000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.67
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 8857.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -196,272 +313,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1336000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.71
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 9485.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1086000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.6
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 6516.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2422000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.66
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 15985.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.67
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 4120.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -472,35 +327,26 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 972000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.24
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 2332.8,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -513,10 +359,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -527,35 +373,26 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 350000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.23
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 805.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -568,10 +405,148 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1336000.0
+        },
+        "grade": {
+          "value": 0.23
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 3072.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1086000.0
+        },
+        "grade": {
+          "value": 0.2
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 2172.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 615000.0
+        },
+        "grade": {
+          "value": 0.27
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 1660.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -588,35 +563,26 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1322000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.24
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 3172.8,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -629,272 +595,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1336000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.23
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 3072.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1086000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 2172.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2422000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.22
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 5328.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.27
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 1660.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
           "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
@@ -905,12 +609,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 972000.0
         },
         "grade": {
@@ -919,21 +617,22 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 2.12
+          }
         },
-        "contained_metal": 20606.4,
+        "cutoff_grade": {
+          "value": 0.47
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -946,10 +645,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
           "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
@@ -960,12 +659,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 350000.0
         },
         "grade": {
@@ -974,21 +667,22 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 2.33
+          }
         },
-        "contained_metal": 8155.0,
+        "cutoff_grade": {
+          "value": 0.47
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -1001,10 +695,160 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
           "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1336000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1086000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 615000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 5
+            }
+          ]
+        },
+        "date": "2010-10"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
@@ -1021,12 +865,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 1322000.0
         },
         "grade": {
@@ -1035,21 +873,22 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 2.17
+          }
         },
-        "contained_metal": 28687.4,
+        "cutoff_grade": {
+          "value": 0.47
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -1062,10 +901,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -1076,874 +915,12 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1336000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.48
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 33132.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1086000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.84
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 41702.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2422000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.09
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 74839.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.88
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 23862.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 5
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1336000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.71
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 9485.6,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1086000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.6
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 6516.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.67
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 4120.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1336000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.23
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 3072.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1086000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.2
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 2172.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.27
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 1660.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1336000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.48
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 33132.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1086000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.84
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 41702.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 615000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.88
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 23862.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2227000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.66
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.47
         },
         "contained_metal": 14698.2,
@@ -1951,13 +928,13 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -1971,50 +948,26 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
+            "observed_name": "measured",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2227000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.23
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.47
         },
         "contained_metal": 5122.1,
@@ -2022,13 +975,13 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -2042,32 +995,20 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
           "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
+            "observed_name": "measured",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2227000.0
         },
         "grade": {
@@ -2076,30 +1017,22 @@
             "observed_name": "%",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 3.16
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.47
         },
-        "contained_metal": 70373.2,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -2113,10 +1046,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -2132,31 +1065,78 @@
             "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 195000.0
+          "value": 2227000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.66
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+          "value": 0.47
+        },
+        "contained_metal": 14698.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "north hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 195000.0
+        },
+        "grade": {
+          "value": 0.66
+        },
+        "cutoff_grade": {
           "value": 0.47
         },
         "contained_metal": 1287.0,
@@ -2164,13 +1144,13 @@
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -2184,203 +1164,152 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 195000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.21
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 409.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10",
-        "zone": "middle hitura"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 195000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.31
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.47
-        },
-        "contained_metal": 4504.5,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 34
-            }
-          ]
-        },
-        "date": "2010-10",
-        "zone": "middle hitura"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
-            "observed_name": "measured+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "measured+indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
+          "value": 252000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
+          "value": 0.67
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.47
         },
+        "contained_metal": 1688.4,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "north hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 89000.0
+        },
+        "grade": {
+          "value": 0.55
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 489.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "middle hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 274000.0
+        },
+        "grade": {
+          "value": 0.72
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 1972.8,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
@@ -2394,573 +1323,619 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 972000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.69
-        },
-        "contained_metal": 6706.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 35
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven",
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 972000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.24
-        },
-        "contained_metal": 2332.8,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 35
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
           "confidence": 1,
           "source": "Inferlink Extraction v3"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 972000.0
+          "value": 2227000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.12
-        },
-        "contained_metal": 20606.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 35
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 350000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.62
-        },
-        "contained_metal": 2170.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 35
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 350000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.23
         },
-        "contained_metal": 805.0,
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 5122.1,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 35
+              "page": 34
             }
           ]
         },
-        "date": "2010-10"
+        "date": "2010-10",
+        "zone": "north hitura"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 350000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.33
-        },
-        "contained_metal": 8155.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 35
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1322000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.67
-        },
-        "contained_metal": 8857.4,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
-            "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
-              "Toby Strauss"
-            ],
-            "year": 2010,
-            "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
-            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
-          },
-          "page_info": [
-            {
-              "page": 35
-            }
-          ]
-        },
-        "date": "2010-10"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           },
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1322000.0
+          "value": 195000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+          "value": 0.21
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 409.5,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "middle hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 252000.0
+        },
+        "grade": {
           "value": 0.24
         },
-        "contained_metal": 3172.8,
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 604.8,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 35
+              "page": 34
             }
           ]
         },
-        "date": "2010-10"
+        "date": "2010-10",
+        "zone": "north hitura"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
-          "observed_name": "sulfur",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
+          "value": 89000.0
+        },
+        "grade": {
+          "value": 0.16
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 142.4,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "middle hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 274000.0
+        },
+        "grade": {
+          "value": 0.33
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "contained_metal": 904.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "south hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           },
-          "value": 1322000.0
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2227000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 2.17
+          }
         },
-        "contained_metal": 28687.4,
+        "cutoff_grade": {
+          "value": 0.47
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 35
+              "page": 34
             }
           ]
         },
-        "date": "2010-10"
+        "date": "2010-10",
+        "zone": "north hitura"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
+          "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured+indicated",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           },
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "measured+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 195000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "middle hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 252000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "north hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 89000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "middle hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "sulfur",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li2O",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 274000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.47
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
+            "authors": [
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
+              "Toby Strauss"
+            ],
+            "year": 2010,
+            "month": 10,
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
+            "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
+          },
+          "page_info": [
+            {
+              "page": 34
+            }
+          ]
+        },
+        "date": "2010-10",
+        "zone": "south hitura"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 192145.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.6
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 1152.87,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -2969,60 +1944,45 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 349391.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.62
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 2166.2242,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -3031,60 +1991,45 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 779994.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.71
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 5537.9574,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -3093,60 +2038,45 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 192145.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.23
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 441.9335,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -3155,60 +2085,45 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 349391.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.23
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 803.5993,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -3217,60 +2132,45 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 779994.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.25
+        },
+        "cutoff_grade": {
+          "value": 0.47
         },
         "contained_metal": 1949.985,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -3279,60 +2179,49 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
           "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 192145.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 2.22
+          }
         },
-        "contained_metal": 4265.619,
+        "cutoff_grade": {
+          "value": 0.47
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -3341,60 +2230,49 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
           "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 349391.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 2.33
+          }
         },
-        "contained_metal": 8140.8103,
+        "cutoff_grade": {
+          "value": 0.47
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -3403,60 +2281,49 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q633",
           "observed_name": "sulfur",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q633"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 779994.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 2.09
+          }
         },
-        "contained_metal": 16301.8746,
+        "cutoff_grade": {
+          "value": 0.47
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
             "authors": [
-              "Markku Meriläinen",
-              "Pekka Lovén",
+              "Markku Meril\u00e4inen",
+              "Pekka Lov\u00e9n",
               "Toby Strauss"
             ],
             "year": 2010,
             "month": 10,
-            "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+            "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
             "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
           },
           "page_info": [
             {
-              "page": 36
+              "page": 35
             }
           ]
         },
@@ -3466,26 +2333,32 @@
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "U-M layered intrusion nickel-copper-PGE",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q478",
+        "observed_name": "Komatiite nickel-copper-PGE",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q476",
         "source": "Inferlink Extraction v3",
-        "confidence": 1.0
+        "confidence": 0.5
+      },
+      {
+        "observed_name": "Vein five-element",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q386",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-11-15T20:44:49.809172Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "modified_at": "2024-12-18T19:07:39.298897Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Hitura Project in Europe, Finland dated October 2010.pdf",
           "authors": [
-            "Markku Meriläinen",
-            "Pekka Lovén",
+            "Markku Meril\u00e4inen",
+            "Pekka Lov\u00e9n",
             "Toby Strauss"
           ],
           "year": 2010,
           "month": 10,
-          "description": "Updated reserve and resource estimate of the Hitura nickel mine in central Finland.",
+          "description": "Updated reserve and resource estimate of the Hitura Nickel Mine in Central Finland",
           "uri": "https://api.cdr.land/v1/docs/documents/022f78d48e62a0dc3380e697f02797e639d22138a54f1bfe252fd8b64246f93c2a"
         }
       }

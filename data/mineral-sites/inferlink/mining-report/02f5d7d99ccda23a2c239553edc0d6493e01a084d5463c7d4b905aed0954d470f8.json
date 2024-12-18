@@ -4,7 +4,13 @@
     "record_id": "02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8",
     "name": "West Raglan Property",
     "location_info": {
-      "location": "POINT(75.8333 60.3333)",
+      "location": "POINT(-75.8333 60.3333)",
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "confidence": 1,
+        "source": "Inferlink Extraction v3"
+      },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
@@ -25,31 +31,21 @@
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Ni2+",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
+          "value": 3185000.0
         },
         "grade": {
           "unit": {
@@ -57,8 +53,7 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 3.32
+          }
         },
         "reference": {
           "document": {
@@ -78,170 +73,168 @@
           ]
         },
         "date": "2003-03",
-        "zone": "mesamax northwest grid area"
+        "zone": "west raglan project"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Cu2+",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 4.01
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
-            "authors": [
-              "Richard Dufresne"
-            ],
-            "year": 2003,
-            "month": 3,
-            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
-          },
-          "page_info": [
-            {
-              "page": 13
-            }
-          ]
-        },
-        "date": "2003-03",
-        "zone": "mesamax northwest grid area"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
-          "observed_name": "cobalt",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Co2+",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.13
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
-            "authors": [
-              "Richard Dufresne"
-            ],
-            "year": 2003,
-            "month": 3,
-            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
-          },
-          "page_info": [
-            {
-              "page": 13
-            }
-          ]
-        },
-        "date": "2003-03",
-        "zone": "mesamax northwest grid area"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q561",
-          "observed_name": "iron",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        },
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
-            "authors": [
-              "Richard Dufresne"
-            ],
-            "year": 2003,
-            "month": 3,
-            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
-            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
-          },
-          "page_info": [
-            {
-              "page": 13
-            }
-          ]
-        },
-        "date": "2003-03"
-      },
-      {
-        "commodity": {
-          "observed_name": "magnesium",
           "confidence": 1,
           "source": "Inferlink Extraction v3",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q570"
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Cu",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 1585600.0
+        },
+        "grade": {
+          "value": 0.42
+        },
+        "cutoff_grade": {
+          "value": 1.5
+        },
+        "contained_metal": 6659.52,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "west raglan project"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Pt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 320000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "west raglan project"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Pd",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 320000.0
+        },
+        "grade": {
+          "value": 2.0
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "contained_metal": 6400.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "west raglan project"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -252,9 +245,380 @@
           }
         ],
         "ore": {
+          "value": 13150.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
+      },
+      {
+        "commodity": {
+          "observed_name": "copper",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 5500.0
+        },
+        "grade": {
+          "value": 0.92
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 50.6,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1350.0
+        },
+        "grade": {
+          "value": 0.03
+        },
+        "cutoff_grade": {
+          "value": 0.1
+        },
+        "contained_metal": 0.405,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
+      },
+      {
+        "commodity": {
+          "observed_name": "platinum",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1250.0
+        },
+        "grade": {
+          "value": 0.22
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "contained_metal": 2.75,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
+      },
+      {
+        "commodity": {
+          "observed_name": "palladium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 980.0
+        },
+        "grade": {
+          "value": 0.31
+        },
+        "cutoff_grade": {
+          "value": 0.5
+        },
+        "contained_metal": 3.038,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
+      },
+      {
+        "commodity": {
+          "observed_name": "gold",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4500.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "gram per tonne",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
+      },
+      {
+        "commodity": {
+          "observed_name": "iridium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q596"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 650.0
+        },
+        "grade": {
+          "value": 0.05
+        },
+        "cutoff_grade": {
+          "value": 1.5
+        },
+        "contained_metal": 0.325,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
+      },
+      {
+        "commodity": {
+          "observed_name": "ruthenium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q606"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 360.0
+        },
+        "grade": {
+          "value": 0.15
+        },
+        "cutoff_grade": {
+          "value": 0.2
+        },
+        "contained_metal": 0.54,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
+            "authors": [
+              "Richard Dufresne"
+            ],
+            "year": 2003,
+            "month": 3,
+            "description": "Technical report on the West Raglan Property in Nunavik, Quebec, Canada.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02f5d7d99ccda23a2c239553edc0d6493e01a084d5463c7d4b905aed0954d470f8"
+          },
+          "page_info": [
+            {
+              "page": 13
+            }
+          ]
+        },
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 49.3
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
@@ -276,14 +640,15 @@
             }
           ]
         },
-        "date": "2003-03"
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -294,24 +659,16 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 23354.0
+          "value": 49.3
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 722.2
+          }
         },
-        "contained_metal": 168662.588,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
@@ -325,18 +682,19 @@
           },
           "page_info": [
             {
-              "page": 54
+              "page": 13
             }
           ]
         },
-        "date": "2003-03"
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "cobalt",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
         },
         "category": [
           {
@@ -347,24 +705,12 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 23482.0
+          "value": 49.3
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 424.29
+          "value": 0.13
         },
-        "contained_metal": 99631.7778,
+        "contained_metal": 0.0641,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
@@ -378,18 +724,19 @@
           },
           "page_info": [
             {
-              "page": 54
+              "page": 13
             }
           ]
         },
-        "date": "2003-03"
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "palladium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q600"
         },
         "category": [
           {
@@ -400,24 +747,16 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 21317.0
+          "value": 49.3
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 54158.41
+          }
         },
-        "contained_metal": 11544948.2597,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
@@ -431,18 +770,19 @@
           },
           "page_info": [
             {
-              "page": 54
+              "page": 13
             }
           ]
         },
-        "date": "2003-03"
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "platinum",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q601"
         },
         "category": [
           {
@@ -453,24 +793,16 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 21700.0
+          "value": 49.3
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "g/t",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 218.26
+          }
         },
-        "contained_metal": 47362.42,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
@@ -484,18 +816,19 @@
           },
           "page_info": [
             {
-              "page": 54
+              "page": 13
             }
           ]
         },
-        "date": "2003-03"
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "gold",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         },
         "category": [
           {
@@ -506,24 +839,12 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 23336.0
+          "value": 49.3
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 4516.48
+          "value": 0.26
         },
-        "contained_metal": 1053965.7728,
+        "contained_metal": 0.1282,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
@@ -537,46 +858,42 @@
           },
           "page_info": [
             {
-              "page": 54
+              "page": 13
             }
           ]
         },
-        "date": "2003-03"
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
+            "normalized_uri": "https://minmod.isi.edu/resource/Measured",
+            "observed_name": "measured",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 23477.0
+          "value": 0.32
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 224.78
+          }
         },
-        "contained_metal": 52771.6006,
+        "cutoff_grade": {
+          "value": 0.91
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the West Raglan Project in North America dated March 2003.pdf",
@@ -590,11 +907,12 @@
           },
           "page_info": [
             {
-              "page": 54
+              "page": 13
             }
           ]
         },
-        "date": "2003-03"
+        "date": "2003-03",
+        "zone": "mesamax northwest grid area"
       }
     ],
     "deposit_type_candidate": [
@@ -602,17 +920,11 @@
         "observed_name": "Komatiite nickel-copper-PGE",
         "normalized_uri": "https://minmod.isi.edu/resource/Q476",
         "source": "Inferlink Extraction v3",
-        "confidence": 0.5
-      },
-      {
-        "observed_name": "U-M intrusion nickel-copper-PGE",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q481",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.5
+        "confidence": 1.0
       }
     ],
-    "modified_at": "2024-11-15T18:39:33.689801Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "modified_at": "2024-12-18T18:39:11.686534Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {

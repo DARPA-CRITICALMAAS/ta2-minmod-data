@@ -2,21 +2,21 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce",
-    "name": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+    "name": "Sonora Lithium Project",
     "location_info": {
-      "location": "POINT(-109.094398 29.693369)",
+      "location": "POINT(-110.9149 30.0142)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "WGS84",
+        "observed_name": "EPSG:4326",
         "confidence": 1,
-        "source": "Inferlink Extraction v2"
+        "source": "Inferlink Extraction v3"
       },
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1140",
           "observed_name": "Mexico",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ],
       "state_or_province": [
@@ -24,33 +24,33 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q4555",
           "observed_name": "Sonora",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         }
       ]
     },
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 64.0
         },
         "grade": {
@@ -58,119 +58,207 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3700.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 2368.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "la ventana lower clay"
+        "date": "2016-04",
+        "zone": "la ventana"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
+          "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
+          "value": 64.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {},
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
-          "value": 32.0
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 45.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2100.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 672.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "la ventana upper clay"
+        "date": "2016-04",
+        "zone": "la ventana"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 45.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {},
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana"
+      },
+      {
+        "commodity": {
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 58.0
         },
         "grade": {
@@ -178,119 +266,203 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3000.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 1740.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz lower clay"
+        "date": "2016-04",
+        "zone": "el sauz"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
+          "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
+          "value": 58.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {},
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
-          "value": 14.0
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 20.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2100.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 294.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz upper clay"
+        "date": "2016-04",
+        "zone": "el sauz"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 20.0
+        },
+        "grade": {
+          "value": 1.0
+        },
+        "cutoff_grade": {},
+        "contained_metal": 0.2,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz"
+      },
+      {
+        "commodity": {
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 60.0
         },
         "grade": {
@@ -298,124 +470,207 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4300.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 2580.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
           "page_info": [
             {
-              "page": 88
+              "page": 6
             }
           ]
         },
-        "date": "2016-4",
-        "zone": "fleur lower clay"
+        "date": "2016-04",
+        "zone": "fleur"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
+          "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
+          "value": 60.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {},
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
-          "value": 27.0
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 20.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2200.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 594.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "fleur upper clay"
+        "date": "2016-04",
+        "zone": "fleur"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 20.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {},
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur"
+      },
+      {
+        "commodity": {
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.0
         },
         "grade": {
@@ -423,484 +678,103 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4000.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 160.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz 1 lower clay"
+        "date": "2016-04",
+        "zone": "el sauz1"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
+          "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
+          "value": 4.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2200.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 22.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "el sauz 1 upper clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 45.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4300.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 1935.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "la ventana lower clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 45.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2000.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 900.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "la ventana upper clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2500.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 500.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "el sauz lower clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1900.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 95.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "el sauz upper clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4300.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 860.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
           "page_info": [
             {
-              "page": 88
+              "page": 6
             }
           ]
         },
-        "date": "2016-4",
-        "zone": "fleur lower clay"
+        "date": "2016-04",
+        "zone": "el sauz1"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2800.0
-        },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 140.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "fleur upper clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3"
         },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 15.0
         },
         "grade": {
@@ -908,119 +782,1357 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4000.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 600.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz 1 lower clay"
+        "date": "2016-04",
+        "zone": "el sauz1"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
-          "observed_name": "lithium",
+          "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
+          "value": 15.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2400.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1000.0
-        },
-        "contained_metal": 120.0,
+        "cutoff_grade": {},
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz 1 upper clay"
+        "date": "2016-04",
+        "zone": "el sauz1"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
+          "value": 97.0
+        },
+        "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 47.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 2000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 18.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 3000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 98.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 74.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 2000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1301",
+          "observed_name": "Li",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 59.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 3000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 31.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Lithium Carbonate",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 61.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 35.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 35.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 15.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 8.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 2.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 30.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 90.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 100.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 100.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 80.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 60.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 20.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz1 - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 30.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "Li ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 450.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 22
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz1 - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
           "value": 64.0
         },
         "grade": {
@@ -1028,59 +2140,56 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3700.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1000.0
         },
-        "contained_metal": 2368.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "la ventana lower clay"
+        "date": "2016-04",
+        "zone": "la ventana - lower clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 32.0
         },
         "grade": {
@@ -1088,59 +2197,56 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2100.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1000.0
         },
-        "contained_metal": 672.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "la ventana upper clay"
+        "date": "2016-04",
+        "zone": "la ventana - upper clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 58.0
         },
         "grade": {
@@ -1148,59 +2254,56 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 3000.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1000.0
         },
-        "contained_metal": 1740.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz lower clay"
+        "date": "2016-04",
+        "zone": "el sauz - lower clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 14.0
         },
         "grade": {
@@ -1208,59 +2311,56 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2100.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1000.0
         },
-        "contained_metal": 294.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz upper clay"
+        "date": "2016-04",
+        "zone": "el sauz - upper clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 60.0
         },
         "grade": {
@@ -1268,64 +2368,56 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4300.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1000.0
         },
-        "contained_metal": 2580.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
           "page_info": [
             {
-              "page": 88
+              "page": 6
             }
           ]
         },
-        "date": "2016-4",
-        "zone": "fleur lower clay"
+        "date": "2016-04",
+        "zone": "fleur - lower clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 27.0
         },
         "grade": {
@@ -1333,59 +2425,56 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2200.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1000.0
         },
-        "contained_metal": 594.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "fleur upper clay"
+        "date": "2016-04",
+        "zone": "fleur - upper clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 4.0
         },
         "grade": {
@@ -1393,59 +2482,56 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 4000.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
-            "observed_name": "ppm",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1000.0
         },
-        "contained_metal": 160.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz 1 lower clay"
+        "date": "2016-04",
+        "zone": "el sauz1 - lower clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569",
           "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
             "observed_name": "indicated",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1.0
         },
         "grade": {
@@ -1453,685 +2539,1289 @@
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 2200.0
+            "source": "Inferlink Extraction v3"
+          }
         },
         "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz1 - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 45.0
+        },
+        "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q218",
             "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
           "value": 1000.0
         },
-        "contained_metal": 22.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz 1 upper clay"
+        "date": "2016-04",
+        "zone": "la ventana - lower clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
+          "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 45.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.8
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 0.81,
+        "cutoff_grade": {
+          "value": 1000.0
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "la ventana lower clay"
+        "date": "2016-04",
+        "zone": "la ventana - upper clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
+          "observed_name": "lithium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 45.0
+          "value": 20.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 20.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 15.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz1 - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "lithium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1302",
+          "observed_name": "Li2CO3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 5.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q218",
+            "observed_name": "ppm",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz1 - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 64.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% K",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 32.0
+        },
+        "grade": {
+          "value": 0.9
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "contained_metal": 0.288,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 58.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% K",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 14.0
+        },
+        "grade": {
           "value": 0.8
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "contained_metal": 0.112,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 60.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% K",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 27.0
+        },
+        "grade": {
+          "value": 0.9
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "contained_metal": 0.243,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 4.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% K",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz1 - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.8
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "contained_metal": 0.008,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz1 - upper clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 45.0
+        },
+        "grade": {
+          "unit": {
+            "observed_name": "% K",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "la ventana - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 45.0
+        },
+        "grade": {
+          "value": 0.8
+        },
+        "cutoff_grade": {
+          "value": 1000.0
         },
         "contained_metal": 0.36,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "la ventana upper clay"
+        "date": "2016-04",
+        "zone": "la ventana - upper clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
           "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 20.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 1.0
+        },
+        "cutoff_grade": {
+          "value": 1000.0
         },
         "contained_metal": 0.2,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "el sauz lower clay"
+        "date": "2016-04",
+        "zone": "el sauz - lower clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
           "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 5.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
           "value": 0.8
+        },
+        "cutoff_grade": {
+          "value": 1000.0
         },
         "contained_metal": 0.04,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "el sauz upper clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.8
-        },
-        "contained_metal": 0.36,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
           "page_info": [
             {
-              "page": 88
+              "page": 6
             }
           ]
         },
-        "date": "2016-4",
-        "zone": "fleur lower clay"
+        "date": "2016-04",
+        "zone": "el sauz - upper clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
           "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
+          "value": 20.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "% K",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "fleur - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 5.0
+        },
+        "grade": {
           "value": 1.0
+        },
+        "cutoff_grade": {
+          "value": 1000.0
         },
         "contained_metal": 0.05,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "fleur upper clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 45.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.8
-        },
-        "contained_metal": 0.81,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "la ventana lower clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 45.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.8
-        },
-        "contained_metal": 0.36,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "la ventana upper clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
-        },
-        "contained_metal": 0.2,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "el sauz lower clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 0.8
-        },
-        "contained_metal": 0.04,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
-            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
-        },
-        "date": "2016-4",
-        "zone": "el sauz upper clay"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
-          "observed_name": "potassium",
-          "confidence": 1,
-          "source": "Inferlink Extraction v2"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 20.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.8
-        },
-        "contained_metal": 0.36,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
-            "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
-            ],
-            "year": 2016,
-            "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
           },
           "page_info": [
             {
-              "page": 88
+              "page": 6
             }
           ]
         },
-        "date": "2016-4",
-        "zone": "fleur lower clay"
+        "date": "2016-04",
+        "zone": "fleur - upper clay"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q583",
           "observed_name": "potassium",
           "confidence": 1,
-          "source": "Inferlink Extraction v2"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
             "observed_name": "inferred",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
+            "source": "Inferlink Extraction v3"
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "Mt",
-            "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 5.0
+          "value": 15.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "% K",
             "confidence": 1,
-            "source": "Inferlink Extraction v2"
-          },
-          "value": 1.0
+            "source": "Inferlink Extraction v3"
+          }
         },
-        "contained_metal": 0.05,
+        "cutoff_grade": {
+          "value": 1000.0
+        },
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
             "authors": [
-              "Martin Frank Pittuck",
-              "Ben Lepley",
-              "Oliver Jones"
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
             ],
             "year": 2016,
             "month": 4,
-            "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
             "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
-          }
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
         },
-        "date": "2016-4",
-        "zone": "fleur upper clay"
+        "date": "2016-04",
+        "zone": "el sauz1 - lower clay"
+      },
+      {
+        "commodity": {
+          "observed_name": "potassium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q583"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 5.0
+        },
+        "grade": {
+          "value": 0.9
+        },
+        "cutoff_grade": {
+          "value": 1000.0
+        },
+        "contained_metal": 0.045,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
+            "authors": [
+              "SRK Consulting (UK) Limited",
+              "Martin Pittuck",
+              "Ben Lepley"
+            ],
+            "year": 2016,
+            "month": 4,
+            "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
+            "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2016-04",
+        "zone": "el sauz1 - upper clay"
       }
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "hydrothermal alteration",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q370",
-        "source": "Inferlink Extraction v2",
+        "observed_name": "Lacustrine clay lithium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q356",
+        "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-09-20T00:00:00Z",
+    "modified_at": "2024-12-18T18:19:02.181573Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report for the Sonora Project in North America dated April 2016.pdf",
           "authors": [
-            "Martin Frank Pittuck",
-            "Ben Lepley",
-            "Oliver Jones"
+            "SRK Consulting (UK) Limited",
+            "Martin Pittuck",
+            "Ben Lepley"
           ],
           "year": 2016,
           "month": 4,
-          "description": "This technical report provides an amended mineral resource estimate update for the Sonora Lithium Project located in Mexico, reflecting the project's status as of April 2016.",
+          "description": "AMENDED MINERAL RESOURCE ESTIMATE UPDATE FOR THE SONORA LITHIUM PROJECT, MEXICO, APRIL 2016",
           "uri": "https://api.cdr.land/v1/docs/documents/026332f71cf72dcdae20a7a08d16f9196a1922ffced9bd75cebf6ee7391cc5f3ce"
         }
       }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/inferlink"
+    ]
   }
 ]

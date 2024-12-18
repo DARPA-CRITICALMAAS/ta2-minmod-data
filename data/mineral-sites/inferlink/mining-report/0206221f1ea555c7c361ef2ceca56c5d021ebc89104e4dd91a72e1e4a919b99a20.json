@@ -2,9 +2,9 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20",
-    "name": "Voisey's Bay Project",
+    "name": "Voisey\u2019s Bay Project",
     "location_info": {
-      "location": "POINT(-60.6007 48.5493)",
+      "location": "POINT(-60.3773 48.2693)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
@@ -31,10 +31,10 @@
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -45,12 +45,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 28100000.0
         },
         "grade": {
@@ -59,10 +53,8 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 3.02
+          }
         },
-        "contained_metal": 848620.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
@@ -83,7 +75,7 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
@@ -97,10 +89,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -111,224 +103,9 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2300000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.77
-        },
-        "contained_metal": 17710.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
-            "authors": [
-              "W.G. Bacon",
-              "L.B. Cochrane",
-              "J. Barrett",
-              "Scott Bishop",
-              "G. Hoffman",
-              "Lori Dussault",
-              "Dan Lee",
-              "H. Mackowiak",
-              "Larry Smith",
-              "Olivier Tavchandjian",
-              "Dr. Peter F. Wells",
-              "Robert Wheeler",
-              "Heather White"
-            ],
-            "year": 2003,
-            "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
-          },
-          "page_info": [
-            {
-              "page": 7
-            }
-          ]
-        },
-        "date": "2003-08",
-        "zone": "southeast extension"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "proven+probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 30400000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2.85
-        },
-        "contained_metal": 866400.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
-            "authors": [
-              "W.G. Bacon",
-              "L.B. Cochrane",
-              "J. Barrett",
-              "Scott Bishop",
-              "G. Hoffman",
-              "Lori Dussault",
-              "Dan Lee",
-              "H. Mackowiak",
-              "Larry Smith",
-              "Olivier Tavchandjian",
-              "Dr. Peter F. Wells",
-              "Robert Wheeler",
-              "Heather White"
-            ],
-            "year": 2003,
-            "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
-          },
-          "page_info": [
-            {
-              "page": 7
-            }
-          ]
-        },
-        "date": "2003-08"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
-            "observed_name": "proven",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 28100000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 1.77
-        },
-        "contained_metal": 497370.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
-            "authors": [
-              "W.G. Bacon",
-              "L.B. Cochrane",
-              "J. Barrett",
-              "Scott Bishop",
-              "G. Hoffman",
-              "Lori Dussault",
-              "Dan Lee",
-              "H. Mackowiak",
-              "Larry Smith",
-              "Olivier Tavchandjian",
-              "Dr. Peter F. Wells",
-              "Robert Wheeler",
-              "Heather White"
-            ],
-            "year": 2003,
-            "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
-          },
-          "page_info": [
-            {
-              "page": 7
-            }
-          ]
-        },
-        "date": "2003-08",
-        "zone": "ovoid & mini-ovoid"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2300000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.55
         },
         "contained_metal": 12650.0,
@@ -352,7 +129,7 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
@@ -366,10 +143,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -386,12 +163,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 30400000.0
         },
         "grade": {
@@ -400,10 +171,8 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.68
+          }
         },
-        "contained_metal": 510720.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
@@ -424,7 +193,7 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
@@ -437,10 +206,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
-          "observed_name": "cobalt",
+          "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -451,12 +220,6 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 28100000.0
         },
         "grade": {
@@ -465,7 +228,176 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
+            "authors": [
+              "W.G. Bacon",
+              "L.B. Cochrane",
+              "J. Barrett",
+              "Scott Bishop",
+              "G. Hoffman",
+              "Lori Dussault",
+              "Dan Lee",
+              "H. Mackowiak",
+              "Larry Smith",
+              "Olivier Tavchandjian",
+              "Dr. Peter F. Wells",
+              "Robert Wheeler",
+              "Heather White"
+            ],
+            "year": 2003,
+            "month": 8,
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
+          "page_info": [
+            {
+              "page": 7
+            }
+          ]
+        },
+        "date": "2003-08",
+        "zone": "ovoid & mini-ovoid"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2300000.0
+        },
+        "grade": {
+          "value": 0.77
+        },
+        "contained_metal": 17710.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
+            "authors": [
+              "W.G. Bacon",
+              "L.B. Cochrane",
+              "J. Barrett",
+              "Scott Bishop",
+              "G. Hoffman",
+              "Lori Dussault",
+              "Dan Lee",
+              "H. Mackowiak",
+              "Larry Smith",
+              "Olivier Tavchandjian",
+              "Dr. Peter F. Wells",
+              "Robert Wheeler",
+              "Heather White"
+            ],
+            "year": 2003,
+            "month": 8,
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
+          },
+          "page_info": [
+            {
+              "page": 7
+            }
+          ]
+        },
+        "date": "2003-08",
+        "zone": "southeast extension"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "proven+probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 30400000.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
+            "authors": [
+              "W.G. Bacon",
+              "L.B. Cochrane",
+              "J. Barrett",
+              "Scott Bishop",
+              "G. Hoffman",
+              "Lori Dussault",
+              "Dan Lee",
+              "H. Mackowiak",
+              "Larry Smith",
+              "Olivier Tavchandjian",
+              "Dr. Peter F. Wells",
+              "Robert Wheeler",
+              "Heather White"
+            ],
+            "year": 2003,
+            "month": 8,
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
+          },
+          "page_info": [
+            {
+              "page": 7
+            }
+          ]
+        },
+        "date": "2003-08"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 28100000.0
+        },
+        "grade": {
           "value": 0.151
         },
         "contained_metal": 42431.0,
@@ -489,7 +421,7 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
@@ -503,10 +435,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
           "observed_name": "cobalt",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
         },
         "category": [
           {
@@ -517,21 +449,9 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2300000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.037
         },
         "contained_metal": 851.0,
@@ -555,7 +475,7 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
@@ -569,10 +489,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
           "observed_name": "cobalt",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
         },
         "category": [
           {
@@ -589,21 +509,9 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 30400000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.142
         },
         "contained_metal": 43168.0,
@@ -627,7 +535,7 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
@@ -640,10 +548,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
-          "observed_name": "nickel",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -654,24 +562,16 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 28100000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 3.02
+          }
         },
-        "contained_metal": 848620.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
@@ -692,12 +592,12 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
             {
-              "page": 54
+              "page": 7
             }
           ]
         },
@@ -706,76 +606,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578",
           "observed_name": "nickel",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2300000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.77
-        },
-        "contained_metal": 17710.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
-            "authors": [
-              "W.G. Bacon",
-              "L.B. Cochrane",
-              "J. Barrett",
-              "Scott Bishop",
-              "G. Hoffman",
-              "Lori Dussault",
-              "Dan Lee",
-              "H. Mackowiak",
-              "Larry Smith",
-              "Olivier Tavchandjian",
-              "Dr. Peter F. Wells",
-              "Robert Wheeler",
-              "Heather White"
-            ],
-            "year": 2003,
-            "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
-          },
-          "page_info": [
-            {
-              "page": 54
-            }
-          ]
-        },
-        "date": "2003-08",
-        "zone": "southeast extension"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
         },
         "category": [
           {
@@ -786,24 +620,16 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 28100000.0
         },
         "grade": {
           "unit": {
             "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+            "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 1.77
+          }
         },
-        "contained_metal": 497370.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
@@ -824,12 +650,12 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
             {
-              "page": 54
+              "page": 7
             }
           ]
         },
@@ -838,76 +664,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
-          "observed_name": "copper",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
-            "observed_name": "probable",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 2300000.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.55
-        },
-        "contained_metal": 12650.0,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
-            "authors": [
-              "W.G. Bacon",
-              "L.B. Cochrane",
-              "J. Barrett",
-              "Scott Bishop",
-              "G. Hoffman",
-              "Lori Dussault",
-              "Dan Lee",
-              "H. Mackowiak",
-              "Larry Smith",
-              "Olivier Tavchandjian",
-              "Dr. Peter F. Wells",
-              "Robert Wheeler",
-              "Heather White"
-            ],
-            "year": 2003,
-            "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
-            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
-          },
-          "page_info": [
-            {
-              "page": 54
-            }
-          ]
-        },
-        "date": "2003-08",
-        "zone": "southeast extension"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
           "observed_name": "cobalt",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
         },
         "category": [
           {
@@ -918,21 +678,9 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 28100000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.151
         },
         "contained_metal": 42431.0,
@@ -956,12 +704,12 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
             {
-              "page": 54
+              "page": 7
             }
           ]
         },
@@ -970,10 +718,10 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537",
-          "observed_name": "cobalt",
+          "observed_name": "copper",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
         },
         "category": [
           {
@@ -984,21 +732,117 @@
           }
         ],
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
-            "observed_name": "tonnes",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 2300000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "%",
+          "value": 0.55
+        },
+        "contained_metal": 12650.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
+            "authors": [
+              "W.G. Bacon",
+              "L.B. Cochrane",
+              "J. Barrett",
+              "Scott Bishop",
+              "G. Hoffman",
+              "Lori Dussault",
+              "Dan Lee",
+              "H. Mackowiak",
+              "Larry Smith",
+              "Olivier Tavchandjian",
+              "Dr. Peter F. Wells",
+              "Robert Wheeler",
+              "Heather White"
+            ],
+            "year": 2003,
+            "month": 8,
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
+          },
+          "page_info": [
+            {
+              "page": 7
+            }
+          ]
+        },
+        "date": "2003-08",
+        "zone": "southeast extension"
+      },
+      {
+        "commodity": {
+          "observed_name": "nickel",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2300000.0
+        },
+        "grade": {
+          "value": 0.77
+        },
+        "contained_metal": 17710.0,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Voiseys Bay Project in North America dated August 2003.pdf",
+            "authors": [
+              "W.G. Bacon",
+              "L.B. Cochrane",
+              "J. Barrett",
+              "Scott Bishop",
+              "G. Hoffman",
+              "Lori Dussault",
+              "Dan Lee",
+              "H. Mackowiak",
+              "Larry Smith",
+              "Olivier Tavchandjian",
+              "Dr. Peter F. Wells",
+              "Robert Wheeler",
+              "Heather White"
+            ],
+            "year": 2003,
+            "month": 8,
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
+            "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
+          "page_info": [
+            {
+              "page": 7
+            }
+          ]
+        },
+        "date": "2003-08",
+        "zone": "southeast extension"
+      },
+      {
+        "commodity": {
+          "observed_name": "cobalt",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Probable",
+            "observed_name": "probable",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 2300000.0
+        },
+        "grade": {
           "value": 0.037
         },
         "contained_metal": 851.0,
@@ -1022,12 +866,12 @@
             ],
             "year": 2003,
             "month": 8,
-            "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+            "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
             "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
           },
           "page_info": [
             {
-              "page": 54
+              "page": 7
             }
           ]
         },
@@ -1037,14 +881,13 @@
     ],
     "deposit_type_candidate": [
       {
-        "observed_name": "Magnetite-dominant IOCG",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q406",
+        "observed_name": "Magmatic sulphide",
         "source": "Inferlink Extraction v3",
         "confidence": 1.0
       }
     ],
-    "modified_at": "2024-11-15T18:23:49.807030Z",
-    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "modified_at": "2024-12-18T18:28:35.075594Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink ",
     "reference": [
       {
         "document": {
@@ -1066,7 +909,7 @@
           ],
           "year": 2003,
           "month": 8,
-          "description": "Technical report pursuant to National Instrument 43-101 of the Canadian Securities Administrators for the Voisey's Bay nickel-copper-cobalt project.",
+          "description": "Technical report providing scientific and technical information underlying the estimates of mineral reserves and mineral resources within the Voisey\u2019s Bay nickel-copper-cobalt project.",
           "uri": "https://api.cdr.land/v1/docs/documents/0206221f1ea555c7c361ef2ceca56c5d021ebc89104e4dd91a72e1e4a919b99a20"
         }
       }
