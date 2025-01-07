@@ -4,45 +4,50 @@
     "record_id": "02363028570c6ee0acc6f69589bc3447d874055cc25048f96ba21028140100c2f3",
     "name": "Balla Balla",
     "location_info": {
-      "location": "MULTIPOINT(0 0)",
       "crs": {
         "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
         "confidence": 1,
         "source": "Inferlink Extraction v3"
       },
-      "country": [
-        {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
-          "observed_name": "Australia",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        }
-      ],
-      "state_or_province": [
-        {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2213",
-          "observed_name": "Western Australia",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        }
-      ]
+      "country": [],
+      "state_or_province": []
     },
     "mineral_inventory": [],
-    "deposit_type_candidate": [],
-    "modified_at": "2024-11-13T21:36:08.308754Z",
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Sediment-hosted copper \b1 Co",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q374",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Porphyry copper \b1 gold",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q454",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "MVT zinc-lead",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q380",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2025-01-02T21:56:21.365479Z",
     "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
         "document": {
           "title": "NI 43-101 Technical Report (FS) for the Balla Balla PP Project in Australasia dated 2009.pdf",
           "authors": [
-            "Matt C7inn",
-            "Richard GaHe"
+            "Richard Gaher",
+            "Steve Craig",
+            "Matt C7inn"
           ],
           "year": 2008,
           "month": 11,
-          "description": "This document reports on the Balla Balla project regarding iron, titanium, vanadium ore deposits and resource estimations.",
+          "description": "Presentation prepared by Aurox Resources Limited regarding the Balla Balla Project.",
           "uri": "https://api.cdr.land/v1/docs/documents/02363028570c6ee0acc6f69589bc3447d874055cc25048f96ba21028140100c2f3"
         }
       }

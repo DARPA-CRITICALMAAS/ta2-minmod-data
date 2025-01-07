@@ -1,0 +1,123 @@
+[
+  {
+    "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
+    "record_id": "02e12ae434a6a625a2caf77806197bf244c6226eaefbd1613308eeb55833d25c7b",
+    "name": "CAP PROPERTY",
+    "location_info": {
+      "crs": {
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "confidence": 1,
+        "source": "Inferlink Extraction v3"
+      },
+      "country": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        }
+      ],
+      "state_or_province": [
+        {
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654",
+          "observed_name": "British Columbia",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        }
+      ]
+    },
+    "mineral_inventory": [
+      {
+        "commodity": {
+          "observed_name": "silicon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q685"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          },
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
+            "observed_name": "inferred+indicated",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 12.35
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "%",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the CAP Project in North America dated January 2014.pdf",
+            "authors": [
+              "Patrick Kluczny",
+              "Neil McCallum"
+            ],
+            "year": 2014,
+            "month": 1,
+            "description": "Technical report on the CAP Property located northeast of Prince George, British Columbia.",
+            "uri": "https://api.cdr.land/v1/docs/documents/02e12ae434a6a625a2caf77806197bf244c6226eaefbd1613308eeb55833d25c7b"
+          },
+          "page_info": [
+            {
+              "page": 25
+            }
+          ]
+        },
+        "date": "2014-01",
+        "zone": "sample 79826"
+      }
+    ],
+    "deposit_type_candidate": [
+      {
+        "observed_name": "Carbonatite REE",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q470",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Carbonatite niobium",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q471",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      },
+      {
+        "observed_name": "Carbonatite laterite REE",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q320",
+        "source": "Inferlink Extraction v3",
+        "confidence": 0.3333333333333333
+      }
+    ],
+    "modified_at": "2025-01-02T19:13:31.558542Z",
+    "created_by": "https://minmod.isi.edu/users/s/inferlink",
+    "reference": [
+      {
+        "document": {
+          "title": "NI 43-101 Technical Report for the CAP Project in North America dated January 2014.pdf",
+          "authors": [
+            "Patrick Kluczny",
+            "Neil McCallum"
+          ],
+          "year": 2014,
+          "month": 1,
+          "description": "Technical report on the CAP Property located northeast of Prince George, British Columbia.",
+          "uri": "https://api.cdr.land/v1/docs/documents/02e12ae434a6a625a2caf77806197bf244c6226eaefbd1613308eeb55833d25c7b"
+        }
+      }
+    ]
+  }
+]

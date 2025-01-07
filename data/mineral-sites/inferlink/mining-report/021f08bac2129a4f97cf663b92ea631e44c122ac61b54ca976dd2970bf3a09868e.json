@@ -2,15 +2,9 @@
   {
     "source_id": "mining-report::https://api.cdr.land/v1/docs/documents",
     "record_id": "021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e",
-    "name": "Lac Ėlan Property",
+    "name": "Lac \u0116lan Property",
     "location_info": {
-      "location": "POINT(-70.933333 48.783333)",
-      "crs": {
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
-        "observed_name": "EPSG:4326",
-        "confidence": 1,
-        "source": "Inferlink Extraction v3"
-      },
+      "location": "POINT(-70.93333 48.78333)",
       "country": [
         {
           "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
@@ -31,49 +25,29 @@
     "mineral_inventory": [
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q561",
           "observed_name": "iron",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q561"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Fe2O3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 9.0
+          "value": 75000000.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
+            "observed_name": "% FeO",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 53.8
+          }
         },
-        "contained_metal": 4.842,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
@@ -82,63 +56,43 @@
             ],
             "year": 2012,
             "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
           "page_info": [
             {
-              "page": 20
+              "page": 6
             }
           ]
         },
-        "date": "2012-07",
-        "zone": "rs-a"
+        "date": "2012-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q614",
           "observed_name": "titanium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q614"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "TiO2",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 9.0
+          "value": 75000000.0
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "% TiO2",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 15.7
+          }
         },
-        "contained_metal": 1.413,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
@@ -147,63 +101,39 @@
             ],
             "year": 2012,
             "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
           "page_info": [
             {
-              "page": 20
+              "page": 6
             }
           ]
         },
-        "date": "2012-07",
-        "zone": "rs-a"
+        "date": "2012-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q616",
           "observed_name": "vanadium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q616"
         },
         "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Proven",
+            "observed_name": "proven",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "V2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 9.0
+          "value": 75000000.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 0.4
+          "value": 0.41
         },
-        "contained_metal": 0.036,
+        "contained_metal": 307500.0,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
@@ -212,63 +142,42 @@
             ],
             "year": 2012,
             "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
           "page_info": [
             {
-              "page": 20
+              "page": 6
             }
           ]
         },
-        "date": "2012-07",
-        "zone": "rs-a"
+        "date": "2012-07"
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q561",
           "observed_name": "iron",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q561"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "Fe2O3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 18.5
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
+            "observed_name": "% Fe2O3",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 56.88
+          }
         },
-        "contained_metal": 10.5228,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
@@ -277,12 +186,12 @@
             ],
             "year": 2012,
             "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
           "page_info": [
             {
-              "page": 20
+              "page": 6
             }
           ]
         },
@@ -291,49 +200,30 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q614",
           "observed_name": "titanium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q614"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "TiO2",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 18.5
         },
         "grade": {
           "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
+            "normalized_uri": "https://minmod.isi.edu/resource/Q200",
+            "observed_name": "% TiO2",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 16.93
+          }
         },
-        "contained_metal": 3.1321,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
@@ -342,12 +232,12 @@
             ],
             "year": 2012,
             "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
           "page_info": [
             {
-              "page": 20
+              "page": 6
             }
           ]
         },
@@ -356,46 +246,23 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q616",
           "observed_name": "vanadium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q616"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
         ],
-        "material_form": {
-          "observed_name": "V2O5",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 18.5
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.42
         },
         "contained_metal": 0.0777,
@@ -407,7 +274,248 @@
             ],
             "year": 2012,
             "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
+          },
+          "page_info": [
+            {
+              "page": 6
+            }
+          ]
+        },
+        "date": "2012-07",
+        "zone": "rs-b"
+      },
+      {
+        "commodity": {
+          "observed_name": "silicon",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q685"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "ore": {
+          "value": 1.0
+        },
+        "grade": {
+          "value": 0.6
+        },
+        "contained_metal": 0.006,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
+            "authors": [
+              "Derrick Strickland"
+            ],
+            "year": 2012,
+            "month": 7,
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
+          },
+          "page_info": [
+            {
+              "page": 38
+            }
+          ]
+        },
+        "date": "2012-07"
+      },
+      {
+        "commodity": {
+          "observed_name": "iron",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q561"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Fe2O3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 9.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
+            "authors": [
+              "Derrick Strickland"
+            ],
+            "year": 2012,
+            "month": 7,
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
+          },
+          "page_info": [
+            {
+              "page": 20
+            }
+          ]
+        },
+        "date": "2012-07",
+        "zone": "rs-a"
+      },
+      {
+        "commodity": {
+          "observed_name": "titanium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q614"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "TiO2",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 9.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
+            "authors": [
+              "Derrick Strickland"
+            ],
+            "year": 2012,
+            "month": 7,
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
+          },
+          "page_info": [
+            {
+              "page": 20
+            }
+          ]
+        },
+        "date": "2012-07",
+        "zone": "rs-a"
+      },
+      {
+        "commodity": {
+          "observed_name": "vanadium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q616"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "V2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 9.0
+        },
+        "grade": {
+          "value": 0.4
+        },
+        "contained_metal": 0.036,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
+            "authors": [
+              "Derrick Strickland"
+            ],
+            "year": 2012,
+            "month": 7,
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
+          },
+          "page_info": [
+            {
+              "page": 20
+            }
+          ]
+        },
+        "date": "2012-07",
+        "zone": "rs-a"
+      },
+      {
+        "commodity": {
+          "observed_name": "iron",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q561"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Fe2O3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 18.5
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
+            "authors": [
+              "Derrick Strickland"
+            ],
+            "year": 2012,
+            "month": 7,
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
           "page_info": [
@@ -421,86 +529,15 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q561",
-          "observed_name": "iron",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "category": [
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          }
-        ],
-        "material_form": {
-          "observed_name": "Fe2O3",
-          "confidence": 1,
-          "source": "Inferlink Extraction v3"
-        },
-        "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.0
-        },
-        "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 66.27
-        },
-        "contained_metal": 1.9881,
-        "reference": {
-          "document": {
-            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
-            "authors": [
-              "Derrick Strickland"
-            ],
-            "year": 2012,
-            "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
-            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
-          },
-          "page_info": [
-            {
-              "page": 20
-            }
-          ]
-        },
-        "date": "2012-07",
-        "zone": "el-a"
-      },
-      {
-        "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q614",
           "observed_name": "titanium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q614"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
@@ -511,13 +548,7 @@
           "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
-          "value": 3.0
+          "value": 18.5
         },
         "grade": {
           "unit": {
@@ -525,10 +556,8 @@
             "observed_name": "percent",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
-          },
-          "value": 20.03
+          }
         },
-        "contained_metal": 0.6009,
         "reference": {
           "document": {
             "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
@@ -537,7 +566,105 @@
             ],
             "year": 2012,
             "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
+          },
+          "page_info": [
+            {
+              "page": 20
+            }
+          ]
+        },
+        "date": "2012-07",
+        "zone": "rs-b"
+      },
+      {
+        "commodity": {
+          "observed_name": "vanadium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q616"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "V2O5",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 18.5
+        },
+        "grade": {
+          "value": 0.42
+        },
+        "contained_metal": 0.0777,
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
+            "authors": [
+              "Derrick Strickland"
+            ],
+            "year": 2012,
+            "month": 7,
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
+          },
+          "page_info": [
+            {
+              "page": 20
+            }
+          ]
+        },
+        "date": "2012-07",
+        "zone": "rs-b"
+      },
+      {
+        "commodity": {
+          "observed_name": "iron",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q561"
+        },
+        "category": [
+          {
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "Fe2O3",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 3.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
+            "authors": [
+              "Derrick Strickland"
+            ],
+            "year": 2012,
+            "month": 7,
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
           "page_info": [
@@ -551,21 +678,66 @@
       },
       {
         "commodity": {
-          "normalized_uri": "https://minmod.isi.edu/resource/Q616",
-          "observed_name": "vanadium",
+          "observed_name": "titanium",
           "confidence": 1,
-          "source": "Inferlink Extraction v3"
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q614"
         },
         "category": [
           {
             "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
-            "observed_name": "inferred+indicated",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
+          }
+        ],
+        "material_form": {
+          "observed_name": "TiO2",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3"
+        },
+        "ore": {
+          "value": 3.0
+        },
+        "grade": {
+          "unit": {
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "percent",
+            "confidence": 1,
+            "source": "Inferlink Extraction v3"
+          }
+        },
+        "reference": {
+          "document": {
+            "title": "NI 43-101 Technical Report for the Lac Elan Project in North America dated July 2012.pdf",
+            "authors": [
+              "Derrick Strickland"
+            ],
+            "year": 2012,
+            "month": 7,
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
+            "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
+          "page_info": [
+            {
+              "page": 20
+            }
+          ]
+        },
+        "date": "2012-07",
+        "zone": "el-a"
+      },
+      {
+        "commodity": {
+          "observed_name": "vanadium",
+          "confidence": 1,
+          "source": "Inferlink Extraction v3",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q616"
+        },
+        "category": [
           {
-            "normalized_uri": "https://minmod.isi.edu/resource/Indicated",
-            "observed_name": "inferred+indicated",
+            "normalized_uri": "https://minmod.isi.edu/resource/Inferred",
+            "observed_name": "inferred",
             "confidence": 1,
             "source": "Inferlink Extraction v3"
           }
@@ -576,21 +748,9 @@
           "source": "Inferlink Extraction v3"
         },
         "ore": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
-            "observed_name": "m",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 3.0
         },
         "grade": {
-          "unit": {
-            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
-            "observed_name": "percent",
-            "confidence": 1,
-            "source": "Inferlink Extraction v3"
-          },
           "value": 0.49
         },
         "contained_metal": 0.0147,
@@ -602,7 +762,7 @@
             ],
             "year": 2012,
             "month": 7,
-            "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+            "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
             "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
           },
           "page_info": [
@@ -620,27 +780,16 @@
         "observed_name": "Anorthosite massif titanium",
         "normalized_uri": "https://minmod.isi.edu/resource/Q487",
         "source": "Inferlink Extraction v3",
-        "confidence": 0.25
+        "confidence": 0.5
       },
       {
-        "observed_name": "Massive coarse ilmenite",
+        "observed_name": "Anorthosite conduit nickel-copper-PGE",
+        "normalized_uri": "https://minmod.isi.edu/resource/Q488",
         "source": "Inferlink Extraction v3",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "Titanium-bearing oxide deposits",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q403",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.25
-      },
-      {
-        "observed_name": "Anorthosite-ferrodiorite type deposits",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q435",
-        "source": "Inferlink Extraction v3",
-        "confidence": 0.25
+        "confidence": 0.5
       }
     ],
-    "modified_at": "2024-11-13T20:44:10.192423Z",
+    "modified_at": "2025-01-02T21:21:16.985768Z",
     "created_by": "https://minmod.isi.edu/users/s/inferlink",
     "reference": [
       {
@@ -651,7 +800,7 @@
           ],
           "year": 2012,
           "month": 7,
-          "description": "NI 43-101 Technical Report on the Lac Ėlan Property.",
+          "description": "NI 43-101 Technical Report on the Lac \u00c9lan Property.",
           "uri": "https://api.cdr.land/v1/docs/documents/021f08bac2129a4f97cf663b92ea631e44c122ac61b54ca976dd2970bf3a09868e"
         }
       }
