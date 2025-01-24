@@ -2,8 +2,70 @@
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "CA00060",
-    "aliases": [
-      "Searles Dry Lake"
+    "name": "Searles Lake",
+    "location_info": {
+      "country": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6845"
+        }
+      ],
+      "crs": {
+        "source": "UMN Exact Match v1",
+        "confidence": 1.0,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
+      },
+      "location": "POINT (-117.3302 35.7177)"
+    },
+    "deposit_type_candidate": [
+      {
+        "source": "raw_data_extraction",
+        "confidence": 1,
+        "observed_name": "Brine"
+      }
+    ],
+    "mineral_inventory": [
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "lithium",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "tungsten",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        }
+      }
+    ],
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/deposit"
+        }
+      }
     ],
     "created_by": [
       "https://minmod.isi.edu/users/s/umn"
@@ -13,8 +75,50 @@
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "NV00140",
-    "aliases": [
-      "Mud Lake"
+    "name": "Nightingale Mining District",
+    "location_info": {
+      "country": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876"
+        }
+      ],
+      "crs": {
+        "source": "UMN Exact Match v1",
+        "confidence": 1.0,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
+      },
+      "location": "POINT (-119.2592 39.996)"
+    },
+    "mineral_inventory": [
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "tungsten",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        }
+      }
+    ],
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/deposit"
+        }
+      }
     ],
     "created_by": [
       "https://minmod.isi.edu/users/s/umn"
@@ -24,21 +128,109 @@
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "NV00114",
-    "aliases": [
-      "Centennial deposit",
-      "Monte Cristo",
-      "Seligman deposit"
+    "name": "Mt. Hamilton",
+    "location_info": {
+      "country": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876"
+        }
+      ],
+      "crs": {
+        "source": "UMN Exact Match v1",
+        "confidence": 1.0,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
+      },
+      "location": "POINT (-115.5563 39.2453)"
+    },
+    "deposit_type_candidate": [
+      {
+        "source": "raw_data_extraction",
+        "confidence": 1,
+        "observed_name": "14a - W skarn deposits"
+      }
     ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
+    "mineral_inventory": [
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "tungsten",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "gold",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "silver",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "copper",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "molybdenum",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        }
+      }
     ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "CA00060",
-    "aliases": [
-      "Searles Dry Lake"
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/deposit"
+        }
+      }
     ],
     "created_by": [
       "https://minmod.isi.edu/users/s/umn"
@@ -191,322 +383,6 @@
       },
       "location": "POINT (-117.561251 37.781133)"
     },
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "CA00060",
-    "name": "Searles Lake",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6845"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-117.327206 35.716747)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "lithium brine"
-      },
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "evaporites"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "lithium",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tungsten",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "CA00060",
-    "name": "Searles Lake",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6845"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-117.3302 35.7177)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "Brine"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "lithium",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tungsten",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "NV00114",
-    "name": "Mt. Hamilton",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6876"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-115.5563 39.2453)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "14a - W skarn deposits"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tungsten",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "molybdenum",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "NV00140",
-    "name": "Nightingale Mining District",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6876"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-119.2592 39.996)"
-    },
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tungsten",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
-        }
-      }
-    ],
     "reference": [
       {
         "document": {

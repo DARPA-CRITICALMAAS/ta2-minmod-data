@@ -2,7 +2,19 @@
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "CA00071",
-    "name": "Gasquet",
+    "aliases": [
+      "Gasquet Laterite",
+      "Gasquet Mountain"
+    ],
+    "created_by": [
+      "https://minmod.isi.edu/users/s/umn"
+    ],
+    "modified_at": "2024-09-20T00:00:00Z"
+  },
+  {
+    "source_id": "https://mrdata.usgs.gov/deposit",
+    "record_id": "CO00001",
+    "name": "Cement Creek District",
     "location_info": {
       "country": [
         {
@@ -15,7 +27,7 @@
         {
           "source": "UMN Exact Match v1",
           "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6845"
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6846"
         }
       ],
       "crs": {
@@ -23,15 +35,8 @@
         "confidence": 1.0,
         "normalized_uri": "https://minmod.isi.edu/resource/Q701"
       },
-      "location": "POINT (-123.996998 41.869794)"
+      "location": "POINT (-107.6782 37.862)"
     },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "38a - Lateritic Ni"
-      }
-    ],
     "mineral_inventory": [
       {
         "reference": {
@@ -42,34 +47,8 @@
         "commodity": {
           "source": "UMN Exact Match v1",
           "confidence": 0.9,
-          "observed_name": "cobalt",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q537"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "nickel",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q578"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "chromium",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q519"
+          "observed_name": "tungsten",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         }
       }
     ],
@@ -87,32 +66,123 @@
   },
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "CO00001",
-    "aliases": [
-      "San Juan Tungsten Area"
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "CA00071",
-    "aliases": [
-      "Gasquet Laterite",
-      "Gasquet Mountain"
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "AZ00029",
-    "aliases": [
-      "NA"
+    "name": "San Manuel",
+    "location_info": {
+      "country": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6842"
+        }
+      ],
+      "crs": {
+        "source": "UMN Exact Match v1",
+        "confidence": 1.0,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
+      },
+      "location": "POINT (-110.708131 32.673332)"
+    },
+    "deposit_type_candidate": [
+      {
+        "source": "raw_data_extraction",
+        "confidence": 1,
+        "observed_name": "Porphyry Cu-Mo"
+      }
+    ],
+    "mineral_inventory": [
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "copper",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "molybdenum",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "silver",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "gold",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "rhenium",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q603"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "tellurium",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q611"
+        }
+      }
+    ],
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/deposit"
+        }
+      }
     ],
     "created_by": [
       "https://minmod.isi.edu/users/s/umn"
@@ -122,9 +192,76 @@
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "ID00026",
-    "aliases": [
-      "Diamond Creek Thorium Vein District",
-      "Bloddy Dick"
+    "name": "Diamond Creek District",
+    "location_info": {
+      "country": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6855"
+        }
+      ],
+      "crs": {
+        "source": "UMN Exact Match v1",
+        "confidence": 1.0,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
+      },
+      "location": "POINT (-113.9517 45.2911)"
+    },
+    "mineral_inventory": [
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "rare earth elements",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q618"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "thorium",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q613"
+        }
+      },
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "gold",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
+        }
+      }
+    ],
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/deposit"
+        }
+      }
     ],
     "created_by": [
       "https://minmod.isi.edu/users/s/umn"
@@ -301,85 +438,6 @@
           "confidence": 0.9,
           "observed_name": "rare earth elements",
           "normalized_uri": "https://minmod.isi.edu/resource/Q618"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "ID00026",
-    "name": "Diamond Creek District",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6855"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-113.9517 45.2911)"
-    },
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "rare earth elements",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q618"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "thorium",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q613"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
         }
       }
     ],
@@ -694,184 +752,6 @@
           "confidence": 0.9,
           "observed_name": "arsenic",
           "normalized_uri": "https://minmod.isi.edu/resource/Q511"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "CO00001",
-    "name": "Cement Creek District",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6846"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-107.6782 37.862)"
-    },
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tungsten",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "AZ00029",
-    "name": "San Manuel",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6842"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-110.708131 32.673332)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "Porphyry Cu-Mo"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "molybdenum",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q576"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "rhenium",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q603"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tellurium",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q611"
         }
       }
     ],

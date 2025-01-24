@@ -180,37 +180,57 @@
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "CO00049",
-    "aliases": [
-      "Rogers 1 vein",
-      "Rogers 11 vein",
-      "Rogers Mine No 1"
+    "name": "Rogers",
+    "location_info": {
+      "country": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6846"
+        }
+      ],
+      "crs": {
+        "source": "UMN Exact Match v1",
+        "confidence": 1.0,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
+      },
+      "location": "POINT (-105.4373 39.997)"
+    },
+    "deposit_type_candidate": [
+      {
+        "source": "raw_data_extraction",
+        "confidence": 1,
+        "observed_name": "15a - W veins"
+      }
     ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
+    "mineral_inventory": [
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "tungsten",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        }
+      }
     ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "TN00010",
-    "aliases": [
-      "Camden"
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "NV00144",
-    "aliases": [
-      "Silver Peak lithium operations",
-      "Silver Peak operations",
-      "Clayton Lake",
-      "Clayton Valley brine field",
-      "Clayton Valley",
-      "Albemarle Corp."
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/deposit"
+        }
+      }
     ],
     "created_by": [
       "https://minmod.isi.edu/users/s/umn"
@@ -275,6 +295,66 @@
           "confidence": 0.9,
           "observed_name": "silica",
           "normalized_uri": "https://minmod.isi.edu/resource/Q657"
+        }
+      }
+    ],
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/deposit"
+        }
+      }
+    ],
+    "created_by": [
+      "https://minmod.isi.edu/users/s/umn"
+    ],
+    "modified_at": "2024-09-20T00:00:00Z"
+  },
+  {
+    "source_id": "https://mrdata.usgs.gov/deposit",
+    "record_id": "NV00144",
+    "name": "Clayton Valley brine operation",
+    "location_info": {
+      "country": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876"
+        }
+      ],
+      "crs": {
+        "source": "UMN Exact Match v1",
+        "confidence": 1.0,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
+      },
+      "location": "POINT (-117.553474 37.797783)"
+    },
+    "deposit_type_candidate": [
+      {
+        "source": "raw_data_extraction",
+        "confidence": 1,
+        "observed_name": "lithium brine"
+      }
+    ],
+    "mineral_inventory": [
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "lithium",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
         }
       }
     ],
@@ -466,126 +546,6 @@
           "confidence": 0.9,
           "observed_name": "rare earth elements",
           "normalized_uri": "https://minmod.isi.edu/resource/Q618"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "NV00144",
-    "name": "Clayton Valley brine operation",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6876"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-117.553474 37.797783)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "lithium brine"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "lithium",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q569"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "CO00049",
-    "name": "Rogers",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6846"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-105.4373 39.997)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "15a - W veins"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tungsten",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         }
       }
     ],

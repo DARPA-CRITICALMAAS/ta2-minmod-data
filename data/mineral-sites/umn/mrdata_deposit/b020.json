@@ -2,7 +2,20 @@
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "AL00002",
-    "name": "Coosa",
+    "aliases": [
+      "Fixico",
+      "Holy Schist",
+      "Roscoe Ridge"
+    ],
+    "created_by": [
+      "https://minmod.isi.edu/users/s/umn"
+    ],
+    "modified_at": "2024-09-20T00:00:00Z"
+  },
+  {
+    "source_id": "https://mrdata.usgs.gov/deposit",
+    "record_id": "WA00010",
+    "name": "Cedar Canyon Mining District",
     "location_info": {
       "country": [
         {
@@ -15,7 +28,7 @@
         {
           "source": "UMN Exact Match v1",
           "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6839"
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6901"
         }
       ],
       "crs": {
@@ -23,15 +36,8 @@
         "confidence": 1.0,
         "normalized_uri": "https://minmod.isi.edu/resource/Q701"
       },
-      "location": "POINT (-86.4006653 32.9120407)"
+      "location": "POINT (-118.2126 48.0203)"
     },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "37f - Disseminated flake graphite"
-      }
-    ],
     "mineral_inventory": [
       {
         "reference": {
@@ -42,8 +48,8 @@
         "commodity": {
           "source": "UMN Exact Match v1",
           "confidence": 0.9,
-          "observed_name": "graphite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q553"
+          "observed_name": "tungsten",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
         }
       }
     ],
@@ -61,37 +67,58 @@
   },
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "WA00010",
-    "aliases": [
-      "Deer Trail"
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "NV00139",
-    "aliases": [
-      "Buster",
-      "Cameron Claims",
-      "Cowles",
-      "Western Soldier",
-      "Wizard Group"
+    "name": "M.G.L.",
+    "location_info": {
+      "country": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6876"
+        }
+      ],
+      "crs": {
+        "source": "UMN Exact Match v1",
+        "confidence": 1.0,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
+      },
+      "location": "POINT (-119.2644 40.0338)"
+    },
+    "deposit_type_candidate": [
+      {
+        "source": "raw_data_extraction",
+        "confidence": 1,
+        "observed_name": "14a - W skarn deposits"
+      }
     ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
+    "mineral_inventory": [
+      {
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/deposit"
+          }
+        },
+        "commodity": {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.9,
+          "observed_name": "tungsten",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
+        }
+      }
     ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "AL00002",
-    "aliases": [
-      "Fixico",
-      "Holy Schist",
-      "Roscoe Ridge"
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/deposit"
+        }
+      }
     ],
     "created_by": [
       "https://minmod.isi.edu/users/s/umn"
@@ -377,119 +404,6 @@
           "normalized_uri": "https://minmod.isi.edu/resource/Q585"
         }
       },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tungsten",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "WA00010",
-    "name": "Cedar Canyon Mining District",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6901"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-118.2126 48.0203)"
-    },
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "tungsten",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q615"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "NV00139",
-    "name": "M.G.L.",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6876"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-119.2644 40.0338)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "14a - W skarn deposits"
-      }
-    ],
-    "mineral_inventory": [
       {
         "reference": {
           "document": {

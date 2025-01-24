@@ -101,7 +101,18 @@
   {
     "source_id": "https://mrdata.usgs.gov/deposit",
     "record_id": "AK00029",
-    "name": "Kigluaik Mountains graphite district",
+    "aliases": [
+      "Kigluaik Mountains"
+    ],
+    "created_by": [
+      "https://minmod.isi.edu/users/s/umn"
+    ],
+    "modified_at": "2024-09-20T00:00:00Z"
+  },
+  {
+    "source_id": "https://mrdata.usgs.gov/deposit",
+    "record_id": "ID00030",
+    "name": "Champ",
     "location_info": {
       "country": [
         {
@@ -114,7 +125,7 @@
         {
           "source": "UMN Exact Match v1",
           "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6840"
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6855"
         }
       ],
       "crs": {
@@ -122,8 +133,15 @@
         "confidence": 1.0,
         "normalized_uri": "https://minmod.isi.edu/resource/Q701"
       },
-      "location": "POINT (-165.5408325 65.04319)"
+      "location": "POINT (-111.275 42.6713)"
     },
+    "deposit_type_candidate": [
+      {
+        "source": "raw_data_extraction",
+        "confidence": 1,
+        "observed_name": "upwelling type phosphate deposits"
+      }
+    ],
     "mineral_inventory": [
       {
         "reference": {
@@ -134,8 +152,8 @@
         "commodity": {
           "source": "UMN Exact Match v1",
           "confidence": 0.9,
-          "observed_name": "graphite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q553"
+          "observed_name": "rare earth elements",
+          "normalized_uri": "https://minmod.isi.edu/resource/Q618"
         }
       }
     ],
@@ -145,28 +163,6 @@
           "uri": "https://mrdata.usgs.gov/deposit"
         }
       }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "AK00029",
-    "aliases": [
-      "Kigluaik Mountains"
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "ID00030",
-    "aliases": [
-      "Dry Valley"
     ],
     "created_by": [
       "https://minmod.isi.edu/users/s/umn"
@@ -244,66 +240,6 @@
           "confidence": 0.9,
           "observed_name": "uranium",
           "normalized_uri": "https://minmod.isi.edu/resource/Q588"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/deposit"
-        }
-      }
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/deposit",
-    "record_id": "ID00030",
-    "name": "Champ",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6855"
-        }
-      ],
-      "crs": {
-        "source": "UMN Exact Match v1",
-        "confidence": 1.0,
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-111.275 42.6713)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "raw_data_extraction",
-        "confidence": 1,
-        "observed_name": "upwelling type phosphate deposits"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/deposit"
-          }
-        },
-        "commodity": {
-          "source": "UMN Exact Match v1",
-          "confidence": 0.9,
-          "observed_name": "rare earth elements",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q618"
         }
       }
     ],

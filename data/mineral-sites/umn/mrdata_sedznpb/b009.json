@@ -2,35 +2,20 @@
   {
     "source_id": "https://mrdata.usgs.gov/sedznpb",
     "record_id": "118",
-    "aliases": [
-      "Daniels Harbour"
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/sedznpb",
-    "record_id": "32",
-    "aliases": [
-      "HYC"
-    ],
-    "created_by": [
-      "https://minmod.isi.edu/users/s/umn"
-    ],
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/sedznpb",
-    "record_id": "4",
-    "name": "Mesloula",
+    "name": "Newfoundland Zinc",
     "location_info": {
       "country": [
         {
           "source": "UMN Exact Match v1",
           "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1003"
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038"
+        }
+      ],
+      "state_or_province": [
+        {
+          "source": "UMN Exact Match v1",
+          "confidence": 0.0,
+          "observed_name": "Newfoundland"
         }
       ],
       "crs": {
@@ -38,7 +23,7 @@
         "confidence": 1.0,
         "normalized_uri": "https://minmod.isi.edu/resource/Q701"
       },
-      "location": "POINT (7.83416666666667 35.8713888888889)"
+      "location": "POINT (-57.4711111111111 50.2819444444444)"
     },
     "deposit_type_candidate": [
       {
@@ -240,21 +225,14 @@
   },
   {
     "source_id": "https://mrdata.usgs.gov/sedznpb",
-    "record_id": "98",
-    "name": "Jersey",
+    "record_id": "4",
+    "name": "Mesloula",
     "location_info": {
       "country": [
         {
           "source": "UMN Exact Match v1",
           "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Exact Match v1",
-          "confidence": 1.0,
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2654"
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1003"
         }
       ],
       "crs": {
@@ -262,13 +240,13 @@
         "confidence": 1.0,
         "normalized_uri": "https://minmod.isi.edu/resource/Q701"
       },
-      "location": "POINT (-117.231944444444 49.1030555555556)"
+      "location": "POINT (7.83416666666667 35.8713888888889)"
     },
     "deposit_type_candidate": [
       {
         "source": "raw_data_extraction",
         "confidence": 1,
-        "observed_name": "CAig"
+        "observed_name": "CAam"
       }
     ],
     "mineral_inventory": [
@@ -352,8 +330,8 @@
   },
   {
     "source_id": "https://mrdata.usgs.gov/sedznpb",
-    "record_id": "118",
-    "name": "Newfoundland Zinc",
+    "record_id": "98",
+    "name": "Jersey",
     "location_info": {
       "country": [
         {
@@ -365,8 +343,8 @@
       "state_or_province": [
         {
           "source": "UMN Exact Match v1",
-          "confidence": 0.0,
-          "observed_name": "Newfoundland"
+          "confidence": 1.0,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2654"
         }
       ],
       "crs": {
@@ -374,13 +352,13 @@
         "confidence": 1.0,
         "normalized_uri": "https://minmod.isi.edu/resource/Q701"
       },
-      "location": "POINT (-57.4711111111111 50.2819444444444)"
+      "location": "POINT (-117.231944444444 49.1030555555556)"
     },
     "deposit_type_candidate": [
       {
         "source": "raw_data_extraction",
         "confidence": 1,
-        "observed_name": "CAam"
+        "observed_name": "CAig"
       }
     ],
     "mineral_inventory": [
