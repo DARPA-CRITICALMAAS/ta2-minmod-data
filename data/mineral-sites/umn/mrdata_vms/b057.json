@@ -1,168 +1,202 @@
 [
   {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "668",
-    "name": "Chestatee",
+    "record_id": "1075",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7486816895621051,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Felsic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
     "location_info": {
       "country": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "United States",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1109",
+          "observed_name": "Japan",
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
       "state_or_province": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Georgia",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6851"
+          "confidence": 0.6616078048733671,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6095",
+          "observed_name": "Akita",
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
+      "location": "POINT (140.6002777777779897 40.2569444444444002)",
       "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-83.8777777777778 34.5502777777778)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
+        "source": "UMN Matching System-ProcMinev2"
       }
-    ],
+    },
     "mineral_inventory": [
       {
+        "grade": {
+          "value": 3.3,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 3.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "garnet"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
           "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+          "source": "UMN Matching System-ProcMinev2"
         }
       },
       {
+        "grade": {
+          "value": 180.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 3.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
           "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 1.3,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 3.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "Gold",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 10.1,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 3.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "Zinc",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.89,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 3.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "Copper",
+          "source": "UMN Matching System-ProcMinev2"
         }
       }
     ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Chalcopyrite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Ezuri",
     "reference": [
       {
         "document": {
@@ -171,316 +205,144 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1979
   },
   {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "672",
-    "name": "Concepción",
+    "record_id": "1256",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7486816895621051,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Felsic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
     "location_info": {
       "country": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
           "observed_name": "Spain",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1208"
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
       "state_or_province": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5948",
           "observed_name": "Huelva",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q5948"
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
+      "location": "POINT (-7.3369444444444403 37.6086111111111023)",
       "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-6.67833333333333 37.7783333333333)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
+        "source": "UMN Matching System-ProcMinev2"
       }
-    ],
+    },
     "mineral_inventory": [
       {
+        "grade": {
+          "value": 0.8,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.6,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrrhotite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "bismuthinite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "cassiterite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "tennantite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "nuffieldite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "wittichenite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "gustavite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "emplectite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "apatite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "bornite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "magnetite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "tetrahedrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "arsenopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+          "source": "UMN Matching System-ProcMinev2"
         }
       },
       {
+        "grade": {
+          "value": 1.2,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.6,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
           "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+          "source": "UMN Matching System-ProcMinev2"
         }
       },
       {
+        "grade": {
+          "value": 0.5,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.6,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "Zinc",
+          "source": "UMN Matching System-ProcMinev2"
         }
       }
     ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Pyrite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Cabezas Del Pasto",
     "reference": [
       {
         "document": {
@@ -489,175 +351,930 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1881
   },
   {
+    "record_id": "1257",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7486816895621051,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Felsic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
+          "observed_name": "Spain",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5968",
+          "observed_name": "Sevilla",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (-6.2502777777777796 37.5219444444444008)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "grade": {
+          "value": 2.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 4.17,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "Copper",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      }
+    ],
     "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Pyrite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Caridad",
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/vms"
+        }
+      }
+    ],
+    "created_by": "https://minmod.isi.edu/users/s/umn"
+  },
+  {
+    "record_id": "1323",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7486816895621051,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Felsic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6899",
+          "observed_name": "Virginia",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (-78.5108333333332951 37.4366666666667030)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "grade": {
+          "value": 0.17,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 0.5,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "Gold",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 27.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 0.5,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "Silver",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 4.87,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 0.5,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "Zinc",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.5,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 0.5,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "Lead",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.98,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 0.5,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "Copper",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      }
+    ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Chlorite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Andersonville Zone 24",
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/vms"
+        }
+      }
+    ],
+    "created_by": "https://minmod.isi.edu/users/s/umn"
+  },
+  {
+    "record_id": "1435",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.9133265312060384,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q411",
+        "observed_name": "Bimodal-Mafic ",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (-78.8566666666666976 49.5866666666667015)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Sphalerite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Estrades",
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/vms"
+        }
+      }
+    ],
+    "created_by": "https://minmod.isi.edu/users/s/umn"
+  },
+  {
+    "record_id": "1461",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.6231117245609998,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q412",
+        "observed_name": "Felsic ",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2656",
+          "observed_name": "New Brunswick",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (-66.0122222222222064 47.3480555555555966)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Chalcopyrite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Taylor Brook",
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/vms"
+        }
+      }
+    ],
+    "created_by": "https://minmod.isi.edu/users/s/umn"
+  },
+  {
+    "record_id": "1524",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.6231117245609998,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q412",
+        "observed_name": "Felsic ",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1181",
+          "observed_name": "Russia",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.6669852128355037,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5462",
+          "observed_name": "Bashkortostan",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (58.2650000000000006 52.2250000000000014)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Zeolite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Vishnevskoe",
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/vms"
+        }
+      }
+    ],
+    "created_by": "https://minmod.isi.edu/users/s/umn"
+  },
+  {
+    "record_id": "1548",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.9133265312060384,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q411",
+        "observed_name": "Bimodal-Mafic ",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1181",
+          "observed_name": "Russia",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.6127413441009932,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6678",
+          "observed_name": "Ekaterinburg",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (59.8783333333333019 57.4500000000000028)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Chalcopyrite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Lomovskoe",
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/vms"
+        }
+      }
+    ],
+    "created_by": "https://minmod.isi.edu/users/s/umn",
+    "discovered_year": 1951
+  },
+  {
+    "record_id": "668",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7486816895621051,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Felsic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6851",
+          "observed_name": "Georgia",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (-83.8777777777777942 34.5502777777778007)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "grade": {
+          "value": 1.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.1,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "Copper",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.7,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.1,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "Zinc",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.03,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.1,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "Gold",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      }
+    ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Chlorite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Chestatee",
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/vms"
+        }
+      }
+    ],
+    "created_by": "https://minmod.isi.edu/users/s/umn",
+    "discovered_year": 1892
+  },
+  {
+    "record_id": "672",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7486816895621051,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Felsic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1208",
+          "observed_name": "Spain",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q5948",
+          "observed_name": "Huelva",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (-6.6783333333333301 37.7783333333333005)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "grade": {
+          "value": 0.19,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 55.85,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "Lead",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.21,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 55.85,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "Gold",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.48,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 55.85,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "Zinc",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.57,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 55.85,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "Copper",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 6.68,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 55.85,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "Silver",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      }
+    ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Magnetite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Concepción",
+    "reference": [
+      {
+        "document": {
+          "uri": "https://mrdata.usgs.gov/vms"
+        }
+      }
+    ],
+    "created_by": "https://minmod.isi.edu/users/s/umn",
+    "discovered_year": 1853
+  },
+  {
     "record_id": "708",
-    "name": "Eulaminna",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7873677774935566,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q411",
+        "observed_name": "Bimodal-Mafic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
+          "observed_name": "Australia",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2213",
+          "observed_name": "Western Australia",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (121.7697222222220006 -28.9766666666666985)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "grade": {
+          "value": 9.01,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 0.05,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "Copper",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      }
+    ],
     "aliases": [
       "Anaconda"
     ],
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Australia",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1013"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Western Australia",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2213"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (121.769722222222 -28.9766666666667)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Bimodal-Mafic"
-      }
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Sphalerite"
     ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrrhotite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Eulaminna",
     "reference": [
       {
         "document": {
@@ -666,220 +1283,144 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1899
   },
   {
-    "source_id": "https://mrdata.usgs.gov/vms",
     "record_id": "767",
-    "name": "Huntingdon",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7276476440357694,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Mafic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
     "location_info": {
       "country": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
           "observed_name": "Canada",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038"
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
       "state_or_province": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
           "observed_name": "Quebec",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2663"
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
+      "location": "POINT (-72.3291666666666941 45.2622222222221993)",
       "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-72.3291666666667 45.2622222222222)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Mafic"
+        "source": "UMN Matching System-ProcMinev2"
       }
-    ],
+    },
     "mineral_inventory": [
       {
+        "grade": {
+          "value": 0.9,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.82,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "carbonate"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrrhotite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "covellite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "magnetite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
+          "source": "UMN Matching System-ProcMinev2"
         }
       },
       {
+        "grade": {
+          "value": 0.1,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.82,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "Gold",
+          "source": "UMN Matching System-ProcMinev2"
         }
       },
       {
+        "grade": {
+          "value": 0.6,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 1.82,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "Silver",
+          "source": "UMN Matching System-ProcMinev2"
         }
       }
     ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Silver"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Huntingdon",
     "reference": [
       {
         "document": {
@@ -888,128 +1429,74 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1866
   },
   {
-    "source_id": "https://mrdata.usgs.gov/vms",
     "record_id": "792",
-    "name": "Kapedhes",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7276476440357694,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Mafic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
     "location_info": {
       "country": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1056",
           "observed_name": "Cyprus",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1056"
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
+      "location": "POINT (33.2616666666666987 34.9886111111110978)",
       "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (33.2616666666667 34.9886111111111)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Mafic"
+        "source": "UMN Matching System-ProcMinev2"
       }
-    ],
+    },
     "mineral_inventory": [
       {
+        "grade": {
+          "value": 0.5,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 0.05,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+          "source": "UMN Matching System-ProcMinev2"
         }
       }
     ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Chalcopyrite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Kapedhes",
     "reference": [
       {
         "document": {
@@ -1018,224 +1505,74 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1955
   },
   {
-    "source_id": "https://mrdata.usgs.gov/vms",
     "record_id": "832",
-    "name": "Lasail",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7276476440357694,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Mafic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
     "location_info": {
       "country": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1165",
           "observed_name": "Oman",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1165"
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
+      "location": "POINT (56.4399999999999977 24.4499999999999993)",
       "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (56.44 24.45)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Mafic"
+        "source": "UMN Matching System-ProcMinev2"
       }
-    ],
+    },
     "mineral_inventory": [
       {
+        "grade": {
+          "value": 2.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 16.0,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcocite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "goethite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "gypsum"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "hematite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "jarosite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "bornite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
           "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+          "source": "UMN Matching System-ProcMinev2"
         }
       }
     ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Chalcocite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Lasail",
     "reference": [
       {
         "document": {
@@ -1244,316 +1581,175 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1976
   },
   {
-    "source_id": "https://mrdata.usgs.gov/vms",
     "record_id": "873",
-    "name": "Mons Cupri",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7873677774935566,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q411",
+        "observed_name": "Bimodal-Mafic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
     "location_info": {
       "country": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1013",
           "observed_name": "Australia",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1013"
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
       "state_or_province": [
         {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2213",
           "observed_name": "Western Australia",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2213"
+          "source": "UMN Matching System-ProcMinev2"
         }
       ],
+      "location": "POINT (117.8055555555559977 -20.8777777777778013)",
       "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
         "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (117.805555555556 -20.8777777777778)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Bimodal-Mafic"
+        "source": "UMN Matching System-ProcMinev2"
       }
-    ],
+    },
     "mineral_inventory": [
       {
+        "grade": {
+          "value": 0.1,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 30.9,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "magnetite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "azurite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "arsenopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcedony"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chrysocolla"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "siderite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "tetrahedrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "linnaeite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "malachite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "cerussite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "bismutite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "bournonite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
           "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
+          "source": "UMN Matching System-ProcMinev2"
         }
       },
       {
+        "grade": {
+          "value": 1.8,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 30.9,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
         "reference": {
           "document": {
             "uri": "https://mrdata.usgs.gov/vms"
           }
         },
         "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
           "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.17,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 30.9,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "Zinc",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.8,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 30.9,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "Copper",
+          "source": "UMN Matching System-ProcMinev2"
         }
       }
     ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Arsenopyrite"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Mons Cupri",
     "reference": [
       {
         "document": {
@@ -1562,212 +1758,53 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1899
   },
   {
-    "source_id": "https://mrdata.usgs.gov/vms",
     "record_id": "978",
-    "name": "Shasta King",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.6231117245609998,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q412",
+        "observed_name": "Felsic ",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1235",
+          "observed_name": "United States",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q6845",
+          "observed_name": "California",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (-122.4975000000000023 40.7316666666666976)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
     "aliases": [
       "Lost Desert",
       "Trinity"
     ],
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "United States",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "California",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6845"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-122.4975 40.7316666666667)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
-      }
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Chalcopyrite"
     ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcocite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sericite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "tetrahedrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "limonite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
+    "modified_at": "2025-06-15T13:44:53Z",
+    "name": "Shasta King",
     "reference": [
       {
         "document": {
@@ -1776,160 +1813,206 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1902
   },
   {
-    "source_id": "https://mrdata.usgs.gov/vms",
     "record_id": "986",
+    "deposit_type_candidate": [
+      {
+        "confidence": 0.7486816895621051,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q334",
+        "observed_name": "Felsic Copper",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    ],
+    "location_info": {
+      "country": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q1038",
+          "observed_name": "Canada",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "state_or_province": [
+        {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q2663",
+          "observed_name": "Quebec",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      ],
+      "location": "POINT (-71.2861111111110972 45.8047222222222032)",
+      "crs": {
+        "confidence": 0.9999,
+        "normalized_uri": "https://minmod.isi.edu/resource/Q701",
+        "observed_name": "EPSG:4326",
+        "source": "UMN Matching System-ProcMinev2"
+      }
+    },
+    "mineral_inventory": [
+      {
+        "grade": {
+          "value": 0.47,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 11.94,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q565",
+          "observed_name": "Lead",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 25.2,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 11.94,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q585",
+          "observed_name": "Silver",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 1.36,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 11.94,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q538",
+          "observed_name": "Copper",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 3.7,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q201",
+            "observed_name": "Wt-Pct",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 11.94,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q589",
+          "observed_name": "Zinc",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      },
+      {
+        "grade": {
+          "value": 0.31,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q203",
+            "observed_name": "G/T",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "ore": {
+          "value": 11.94,
+          "unit": {
+            "confidence": 0.9999,
+            "normalized_uri": "https://minmod.isi.edu/resource/Q202",
+            "observed_name": "million tonnes",
+            "source": "UMN Matching System-ProcMinev2"
+          }
+        },
+        "reference": {
+          "document": {
+            "uri": "https://mrdata.usgs.gov/vms"
+          }
+        },
+        "commodity": {
+          "confidence": 0.9999,
+          "normalized_uri": "https://minmod.isi.edu/resource/Q551",
+          "observed_name": "Gold",
+          "source": "UMN Matching System-ProcMinev2"
+        }
+      }
+    ],
+    "source_id": "https://mrdata.usgs.gov/vms",
+    "mineral_form": [
+      "Galena"
+    ],
+    "modified_at": "2025-06-15T13:44:53Z",
     "name": "Solbec",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Canada",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Quebec",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2663"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-71.2861111111111 45.8047222222222)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
     "reference": [
       {
         "document": {
@@ -1938,1695 +2021,6 @@
       }
     ],
     "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "1075",
-    "name": "Ezuri",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Japan",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1109"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Akita"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (140.600277777778 40.2569444444444)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "tennantite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "polybasite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "barite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "bornite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "electrum"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "tetrahedrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "digenite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pearceite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcedony"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/vms"
-        }
-      }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "1256",
-    "name": "Cabezas del Pasto",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Spain",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1208"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Huelva",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q5948"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-7.33694444444444 37.6086111111111)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/vms"
-        }
-      }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "1257",
-    "name": "Caridad",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Spain",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1208"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Sevilla",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q5968"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-6.25027777777778 37.5219444444444)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/vms"
-        }
-      }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "1323",
-    "name": "Andersonville Zone 24",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "United States",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1235"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Virginia",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q6899"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-78.5108333333333 37.4366666666667)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "garnet"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "magnetite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sericite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrrhotite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/vms"
-        }
-      }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "1435",
-    "name": "Estrades",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Canada",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Quebec",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2663"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-78.8566666666667 49.5866666666667)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Bimodal-Mafic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "arsenopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "tetrahedrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/vms"
-        }
-      }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "1461",
-    "name": "Taylor Brook",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Canada",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1038"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "New Brunswick",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q2656"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (-66.0122222222222 47.3480555555556)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrrhotite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "magnetite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sericite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "siderite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/vms"
-        }
-      }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "1524",
-    "name": "Vishnevskoe",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Russia",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1181"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Bashkortostan"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (58.265 52.225)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Felsic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sericite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "betekhtinite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "galena"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "molybdenite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "zeolite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "covellite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcocite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "epidote"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "tennantite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "carbonate"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "bornite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "barite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "hematite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "argentite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "germanite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "hessite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pumpellyite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/vms"
-        }
-      }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
-  },
-  {
-    "source_id": "https://mrdata.usgs.gov/vms",
-    "record_id": "1548",
-    "name": "Lomovskoe",
-    "location_info": {
-      "country": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Russia",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q1181"
-        }
-      ],
-      "state_or_province": [
-        {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Ekaterinburg"
-        }
-      ],
-      "crs": {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "EPSG:4326",
-        "normalized_uri": "https://minmod.isi.edu/resource/Q701"
-      },
-      "location": "POINT (59.8783333333333 57.45)"
-    },
-    "deposit_type_candidate": [
-      {
-        "source": "UMN Matching System v1",
-        "confidence": 1.0,
-        "observed_name": "Bimodal-Mafic"
-      }
-    ],
-    "mineral_inventory": [
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chlorite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "epidote"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "pyrite",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q654"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sericite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "sphalerite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "chalcopyrite"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Copper",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q538"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Gold",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q551"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Zinc",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q589"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Lead",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q565"
-        }
-      },
-      {
-        "reference": {
-          "document": {
-            "uri": "https://mrdata.usgs.gov/vms"
-          }
-        },
-        "commodity": {
-          "source": "UMN Matching System v1",
-          "confidence": 1.0,
-          "observed_name": "Silver",
-          "normalized_uri": "https://minmod.isi.edu/resource/Q585"
-        }
-      }
-    ],
-    "reference": [
-      {
-        "document": {
-          "uri": "https://mrdata.usgs.gov/vms"
-        }
-      }
-    ],
-    "created_by": "https://minmod.isi.edu/users/s/umn",
-    "modified_at": "2024-09-20T00:00:00Z"
+    "discovered_year": 1962
   }
 ]
